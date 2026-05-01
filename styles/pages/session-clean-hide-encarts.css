@@ -1,0 +1,210 @@
+﻿/* =========================================================
+   AXIS LUMEN — masquer seulement Aperçu des phases
+   La vertu choisie reste visible.
+   ========================================================= */
+
+/* Aperçu des phases : le moteur peut encore écrire dedans, mais on ne l'affiche plus */
+#session #sessionPreview,
+#session .axis-hide-session-preview-card {
+  display: none !important;
+}
+
+/* Sécurité : si un ancien patch avait masqué la vertu, on la réaffiche */
+#session #axisSelectedVirtueSessionBox,
+#session #axisSessionVirtueLarge,
+#session #axisForcedLargeVirtueBox,
+#session .axis-selected-virtue-session-box,
+#session .axis-session-virtue-large,
+#session .axis-hide-selected-virtue-card {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+
+/* AXIS SESSION VIRTUE LAYOUT FIX START */
+
+/*
+  Correction propre de l'encart "Vertu ajoutée à la séance"
+  dans l’onglet Créer sa séance.
+  Objectif : carte lisible, texte non chevauché, mise en page premium.
+*/
+
+/* L’encart reste visible */
+#session #axisSelectedVirtueSessionBox,
+#session #axisSessionVirtueLarge,
+#session .axis-selected-virtue-session-box,
+#session .axis-session-virtue-large {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative !important;
+  overflow: visible !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 18px 0 22px 0 !important;
+  padding: clamp(18px, 2.6vw, 30px) !important;
+  border-radius: 26px !important;
+  border: 1px solid rgba(214,177,99,0.30) !important;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(214,177,99,0.14), transparent 44%),
+    linear-gradient(145deg, rgba(8,18,35,0.96), rgba(3,8,18,0.98)) !important;
+  box-shadow: 0 24px 68px rgba(0,0,0,0.32) !important;
+  clear: both !important;
+}
+
+/* Structure interne : image à gauche, texte à droite */
+#session #axisSelectedVirtueSessionBox .axis-selected-virtue-content,
+#session #axisSessionVirtueLarge .axis-session-virtue-layout,
+#session .axis-selected-virtue-session-box .axis-selected-virtue-content,
+#session .axis-session-virtue-large .axis-session-virtue-layout {
+  display: grid !important;
+  grid-template-columns: minmax(230px, 320px) minmax(0, 1fr) !important;
+  gap: clamp(20px, 3vw, 34px) !important;
+  align-items: center !important;
+  width: 100% !important;
+  overflow: visible !important;
+}
+
+/* Sécurité si l’image est directement dans l’encart */
+#session #axisSelectedVirtueSessionBox img,
+#session #axisSessionVirtueLarge img,
+#session .axis-selected-virtue-session-box img,
+#session .axis-session-virtue-large img {
+  position: static !important;
+  display: block !important;
+  width: min(100%, 300px) !important;
+  max-width: 300px !important;
+  min-width: 220px !important;
+  height: auto !important;
+  max-height: 68vh !important;
+  object-fit: contain !important;
+  margin: 0 auto !important;
+  padding: 4px !important;
+  border-radius: 18px !important;
+  background: rgba(0,0,0,0.16) !important;
+  box-shadow: 0 22px 58px rgba(0,0,0,0.42) !important;
+  z-index: 1 !important;
+}
+
+/* Si le contenu n'est pas dans une grille prévue, on évite le chevauchement */
+#session #axisSelectedVirtueSessionBox::after,
+#session #axisSessionVirtueLarge::after,
+#session .axis-selected-virtue-session-box::after,
+#session .axis-session-virtue-large::after {
+  content: "" !important;
+  display: block !important;
+  clear: both !important;
+}
+
+/* Texte lisible, jamais sous l’image */
+#session #axisSelectedVirtueSessionBox h1,
+#session #axisSelectedVirtueSessionBox h2,
+#session #axisSelectedVirtueSessionBox h3,
+#session #axisSelectedVirtueSessionBox h4,
+#session #axisSessionVirtueLarge h1,
+#session #axisSessionVirtueLarge h2,
+#session #axisSessionVirtueLarge h3,
+#session #axisSessionVirtueLarge h4,
+#session .axis-selected-virtue-session-box h1,
+#session .axis-selected-virtue-session-box h2,
+#session .axis-selected-virtue-session-box h3,
+#session .axis-selected-virtue-session-box h4,
+#session .axis-session-virtue-large h1,
+#session .axis-session-virtue-large h2,
+#session .axis-session-virtue-large h3,
+#session .axis-session-virtue-large h4 {
+  position: relative !important;
+  z-index: 2 !important;
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+  color: #fff3cf !important;
+  line-height: 1.25 !important;
+}
+
+/* Paragraphes et familles de vertu */
+#session #axisSelectedVirtueSessionBox p,
+#session #axisSelectedVirtueSessionBox div,
+#session #axisSelectedVirtueSessionBox span,
+#session #axisSessionVirtueLarge p,
+#session #axisSessionVirtueLarge div,
+#session #axisSessionVirtueLarge span,
+#session .axis-selected-virtue-session-box p,
+#session .axis-selected-virtue-session-box div,
+#session .axis-selected-virtue-session-box span,
+#session .axis-session-virtue-large p,
+#session .axis-session-virtue-large div,
+#session .axis-session-virtue-large span {
+  position: relative !important;
+  z-index: 2 !important;
+  color: rgba(244,234,210,0.86);
+  line-height: 1.62 !important;
+}
+
+/* Bouton Retirer la vertu */
+#session #axisSelectedVirtueSessionBox button,
+#session #axisSessionVirtueLarge button,
+#session .axis-selected-virtue-session-box button,
+#session .axis-session-virtue-large button {
+  position: relative !important;
+  z-index: 3 !important;
+  margin-top: 14px !important;
+  border-radius: 14px !important;
+}
+
+/* Cas où l'ancien module place l'image hors grille : on force un flux normal */
+#session #axisSelectedVirtueSessionBox > img,
+#session #axisSessionVirtueLarge > img,
+#session .axis-selected-virtue-session-box > img,
+#session .axis-session-virtue-large > img {
+  float: left !important;
+  margin: 0 28px 18px 0 !important;
+}
+
+/* Sur écran large, l’image peut respirer */
+@media (min-width: 1180px) {
+  #session #axisSelectedVirtueSessionBox img,
+  #session #axisSessionVirtueLarge img,
+  #session .axis-selected-virtue-session-box img,
+  #session .axis-session-virtue-large img {
+    width: min(100%, 340px) !important;
+    max-width: 340px !important;
+  }
+
+  #session #axisSelectedVirtueSessionBox .axis-selected-virtue-content,
+  #session #axisSessionVirtueLarge .axis-session-virtue-layout,
+  #session .axis-selected-virtue-session-box .axis-selected-virtue-content,
+  #session .axis-session-virtue-large .axis-session-virtue-layout {
+    grid-template-columns: minmax(260px, 360px) minmax(0, 1fr) !important;
+  }
+}
+
+/* Tablette et mobile : carte au-dessus, texte dessous, sans chevauchement */
+@media (max-width: 900px) {
+  #session #axisSelectedVirtueSessionBox .axis-selected-virtue-content,
+  #session #axisSessionVirtueLarge .axis-session-virtue-layout,
+  #session .axis-selected-virtue-session-box .axis-selected-virtue-content,
+  #session .axis-session-virtue-large .axis-session-virtue-layout {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
+  }
+
+  #session #axisSelectedVirtueSessionBox img,
+  #session #axisSessionVirtueLarge img,
+  #session .axis-selected-virtue-session-box img,
+  #session .axis-session-virtue-large img,
+  #session #axisSelectedVirtueSessionBox > img,
+  #session #axisSessionVirtueLarge > img,
+  #session .axis-selected-virtue-session-box > img,
+  #session .axis-session-virtue-large > img {
+    float: none !important;
+    width: min(100%, 320px) !important;
+    max-width: 320px !important;
+    min-width: 0 !important;
+    margin: 0 auto 18px auto !important;
+  }
+}
+
+/* AXIS SESSION VIRTUE LAYOUT FIX END */
+

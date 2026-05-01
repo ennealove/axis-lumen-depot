@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Administration — Parrainage Axis Lumen</title>
+  <meta name="description" content="Administration locale du parrainage Axis Lumen Studio.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css?v=20260501_190708">
+  <link rel="stylesheet" href="css/auth-admin.css?v=20260501_190708">
+  <link rel="stylesheet" href="css/referral-stripe-ready.css?v=20260501_191845">
+  <link rel="stylesheet" href="css/axis-global-top-nav.css?v=20260501_203303">
+  <link rel="stylesheet" href="css/home-dashboard-top.css?v=20260501_203717">
+  <link rel="stylesheet" href="css/axis-index-nav-exact.css?v=20260501_203717">
+</head>
+
+<body class="axis-admin-page">
+<header class="axis-top-dashboard">
+  <div class="axis-top-dashboard-inner">
+    <a class="axis-top-brand" href="index.html">
+      <strong>Axis Lumen</strong>
+    </a>
+
+    <nav class="axis-top-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="creer-seance.html">Créer sa séance</a>
+      <a href="pratiquer.html">Pratiquer</a>
+      <a href="oscillation.html">Oscillation guidée</a>
+      <a href="respiration.html">Respiration</a>
+      <a href="rotor-optique.html">Rotor optique</a>
+      <a href="tensions-statiques.html">Tensions statiques</a>
+      <a href="apprendre.html">Apprendre</a>
+      <a href="vertus.html">Vertus</a>
+      <a class="axis-top-cta" href="boutique.html">Boutique</a>
+      <a href="abonnement.html">Abonnement</a>
+      <a href="parrainage.html">Parrainage</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="login.html">Connexion</a>
+      <a class="active" href="admin.html">Admin</a>
+    </nav>
+  </div>
+</header>
+<div class="axis-admin-shell">
+    <header class="axis-admin-top">
+      <a class="axis-admin-brand" href="index.html">
+        <strong>Axis Lumen</strong>
+        <span>Administration commerciale</span>
+      </a>
+
+      <nav class="axis-admin-nav">
+        <a href="index.html">Accueil</a>
+        <a href="login.html">Connexion</a>
+        <a href="parrainage.html">Parrainage</a>
+        <a href="boutique.html">Boutique</a>
+      </nav>
+    </header>
+
+    <main class="axis-admin-grid">
+      <section>
+        <p class="home-kicker">Registre</p>
+        <h1>Parrainage & <span>commissions</span></h1>
+        <p class="axis-admin-lead">
+          Cette page sert à suivre les clients, les filleuls, les achats simulés ou réels,
+          les commissions à restituer et les commissions déjà réglées.
+        </p>
+      </section>
+
+      <section class="axis-admin-card">
+        <h2>Connexion admin locale</h2>
+
+        <div class="axis-admin-actions">
+          <div class="axis-field">
+            <label for="axisAdminApi">Backend API</label>
+            <input id="axisAdminApi" type="text" value="http://127.0.0.1:8787">
+          </div>
+
+          <div class="axis-field">
+            <label for="axisAdminToken">Token admin local</label>
+            <input id="axisAdminToken" type="password" value="AXIS_ADMIN_LOCAL">
+          </div>
+
+          <button id="axisAdminLoad" class="axis-btn" type="button">Charger le registre</button>
+        </div>
+
+        <p id="axisAdminStatus" class="axis-status"></p>
+      </section>
+
+      <section class="axis-admin-kpis" id="axisAdminKpis">
+        <article class="axis-kpi"><strong>—</strong><span>Clients</span></article>
+        <article class="axis-kpi"><strong>—</strong><span>Filleuls</span></article>
+        <article class="axis-kpi"><strong>—</strong><span>À payer</span></article>
+        <article class="axis-kpi"><strong>—</strong><span>Déjà payé</span></article>
+      </section>
+
+      <section class="axis-admin-card">
+        <h2>Test de rétribution</h2>
+        <p class="axis-admin-lead">
+          Pour valider le principe sans Stripe : crée un parrain sur la page connexion,
+          crée ensuite un filleul avec son code parrain, puis simule ici un paiement du filleul.
+        </p>
+
+        <div class="axis-admin-actions">
+          <div class="axis-field">
+            <label for="axisSimEmail">Email du filleul</label>
+            <input id="axisSimEmail" type="email" placeholder="filleul@email.com">
+          </div>
+
+          <div class="axis-field">
+            <label for="axisSimAmount">Montant achat €</label>
+            <input id="axisSimAmount" type="number" value="19" min="1" step="0.01">
+          </div>
+
+          <div class="axis-field">
+            <label for="axisSimPlan">Plan</label>
+            <select id="axisSimPlan">
+              <option value="monthly">Mensuel — 19 €</option>
+              <option value="yearly">Annuel — 190 €</option>
+              <option value="pack">Pack complet</option>
+            </select>
+          </div>
+
+          <button id="axisSimulatePayment" class="axis-btn" type="button">Simuler le paiement</button>
+        </div>
+
+        <p id="axisSimStatus" class="axis-status"></p>
+      </section>
+
+      <section class="axis-admin-card">
+        <h2>Commissions</h2>
+        <div class="axis-table-wrap">
+          <table class="axis-table">
+            <thead>
+              <tr>
+                <th>Parrain</th>
+                <th>Filleul</th>
+                <th>Vente</th>
+                <th>Commission</th>
+                <th>Statut</th>
+                <th>Date</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="axisCommissionsBody">
+              <tr><td colspan="7">Charge le registre pour voir les commissions.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="axis-admin-card">
+        <h2>Clients & codes parrains</h2>
+        <div class="axis-table-wrap">
+          <table class="axis-table">
+            <thead>
+              <tr>
+                <th>N° client</th>
+                <th>Nom</th>
+                <th>Email</th>
+                <th>Code parrain</th>
+                <th>Parrain d’origine</th>
+                <th>Abonnement</th>
+              </tr>
+            </thead>
+            <tbody id="axisUsersBody">
+              <tr><td colspan="6">Charge le registre pour voir les clients.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/axis-admin.js?v=20260501_190708"></script>
+  <script src="js/stripe-products.js?v=20260501_191845"></script>
+  <script src="js/axis-referral-stripe-ready.js?v=20260501_191845"></script></body>
+</html>

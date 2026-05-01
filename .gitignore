@@ -1,0 +1,54 @@
+﻿# AXIS LUMEN / PHOSPHENE STUDIO
+# Démo complète : pages, scripts, images, audios, vidéos pédagogiques via Git LFS.
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# dépendances / build
+node_modules/
+dist/
+build/
+.next/
+.cache/
+.vite/
+
+# sauvegardes locales
+backup/
+backups/
+_backup/
+_backups/
+sauvegarde/
+sauvegardes/
+_sauvegarde/
+_sauvegardes/
+
+# fichiers temporaires
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*.temp
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# environnements / secrets
+.env
+.env.*
+!.env.example
+
+# archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# caches
+__pycache__/
+.pytest_cache/

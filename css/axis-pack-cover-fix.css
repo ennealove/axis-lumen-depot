@@ -1,0 +1,30 @@
+.axis-pack-cover-img {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  margin: 0 auto 18px;
+  padding: 10px;
+  border-radius: 26px;
+  border: 1px solid rgba(216, 180, 95, 0.28);
+  background:
+    radial-gradient(circle at 50% 20%, rgba(216, 180, 95, 0.16), transparent 38%),
+    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.025));
+  box-shadow: 0 24px 70px rgba(0,0,0,0.34);
+}
+
+.axis-pack-cover-card {
+  position: relative;
+}
+
+.axis-pack-cover-card .axis-pack-cover-img {
+  flex-shrink: 0;
+}
+
+@media (max-width: 720px) {
+  .axis-pack-cover-img {
+    max-width: 320px;
+    border-radius: 22px;
+  }
+}

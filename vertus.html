@@ -1,0 +1,154 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Vertus — Tirage initiatique — Axis Lumen Studio</title>
+  <meta name="description" content="Tirage aléatoire d’une carte Vertu : lecture, observation lumineuse, imprégnation, carnet d’expérience.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/axis-clean-restoration.css">
+  <link rel="stylesheet" href="css/legal-pages.css">
+  <link rel="stylesheet" href="css/referral-stripe-ready.css">
+  <link rel="stylesheet" href="css/axis-global-top-nav.css">
+  <link rel="stylesheet" href="css/home-dashboard-top.css">
+  <link rel="stylesheet" href="css/axis-index-nav-exact.css">
+  <link rel="stylesheet" href="css/axis-vertus-premium.css">
+</head>
+
+<body class="axis-virtue-page">
+<header class="axis-top-dashboard">
+  <div class="axis-top-dashboard-inner">
+    <a class="axis-top-brand" href="index.html">
+      <strong>Axis Lumen</strong>
+    </a>
+
+    <nav class="axis-top-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="creer-seance.html">Créer sa séance</a>
+      <a href="pratiquer.html">Pratiquer</a>
+      <a href="oscillation.html">Oscillation guidée</a>
+      <a href="respiration.html">Respiration</a>
+      <a href="rotor-optique.html">Rotor optique</a>
+      <a href="tensions-statiques.html">Tensions statiques</a>
+      <a href="apprendre.html">Apprendre</a>
+      <a class="active" href="vertus.html">Vertus</a>
+      <a class="axis-top-cta" href="boutique.html">Boutique</a>
+      <a href="abonnement.html">Abonnement</a>
+      <a href="parrainage.html">Parrainage</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="login.html">Connexion</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </div>
+</header>
+
+<main class="axis-virtue-shell">
+  <section class="axis-virtue-hero">
+    <div>
+      <p class="axis-virtue-kicker">Le Livre des Vertus</p>
+      <h1>Tirage, lumière, imprégnation.</h1>
+      <p>
+        Tire une carte, lis-la lentement, agrandis-la avec la loupe, observe une source lumineuse,
+        ferme les yeux, puis laisse la vertu infuser dans la rémanence.
+      </p>
+
+      <div class="axis-virtue-actions">
+        <button id="axisVirtueDraw" class="axis-virtue-btn primary" type="button">Tirer une carte</button>
+        <button id="axisVirtueStart" class="axis-virtue-btn secondary" type="button">Lancer la pratique</button>
+        <button id="axisVirtueEnlarge" class="axis-virtue-btn ghost" type="button">Agrandir / loupe</button>
+      </div>
+    </div>
+
+    <aside class="axis-virtue-protocol">
+      <span>Protocole</span>
+      <strong>Lecture → lumière 30 s → rémanence → intégration</strong>
+      <p>Une vertu n’est pas seulement lue. Elle est placée dans la lumière, puis descendue dans le corps.</p>
+    </aside>
+  </section>
+
+  <section class="axis-virtue-grid">
+    <article class="axis-virtue-card-stage">
+      <div class="axis-virtue-card-frame">
+        <img id="axisVirtueImage" alt="Carte Vertu tirée" draggable="false">
+        <div id="axisVirtueLens" class="axis-virtue-lens" aria-hidden="true"></div>
+        <div id="axisVirtueEmpty" class="axis-virtue-empty">
+          <strong>Aucune carte chargée</strong>
+          <span>Place tes cartes dans assets/vertus ou dans C:\Users\chauv\Documents\JE SUIS\IMAGE VERTUS puis relance le patch.</span>
+        </div>
+      </div>
+
+      <div class="axis-virtue-card-meta">
+        <span id="axisVirtueNumber">—</span>
+        <strong id="axisVirtueTitle">Carte Vertu</strong>
+        <small id="axisVirtueSource">Tirage aléatoire</small>
+      </div>
+    </article>
+
+    <aside class="axis-virtue-side">
+      <article class="axis-virtue-panel">
+        <h2>Pratique guidée</h2>
+        <div id="axisVirtuePhase" class="axis-virtue-phase">Prêt</div>
+        <div id="axisVirtueTimer" class="axis-virtue-timer">00:00</div>
+        <p id="axisVirtueGuidance">Tire une carte pour commencer.</p>
+
+        <div class="axis-virtue-actions compact">
+          <button id="axisVirtuePause" class="axis-virtue-btn secondary" type="button">Pause</button>
+          <button id="axisVirtueResume" class="axis-virtue-btn secondary" type="button">Reprendre</button>
+          <button id="axisVirtueStop" class="axis-virtue-btn ghost" type="button">Arrêter</button>
+        </div>
+      </article>
+
+      <article class="axis-virtue-panel">
+        <h2>Déroulement 30 à 40 min</h2>
+        <ol class="axis-virtue-steps">
+          <li><strong>Lecture lente</strong><span>8 minutes — lire la carte et laisser une phrase ressortir.</span></li>
+          <li><strong>Observation lumineuse</strong><span>30 secondes — regarder une source douce, sans forcer.</span></li>
+          <li><strong>Rémanence</strong><span>3 minutes — yeux fermés, accueillir l’empreinte lumineuse.</span></li>
+          <li><strong>Imprégnation</strong><span>12 minutes — déposer la vertu dans la lumière intérieure.</span></li>
+          <li><strong>Intégration</strong><span>7 minutes — silence, corps, carnet, geste concret.</span></li>
+        </ol>
+      </article>
+
+      <article class="axis-virtue-panel">
+        <h2>Carnet de vertu</h2>
+        <textarea id="axisVirtueNote" class="axis-virtue-note" placeholder="Date, carte tirée, phrase essentielle, sensation, image, action concrète…"></textarea>
+        <button id="axisVirtueSaveNote" class="axis-virtue-btn secondary wide" type="button">Sauvegarder la note</button>
+      </article>
+    </aside>
+  </section>
+</main>
+
+<div id="axisVirtueModal" class="axis-virtue-modal hidden" aria-hidden="true">
+  <div class="axis-virtue-modal-top">
+    <strong id="axisVirtueModalTitle">Carte Vertu</strong>
+    <label>
+      Zoom
+      <input id="axisVirtueZoom" type="range" min="1" max="4" step="0.05" value="1.8">
+    </label>
+    <button id="axisVirtueModalClose" class="axis-virtue-btn ghost" type="button">Fermer</button>
+  </div>
+  <div id="axisVirtueZoomPane" class="axis-virtue-zoom-pane">
+    <img id="axisVirtueModalImage" alt="Carte Vertu agrandie" draggable="false">
+  </div>
+</div>
+
+<footer class="axis-legal-footer">
+  <div class="axis-legal-footer-inner">
+    <span>© Axis Lumen Studio</span>
+    <nav aria-label="Liens légaux">
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="cgu.html">CGU</a>
+      <a href="cgv.html">CGV</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/axis-access-control.js"></script>
+<script src="js/axis-virtue-manifest.js"></script>
+<script src="js/axis-vertus-premium.js" defer></script>
+</body>
+</html>

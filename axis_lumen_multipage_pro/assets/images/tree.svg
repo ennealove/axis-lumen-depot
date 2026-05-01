@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+<defs><radialGradient id="g"><stop offset="0%" stop-color="#f5d78b"/><stop offset="55%" stop-color="#263a5f"/><stop offset="100%" stop-color="#050812"/></radialGradient></defs>
+<rect width="900" height="900" fill="#050812"/><circle cx="450" cy="450" r="340" fill="url(#g)" opacity=".75"/><circle cx="450" cy="450" r="250" fill="none" stroke="#d8b45f" stroke-width="3"/><text x="450" y="480" text-anchor="middle" font-family="Georgia" font-size="120" fill="#fff2c9">♁</text><text x="450" y="805" text-anchor="middle" font-family="Georgia" font-size="42" fill="#f4d990">Arbre</text>
+</svg>

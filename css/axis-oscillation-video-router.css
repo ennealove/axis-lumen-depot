@@ -1,0 +1,54 @@
+.axis-oscillation-router {
+  margin: 22px 0;
+  padding: 18px;
+  border: 1px solid rgba(218,181,96,.26);
+  border-radius: 26px;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(218,181,96,.16), transparent 42%),
+    rgba(255,255,255,.045);
+  box-shadow: 0 20px 70px rgba(0,0,0,.26);
+}
+
+.axis-oscillation-router-title {
+  margin: 0 0 12px;
+  color: #f4d986;
+  font-size: 14px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.axis-oscillation-router-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.axis-oscillation-router button,
+[data-axis-oscillation-kind] {
+  cursor: pointer;
+}
+
+.axis-oscillation-router button {
+  border: 1px solid rgba(218,181,96,.32);
+  border-radius: 999px;
+  padding: 11px 16px;
+  background: rgba(255,255,255,.06);
+  color: #f7edd2;
+  font: inherit;
+}
+
+.axis-oscillation-router button.axis-video-choice-active {
+  border-color: rgba(244,217,134,.9);
+  background: rgba(218,181,96,.18);
+  box-shadow: 0 0 0 1px rgba(244,217,134,.18), 0 14px 40px rgba(0,0,0,.22);
+}
+
+.axis-oscillation-status {
+  margin-top: 12px;
+  color: rgba(247,237,210,.72);
+  font-size: 14px;
+}
+
+video {
+  pointer-events: auto !important;
+}

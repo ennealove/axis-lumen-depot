@@ -1,0 +1,2 @@
+.hero-copy h3 { font-size: clamp(1.7rem, 2vw, 2.25rem); margin-bottom: 12px; }
+.hero-copy p { color: var(--muted); line-height: 1.6; }

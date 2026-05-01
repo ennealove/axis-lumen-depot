@@ -1,0 +1,253 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Créer sa séance — Axis Lumen Studio</title>
+  <meta name="description" content="Générateur de séance vidéo sur mesure Axis Lumen avec voix, cloches et pistes audio par exercice.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/axis-clean-restoration.css">
+  <link rel="stylesheet" href="css/legal-pages.css">
+  <link rel="stylesheet" href="css/referral-stripe-ready.css">
+  <link rel="stylesheet" href="css/home-dashboard-top.css">
+  <link rel="stylesheet" href="css/axis-index-nav-exact.css">
+  <link rel="stylesheet" href="css/axis-session-generator-clean.css?v=20260501_214944">
+</head>
+
+<body>
+<header class="axis-top-dashboard">
+  <div class="axis-top-dashboard-inner">
+    <a class="axis-top-brand" href="index.html">
+      <strong>Axis Lumen</strong>
+    </a>
+
+    <nav class="axis-top-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a class="active" href="creer-seance.html">Créer sa séance</a>
+      <a href="pratiquer.html">Pratiquer</a>
+      <a href="oscillation.html">Oscillation guidée</a>
+      <a href="respiration.html">Respiration</a>
+      <a href="rotor-optique.html">Rotor optique</a>
+      <a href="tensions-statiques.html">Tensions statiques</a>
+      <a href="apprendre.html">Apprendre</a>
+      <a href="vertus.html">Vertus</a>
+      <a class="axis-top-cta" href="boutique.html">Boutique</a>
+      <a href="abonnement.html">Abonnement</a>
+      <a href="parrainage.html">Parrainage</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="login.html">Connexion</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </div>
+</header>
+
+<main class="session-builder-main">
+  <section class="session-builder-hero">
+    <div>
+      <p class="session-kicker">Séance audiovisuelle sur mesure</p>
+      <h1>Créer sa séance</h1>
+      <p>
+        Construis une séance complète : vidéos muettes, voix de guidage, cloche de transition,
+        tonalités respiratoires LA / DO / FA et pistes audio dédiées pour chaque exercice.
+      </p>
+    </div>
+
+    <aside class="session-builder-note">
+      <strong>Principe sonore :</strong><br>
+      le son des vidéos est bloqué. La séance ajoute sa propre voix, ses cloches,
+      ses tonalités respiratoires et la piste musicale choisie pour chaque module.
+    </aside>
+  </section>
+
+  <section class="session-builder-grid">
+    <article class="session-card">
+      <h2>Réglages de séance</h2>
+
+      <div class="session-form-grid">
+        <div class="axis-field">
+          <label for="axisRelaxMin">Détente initiale</label>
+          <select id="axisRelaxMin">
+            <option value="1">1 minute</option>
+            <option value="2" selected>2 minutes</option>
+            <option value="3">3 minutes</option>
+            <option value="5">5 minutes</option>
+          </select>
+        </div>
+
+        <div class="axis-field">
+          <label for="axisSwing">Type de balancement</label>
+          <select id="axisSwing">
+            <option value="lateral">Balancement latéral</option>
+            <option value="vertical">Balancement vertical</option>
+            <option value="rotation">Rotation douce</option>
+          </select>
+        </div>
+
+        <div class="axis-field">
+          <label for="axisBalanceMin">Durée active des balancements</label>
+          <input id="axisBalanceMin" type="number" min="15" max="45" step="3" value="15">
+        </div>
+
+        <div class="axis-field">
+          <label for="axisBreathType">Type de respiration</label>
+          <select id="axisBreathType">
+            <option value="square" selected>Respiration carrée</option>
+            <option value="triangular">Respiration triangulaire</option>
+            <option value="rectangular">Respiration rectangulaire</option>
+          </select>
+        </div>
+
+        <div class="axis-field">
+          <label for="axisBreathBase">Mesure respiratoire</label>
+          <select id="axisBreathBase">
+            <option value="4" selected>4 secondes</option>
+            <option value="5">5 secondes</option>
+            <option value="6">6 secondes</option>
+            <option value="8">8 secondes</option>
+          </select>
+        </div>
+
+        <div class="axis-field">
+          <label for="axisBreathMin">Durée respiration</label>
+          <input id="axisBreathMin" type="number" min="5" max="15" step="1" value="5">
+        </div>
+
+        <div class="axis-field">
+          <label for="axisFinalType">Final</label>
+          <select id="axisFinalType">
+            <option value="tension" selected>Tension statique</option>
+            <option value="rotor">Rotation gyroscopique</option>
+          </select>
+        </div>
+
+        <div class="axis-field">
+          <label for="axisFinalMin">Durée final</label>
+          <select id="axisFinalMin">
+            <option value="1">1 minute</option>
+            <option value="3" selected>3 minutes</option>
+            <option value="5">5 minutes</option>
+            <option value="10">10 minutes</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="session-divider">
+        <h3>Voix et repères sonores</h3>
+      </div>
+
+      <div class="session-voice-grid">
+        <label class="axis-check">
+          <span>Voix de guidage</span>
+          <input id="axisVoiceEnabled" type="checkbox" checked>
+        </label>
+
+        <label class="axis-check">
+          <span>Cloche de transition</span>
+          <input id="axisBellEnabled" type="checkbox" checked>
+        </label>
+
+        <label class="axis-check">
+          <span>Tonalités respiration LA / DO / FA</span>
+          <input id="axisBreathTonesEnabled" type="checkbox" checked>
+        </label>
+
+        <div class="axis-field">
+          <label for="axisVoiceName">Voix numérique</label>
+          <select id="axisVoiceName"></select>
+        </div>
+
+        <div class="axis-field">
+          <label for="axisVoiceRate">Vitesse de voix</label>
+          <input id="axisVoiceRate" type="range" min="0.75" max="1.35" step="0.05" value="0.95">
+        </div>
+
+        <div class="axis-field">
+          <label for="axisVoiceVolume">Volume voix</label>
+          <input id="axisVoiceVolume" type="range" min="0" max="1" step="0.05" value="0.85">
+        </div>
+
+        <div class="axis-field">
+          <label for="axisAudioVolume">Volume pistes audio</label>
+          <input id="axisAudioVolume" type="range" min="0" max="1" step="0.05" value="0.32">
+        </div>
+
+        <div>
+          <button id="axisTestVoice" class="session-btn" type="button">Tester la voix</button>
+        </div>
+      </div>
+
+      <div class="session-divider">
+        <h3>Pistes audio par exercice</h3>
+      </div>
+
+      <div class="session-audio-grid">
+        <div class="axis-field">
+          <label for="axisAudioDetente">Détente</label>
+          <select id="axisAudioDetente"></select>
+        </div>
+
+        <div class="axis-field">
+          <label for="axisAudioLight">Observation lumineuse</label>
+          <select id="axisAudioLight"></select>
+        </div>
+
+        <div class="axis-field">
+          <label for="axisAudioSwing">Balancement</label>
+          <select id="axisAudioSwing"></select>
+        </div>
+
+        <div class="axis-field">
+          <label for="axisAudioBreath">Respiration</label>
+          <select id="axisAudioBreath"></select>
+        </div>
+
+        <div class="axis-field">
+          <label for="axisAudioFinal">Final</label>
+          <select id="axisAudioFinal"></select>
+        </div>
+      </div>
+
+      <div class="session-total-box">
+        <span>Total de la séance</span><br>
+        <strong id="axisTotal">—</strong>
+        <div id="axisMessage" class="session-message"></div>
+      </div>
+
+      <div class="session-actions">
+        <button id="axisSave" class="session-btn" type="button">Générer la séance</button>
+        <button id="axisOpenPractice" class="session-btn primary" type="button">Générer et ouvrir Pratiquer</button>
+      </div>
+    </article>
+
+    <aside class="session-card">
+      <h2>Aperçu compact</h2>
+      <p>
+        La timeline complète est générée en arrière-plan. Ici, on vérifie seulement
+        les grands blocs : vidéo muette, piste audio, voix et sons repères.
+      </p>
+
+      <div id="axisCompactPreview" class="session-compact-preview"></div>
+    </aside>
+  </section>
+</main>
+
+<footer class="axis-legal-footer">
+  <div class="axis-legal-footer-inner">
+    <span>© Axis Lumen Studio</span>
+    <nav aria-label="Liens légaux">
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="cgu.html">CGU</a>
+      <a href="cgv.html">CGV</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/axis-session-video-map.js?v=20260501_214944"></script>
+<script src="js/axis-session-audio-map.js?v=20260501_214944"></script>
+<script src="js/axis-session-generator-clean.js?v=20260501_214944"></script>
+</body>
+</html>

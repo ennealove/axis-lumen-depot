@@ -1,0 +1,584 @@
+{
+  "generatedAt": "2026-04-29T20:23:22.096Z",
+  "source": "C:\\Users\\chauv\\Documents\\JE SUIS\\IMAGE VERTUS",
+  "target": "assets/virtues",
+  "cards": [
+    {
+      "number": 1,
+      "name": "Présence",
+      "file": "01-presence.png",
+      "url": "assets/virtues/01-presence.png",
+      "found": true,
+      "sourceFile": "1.png"
+    },
+    {
+      "number": 2,
+      "name": "Silence intérieur",
+      "file": "02-silence-interieur.png",
+      "url": "assets/virtues/02-silence-interieur.png",
+      "found": true,
+      "sourceFile": "2.png"
+    },
+    {
+      "number": 3,
+      "name": "Observation",
+      "file": "03-observation.png",
+      "url": "assets/virtues/03-observation.png",
+      "found": true,
+      "sourceFile": "3.png"
+    },
+    {
+      "number": 4,
+      "name": "Acceptation",
+      "file": "04-acceptation.png",
+      "url": "assets/virtues/04-acceptation.png",
+      "found": true,
+      "sourceFile": "4.png"
+    },
+    {
+      "number": 5,
+      "name": "Sincérité",
+      "file": "05-sincerite.png",
+      "url": "assets/virtues/05-sincerite.png",
+      "found": true,
+      "sourceFile": "5.png"
+    },
+    {
+      "number": 6,
+      "name": "Disponibilité",
+      "file": "06-disponibilite.png",
+      "url": "assets/virtues/06-disponibilite.png",
+      "found": true,
+      "sourceFile": "6.png"
+    },
+    {
+      "number": 7,
+      "name": "Bienveillance",
+      "file": "07-bienveillance.png",
+      "url": "assets/virtues/07-bienveillance.png",
+      "found": true,
+      "sourceFile": "7.png"
+    },
+    {
+      "number": 8,
+      "name": "Compassion",
+      "file": "08-compassion.png",
+      "url": "assets/virtues/08-compassion.png",
+      "found": true,
+      "sourceFile": "8.png"
+    },
+    {
+      "number": 9,
+      "name": "Douceur",
+      "file": "09-douceur.png",
+      "url": "assets/virtues/09-douceur.png",
+      "found": true,
+      "sourceFile": "9.png"
+    },
+    {
+      "number": 10,
+      "name": "Pardon",
+      "file": "10-pardon.png",
+      "url": "assets/virtues/10-pardon.png",
+      "found": true,
+      "sourceFile": "10.png"
+    },
+    {
+      "number": 11,
+      "name": "Gratitude",
+      "file": "11-gratitude.png",
+      "url": "assets/virtues/11-gratitude.png",
+      "found": true,
+      "sourceFile": "11.png"
+    },
+    {
+      "number": 12,
+      "name": "Générosité",
+      "file": "12-generosite.png",
+      "url": "assets/virtues/12-generosite.png",
+      "found": true,
+      "sourceFile": "12.png"
+    },
+    {
+      "number": 13,
+      "name": "Stabilité",
+      "file": "13-stabilite.png",
+      "url": "assets/virtues/13-stabilite.png",
+      "found": true,
+      "sourceFile": "13.png"
+    },
+    {
+      "number": 14,
+      "name": "Ancrage",
+      "file": "14-ancrage.png",
+      "url": "assets/virtues/14-ancrage.png",
+      "found": true,
+      "sourceFile": "14.png"
+    },
+    {
+      "number": 15,
+      "name": "Endurance",
+      "file": "15-endurance.png",
+      "url": "assets/virtues/15-endurance.png",
+      "found": true,
+      "sourceFile": "15.png"
+    },
+    {
+      "number": 16,
+      "name": "Patience",
+      "file": "16-patience.png",
+      "url": "assets/virtues/16-patience.png",
+      "found": true,
+      "sourceFile": "16.png"
+    },
+    {
+      "number": 17,
+      "name": "Rythme",
+      "file": "17-rythme.png",
+      "url": "assets/virtues/17-rythme.png",
+      "found": true,
+      "sourceFile": "17.png"
+    },
+    {
+      "number": 18,
+      "name": "Simplicité",
+      "file": "18-simplicite.png",
+      "url": "assets/virtues/18-simplicite.png",
+      "found": true,
+      "sourceFile": "18.png"
+    },
+    {
+      "number": 19,
+      "name": "Clarté",
+      "file": "19-clarte.png",
+      "url": "assets/virtues/19-clarte.png",
+      "found": true,
+      "sourceFile": "19.png"
+    },
+    {
+      "number": 20,
+      "name": "Discernement",
+      "file": "20-discernement.png",
+      "url": "assets/virtues/20-discernement.png",
+      "found": true,
+      "sourceFile": "20.png"
+    },
+    {
+      "number": 21,
+      "name": "Lucidité",
+      "file": "21-lucidite.png",
+      "url": "assets/virtues/21-lucidite.png",
+      "found": true,
+      "sourceFile": "21.png"
+    },
+    {
+      "number": 22,
+      "name": "Responsabilité",
+      "file": "22-responsabilite.png",
+      "url": "assets/virtues/22-responsabilite.png",
+      "found": true,
+      "sourceFile": "22.png"
+    },
+    {
+      "number": 23,
+      "name": "Mesure",
+      "file": "23-mesure.png",
+      "url": "assets/virtues/23-mesure.png",
+      "found": true,
+      "sourceFile": "23.png"
+    },
+    {
+      "number": 24,
+      "name": "Précision",
+      "file": "24-precision.png",
+      "url": "assets/virtues/24-precision.png",
+      "found": true,
+      "sourceFile": "24.png"
+    },
+    {
+      "number": 25,
+      "name": "Lâcher-prise",
+      "file": "25-lacher-prise.png",
+      "url": "assets/virtues/25-lacher-prise.png",
+      "found": true,
+      "sourceFile": "25.png"
+    },
+    {
+      "number": 26,
+      "name": "Renoncement",
+      "file": "26-renoncement.png",
+      "url": "assets/virtues/26-renoncement.png",
+      "found": true,
+      "sourceFile": "26.png"
+    },
+    {
+      "number": 27,
+      "name": "Dépouillement",
+      "file": "27-depouillement.png",
+      "url": "assets/virtues/27-depouillement.png",
+      "found": true,
+      "sourceFile": "27.png"
+    },
+    {
+      "number": 28,
+      "name": "Adaptation",
+      "file": "28-adaptation.png",
+      "url": "assets/virtues/28-adaptation.png",
+      "found": true,
+      "sourceFile": "28.png"
+    },
+    {
+      "number": 29,
+      "name": "Résilience",
+      "file": "29-resilience.png",
+      "url": "assets/virtues/29-resilience.png",
+      "found": true,
+      "sourceFile": "29.png"
+    },
+    {
+      "number": 30,
+      "name": "Transmutation",
+      "file": "30-transmutation.png",
+      "url": "assets/virtues/30-transmutation.png",
+      "found": true,
+      "sourceFile": "30.png"
+    },
+    {
+      "number": 31,
+      "name": "Courage",
+      "file": "31-courage.png",
+      "url": "assets/virtues/31-courage.png",
+      "found": true,
+      "sourceFile": "31.png"
+    },
+    {
+      "number": 32,
+      "name": "Volonté",
+      "file": "32-volonte.png",
+      "url": "assets/virtues/32-volonte.png",
+      "found": true,
+      "sourceFile": "32.png"
+    },
+    {
+      "number": 33,
+      "name": "Détermination",
+      "file": "33-determination.png",
+      "url": "assets/virtues/33-determination.png",
+      "found": true,
+      "sourceFile": "33.png"
+    },
+    {
+      "number": 34,
+      "name": "Discipline",
+      "file": "34-discipline.png",
+      "url": "assets/virtues/34-discipline.png",
+      "found": true,
+      "sourceFile": "34.png"
+    },
+    {
+      "number": 35,
+      "name": "Maîtrise",
+      "file": "35-maitrise.png",
+      "url": "assets/virtues/35-maitrise.png",
+      "found": true,
+      "sourceFile": "35.png"
+    },
+    {
+      "number": 36,
+      "name": "Engagement",
+      "file": "36-engagement.png",
+      "url": "assets/virtues/36-engagement.png",
+      "found": true,
+      "sourceFile": "36.png"
+    },
+    {
+      "number": 37,
+      "name": "Élan",
+      "file": "37-elan.png",
+      "url": "assets/virtues/37-elan.png",
+      "found": true,
+      "sourceFile": "37.png"
+    },
+    {
+      "number": 38,
+      "name": "Fluidité",
+      "file": "38-fluidite.png",
+      "url": "assets/virtues/38-fluidite.png",
+      "found": true,
+      "sourceFile": "38.png"
+    },
+    {
+      "number": 39,
+      "name": "Audace",
+      "file": "39-audace.png",
+      "url": "assets/virtues/39-audace.png",
+      "found": true,
+      "sourceFile": "39.png"
+    },
+    {
+      "number": 40,
+      "name": "Exploration",
+      "file": "40-exploration.png",
+      "url": "assets/virtues/40-exploration.png",
+      "found": true,
+      "sourceFile": "40.png"
+    },
+    {
+      "number": 41,
+      "name": "Initiative",
+      "file": "41-initiative.png",
+      "url": "assets/virtues/41-initiative.png",
+      "found": true,
+      "sourceFile": "41.png"
+    },
+    {
+      "number": 42,
+      "name": "Avancée",
+      "file": "42-avancee.png",
+      "url": "assets/virtues/42-avancee.png",
+      "found": true,
+      "sourceFile": "42.png"
+    },
+    {
+      "number": 43,
+      "name": "Attention",
+      "file": "43-attention.png",
+      "url": "assets/virtues/43-attention.png",
+      "found": true,
+      "sourceFile": "43.png"
+    },
+    {
+      "number": 44,
+      "name": "Conscience de soi",
+      "file": "44-conscience-de-soi.png",
+      "url": "assets/virtues/44-conscience-de-soi.png",
+      "found": true,
+      "sourceFile": "44.png"
+    },
+    {
+      "number": 45,
+      "name": "Conscience des autres",
+      "file": "45-conscience-des-autres.png",
+      "url": "assets/virtues/45-conscience-des-autres.png",
+      "found": true,
+      "sourceFile": "45.png"
+    },
+    {
+      "number": 46,
+      "name": "Vision",
+      "file": "46-vision.png",
+      "url": "assets/virtues/46-vision.png",
+      "found": true,
+      "sourceFile": "46.png"
+    },
+    {
+      "number": 47,
+      "name": "Intuition",
+      "file": "47-intuition.png",
+      "url": "assets/virtues/47-intuition.png",
+      "found": true,
+      "sourceFile": "47.png"
+    },
+    {
+      "number": 48,
+      "name": "Compréhension",
+      "file": "48-comprehension.png",
+      "url": "assets/virtues/48-comprehension.png",
+      "found": true,
+      "sourceFile": "48.png"
+    },
+    {
+      "number": 49,
+      "name": "Équilibre",
+      "file": "49-equilibre.png",
+      "url": "assets/virtues/49-equilibre.png",
+      "found": true,
+      "sourceFile": "49.png"
+    },
+    {
+      "number": 50,
+      "name": "Paix",
+      "file": "50-paix.png",
+      "url": "assets/virtues/50-paix.png",
+      "found": true,
+      "sourceFile": "50.png"
+    },
+    {
+      "number": 51,
+      "name": "Harmonie",
+      "file": "51-harmonie.png",
+      "url": "assets/virtues/51-harmonie.png",
+      "found": true,
+      "sourceFile": "51.png"
+    },
+    {
+      "number": 52,
+      "name": "Réconciliation",
+      "file": "52-reconciliation.png",
+      "url": "assets/virtues/52-reconciliation.png",
+      "found": true,
+      "sourceFile": "52.png"
+    },
+    {
+      "number": 53,
+      "name": "Unité",
+      "file": "53-unite.png",
+      "url": "assets/virtues/53-unite.png",
+      "found": true,
+      "sourceFile": "53.png"
+    },
+    {
+      "number": 54,
+      "name": "Alignement",
+      "file": "54-alignement.png",
+      "url": "assets/virtues/54-alignement.png",
+      "found": true,
+      "sourceFile": "54.png"
+    },
+    {
+      "number": 55,
+      "name": "Inspiration",
+      "file": "55-inspiration.png",
+      "url": "assets/virtues/55-inspiration.png",
+      "found": true,
+      "sourceFile": "55.png"
+    },
+    {
+      "number": 56,
+      "name": "Créativité",
+      "file": "56-creativite.png",
+      "url": "assets/virtues/56-creativite.png",
+      "found": true,
+      "sourceFile": "56.png"
+    },
+    {
+      "number": 57,
+      "name": "Émerveillement",
+      "file": "57-emerveillement.png",
+      "url": "assets/virtues/57-emerveillement.png",
+      "found": true,
+      "sourceFile": "57.png"
+    },
+    {
+      "number": 58,
+      "name": "Beauté",
+      "file": "58-beaute.png",
+      "url": "assets/virtues/58-beaute.png",
+      "found": true,
+      "sourceFile": "58.png"
+    },
+    {
+      "number": 59,
+      "name": "Joie",
+      "file": "59-joie.png",
+      "url": "assets/virtues/59-joie.png",
+      "found": true,
+      "sourceFile": "59.png"
+    },
+    {
+      "number": 60,
+      "name": "Ouverture",
+      "file": "60-ouverture.png",
+      "url": "assets/virtues/60-ouverture.png",
+      "found": true,
+      "sourceFile": "60.png"
+    },
+    {
+      "number": 61,
+      "name": "Humilité",
+      "file": "61-humilite.png",
+      "url": "assets/virtues/61-humilite.png",
+      "found": true,
+      "sourceFile": "61.png"
+    },
+    {
+      "number": 62,
+      "name": "Vérité",
+      "file": "62-verite.png",
+      "url": "assets/virtues/62-verite.png",
+      "found": true,
+      "sourceFile": "62.png"
+    },
+    {
+      "number": 63,
+      "name": "Foi",
+      "file": "63-foi.png",
+      "url": "assets/virtues/63-foi.png",
+      "found": true,
+      "sourceFile": "63.png"
+    },
+    {
+      "number": 64,
+      "name": "Noblesse",
+      "file": "64-noblesse.png",
+      "url": "assets/virtues/64-noblesse.png",
+      "found": true,
+      "sourceFile": "64.png"
+    },
+    {
+      "number": 65,
+      "name": "Sagesse",
+      "file": "65-sagesse.png",
+      "url": "assets/virtues/65-sagesse.png",
+      "found": true,
+      "sourceFile": "65.png"
+    },
+    {
+      "number": 66,
+      "name": "Amour",
+      "file": "66-amour.png",
+      "url": "assets/virtues/66-amour.png",
+      "found": true,
+      "sourceFile": "66.png"
+    },
+    {
+      "number": 67,
+      "name": "Présence rayonnante",
+      "file": "67-presence-rayonnante.png",
+      "url": "assets/virtues/67-presence-rayonnante.png",
+      "found": true,
+      "sourceFile": "67.png"
+    },
+    {
+      "number": 68,
+      "name": "Stabilité intérieure",
+      "file": "68-stabilite-interieure.png",
+      "url": "assets/virtues/68-stabilite-interieure.png",
+      "found": true,
+      "sourceFile": "68.png"
+    },
+    {
+      "number": 69,
+      "name": "Fidélité à soi",
+      "file": "69-fidelite-a-soi.png",
+      "url": "assets/virtues/69-fidelite-a-soi.png",
+      "found": true,
+      "sourceFile": "69.png"
+    },
+    {
+      "number": 70,
+      "name": "Rayonnement",
+      "file": "70-rayonnement.png",
+      "url": "assets/virtues/70-rayonnement.png",
+      "found": true,
+      "sourceFile": "70.png"
+    },
+    {
+      "number": 71,
+      "name": "Service",
+      "file": "71-service.png",
+      "url": "assets/virtues/71-service.png",
+      "found": true,
+      "sourceFile": "71.png"
+    },
+    {
+      "number": 72,
+      "name": "Accomplissement",
+      "file": "72-accomplissement.png",
+      "url": "assets/virtues/72-accomplissement.png",
+      "found": true,
+      "sourceFile": "72.png"
+    }
+  ],
+  "missing": []
+}

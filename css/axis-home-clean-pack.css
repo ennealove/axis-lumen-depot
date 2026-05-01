@@ -1,0 +1,44 @@
+.axis-home-pack-visual {
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto 22px;
+  padding: 16px;
+  border-radius: 30px;
+  border: 1px solid rgba(216, 180, 95, 0.26);
+  background:
+    radial-gradient(circle at 50% 18%, rgba(216, 180, 95, 0.20), transparent 42%),
+    linear-gradient(180deg, rgba(255,255,255,0.075), rgba(255,255,255,0.025));
+  box-shadow: 0 28px 80px rgba(0,0,0,0.38);
+}
+
+.axis-home-pack-cover {
+  display: block;
+  width: 100%;
+  max-width: 390px;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: 22px;
+}
+
+.axis-pack-cover-img {
+  display: none !important;
+}
+
+.axis-pack-cover-card > .axis-pack-cover-img {
+  display: none !important;
+}
+
+@media (max-width: 720px) {
+  .axis-home-pack-visual {
+    max-width: 330px;
+    padding: 12px;
+    border-radius: 24px;
+  }
+
+  .axis-home-pack-cover {
+    max-width: 300px;
+    border-radius: 18px;
+  }
+}

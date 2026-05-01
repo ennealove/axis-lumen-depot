@@ -1,0 +1,7 @@
+[data-axis-hide-public-commission="true"] {
+  display: none !important;
+}
+
+[data-axis-stripe-product-resolved] {
+  cursor: pointer;
+}

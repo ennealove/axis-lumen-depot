@@ -1,0 +1,222 @@
+﻿/* ============================================================
+   PHOSPHENE STUDIO / JE SUIS — PRACTICE THEATER
+   Onglet "Pratiquer" écran géant
+   ============================================================ */
+
+.axis-practice-theater-active > :not(#axisPracticeTheaterRoot) {
+  display: none !important;
+}
+
+#axisPracticeTheaterRoot {
+  display: block;
+}
+
+.axis-theater-shell {
+  display: grid;
+  gap: 16px;
+}
+
+.axis-theater-stage {
+  position: relative;
+  overflow: hidden;
+  border-radius: 34px;
+  padding: 1px;
+  min-height: 68vh;
+  background:
+    linear-gradient(135deg, rgba(255, 211, 107, .78), rgba(115, 199, 255, .18), rgba(255, 211, 107, .38));
+  box-shadow:
+    0 34px 100px rgba(0, 0, 0, .50),
+    inset 0 0 0 1px rgba(255,255,255,.05);
+}
+
+.axis-theater-screen {
+  position: relative;
+  overflow: hidden;
+  border-radius: 33px;
+  min-height: 68vh;
+  background:
+    radial-gradient(circle at 50% 22%, rgba(255, 211, 107, .15), transparent 34%),
+    radial-gradient(circle at 50% 75%, rgba(115, 199, 255, .10), transparent 48%),
+    #02050c;
+}
+
+.axis-theater-media,
+.axis-theater-placeholder {
+  width: 100%;
+  min-height: 68vh;
+  height: 68vh;
+  display: block;
+  object-fit: contain;
+  background: #02050c;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.axis-theater-placeholder {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 34px;
+  color: var(--text, #eef6ff);
+  background:
+    radial-gradient(circle at 50% 45%, rgba(255, 211, 107, .18), transparent 28%),
+    radial-gradient(circle at 50% 55%, rgba(115, 199, 255, .10), transparent 44%),
+    #02050c;
+}
+
+.axis-theater-placeholder.dark {
+  background:
+    radial-gradient(circle at 50% 50%, rgba(255, 211, 107, .08), transparent 30%),
+    #00030a;
+}
+
+.axis-theater-placeholder.light {
+  background:
+    radial-gradient(circle at 50% 45%, rgba(255, 231, 158, .70), transparent 12%),
+    radial-gradient(circle at 50% 45%, rgba(255, 211, 107, .20), transparent 38%),
+    #02050c;
+}
+
+.axis-theater-overlay {
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: 20px;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 18px;
+  align-items: end;
+  padding: 18px 20px;
+  border: 1px solid rgba(255, 211, 107, .22);
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(3, 7, 17, .40), rgba(3, 7, 17, .90));
+  backdrop-filter: blur(12px);
+}
+
+.axis-theater-overlay strong {
+  display: block;
+  color: var(--accent-2, #ffd36b);
+  text-transform: uppercase;
+  letter-spacing: .055em;
+  font-size: .80rem;
+  margin-bottom: 6px;
+}
+
+.axis-theater-overlay span {
+  color: var(--text, #eef6ff);
+  font-size: 1rem;
+  line-height: 1.38;
+}
+
+.axis-theater-timer {
+  font-variant-numeric: tabular-nums;
+  font-size: clamp(2rem, 5vw, 4.2rem);
+  color: var(--accent-2, #ffd36b);
+  line-height: .92;
+  white-space: nowrap;
+}
+
+.axis-theater-progress {
+  position: absolute;
+  left: 28px;
+  right: 28px;
+  bottom: 12px;
+  z-index: 6;
+  height: 3px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.12);
+  overflow: hidden;
+}
+
+.axis-theater-progress span {
+  display: block;
+  height: 100%;
+  width: 0%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, rgba(255,211,107,.95), rgba(115,199,255,.75));
+}
+
+.axis-theater-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.axis-theater-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.axis-theater-pill {
+  border: 1px solid rgba(255, 211, 107, .16);
+  border-radius: 999px;
+  padding: 8px 12px;
+  color: var(--text, #eef6ff);
+  background: rgba(255,255,255,.04);
+}
+
+.axis-theater-timeline {
+  display: grid;
+  gap: 8px;
+  max-height: 340px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.axis-theater-step {
+  display: grid;
+  grid-template-columns: 70px 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 211, 107, .10);
+  background: rgba(255,255,255,.032);
+}
+
+.axis-theater-step.is-active {
+  border-color: rgba(255,211,107,.45);
+  background: rgba(255,211,107,.08);
+}
+
+.axis-theater-step small {
+  color: var(--muted, #aebfd8);
+}
+
+.axis-theater-panel {
+  border: 1px solid rgba(255, 211, 107, .14);
+  border-radius: 24px;
+  padding: 16px;
+  background: rgba(255,255,255,.032);
+}
+
+@media (max-width: 760px) {
+  .axis-theater-stage,
+  .axis-theater-screen,
+  .axis-theater-media,
+  .axis-theater-placeholder {
+    min-height: 58vh;
+    height: 58vh;
+  }
+
+  .axis-theater-overlay {
+    position: static;
+    grid-template-columns: 1fr;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+
+  .axis-theater-progress {
+    position: static;
+    margin: 0 18px 14px;
+  }
+
+  .axis-theater-step {
+    grid-template-columns: 1fr;
+  }
+}

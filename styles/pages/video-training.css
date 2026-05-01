@@ -1,0 +1,197 @@
+﻿/* ============================================================
+   PHOSPHENE STUDIO / JE SUIS — VIDEO TRAINING PREMIUM V3
+   Remplace les anciennes prévisualisations par vidéos premium.
+   Aucun texte parasite sous les vidéos.
+   ============================================================ */
+
+.video-training-card {
+  position: relative;
+}
+
+.video-training-shell {
+  position: relative;
+  margin: 10px 0 14px;
+  border-radius: 28px;
+  padding: 1px;
+  background:
+    linear-gradient(135deg, rgba(255, 211, 107, .72), rgba(115, 199, 255, .16), rgba(255, 211, 107, .36));
+  box-shadow:
+    0 26px 70px rgba(0, 0, 0, .42),
+    inset 0 0 0 1px rgba(255, 255, 255, .05);
+}
+
+.video-training-inner {
+  position: relative;
+  overflow: hidden;
+  border-radius: 27px;
+  background:
+    radial-gradient(circle at 50% 18%, rgba(255, 211, 107, .16), transparent 38%),
+    radial-gradient(circle at 50% 72%, rgba(115, 199, 255, .11), transparent 46%),
+    #030711;
+  min-height: 320px;
+}
+
+.video-training-inner::before {
+  content: "";
+  position: absolute;
+  inset: 18px;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 211, 107, .20);
+  pointer-events: none;
+  z-index: 3;
+}
+
+.video-training-inner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, transparent 0%, rgba(255, 211, 107, .10) 50%, transparent 100%),
+    radial-gradient(circle at 50% 50%, transparent 50%, rgba(2, 5, 12, .42) 100%);
+  opacity: .42;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.video-training-player {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  min-height: 320px;
+  display: block;
+  object-fit: contain;
+  background: #02050c;
+  filter: saturate(1.05) contrast(1.04);
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.video-training-caption {
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: 18px;
+  z-index: 4;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 211, 107, .20);
+  background: linear-gradient(180deg, rgba(3, 7, 17, .42), rgba(3, 7, 17, .88));
+  backdrop-filter: blur(10px);
+}
+
+.video-training-caption strong {
+  display: block;
+  color: var(--accent-2, #ffd36b);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  font-size: .78rem;
+  margin-bottom: 5px;
+}
+
+.video-training-caption span {
+  display: block;
+  color: var(--text, #eef6ff);
+  font-size: .95rem;
+  line-height: 1.35;
+}
+
+.video-training-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.video-training-actions button {
+  border: 1px solid rgba(255, 211, 107, .25);
+  background: rgba(8, 13, 24, .86);
+  color: var(--text, #eef6ff);
+  border-radius: 999px;
+  padding: 8px 11px;
+  font-size: .82rem;
+}
+
+.video-training-actions button:hover {
+  border-color: rgba(255, 211, 107, .54);
+  background: rgba(18, 28, 50, .96);
+}
+
+.video-training-canvas-hidden {
+  display: none !important;
+}
+
+.video-training-missing .video-training-inner {
+  min-height: 160px;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.video-training-missing .video-training-inner::before,
+.video-training-missing .video-training-inner::after {
+  display: none;
+}
+
+.video-training-missing-message {
+  color: var(--muted, #aebfd8);
+  text-align: center;
+  line-height: 1.5;
+}
+
+.video-training-shell[data-video-role="rotation_swing"] .video-training-inner,
+.video-training-shell[data-video-role="gyro_rotation"] .video-training-inner {
+  background:
+    radial-gradient(circle at 50% 50%, rgba(255, 211, 107, .18), transparent 34%),
+    radial-gradient(circle at 50% 50%, rgba(115, 199, 255, .12), transparent 58%),
+    #02050c;
+}
+
+.video-training-shell,
+.video-training-inner {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+@media (max-width: 720px) {
+  .video-training-inner,
+  .video-training-player {
+    min-height: 260px;
+  }
+
+  .video-training-caption {
+    position: static;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .video-training-actions {
+    justify-content: flex-start;
+  }
+}
+
+
+/* RESTORE_THEN_FIX_OSCILLATION_CSS */
+.video-training-canvas-hidden {
+  display: none !important;
+}
+
+.video-training-player {
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.video-training-shell[data-video-role="vertical_swing"] .video-training-player,
+.video-training-shell[data-video-role="lateral_swing"] .video-training-player {
+  object-fit: contain;
+  background: #02050c;
+}
+

@@ -1,0 +1,607 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Axis Lumen Studio — Livres, pratiques guidées et temple vivant</title>
+  <meta name="description" content="Axis Lumen Studio réunit une collection de livres, des pratiques guidées, un générateur de séances, un espace d’apprentissage et une boutique premium.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/legal-pages.css">
+  <link rel="stylesheet" href="css/referral-stripe-ready.css">
+  <link rel="stylesheet" href="css/home-dashboard-top.css">
+  <link rel="stylesheet" href="css/axis-index-nav-exact.css">
+
+  <style>
+    :root {
+      --axis-bg: #050912;
+      --axis-bg-2: #080f1d;
+      --axis-gold: #d8b45f;
+      --axis-gold-light: #f4d986;
+      --axis-ivory: #f4ecd8;
+      --axis-muted: rgba(244, 236, 216, .74);
+      --axis-line: rgba(216, 180, 95, .24);
+      --axis-card: rgba(255,255,255,.055);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      overflow-x: hidden;
+      color: var(--axis-ivory);
+      background:
+        radial-gradient(circle at 18% 0%, rgba(216, 180, 95, .14), transparent 34%),
+        radial-gradient(circle at 84% 18%, rgba(115, 199, 255, .10), transparent 32%),
+        linear-gradient(180deg, #070b14, #050912 58%, #03060c);
+    }
+
+    .home-main {
+      width: min(1500px, calc(100% - 34px));
+      margin: 0 auto;
+      padding: clamp(28px, 4vw, 64px) 0 88px;
+    }
+
+    .home-hero {
+      display: grid;
+      grid-template-columns: minmax(0, .92fr) minmax(420px, 1.08fr);
+      gap: clamp(28px, 5vw, 72px);
+      align-items: center;
+      min-height: calc(100vh - 96px);
+    }
+
+    .home-kicker {
+      margin: 0 0 14px;
+      color: var(--axis-gold-light);
+      text-transform: uppercase;
+      letter-spacing: .16em;
+      font-size: .78rem;
+      font-weight: 900;
+    }
+
+    .home-hero h1 {
+      margin: 0;
+      max-width: 760px;
+      font-family: Georgia, "Times New Roman", serif;
+      color: #ffe7a3;
+      font-size: clamp(3.4rem, 7vw, 7.9rem);
+      line-height: .86;
+      letter-spacing: -.07em;
+    }
+
+    .home-hero h1 span {
+      display: block;
+      color: var(--axis-ivory);
+    }
+
+    .home-lead {
+      max-width: 760px;
+      margin: 24px 0 0;
+      color: var(--axis-muted);
+      font-size: clamp(1.05rem, 1.35vw, 1.32rem);
+      line-height: 1.75;
+    }
+
+    .home-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .home-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 13px 18px;
+      border-radius: 999px;
+      border: 1px solid var(--axis-line);
+      color: var(--axis-ivory);
+      text-decoration: none;
+      font-weight: 900;
+      background: rgba(255,255,255,.055);
+    }
+
+    .home-btn.primary {
+      color: #11131a;
+      background: linear-gradient(135deg, var(--axis-gold), var(--axis-gold-light));
+      border-color: rgba(244, 217, 134, .86);
+      box-shadow: 0 16px 38px rgba(216, 180, 95, .20);
+    }
+
+    .home-pack-showcase {
+      position: relative;
+      min-height: clamp(560px, 64vw, 880px);
+      border-radius: 42px;
+      border: 1px solid rgba(216, 180, 95, .28);
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 50% 18%, rgba(216,180,95,.24), transparent 38%),
+        linear-gradient(145deg, rgba(255,255,255,.08), rgba(255,255,255,.025));
+      box-shadow: 0 38px 120px rgba(0,0,0,.50);
+      isolation: isolate;
+    }
+
+    .home-pack-showcase::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      pointer-events: none;
+      background:
+        linear-gradient(180deg, rgba(3,6,12,.02), rgba(3,6,12,.34)),
+        radial-gradient(circle at 50% 18%, transparent 0%, transparent 44%, rgba(0,0,0,.22) 100%);
+    }
+
+    .home-pack-showcase img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      object-position: center center;
+      transform: scale(1.01);
+    }
+
+    .home-pack-label {
+      position: absolute;
+      z-index: 3;
+      left: clamp(20px, 3vw, 38px);
+      right: clamp(20px, 3vw, 38px);
+      bottom: clamp(20px, 3vw, 38px);
+      padding: clamp(18px, 2.4vw, 28px);
+      border-radius: 28px;
+      border: 1px solid rgba(244,217,134,.24);
+      background: rgba(5, 9, 18, .58);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 20px 60px rgba(0,0,0,.38);
+    }
+
+    .home-pack-label strong {
+      display: block;
+      color: #ffe7a3;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.65rem, 2.6vw, 3rem);
+      line-height: 1;
+      letter-spacing: -.04em;
+      margin-bottom: 8px;
+    }
+
+    .home-pack-label span {
+      display: block;
+      color: rgba(244,236,216,.78);
+      line-height: 1.55;
+    }
+
+    .home-section {
+      padding: clamp(42px, 6vw, 92px) 0 0;
+    }
+
+    .home-section-head {
+      max-width: 920px;
+      margin-bottom: 26px;
+    }
+
+    .home-section-head h2 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: #ffe7a3;
+      font-size: clamp(2.35rem, 4.6vw, 5.1rem);
+      line-height: .95;
+      letter-spacing: -.055em;
+    }
+
+    .home-section-head p {
+      margin: 18px 0 0;
+      color: var(--axis-muted);
+      line-height: 1.75;
+      font-size: 1.05rem;
+    }
+
+    .home-grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .home-grid.cols-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .home-grid.cols-4 {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .home-card,
+    .home-band,
+    .home-practice-item {
+      border: 1px solid rgba(216,180,95,.20);
+      background:
+        radial-gradient(circle at 0% 0%, rgba(216,180,95,.09), transparent 42%),
+        linear-gradient(145deg, rgba(255,255,255,.06), rgba(255,255,255,.024));
+      border-radius: 28px;
+      padding: clamp(20px, 2.5vw, 30px);
+      box-shadow: 0 24px 80px rgba(0,0,0,.26);
+    }
+
+    .home-card-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 42px;
+      height: 42px;
+      margin-bottom: 18px;
+      border-radius: 999px;
+      color: #11131a;
+      background: linear-gradient(135deg, var(--axis-gold), var(--axis-gold-light));
+      font-weight: 900;
+    }
+
+    .home-card h3 {
+      margin: 0 0 10px;
+      color: #ffe7a3;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.55rem, 2.2vw, 2.35rem);
+      line-height: 1;
+      letter-spacing: -.035em;
+    }
+
+    .home-card p,
+    .home-card li {
+      color: rgba(244,236,216,.72);
+      line-height: 1.68;
+    }
+
+    .home-card ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .home-band {
+      margin-top: 22px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 24px;
+      align-items: center;
+    }
+
+    .home-band h2 {
+      margin: 0;
+      color: #ffe7a3;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 3.6vw, 4rem);
+      line-height: .98;
+      letter-spacing: -.05em;
+    }
+
+    .home-band p {
+      max-width: 880px;
+      color: rgba(244,236,216,.72);
+      line-height: 1.7;
+    }
+
+    .home-practice-list {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .home-practice-item {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .home-practice-item strong {
+      display: block;
+      color: #ffe7a3;
+      margin-bottom: 6px;
+    }
+
+    .home-practice-item span:last-child {
+      color: rgba(244,236,216,.72);
+      line-height: 1.6;
+    }
+
+    .axis-legal-footer {
+      margin-top: 0;
+    }
+
+    @media (max-width: 1120px) {
+      .home-hero,
+      .home-grid.cols-3,
+      .home-grid.cols-4,
+      .home-practice-list {
+        grid-template-columns: 1fr;
+      }
+
+      .home-pack-showcase {
+        min-height: clamp(440px, 90vw, 720px);
+      }
+
+      .home-band {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .home-main {
+        width: min(100% - 22px, 1500px);
+      }
+
+      .home-pack-showcase {
+        border-radius: 30px;
+        min-height: 420px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<header class="axis-top-dashboard">
+  <div class="axis-top-dashboard-inner">
+    <a class="axis-top-brand" href="index.html">
+      <strong>Axis Lumen</strong>
+    </a>
+
+    <nav class="axis-top-links" aria-label="Navigation principale">
+      <a class="active" href="index.html">Accueil</a>
+      <a href="creer-seance.html">Créer sa séance</a>
+      <a href="pratiquer.html">Pratiquer</a>
+      <a href="oscillation.html">Oscillation guidée</a>
+      <a href="respiration.html">Respiration</a>
+      <a href="rotor-optique.html">Rotor optique</a>
+      <a href="tensions-statiques.html">Tensions statiques</a>
+      <a href="apprendre.html">Apprendre</a>
+      <a href="vertus.html">Vertus</a>
+      <a class="axis-top-cta" href="boutique.html">Boutique</a>
+      <a href="abonnement.html">Abonnement</a>
+      <a href="parrainage.html">Parrainage</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="login.html">Connexion</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </div>
+</header>
+
+<main class="home-main">
+  <section class="home-hero">
+    <div>
+      <p class="home-kicker">Maison intérieure · Livres · Pratique</p>
+
+      <h1>
+        Rendre son
+        <span>temple vivant</span>
+      </h1>
+
+      <p class="home-lead">
+        Axis Lumen Studio réunit une collection de livres, des pratiques guidées,
+        un générateur de séances vidéo, un espace d’apprentissage et une boutique
+        premium pensée comme une maison d’édition spirituelle contemporaine.
+      </p>
+
+      <div class="home-actions">
+        <a class="home-btn primary" href="creer-seance.html">Créer une séance</a>
+        <a class="home-btn" href="boutique.html">Voir la collection</a>
+        <a class="home-btn" href="apprendre.html">Entrer dans l’école</a>
+      </div>
+    </div>
+
+    <aside class="home-pack-showcase" aria-label="Pack complet Axis Lumen">
+      <img src="assets/books/pack-cover.png" alt="Pack complet Axis Lumen — Collection des quatre livres" loading="eager">
+      <div class="home-pack-label">
+        <strong>Pack complet</strong>
+        <span>Quatre livres, une architecture intérieure : axe, souffle, vertus, terrain et pratique.</span>
+      </div>
+    </aside>
+  </section>
+
+  <section class="home-section">
+    <div class="home-section-head">
+      <p class="home-kicker">Vision</p>
+      <h2>Un espace sobre, profond et praticable.</h2>
+      <p>
+        Le projet ne se limite pas à vendre des livres. Il relie lecture,
+        contemplation, pratique corporelle, observation lumineuse et progression.
+        Chaque partie du studio sert une expérience simple : comprendre, choisir,
+        pratiquer, intégrer.
+      </p>
+    </div>
+
+    <div class="home-grid cols-3">
+      <article class="home-card">
+        <span class="home-card-number">01</span>
+        <h3>Lire</h3>
+        <p>Une collection structurée autour du temple vivant, des vertus, du terrain intérieur et des exercices de présence.</p>
+      </article>
+
+      <article class="home-card">
+        <span class="home-card-number">02</span>
+        <h3>Construire</h3>
+        <p>Un générateur compose une séance selon l’intention, le mouvement, la respiration, la durée et l’intégration.</p>
+      </article>
+
+      <article class="home-card">
+        <span class="home-card-number">03</span>
+        <h3>Pratiquer</h3>
+        <p>Les vidéos, la voix, les minuteries et les séquences guident l’utilisateur dans une pratique claire et progressive.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="home-section">
+    <div class="home-section-head">
+      <p class="home-kicker">Collection</p>
+      <h2>Quatre livres pour poser une architecture intérieure.</h2>
+      <p>
+        La collection Axis Lumen réunit un socle initiatique, un livre de vertus,
+        un livre consacré au terrain et un livre d’exercices visuel.
+      </p>
+    </div>
+
+    <div class="home-grid cols-4">
+      <article class="home-card">
+        <span class="home-card-number">I</span>
+        <h3>JE SUIS</h3>
+        <p>Rendre son temple vivant. Le livre fondateur : axe, silence, présence, lumière intérieure et transformation.</p>
+      </article>
+
+      <article class="home-card">
+        <span class="home-card-number">II</span>
+        <h3>Le Livre des Vertus</h3>
+        <p>Un support de contemplation et d’orientation intérieure, pensé comme un tirage symbolique et pratique.</p>
+      </article>
+
+      <article class="home-card">
+        <span class="home-card-number">III</span>
+        <h3>Le Livre de l’Alimentation</h3>
+        <p>Terrain, équilibre, purification, eau, minéraux et alimentation consciente dans une approche structurée.</p>
+      </article>
+
+      <article class="home-card">
+        <span class="home-card-number">IV</span>
+        <h3>Le Livre d’Exercices</h3>
+        <p>Une pédagogie visuelle : balancements, respiration, tensions statiques, observation et intégration.</p>
+      </article>
+    </div>
+
+    <div class="home-band">
+      <div>
+        <p class="home-kicker">Pack complet</p>
+        <h2>Une porte d’entrée unique dans tout le système.</h2>
+        <p>
+          Le pack complet rassemble l’enseignement, les supports symboliques,
+          la pratique corporelle et les bases de progression. Il devient la colonne
+          vertébrale éditoriale du studio.
+        </p>
+      </div>
+      <a class="home-btn primary" href="boutique.html">Voir le pack</a>
+    </div>
+  </section>
+
+  <section class="home-section">
+    <div class="home-section-head">
+      <p class="home-kicker">Pratique guidée</p>
+      <h2>Créer une séance, puis la vivre.</h2>
+      <p>
+        L’utilisateur choisit une intention, un mouvement, une respiration,
+        une durée, un final et une voix. Le studio transforme ces choix en parcours praticable.
+      </p>
+    </div>
+
+    <div class="home-grid cols-3">
+      <article class="home-card">
+        <h3>Créer sa séance</h3>
+        <ul>
+          <li>Choix de l’intention</li>
+          <li>Choix du balancement</li>
+          <li>Respiration carrée, triangulaire ou rectangulaire</li>
+          <li>Guidage vocal synchronisé</li>
+        </ul>
+      </article>
+
+      <article class="home-card">
+        <h3>Pratiquer</h3>
+        <ul>
+          <li>Timeline vidéo</li>
+          <li>Observation lumineuse</li>
+          <li>Balancements guidés</li>
+          <li>Respiration et final</li>
+        </ul>
+      </article>
+
+      <article class="home-card">
+        <h3>Apprendre</h3>
+        <ul>
+          <li>Fondation JE SUIS</li>
+          <li>Terrain et alimentation</li>
+          <li>Vertus et contemplation</li>
+          <li>Exercices progressifs</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="home-section">
+    <div class="home-section-head">
+      <p class="home-kicker">Méthode</p>
+      <h2>Une progression simple, mais profonde.</h2>
+    </div>
+
+    <div class="home-practice-list">
+      <article class="home-practice-item">
+        <span class="home-card-number">1</span>
+        <div>
+          <strong>Préparer</strong>
+          <span>Se poser, choisir une intention, entrer dans un cadre sobre et clair.</span>
+        </div>
+      </article>
+
+      <article class="home-practice-item">
+        <span class="home-card-number">2</span>
+        <div>
+          <strong>Observer</strong>
+          <span>Utiliser la lumière, la respiration ou le mouvement comme support d’attention.</span>
+        </div>
+      </article>
+
+      <article class="home-practice-item">
+        <span class="home-card-number">3</span>
+        <div>
+          <strong>Ressentir</strong>
+          <span>Laisser apparaître les effets corporels, le rythme et l’axe.</span>
+        </div>
+      </article>
+
+      <article class="home-practice-item">
+        <span class="home-card-number">4</span>
+        <div>
+          <strong>Intégrer</strong>
+          <span>Revenir au calme, noter l’expérience, relier la pratique au quotidien.</span>
+        </div>
+      </article>
+    </div>
+
+    <div class="home-actions">
+      <a class="home-btn primary" href="creer-seance.html">Composer une séance</a>
+      <a class="home-btn" href="pratiquer.html">Accéder aux pratiques</a>
+    </div>
+  </section>
+
+  <section class="home-section">
+    <div class="home-band">
+      <div>
+        <p class="home-kicker">Abonnement</p>
+        <h2>Un accès continu au studio.</h2>
+        <p>
+          L’abonnement prépare l’accès aux cours, au générateur de séances,
+          aux progressions, aux tirages de vertus et aux futures extensions pédagogiques du projet.
+        </p>
+      </div>
+      <a class="home-btn primary" href="abonnement.html">Voir l’abonnement</a>
+    </div>
+  </section>
+</main>
+
+<footer class="axis-legal-footer">
+  <div class="axis-legal-footer-inner">
+    <span>© Axis Lumen Studio</span>
+    <nav aria-label="Liens légaux">
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="cgu.html">CGU</a>
+      <a href="cgv.html">CGV</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/site.js"></script>
+<script src="js/stripe-products.js"></script>
+<script src="js/axis-referral-stripe-ready.js"></script>
+</body>
+</html>
