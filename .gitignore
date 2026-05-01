@@ -1,5 +1,6 @@
 ﻿# AXIS LUMEN / PHOSPHENE STUDIO
-# Démo complète : pages, scripts, images, audios, vidéos pédagogiques via Git LFS.
+# Dépôt propre : site actif + médias utiles.
+# Les vidéos conservées sont suivies via Git LFS.
 
 .DS_Store
 Thumbs.db
@@ -22,6 +23,10 @@ sauvegarde/
 sauvegardes/
 _sauvegarde/
 _sauvegardes/
+
+# anciens packs exportés
+axis_lumen_multipage_pro/
+axis_lumen_ultimum_pro/
 
 # fichiers temporaires
 *.bak
