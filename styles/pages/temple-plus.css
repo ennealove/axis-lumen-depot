@@ -1,0 +1,116 @@
+.temple-card {
+  border: 1px solid rgba(255, 211, 107, 0.18);
+  background:
+    radial-gradient(circle at 12% 0%, rgba(255, 211, 107, 0.12), transparent 30%),
+    radial-gradient(circle at 95% 20%, rgba(115, 199, 255, 0.09), transparent 30%),
+    linear-gradient(145deg, rgba(9, 14, 26, 0.96), rgba(5, 10, 18, 0.96));
+}
+
+.temple-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.temple-glass-card {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 18px;
+  background: linear-gradient(145deg, rgba(10, 18, 34, 0.9), rgba(7, 12, 23, 0.9));
+}
+
+.virtue-card-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.virtue-image-wrap {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 211, 107, 0.26);
+  background: rgba(0, 0, 0, 0.2);
+  min-height: 260px;
+  display: grid;
+  place-items: center;
+}
+
+.virtue-image-wrap img,
+.temple-cover-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.virtue-fallback {
+  padding: 18px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.virtue-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  background: rgba(2, 4, 10, 0.92);
+  display: grid;
+  place-items: center;
+  padding: 22px;
+}
+
+.virtue-lightbox img {
+  max-width: min(860px, 96vw);
+  max-height: 88vh;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 211, 107, 0.38);
+}
+
+.virtue-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.shop-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.shop-card h4 {
+  margin: 10px 0 8px;
+  color: #fff4d0;
+}
+
+.temple-cover-wrap {
+  margin: 12px 0;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 211, 107, 0.2);
+}
+
+.temple-config {
+  margin-top: 14px;
+  padding: 12px;
+  border-radius: 14px;
+  background: rgba(8, 13, 24, 0.86);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  overflow: auto;
+}
+
+.learn-contemplative-text {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 211, 107, 0.26);
+  background: rgba(255, 211, 107, 0.07);
+}
+
+@media (max-width: 980px) {
+  .temple-grid,
+  .shop-grid {
+    grid-template-columns: 1fr;
+  }
+}

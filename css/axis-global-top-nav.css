@@ -1,0 +1,196 @@
+/* AXIS LUMEN — navigation haute globale, suppression visuelle des barres latérales */
+
+.axis-top-dashboard {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  border-bottom: 1px solid rgba(216, 180, 95, 0.22);
+  background:
+    radial-gradient(circle at 12% 0%, rgba(216, 180, 95, 0.10), transparent 34%),
+    linear-gradient(180deg, rgba(8, 12, 22, 0.98), rgba(7, 10, 18, 0.94));
+  backdrop-filter: blur(16px);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.34);
+}
+
+.axis-top-dashboard-inner {
+  width: min(1500px, calc(100% - 32px));
+  margin: 0 auto;
+  min-height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.axis-top-brand {
+  flex: 0 0 auto;
+  text-decoration: none;
+  color: #f4d986;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  white-space: nowrap;
+}
+
+.axis-top-brand strong {
+  color: #f4d986;
+}
+
+.axis-top-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(244, 217, 134, 0.72) rgba(255, 255, 255, 0.06);
+  padding: 8px 0;
+}
+
+.axis-top-links::-webkit-scrollbar {
+  height: 8px;
+}
+
+.axis-top-links::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 999px;
+}
+
+.axis-top-links::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #f4d986, #c99d3f);
+  border-radius: 999px;
+}
+
+.axis-top-links a {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 13px;
+  border-radius: 999px;
+  color: rgba(244, 236, 216, 0.82);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.93rem;
+  line-height: 1;
+  border: 1px solid transparent;
+  transition: 0.18s ease;
+  white-space: nowrap;
+}
+
+.axis-top-links a:hover,
+.axis-top-links a.active {
+  color: #ffe7a3;
+  border-color: rgba(216, 180, 95, 0.28);
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.axis-top-links a.axis-top-cta {
+  color: #11131a;
+  background: linear-gradient(135deg, #d8b45f, #f4d986);
+  border-color: rgba(244, 217, 134, 0.86);
+  box-shadow: 0 12px 28px rgba(216, 180, 95, 0.18);
+}
+
+.axis-top-links a.axis-top-cta.active {
+  box-shadow:
+    0 0 0 1px rgba(255, 231, 163, 0.60) inset,
+    0 16px 34px rgba(216, 180, 95, 0.26);
+}
+
+/* Suppression visuelle des barres de gauche */
+.sidebar,
+.site-sidebar,
+.axis-sidebar,
+.app-sidebar,
+.boutique-sidebar,
+.subscription-sidebar,
+aside.sidebar,
+aside.glass {
+  display: none !important;
+}
+
+/* Les anciennes mises en page à colonne gauche deviennent pleine largeur */
+.site,
+.boutique-page,
+.subscription-page,
+.app-shell {
+  display: block !important;
+  grid-template-columns: none !important;
+  min-height: 100vh;
+}
+
+.main,
+.main-panel,
+.boutique-main,
+.subscription-main {
+  width: min(1320px, calc(100% - 34px)) !important;
+  max-width: none !important;
+  margin: 0 auto !important;
+  padding: clamp(22px, 3vw, 44px) 0 78px !important;
+}
+
+/* Pages boutique et abonnement : garder une largeur premium */
+.boutique-main,
+.subscription-main {
+  width: min(1440px, calc(100% - 34px)) !important;
+}
+
+/* Évite qu’un ancien padding prévu pour sidebar laisse un vide */
+body {
+  overflow-x: hidden;
+}
+
+/* Pages légales : même respiration que le reste */
+.legal-page {
+  width: min(1180px, calc(100% - 34px)) !important;
+  margin: 0 auto !important;
+  padding-top: clamp(24px, 3vw, 44px) !important;
+}
+
+/* Anciennes navigations internes déjà présentes sur login/admin : on les rend secondaires et propres */
+.axis-auth-top,
+.axis-admin-top {
+  margin-top: 12px;
+}
+
+/* Responsive */
+@media (max-width: 960px) {
+  .axis-top-dashboard-inner {
+    width: min(100% - 20px, 1500px);
+    min-height: auto;
+    padding: 12px 0;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .axis-top-links {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .axis-top-links a {
+    min-height: 38px;
+    padding: 9px 12px;
+    font-size: 0.88rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .axis-top-brand {
+    font-size: 1.35rem;
+  }
+
+  .main,
+  .main-panel,
+  .boutique-main,
+  .subscription-main,
+  .legal-page {
+    width: min(100% - 22px, 1320px) !important;
+  }
+}

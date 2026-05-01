@@ -1,0 +1,243 @@
+{
+  "users": [
+    {
+      "id": "user_8ffd9e035fad8aeeb5908171",
+      "clientNumber": "AXIS-2026-156846",
+      "firstName": "Parrain",
+      "lastName": "Test",
+      "email": "test.parrain.20260429222935@axis-lumen.test",
+      "phone": "0600000001",
+      "passwordHash": "$2a$12$oPYf.A4DeVF8e9vlVje2qeujcU4rud1jcVkMwugb5U..OyuaaKc9y",
+      "role": "user",
+      "referralCode": "AXIS-T4H7T",
+      "referredByCode": "",
+      "referredByUserId": "",
+      "discoverySource": "test-local",
+      "stripeCustomerId": "",
+      "subscriptionStatus": "trialing",
+      "trialStartedAt": "2026-04-29T22:29:35.650Z",
+      "trialEndsAt": "2026-05-06T22:29:35.650Z",
+      "createdAt": "2026-04-29T22:29:35.650Z",
+      "updatedAt": "2026-04-29T22:29:35.650Z"
+    },
+    {
+      "id": "user_ebfdd4f8eb94d38dc70fe92a",
+      "clientNumber": "AXIS-2026-991443",
+      "firstName": "Filleul",
+      "lastName": "Test",
+      "email": "test.filleul.20260429222935@axis-lumen.test",
+      "phone": "0600000002",
+      "passwordHash": "$2a$12$8fr1PE8J41USI0mG.kzibuRtCwBD6gdE1F8ktypHWLmPxflx7WXtO",
+      "role": "user",
+      "referralCode": "AXIS-2AB3H",
+      "referredByCode": "AXIS-T4H7T",
+      "referredByUserId": "user_8ffd9e035fad8aeeb5908171",
+      "discoverySource": "parrainage",
+      "stripeCustomerId": "",
+      "subscriptionStatus": "active",
+      "trialStartedAt": "2026-04-29T22:29:35.923Z",
+      "trialEndsAt": "2026-05-06T22:29:35.923Z",
+      "createdAt": "2026-04-29T22:29:35.923Z",
+      "updatedAt": "2026-04-29T22:29:35.930Z"
+    },
+    {
+      "id": "usr_963db2c90ff68f92",
+      "clientNumber": "AX-351942",
+      "name": "Test Parrain 20260501_190922",
+      "email": "test.parrain.20260501_190922@axis-local.test",
+      "passwordHash": "9d88b3c24ef3a8382f8c6347efe85800:14ef87fe7e5abcba0eec1e667a7b024398829ec91c5fac29c121256d21cdb61d",
+      "referralCode": "TESTP1497",
+      "referredByCode": "",
+      "referredByUserId": "",
+      "role": "customer",
+      "subscription": {
+        "status": "inactive"
+      },
+      "createdAt": "2026-05-01T17:09:23.251Z",
+      "updatedAt": "2026-05-01T17:09:23.251Z"
+    },
+    {
+      "id": "usr_a65a95250c1733f1",
+      "clientNumber": "AX-130577",
+      "name": "Test Filleul 20260501_190922",
+      "email": "test.filleul.20260501_190922@axis-local.test",
+      "passwordHash": "17aa9017e1a58a54c0ae413f65ca2751:829c87e0f31becd96976ebbb923afa2501616c02296f5d63c503e8643523a545",
+      "referralCode": "TESTF9984",
+      "referredByCode": "TESTP1497",
+      "referredByUserId": "usr_963db2c90ff68f92",
+      "role": "customer",
+      "subscription": {
+        "status": "active",
+        "plan": "yearly",
+        "amountCents": 19000,
+        "currency": "EUR",
+        "activatedAt": "2026-05-01T17:09:24.182Z",
+        "sourcePaymentId": "testpay_411a02be9722d2c4"
+      },
+      "createdAt": "2026-05-01T17:09:23.491Z",
+      "updatedAt": "2026-05-01T17:09:23.491Z"
+    }
+  ],
+  "referrals": [
+    {
+      "id": "ref_63511a6d4997199d7534bd7e",
+      "referrerUserId": "user_8ffd9e035fad8aeeb5908171",
+      "referredUserId": "user_ebfdd4f8eb94d38dc70fe92a",
+      "referralCodeUsed": "AXIS-T4H7T",
+      "status": "active",
+      "createdAt": "2026-04-29T22:29:35.923Z",
+      "activatedAt": "2026-04-29T22:29:35.930Z",
+      "cancelledAt": ""
+    }
+  ],
+  "subscriptions": [],
+  "referralRewards": [
+    {
+      "id": "reward_test_20260429222935",
+      "referrerUserId": "user_8ffd9e035fad8aeeb5908171",
+      "referredUserId": "user_ebfdd4f8eb94d38dc70fe92a",
+      "stripeSubscriptionId": "sub_test_20260429222935",
+      "amountMonthlyCents": 100,
+      "status": "active",
+      "startedAt": "2026-04-29T22:29:35.930Z",
+      "endedAt": "",
+      "createdAt": "2026-04-29T22:29:35.930Z",
+      "updatedAt": "2026-04-29T22:29:35.930Z"
+    }
+  ],
+  "referralCreditLedger": [
+    {
+      "id": "credit_test_20260429222935",
+      "referrerUserId": "user_8ffd9e035fad8aeeb5908171",
+      "referredUserId": "user_ebfdd4f8eb94d38dc70fe92a",
+      "invoiceId": "in_test_20260429222935",
+      "monthKey": "2026-04",
+      "amountCents": 100,
+      "status": "pending",
+      "createdAt": "2026-04-29T22:29:35.930Z"
+    }
+  ],
+  "stripeEvents": [],
+  "commissions": [
+    {
+      "id": "com_d1926f020a2f98be",
+      "referrerUserId": "usr_963db2c90ff68f92",
+      "referrerEmail": "test.parrain.20260501_190922@axis-local.test",
+      "referredUserId": "usr_a65a95250c1733f1",
+      "referredEmail": "test.filleul.20260501_190922@axis-local.test",
+      "referralCode": "TESTP1497",
+      "saleAmountCents": 1900,
+      "amountCents": 380,
+      "commissionRate": 0.2,
+      "currency": "EUR",
+      "plan": "monthly",
+      "sourcePaymentId": "testpay_371219fc3b309e25",
+      "status": "paid",
+      "createdAt": "2026-05-01T17:09:23.920Z",
+      "paidAt": "2026-05-01T17:09:24.961Z",
+      "payoutReference": "TEST-REGLEMENT-20260501_190922",
+      "note": "Test PowerShell de restitution commission"
+    },
+    {
+      "id": "com_0592fb3cde24abca",
+      "referrerUserId": "usr_963db2c90ff68f92",
+      "referrerEmail": "test.parrain.20260501_190922@axis-local.test",
+      "referredUserId": "usr_a65a95250c1733f1",
+      "referredEmail": "test.filleul.20260501_190922@axis-local.test",
+      "referralCode": "TESTP1497",
+      "saleAmountCents": 19000,
+      "amountCents": 3800,
+      "commissionRate": 0.2,
+      "currency": "EUR",
+      "plan": "yearly",
+      "sourcePaymentId": "testpay_411a02be9722d2c4",
+      "status": "payable",
+      "createdAt": "2026-05-01T17:09:24.182Z",
+      "paidAt": "",
+      "payoutReference": "",
+      "note": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_92b490201bf907ef",
+      "type": "user_registered",
+      "createdAt": "2026-05-01T17:09:23.251Z",
+      "payload": {
+        "userId": "usr_963db2c90ff68f92",
+        "email": "test.parrain.20260501_190922@axis-local.test",
+        "referredByUserId": "",
+        "referredByCode": ""
+      }
+    },
+    {
+      "id": "evt_47bfca038e95c61e",
+      "type": "user_registered",
+      "createdAt": "2026-05-01T17:09:23.491Z",
+      "payload": {
+        "userId": "usr_a65a95250c1733f1",
+        "email": "test.filleul.20260501_190922@axis-local.test",
+        "referredByUserId": "usr_963db2c90ff68f92",
+        "referredByCode": "TESTP1497"
+      }
+    },
+    {
+      "id": "evt_977354ce37ba7ca6",
+      "type": "subscription_activated",
+      "createdAt": "2026-05-01T17:09:23.920Z",
+      "payload": {
+        "userId": "usr_a65a95250c1733f1",
+        "email": "test.filleul.20260501_190922@axis-local.test",
+        "amountCents": 1900,
+        "plan": "monthly"
+      }
+    },
+    {
+      "id": "evt_c501a88c4fddcd4b",
+      "type": "commission_created",
+      "createdAt": "2026-05-01T17:09:23.920Z",
+      "payload": {
+        "commissionId": "com_d1926f020a2f98be",
+        "referrerUserId": "usr_963db2c90ff68f92",
+        "referredUserId": "usr_a65a95250c1733f1",
+        "amountCents": 380
+      }
+    },
+    {
+      "id": "evt_159d0e3e0b66e041",
+      "type": "subscription_activated",
+      "createdAt": "2026-05-01T17:09:24.182Z",
+      "payload": {
+        "userId": "usr_a65a95250c1733f1",
+        "email": "test.filleul.20260501_190922@axis-local.test",
+        "amountCents": 19000,
+        "plan": "yearly"
+      }
+    },
+    {
+      "id": "evt_094af939c2797ed5",
+      "type": "commission_created",
+      "createdAt": "2026-05-01T17:09:24.182Z",
+      "payload": {
+        "commissionId": "com_0592fb3cde24abca",
+        "referrerUserId": "usr_963db2c90ff68f92",
+        "referredUserId": "usr_a65a95250c1733f1",
+        "amountCents": 3800
+      }
+    },
+    {
+      "id": "evt_4b4634578df8a90d",
+      "type": "commission_paid",
+      "createdAt": "2026-05-01T17:09:24.961Z",
+      "payload": {
+        "commissionId": "com_d1926f020a2f98be",
+        "amountCents": 380,
+        "payoutReference": "TEST-REGLEMENT-20260501_190922"
+      }
+    }
+  ],
+  "settings": {
+    "commissionRate": 0.2,
+    "currency": "EUR"
+  }
+}

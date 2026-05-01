@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Connexion — Axis Lumen Studio</title>
+  <meta name="description" content="Connexion et inscription à Axis Lumen Studio.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css?v=20260501_190708">
+  <link rel="stylesheet" href="css/auth-admin.css?v=20260501_190708">
+  <link rel="stylesheet" href="css/referral-stripe-ready.css?v=20260501_191845">
+  <link rel="stylesheet" href="css/axis-global-top-nav.css?v=20260501_203303">
+  <link rel="stylesheet" href="css/home-dashboard-top.css?v=20260501_203717">
+  <link rel="stylesheet" href="css/axis-index-nav-exact.css?v=20260501_203717">
+</head>
+
+<body class="axis-auth-page">
+<header class="axis-top-dashboard">
+  <div class="axis-top-dashboard-inner">
+    <a class="axis-top-brand" href="index.html">
+      <strong>Axis Lumen</strong>
+    </a>
+
+    <nav class="axis-top-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="creer-seance.html">Créer sa séance</a>
+      <a href="pratiquer.html">Pratiquer</a>
+      <a href="oscillation.html">Oscillation guidée</a>
+      <a href="respiration.html">Respiration</a>
+      <a href="rotor-optique.html">Rotor optique</a>
+      <a href="tensions-statiques.html">Tensions statiques</a>
+      <a href="apprendre.html">Apprendre</a>
+      <a href="vertus.html">Vertus</a>
+      <a class="axis-top-cta" href="boutique.html">Boutique</a>
+      <a href="abonnement.html">Abonnement</a>
+      <a href="parrainage.html">Parrainage</a>
+      <a href="a-propos.html">À propos</a>
+      <a class="active" href="login.html">Connexion</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </div>
+</header>
+<div class="axis-auth-shell">
+    <header class="axis-auth-top">
+      <a class="axis-auth-brand" href="index.html">
+        <strong>Axis Lumen</strong>
+        <span>Compte, accès et parrainage</span>
+      </a>
+
+      <nav class="axis-auth-nav">
+        <a href="index.html">Accueil</a>
+        <a href="boutique.html">Boutique</a>
+        <a href="abonnement.html">Abonnement</a>
+        <a href="parrainage.html">Parrainage</a>
+          <a href="login.html">Connexion</a>
+          <a href="admin.html">Admin</a>
+      </nav>
+    </header>
+
+    <main class="axis-auth-grid">
+      <section class="axis-auth-hero">
+        <div>
+          <p class="home-kicker">Espace membre</p>
+          <h1>Entrer dans le <span>registre vivant</span></h1>
+          <p>
+            La connexion permet de créer un numéro client, de générer un code parrain,
+            de suivre les filleuls et de préparer la restitution propre des commissions.
+          </p>
+        </div>
+
+        <div class="axis-auth-list">
+          <div>Création du compte client</div>
+          <div>Code parrain personnel</div>
+          <div>Suivi des filleuls</div>
+          <div>Base prête pour Stripe et l’administration</div>
+        </div>
+      </section>
+
+      <section class="axis-auth-card">
+        <div class="axis-auth-tabs">
+          <button class="axis-auth-tab active" type="button" data-axis-auth-tab="login">Connexion</button>
+          <button class="axis-auth-tab" type="button" data-axis-auth-tab="register">Inscription</button>
+        </div>
+
+        <form id="axisLoginForm" class="axis-auth-form active">
+          <div class="axis-field">
+            <label for="axisLoginEmail">Email</label>
+            <input id="axisLoginEmail" type="email" autocomplete="email" required>
+          </div>
+
+          <div class="axis-field">
+            <label for="axisLoginPassword">Mot de passe</label>
+            <input id="axisLoginPassword" type="password" autocomplete="current-password" required>
+          </div>
+
+          <button class="axis-btn" type="submit">Se connecter</button>
+          <p id="axisLoginStatus" class="axis-status"></p>
+        </form>
+
+        <form id="axisRegisterForm" class="axis-auth-form">
+          <div class="axis-field">
+            <label for="axisRegisterName">Nom</label>
+            <input id="axisRegisterName" type="text" autocomplete="name" required>
+          </div>
+
+          <div class="axis-field">
+            <label for="axisRegisterEmail">Email</label>
+            <input id="axisRegisterEmail" type="email" autocomplete="email" required>
+          </div>
+
+          <div class="axis-field">
+            <label for="axisRegisterPassword">Mot de passe</label>
+            <input id="axisRegisterPassword" type="password" autocomplete="new-password" minlength="6" required>
+          </div>
+
+          <div class="axis-field">
+            <label for="axisRegisterReferral">Code parrain éventuel</label>
+            <input id="axisRegisterReferral" type="text" placeholder="Ex : AXIS1234">
+          </div>
+
+          <button class="axis-btn" type="submit">Créer mon compte</button>
+          <p id="axisRegisterStatus" class="axis-status"></p>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/axis-auth.js?v=20260501_190708"></script>
+  <script src="js/stripe-products.js?v=20260501_191845"></script>
+  <script src="js/axis-referral-stripe-ready.js?v=20260501_191845"></script></body>
+</html>

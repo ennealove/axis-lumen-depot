@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-04-30T00:35:00.705041",
+  "folder": "C:\\Users\\chauv\\Documents\\JE SUIS\\je-suis-site\\phosphene-studio\\assets\\books",
+  "imagesFound": 4,
+  "allImages": [
+    "assets/books/alimentation-cover.jpg",
+    "assets/books/exercices-cover.jpg",
+    "assets/books/je-suis-cover.jpg",
+    "assets/books/vertus-cover.jpg"
+  ],
+  "matched": {
+    "je-suis": "assets/books/je-suis-cover.jpg",
+    "vertus": "assets/books/vertus-cover.jpg",
+    "alimentation": "assets/books/alimentation-cover.jpg",
+    "exercices": "assets/books/exercices-cover.jpg"
+  }
+}

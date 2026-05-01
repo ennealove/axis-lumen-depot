@@ -1,0 +1,127 @@
+import { $, escapeHtml } from '../core/dom.js';
+import { state } from '../core/state.js';
+import { clampNumber, formatDuration, secondsToClock } from '../core/utils.js';
+import { moduleLabel } from '../core/schedule.js';
+import { buildGyroSchedule, getGyroConfig } from './gyrascope.js';
+import { populateAudioSelects } from './library.js';
+import { buildMixageSchedule } from './mixage.js';
+import { refreshPreviewState } from './pratique.js';
+import { buildBreathSchedule, getBreathConfig } from './respiration.js';
+import { buildTensionSchedule, getTensionConfig } from './tensions.js';
+
+const PENDING_INTENTION_KEY = 'axis_pending_session_intention';
+
+function readPendingIntention() {
+  try {
+    const raw = localStorage.getItem(PENDING_INTENTION_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
+function renderPendingIntentionHint() {
+  const host = $('#sessionIntentionHint');
+  if (!host) return;
+  const pending = readPendingIntention();
+  if (!pending?.intention) {
+    host.textContent = 'Aucune intention en attente.';
+    return;
+  }
+  const source = pending.sourceBook ? ` (${pending.sourceBook})` : '';
+  host.textContent = `Intention en attente${source}: ${pending.intention}`;
+}
+
+export function bindSessionInputs() {
+  [
+    'sessionObject', 'sessionSwing', 'sessionBreath', 'sessionFinal', 'sessionMixageMin', 'sessionBreathMin', 'sessionFinalMin',
+    'sessionMixageAudio', 'sessionBreathAudio', 'sessionFinalAudio', 'sessionGyroObject', 'sessionGyroModel', 'sessionGyroDirection',
+    'sessionGyroSpeed', 'sessionGyroColorInner', 'sessionGyroColorOuter'
+  ].forEach((id) => {
+    $('#' + id)?.addEventListener('input', refreshSessionSummary);
+    $('#' + id)?.addEventListener('change', refreshSessionSummary);
+  });
+  $('#sessionFinal')?.addEventListener('change', () => {
+    updateSessionFinalFields();
+    populateAudioSelects();
+  });
+  updateSessionFinalFields();
+  renderPendingIntentionHint();
+}
+
+export function updateSessionFinalFields() {
+  const isGyro = $('#sessionFinal')?.value === 'gyrascope';
+  $('#sessionGyroOptions')?.classList.toggle('is-hidden', !isGyro);
+}
+
+export function refreshSessionSummary() {
+    const cfg = getSessionConfig();
+    const phases = buildSessionSchedule(cfg);
+    const active = cfg.mixageMin + cfg.breathMin + cfg.finalMin;
+    const extraSec = phases.reduce((sum, item) => sum + item.duration, 0) - active * 60;
+    $('#sessionTotalActive').textContent = `${active} min`;
+    $('#sessionTotalReal').textContent = `~${formatDuration(active * 60 + extraSec)}`;
+    const host = $('#sessionPreview');
+    host.innerHTML = '';
+    phases.forEach((phase) => host.appendChild(renderPhaseItem(phase)));
+    renderPendingIntentionHint();
+    refreshPreviewState();
+  }
+
+export function renderPhaseItem(phase) {
+    const node = document.createElement('div');
+    node.className = 'phase-item';
+    const detail = phase.previewDetail ? `<small>${escapeHtml(phase.previewDetail)}</small>` : '';
+    node.innerHTML = `
+      <div class="phase-item-head">
+        <div>
+          <div class="tag">${escapeHtml(moduleLabel(phase.module))}</div>
+          <strong>${escapeHtml(phase.label)}</strong>
+          ${detail}
+        </div>
+        <div>${secondsToClock(phase.duration)}</div>
+      </div>
+    `;
+    return node;
+  }
+
+export function getSessionConfig() {
+  return {
+    objectKey: $('#sessionObject').value,
+    swingKey: $('#sessionSwing').value,
+    breathType: $('#sessionBreath').value,
+    mixageMin: clampNumber($('#sessionMixageMin').value, 15, 45, 15),
+    breathMin: clampNumber($('#sessionBreathMin').value, 3, 30, 15),
+    final: $('#sessionFinal').value,
+    finalMin: clampNumber($('#sessionFinalMin').value, 3, 30, 15),
+    mixageAudioId: $('#sessionMixageAudio').value,
+    breathAudioId: $('#sessionBreathAudio').value,
+    finalAudioId: $('#sessionFinalAudio').value,
+    gyro: {
+      objectKey: $('#sessionGyroObject').value || $('#sessionObject').value,
+      modelKey: $('#sessionGyroModel')?.value || $('#gyroModel')?.value || 'model1',
+      direction: $('#sessionGyroDirection').value,
+      speed: clampNumber($('#sessionGyroSpeed').value, 1, 10, 5),
+      innerColor: $('#sessionGyroColorInner').value,
+      outerColor: $('#sessionGyroColorOuter').value,
+      customImage: state.customGyroImageObj,
+    },
+  };
+}
+
+export function buildSessionSchedule(cfg) {
+  const phases = [];
+  const breathBase = getBreathConfig().base;
+  phases.push(...buildMixageSchedule({ objectKey: cfg.objectKey, swingKey: cfg.swingKey, durationMin: cfg.mixageMin, audioId: cfg.mixageAudioId }));
+  phases.push(...buildBreathSchedule({ type: cfg.breathType, base: breathBase, durationMin: cfg.breathMin, audioId: cfg.breathAudioId }));
+  if (['gyrascope', 'rotor optique', 'Rotor Optique'].includes(cfg.final)) {
+    const gyroCfg = { ...cfg.gyro, durationMin: cfg.finalMin, audioId: cfg.finalAudioId || getGyroConfig().audioId };
+    phases.push(...buildGyroSchedule(gyroCfg));
+  } else {
+    const tCfg = getTensionConfig();
+    phases.push(...buildTensionSchedule({ ...tCfg, durationMin: cfg.finalMin, audioId: cfg.finalAudioId || tCfg.audioId }));
+  }
+  return phases;
+}
+

@@ -1,0 +1,207 @@
+﻿/* ============================================================
+   PHOSPHENE STUDIO / JE SUIS — SESSION BUILDER
+   Onglet "Créer sa séance"
+   ============================================================ */
+
+.axis-session-builder-active > :not(#axisSessionBuilderRoot) {
+  display: none !important;
+}
+
+#axisSessionBuilderRoot {
+  display: block;
+}
+
+.axis-builder-shell {
+  display: grid;
+  gap: 18px;
+}
+
+.axis-builder-hero {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 211, 107, .18);
+  border-radius: 30px;
+  padding: 24px;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(255, 211, 107, .13), transparent 34%),
+    radial-gradient(circle at 88% 12%, rgba(115, 199, 255, .12), transparent 36%),
+    linear-gradient(180deg, rgba(6, 12, 26, .96), rgba(2, 6, 15, .96));
+  box-shadow: 0 28px 80px rgba(0, 0, 0, .35);
+}
+
+.axis-builder-hero h3 {
+  margin-top: 0;
+  color: var(--accent-2, #ffd36b);
+  letter-spacing: .02em;
+}
+
+.axis-builder-hero p {
+  max-width: 980px;
+}
+
+.axis-builder-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(320px, .9fr);
+  gap: 18px;
+}
+
+.axis-builder-panel {
+  border: 1px solid rgba(255, 211, 107, .14);
+  border-radius: 26px;
+  padding: 18px;
+  background: rgba(255, 255, 255, .035);
+}
+
+.axis-builder-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.axis-builder-field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.axis-builder-field label,
+.axis-builder-module label {
+  color: var(--muted, #aebfd8);
+  font-size: .9rem;
+}
+
+.axis-builder-field select,
+.axis-builder-field input {
+  width: 100%;
+}
+
+.axis-builder-modules {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.axis-builder-module {
+  display: grid;
+  grid-template-columns: auto 1fr 110px;
+  gap: 10px;
+  align-items: center;
+  padding: 12px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 211, 107, .12);
+  background: rgba(255, 255, 255, .035);
+}
+
+.axis-builder-module input[type="number"] {
+  width: 100%;
+}
+
+.axis-builder-summary {
+  display: grid;
+  gap: 10px;
+}
+
+.axis-builder-pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.axis-builder-pill {
+  border: 1px solid rgba(255, 211, 107, .16);
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, .04);
+  color: var(--text, #eef6ff);
+}
+
+.axis-builder-sequence-preview {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+  max-height: 440px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.axis-builder-step {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 10px;
+  align-items: start;
+  padding: 10px 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 211, 107, .10);
+  background: rgba(255, 255, 255, .032);
+}
+
+.axis-builder-step small {
+  color: var(--muted, #aebfd8);
+}
+
+.axis-builder-assets {
+  display: grid;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.axis-builder-asset {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  gap: 10px;
+  align-items: start;
+  color: var(--muted, #aebfd8);
+  font-size: .9rem;
+}
+
+.axis-builder-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  margin-top: 5px;
+  background: rgba(255, 211, 107, .35);
+}
+
+.axis-builder-dot.ok {
+  background: rgba(122, 255, 199, .75);
+}
+
+.axis-builder-dot.missing {
+  background: rgba(255, 170, 90, .85);
+}
+
+.axis-builder-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.axis-builder-note {
+  margin-top: 12px;
+  border: 1px solid rgba(255, 211, 107, .16);
+  border-radius: 18px;
+  padding: 12px;
+  background: rgba(255, 211, 107, .055);
+  color: var(--muted, #aebfd8);
+}
+
+@media (max-width: 980px) {
+  .axis-builder-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .axis-builder-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .axis-builder-module {
+    grid-template-columns: auto 1fr;
+  }
+
+  .axis-builder-module input[type="number"] {
+    grid-column: 1 / -1;
+  }
+}

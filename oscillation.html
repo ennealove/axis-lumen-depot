@@ -1,0 +1,354 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Oscillation guidée — Axis Lumen Studio</title>
+  <meta name="description" content="Oscillation guidée Axis Lumen : balancement latéral, balancement vertical et rotation.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/axis-clean-restoration.css">
+  <link rel="stylesheet" href="css/legal-pages.css">
+  <link rel="stylesheet" href="css/referral-stripe-ready.css">
+  <link rel="stylesheet" href="css/home-dashboard-top.css">
+  <link rel="stylesheet" href="css/axis-index-nav-exact.css">
+
+  <style>
+    body {
+      overflow-x: hidden;
+      background:
+        radial-gradient(circle at 22% 0%, rgba(216,180,95,.12), transparent 32%),
+        linear-gradient(180deg, #070b14, #050912 58%, #03060c);
+    }
+
+    .oscillation-main {
+      width: min(1320px, calc(100% - 34px));
+      margin: 0 auto;
+      padding: clamp(28px, 4vw, 56px) 0 82px;
+    }
+
+    .oscillation-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(300px, .95fr);
+      gap: clamp(22px, 4vw, 54px);
+      align-items: end;
+      margin-bottom: 26px;
+    }
+
+    .oscillation-kicker {
+      color: #f4d986;
+      text-transform: uppercase;
+      letter-spacing: .14em;
+      font-size: .78rem;
+      font-weight: 800;
+      margin: 0 0 12px;
+    }
+
+    .oscillation-hero h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: #ffe7a3;
+      font-size: clamp(2.8rem, 6vw, 6.2rem);
+      line-height: .9;
+      letter-spacing: -.055em;
+    }
+
+    .oscillation-hero p {
+      color: rgba(244,236,216,.76);
+      line-height: 1.75;
+      font-size: 1.06rem;
+      max-width: 780px;
+      margin: 16px 0 0;
+    }
+
+    .oscillation-note {
+      border: 1px solid rgba(216,180,95,.22);
+      background: linear-gradient(145deg, rgba(255,255,255,.07), rgba(255,255,255,.025));
+      border-radius: 26px;
+      padding: 22px;
+      color: rgba(244,236,216,.76);
+      line-height: 1.65;
+      box-shadow: 0 22px 70px rgba(0,0,0,.30);
+    }
+
+    .oscillation-player-card {
+      border: 1px solid rgba(216,180,95,.24);
+      border-radius: 34px;
+      padding: clamp(14px, 2vw, 22px);
+      background:
+        radial-gradient(circle at 50% 0%, rgba(216,180,95,.16), transparent 38%),
+        linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.025));
+      box-shadow: 0 30px 100px rgba(0,0,0,.38);
+      overflow: hidden;
+    }
+
+    .oscillation-player-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 14px;
+      color: rgba(244,236,216,.76);
+      flex-wrap: wrap;
+    }
+
+    .oscillation-active-label {
+      color: #ffe7a3;
+      font-weight: 800;
+    }
+
+    .oscillation-player-card video {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #000;
+      border-radius: 26px;
+      border: 1px solid rgba(216,180,95,.18);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.05);
+    }
+
+    .oscillation-buttons {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 22px;
+    }
+
+    .oscillation-choice {
+      text-align: left;
+      border: 1px solid rgba(216,180,95,.24);
+      background:
+        radial-gradient(circle at 0% 0%, rgba(216,180,95,.10), transparent 40%),
+        linear-gradient(145deg, rgba(255,255,255,.065), rgba(255,255,255,.025));
+      color: #f4ecd8;
+      border-radius: 28px;
+      padding: clamp(20px, 2.6vw, 30px);
+      cursor: pointer;
+      min-height: 178px;
+      transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease, background .18s ease;
+    }
+
+    .oscillation-choice:hover {
+      transform: translateY(-3px);
+      border-color: rgba(244,217,134,.58);
+      box-shadow: 0 20px 46px rgba(0,0,0,.30);
+    }
+
+    .oscillation-choice.is-active {
+      border-color: rgba(244,217,134,.86);
+      background:
+        radial-gradient(circle at 0% 0%, rgba(244,217,134,.18), transparent 42%),
+        linear-gradient(145deg, rgba(255,255,255,.09), rgba(255,255,255,.03));
+      box-shadow:
+        0 0 0 1px rgba(244,217,134,.26) inset,
+        0 24px 54px rgba(0,0,0,.35);
+    }
+
+    .oscillation-choice span {
+      display: inline-flex;
+      margin-bottom: 16px;
+      color: #10131a;
+      background: linear-gradient(135deg, #d8b45f, #f4d986);
+      border-radius: 999px;
+      padding: 7px 12px;
+      font-size: .76rem;
+      font-weight: 900;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .oscillation-choice h2 {
+      margin: 0 0 10px;
+      font-family: Georgia, "Times New Roman", serif;
+      color: #ffe7a3;
+      font-size: clamp(1.8rem, 3vw, 2.7rem);
+      line-height: 1;
+    }
+
+    .oscillation-choice p {
+      margin: 0;
+      color: rgba(244,236,216,.74);
+      line-height: 1.65;
+    }
+
+    .oscillation-protocol {
+      margin-top: 26px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .oscillation-protocol article {
+      border: 1px solid rgba(216,180,95,.18);
+      background: rgba(255,255,255,.045);
+      border-radius: 24px;
+      padding: 22px;
+      color: rgba(244,236,216,.74);
+    }
+
+    .oscillation-protocol strong {
+      display: block;
+      color: #ffe7a3;
+      margin-bottom: 8px;
+    }
+
+    .axis-legal-footer {
+      margin-top: 0;
+    }
+
+    @media (max-width: 980px) {
+      .oscillation-hero {
+        grid-template-columns: 1fr;
+      }
+
+      .oscillation-buttons,
+      .oscillation-protocol {
+        grid-template-columns: 1fr;
+      }
+
+      .oscillation-choice {
+        min-height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<header class="axis-top-dashboard">
+  <div class="axis-top-dashboard-inner">
+    <a class="axis-top-brand" href="index.html">
+      <strong>Axis Lumen</strong>
+    </a>
+
+    <nav class="axis-top-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="creer-seance.html">Créer sa séance</a>
+      <a href="pratiquer.html">Pratiquer</a>
+      <a class="active" href="oscillation.html">Oscillation guidée</a>
+      <a href="respiration.html">Respiration</a>
+      <a href="rotor-optique.html">Rotor optique</a>
+      <a href="tensions-statiques.html">Tensions statiques</a>
+      <a href="apprendre.html">Apprendre</a>
+      <a href="vertus.html">Vertus</a>
+      <a class="axis-top-cta" href="boutique.html">Boutique</a>
+      <a href="abonnement.html">Abonnement</a>
+      <a href="parrainage.html">Parrainage</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="login.html">Connexion</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </div>
+</header>
+
+<main class="oscillation-main">
+  <section class="oscillation-hero">
+    <div>
+      <p class="oscillation-kicker">Mouvement · Rythme · Axe</p>
+      <h1>Oscillation guidée</h1>
+      <p>
+        Choisis le mouvement à pratiquer. La vidéo principale change immédiatement :
+        latéral, vertical ou rotation. Les trois boutons restent sous l’écran, sans doublon.
+      </p>
+    </div>
+
+    <aside class="oscillation-note">
+      <strong>Principe :</strong> chaque mouvement installe une géométrie intérieure différente :
+      gauche-droite pour le recentrage, haut-bas pour l’axe, rotation pour le gyroscope intérieur.
+    </aside>
+  </section>
+
+  <section class="oscillation-player-card">
+    <div class="oscillation-player-head">
+      <span>Vidéo guidée officielle</span>
+      <span class="oscillation-active-label" id="axisOscillationLabel">Balancement latéral</span>
+    </div>
+
+    <video id="axisOscillationVideo" controls preload="metadata" controlsList="nodownload noremoteplayback" src="assets/videos/web/oscillation-lateral.mp4"></video>
+  </section>
+
+  <section class="oscillation-buttons" aria-label="Choisir la vidéo d’oscillation">
+    <button type="button" class="oscillation-choice is-active" data-label="Balancement latéral" data-src="assets/videos/web/oscillation-lateral.mp4">
+      <span>01</span>
+      <h2>Latéral</h2>
+      <p>Gauche / droite. Recentrage, alternance et stabilisation de l’attention.</p>
+    </button>
+
+    <button type="button" class="oscillation-choice" data-label="Balancement vertical" data-src="assets/videos/web/oscillation-vertical.mp4">
+      <span>02</span>
+      <h2>Vertical</h2>
+      <p>Haut / bas. Axe, verticalité et sensation d’alignement intérieur.</p>
+    </button>
+
+    <button type="button" class="oscillation-choice" data-label="Rotation" data-src="assets/videos/web/oscillation-rotation.mp4">
+      <span>03</span>
+      <h2>Rotation</h2>
+      <p>Mouvement circulaire. Travail du gyroscope intérieur et de la perception dynamique.</p>
+    </button>
+  </section>
+
+  <section class="oscillation-protocol">
+    <article>
+      <strong>1. Observer</strong>
+      Regarde la vidéo et laisse le rythme s’installer sans forcer.
+    </article>
+
+    <article>
+      <strong>2. Suivre</strong>
+      Entre dans le mouvement avec douceur, régularité et précision.
+    </article>
+
+    <article>
+      <strong>3. Intégrer</strong>
+      Ferme les yeux quelques instants et retrouve le mouvement en pensée.
+    </article>
+  </section>
+</main>
+
+<footer class="axis-legal-footer">
+  <div class="axis-legal-footer-inner">
+    <span>© Axis Lumen Studio</span>
+    <nav aria-label="Liens légaux">
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="cgu.html">CGU</a>
+      <a href="cgv.html">CGV</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var video = document.getElementById("axisOscillationVideo");
+    var label = document.getElementById("axisOscillationLabel");
+    var buttons = Array.prototype.slice.call(document.querySelectorAll(".oscillation-choice"));
+
+    function activate(button) {
+      var src = button.getAttribute("data-src");
+      var name = button.getAttribute("data-label");
+
+      buttons.forEach(function (btn) {
+        btn.classList.toggle("is-active", btn === button);
+      });
+
+      if (label) {
+        label.textContent = name;
+      }
+
+      if (video && src && video.getAttribute("src") !== src) {
+        video.pause();
+        video.setAttribute("src", src);
+        video.load();
+      }
+    }
+
+    buttons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        activate(button);
+      });
+    });
+  })();
+</script>
+</body>
+</html>

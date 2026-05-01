@@ -1,0 +1,472 @@
+﻿:root {
+  --rotor-bg: #030711;
+  --rotor-bg-soft: #08101d;
+  --rotor-card: rgba(7, 13, 25, 0.78);
+  --rotor-card-strong: rgba(5, 10, 20, 0.94);
+  --rotor-line: rgba(232, 205, 139, 0.18);
+  --rotor-line-soft: rgba(255, 255, 255, 0.08);
+  --rotor-gold: #e8cd8b;
+  --rotor-gold-strong: #ffd978;
+  --rotor-ivory: #f7edd7;
+  --rotor-muted: #aeb9cc;
+  --rotor-blue: #7bbcff;
+  --rotor-radius: 28px;
+  --rotor-shadow: 0 28px 90px rgba(0, 0, 0, 0.45);
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body.axis-rotor-page {
+  margin: 0;
+  color: var(--rotor-ivory);
+  background:
+    radial-gradient(circle at 50% -10%, rgba(232, 205, 139, 0.13), transparent 34rem),
+    radial-gradient(circle at 12% 18%, rgba(123, 188, 255, 0.12), transparent 30rem),
+    linear-gradient(180deg, #030711 0%, #060b16 48%, #02050d 100%);
+  overflow-x: hidden;
+}
+
+body.axis-rotor-lock {
+  overflow: hidden;
+}
+
+.axis-rotor-shell {
+  width: min(1600px, calc(100% - 36px));
+  margin: 0 auto;
+  padding: 34px 0 42px;
+}
+
+.axis-rotor-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 430px);
+  gap: 22px;
+  align-items: stretch;
+  margin-bottom: 24px;
+}
+
+.axis-rotor-eyebrow {
+  margin: 0 0 10px;
+  color: var(--rotor-gold-strong);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.76rem;
+}
+
+.axis-rotor-hero h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.7rem, 6vw, 6.2rem);
+  line-height: 0.92;
+  letter-spacing: -0.045em;
+}
+
+.axis-rotor-hero p {
+  max-width: 780px;
+  color: var(--rotor-muted);
+  line-height: 1.72;
+  font-size: clamp(1rem, 1.3vw, 1.18rem);
+}
+
+.axis-rotor-hero-card {
+  position: relative;
+  display: grid;
+  align-content: center;
+  gap: 10px;
+  min-height: 180px;
+  padding: 28px;
+  border-radius: var(--rotor-radius);
+  border: 1px solid var(--rotor-line);
+  background:
+    linear-gradient(135deg, rgba(232, 205, 139, 0.12), rgba(123, 188, 255, 0.06)),
+    rgba(8, 14, 27, 0.82);
+  box-shadow: var(--rotor-shadow);
+  overflow: hidden;
+}
+
+.axis-rotor-hero-card::before {
+  content: "";
+  position: absolute;
+  inset: auto -20% -78% -20%;
+  height: 170px;
+  background: radial-gradient(circle, rgba(232, 205, 139, 0.28), transparent 68%);
+}
+
+.axis-rotor-hero-card span {
+  color: var(--rotor-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.76rem;
+}
+
+.axis-rotor-hero-card strong {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--rotor-ivory);
+  font-size: clamp(1.3rem, 2vw, 2rem);
+  line-height: 1.12;
+}
+
+.axis-rotor-hero-card small {
+  color: var(--rotor-muted);
+  line-height: 1.5;
+}
+
+.axis-rotor-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(350px, 450px);
+  gap: 22px;
+  align-items: start;
+}
+
+.axis-rotor-stage-card,
+.axis-rotor-panel {
+  border: 1px solid var(--rotor-line);
+  border-radius: var(--rotor-radius);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.035), transparent),
+    var(--rotor-card);
+  box-shadow: var(--rotor-shadow);
+}
+
+.axis-rotor-stage-card {
+  padding: 16px;
+}
+
+.axis-rotor-stage {
+  position: relative;
+  height: clamp(660px, 76vh, 1040px);
+  min-height: 620px;
+  border-radius: calc(var(--rotor-radius) - 6px);
+  border: 1px solid rgba(232, 205, 139, 0.16);
+  background: #02050d;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.axis-rotor-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 620px;
+  background: #02050d;
+}
+
+.axis-rotor-hud {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  z-index: 4;
+  display: grid;
+  gap: 8px;
+  max-width: min(560px, calc(100% - 36px));
+  padding: 14px 16px;
+  border-radius: 20px;
+  border: 1px solid rgba(232, 205, 139, 0.17);
+  background: rgba(3, 7, 17, 0.62);
+  backdrop-filter: blur(12px);
+  pointer-events: none;
+}
+
+.axis-rotor-hud > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.axis-rotor-phase {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  color: var(--rotor-gold-strong);
+  border: 1px solid rgba(232, 205, 139, 0.24);
+  background: rgba(232, 205, 139, 0.08);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+#timerLabel {
+  color: var(--rotor-ivory);
+  font-size: clamp(1.35rem, 3vw, 2.6rem);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+#phaseHint {
+  margin: 0;
+  color: var(--rotor-muted);
+  line-height: 1.45;
+}
+
+.axis-rotor-fs-panel {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  z-index: 5;
+  display: none;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 12px;
+  border: 1px solid rgba(232, 205, 139, 0.18);
+  border-radius: 20px;
+  background: rgba(3, 7, 17, 0.64);
+  backdrop-filter: blur(14px);
+}
+
+.axis-rotor-fs-panel button {
+  border: 1px solid rgba(232, 205, 139, 0.24);
+  border-radius: 999px;
+  padding: 10px 14px;
+  color: var(--rotor-ivory);
+  background: rgba(232, 205, 139, 0.08);
+  cursor: pointer;
+}
+
+.axis-rotor-stage:fullscreen,
+.axis-rotor-stage.is-emulated-fullscreen {
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  border-radius: 0;
+  border: none;
+  background: #01040a;
+}
+
+.axis-rotor-stage:fullscreen .axis-rotor-canvas,
+.axis-rotor-stage.is-emulated-fullscreen .axis-rotor-canvas {
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.axis-rotor-stage:fullscreen .axis-rotor-fs-panel,
+.axis-rotor-stage.is-emulated-fullscreen .axis-rotor-fs-panel {
+  display: flex;
+}
+
+.axis-rotor-stage.is-emulated-fullscreen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+}
+
+.axis-rotor-stage-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.axis-rotor-btn {
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 12px 16px;
+  color: var(--rotor-ivory);
+  font-weight: 750;
+  cursor: pointer;
+  transition: transform 0.16s ease, border-color 0.16s ease, background 0.16s ease, opacity 0.16s ease;
+}
+
+.axis-rotor-btn:hover {
+  transform: translateY(-1px);
+}
+
+.axis-rotor-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+  transform: none;
+}
+
+.axis-rotor-btn.primary {
+  color: #07101d;
+  background: linear-gradient(135deg, var(--rotor-gold-strong), #f3bf5b);
+  box-shadow: 0 14px 34px rgba(232, 205, 139, 0.14);
+}
+
+.axis-rotor-btn.secondary {
+  background: rgba(7, 14, 28, 0.88);
+  border-color: rgba(232, 205, 139, 0.20);
+}
+
+.axis-rotor-btn.ghost {
+  color: var(--rotor-muted);
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.axis-rotor-controls {
+  display: grid;
+  gap: 16px;
+}
+
+.axis-rotor-panel {
+  padding: 22px;
+}
+
+.axis-rotor-panel h2 {
+  margin: 0 0 18px;
+  color: var(--rotor-ivory);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.45rem;
+  letter-spacing: -0.02em;
+}
+
+.axis-rotor-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.axis-rotor-field,
+.axis-rotor-check {
+  display: grid;
+  gap: 8px;
+  color: var(--rotor-muted);
+}
+
+.axis-rotor-field.wide,
+.axis-rotor-check,
+.wide-btn {
+  grid-column: 1 / -1;
+}
+
+.axis-rotor-field > span,
+.axis-rotor-check > span {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: rgba(246, 236, 215, 0.88);
+  font-size: 0.94rem;
+}
+
+.axis-rotor-field select,
+.axis-rotor-field input[type="range"] {
+  width: 100%;
+}
+
+.axis-rotor-field select {
+  color: var(--rotor-ivory);
+  border: 1px solid rgba(232, 205, 139, 0.16);
+  border-radius: 16px;
+  background: rgba(2, 6, 14, 0.72);
+  padding: 12px 13px;
+  outline: none;
+}
+
+.axis-rotor-field input[type="range"] {
+  accent-color: var(--rotor-gold-strong);
+}
+
+.axis-rotor-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(232, 205, 139, 0.12);
+  border-radius: 16px;
+  padding: 12px 13px;
+  background: rgba(2, 6, 14, 0.38);
+}
+
+.axis-rotor-check input {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--rotor-gold-strong);
+}
+
+.axis-rotor-summary {
+  color: var(--rotor-muted);
+  line-height: 1.55;
+  padding: 14px;
+  border-radius: 18px;
+  border: 1px solid rgba(232, 205, 139, 0.12);
+  background: rgba(2, 6, 14, 0.42);
+  margin-bottom: 12px;
+}
+
+.axis-rotor-summary strong {
+  color: var(--rotor-ivory);
+}
+
+.axis-rotor-timeline {
+  display: grid;
+  gap: 10px;
+}
+
+.axis-rotor-step {
+  display: grid;
+  gap: 5px;
+  padding: 13px 14px;
+  border-radius: 18px;
+  border: 1px solid rgba(232, 205, 139, 0.12);
+  background: rgba(2, 6, 14, 0.42);
+}
+
+.axis-rotor-step strong {
+  color: var(--rotor-ivory);
+}
+
+.axis-rotor-step span {
+  color: var(--rotor-muted);
+  font-size: 0.92rem;
+}
+
+@media (max-width: 1120px) {
+  .axis-rotor-hero,
+  .axis-rotor-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .axis-rotor-stage {
+    height: clamp(580px, 70vh, 900px);
+  }
+}
+
+@media (max-width: 720px) {
+  .axis-rotor-shell {
+    width: min(100% - 22px, 1600px);
+  }
+
+  .axis-rotor-stage-card {
+    padding: 10px;
+  }
+
+  .axis-rotor-stage {
+    min-height: 540px;
+    height: 68vh;
+  }
+
+  .axis-rotor-canvas {
+    min-height: 540px;
+  }
+
+  .axis-rotor-hud {
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    max-width: none;
+  }
+
+  .axis-rotor-fs-panel {
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .axis-rotor-stage-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .axis-rotor-btn {
+    width: 100%;
+  }
+
+  .axis-rotor-form-grid {
+    grid-template-columns: 1fr;
+  }
+}

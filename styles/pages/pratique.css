@@ -1,0 +1,13 @@
+.practice-card canvas { min-height: clamp(420px, 66vh, 860px); } .stage-overlay { position: fixed; inset: 0; background: #03060d; z-index: 50; display: grid; grid-template-rows: 58px 1fr 72px; gap: 0; padding: 0; min-height: 100dvh;
+} .stage-overlay.hidden { display: none; } .stage-top,
+.stage-bottom { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 10px 16px; background: rgba(3, 6, 13, 0.82); backdrop-filter: blur(8px); border: none;
+} .stage-center { position: relative; display: block; overflow: hidden; background: #02050c; min-height: 0;
+} .stage-center canvas { width: 100%; height: 100%; min-height: calc(100dvh - 130px); display: block; background: #02050c;
+} .stage-center-text { display: none;
+} .overlay-timer { font-size: clamp(1.8rem, 4vw, 3.4rem); font-weight: 800;
+} .stage-mantra,
+.stage-movement,
+.stage-guidance { display: none;
+} .stage-bottom .btn { padding: 10px 14px; min-height: 42px;
+} @media (max-width: 720px) { .stage-overlay { grid-template-rows: 54px 1fr 68px; } .stage-top, .stage-bottom { padding: 8px 10px; } .stage-center canvas { min-height: calc(100dvh - 122px); }
+}

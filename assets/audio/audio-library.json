@@ -1,0 +1,452 @@
+{
+  "tracks": [
+    {
+      "id": "builtin-ck3-01",
+      "nâme": "CK3 Piste 01",
+      "fileNâme": "ck3_piste_01.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "builtin-ck3-02",
+      "nâme": "CK3 Piste 02",
+      "fileNâme": "ck3_piste_02.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "builtin-ck3-02-wav",
+      "nâme": "CK3 Piste 02 (WAV)",
+      "fileNâme": "ck3_piste_02.wav",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "builtin-ck3-03",
+      "nâme": "CK3 Piste 03",
+      "fileNâme": "ck3_piste_03.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "builtin-ck3-03-wav",
+      "nâme": "CK3 Piste 03 (WAV)",
+      "fileNâme": "ck3_piste_03.wav",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "builtin-ck3-04",
+      "nâme": "CK3 Piste 04",
+      "fileNâme": "ck3_piste_04.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "builtin-ck3-04-wav",
+      "nâme": "CK3 Piste 04 (WAV)",
+      "fileNâme": "ck3_piste_04.wav",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-1s-3mn",
+      "nâme": "Rythme 1s (3 min)",
+      "fileNâme": "rythme_1s_3mn.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-1s-alt-3mn",
+      "nâme": "Rythme 1s Alt (3 min)",
+      "fileNâme": "rythme_1s_alt_3mn.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-6eme-s-alt-15mn",
+      "nâme": "Rythme 6e s Alt (15 min)",
+      "fileNâme": "rythme_6eme_s_alt_15mn.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-afrique1-1s-4mn",
+      "nâme": "Rythme Afrique 1 (4 min)",
+      "fileNâme": "rythme_afrique1_1s_4mn.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-afrique2-1s-4mn",
+      "nâme": "Rythme Afrique 2 (4 min)",
+      "fileNâme": "rythme_afrique2_1s_4mn.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-afrique-australian-3min",
+      "nâme": "Rythme Afr Australia (3 min)",
+      "fileNâme": "rythme_afr_austr_1s_alt_6e_sec_3min.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-australie1-4mn",
+      "nâme": "Rythme Australie 1 (4 min)",
+      "fileNâme": "rythme_australie1_1.05s_4mn.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-australie2-4mn",
+      "nâme": "Rythme Australie 2 (4 min)",
+      "fileNâme": "rythme_australie2_ 1.12s_4mn.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-australie3-4mn",
+      "nâme": "Rythme Australie 3 (4 min)",
+      "fileNâme": "rythme_australie3_0.94s_4mn.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-australie4-om",
+      "nâme": "Rythme Australie 4 (OM)",
+      "fileNâme": "rythme_australie4_om.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-bass-rotations-8min",
+      "nâme": "Rythme Bass Rotations (8 min)",
+      "fileNâme": "rythme_bass_rotations_1s_6e_sec_8min.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-cloches-8min",
+      "nâme": "Rythme Cloches (8 min)",
+      "fileNâme": "rythme_cloches_3s_8min.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-electro1-4mn",
+      "nâme": "Rythme Electro 1 (4 min)",
+      "fileNâme": "rythme_electro1_1.01s_4mn.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-electro2-4mn",
+      "nâme": "Rythme Electro 2 (4 min)",
+      "fileNâme": "rythme_electro2_1.11s_4mn.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-electro3-4mn",
+      "nâme": "Rythme Electro 3 (4 min)",
+      "fileNâme": "rythme_electro3_1.16s_4mn.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-multidimensionnel-11min",
+      "nâme": "Rythme Multidimensionnel (11 min)",
+      "fileNâme": "rythme_multidimensionnel_1s_alt_6e_sec_11min.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-rapide-8min",
+      "nâme": "Rythme Rapide (8 min)",
+      "fileNâme": "rythme_rapide_1s_6e_sec_8min.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-tictac-8min",
+      "nâme": "Rythme TicTac (8 min)",
+      "fileNâme": "rythme_tictac_1s_6e_sec_8min.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "rhythme-toumtac-8min",
+      "nâme": "Rythme TouMtac (8 min)",
+      "fileNâme": "rythme_toumtac_1s_6e_sec_8min.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "neuro-piste-01",
+      "nâme": "Neuro Piste 01",
+      "fileNâme": "neuro_piste_01.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "neuro-piste-02",
+      "nâme": "Neuro Piste 02",
+      "fileNâme": "neuro_piste_02.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "neuro-piste-03",
+      "nâme": "Neuro Piste 03",
+      "fileNâme": "neuro_piste_03.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "neuro-piste-04",
+      "nâme": "Neuro Piste 04",
+      "fileNâme": "neuro_piste_04.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "neuro-piste-05",
+      "nâme": "Neuro Piste 05",
+      "fileNâme": "neuro_piste_05.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "neuro-piste-06",
+      "nâme": "Neuro Piste 06",
+      "fileNâme": "neuro_piste_06.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "neuro-piste-07",
+      "nâme": "Neuro Piste 07",
+      "fileNâme": "neuro_piste_07.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "mantra-aum-3mn",
+      "nâme": "Mantra AUM (3 min)",
+      "fileNâme": "mantra_aum_3mn.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "mantra-aum-20mn",
+      "nâme": "Mantra AUM (20 min)",
+      "fileNâme": "mantra_aum_20mn.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "om-mantra-01",
+      "nâme": "OM Mantra 01",
+      "fileNâme": "OM-Mantra-01.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "om-mantra-02",
+      "nâme": "OM Mantra 02",
+      "fileNâme": "OM-Mantra-02.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "om-mantra-03",
+      "nâme": "OM Mantra 03",
+      "fileNâme": "OM-Mantra-03.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "om-mantra-04",
+      "nâme": "OM Mantra 04",
+      "fileNâme": "OM-Mantra-04.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "om-en-mi",
+      "nâme": "OM en Mi",
+      "fileNâme": "OM_en_mi.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "respirations-phosphenique",
+      "nâme": "Respirations Guidées",
+      "fileNâme": "Respirations-Phosphenique.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "equilibrage-rythme-1s",
+      "nâme": "Équilibrage Rythme 1s",
+      "fileNâme": "equilibrage rythme 1 sec alt.wav",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "variation-78hz-144hz",
+      "nâme": "Variation 78Hz 144Hz",
+      "fileNâme": "variation_78Hz_144Hz_6eme_s_30s.mp3",
+      "group": "z music biofeedbacks",
+      "source": "builtin"
+    },
+    {
+      "id": "light-music-heavenly",
+      "nâme": "Light Music - Heavenly Energy",
+      "fileNâme": "light_music-heavenly-energy-188908.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "light-music-lonely-heart",
+      "nâme": "Light Music - Lonely Heart",
+      "fileNâme": "light_music-lonely-heart-190966.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "light-music-zen-walk",
+      "nâme": "Light Music - Zen Walk",
+      "fileNâme": "light_music-zen-walk-176110.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "alan-frijns-dunbarton",
+      "nâme": "Alan Frijns - Dunbarton (Meditative Ambient)",
+      "fileNâme": "alan_frijns-dunbarton-meditative-ambient-soundscape-for-learning-and-relaxing-95403.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "alan-frijns-full-moon",
+      "nâme": "Alan Frijns - Full Moon (Deep Relaxation)",
+      "fileNâme": "alan_frijns-full-moon-deep-relaxation-meditation-yoga-zen-positive-sleep-music-140639.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "alan-frijns-rain",
+      "nâme": "Alan Frijns - Rain in Paradise Forest",
+      "fileNâme": "alan_frijns-rain-in-the-paradise-forest-yoga-zen-relaxation-positive-sleep-music-140636.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "petrushka-healing",
+      "nâme": "Petrushka - Healing Meditative Music",
+      "fileNâme": "petrushkasound-healing-meditative-music-438191.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "petrushka-yoga",
+      "nâme": "Petrushka - Yoga Calming Music",
+      "fileNâme": "petrushkasound-yoga-calming-music-438215.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "relaxingtime-healing",
+      "nâme": "Relaxing Time - Healing Sounds",
+      "fileNâme": "relaxingtime-healing-sounds-124056.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "relaxingtime-relax-vol10-a",
+      "nâme": "Relaxing Time - Relax Music Vol 10",
+      "fileNâme": "relaxingtime-relax-music-vol10-188655.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "relaxingtime-relax-vol10-b",
+      "nâme": "Relaxing Time - Relax Music Vol 10 (Alt)",
+      "fileNâme": "relaxingtime-relax-music-vol10-188655 (1).mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "relaxingtime-sleep",
+      "nâme": "Relaxing Time - Sleep Music",
+      "fileNâme": "relaxingtime-sleep-music-121638.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "rockot-airy",
+      "nâme": "Rockot - Airy Meditation Background",
+      "fileNâme": "rockot-airy-meditation-background-184567.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "rockot-ambient",
+      "nâme": "Rockot - Ambient for Meditation",
+      "fileNâme": "rockot-ambient-for-meditation-184568.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "rockot-beautiful",
+      "nâme": "Rockot - Beautiful Meditative Ambient",
+      "fileNâme": "rockot-beautiful-meditative-ambient-184570.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "rockot-meditation-nature",
+      "nâme": "Rockot - Meditation and Gentle Nature",
+      "fileNâme": "rockot-meditation-and-gentle-nature-184572.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "onetent-realaxing",
+      "nâme": "Onetent - Relaxing Meditation Music",
+      "fileNâme": "onetent-realxing-meditation-music-1-225174.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "sonorahealing-396hz",
+      "nâme": "Sonora Healing - 396 Hz Healing Sound",
+      "fileNâme": "sonorahealing-healing-sound-396_-hz-452272.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "tim-kulig-theta",
+      "nâme": "Tim Kulig - Deep 5Hz Theta Relaxation",
+      "fileNâme": "tim_kulig_free_music-deep-5hz-theta-relaxation-232572.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "angelic-meditation",
+      "nâme": "Angelic Meditation",
+      "fileNâme": "35433346-angelic-meditation-172334.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    },
+    {
+      "id": "aud-whatsapp",
+      "nâme": "Audio Recording",
+      "fileNâme": "AUD-20251120-WA0006.mp3",
+      "group": "z music playlist",
+      "source": "builtin"
+    }
+  ]
+}

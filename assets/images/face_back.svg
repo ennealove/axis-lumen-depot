@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#122746"/>
+      <stop offset="60%" stop-color="#091426"/>
+      <stop offset="100%" stop-color="#060b14"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="42%" r="42%">
+      <stop offset="0%" stop-color="#9fd8ff" stop-opacity="0.65"/>
+      <stop offset="55%" stop-color="#7ac2ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#7ac2ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#efd1bc"/>
+      <stop offset="100%" stop-color="#d9b49c"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4b2b1c"/>
+      <stop offset="100%" stop-color="#2b170f"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#647fb5"/>
+      <stop offset="100%" stop-color="#30456e"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <circle cx="450" cy="480" r="280" fill="url(#halo)"/>
+  <ellipse cx="450" cy="560" rx="240" ry="290" fill="url(#skin)"/>
+  <path d="M250 455c0-220 108-318 200-318s200 98 200 318v88c0 76-20 149-68 201-32 36-77 72-132 72s-100-36-132-72c-48-52-68-125-68-201z" fill="url(#hair)"/>
+  <path d="M300 455c35-26 88-38 150-38 61 0 114 12 150 38v190c0 49-13 95-42 132-29 37-67 56-108 56s-79-19-108-56c-29-37-42-83-42-132z" fill="#5a3423" opacity="0.35"/>
+  <ellipse cx="330" cy="580" rx="45" ry="68" fill="#efcfba"/>
+  <ellipse cx="570" cy="580" rx="45" ry="68" fill="#efcfba"/>
+  <path d="M310 870h280c70 0 140 52 170 130l15 40v160H125v-160l15-40c30-78 100-130 170-130z" fill="url(#shirt)"/>
+  <path d="M292 868c26-58 74-102 158-102 84 0 132 44 158 102-34 24-79 37-158 37s-124-13-158-37z" fill="#d6b8a8"/>
+  <circle cx="450" cy="478" r="275" fill="none" stroke="#9ed8ff" stroke-opacity="0.45" stroke-width="18"/>
+</svg>

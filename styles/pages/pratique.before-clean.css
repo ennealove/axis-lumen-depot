@@ -1,0 +1,13 @@
+.practice-card canvas { min-height: clamp(420px, 66vh, 860px); }
+.stage-overlay { position: fixed; inset: 0; background: #04070f; z-index: 50; display: grid; grid-template-rows: auto 1fr auto; gap: 0; padding: 0; min-height: 100dvh; }
+.stage-overlay.hidden { display: none; }
+.stage-top, .stage-bottom { padding: 16px 22px; background: rgba(4,7,15,0.92); border-bottom: 1px solid rgba(255,255,255,.06); }
+.stage-bottom { border-top: 1px solid rgba(255,255,255,.06); border-bottom: none; }
+.overlay-timer { font-size: clamp(1.8rem, 4vw, 3.4rem); font-weight: 800; }
+.stage-center { position: relative; display: grid; grid-template-rows: minmax(0,1fr) auto; border: none; border-radius: 0; overflow: hidden; background: #02050c; min-height: 0; }
+.stage-center canvas { width: 100%; height: 100%; min-height: 58vh; display: block; background: #02050c; }
+.stage-center-text { position: static; left: auto; right: auto; bottom: auto; max-width: none; background: rgba(2,5,12,0.94); border-top: 1px solid rgba(255,255,255,.06); border-radius: 0; padding: 16px 22px 18px; pointer-events: none; text-shadow: none; }
+.stage-mantra { font-size: clamp(1.2rem, 2vw, 2rem); font-weight: 800; margin-bottom: 6px; letter-spacing: 0.03em; }
+.stage-movement { color: var(--accent-2); font-size: clamp(1rem, 1.4vw, 1.2rem); margin-bottom: 6px; }
+.stage-guidance { color: var(--muted); line-height: 1.5; }
+@media (max-width: 720px) { .stage-top, .stage-bottom, .stage-center-text { padding: 14px; } }

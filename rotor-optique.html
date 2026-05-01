@@ -1,0 +1,221 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Rotor optique — Axis Lumen Studio</title>
+  <meta name="description" content="Rotor optique Axis Lumen : objet, lumière, rotation gyroscopique, voix de guidage et piste musicale.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/axis-clean-restoration.css">
+  <link rel="stylesheet" href="css/legal-pages.css">
+  <link rel="stylesheet" href="css/referral-stripe-ready.css">
+  <link rel="stylesheet" href="css/home-dashboard-top.css">
+  <link rel="stylesheet" href="css/axis-index-nav-exact.css">
+  <link rel="stylesheet" href="css/axis-rotor-premium.css">
+</head>
+
+<body class="axis-rotor-page">
+<header class="axis-top-dashboard">
+  <div class="axis-top-dashboard-inner">
+    <a class="axis-top-brand" href="index.html">
+      <strong>Axis Lumen</strong>
+    </a>
+
+    <nav class="axis-top-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="creer-seance.html">Créer sa séance</a>
+      <a href="pratiquer.html">Pratiquer</a>
+      <a href="oscillation.html">Oscillation guidée</a>
+      <a href="respiration.html">Respiration</a>
+      <a class="active" href="rotor-optique.html">Rotor optique</a>
+      <a href="tensions-statiques.html">Tensions statiques</a>
+      <a href="apprendre.html">Apprendre</a>
+      <a href="vertus.html">Vertus</a>
+      <a class="axis-top-cta" href="boutique.html">Boutique</a>
+      <a href="abonnement.html">Abonnement</a>
+      <a href="parrainage.html">Parrainage</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="login.html">Connexion</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </div>
+</header>
+
+<main class="axis-rotor-shell">
+  <section class="axis-rotor-hero">
+    <div>
+      <p class="axis-rotor-eyebrow">Objet · lumière · rotation · voix · musique</p>
+      <h1>Rotor optique</h1>
+      <p>
+        Génère une séance complète : observation de l’objet, observation lumineuse,
+        rotation gyroscopique en grand format, voix de guidage, cloche de transition
+        et piste musicale dédiée.
+      </p>
+    </div>
+
+    <aside class="axis-rotor-hero-card">
+      <span>Déroulement</span>
+      <strong>30 s objet → 30 s lumière → rotation guidée</strong>
+      <small>Le gyroscope peut être agrandi et lancé en plein écran immersif.</small>
+    </aside>
+  </section>
+
+  <section class="axis-rotor-grid">
+    <article class="axis-rotor-stage-card">
+      <div id="rotorStage" class="axis-rotor-stage">
+        <canvas id="rotorCanvas" class="axis-rotor-canvas" aria-label="Aperçu du Rotor optique"></canvas>
+
+        <div class="axis-rotor-hud">
+          <div>
+            <span id="phaseBadge" class="axis-rotor-phase">Prévisualisation</span>
+            <strong id="timerLabel">00:00</strong>
+          </div>
+          <p id="phaseHint">Configure la séance, puis lance le rotor optique.</p>
+        </div>
+
+        <div class="axis-rotor-fs-panel">
+          <button id="fsPauseBtn" type="button">Pause</button>
+          <button id="fsResumeBtn" type="button">Reprendre</button>
+          <button id="fsExitBtn" type="button">Quitter plein écran</button>
+        </div>
+      </div>
+
+      <div class="axis-rotor-stage-actions">
+        <button id="generateBtn" type="button" class="axis-rotor-btn secondary">Générer la séance</button>
+        <button id="startBtn" type="button" class="axis-rotor-btn primary">Lancer la séance</button>
+        <button id="fullscreenBtn" type="button" class="axis-rotor-btn secondary">Plein écran</button>
+        <button id="pauseBtn" type="button" class="axis-rotor-btn secondary">Pause</button>
+        <button id="resumeBtn" type="button" class="axis-rotor-btn secondary">Reprendre</button>
+        <button id="stopBtn" type="button" class="axis-rotor-btn ghost">Arrêter</button>
+      </div>
+    </article>
+
+    <aside class="axis-rotor-controls">
+      <article class="axis-rotor-panel">
+        <h2>Réglages visuels</h2>
+
+        <div class="axis-rotor-form-grid">
+          <label class="axis-rotor-field">
+            <span>Modèle de gyroscope</span>
+            <select id="gyroModel">
+              <option value="model1">Modèle 1</option>
+              <option value="model2">Modèle 2</option>
+              <option value="model3">Modèle 3</option>
+              <option value="model4">Modèle 4</option>
+            </select>
+          </label>
+
+          <label class="axis-rotor-field">
+            <span>Objet de fixation</span>
+            <select id="objectSelect">
+              <option value="flower">Fleur</option>
+              <option value="tree">Arbre</option>
+              <option value="geometry">Géométrie</option>
+            </select>
+          </label>
+
+          <label class="axis-rotor-field">
+            <span>Sens de rotation</span>
+            <select id="directionSelect">
+              <option value="clockwise">Horaire</option>
+              <option value="counterclockwise">Antihoraire</option>
+            </select>
+          </label>
+
+          <label class="axis-rotor-field">
+            <span>Durée rotation</span>
+            <select id="durationSelect">
+              <option value="3">3 minutes</option>
+              <option value="5">5 minutes</option>
+              <option value="8">8 minutes</option>
+              <option value="10">10 minutes</option>
+              <option value="15">15 minutes</option>
+              <option value="20">20 minutes</option>
+              <option value="30">30 minutes</option>
+            </select>
+          </label>
+
+          <label class="axis-rotor-field wide">
+            <span>Vitesse <output id="speedOutput">15</output></span>
+            <input id="speedRange" type="range" min="1" max="30" step="1" value="15">
+          </label>
+
+          <label class="axis-rotor-field wide">
+            <span>Taille du gyroscope <output id="sizeOutput">90%</output></span>
+            <input id="sizeRange" type="range" min="68" max="96" step="1" value="90">
+          </label>
+        </div>
+      </article>
+
+      <article class="axis-rotor-panel">
+        <h2>Voix et musique</h2>
+
+        <div class="axis-rotor-form-grid">
+          <label class="axis-rotor-check">
+            <span>Voix de guidage</span>
+            <input id="voiceToggle" type="checkbox" checked>
+          </label>
+
+          <label class="axis-rotor-check">
+            <span>Cloche de transition</span>
+            <input id="bellToggle" type="checkbox" checked>
+          </label>
+
+          <label class="axis-rotor-field wide">
+            <span>Voix numérique</span>
+            <select id="voiceSelect"></select>
+          </label>
+
+          <label class="axis-rotor-field">
+            <span>Vitesse voix <output id="voiceRateOutput">0.95</output></span>
+            <input id="voiceRate" type="range" min="0.75" max="1.35" step="0.05" value="0.95">
+          </label>
+
+          <label class="axis-rotor-field">
+            <span>Volume voix <output id="voiceVolumeOutput">0.85</output></span>
+            <input id="voiceVolume" type="range" min="0" max="1" step="0.05" value="0.85">
+          </label>
+
+          <label class="axis-rotor-field wide">
+            <span>Piste musicale</span>
+            <select id="musicSelect"></select>
+          </label>
+
+          <label class="axis-rotor-field wide">
+            <span>Volume musique <output id="musicVolumeOutput">0.32</output></span>
+            <input id="musicVolume" type="range" min="0" max="1" step="0.05" value="0.32">
+          </label>
+
+          <button id="testVoiceBtn" class="axis-rotor-btn secondary wide-btn" type="button">Tester la voix</button>
+        </div>
+      </article>
+
+      <article class="axis-rotor-panel">
+        <h2>Séance générée</h2>
+        <div id="sessionSummary" class="axis-rotor-summary"></div>
+        <div id="sessionTimeline" class="axis-rotor-timeline"></div>
+      </article>
+    </aside>
+  </section>
+</main>
+
+<footer class="axis-legal-footer">
+  <div class="axis-legal-footer-inner">
+    <span>© Axis Lumen Studio</span>
+    <nav aria-label="Liens légaux">
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="cgu.html">CGU</a>
+      <a href="cgv.html">CGV</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/axis-session-audio-map.js?v=20260501_214944"></script>
+<script src="js/axis-rotor-premium.js" defer></script>
+</body>
+</html>
+

@@ -1,0 +1,52 @@
+:root {
+  --restore-bg-top: #081126;
+  --restore-bg-bottom: #030813;
+  --restore-panel: rgba(9, 16, 30, 0.88);
+  --restore-panel-strong: rgba(7, 13, 24, 0.96);
+  --restore-line: rgba(146, 190, 255, 0.24);
+}
+
+body {
+  font-family: "Aptos", "Segoe UI Variable", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at 12% -2%, rgba(255, 211, 107, 0.14), transparent 30%),
+    radial-gradient(circle at 90% 12%, rgba(115, 199, 255, 0.16), transparent 36%),
+    linear-gradient(180deg, var(--restore-bg-top) 0%, var(--restore-bg-bottom) 60%, #02050d 100%);
+}
+
+.sidebar.glass,
+.topbar.glass,
+.card,
+.settings-block {
+  background: var(--restore-panel);
+  border-color: var(--restore-line);
+}
+
+.topbar.glass,
+.card {
+  box-shadow: 0 22px 56px rgba(0, 0, 0, 0.34);
+}
+
+.nav-tab {
+  border-color: rgba(146, 190, 255, 0.2);
+  background: linear-gradient(145deg, rgba(10, 18, 34, 0.84), rgba(8, 14, 26, 0.9));
+}
+
+.nav-tab.active,
+.nav-tab:hover {
+  border-color: rgba(122, 201, 255, 0.58);
+}
+
+canvas {
+  image-rendering: auto;
+}
+
+.primary-btn {
+  box-shadow: 0 14px 30px rgba(70, 148, 235, 0.34);
+}
+
+input,
+select,
+textarea {
+  background: var(--restore-panel-strong);
+}

@@ -1,0 +1,456 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Boutique — Axis Lumen Studio</title>
+  <meta name="description" content="Boutique Axis Lumen Studio : les 4 livres fondamentaux et le pack complet.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/boutique-simple.css">
+  <link rel="stylesheet" href="css/legal-pages.css">
+  <link rel="stylesheet" href="css/referral-stripe-ready.css">
+
+  <style>
+    .boutique-sidebar {
+      overflow-y: auto;
+      overflow-x: hidden;
+      scrollbar-width: auto;
+      scrollbar-color: rgba(244, 217, 134, 0.95) rgba(255, 255, 255, 0.08);
+    }
+
+    .boutique-sidebar::-webkit-scrollbar {
+      width: 16px;
+    }
+
+    .boutique-sidebar::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 999px;
+    }
+
+    .boutique-sidebar::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #f4d986, #c99d3f);
+      border-radius: 999px;
+      border: 3px solid rgba(5, 9, 18, 0.96);
+    }
+
+    .shop-card .shop-cover-frame img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .pack-card {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: minmax(520px, 1.2fr) minmax(360px, 0.8fr);
+      gap: clamp(28px, 4vw, 58px);
+      align-items: stretch;
+      padding: clamp(28px, 4vw, 56px);
+      overflow: hidden;
+    }
+
+    .pack-card .shop-media {
+      min-height: clamp(560px, 60vw, 860px);
+      display: grid;
+      place-items: center;
+      align-self: stretch;
+    }
+
+    .pack-card .shop-cover-frame.landscape {
+      width: 100%;
+      max-width: none;
+      min-height: clamp(520px, 56vw, 800px);
+      aspect-ratio: auto;
+      display: grid;
+      place-items: center;
+      padding: clamp(18px, 2.4vw, 30px);
+      border-radius: 34px;
+      border: 1px solid rgba(216, 180, 95, 0.28);
+      background:
+        radial-gradient(circle at 50% 18%, rgba(216, 180, 95, 0.18), transparent 44%),
+        linear-gradient(180deg, rgba(255,255,255,0.075), rgba(255,255,255,0.025));
+      box-shadow: 0 34px 100px rgba(0, 0, 0, 0.42);
+    }
+
+    .pack-card .shop-cover-frame.landscape img {
+      width: 100%;
+      max-width: 100%;
+      max-height: clamp(460px, 50vw, 720px);
+      object-fit: contain;
+      border-radius: 24px;
+    }
+
+    .pack-card .shop-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .pack-card .shop-title {
+      font-size: clamp(2.6rem, 5vw, 5.2rem);
+      line-height: 0.96;
+    }
+
+    .pack-card .shop-subtitle {
+      max-width: 680px;
+      font-size: clamp(1.08rem, 1.45vw, 1.3rem);
+      line-height: 1.7;
+    }
+
+    .pack-card .shop-price {
+      font-size: clamp(2.2rem, 3.4vw, 3.4rem);
+    }
+
+    @media (max-width: 980px) {
+      .pack-card {
+        grid-template-columns: 1fr;
+      }
+
+      .pack-card .shop-media {
+        min-height: auto;
+      }
+
+      .pack-card .shop-cover-frame.landscape {
+        min-height: 420px;
+      }
+
+      .pack-card .shop-cover-frame.landscape img {
+        max-height: 420px;
+      }
+    }
+
+
+      .pack-card .shop-media {
+        min-height: auto;
+      }
+    }
+  </style>
+  <style id="axis-pack-fill-override">
+    .pack-card {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: minmax(560px, 1.25fr) minmax(360px, 0.75fr);
+      gap: clamp(28px, 4vw, 56px);
+      align-items: stretch;
+      padding: clamp(24px, 3.5vw, 44px);
+    }
+
+    .pack-card .shop-media {
+      min-height: clamp(620px, 62vw, 900px);
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+    }
+
+    .pack-card .shop-cover-frame.landscape {
+      width: 100%;
+      height: 100%;
+      min-height: clamp(620px, 62vw, 900px);
+      max-width: none;
+      padding: 0;
+      overflow: hidden;
+      border-radius: 36px;
+      display: flex;
+      align-items: stretch;
+      justify-content: stretch;
+    }
+
+    .pack-card .shop-cover-frame.landscape img,
+    .pack-card img[src*="pack-cover"] {
+      width: 100%;
+      height: 100%;
+      min-height: clamp(620px, 62vw, 900px);
+      max-height: none;
+      display: block;
+      object-fit: cover;
+      object-position: center center;
+      border-radius: 36px;
+    }
+
+    .pack-card .shop-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    @media (max-width: 980px) {
+      .pack-card {
+        grid-template-columns: 1fr;
+      }
+
+      .pack-card .shop-media,
+      .pack-card .shop-cover-frame.landscape,
+      .pack-card .shop-cover-frame.landscape img,
+      .pack-card img[src*="pack-cover"] {
+        min-height: clamp(420px, 82vw, 640px);
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="css/axis-global-top-nav.css?v=20260501_203303">
+  <link rel="stylesheet" href="css/home-dashboard-top.css?v=20260501_203717">
+  <link rel="stylesheet" href="css/axis-index-nav-exact.css?v=20260501_203717">
+</head>
+
+<body>
+<header class="axis-top-dashboard">
+  <div class="axis-top-dashboard-inner">
+    <a class="axis-top-brand" href="index.html">
+      <strong>Axis Lumen</strong>
+    </a>
+
+    <nav class="axis-top-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="creer-seance.html">Créer sa séance</a>
+      <a href="pratiquer.html">Pratiquer</a>
+      <a href="oscillation.html">Oscillation guidée</a>
+      <a href="respiration.html">Respiration</a>
+      <a href="rotor-optique.html">Rotor optique</a>
+      <a href="tensions-statiques.html">Tensions statiques</a>
+      <a href="apprendre.html">Apprendre</a>
+      <a href="vertus.html">Vertus</a>
+      <a class="active axis-top-cta" href="boutique.html">Boutique</a>
+      <a href="abonnement.html">Abonnement</a>
+      <a href="parrainage.html">Parrainage</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="login.html">Connexion</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </div>
+</header>
+<div class="boutique-page">
+    <aside class="boutique-sidebar">
+      <div class="brand-card">
+        <div class="brand-badge">◎</div>
+        <h2 class="brand-title">Axis Lumen</h2>
+        <p class="brand-text">Studio initiatique premium — lumière, souffle, rythme, vertus et pratique.</p>
+      </div>
+
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="creer-seance.html">Créer sa séance</a>
+        <a href="oscillation.html">Oscillation guidée</a>
+        <a href="respiration.html">Respiration</a>
+        <a href="rotor-optique.html">Rotor optique</a>
+        <a href="tensions-statiques.html">Tensions statiques</a>
+        <a href="apprendre.html">Apprendre</a>
+      <a href="vertus.html">Vertus</a>
+        <a href="boutique.html" class="active">Boutique</a>
+        <a href="abonnement.html">Abonnement</a>
+        <a href="parrainage.html">Parrainage</a>
+        <a href="login.html">Connexion</a>
+        <a href="admin.html">Admin</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="pratiquer.html">Pratiquer</a>
+      </nav>
+    </aside>
+
+    <main class="boutique-main">
+      <section class="hero">
+        <p class="hero-kicker">Boutique</p>
+        <h1>Les 4 livres<br>et le pack complet</h1>
+        <p>
+          Une boutique simple, lisible et élégante : quatre ouvrages fondamentaux,
+          leurs vraies couvertures, puis une offre complète dédiée à la collection.
+        </p>
+      </section>
+
+      <section class="shop-grid" aria-label="Collection Axis Lumen">
+        <article class="shop-card">
+          <div class="shop-media">
+            <div class="shop-cover-frame portrait">
+              <img src="assets/books/je-suis-cover.jpg" alt="Couverture JE SUIS — Rendre son temple vivant">
+            </div>
+          </div>
+
+          <div class="shop-body">
+            <span class="shop-format">Livre fondamental</span>
+            <h2 class="shop-title">JE SUIS</h2>
+            <p class="shop-subtitle">Rendre son temple vivant — le chemin du retour à soi, du mouvement, de la conscience et de l’amour.</p>
+
+            <div class="shop-meta">
+              <span class="shop-chip">PDF</span>
+              <span class="shop-chip">EPUB</span>
+              <span class="shop-chip">Papier</span>
+            </div>
+
+            <div class="shop-price">19 € <small>à 29 €</small></div>
+
+            <div class="shop-actions">
+              <button class="shop-btn primary" data-buy-product="JE SUIS">Acheter</button>
+              <button class="shop-btn secondary" data-toggle-details="details-je-suis">Détails</button>
+            </div>
+
+            <div class="shop-details" id="details-je-suis">
+              <p>
+                Ouvrage d’entrée dans l’univers Axis Lumen. Il pose les bases du recentrage,
+                du retour à soi, de la présence, du mouvement intérieur et du rapport au temple vivant.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="shop-card">
+          <div class="shop-media">
+            <div class="shop-cover-frame portrait">
+              <img src="assets/books/vertus-cover.jpg" alt="Couverture Le Livre des Vertus">
+            </div>
+          </div>
+
+          <div class="shop-body">
+            <span class="shop-format">Jeu / Livre</span>
+            <h2 class="shop-title">Le Livre des Vertus</h2>
+            <p class="shop-subtitle">Cartes à tirer pour éclairer le chemin intérieur, nourrir l’observation et soutenir l’intégration.</p>
+
+            <div class="shop-meta">
+              <span class="shop-chip">Papier</span>
+              <span class="shop-chip">72 vertus</span>
+              <span class="shop-chip">Pratique intérieure</span>
+            </div>
+
+            <div class="shop-price">34 €</div>
+
+            <div class="shop-actions">
+              <button class="shop-btn primary" data-buy-product="Le Livre des Vertus">Acheter</button>
+              <button class="shop-btn secondary" data-toggle-details="details-vertus">Détails</button>
+            </div>
+
+            <div class="shop-details" id="details-vertus">
+              <p>
+                Un support de contemplation, de tirage et de progression intérieure.
+                Chaque vertu invite à une observation, une orientation et une transformation concrète.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="shop-card">
+          <div class="shop-media">
+            <div class="shop-cover-frame portrait">
+              <img src="assets/books/alimentation-cover.jpg" alt="Couverture Le Livre de l’Alimentation">
+            </div>
+          </div>
+
+          <div class="shop-body">
+            <span class="shop-format">Terrain vivant</span>
+            <h2 class="shop-title">Le Livre de l’Alimentation</h2>
+            <p class="shop-subtitle">Nourrir, purifier, élever — une approche sobre du terrain, de la conscience et de l’hygiène intérieure.</p>
+
+            <div class="shop-meta">
+              <span class="shop-chip">Papier</span>
+              <span class="shop-chip">Terrain</span>
+              <span class="shop-chip">Conscience</span>
+            </div>
+
+            <div class="shop-price">29 €</div>
+
+            <div class="shop-actions">
+              <button class="shop-btn primary" data-buy-product="Le Livre de l’Alimentation">Acheter</button>
+              <button class="shop-btn secondary" data-toggle-details="details-alimentation">Détails</button>
+            </div>
+
+            <div class="shop-details" id="details-alimentation">
+              <p>
+                Un ouvrage consacré au terrain vivant, à la purification, au choix juste,
+                à l’eau, à l’équilibre intérieur et à une alimentation plus consciente.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="shop-card">
+          <div class="shop-media">
+            <div class="shop-cover-frame portrait">
+              <img src="assets/books/exercices-cover.jpg" alt="Couverture Le Livre d’Exercices">
+            </div>
+          </div>
+
+          <div class="shop-body">
+            <span class="shop-format">Pratique</span>
+            <h2 class="shop-title">Le Livre d’Exercices</h2>
+            <p class="shop-subtitle">Mouvement, respiration, présence — pour équilibrer le corps, stabiliser l’axe et élever la conscience.</p>
+
+            <div class="shop-meta">
+              <span class="shop-chip">Papier</span>
+              <span class="shop-chip">Respiration</span>
+              <span class="shop-chip">Balancements</span>
+            </div>
+
+            <div class="shop-price">39 €</div>
+
+            <div class="shop-actions">
+              <button class="shop-btn primary" data-buy-product="Le Livre d’Exercices">Acheter</button>
+              <button class="shop-btn secondary" data-toggle-details="details-exercices">Détails</button>
+            </div>
+
+            <div class="shop-details" id="details-exercices">
+              <p>
+                Le support pédagogique pour les pratiques : observation lumineuse,
+                respiration, balancements, recentrage, intégration et progression.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="shop-card pack-card">
+          <div class="shop-media">
+            <div class="shop-cover-frame landscape">
+              <img src="assets/books/pack-cover.png" alt="Pack complet Axis Lumen — les 4 livres">
+            </div>
+          </div>
+
+          <div class="shop-body">
+            <span class="shop-format">Pack complet</span>
+            <h2 class="shop-title">Pack complet — 4 livres</h2>
+            <p class="shop-subtitle">Les quatre ouvrages réunis dans une seule offre pour entrer pleinement dans l’univers Axis Lumen.</p>
+
+            <div class="shop-meta">
+              <span class="shop-chip">JE SUIS</span>
+              <span class="shop-chip">Vertus</span>
+              <span class="shop-chip">Alimentation</span>
+              <span class="shop-chip">Exercices</span>
+            </div>
+
+            <div class="shop-price">119 €</div>
+
+            <div class="shop-actions">
+              <button class="shop-btn primary" data-buy-product="Pack complet">Acheter</button>
+              <button class="shop-btn secondary" data-toggle-details="details-pack">Détails</button>
+            </div>
+
+            <div class="shop-details" id="details-pack">
+              <p>
+                Le pack réunit les quatre livres pour bénéficier d’une vue d’ensemble :
+                fondation intérieure, vertus, terrain vivant et pratique corporelle.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <div class="shop-note">
+        Les boutons d’achat sont prêts à être reliés à Stripe. Tu pourras ensuite connecter chaque bouton
+        à un Payment Link ou à une future intégration Checkout.
+      </div>
+    </main>
+  </div>
+
+  <footer class="axis-legal-footer">
+    <div class="axis-legal-footer-inner">
+      <span>© Axis Lumen Studio</span>
+      <nav aria-label="Liens légaux">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="cgu.html">CGU</a>
+        <a href="cgv.html">CGV</a>
+        <a href="confidentialite.html">Confidentialité</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/boutique-simple.js"></script>
+  <script src="js/stripe-products.js"></script>
+  <script src="js/axis-referral-stripe-ready.js"></script>
+</body>
+</html>

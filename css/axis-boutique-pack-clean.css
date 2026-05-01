@@ -1,0 +1,42 @@
+.axis-boutique-pack-visual {
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto 24px;
+  padding: 18px;
+  border-radius: 32px;
+  border: 1px solid rgba(216, 180, 95, 0.26);
+  background:
+    radial-gradient(circle at 50% 18%, rgba(216, 180, 95, 0.20), transparent 42%),
+    linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03));
+  box-shadow: 0 28px 90px rgba(0,0,0,0.36);
+}
+
+.axis-boutique-pack-cover {
+  display: block;
+  width: 100%;
+  max-width: 430px;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: 24px;
+}
+
+.axis-pack-cover-img,
+.axis-home-pack-cover,
+.axis-home-pack-visual {
+  display: none !important;
+}
+
+@media (max-width: 720px) {
+  .axis-boutique-pack-visual {
+    max-width: 360px;
+    padding: 14px;
+    border-radius: 24px;
+  }
+
+  .axis-boutique-pack-cover {
+    max-width: 300px;
+    border-radius: 18px;
+  }
+}

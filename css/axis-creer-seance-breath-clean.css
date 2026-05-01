@@ -1,0 +1,39 @@
+/* AXIS LUMEN — Nettoyage Créer une séance */
+.axis-session-preview-killed {
+  display: none !important;
+}
+
+.axis-breath-enum-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 14px 0;
+}
+
+.axis-breath-enum-field span,
+.axis-breath-enum-label {
+  color: #ffd36b;
+  font-weight: 800;
+  letter-spacing: .04em;
+}
+
+.axis-breath-enum-field select,
+#axis-session-breath-type {
+  width: 100%;
+  min-height: 48px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 211, 107, .24);
+  background: rgba(8, 13, 24, .92);
+  color: #eef6ff;
+  padding: 12px 13px;
+}
+
+.axis-breath-clean-note {
+  margin-top: 10px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 211, 107, .18);
+  background: rgba(255, 211, 107, .07);
+  color: rgba(238, 246, 255, .78);
+  line-height: 1.55;
+}
