@@ -413,3 +413,115 @@ body.axis-virtue-lock {
     width: 100%;
   }
 }
+
+/* === AXIS PATCH VERTUS CARTE ENTIERE START === */
+
+/*
+  Correction ciblée Vertus :
+  - empêche le cadre de couper la carte ;
+  - affiche la carte entière ;
+  - conserve l'esthétique existante ;
+  - laisse la page scroller si la carte est grande.
+*/
+
+body.axis-vertus-page {
+  overflow-x: hidden !important;
+}
+
+body.axis-vertus-page main,
+body.axis-vertus-page section,
+body.axis-vertus-page article {
+  overflow: visible !important;
+}
+
+body.axis-vertus-page div:has(img[src*="assets/virtues/"]),
+body.axis-vertus-page div:has(img[src*="assets/vertus/"]),
+body.axis-vertus-page figure:has(img[src*="assets/virtues/"]),
+body.axis-vertus-page figure:has(img[src*="assets/vertus/"]),
+body.axis-vertus-page article:has(img[src*="assets/virtues/"]),
+body.axis-vertus-page article:has(img[src*="assets/vertus/"]),
+body.axis-vertus-page section:has(img[src*="assets/virtues/"]),
+body.axis-vertus-page section:has(img[src*="assets/vertus/"]) {
+  height: auto !important;
+  min-height: unset !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+body.axis-vertus-page .axis-virtue-card,
+body.axis-vertus-page .axis-virtue-card-frame,
+body.axis-vertus-page .axis-virtue-card-wrap,
+body.axis-vertus-page .axis-virtue-image,
+body.axis-vertus-page .axis-virtue-image-frame,
+body.axis-vertus-page .axis-virtue-result,
+body.axis-vertus-page .axis-virtue-stage,
+body.axis-vertus-page .axis-virtue-reader,
+body.axis-vertus-page .axis-virtue-display,
+body.axis-vertus-page .axis-vertu-card,
+body.axis-vertus-page .axis-vertu-card-frame,
+body.axis-vertus-page .axis-vertu-image,
+body.axis-vertus-page .axis-vertu-image-frame,
+body.axis-vertus-page .virtue-card,
+body.axis-vertus-page .virtue-card-frame,
+body.axis-vertus-page .virtue-card-wrap,
+body.axis-vertus-page .virtue-card-preview,
+body.axis-vertus-page .virtue-image,
+body.axis-vertus-page .virtue-image-frame {
+  height: auto !important;
+  min-height: unset !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+body.axis-vertus-page img[src*="assets/virtues/"],
+body.axis-vertus-page img[src*="assets/vertus/"] {
+  display: block !important;
+  width: auto !important;
+  height: auto !important;
+  max-width: min(100%, 820px) !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  aspect-ratio: auto !important;
+  margin: 0 auto !important;
+  border-radius: 28px !important;
+}
+
+body.axis-vertus-page .axis-virtue-lightbox,
+body.axis-vertus-page .axis-virtue-modal,
+body.axis-vertus-page .axis-vertu-lightbox,
+body.axis-vertus-page .axis-vertu-modal,
+body.axis-vertus-page .virtue-lightbox,
+body.axis-vertus-page .virtue-modal {
+  overflow: auto !important;
+}
+
+body.axis-vertus-page .axis-virtue-lightbox img,
+body.axis-vertus-page .axis-virtue-modal img,
+body.axis-vertus-page .axis-vertu-lightbox img,
+body.axis-vertus-page .axis-vertu-modal img,
+body.axis-vertus-page .virtue-lightbox img,
+body.axis-vertus-page .virtue-modal img {
+  width: auto !important;
+  height: auto !important;
+  max-width: 96vw !important;
+  max-height: none !important;
+  object-fit: contain !important;
+}
+
+body.axis-vertus-page .axis-virtue-meta,
+body.axis-vertus-page .axis-vertu-meta,
+body.axis-vertus-page .virtue-meta {
+  margin-top: 18px !important;
+}
+
+@media (max-width: 860px) {
+  body.axis-vertus-page img[src*="assets/virtues/"],
+  body.axis-vertus-page img[src*="assets/vertus/"] {
+    max-width: 96vw !important;
+    border-radius: 22px !important;
+  }
+}
+
+/* === AXIS PATCH VERTUS CARTE ENTIERE END === */
+
