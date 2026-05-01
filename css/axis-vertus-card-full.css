@@ -1,0 +1,109 @@
+﻿/* ======================================================
+   AXIS LUMEN — VERTUS : CARTE ENTIERE VISIBLE
+   Patch non destructif : agrandit seulement l'encart carte.
+   ====================================================== */
+
+body.axis-virtues-page {
+  overflow-x: hidden;
+}
+
+/* Zone générale de lecture / tirage */
+body.axis-virtues-page .axis-virtue-reader,
+body.axis-virtues-page .axis-virtues-reader,
+body.axis-virtues-page .virtue-reader,
+body.axis-virtues-page .vertu-reader,
+body.axis-virtues-page .axis-virtue-result,
+body.axis-virtues-page .virtue-result,
+body.axis-virtues-page .vertu-result,
+body.axis-virtues-page #axisVirtueReader,
+body.axis-virtues-page #axisVirtueResult {
+  min-width: 0 !important;
+}
+
+/* Encarts qui contiennent la carte */
+body.axis-virtues-page .axis-virtue-full-frame,
+body.axis-virtues-page .axis-virtue-card-frame,
+body.axis-virtues-page .axis-virtue-card,
+body.axis-virtues-page .axis-virtues-card,
+body.axis-virtues-page .virtue-card-frame,
+body.axis-virtues-page .virtue-card,
+body.axis-virtues-page .vertu-card-frame,
+body.axis-virtues-page .vertu-card,
+body.axis-virtues-page .daily-virtue-card,
+body.axis-virtues-page .drawn-virtue-card,
+body.axis-virtues-page .axis-card-full-host,
+body.axis-virtues-page figure:has(img.axis-virtue-full-img) {
+  min-height: clamp(560px, 78vh, 940px) !important;
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+  display: grid !important;
+  place-items: center !important;
+  align-items: center !important;
+  justify-items: center !important;
+  padding: clamp(16px, 2.4vw, 34px) !important;
+}
+
+/* Image de carte : toujours entière, jamais coupée */
+body.axis-virtues-page img.axis-virtue-full-img,
+body.axis-virtues-page img[src*="assets/virtues/"],
+body.axis-virtues-page img[src*="assets/vertus/"],
+body.axis-virtues-page img[src*="virtue_"],
+body.axis-virtues-page img[src*="presence"],
+body.axis-virtues-page img[src*="clarte"],
+body.axis-virtues-page img[src*="rayonnement"],
+body.axis-virtues-page img[src*="accomplissement"] {
+  display: block !important;
+  width: auto !important;
+  height: auto !important;
+  max-width: min(100%, 620px) !important;
+  max-height: clamp(540px, 76vh, 900px) !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  margin: auto !important;
+  border-radius: clamp(18px, 2vw, 32px) !important;
+}
+
+/* Si la page est en grille : on donne davantage de place au lecteur */
+@media (min-width: 1080px) {
+  body.axis-virtues-page .axis-virtues-layout,
+  body.axis-virtues-page .axis-virtue-layout,
+  body.axis-virtues-page .virtues-layout,
+  body.axis-virtues-page .vertus-layout {
+    grid-template-columns: minmax(320px, 0.8fr) minmax(560px, 1.2fr) !important;
+    align-items: start !important;
+  }
+
+  body.axis-virtues-page .axis-virtue-reader,
+  body.axis-virtues-page .axis-virtues-reader,
+  body.axis-virtues-page .virtue-reader,
+  body.axis-virtues-page .vertu-reader {
+    min-height: clamp(640px, 82vh, 980px) !important;
+  }
+}
+
+/* Mobile : carte complète sans casser la page */
+@media (max-width: 760px) {
+  body.axis-virtues-page .axis-virtue-full-frame,
+  body.axis-virtues-page .axis-virtue-card-frame,
+  body.axis-virtues-page .axis-virtue-card,
+  body.axis-virtues-page .axis-virtues-card,
+  body.axis-virtues-page .virtue-card-frame,
+  body.axis-virtues-page .virtue-card,
+  body.axis-virtues-page .vertu-card-frame,
+  body.axis-virtues-page .vertu-card,
+  body.axis-virtues-page .daily-virtue-card,
+  body.axis-virtues-page .drawn-virtue-card,
+  body.axis-virtues-page .axis-card-full-host {
+    min-height: auto !important;
+    padding: 14px !important;
+  }
+
+  body.axis-virtues-page img.axis-virtue-full-img,
+  body.axis-virtues-page img[src*="assets/virtues/"],
+  body.axis-virtues-page img[src*="assets/vertus/"],
+  body.axis-virtues-page img[src*="virtue_"] {
+    max-width: 94vw !important;
+    max-height: 82vh !important;
+  }
+}
