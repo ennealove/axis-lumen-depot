@@ -1,0 +1,198 @@
+/* Axis Lumen Studio — cours unique connecté */
+
+.axis-learn-card-cover {
+  margin: 10px 0 12px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(232, 190, 103, .20);
+  background: rgba(255,255,255,.035);
+}
+
+.axis-learn-card-cover img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: block;
+  object-fit: cover;
+}
+
+.axis-course-rich-cover {
+  margin: 18px 0 22px;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(232, 190, 103, .22);
+  background: rgba(255,255,255,.035);
+  box-shadow: 0 18px 55px rgba(0,0,0,.28);
+}
+
+.axis-course-rich-cover img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.axis-course-rich-block {
+  border-color: rgba(232, 190, 103, .18) !important;
+  background:
+    radial-gradient(circle at 10% 0%, rgba(232, 190, 103, .09), transparent 34%),
+    rgba(8, 14, 25, .78) !important;
+}
+
+.axis-course-rich-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.axis-course-rich-list li {
+  margin: .45rem 0;
+  line-height: 1.65;
+}
+
+.axis-course-pdf-block {
+  border-color: rgba(115, 199, 255, .22) !important;
+  background: rgba(115, 199, 255, .055) !important;
+}
+
+.axis-learn-card h3 {
+  line-height: 1.16;
+}
+
+
+/* Cours 001 premium — affichage complet dans le moteur one-hour */
+.axis-onehour-course-cover {
+  margin: 10px 0 14px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(232, 190, 103, .22);
+  background: rgba(255,255,255,.04);
+}
+
+.axis-onehour-course-cover img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.axis-course-premium-reader {
+  width: 100%;
+}
+
+.axis-course-premium-subtitle {
+  font-size: 1.05rem;
+  color: rgba(255, 244, 208, .82);
+}
+
+.axis-course-rich-cover {
+  margin: 18px 0 22px;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(232, 190, 103, .22);
+  background: rgba(255,255,255,.035);
+  box-shadow: 0 18px 55px rgba(0,0,0,.28);
+}
+
+.axis-course-rich-cover img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.axis-course-rich-section {
+  margin-top: 18px;
+  padding: 16px 18px;
+  border-radius: 20px;
+  border: 1px solid rgba(232, 190, 103, .16);
+  background: radial-gradient(circle at 0% 0%, rgba(232,190,103,.08), transparent 32%), rgba(8,14,25,.72);
+}
+
+.axis-course-rich-section h4 {
+  color: #ffd36b;
+  margin: 0 0 10px;
+}
+
+.axis-course-rich-subsection,
+.axis-course-vocal-line,
+.axis-course-rich-box {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.07);
+}
+
+.axis-course-rich-subsection h5,
+.axis-course-vocal-line strong {
+  color: #fff4d0;
+}
+
+.axis-course-rich-section li {
+  margin: .45rem 0;
+  line-height: 1.65;
+}
+
+.axis-course-rich-section blockquote {
+  margin: 0;
+  padding: 14px 18px;
+  border-left: 2px solid rgba(255, 211, 107, .75);
+  color: #fff4d0;
+  background: rgba(255, 211, 107, .07);
+  border-radius: 14px;
+}
+
+.axis-course-safety {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 211, 107, .24);
+  background: rgba(255, 211, 107, .07);
+}
+
+
+/* Cours 001 — images premium + galerie */
+.axis-onehour-course-cover {
+  margin: 10px 0 14px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(232, 190, 103, .22);
+  background: rgba(255,255,255,.04);
+}
+
+.axis-onehour-course-cover img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.axis-onehour-subtitle,
+.axis-course-premium-subtitle {
+  color: rgba(255, 244, 208, .82);
+}
+
+.axis-course-image-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.axis-course-image-gallery figure {
+  margin: 0;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(232, 190, 103, .18);
+  background: rgba(255,255,255,.04);
+}
+
+.axis-course-image-gallery img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+@media (max-width: 780px) {
+  .axis-course-image-gallery {
+    grid-template-columns: 1fr;
+  }
+}

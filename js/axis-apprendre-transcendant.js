@@ -11,13 +11,13 @@
   ];
 
   const RAW_COURSES = [
-    ["fondation", "Masterclass 1 — Préparer le temple de pratique", "Séance longue : lieu, corps, souffle, eau, intention, carnet. Le cours pose le seuil avant tout exercice.", "contemplation", "creer-seance.html", "Je prépare le lieu. Je respecte mon corps. Je choisis une intention claire.", 45, "cours_01_preparer_temple.png", 1],
+    ["fondation", "Cours 1 — La loi des deux secondes", "Entrer dans le rythme vivant de l’attention : comprendre, pratiquer et intégrer l’alternance douce d’une seconde à gauche, une seconde à droite.", "swing", "oscillation.html", "Je laisse le rythme de deux secondes devenir une demeure stable pour mon attention.", 60, "", 1],
     ["fondation", "Masterclass 2 — Observer la source lumineuse avec prudence", "Séance longue : regard souple, lampe douce, 20 à 30 secondes, sécurité visuelle, passage vers l’intérieur.", "light", "oscillation.html", "Je regarde sans forcer. Je reçois sans prendre. Je respecte mon regard.", 45, "cours_02_observer_source_lumineuse.png", 2],
     ["fondation", "Masterclass 3 — Accueillir la rémanence lumineuse", "Séance longue : fermer les yeux, accueillir la trace, ne pas fabriquer, déposer une phrase dans la lumière.", "light", "oscillation.html", "Je reçois la trace lumineuse et je laisse la lumière devenir intérieure.", 45, "cours_03_accueillir_remanence.png", 3],
     ["fondation", "Masterclass 4 — Stabiliser le point intérieur", "Séance longue : front, cœur, ventre, colonne ou mains. Choisir un seul lieu et y déposer la lumière.", "contemplation", "pratiquer.html", "Je reviens au point. Je ne force pas la lumière. Je demeure au centre.", 40, "cours_04_stabiliser_point_interieur.png", 8],
     ["fondation", "Masterclass 5 — Tenir le carnet d’expérience", "Séance longue : date, état du corps, lumière, rémanence, sensation, phrase reçue et ajustement.", "contemplation", "apprendre.html", "Je note ce qui est réel. Je n’ajoute pas. Je ne retire pas.", 35, "cours_05_tenir_carnet.png", 3],
     ["fondation", "Masterclass 6 — Clore une séance", "Séance longue : revenir au corps, déposer la lumière, retrouver le souffle naturel et intégrer sans brusquer.", "contemplation", "pratiquer.html", "Je reviens dans mon corps. Je garde le fruit de l’exercice. La séance est close.", 35, "cours_06_clore_seance.png", 1],
-    ["fondation", "Masterclass 7 — Présence, carte et lumière", "Séance complète : tirer une vertu, lire la carte, observer la lumière, infuser dans la rémanence, écrire le geste du jour.", "virtue", "vertus.html?card=1", "Je suis là, entièrement. La présence devient la première porte.", 60, "cours_07_seance_presence.png", 1],
+    ["fondation", "Cours 7 — Présence, carte et lumière", "Faire descendre une vertu dans la rémanence : tirer une carte, lire lentement, observer une lumière douce, déposer la vertu dans la trace intérieure, noter puis incarner un geste concret.", "virtue", "vertus.html?card=1", "Une carte. Une lumière. Un geste. Je laisse la vertu devenir présence.", 60, "cours_07_presence_carte_lumiere.png", 1],
     ["fondation", "Masterclass 8 — Vertu dans la lumière", "Séance complète : la vertu devient mot, puis climat, puis sensation, puis action concrète.", "virtue", "vertus.html", "Je laisse la vertu descendre dans la lumière et s’incarner dans un geste simple.", 45, "cours_08_vertu_dans_lumiere.png", 8],
 
     ["terrain", "La table n’est pas une religion", "Chercher la justesse, pas la supériorité", "terrain", "creer-seance.html", "Je cherche la clarté, pas la perfection."],
@@ -105,6 +105,90 @@
       virtueNumber: Number(virtueNumber) || null
     };
   });
+
+
+  /* AXIS_COURSE_001_RICH_PATCH_START */
+  const COURSE_001_RICH = {
+    id: "fondations-001-loi-des-deux-secondes",
+    number: 1,
+    title: "Cours 1 — La loi des deux secondes",
+    subtitle: "Entrer dans le rythme vivant de l’attention",
+    family: "Fondations du Temple Vivant",
+    chapter: "Rythme, attention et stabilité intérieure",
+    kind: "swing",
+    level: "Débutant — fondamental",
+    durationMin: 60,
+    launchUrl: "oscillation.html",
+    pdfPath: "data/courses/Axis_Lumen_Cours_001_PACK/pdf/Cours_001_La_loi_des_deux_secondes.pdf",
+    coverImage: "assets/courses/course-001/cover.png",
+    essentialPhrase: "Le rythme ne force pas l’attention : il lui offre une demeure.",
+    shortPhrase: "Deux secondes pour revenir au centre.",
+    intention: "Je laisse le rythme de deux secondes devenir une demeure stable pour mon attention.",
+    richTeaching: "La loi des deux secondes ouvre l’École du Temple Vivant par une règle simple : une seconde vers la gauche, une seconde vers la droite. Ce rythme n’est pas une performance. Il sert à donner au corps une cadence claire, à rendre l’attention plus stable, et à installer une alternance douce entre perception, mouvement et pensée. Le but n’est pas de provoquer un phénomène, mais de créer une base fiable : comprendre, pratiquer, observer, noter, puis valider. Dans ce premier cours, l’élève apprend à ne pas forcer l’attention. Il lui donne une demeure rythmique.",
+    richPracticeSteps: [
+      "Prépare un lieu simple : chaise stable, sol dégagé, lumière douce, carnet à portée de main.",
+      "Assieds-toi le dos libre, les épaules relâchées, la nuque souple. Ne cherche pas une posture parfaite.",
+      "Observe ton état réel : fatigue, agitation, clarté, tension cervicale, respiration, humeur.",
+      "Installe le rythme : une seconde vers la gauche, une seconde vers la droite. Le mouvement reste petit, lent et confortable.",
+      "Laisse le corps devenir un métronome vivant. Ne force ni la tête, ni les yeux, ni la respiration.",
+      "Après quelques minutes, réduis l’amplitude. Le mouvement extérieur devient une sensation intérieure.",
+      "Ajoute l’intention : « Deux secondes pour revenir au centre. »",
+      "Arrête immédiatement en cas de vertige, gêne visuelle, douleur cervicale, fatigue ou inconfort.",
+      "Reviens au calme : mains, pieds, respiration naturelle, regard doux.",
+      "Note dans le carnet : durée, état avant/après, qualité du rythme, résistance, sensation principale."
+    ],
+    richReaderHtml: `
+
+      <figure class="axis-course-rich-cover">
+        <img src="assets/courses/course-001/cover.png" alt="Cours 1 — La loi des deux secondes" loading="lazy">
+      </figure>
+
+      <div class="reader-block axis-course-rich-block">
+        <h3>Objectif pédagogique</h3>
+        <p>Comprendre pourquoi un rythme simple peut soutenir l’attention, stabiliser le corps et servir de base à toute pratique progressive.</p>
+      </div>
+
+      <div class="reader-block axis-course-rich-block">
+        <h3>Objectif initiatique</h3>
+        <p>Faire du corps un temple rythmique : non pas chercher l’extraordinaire, mais installer une présence stable, douce et vérifiable.</p>
+      </div>
+
+      <div class="reader-block axis-course-rich-block">
+        <h3>Plan du module — 60 minutes</h3>
+        <ul class="axis-course-rich-list">
+          <li><strong>0:00 — 5:00</strong> Ouverture : disponibilité, posture, intention.</li>
+          <li><strong>5:00 — 20:00</strong> Enseignement : rythme, alternance, attention, non-forçage.</li>
+          <li><strong>20:00 — 30:00</strong> Contemplation : où mon attention se disperse-t-elle ?</li>
+          <li><strong>30:00 — 50:00</strong> Exercice : balancement latéral doux au rythme de deux secondes.</li>
+          <li><strong>50:00 — 57:00</strong> Intégration : retour au corps, respiration naturelle, carnet.</li>
+          <li><strong>57:00 — 60:00</strong> Validation : compris, pratiqué, observé, noté.</li>
+        </ul>
+      </div>
+
+      <div class="reader-block axis-course-rich-block">
+        <h3>Script vocal court</h3>
+        <p>Installe-toi. Respire naturellement. Laisse le corps devenir disponible. Une seconde vers la gauche. Une seconde vers la droite. Ne cherche rien. Ne force rien. Le rythme porte l’attention. Si le mouvement devient trop grand, réduis. Si le mental part, reviens simplement à la cadence. Deux secondes pour revenir au centre.</p>
+      </div>
+
+      <div class="reader-block axis-course-rich-block">
+        <h3>Questions de carnet</h3>
+        <ul class="axis-course-rich-list">
+          <li>Mon mouvement était-il fluide, forcé, irrégulier ou confortable ?</li>
+          <li>À quel moment l’attention s’est-elle stabilisée ?</li>
+          <li>Le rythme m’a-t-il calmé, clarifié, fatigué ou agité ?</li>
+          <li>Quelle phrase résume mon expérience réelle, sans l’embellir ?</li>
+        </ul>
+      </div>
+
+      <div class="reader-block axis-course-rich-block">
+        <h3>Références internes</h3>
+        <p>Ce cours prépare les pratiques de balancement, de rémanence lumineuse, de mantra, de respiration et de carnet d’expérience. Il sert de socle pour tout le parcours Axis Lumen Studio.</p>
+      </div>
+    `
+  };
+
+  Object.assign(COURSES[0], COURSE_001_RICH);
+  /* AXIS_COURSE_001_RICH_PATCH_END */
 
   const STORE_KEY = "axis_apprendre_72_progress_v1";
   const NOTES_KEY = "axis_apprendre_72_notes_v1";
@@ -427,6 +511,7 @@
           <span class="axis-learn-number">${String(course.number).padStart(2, "0")}</span>
           <span class="axis-learn-status">${done ? "validé" : access.status}</span>
         </div>
+        ${course.coverImage ? `<div class="axis-learn-card-cover"><img src="${escapeHtml(course.coverImage)}" alt="${escapeHtml(course.title)}" loading="lazy"></div>` : ""}
         <h3>${escapeHtml(course.title)}</h3>
         <p>${escapeHtml(course.subtitle)}</p>
         <div class="axis-learn-chip-row">
@@ -485,6 +570,10 @@
         </ol>
       </div>
 
+      ${course.richReaderHtml || ""}
+
+      ${course.pdfPath ? '<div class="reader-block axis-course-pdf-block"><h3>Support PDF</h3><p>Fiche complète du cours, si le fichier existe dans le pack local.</p><div class="axis-learn-reader-actions"><a class="axis-learn-btn secondary" href="' + escapeHtml(course.pdfPath) + '" target="_blank" rel="noopener">Ouvrir le PDF</a></div></div>' : ""}
+
       <div class="reader-block">
         <h3>Validation</h3>
         <p>${isAdmin ? "Créateur : validation manuelle autorisée." : "Abonné : le cours se valide automatiquement à la fin du mode pratique."}</p>
@@ -525,15 +614,34 @@
     const cards = Array.isArray(window.AXIS_VIRTUE_CARDS) ? window.AXIS_VIRTUE_CARDS : [];
     return cards.find((card) => Number(card.number) === Number(number)) || null;
   }
+  function normalizeCourseAssetPath(value, fallbackFolder = "assets/course-visuals") {
+    const raw = String(value || "").trim();
+    if (!raw) return "";
+
+    if (/^(https?:)?\/\//i.test(raw)) return raw;
+    if (/^(assets|data)\//i.test(raw)) return raw;
+    if (/^\//.test(raw)) return raw.replace(/^\/+/, "");
+
+    if (/\.(png|jpg|jpeg|webp|svg)$/i.test(raw)) {
+      return `${fallbackFolder}/${raw}`;
+    }
+
+    return `${fallbackFolder}/${raw}.svg`;
+  }
+
   function renderCourseVisual(course) {
-    const visualPath = course.visualKey
-      ? (String(course.visualKey).match(/\.(png|jpg|jpeg|webp|svg)$/i)
-        ? `assets/course-visuals/${escapeHtml(course.visualKey)}`
-        : `assets/course-visuals/${escapeHtml(course.visualKey)}.svg`)
-      : "";
+    const rawVisual =
+      course.coverImage ||
+      course.image ||
+      course.cover ||
+      course.visual ||
+      course.visualKey ||
+      "";
+
+    const visualPath = normalizeCourseAssetPath(rawVisual);
 
     const visual = visualPath
-      ? `<div class="axis-course-visual-card"><img src="${visualPath}" alt="Schéma pédagogique du cours ${escapeHtml(course.title)}"></div>`
+      ? `<div class="axis-course-visual-card"><img src="${escapeHtml(visualPath)}" alt="Schéma pédagogique du cours ${escapeHtml(course.title)}"></div>`
       : "";
 
     const card = course.virtueNumber ? findVirtueCard(course.virtueNumber) : null;
@@ -647,6 +755,7 @@
   }
 
   function teachingFor(course) {
+    if (course.richTeaching) return course.richTeaching;
     const bases = {
       fondation: "Ce cours appartient au socle JE SUIS : revenir au centre, traiter le corps comme un temple et rendre la pratique habitable. Il ne cherche pas le spectaculaire, mais la construction d’un axe fiable.",
       terrain: "Ce cours relie la pratique au terrain vivant : eau, minéraux, digestion, élimination, rythme et clarté. Le corps devient plus disponible lorsque ce qui l’encombre est vu, simplifié et retiré avec mesure.",
@@ -659,6 +768,7 @@
   }
 
   function practiceSteps(course) {
+    if (Array.isArray(course.richPracticeSteps) && course.richPracticeSteps.length) return course.richPracticeSteps;
     const commonStart = [
       "Installe-toi dans un lieu simple, sans écran inutile.",
       "Observe ton état réel : corps, souffle, ventre, regard, fatigue ou agitation."
@@ -796,7 +906,7 @@
     }
 
     state.timer.course = course;
-    state.timer.total = Math.max(90, Math.min(600, course.durationMin * 60));
+    state.timer.total = Math.max(90, Math.min(3600, course.durationMin * 60));
     state.timer.left = state.timer.total;
     state.timer.running = false;
 
@@ -1048,5 +1158,6 @@
     localStorage.setItem(key, JSON.stringify(value || {}));
   }
 })();
+
 
 

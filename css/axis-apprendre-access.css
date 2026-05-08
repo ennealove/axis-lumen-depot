@@ -1,0 +1,195 @@
+/* Axis Lumen Studio — École du Temple Vivant — Access & Schedule */
+
+.als-hero {
+  padding: 46px;
+  margin-bottom: 24px;
+}
+.als-hero .kicker { margin-bottom: 10px; }
+.als-hero h2 { font-size: clamp(28px, 4vw, 52px); margin-bottom: 14px; }
+.als-hero p { max-width: 680px; }
+
+.als-progress-text {
+  margin-bottom: 16px;
+  font-size: 13px;
+  color: var(--gold);
+  letter-spacing: .04em;
+}
+
+.als-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+.als-filter-bar input,
+.als-filter-bar select {
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(0, 0, 0, .22);
+  color: var(--ivory);
+  font-size: 13px;
+  outline: none;
+}
+.als-filter-bar input { flex: 1 1 200px; }
+.als-filter-bar input:focus,
+.als-filter-bar select:focus {
+  border-color: rgba(216, 180, 95, .5);
+}
+
+.als-lesson-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 16px;
+}
+
+.als-lesson {
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 22px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, .065), rgba(255, 255, 255, .02));
+  transition: border-color .18s, transform .15s;
+}
+.als-unlocked {
+  cursor: pointer;
+}
+.als-unlocked:hover {
+  border-color: rgba(216, 180, 95, .5);
+  transform: translateY(-2px);
+}
+.als-unlocked.als-selected {
+  border-color: var(--gold2);
+  background: linear-gradient(145deg, rgba(216, 180, 95, .12), rgba(255, 255, 255, .02));
+}
+.als-locked {
+  opacity: .52;
+  cursor: not-allowed;
+  filter: grayscale(.35);
+}
+
+.als-lesson-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.als-num {
+  font-family: Georgia, serif;
+  font-size: 26px;
+  color: var(--gold2);
+  min-width: 38px;
+  line-height: 1;
+}
+.als-badge {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--gold);
+  background: rgba(216, 180, 95, .1);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 4px 10px;
+  flex-shrink: 0;
+}
+.als-lock-badge {
+  font-size: 11px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, .05);
+  border: 1px solid rgba(255, 255, 255, .09);
+  border-radius: 999px;
+  padding: 4px 10px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+.als-lesson h4 {
+  font-family: Georgia, serif;
+  color: var(--gold2);
+  font-size: 16px;
+  margin: 0 0 4px;
+}
+.als-sub {
+  color: var(--gold);
+  font-size: 13px;
+  margin: 0 0 10px;
+  line-height: 1.5;
+}
+.als-lesson > p {
+  font-size: 13px;
+  margin: 0;
+  line-height: 1.6;
+  color: var(--muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.als-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+.als-tags span {
+  font-size: 10px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: rgba(216, 180, 95, .07);
+  border: 1px solid rgba(216, 180, 95, .18);
+  color: var(--gold);
+}
+.als-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, .06);
+}
+
+/* Access gate */
+.als-gate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 64px 40px;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 50% 20%, rgba(216, 180, 95, .12), transparent 60%),
+    linear-gradient(145deg, rgba(255, 255, 255, .065), rgba(255, 255, 255, .02));
+  box-shadow: 0 28px 90px rgba(0, 0, 0, .38);
+}
+.als-gate-icon {
+  font-size: 68px;
+  color: var(--gold2);
+  margin-bottom: 24px;
+  line-height: 1;
+  text-shadow: 0 0 60px rgba(242, 213, 138, .55);
+}
+.als-gate h3 {
+  font-family: Georgia, serif;
+  font-size: 26px;
+  color: var(--gold2);
+  margin: 0 0 16px;
+}
+.als-gate > p {
+  max-width: 480px;
+  margin: 0 0 32px;
+  line-height: 1.75;
+  color: var(--muted);
+}
+.als-gate-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .als-lesson-grid { grid-template-columns: 1fr; }
+  .als-hero { padding: 26px; }
+}

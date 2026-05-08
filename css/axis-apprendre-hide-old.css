@@ -1,0 +1,39 @@
+﻿/* ======================================================
+   AXIS LUMEN — APPRENDRE : NETTOYAGE SUPERPOSITION
+   Objectif : garder le nouveau catalogue 1h et masquer l'ancien catalogue 72.
+   ====================================================== */
+
+body.axis-learn-page .axis-learn-dashboard {
+  display: none !important;
+}
+
+body.axis-learn-page #axisOneHourSchool {
+  display: block !important;
+  position: relative !important;
+  z-index: 2 !important;
+  clear: both !important;
+  width: min(1480px, calc(100% - 32px)) !important;
+  margin: clamp(28px, 5vw, 72px) auto !important;
+}
+
+body.axis-learn-page .axis-learn-main {
+  overflow: visible !important;
+}
+
+body.axis-learn-page .axis-learn-books {
+  position: relative !important;
+  z-index: 1 !important;
+  margin-bottom: 0 !important;
+}
+
+body.axis-learn-page .axis-onehour-school {
+  isolation: isolate !important;
+}
+
+/* Sécurité : si l'ancien JS remplit encore la grille, elle reste invisible */
+body.axis-learn-page #axisLearnGrid,
+body.axis-learn-page #axisLearnReader,
+body.axis-learn-page #axisLearnPaths,
+body.axis-learn-page #axisAccessPanel {
+  pointer-events: none !important;
+}

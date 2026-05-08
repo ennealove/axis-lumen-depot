@@ -1,0 +1,402 @@
+/* ======================================================
+   AXIS LUMEN — APPRENDRE : ECOLE 1H PREMIUM
+   Patch non destructif : ajoute une couche de cours longs.
+   ====================================================== */
+
+.axis-onehour-school {
+  margin: clamp(28px, 5vw, 64px) auto;
+  padding: clamp(18px, 3vw, 34px);
+  border: 1px solid rgba(255, 211, 107, 0.18);
+  border-radius: 34px;
+  background:
+    radial-gradient(circle at 15% 0%, rgba(255, 211, 107, 0.16), transparent 32%),
+    radial-gradient(circle at 90% 20%, rgba(105, 180, 255, 0.12), transparent 30%),
+    linear-gradient(145deg, rgba(5, 9, 18, 0.97), rgba(13, 19, 34, 0.94));
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.36);
+  color: #fff7df;
+  overflow: hidden;
+  position: relative;
+}
+
+.axis-onehour-school::before {
+  content: "";
+  position: absolute;
+  inset: 18px;
+  border-radius: 28px;
+  border: 1px solid rgba(255, 211, 107, 0.07);
+  pointer-events: none;
+}
+
+.axis-onehour-head {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 360px);
+  gap: 24px;
+  align-items: end;
+  margin-bottom: 24px;
+}
+
+.axis-onehour-kicker {
+  margin: 0 0 8px;
+  color: #ffd36b;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.78rem;
+}
+
+.axis-onehour-head h2 {
+  margin: 0 0 12px;
+  font-size: clamp(2rem, 4vw, 4.4rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.axis-onehour-head p {
+  margin: 0;
+  color: rgba(239, 244, 255, 0.72);
+  line-height: 1.65;
+  max-width: 860px;
+}
+
+.axis-onehour-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.axis-onehour-stat {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 22px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.axis-onehour-stat strong {
+  display: block;
+  color: #ffd36b;
+  font-size: 1.7rem;
+}
+
+.axis-onehour-toolbar {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) 240px 180px;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.axis-onehour-toolbar input,
+.axis-onehour-toolbar select {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 13px 14px;
+  color: #fff;
+  background: rgba(2, 6, 14, 0.8);
+}
+
+.axis-onehour-layout {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(240px, 320px) minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.axis-onehour-families,
+.axis-onehour-reader,
+.axis-onehour-card {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(5, 9, 18, 0.68);
+  border-radius: 24px;
+}
+
+.axis-onehour-families {
+  padding: 12px;
+  display: grid;
+  gap: 8px;
+  max-height: 720px;
+  overflow: auto;
+}
+
+.axis-onehour-family {
+  width: 100%;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.035);
+  color: #f4ecdc;
+  border-radius: 18px;
+  padding: 12px;
+  cursor: pointer;
+  transition: 0.18s ease;
+}
+
+.axis-onehour-family:hover,
+.axis-onehour-family.active {
+  transform: translateY(-1px);
+  border-color: rgba(255, 211, 107, 0.34);
+  background: rgba(255, 211, 107, 0.10);
+}
+
+.axis-onehour-family strong {
+  display: block;
+  color: #fff7df;
+  font-size: 0.96rem;
+}
+
+.axis-onehour-family small {
+  display: block;
+  margin-top: 4px;
+  color: rgba(239, 244, 255, 0.62);
+  line-height: 1.4;
+}
+
+.axis-onehour-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.axis-onehour-card {
+  padding: 16px;
+  display: grid;
+  gap: 12px;
+  min-height: 270px;
+  transition: 0.18s ease;
+}
+
+.axis-onehour-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 211, 107, 0.28);
+}
+
+.axis-onehour-card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.axis-onehour-number {
+  width: 44px;
+  height: 44px;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  color: #07101e;
+  background: linear-gradient(135deg, #ffd36b, #fff0bd);
+  font-weight: 900;
+}
+
+.axis-onehour-symbol {
+  font-size: 1.6rem;
+  color: #ffd36b;
+}
+
+.axis-onehour-card h3 {
+  margin: 0;
+  color: #fff7df;
+  line-height: 1.15;
+  font-size: clamp(1.08rem, 1.5vw, 1.35rem);
+}
+
+.axis-onehour-card p {
+  margin: 0;
+  color: rgba(239, 244, 255, 0.68);
+  line-height: 1.55;
+}
+
+.axis-onehour-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.axis-onehour-tags span {
+  border: 1px solid rgba(255, 211, 107, 0.18);
+  border-radius: 999px;
+  padding: 5px 8px;
+  color: #ffe3a1;
+  background: rgba(255, 211, 107, 0.07);
+  font-size: 0.78rem;
+}
+
+.axis-onehour-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.axis-onehour-btn {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff7df;
+  border-radius: 14px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.06);
+  cursor: pointer;
+}
+
+.axis-onehour-btn.primary {
+  background: linear-gradient(135deg, rgba(255, 211, 107, 0.94), rgba(255, 239, 189, 0.96));
+  color: #06101e;
+  border-color: rgba(255, 211, 107, 0.55);
+  font-weight: 800;
+}
+
+.axis-onehour-reader {
+  margin-top: 18px;
+  padding: clamp(18px, 3vw, 28px);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 340px);
+  gap: 22px;
+  align-items: start;
+}
+
+.axis-onehour-reader h3 {
+  margin: 0 0 10px;
+  font-size: clamp(1.6rem, 3vw, 3rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.axis-onehour-reader p,
+.axis-onehour-reader li {
+  color: rgba(239, 244, 255, 0.76);
+  line-height: 1.7;
+}
+
+.axis-onehour-reader ul {
+  margin: 10px 0 0;
+  padding-left: 20px;
+}
+
+.axis-onehour-reader-visual {
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 211, 107, 0.18);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.axis-onehour-reader-visual img {
+  width: 100%;
+  display: block;
+}
+
+.axis-onehour-copyright {
+  margin-top: 16px;
+  border: 1px solid rgba(255, 211, 107, 0.18);
+  border-radius: 18px;
+  padding: 14px;
+  color: rgba(255, 239, 189, 0.82);
+  background: rgba(255, 211, 107, 0.06);
+  font-size: 0.9rem;
+}
+
+.axis-onehour-empty {
+  padding: 24px;
+  color: rgba(239, 244, 255, 0.72);
+}
+
+@media (max-width: 1100px) {
+  .axis-onehour-head,
+  .axis-onehour-layout,
+  .axis-onehour-reader {
+    grid-template-columns: 1fr;
+  }
+
+  .axis-onehour-families {
+    max-height: none;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .axis-onehour-toolbar,
+  .axis-onehour-grid,
+  .axis-onehour-families,
+  .axis-onehour-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .axis-onehour-school {
+    border-radius: 24px;
+    padding: 16px;
+  }
+}
+
+/* AXIS_COURSE_004_VISUAL_PATCH_START */
+.axis-course-image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 16px 0 4px;
+}
+
+.axis-course-image-gallery figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 211, 107, 0.16);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.axis-course-image-gallery img,
+.axis-course-rich-cover img,
+.axis-onehour-course-cover img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.axis-course-rich-cover img {
+  max-height: 520px;
+}
+
+.axis-course-rich-subsection h5 {
+  color: #ffd36b;
+  margin: 18px 0 8px;
+}
+
+.axis-course-rich-box {
+  border: 1px solid rgba(255, 211, 107, 0.14);
+  border-radius: 18px;
+  padding: 14px;
+  margin: 10px 0;
+  background: rgba(255, 255, 255, 0.045);
+}
+/* AXIS_COURSE_004_VISUAL_PATCH_END */
+
+.axis-course-image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin: 22px 0;
+}
+
+.axis-course-image {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid rgba(218, 184, 104, 0.28);
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  box-shadow: 0 18px 50px rgba(0,0,0,0.22);
+  overflow: hidden;
+}
+
+.axis-course-image img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+  object-fit: cover;
+  aspect-ratio: 4 / 5;
+}
+
+.axis-course-image figcaption {
+  margin-top: 8px;
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(240, 218, 160, 0.82);
+}
+

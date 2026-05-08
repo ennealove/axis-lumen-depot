@@ -57,3 +57,22 @@ yarn-error.log*
 # caches
 __pycache__/
 .pytest_cache/
+
+# images cours générées (trop volumineuses pour git — 1,3 Go)
+assets/courses/
+axis-images/
+assets/cours-pdf/
+assets/course-visuals-premium/
+
+# rapports et scripts de génération locaux
+data/courses/
+RECOVERY_REPORT_*.txt
+generate-course-images-final.ps1
+generate-axis-images.mjs
+generate-images.mjs
+
+# Claude Code worktrees
+.claude/
+
+# dossier local Connaissance
+Connaissance/
