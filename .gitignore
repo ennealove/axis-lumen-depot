@@ -58,8 +58,7 @@ yarn-error.log*
 __pycache__/
 .pytest_cache/
 
-# images cours générées (trop volumineuses pour git — 1,3 Go)
-assets/courses/
+# sources brutes de génération (non nécessaires au déploiement)
 axis-images/
 assets/cours-pdf/
 assets/course-visuals-premium/
