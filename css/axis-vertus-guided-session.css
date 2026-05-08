@@ -1,0 +1,344 @@
+﻿/* ======================================================
+   AXIS LUMEN — VERTUS : SEANCE GUIDEE AUDIOVISUELLE
+   Ajoute une pratique guidée avec voix, timer et visuel.
+   Non destructif : ne remplace pas l'onglet Vertus existant.
+   ====================================================== */
+
+body.axis-virtues-page {
+  overflow-x: hidden;
+}
+
+.axis-virtue-guided-session {
+  width: min(1180px, calc(100% - 32px));
+  margin: 34px auto 64px;
+  border: 1px solid rgba(232, 205, 139, 0.22);
+  border-radius: 34px;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255, 213, 120, 0.12), transparent 42%),
+    linear-gradient(145deg, rgba(6, 12, 24, 0.96), rgba(1, 5, 12, 0.98));
+  box-shadow: 0 30px 90px rgba(0,0,0,.42);
+  color: #f8edd2;
+  overflow: hidden;
+}
+
+.axis-virtue-guided-head {
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  gap: 22px;
+  padding: clamp(22px, 3vw, 38px);
+  border-bottom: 1px solid rgba(232, 205, 139, 0.14);
+}
+
+.axis-virtue-guided-kicker {
+  margin: 0 0 8px;
+  color: #d9b86f;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.axis-virtue-guided-head h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 4.4rem);
+  line-height: 0.96;
+  letter-spacing: -0.04em;
+}
+
+.axis-virtue-guided-head p {
+  margin: 14px 0 0;
+  max-width: 760px;
+  color: rgba(248, 237, 210, 0.78);
+  line-height: 1.7;
+}
+
+.axis-virtue-guided-status {
+  align-self: stretch;
+  display: grid;
+  align-content: center;
+  gap: 8px;
+  padding: 20px;
+  border: 1px solid rgba(232, 205, 139, 0.18);
+  border-radius: 26px;
+  background: rgba(0, 0, 0, 0.22);
+}
+
+.axis-virtue-guided-status strong {
+  font-size: clamp(2rem, 4vw, 3.8rem);
+  color: #ffd176;
+  line-height: 1;
+}
+
+.axis-virtue-guided-body {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.86fr) minmax(420px, 1.14fr);
+  gap: 24px;
+  padding: clamp(20px, 3vw, 36px);
+}
+
+.axis-virtue-guided-panel {
+  border: 1px solid rgba(232, 205, 139, 0.14);
+  border-radius: 28px;
+  background: rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+}
+
+.axis-virtue-guided-controls {
+  padding: 20px;
+}
+
+.axis-virtue-guided-controls h3,
+.axis-virtue-guided-timeline h3 {
+  margin: 0 0 14px;
+  font-size: 1.08rem;
+  color: #ffe2a3;
+}
+
+.axis-virtue-guided-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0;
+}
+
+.axis-virtue-guided-btn {
+  border: 1px solid rgba(232, 205, 139, 0.22);
+  border-radius: 999px;
+  padding: 11px 16px;
+  background: rgba(255, 255, 255, 0.04);
+  color: #f8edd2;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.axis-virtue-guided-btn.primary {
+  color: #08101d;
+  background: linear-gradient(135deg, #ffe7a9, #d9a846);
+  border-color: rgba(255, 225, 150, 0.66);
+}
+
+.axis-virtue-guided-btn:disabled {
+  opacity: .46;
+  cursor: not-allowed;
+}
+
+.axis-virtue-guided-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 11px 0;
+  border-top: 1px solid rgba(232, 205, 139, 0.10);
+  color: rgba(248, 237, 210, 0.78);
+}
+
+.axis-virtue-guided-option select,
+.axis-virtue-guided-option input[type="range"] {
+  width: min(220px, 52%);
+}
+
+.axis-virtue-guided-message {
+  min-height: 44px;
+  margin-top: 12px;
+  color: rgba(248, 237, 210, 0.72);
+  line-height: 1.55;
+}
+
+.axis-virtue-guided-progress {
+  height: 10px;
+  margin-top: 18px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.08);
+  overflow: hidden;
+}
+
+.axis-virtue-guided-progress span {
+  display: block;
+  width: 0%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #87652b, #ffe2a3, #d49b39);
+  transition: width .25s ease;
+}
+
+.axis-virtue-guided-timeline {
+  padding: 20px;
+  border-top: 1px solid rgba(232, 205, 139, 0.12);
+}
+
+.axis-virtue-step {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  gap: 12px;
+  padding: 12px 0;
+  border-top: 1px solid rgba(232, 205, 139, 0.09);
+}
+
+.axis-virtue-step:first-of-type {
+  border-top: 0;
+}
+
+.axis-virtue-step-dot {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(232, 205, 139, 0.13);
+  color: #ffd176;
+  font-weight: 900;
+  font-size: .82rem;
+}
+
+.axis-virtue-step.active .axis-virtue-step-dot {
+  color: #07101d;
+  background: #ffd176;
+  box-shadow: 0 0 28px rgba(255, 209, 118, .38);
+}
+
+.axis-virtue-step strong {
+  display: block;
+  color: #fff1c8;
+}
+
+.axis-virtue-step span {
+  display: block;
+  margin-top: 3px;
+  color: rgba(248, 237, 210, 0.64);
+  line-height: 1.5;
+  font-size: .92rem;
+}
+
+.axis-virtue-guided-screen {
+  position: relative;
+  min-height: clamp(560px, 74vh, 880px);
+  display: grid;
+  place-items: center;
+  padding: clamp(16px, 2.6vw, 32px);
+  border: 1px solid rgba(232, 205, 139, 0.16);
+  border-radius: 32px;
+  background:
+    radial-gradient(circle at center, rgba(255, 213, 120, 0.12), transparent 36%),
+    radial-gradient(circle at 50% 35%, rgba(42, 114, 166, 0.18), transparent 44%),
+    #020711;
+  overflow: hidden;
+}
+
+.axis-virtue-guided-screen::before {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(255, 210, 116, 0.12), transparent 22%),
+    conic-gradient(from 0deg, transparent, rgba(255,210,116,.10), transparent, rgba(58,118,168,.10), transparent);
+  animation: axisVirtueHalo 18s linear infinite;
+  opacity: .7;
+}
+
+@keyframes axisVirtueHalo {
+  to { transform: rotate(360deg); }
+}
+
+.axis-virtue-guided-stage {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  gap: 18px;
+}
+
+.axis-virtue-guided-card-img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: min(100%, 620px);
+  max-height: clamp(520px, 70vh, 820px);
+  object-fit: contain;
+  object-position: center;
+  border-radius: clamp(16px, 2vw, 30px);
+  box-shadow: 0 24px 80px rgba(0,0,0,.56);
+}
+
+.axis-virtue-guided-video {
+  width: min(100%, 760px);
+  max-height: 70vh;
+  border-radius: 28px;
+  object-fit: contain;
+  background: #000;
+  box-shadow: 0 24px 80px rgba(0,0,0,.5);
+}
+
+.axis-virtue-guided-light,
+.axis-virtue-guided-remanence,
+.axis-virtue-guided-integration {
+  width: min(72vw, 520px);
+  aspect-ratio: 1;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at center, rgba(255, 236, 178, 0.98) 0 5%,
+    rgba(255, 209, 118, 0.62) 8%,
+    rgba(255, 209, 118, 0.20) 24%,
+    rgba(52, 119, 171, 0.10) 42%,
+    transparent 64%);
+  filter: blur(.2px);
+  box-shadow:
+    0 0 36px rgba(255, 218, 140, .38),
+    0 0 140px rgba(255, 201, 101, .18);
+  animation: axisVirtuePulse 4.5s ease-in-out infinite;
+}
+
+.axis-virtue-guided-remanence {
+  background:
+    radial-gradient(circle at center,
+    rgba(255, 221, 139, 0.72) 0 4%,
+    rgba(255, 174, 77, 0.22) 11%,
+    rgba(57, 125, 172, 0.16) 30%,
+    transparent 61%);
+  box-shadow: 0 0 90px rgba(255, 196, 95, .16);
+}
+
+.axis-virtue-guided-integration {
+  background:
+    radial-gradient(circle at center,
+    rgba(255, 217, 128, .50) 0 4%,
+    rgba(255, 217, 128, .17) 18%,
+    rgba(255, 255, 255, .05) 42%,
+    transparent 68%);
+}
+
+@keyframes axisVirtuePulse {
+  0%, 100% { transform: scale(.96); opacity: .68; }
+  50% { transform: scale(1.035); opacity: 1; }
+}
+
+.axis-virtue-guided-caption {
+  max-width: 720px;
+  text-align: center;
+  color: rgba(248,237,210,.82);
+  line-height: 1.7;
+  font-size: clamp(1rem, 1.45vw, 1.2rem);
+}
+
+.axis-virtue-guided-caption strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #ffd176;
+  font-size: 1.15em;
+}
+
+@media (max-width: 960px) {
+  .axis-virtue-guided-head,
+  .axis-virtue-guided-body {
+    grid-template-columns: 1fr;
+  }
+
+  .axis-virtue-guided-screen {
+    min-height: auto;
+  }
+
+  .axis-virtue-guided-card-img {
+    max-width: 94vw;
+    max-height: 78vh;
+  }
+}
