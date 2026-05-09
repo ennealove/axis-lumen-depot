@@ -369,3 +369,130 @@ aside.sidebar,
     grid-template-columns: 1fr;
   }
 }
+
+/* ─── Sélecteur d'objet ─────────────────────────────────────── */
+.axis-object-picker {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.axis-object-item {
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  overflow: hidden;
+  transition: border-color 0.2s, transform 0.15s;
+  background: rgba(255,255,255,0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px;
+  gap: 4px;
+}
+
+.axis-object-item img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.axis-object-item span {
+  font-size: 0.65rem;
+  text-align: center;
+  opacity: 0.75;
+  line-height: 1.2;
+}
+
+.axis-object-item:hover {
+  border-color: rgba(255,210,100,0.5);
+  transform: scale(1.05);
+}
+
+.axis-object-item.selected {
+  border-color: #ffd264;
+  background: rgba(255,210,100,0.1);
+}
+
+/* ─── Écrans d'instruction (éteindre lumière / bandeau) ─────── */
+.axis-instruction-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.axis-instruction-step img {
+  max-width: 340px;
+  width: 80vw;
+  border-radius: 16px;
+  opacity: 0.9;
+}
+
+.axis-instruction-step h2 {
+  font-size: clamp(1.4rem, 4vw, 2.2rem);
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  color: #ffd264;
+  margin: 0;
+}
+
+.axis-instruction-step p {
+  font-size: 1rem;
+  opacity: 0.65;
+  max-width: 420px;
+  margin: 0;
+}
+
+.axis-instruction-countdown {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffd264;
+  font-variant-numeric: tabular-nums;
+  min-width: 2.5rem;
+}
+
+/* ─── Écran de contemplation d'objet ────────────────────────── */
+.axis-object-contemplation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #000;
+  gap: 2rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.axis-object-contemplation img {
+  max-width: 380px;
+  width: 75vw;
+  border-radius: 12px;
+  animation: axis-fade-in 1.2s ease both;
+}
+
+.axis-object-contemplation h2 {
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  font-weight: 300;
+  color: #e8d5a0;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.axis-object-contemplation .axis-instruction-countdown {
+  font-size: 2.5rem;
+}
+
+@keyframes axis-fade-in {
+  from { opacity: 0; transform: scale(0.96); }
+  to   { opacity: 1; transform: scale(1); }
+}

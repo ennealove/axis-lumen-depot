@@ -322,7 +322,7 @@
       ])),
       section("Validation", validation),
       '<div class="notice">' + escapeHtml(notice) + "</div>",
-      '<div class="footer">© Axis Lumen Studio / Michael Chauvet — Support pédagogique protégé.</div>',
+      '<div class="footer">© Axis Lumen Studio — Support pédagogique protégé.</div>',
       "</main>",
       "</body>",
       "</html>"

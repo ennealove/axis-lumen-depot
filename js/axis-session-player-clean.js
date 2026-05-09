@@ -22,6 +22,7 @@
   let currentTrackUrl = "";
   let segmentKey = "";
   let breathToneKey = "";
+  let inSpecialStep = false;
 
   function readSession() {
     for (const key of STORAGE_KEYS) {
@@ -192,6 +193,22 @@
     return m + " min " + r + " s";
   }
 
+  function startCountdown(seconds, elementId, callback) {
+    let remaining = seconds;
+    const el = document.getElementById(elementId);
+    if (el) el.textContent = remaining;
+
+    const interval = setInterval(() => {
+      remaining--;
+      const el2 = document.getElementById(elementId);
+      if (el2) el2.textContent = remaining;
+      if (remaining <= 0) {
+        clearInterval(interval);
+        if (typeof callback === "function") callback();
+      }
+    }, 1000);
+  }
+
   function currentPhase() {
     return session && session.phases ? session.phases[index] : null;
   }
@@ -200,7 +217,7 @@
     root.innerHTML = `
       <section class="session-player-card">
         <h1>Pratiquer</h1>
-        <p id="axisPlayerIntro">Charge une séance depuis “Créer sa séance”, puis lance la pratique.</p>
+        <p id="axisPlayerIntro">Charge une séance depuis "Créer sa séance", puis lance la pratique.</p>
 
         <div class="session-player-layout">
           <div>
@@ -299,6 +316,8 @@
   function renderTimeline() {
     const host = document.getElementById("axisTimeline");
 
+    if (!host) return;
+
     if (!session) {
       host.innerHTML = `<article class="session-phase-row"><strong>Aucune séance</strong><small>Génère une séance depuis Créer sa séance.</small></article>`;
       return;
@@ -328,6 +347,51 @@
 
     segmentKey = "";
     breathToneKey = "";
+
+    // ── Contemplation d'objet ─────────────────────────────────────
+    if (phase.type === "object-contemplation") {
+      inSpecialStep = true;
+      root.innerHTML = `
+        <div class="axis-object-contemplation">
+          <h2>Observez cet objet</h2>
+          <img src="${phase.image}" alt="Objet de contemplation">
+          <div class="axis-instruction-countdown" id="axisCountdown">${phase.duration}</div>
+        </div>
+      `;
+      if (autoplay) speak(phase.voiceStart || "Contemplez cet objet.", true);
+      startCountdown(phase.duration, "axisCountdown", function () {
+        inSpecialStep = false;
+        playBell();
+        renderShell();
+        bind();
+        nextPhase();
+      });
+      return;
+    }
+
+    // ── Instruction (lumière ou bandeau) ──────────────────────────
+    if (phase.type === "instruction") {
+      inSpecialStep = true;
+      const imgHTML = phase.image
+        ? `<img src="${phase.image}" alt="${phase.text}">`
+        : "";
+      root.innerHTML = `
+        <div class="axis-instruction-step">
+          <h2>${phase.text}</h2>
+          ${imgHTML}
+          <p>${phase.subtext || ""}</p>
+          <div class="axis-instruction-countdown" id="axisCountdown">${phase.duration}</div>
+        </div>
+      `;
+      if (autoplay) speak(phase.voiceStart || phase.text, true);
+      startCountdown(phase.duration, "axisCountdown", function () {
+        inSpecialStep = false;
+        renderShell();
+        bind();
+        nextPhase();
+      });
+      return;
+    }
 
     document.getElementById("axisPhaseTitle").textContent = phase.title;
     document.getElementById("axisPhaseSegment").textContent = phase.type || "";
@@ -360,7 +424,7 @@
   }
 
   function tick() {
-    if (!running || paused) return;
+    if (!running || paused || inSpecialStep) return;
 
     const phase = currentPhase();
 
@@ -372,13 +436,12 @@
     const elapsed = (Date.now() - startAt - pausedTotal) / 1000;
     const remaining = Math.max(0, phase.duration - elapsed);
 
-    document.getElementById("axisTimer").textContent = formatClock(remaining);
+    const timerEl = document.getElementById("axisTimer");
+    if (timerEl) timerEl.textContent = formatClock(remaining);
 
     const seg = segmentForPhase(phase, elapsed);
 
     if (seg) {
-      const newKey = phase.type + "-" + index + "-" + (seg.title || "") + "-" + Math.floor(elapsed / 1);
-
       if (phase.type === "balancement") {
         const stableKey = phase.type + "-" + index + "-" + seg.title;
 
@@ -387,8 +450,10 @@
           speak(seg.voice || seg.guidance || seg.title, true);
         }
 
-        document.getElementById("axisPhaseSegment").textContent = seg.mantra ? seg.title + " · " + seg.mantra : seg.title;
-        document.getElementById("axisPhaseGuidance").textContent = seg.guidance || phase.guidance || "";
+        const segEl = document.getElementById("axisPhaseSegment");
+        const guidEl = document.getElementById("axisPhaseGuidance");
+        if (segEl) segEl.textContent = seg.mantra ? seg.title + " · " + seg.mantra : seg.title;
+        if (guidEl) guidEl.textContent = seg.guidance || phase.guidance || "";
       }
 
       if (phase.type === "respiration") {
@@ -399,12 +464,16 @@
           playBreathTone(seg.tone);
         }
 
-        document.getElementById("axisPhaseSegment").textContent = seg.title + " · " + (seg.tone || "");
-        document.getElementById("axisPhaseGuidance").textContent = seg.guidance || phase.guidance || "";
+        const segEl = document.getElementById("axisPhaseSegment");
+        const guidEl = document.getElementById("axisPhaseGuidance");
+        if (segEl) segEl.textContent = seg.title + " · " + (seg.tone || "");
+        if (guidEl) guidEl.textContent = seg.guidance || phase.guidance || "";
       }
     } else {
-      document.getElementById("axisPhaseSegment").textContent = phase.type || "";
-      document.getElementById("axisPhaseGuidance").textContent = phase.guidance || "";
+      const segEl = document.getElementById("axisPhaseSegment");
+      const guidEl = document.getElementById("axisPhaseGuidance");
+      if (segEl) segEl.textContent = phase.type || "";
+      if (guidEl) guidEl.textContent = phase.guidance || "";
     }
 
     if (elapsed >= phase.duration) {
@@ -424,6 +493,7 @@
 
     running = true;
     paused = false;
+    inSpecialStep = false;
     index = 0;
     startAt = Date.now();
     pauseAt = 0;
@@ -444,7 +514,7 @@
     pauseAt = Date.now();
 
     const video = document.getElementById("axisPracticeVideo");
-    try { video.pause(); } catch (_) {}
+    try { if (video) video.pause(); } catch (_) {}
     try { if (bgAudio) bgAudio.pause(); } catch (_) {}
     speak("Pause.", true);
   }
@@ -458,8 +528,10 @@
     const video = document.getElementById("axisPracticeVideo");
 
     try {
-      const p = video.play();
-      if (p && typeof p.catch === "function") p.catch(() => {});
+      if (video) {
+        const p = video.play();
+        if (p && typeof p.catch === "function") p.catch(() => {});
+      }
     } catch (_) {}
 
     try {
@@ -496,6 +568,7 @@
   function reset() {
     running = false;
     paused = false;
+    inSpecialStep = false;
     index = 0;
     startAt = 0;
     pauseAt = 0;
@@ -505,40 +578,48 @@
     stopSpeech();
     stopBackgroundAudio();
 
-    const video = document.getElementById("axisPracticeVideo");
-
-    try {
-      video.pause();
-      video.currentTime = 0;
-    } catch (_) {}
-
+    renderShell();
+    bind();
     renderSession();
   }
 
   function finish() {
     running = false;
     paused = false;
+    inSpecialStep = false;
     clearInterval(timer);
     stopBackgroundAudio();
     playBell();
 
     const video = document.getElementById("axisPracticeVideo");
-    try { video.pause(); } catch (_) {}
+    try { if (video) video.pause(); } catch (_) {}
 
-    document.getElementById("axisTimer").textContent = "00:00";
-    document.getElementById("axisPhaseTitle").textContent = "Séance terminée";
-    document.getElementById("axisPhaseSegment").textContent = "Retour au calme";
-    document.getElementById("axisPhaseGuidance").textContent = "Respire doucement, puis reprends contact avec l’espace.";
+    const timerEl = document.getElementById("axisTimer");
+    const titleEl = document.getElementById("axisPhaseTitle");
+    const segEl   = document.getElementById("axisPhaseSegment");
+    const guidEl  = document.getElementById("axisPhaseGuidance");
+
+    if (timerEl) timerEl.textContent = "00:00";
+    if (titleEl) titleEl.textContent = "Séance terminée";
+    if (segEl)   segEl.textContent   = "Retour au calme";
+    if (guidEl)  guidEl.textContent  = "Respire doucement, puis reprends contact avec l'espace.";
+
     renderTimeline();
-    speak("Fin de l’exercice. Revenez doucement.", true);
+    speak("Fin de l'exercice. Revenez doucement.", true);
   }
 
   function bind() {
-    document.getElementById("axisStart").addEventListener("click", start);
-    document.getElementById("axisPause").addEventListener("click", pause);
-    document.getElementById("axisResume").addEventListener("click", resume);
-    document.getElementById("axisNext").addEventListener("click", nextPhase);
-    document.getElementById("axisReset").addEventListener("click", reset);
+    const startBtn  = document.getElementById("axisStart");
+    const pauseBtn  = document.getElementById("axisPause");
+    const resumeBtn = document.getElementById("axisResume");
+    const nextBtn   = document.getElementById("axisNext");
+    const resetBtn  = document.getElementById("axisReset");
+
+    if (startBtn)  startBtn.addEventListener("click", start);
+    if (pauseBtn)  pauseBtn.addEventListener("click", pause);
+    if (resumeBtn) resumeBtn.addEventListener("click", resume);
+    if (nextBtn)   nextBtn.addEventListener("click", nextPhase);
+    if (resetBtn)  resetBtn.addEventListener("click", reset);
   }
 
   function init() {

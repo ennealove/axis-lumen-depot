@@ -1,4 +1,4 @@
-(() => {
+﻿(() => {
   "use strict";
 
   const COURSE = {
@@ -246,7 +246,7 @@
       <div class="notice">
         <strong>Notice de protection</strong><br>
         PDF protégé — Axis Lumen Studio / École du Temple Vivant. Usage personnel réservé à l’élève. Toute reproduction ou diffusion non autorisée est interdite.<br><br>
-        © Axis Lumen Studio / Michael Chauvet — Tous droits réservés.
+        © Axis Lumen Studio — Tous droits réservés.
       </div>
     </div>
   </section>

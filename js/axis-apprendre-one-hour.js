@@ -1,8 +1,8 @@
-(() => {
+﻿(() => {
   "use strict";
 
   const ROOT_ID = "axisOneHourSchool";
-  const COPYRIGHT = "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation.";
+  const COPYRIGHT = "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation.";
 
   const families = Array.isArray(window.AXIS_ONE_HOUR_FAMILIES) ? window.AXIS_ONE_HOUR_FAMILIES : [];
   const courses = Array.isArray(window.AXIS_ONE_HOUR_COURSES) ? window.AXIS_ONE_HOUR_COURSES : [];
@@ -387,7 +387,7 @@
     if (!course) return;
 
     const safe = (value) => escapeHtml(value == null ? "" : String(value));
-    const copyrightText = course.copyright || (typeof COPYRIGHT !== "undefined" ? COPYRIGHT : "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés.");
+    const copyrightText = course.copyright || (typeof COPYRIGHT !== "undefined" ? COPYRIGHT : "© Axis Lumen Studio — Tous droits réservés.");
 
     const imageSet = [
       course.images?.cover || course.coverImage || course.image,
@@ -1168,7 +1168,7 @@ function openPrintablePdf(course) {
     </div>
 
     <div class="footer">
-      © Axis Lumen Studio / Michael Chauvet — Support pédagogique protégé.
+      © Axis Lumen Studio — Support pédagogique protégé.
     </div>
   </main>
 
@@ -1560,7 +1560,7 @@ function openPrintablePdf(course) {
     </div>
 
     <div class="footer">
-      © Axis Lumen Studio / Michael Chauvet — Support pédagogique protégé.
+      © Axis Lumen Studio — Support pédagogique protégé.
     </div>
   </main>
 
@@ -1730,8 +1730,8 @@ ${sections.map(function(section){return '<h3>' + esc(section.title || "") + '</h
 
 <div class="notice">
 <strong>Notice de protection</strong>
-<p>${esc((course.pdf && course.pdf.protectedNotice) || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet.")}</p>
-<p>© Axis Lumen Studio / Michael Chauvet — Tous droits réservés.</p>
+<p>${esc((course.pdf && course.pdf.protectedNotice) || "Support pédagogique protégé — Axis Lumen Studio.")}</p>
+<p>© Axis Lumen Studio — Tous droits réservés.</p>
 </div>
 </main>
 <script>window.print();</script>
@@ -1895,8 +1895,8 @@ ${sections.map(function(s){return '<h3>' + esc(s.title || "") + '</h3><p>' + esc
 
 <div class="notice">
 <strong>Notice de protection</strong>
-<p>${esc((course.pdf && course.pdf.protectedNotice) || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet.")}</p>
-<p>© Axis Lumen Studio / Michael Chauvet — Tous droits réservés.</p>
+<p>${esc((course.pdf && course.pdf.protectedNotice) || "Support pédagogique protégé — Axis Lumen Studio.")}</p>
+<p>© Axis Lumen Studio — Tous droits réservés.</p>
 </div>
 </main>
 <script>window.print();</script>

@@ -15,17 +15,17 @@
     lateral: {
       label: "Balancement latéral",
       video: () => MAP.swing && MAP.swing.lateral || "",
-      guidance: "Balancement gauche / droite, SAT dans un sens, NAM dans l’autre."
+      guidance: "Balancement gauche / droite, SAT dans un sens, NAM dans l'autre."
     },
     vertical: {
       label: "Balancement vertical",
       video: () => MAP.swing && MAP.swing.vertical || "",
-      guidance: "Balancement haut / bas, SAT dans un sens, NAM dans l’autre."
+      guidance: "Balancement haut / bas, SAT dans un sens, NAM dans l'autre."
     },
     rotation: {
       label: "Rotation douce",
       video: () => MAP.swing && MAP.swing.rotation || "",
-      guidance: "Rotation douce, sans chercher le vertige, en gardant l’axe."
+      guidance: "Rotation douce, sans chercher le vertige, en gardant l'axe."
     }
   };
 
@@ -35,7 +35,7 @@
       patternLabel: "LA · FA · DO · FA",
       segments: base => [
         { title: "Inspiration", duration: base, tone: "LA", guidance: "Inspirez." },
-        { title: "Rétention", duration: base, tone: "FA", guidance: "Retenez l’air." },
+        { title: "Rétention", duration: base, tone: "FA", guidance: "Retenez l'air." },
         { title: "Expiration", duration: base, tone: "DO", guidance: "Expirez." },
         { title: "Rétention", duration: base, tone: "FA", guidance: "Restez vide." }
       ]
@@ -45,7 +45,7 @@
       patternLabel: "LA · FA · DO",
       segments: base => [
         { title: "Inspiration", duration: base, tone: "LA", guidance: "Inspirez." },
-        { title: "Rétention", duration: base, tone: "FA", guidance: "Retenez l’air." },
+        { title: "Rétention", duration: base, tone: "FA", guidance: "Retenez l'air." },
         { title: "Expiration", duration: base, tone: "DO", guidance: "Expirez." }
       ]
     },
@@ -54,12 +54,28 @@
       patternLabel: "LA · FA long · DO · FA long",
       segments: base => [
         { title: "Inspiration", duration: base, tone: "LA", guidance: "Inspirez." },
-        { title: "Rétention longue", duration: base * 2, tone: "FA", guidance: "Retenez l’air plus longtemps." },
+        { title: "Rétention longue", duration: base * 2, tone: "FA", guidance: "Retenez l'air plus longtemps." },
         { title: "Expiration", duration: base, tone: "DO", guidance: "Expirez." },
         { title: "Rétention longue", duration: base * 2, tone: "FA", guidance: "Restez vide plus longtemps." }
       ]
     }
   };
+
+  const AXIS_OBJECTS = [
+    { id: 'tree',     label: 'Arbre de vie',     file: 'tree.webp'      },
+    { id: 'triangle', label: 'Triangle',          file: 'triangle.jpg'   },
+    { id: 'cube',     label: 'Cube',              file: 'cube.png'       },
+    { id: 'etoile',   label: 'Étoile',            file: 'étoile.webp'    },
+    { id: 'flower',   label: 'Fleur de vie',      file: 'flower.png'     },
+    { id: 'geometry', label: 'Géométrie sacrée',  file: 'geometry.webp'  },
+    { id: 'graine',   label: 'Graine de vie',     file: 'graine.webp'    },
+    { id: 'lotus',    label: 'Lotus',             file: 'lotus.png'      },
+    { id: 'sphere',   label: 'Sphère',            file: 'sphère.jpg'     },
+    { id: 'spirale',  label: 'Spirale',           file: 'spirale.avif'   },
+  ];
+
+  const AXIS_OBJECTS_PATH = 'assets/images/objet/';
+  const AXIS_BANDEAU_IMG  = 'assets/images/objet/personnage_avec_bandeau_sur_les_yeux.png';
 
   function $(id) {
     return document.getElementById(id);
@@ -186,6 +202,7 @@
 
     return {
       relaxationMin: clamp($("axisRelaxMin").value, 1, 5, 2),
+      selectedObject: ($("axisSelectedObject") && $("axisSelectedObject").value) || AXIS_OBJECTS[0].id,
       swing: $("axisSwing").value || "lateral",
       balanceMin,
       breathType,
@@ -217,7 +234,9 @@
     const breath = BREATHS[config.breathType] || BREATHS.square;
     const breathPattern = breath.segments(config.breathBase);
     const breathPatternDuration = breathPattern.reduce((sum, item) => sum + item.duration, 0);
+    const objData = AXIS_OBJECTS.find(o => o.id === config.selectedObject) || AXIS_OBJECTS[0];
 
+    // Étape 1 — Détente initiale
     phases.push(phase(
       "detente",
       "Détente initiale",
@@ -227,55 +246,103 @@
       audioExtra(config.audio.detente)
     ));
 
-    for (let i = 0; i < cycles; i += 1) {
-      phases.push(phase(
-        "lumiere",
-        "Observation lumineuse",
-        30,
-        MAP.light || "",
-        "Allumez la lumière. Regardez la source lumineuse pendant trente secondes.",
-        audioExtra(config.audio.light)
-      ));
+    // Étape 2 — Contemplation objet
+    phases.push({
+      type:       'object-contemplation',
+      title:      'Contemplation — ' + objData.label,
+      duration:   20,
+      image:      AXIS_OBJECTS_PATH + objData.file,
+      video:      '',
+      guidance:   'Observez cet objet. Fixez-le du regard sans forcer.',
+      voiceStart: 'Contemplez cet objet.',
+      bellAtEnd:  true,
+      audioTrack: null
+    });
 
-      phases.push(phase(
-        "balancement",
-        swing.label + " — cycle " + (i + 1) + "/" + cycles,
-        180,
-        swing.video(),
-        "Éteignez la lumière. Commencez les balancements.",
-        Object.assign(audioExtra(config.audio.swing), {
-          swing: config.swing,
-          mantra: "SAT / NAM",
-          segments: [
-            {
-              from: 0,
-              to: 60,
-              title: "Grand mouvement",
-              mantra: "SAT à l’aller · NAM au retour",
-              voice: "Grand mouvement. Récitez le mantra à voix haute. SAT dans un sens, NAM dans l’autre.",
-              guidance: "Récite à voix haute : SAT dans un sens, NAM dans l’autre."
-            },
-            {
-              from: 60,
-              to: 120,
-              title: "Petit balancement",
-              mantra: "SAT / NAM en pensée",
-              voice: "Petit balancement. Le mantra continue en pensée.",
-              guidance: "Réduis le mouvement. Le mantra continue intérieurement."
-            },
-            {
-              from: 120,
-              to: 180,
-              title: "Grand mouvement",
-              mantra: "SAT à l’aller · NAM au retour",
-              voice: "Reprenez le grand mouvement. SAT dans un sens, NAM dans l’autre.",
-              guidance: "Reprends le grand mouvement. Le mantra revient à voix haute."
-            }
-          ]
-        })
-      ));
+    // Étape 3 — Observation lumineuse
+    phases.push(phase(
+      "lumiere",
+      "Observation lumineuse",
+      30,
+      MAP.light || "",
+      "Allumez la lumière. Regardez la source lumineuse pendant trente secondes.",
+      audioExtra(config.audio.light)
+    ));
+
+    // Étape 4 — Éteindre la lumière
+    phases.push({
+      type:       'instruction',
+      title:      'Éteindre la lumière',
+      duration:   5,
+      image:      null,
+      text:       'Éteignez la lumière',
+      subtext:    "Préparez-vous à entrer dans l'obscurité",
+      video:      '',
+      guidance:   "Éteignez la lumière.",
+      voiceStart: "Éteignez la lumière. Préparez-vous à entrer dans l'obscurité.",
+      bellAtEnd:  false,
+      audioTrack: null
+    });
+
+    // Étape 5 — Poser le bandeau
+    phases.push({
+      type:       'instruction',
+      title:      'Bandeau',
+      duration:   8,
+      image:      AXIS_BANDEAU_IMG,
+      text:       'Posez le bandeau sur vos yeux',
+      subtext:    'Installez-vous confortablement',
+      video:      '',
+      guidance:   'Posez le bandeau sur vos yeux.',
+      voiceStart: 'Posez le bandeau sur vos yeux. Installez-vous confortablement.',
+      bellAtEnd:  false,
+      audioTrack: null
+    });
+
+    // Étape 6 — Balancements (phase unique avec segmentation interne)
+    const swingDuration = config.balanceMin * 60;
+    const swingSegments = [];
+    for (let i = 0; i < cycles; i++) {
+      const base = i * 180;
+      swingSegments.push(
+        {
+          from: base, to: base + 60,
+          title: "Grand mouvement",
+          mantra: "SAT à l'aller · NAM au retour",
+          voice: "Grand mouvement. Récitez le mantra à voix haute. SAT dans un sens, NAM dans l'autre.",
+          guidance: "Récite à voix haute : SAT dans un sens, NAM dans l'autre."
+        },
+        {
+          from: base + 60, to: base + 120,
+          title: "Petit balancement",
+          mantra: "SAT / NAM en pensée",
+          voice: "Petit balancement. Le mantra continue en pensée.",
+          guidance: "Réduis le mouvement. Le mantra continue intérieurement."
+        },
+        {
+          from: base + 120, to: base + 180,
+          title: "Grand mouvement",
+          mantra: "SAT à l'aller · NAM au retour",
+          voice: "Reprenez le grand mouvement. SAT dans un sens, NAM dans l'autre.",
+          guidance: "Reprends le grand mouvement. Le mantra revient à voix haute."
+        }
+      );
     }
 
+    phases.push(phase(
+      "balancement",
+      swing.label,
+      swingDuration,
+      swing.video(),
+      "Commencez les balancements.",
+      Object.assign(audioExtra(config.audio.swing), {
+        swing: config.swing,
+        mantra: "SAT / NAM",
+        segments: swingSegments
+      })
+    ));
+
+    // Étape 7 — Respiration
     phases.push(phase(
       "respiration",
       breath.label,
@@ -290,13 +357,14 @@
       })
     ));
 
+    // Étape 8 — Final
     if (config.finalType === "rotor") {
       phases.push(phase(
         "final",
         "Rotation gyroscopique",
         config.finalMin * 60,
         MAP.final && MAP.final.rotor || "",
-        "Préparez le final. Fixez le centre. Laissez la rotation agir autour de l’axe intérieur.",
+        "Préparez le final. Fixez le centre. Laissez la rotation agir autour de l'axe intérieur.",
         audioExtra(config.audio.final)
       ));
     } else {
@@ -327,21 +395,41 @@
 
   function compactPreview(session) {
     const cfg = session.config;
-    const cycles = Math.round(cfg.balanceMin / 3);
     const swing = SWINGS[cfg.swing] || SWINGS.lateral;
     const breath = BREATHS[cfg.breathType] || BREATHS.square;
     const finalLabel = cfg.finalType === "rotor" ? "Rotation gyroscopique" : "Tension statique";
+    const objData = AXIS_OBJECTS.find(o => o.id === cfg.selectedObject) || AXIS_OBJECTS[0];
 
     return [
       {
         title: "Détente initiale",
         time: formatDuration(cfg.relaxationMin * 60),
-        detail: "Vidéo muette + voix d’accueil + piste : " + (cfg.audio.detente ? cfg.audio.detente.name : "aucune")
+        detail: "Vidéo muette + voix d'accueil + piste : " + (cfg.audio.detente ? cfg.audio.detente.name : "aucune")
       },
       {
-        title: "Balancement + lumière",
-        time: formatDuration(cfg.balanceMin * 60 + cycles * 30),
-        detail: cycles + " cycles. Vidéos muettes + voix synchronisée + piste : " + (cfg.audio.swing ? cfg.audio.swing.name : "aucune")
+        title: "👁 Contemplation — " + objData.label,
+        time: "20 s",
+        detail: "Observation de l'objet choisi"
+      },
+      {
+        title: "Observation lumineuse",
+        time: "30 s",
+        detail: "Piste : " + (cfg.audio.light ? cfg.audio.light.name : "aucune")
+      },
+      {
+        title: "💡 Éteindre la lumière",
+        time: "5 s",
+        detail: "Instruction"
+      },
+      {
+        title: "🌑 Poser le bandeau",
+        time: "8 s",
+        detail: "Instruction avec image"
+      },
+      {
+        title: swing.label,
+        time: formatDuration(cfg.balanceMin * 60),
+        detail: "Vidéo muette + voix synchronisée + piste : " + (cfg.audio.swing ? cfg.audio.swing.name : "aucune")
       },
       {
         title: breath.label,
@@ -403,10 +491,16 @@
       localStorage.setItem(key, JSON.stringify(session));
     });
 
-    $("axisMessage").textContent = "Séance générée. Elle est prête dans l’onglet Pratiquer.";
+    $("axisMessage").textContent = "Séance générée. Elle est prête dans l'onglet Pratiquer.";
     $("axisMessage").classList.remove("bad");
 
     return session;
+  }
+
+  function initObjectPicker() {
+    const select = $("axisSelectedObject");
+    if (!select) return;
+    select.addEventListener("change", renderPreview);
   }
 
   function bind() {
@@ -483,6 +577,7 @@
       window.speechSynthesis.onvoiceschanged = fillVoiceSelect;
     }
 
+    initObjectPicker();
     bind();
     renderPreview();
   }

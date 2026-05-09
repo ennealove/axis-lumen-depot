@@ -1,4 +1,4 @@
-window.AXIS_ONE_HOUR_FAMILIES = [
+﻿window.AXIS_ONE_HOUR_FAMILIES = [
     {
         "id":  "regles",
         "order":  1,
@@ -599,7 +599,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "id": "C003-maintenir-son-temple-propre-au-quotidien",
     "title": "Maintenir son temple propre au quotidien"
   },
-"copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation.",
+"copyright": "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation.",
   "coverImage": "assets/courses/course-002/cover.png",
   "image": "assets/courses/course-002/cover.png",
   "cover": "assets/courses/course-002/cover.png",
@@ -824,7 +824,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   ],
   "previousCourse": "C002-regles-de-securite-discernement-et-sobriete",
   "nextCourse": "C004-hygiene-du-lieu-du-corps-et-du-mental",
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés.",
+  "copyright": "© Axis Lumen Studio — Tous droits réservés.",
   "coverImage": "assets/courses/course-003/cover.png",
   "image": "assets/courses/course-003/cover.png",
   "cover": "assets/courses/course-003/cover.png",
@@ -1049,7 +1049,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   ],
   "previousCourse": "C003-maintenir-son-temple-propre-au-quotidien",
   "nextCourse": "C005-le-carnet-d-experience-comme-preuve-interieure",
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation.",
+  "copyright": "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation.",
   "coverImage": "assets/courses/course-004/cover.png",
   "image": "assets/courses/course-004/cover.png",
   "cover": "assets/courses/course-004/cover.png",
@@ -1317,7 +1317,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   },
   "previousCourse": "C004-hygiene-du-lieu-du-corps-et-du-mental",
   "nextCourse": "C006",
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés.",
+  "copyright": "© Axis Lumen Studio — Tous droits réservés.",
   "coverImage": "assets/courses/course-005/cover.png",
   "image": "assets/courses/course-005/cover.png",
   "cover": "assets/courses/course-005/cover.png",
@@ -1491,7 +1491,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   "pdf": {
     "path": "",
     "title": "Cours 6 — Clore une séance",
-    "protectedNotice": "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée."
+    "protectedNotice": "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée."
   },
 "references": [
     "JE SUIS — Le Livre d’Exercices : Chapitre 6 — Clore une séance.",
@@ -1509,7 +1509,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   ],
   "previousCourse": "course-005-preparer-une-seance-ouvrir-le-seuil",
   "nextCourse": "course-007",
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés.",
+  "copyright": "© Axis Lumen Studio — Tous droits réservés.",
   "coverImage": "assets/courses/course-006/cover.png",
   "image": "assets/courses/course-006/cover.png",
   "cover": "assets/courses/course-006/cover.png",
@@ -1716,7 +1716,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   },
   "previousCourse": 6,
   "nextCourse": 8,
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés.",
+  "copyright": "© Axis Lumen Studio — Tous droits réservés.",
   "coverImage": "assets/courses/course-007/cover.png",
   "image": "assets/courses/course-007/cover.png",
   "cover": "assets/courses/course-007/cover.png",
@@ -1968,7 +1968,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "id": "C009-terrain-vivant-eau-sang-souffle-mineraux",
     "title": "Terrain vivant : eau, sang, souffle, minéraux"
   },
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+  "copyright": "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
 },
     {
         "id":  "C009-terrain-vivant-eau-sang-souffle-mineraux",
@@ -1998,7 +1998,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C010-alimentation-fraiche-et-reduction-de-la-surcharge",
@@ -2028,7 +2028,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C011-emonctoires-intestins-reins-foie-lymphe",
@@ -2058,7 +2058,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C012-rh-ph-et-resistivite-boussole-du-terrain",
@@ -2088,7 +2088,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C013-electrolytes-sel-complet-et-conductivite",
@@ -2118,7 +2118,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C014-jeune-juste-et-temps-sans-manger",
@@ -2148,7 +2148,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C015-recettes-de-clarification-avant-pratique",
@@ -2178,7 +2178,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C016-protocole-terrain-de-sept-jours",
@@ -2208,7 +2208,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C017-soleil-visible-et-lumiere-interieure",
@@ -2238,7 +2238,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C018-prudence-oculaire-et-observation-douce",
@@ -2268,7 +2268,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C019-remanence-lumineuse-et-systeme-nerveux",
@@ -2298,7 +2298,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C020-lumiere-du-matin-et-rythme-circadien",
@@ -2328,7 +2328,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C021-photons-attention-et-plasticite-cerebrale",
@@ -2358,7 +2358,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C022-lumiere-sommeil-et-reparation",
@@ -2388,7 +2388,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C023-source-lumineuse-intention-et-impregnation",
@@ -2418,7 +2418,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C024-integrer-la-lumiere-dans-la-journee",
@@ -2448,7 +2448,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Fondation"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C025-loi-du-rythme-biologique",
@@ -2478,7 +2478,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C026-alternance-gauche-droite-et-attention",
@@ -2508,7 +2508,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C027-nombre-d-or-comme-architecture-vivante",
@@ -2538,7 +2538,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C028-fractales-du-vivant-et-perception",
@@ -2568,7 +2568,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C029-spirales-proportions-et-axe-interieur",
@@ -2598,7 +2598,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C030-rythmes-cerebraux-et-etats-de-conscience",
@@ -2628,7 +2628,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C031-musique-mantra-et-cadence",
@@ -2658,7 +2658,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C032-construire-un-protocole-rythmique-personnel",
@@ -2688,7 +2688,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C033-ce-qui-est-en-haut-comme-ce-qui-est-en-bas",
@@ -2718,7 +2718,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C034-le-miroir-inverse-de-l-incarnation",
@@ -2748,7 +2748,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C035-polarites-axe-croix-et-retournement",
@@ -2778,7 +2778,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C036-descendre-pour-elever",
@@ -2808,7 +2808,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C037-ombre-lumiere-et-inversion-du-regard",
@@ -2838,7 +2838,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C038-symbolique-du-temple-inverse",
@@ -2868,7 +2868,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C039-integrer-l-inversion-dans-les-exercices",
@@ -2898,7 +2898,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C040-meditation-du-retournement-interieur",
@@ -2928,7 +2928,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C041-balancement-lateral-complet",
@@ -2958,7 +2958,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C042-balancement-vertical-complet",
@@ -2988,7 +2988,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C043-balancement-antero-posterieur",
@@ -3018,7 +3018,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C044-balancement-en-huit",
@@ -3048,7 +3048,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C045-balancement-en-croix",
@@ -3078,7 +3078,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C046-rotation-douce",
@@ -3108,7 +3108,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C047-fer-a-cheval-et-perception-arriere",
@@ -3138,7 +3138,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C048-seance-combinee-de-balancements",
@@ -3168,7 +3168,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C049-yoga-du-temple-vivant",
@@ -3198,7 +3198,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C050-postures-statiques-et-axe",
@@ -3228,7 +3228,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C051-respiration-naturelle",
@@ -3258,7 +3258,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C052-respiration-carree",
@@ -3288,7 +3288,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C053-respiration-triangulaire-et-rectangulaire",
@@ -3318,7 +3318,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C054-mantras-illi-alla-ollo-roro",
@@ -3348,7 +3348,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C055-om-et-vibration-interieure",
@@ -3378,7 +3378,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C056-sequence-souffle-mantra-et-mouvement",
@@ -3408,7 +3408,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C057-developper-l-imagination-sensorielle",
@@ -3438,7 +3438,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C058-stabiliser-un-point-lumineux-interne",
@@ -3468,7 +3468,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C059-images-mentales-et-remanence",
@@ -3498,7 +3498,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C060-clairvoyance-fondations-sobres",
@@ -3528,7 +3528,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C061-reves-symboles-et-carnet",
@@ -3558,7 +3558,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C062-vision-interieure-et-silence",
@@ -3588,7 +3588,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C063-protocole-de-verification-interieure",
@@ -3618,7 +3618,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C064-seance-de-clairvoyance-guidee",
@@ -3648,7 +3648,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Approfondissement"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C065-clair-ressenti-corporel",
@@ -3678,7 +3678,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C066-lecture-des-sensations-subtiles",
@@ -3708,7 +3708,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C067-communication-animale-approche-ethique",
@@ -3738,7 +3738,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C068-communication-vegetale-et-presence",
@@ -3768,7 +3768,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C069-dialogue-avec-le-vivant-par-la-lumiere",
@@ -3798,7 +3798,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C070-ressenti-des-lieux-et-ambiances",
@@ -3828,7 +3828,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C071-differencier-intuition-et-projection",
@@ -3858,7 +3858,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C072-pratique-quotidienne-du-clair-ressenti",
@@ -3888,7 +3888,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C073-contact-avec-les-guides-cadre-et-prudence",
@@ -3918,7 +3918,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C074-priere-demande-claire-et-ecoute",
@@ -3948,7 +3948,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C075-defunts-et-au-dela-respect-et-discernement",
@@ -3978,7 +3978,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C076-tenir-une-guidance-sans-s-identifier",
@@ -4008,7 +4008,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C077-ecrire-un-message-interieur",
@@ -4038,7 +4038,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C078-signes-synchronicites-et-tri",
@@ -4068,7 +4068,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C079-proteger-la-guidance-de-l-ego",
@@ -4098,7 +4098,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C080-rituel-de-cloture-d-une-guidance",
@@ -4128,7 +4128,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C081-telepathie-bases-experimentales",
@@ -4158,7 +4158,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C082-emettre-une-image-simple",
@@ -4188,7 +4188,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C083-recevoir-sans-inventer",
@@ -4218,7 +4218,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C084-travail-a-deux-protocole-et-carnet",
@@ -4248,7 +4248,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C085-telekinesie-cadre-de-recherche-et-prudence",
@@ -4278,7 +4278,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C086-micro-intentions-et-observation",
@@ -4308,7 +4308,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C087-statistiques-simples-et-verification",
@@ -4338,7 +4338,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C088-ethique-des-capacites-extrasensorielles",
@@ -4368,7 +4368,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Avancé"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C089-protection-energetique-du-corps",
@@ -4398,7 +4398,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C090-nettoyage-du-lieu",
@@ -4428,7 +4428,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C091-priere-de-protection",
@@ -4458,7 +4458,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C092-vertus-comme-armure-interieure",
@@ -4488,7 +4488,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C093-couper-les-charges-relationnelles",
@@ -4518,7 +4518,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C094-se-recentrer-apres-un-soin-ou-un-echange",
@@ -4548,7 +4548,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C095-eau-sel-lumiere-et-intention",
@@ -4578,7 +4578,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C096-rituel-quotidien-de-protection",
@@ -4608,7 +4608,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C097-eau-informee-principe-symbolique-et-pratique",
@@ -4638,7 +4638,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C098-transfert-de-pensee-dans-l-eau",
@@ -4668,7 +4668,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C099-verre-d-eau-intention-et-lumiere",
@@ -4698,7 +4698,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C100-bioresonance-et-information-du-terrain",
@@ -4728,7 +4728,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C101-spooky-plasma-pemf-cadre-experimental",
@@ -4758,7 +4758,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C102-choisir-la-bonne-eau-pour-le-bon-corps",
@@ -4788,7 +4788,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C103-journal-de-l-eau-et-mesures-du-terrain",
@@ -4818,7 +4818,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C104-protocole-eau-informee-sept-jours",
@@ -4848,7 +4848,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C105-exercice-1-preparer-une-seance",
@@ -4878,7 +4878,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C106-exercice-2-observer-une-source-lumineuse",
@@ -4908,7 +4908,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C107-exercice-3-accueillir-la-remanence",
@@ -4938,7 +4938,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C108-exercice-4-stabiliser-le-point-interieur",
@@ -4968,7 +4968,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C109-exercice-5-tenir-le-carnet-d-experience",
@@ -4998,7 +4998,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C110-exercice-6-clore-une-seance",
@@ -5028,7 +5028,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C111-point-fixe-objet-et-lumiere",
@@ -5058,7 +5058,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C112-synthese-du-livre-d-exercices",
@@ -5088,7 +5088,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "PDF protégé",
                      "Recherche"
                  ],
-        "copyright":  "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     }
 ];
 
@@ -5612,7 +5612,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "title": "Maintenir son temple propre au quotidien"
   },
   "pdfPremium": true,
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+  "copyright": "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
 };
 
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES) ? window.AXIS_ONE_HOUR_COURSES : [];
@@ -5937,7 +5937,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "id": "C005-le-carnet-d-experience-comme-preuve-interieure",
     "title": "Le carnet d’expérience comme preuve intérieure"
   },
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+  "copyright": "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
 };
 
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES)
@@ -6176,7 +6176,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   ],
   "previousCourse": "C002-regles-de-securite-discernement-et-sobriete",
   "nextCourse": "C004-hygiene-du-lieu-du-corps-et-du-mental",
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés."
+  "copyright": "© Axis Lumen Studio — Tous droits réservés."
 };
 
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES)
@@ -6385,7 +6385,7 @@ window.AXIS_ONE_HOUR_COURSES = [
 
     previousCourse: "C004-hygiene-du-lieu-du-corps-et-du-mental",
     nextCourse: "C006",
-    copyright: "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés."
+    copyright: "© Axis Lumen Studio — Tous droits réservés."
   };
 
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES)
@@ -6670,7 +6670,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   },
   "previousCourse": 6,
   "nextCourse": 8,
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés."
+  "copyright": "© Axis Lumen Studio — Tous droits réservés."
 };
 
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES)
@@ -6756,7 +6756,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -7059,7 +7059,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -7302,7 +7302,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "title": "Maintenir son temple propre au quotidien"
   },
   "pdfPremium": true,
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+  "copyright": "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
 };
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES) ? window.AXIS_ONE_HOUR_COURSES : [];
   const index = list.findIndex((item) => Number(item.number) === 2 || String(item.id || "").includes("002"));
@@ -7369,7 +7369,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -7589,7 +7589,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   ],
   "previousCourse": "C002-regles-de-securite-discernement-et-sobriete",
   "nextCourse": "C004-hygiene-du-lieu-du-corps-et-du-mental",
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés."
+  "copyright": "© Axis Lumen Studio — Tous droits réservés."
 };
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES) ? window.AXIS_ONE_HOUR_COURSES : [];
   const index = list.findIndex((item) => Number(item.number) === 3 || String(item.id || "").includes("003"));
@@ -7656,7 +7656,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -7858,7 +7858,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   ],
   "previousCourse": "C003-maintenir-son-temple-propre-au-quotidien",
   "nextCourse": "C005-le-carnet-d-experience-comme-preuve-interieure",
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+  "copyright": "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
 };
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES) ? window.AXIS_ONE_HOUR_COURSES : [];
   const index = list.findIndex((item) => Number(item.number) === 4 || String(item.id || "").includes("004"));
@@ -7925,7 +7925,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -8188,7 +8188,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   },
   "previousCourse": "C004-hygiene-du-lieu-du-corps-et-du-mental",
   "nextCourse": "C006",
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés."
+  "copyright": "© Axis Lumen Studio — Tous droits réservés."
 };
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES) ? window.AXIS_ONE_HOUR_COURSES : [];
   const index = list.findIndex((item) => Number(item.number) === 5 || String(item.id || "").includes("005"));
@@ -8255,7 +8255,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -8394,7 +8394,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   "pdf": {
     "path": "",
     "title": "Cours 6 — Clore une séance",
-    "protectedNotice": "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée."
+    "protectedNotice": "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée."
   },
   "pdfPremium": true,
   "references": [
@@ -8413,7 +8413,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   ],
   "previousCourse": "course-005-preparer-une-seance-ouvrir-le-seuil",
   "nextCourse": "course-007",
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés.",
+  "copyright": "© Axis Lumen Studio — Tous droits réservés.",
   "coverImage": "assets/courses/course-006/cover.png",
   "image": "assets/courses/course-006/cover.png",
   "cover": "assets/courses/course-006/cover.png",
@@ -8522,7 +8522,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -8727,7 +8727,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   },
   "previousCourse": 6,
   "nextCourse": 8,
-  "copyright": "© Axis Lumen Studio / Michael Chauvet — Tous droits réservés."
+  "copyright": "© Axis Lumen Studio — Tous droits réservés."
 };
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES) ? window.AXIS_ONE_HOUR_COURSES : [];
   const index = list.findIndex((item) => Number(item.number) === 7 || String(item.id || "").includes("007"));
@@ -8794,7 +8794,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -8898,7 +8898,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -8957,7 +8957,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9016,7 +9016,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9075,7 +9075,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9134,7 +9134,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9193,7 +9193,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9252,7 +9252,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9311,7 +9311,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9370,7 +9370,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9429,7 +9429,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9488,7 +9488,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9547,7 +9547,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9606,7 +9606,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9665,7 +9665,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9724,7 +9724,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9783,7 +9783,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9842,7 +9842,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9901,7 +9901,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9960,7 +9960,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10019,7 +10019,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10078,7 +10078,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10137,7 +10137,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10196,7 +10196,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10255,7 +10255,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10314,7 +10314,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10373,7 +10373,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10432,7 +10432,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10491,7 +10491,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10550,7 +10550,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10609,7 +10609,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10668,7 +10668,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10727,7 +10727,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10786,7 +10786,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10845,7 +10845,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10904,7 +10904,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10963,7 +10963,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11022,7 +11022,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11081,7 +11081,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11140,7 +11140,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11199,7 +11199,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11258,7 +11258,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11317,7 +11317,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11376,7 +11376,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11435,7 +11435,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11494,7 +11494,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11553,7 +11553,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11612,7 +11612,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11671,7 +11671,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11730,7 +11730,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11789,7 +11789,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11848,7 +11848,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11907,7 +11907,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -11966,7 +11966,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12025,7 +12025,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12084,7 +12084,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12143,7 +12143,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12202,7 +12202,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12261,7 +12261,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12320,7 +12320,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12379,7 +12379,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12438,7 +12438,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12497,7 +12497,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12556,7 +12556,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12615,7 +12615,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12674,7 +12674,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12733,7 +12733,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12792,7 +12792,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12851,7 +12851,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12910,7 +12910,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -12969,7 +12969,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13028,7 +13028,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13087,7 +13087,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13146,7 +13146,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13205,7 +13205,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13264,7 +13264,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13323,7 +13323,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13382,7 +13382,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13441,7 +13441,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13500,7 +13500,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13559,7 +13559,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13618,7 +13618,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13677,7 +13677,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13736,7 +13736,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13795,7 +13795,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13854,7 +13854,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13913,7 +13913,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -13972,7 +13972,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14031,7 +14031,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14090,7 +14090,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14149,7 +14149,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14208,7 +14208,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14267,7 +14267,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14326,7 +14326,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14385,7 +14385,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14444,7 +14444,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14503,7 +14503,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14562,7 +14562,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14621,7 +14621,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14680,7 +14680,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14739,7 +14739,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14798,7 +14798,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14857,7 +14857,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14916,7 +14916,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -14975,7 +14975,7 @@ window.AXIS_ONE_HOUR_COURSES = [
       course.pdf = {};
     }
 
-    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée.";
+    course.pdf.protectedNotice = course.pdf.protectedNotice || "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée.";
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;

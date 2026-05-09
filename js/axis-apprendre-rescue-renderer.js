@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   "use strict";
 
   function ready(fn) {
@@ -301,7 +301,7 @@
         course.essentialPhrase ? "<div class='phrase'>" + esc(course.essentialPhrase) + "</div>" : "",
         course.references ? "<h2>Références</h2>" + list(course.references) : "",
         course.validation ? "<h2>Validation</h2>" + (course.validation.criteria ? list(course.validation.criteria) : list(course.validation)) : "",
-        "<p><strong>Document protégé :</strong> Axis Lumen Studio / Michael Chauvet.</p>",
+        "<p><strong>Document protégé :</strong> Axis Lumen Studio.</p>",
       "</main>",
       "<script>setTimeout(function(){window.print()},600)</script>",
       "</body>",

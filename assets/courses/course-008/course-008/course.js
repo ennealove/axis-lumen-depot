@@ -1,4 +1,4 @@
-window.AXIS_COURSE_008_IMAGES = {
+﻿window.AXIS_COURSE_008_IMAGES = {
   "id": "course-008",
   "number": 8,
   "coverImage": "assets/courses/course-008/cover.png",
@@ -46,7 +46,7 @@ window.AXIS_COURSE_008_IMAGES = {
   "pdf": {
     "path": "",
     "title": "Cours 8 — PDF premium",
-    "protectedNotice": "Support pédagogique protégé — Axis Lumen Studio / Michael Chauvet. Reproduction, diffusion ou revente non autorisée."
+    "protectedNotice": "Support pédagogique protégé — Axis Lumen Studio. Reproduction, diffusion ou revente non autorisée."
   },
   "pdfPremium": true
 };

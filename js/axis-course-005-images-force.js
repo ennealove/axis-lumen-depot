@@ -64,7 +64,7 @@
       cover: MAIN_IMAGE,
       image: MAIN_IMAGE,
       images: COURSE_IMAGES,
-      protectedNotice: "Document réservé à l’usage personnel de l’élève — Axis Lumen Studio / Michael Chauvet."
+      protectedNotice: "Document réservé à l’usage personnel de l’élève — Axis Lumen Studio."
     });
 
     return course;
@@ -333,8 +333,8 @@
           '<section>' +
             '<h2>Validation</h2>' +
             '<p>' + esc(course.validation || "Le cours est validé lorsque l’élève sait préparer son lieu, choisir une lumière douce, consulter son état corporel, poser une intention simple et noter une observation claire dans son carnet.") + '</p>' +
-            '<div class="notice">Document protégé — Usage personnel de l’élève — Axis Lumen Studio / Michael Chauvet.</div>' +
-            '<div class="footer">© Axis Lumen Studio / Michael Chauvet</div>' +
+            '<div class="notice">Document protégé — Usage personnel de l’élève — Axis Lumen Studio.</div>' +
+            '<div class="footer">© Axis Lumen Studio</div>' +
           '</section>' +
         '</main>' +
       '</body>' +
