@@ -9,20 +9,24 @@
   ];
 
   let root;
-  let session = null;
-  let index = 0;
-  let running = false;
-  let paused = false;
-  let startAt = 0;
-  let pauseAt = 0;
+  let session     = null;
+  let index       = 0;
+  let running     = false;
+  let paused      = false;
+  let startAt     = 0;
+  let pauseAt     = 0;
   let pausedTotal = 0;
-  let timer = null;
-  let audioCtx = null;
-  let bgAudio = null;
-  let currentTrackUrl = "";
-  let segmentKey = "";
-  let breathToneKey = "";
-  let inSpecialStep = false;
+  let timer       = null;
+  let audioCtx    = null;
+  let bgAudio     = null;
+  let bgTrackUrl  = "";
+  let segmentKey  = "";
+  let breathKey   = "";
+
+  // Flag : true quand un overlay plein-écran gère lui-même le décompte
+  let specialActive = false;
+
+  // ─── Session ──────────────────────────────────────────────────────
 
   function readSession() {
     for (const key of STORAGE_KEYS) {
@@ -33,68 +37,53 @@
         if (parsed && Array.isArray(parsed.phases)) return parsed;
       } catch (_) {}
     }
-
     return null;
   }
 
+  function currentPhase() {
+    return session && session.phases ? session.phases[index] : null;
+  }
+
+  // ─── Audio Web ────────────────────────────────────────────────────
+
   function audioContext() {
-    if (!audioCtx) {
-      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-    }
-
-    if (audioCtx.state === "suspended") {
-      audioCtx.resume().catch(() => {});
-    }
-
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === "suspended") audioCtx.resume().catch(() => {});
     return audioCtx;
   }
 
-  function playTone(freq, duration, gainValue, type) {
+  function playTone(freq, dur, gain, type) {
     try {
       const ctx = audioContext();
       const now = ctx.currentTime;
       const osc = ctx.createOscillator();
-      const gain = ctx.createGain();
-
+      const g   = ctx.createGain();
       osc.type = type || "sine";
       osc.frequency.setValueAtTime(freq, now);
-
-      gain.gain.setValueAtTime(0.0001, now);
-      gain.gain.exponentialRampToValueAtTime(gainValue || 0.08, now + 0.04);
-      gain.gain.exponentialRampToValueAtTime(0.0001, now + duration);
-
-      osc.connect(gain);
-      gain.connect(ctx.destination);
-
-      osc.start(now);
-      osc.stop(now + duration + 0.08);
+      g.gain.setValueAtTime(0.0001, now);
+      g.gain.exponentialRampToValueAtTime(gain || 0.08, now + 0.04);
+      g.gain.exponentialRampToValueAtTime(0.0001, now + dur);
+      osc.connect(g); g.connect(ctx.destination);
+      osc.start(now); osc.stop(now + dur + 0.08);
     } catch (_) {}
   }
 
   function playBell() {
     const voice = session && session.voice ? session.voice : {};
     if (!voice.bellEnabled) return;
-
     try {
       const ctx = audioContext();
       const now = ctx.currentTime;
-
       [660, 880, 1320].forEach((freq, i) => {
         const osc = ctx.createOscillator();
-        const gain = ctx.createGain();
-
+        const g   = ctx.createGain();
         osc.type = "sine";
         osc.frequency.setValueAtTime(freq, now);
-
-        gain.gain.setValueAtTime(0.0001, now);
-        gain.gain.exponentialRampToValueAtTime(0.10 / (i + 1), now + 0.03);
-        gain.gain.exponentialRampToValueAtTime(0.0001, now + 1.8);
-
-        osc.connect(gain);
-        gain.connect(ctx.destination);
-
-        osc.start(now);
-        osc.stop(now + 1.9);
+        g.gain.setValueAtTime(0.0001, now);
+        g.gain.exponentialRampToValueAtTime(0.10 / (i + 1), now + 0.03);
+        g.gain.exponentialRampToValueAtTime(0.0001, now + 1.8);
+        osc.connect(g); g.connect(ctx.destination);
+        osc.start(now); osc.stop(now + 1.9);
       });
     } catch (_) {}
   }
@@ -102,123 +91,126 @@
   function playBreathTone(tone) {
     const voice = session && session.voice ? session.voice : {};
     if (!voice.breathTonesEnabled) return;
-
-    const map = {
-      LA: 440.00,
-      DO: 261.63,
-      FA: 349.23
-    };
-
+    const map = { LA: 440.00, DO: 261.63, FA: 349.23 };
     playTone(map[tone] || 349.23, 0.95, 0.075, tone === "DO" ? "triangle" : "sine");
   }
 
-  function speak(text, force) {
-    if (!session || !session.voice || !session.voice.enabled) return;
-    if (!window.speechSynthesis || !text) return;
+  // ─── Audio de fond (pistes MP3) ───────────────────────────────────
 
-    try {
-      if (force) window.speechSynthesis.cancel();
-
-      const utter = new SpeechSynthesisUtterance(text);
-      utter.lang = "fr-FR";
-      utter.rate = session.voice.rate || 0.95;
-      utter.volume = session.voice.volume ?? 0.85;
-
-      const voices = window.speechSynthesis.getVoices();
-      const selected = voices.find(v => v.name === session.voice.voiceName);
-
-      if (selected) utter.voice = selected;
-
-      window.speechSynthesis.speak(utter);
-    } catch (_) {}
-  }
-
-  function stopSpeech() {
-    try {
-      if (window.speechSynthesis) window.speechSynthesis.cancel();
-    } catch (_) {}
-  }
-
-  function stopBackgroundAudio() {
+  function stopBgAudio() {
     if (bgAudio) {
       try { bgAudio.pause(); } catch (_) {}
       try { bgAudio.currentTime = 0; } catch (_) {}
     }
-
     bgAudio = null;
-    currentTrackUrl = "";
+    bgTrackUrl = "";
   }
 
-  function startBackgroundAudio(track) {
-    const voice = session && session.voice ? session.voice : {};
-    const volume = voice.audioVolume ?? 0.32;
+  function startBgAudio(track) {
+    const vol = (session && session.voice) ? (session.voice.audioVolume ?? 0.32) : 0.32;
 
-    if (!track || !track.url) {
-      stopBackgroundAudio();
+    if (!track || !track.url) { stopBgAudio(); return; }
+
+    // Même piste déjà en cours → ne pas relancer
+    if (bgTrackUrl === track.url && bgAudio && !bgAudio.paused) return;
+
+    // Nouvelle piste
+    if (bgTrackUrl !== track.url) {
+      stopBgAudio();
+      try {
+        bgAudio = new Audio(track.url);
+        bgAudio.loop   = true;
+        bgAudio.volume = vol;
+        bgTrackUrl = track.url;
+      } catch (_) { return; }
+    }
+
+    if (bgAudio && bgAudio.paused) {
+      const p = bgAudio.play();
+      if (p && typeof p.catch === "function") p.catch(() => {});
+    }
+  }
+
+  function pauseBgAudio() {
+    if (bgAudio) try { bgAudio.pause(); } catch (_) {}
+  }
+
+  function resumeBgAudio() {
+    if (bgAudio && bgAudio.paused && bgTrackUrl) {
+      const p = bgAudio.play();
+      if (p && typeof p.catch === "function") p.catch(() => {});
+    }
+  }
+
+  // ─── Voix ─────────────────────────────────────────────────────────
+
+  function speak(text, force) {
+    if (!session || !session.voice || !session.voice.enabled) return;
+    if (!window.speechSynthesis || !text) return;
+    try {
+      if (force) window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang   = "fr-FR";
+      u.rate   = session.voice.rate || 0.95;
+      u.volume = session.voice.volume ?? 0.85;
+      const v  = window.speechSynthesis.getVoices().find(v => v.name === session.voice.voiceName);
+      if (v) u.voice = v;
+      window.speechSynthesis.speak(u);
+    } catch (_) {}
+  }
+
+  function stopSpeech() {
+    try { if (window.speechSynthesis) window.speechSynthesis.cancel(); } catch (_) {}
+  }
+
+  // ─── Vidéo ────────────────────────────────────────────────────────
+
+  function setVideo(src, autoplay) {
+    const video = document.getElementById("axisPracticeVideo");
+    const ph    = document.getElementById("axisPracticePlaceholder");
+    if (!video || !ph) return;
+
+    video.muted = true; video.volume = 0;
+
+    if (!src) {
+      try { video.pause(); } catch (_) {}
+      video.removeAttribute("src");
+      video.style.display = "none";
+      ph.style.display = "grid";
       return;
     }
 
-    if (currentTrackUrl === track.url && bgAudio) return;
+    ph.style.display = "none";
+    video.style.display = "block";
+    video.loop = true;
 
-    stopBackgroundAudio();
-
-    try {
-      bgAudio = new Audio(track.url);
-      bgAudio.loop = true;
-      bgAudio.volume = volume;
-      currentTrackUrl = track.url;
-
-      const p = bgAudio.play();
-      if (p && typeof p.catch === "function") p.catch(() => {});
-    } catch (_) {
-      bgAudio = null;
-      currentTrackUrl = "";
-    }
+    if (video.getAttribute("src") !== src) { video.setAttribute("src", src); video.load(); }
+    if (autoplay) { const p = video.play(); if (p && p.catch) p.catch(() => {}); }
   }
 
-  function formatClock(seconds) {
-    const s = Math.max(0, Math.ceil(seconds));
-    const m = Math.floor(s / 60);
-    const r = s % 60;
-    return String(m).padStart(2, "0") + ":" + String(r).padStart(2, "0");
-  }
+  // ─── Décompte (overlay) ───────────────────────────────────────────
 
-  function formatDuration(seconds) {
-    const s = Math.max(0, Math.round(seconds));
-    const m = Math.floor(s / 60);
-    const r = s % 60;
-
-    if (m <= 0) return r + " s";
-    if (r === 0) return m + " min";
-    return m + " min " + r + " s";
-  }
-
-  function startCountdown(seconds, elementId, callback) {
+  function startCountdown(seconds, elementId, onEnd) {
     let remaining = seconds;
-    const el = document.getElementById(elementId);
-    if (el) el.textContent = remaining;
-
-    const interval = setInterval(() => {
+    const update = () => {
+      const el = document.getElementById(elementId);
+      if (el) el.textContent = remaining;
+    };
+    update();
+    const iv = setInterval(() => {
       remaining--;
-      const el2 = document.getElementById(elementId);
-      if (el2) el2.textContent = remaining;
-      if (remaining <= 0) {
-        clearInterval(interval);
-        if (typeof callback === "function") callback();
-      }
+      update();
+      if (remaining <= 0) { clearInterval(iv); if (typeof onEnd === "function") onEnd(); }
     }, 1000);
   }
 
-  function currentPhase() {
-    return session && session.phases ? session.phases[index] : null;
-  }
+  // ─── Shell HTML du player ─────────────────────────────────────────
 
   function renderShell() {
     root.innerHTML = `
       <section class="session-player-card">
         <h1>Pratiquer</h1>
         <p id="axisPlayerIntro">Charge une séance depuis "Créer sa séance", puis lance la pratique.</p>
-
         <div class="session-player-layout">
           <div>
             <div class="session-video-wrap">
@@ -227,277 +219,207 @@
                 Aucune vidéo reliée à cette phase. Suis la consigne affichée.
               </div>
             </div>
-
             <div class="session-current">
               <div class="session-timer" id="axisTimer">00:00</div>
               <p><strong id="axisPhaseTitle">Aucune séance chargée</strong></p>
               <p id="axisPhaseSegment">—</p>
               <p id="axisPhaseGuidance">Va dans Créer sa séance pour générer une séance vidéo.</p>
-
               <div class="session-player-actions">
-                <button class="session-btn primary" id="axisStart" type="button">Lancer</button>
-                <button class="session-btn" id="axisPause" type="button">Pause</button>
-                <button class="session-btn" id="axisResume" type="button">Reprendre</button>
-                <button class="session-btn" id="axisNext" type="button">Phase suivante</button>
-                <button class="session-btn" id="axisReset" type="button">Revenir au début</button>
+                <button class="session-btn primary" id="axisStart"  type="button">Lancer</button>
+                <button class="session-btn"         id="axisPause"  type="button">Pause</button>
+                <button class="session-btn"         id="axisResume" type="button">Reprendre</button>
+                <button class="session-btn"         id="axisNext"   type="button">Phase suivante</button>
+                <button class="session-btn"         id="axisReset"  type="button">Revenir au début</button>
                 <a class="session-btn" href="creer-seance.html">Créer une autre séance</a>
               </div>
             </div>
           </div>
-
           <aside>
             <h2>Timeline</h2>
             <div class="session-timeline" id="axisTimeline"></div>
           </aside>
         </div>
-      </section>
-    `;
+      </section>`;
   }
 
-  function setVideo(src, autoplay) {
-    const video = document.getElementById("axisPracticeVideo");
-    const placeholder = document.getElementById("axisPracticePlaceholder");
+  // ─── Timeline ─────────────────────────────────────────────────────
 
-    if (!video || !placeholder) return;
-
-    video.muted = true;
-    video.volume = 0;
-
-    if (!src) {
-      try { video.pause(); } catch (_) {}
-      video.removeAttribute("src");
-      video.style.display = "none";
-      placeholder.style.display = "grid";
-      return;
-    }
-
-    placeholder.style.display = "none";
-    video.style.display = "block";
-    video.loop = true;
-
-    if (video.getAttribute("src") !== src) {
-      video.setAttribute("src", src);
-      video.load();
-    }
-
-    if (autoplay) {
-      const p = video.play();
-      if (p && typeof p.catch === "function") p.catch(() => {});
-    }
+  function formatClock(s) {
+    s = Math.max(0, Math.ceil(s));
+    const m = Math.floor(s / 60), r = s % 60;
+    return String(m).padStart(2, "0") + ":" + String(r).padStart(2, "0");
   }
 
-  function segmentForPhase(phase, elapsed) {
-    if (!phase) return null;
-
-    if (Array.isArray(phase.segments)) {
-      return phase.segments.find(seg => elapsed >= seg.from && elapsed < seg.to) || phase.segments[phase.segments.length - 1];
-    }
-
-    if (phase.type === "respiration" && Array.isArray(phase.breathPattern)) {
-      const total = phase.breathPatternDuration || phase.breathPattern.reduce((sum, item) => sum + item.duration, 0);
-      let t = elapsed % total;
-      let acc = 0;
-
-      for (const seg of phase.breathPattern) {
-        acc += seg.duration;
-        if (t < acc) {
-          return {
-            title: seg.title,
-            tone: seg.tone,
-            guidance: seg.guidance
-          };
-        }
-      }
-    }
-
-    return null;
+  function formatDuration(s) {
+    s = Math.max(0, Math.round(s));
+    const m = Math.floor(s / 60), r = s % 60;
+    if (m <= 0) return r + " s";
+    if (r === 0) return m + " min";
+    return m + " min " + r + " s";
   }
 
   function renderTimeline() {
     const host = document.getElementById("axisTimeline");
-
     if (!host) return;
-
     if (!session) {
       host.innerHTML = `<article class="session-phase-row"><strong>Aucune séance</strong><small>Génère une séance depuis Créer sa séance.</small></article>`;
       return;
     }
-
     host.innerHTML = "";
-
-    session.phases.forEach((phase, i) => {
-      const node = document.createElement("article");
-      node.className = "session-phase-row" + (i === index ? " active" : "");
-      const audioName = phase.audioTrack && phase.audioTrack.name ? " · audio : " + phase.audioTrack.name : "";
-      node.innerHTML = `
-        <strong>${String(i + 1).padStart(2, "0")}. ${phase.title}</strong>
-        <small>${formatDuration(phase.duration)} · vidéo muette${audioName}</small>
-      `;
-      host.appendChild(node);
+    session.phases.forEach((p, i) => {
+      const row = document.createElement("article");
+      row.className = "session-phase-row" + (i === index ? " active" : "");
+      const audio = p.audioTrack && p.audioTrack.name ? " · " + p.audioTrack.name : "";
+      row.innerHTML = `<strong>${String(i + 1).padStart(2, "0")}. ${p.title}</strong><small>${formatDuration(p.duration)}${audio}</small>`;
+      host.appendChild(row);
     });
   }
 
-  function showPhase(autoplay) {
-    const phase = currentPhase();
+  // ─── Rendu d'une phase ────────────────────────────────────────────
 
-    if (!phase) {
-      finish();
-      return;
+  function segmentForPhase(p, elapsed) {
+    if (!p) return null;
+    if (Array.isArray(p.segments)) {
+      return p.segments.find(s => elapsed >= s.from && elapsed < s.to) || p.segments[p.segments.length - 1];
     }
+    if (p.type === "respiration" && Array.isArray(p.breathPattern)) {
+      const total = p.breathPatternDuration || p.breathPattern.reduce((s, i) => s + i.duration, 0);
+      let t = elapsed % total, acc = 0;
+      for (const seg of p.breathPattern) {
+        acc += seg.duration;
+        if (t < acc) return { title: seg.title, tone: seg.tone, guidance: seg.guidance };
+      }
+    }
+    return null;
+  }
+
+  // Callback commun à la fin d'un overlay spécial
+  function onSpecialEnd() {
+    specialActive = false;
+    renderShell();
+    bind();
+    index += 1;
+    if (index >= session.phases.length) { finish(); return; }
+    startAt     = Date.now();
+    pauseAt     = 0;
+    pausedTotal = 0;
+    paused      = false;
+    showPhase(true);
+  }
+
+  function showPhase(autoplay) {
+    const p = currentPhase();
+    if (!p) { finish(); return; }
 
     segmentKey = "";
-    breathToneKey = "";
+    breathKey  = "";
 
-    // ── Contemplation d'objet ─────────────────────────────────────
-    if (phase.type === "object-contemplation") {
-      inSpecialStep = true;
+    // ── Overlay : contemplation d'objet ──────────────────────────
+    if (p.type === "object-contemplation") {
+      specialActive = true;
       root.innerHTML = `
         <div class="axis-object-contemplation">
           <h2>Observez cet objet</h2>
-          <img src="${phase.image}" alt="Objet de contemplation">
-          <div class="axis-instruction-countdown" id="axisCountdown">${phase.duration}</div>
-        </div>
-      `;
-      if (autoplay) speak(phase.voiceStart || "Contemplez cet objet.", true);
-      startCountdown(phase.duration, "axisCountdown", function () {
-        inSpecialStep = false;
-        playBell();
-        renderShell();
-        bind();
-        nextPhase();
-      });
+          <img src="${p.image}" alt="${p.title}">
+          <div class="axis-instruction-countdown" id="axisCountdown">${p.duration}</div>
+        </div>`;
+      if (autoplay) speak(p.voiceStart || "Contemplez cet objet.", true);
+      startCountdown(p.duration, "axisCountdown", onSpecialEnd);
       return;
     }
 
-    // ── Instruction (lumière ou bandeau) ──────────────────────────
-    if (phase.type === "instruction") {
-      inSpecialStep = true;
-      const imgHTML = phase.image
-        ? `<img src="${phase.image}" alt="${phase.text}">`
-        : "";
+    // ── Overlay : instruction (lumière / bandeau) ─────────────────
+    if (p.type === "instruction") {
+      specialActive = true;
+      const imgHTML = p.image ? `<img src="${p.image}" alt="${p.text}">` : "";
       root.innerHTML = `
         <div class="axis-instruction-step">
-          <h2>${phase.text}</h2>
+          <h2>${p.text}</h2>
           ${imgHTML}
-          <p>${phase.subtext || ""}</p>
-          <div class="axis-instruction-countdown" id="axisCountdown">${phase.duration}</div>
-        </div>
-      `;
-      if (autoplay) speak(phase.voiceStart || phase.text, true);
-      startCountdown(phase.duration, "axisCountdown", function () {
-        inSpecialStep = false;
-        renderShell();
-        bind();
-        nextPhase();
-      });
+          <p>${p.subtext || ""}</p>
+          <div class="axis-instruction-countdown" id="axisCountdown">${p.duration}</div>
+        </div>`;
+      if (autoplay) speak(p.voiceStart || p.text, true);
+      startCountdown(p.duration, "axisCountdown", onSpecialEnd);
       return;
     }
 
-    document.getElementById("axisPhaseTitle").textContent = phase.title;
-    document.getElementById("axisPhaseSegment").textContent = phase.type || "";
-    document.getElementById("axisPhaseGuidance").textContent = phase.guidance || "";
-    document.getElementById("axisTimer").textContent = formatClock(phase.duration);
+    // ── Phase normale (vidéo + audio de fond) ────────────────────
+    const titleEl  = document.getElementById("axisPhaseTitle");
+    const segEl    = document.getElementById("axisPhaseSegment");
+    const guidEl   = document.getElementById("axisPhaseGuidance");
+    const timerEl  = document.getElementById("axisTimer");
 
-    setVideo(phase.video || "", autoplay);
-    startBackgroundAudio(phase.audioTrack || null);
+    if (titleEl)  titleEl.textContent  = p.title;
+    if (segEl)    segEl.textContent    = p.type || "";
+    if (guidEl)   guidEl.textContent   = p.guidance || "";
+    if (timerEl)  timerEl.textContent  = formatClock(p.duration);
+
+    setVideo(p.video || "", autoplay);
+    startBgAudio(p.audioTrack || null);
     renderTimeline();
 
-    if (autoplay) {
-      speak(phase.voiceStart || phase.guidance || phase.title, true);
-    }
+    if (autoplay) speak(p.voiceStart || p.guidance || p.title, true);
   }
 
-  function renderSession() {
-    session = readSession();
-
-    const intro = document.getElementById("axisPlayerIntro");
-
-    if (!session) {
-      intro.textContent = "Aucune séance générée. Va dans Créer sa séance pour construire une timeline vidéo.";
-      renderTimeline();
-      return;
-    }
-
-    intro.textContent = "Séance chargée : " + (session.totalLabel || formatDuration(session.totalSeconds || 0)) + ". Vidéos muettes, voix et pistes audio actives selon tes réglages.";
-    index = 0;
-    showPhase(false);
-  }
+  // ─── Tick (horloge du player) ─────────────────────────────────────
 
   function tick() {
-    if (!running || paused || inSpecialStep) return;
+    if (!running || paused || specialActive) return;
 
-    const phase = currentPhase();
+    const p = currentPhase();
+    if (!p) { finish(); return; }
 
-    if (!phase) {
-      finish();
-      return;
-    }
-
-    const elapsed = (Date.now() - startAt - pausedTotal) / 1000;
-    const remaining = Math.max(0, phase.duration - elapsed);
+    const elapsed   = (Date.now() - startAt - pausedTotal) / 1000;
+    const remaining = Math.max(0, p.duration - elapsed);
 
     const timerEl = document.getElementById("axisTimer");
     if (timerEl) timerEl.textContent = formatClock(remaining);
 
-    const seg = segmentForPhase(phase, elapsed);
+    const seg = segmentForPhase(p, elapsed);
 
     if (seg) {
-      if (phase.type === "balancement") {
-        const stableKey = phase.type + "-" + index + "-" + seg.title;
+      const segEl  = document.getElementById("axisPhaseSegment");
+      const guidEl = document.getElementById("axisPhaseGuidance");
 
-        if (stableKey !== segmentKey) {
-          segmentKey = stableKey;
-          speak(seg.voice || seg.guidance || seg.title, true);
-        }
-
-        const segEl = document.getElementById("axisPhaseSegment");
-        const guidEl = document.getElementById("axisPhaseGuidance");
-        if (segEl) segEl.textContent = seg.mantra ? seg.title + " · " + seg.mantra : seg.title;
-        if (guidEl) guidEl.textContent = seg.guidance || phase.guidance || "";
+      if (p.type === "balancement") {
+        const key = p.type + "-" + index + "-" + seg.title;
+        if (key !== segmentKey) { segmentKey = key; speak(seg.voice || seg.guidance || seg.title, true); }
+        if (segEl)  segEl.textContent  = seg.mantra ? seg.title + " · " + seg.mantra : seg.title;
+        if (guidEl) guidEl.textContent = seg.guidance || p.guidance || "";
       }
 
-      if (phase.type === "respiration") {
-        const cycleKey = phase.type + "-" + index + "-" + seg.title + "-" + Math.floor(elapsed / Math.max(1, seg.duration || 1));
-
-        if (cycleKey !== breathToneKey) {
-          breathToneKey = cycleKey;
-          playBreathTone(seg.tone);
-        }
-
-        const segEl = document.getElementById("axisPhaseSegment");
-        const guidEl = document.getElementById("axisPhaseGuidance");
-        if (segEl) segEl.textContent = seg.title + " · " + (seg.tone || "");
-        if (guidEl) guidEl.textContent = seg.guidance || phase.guidance || "";
+      if (p.type === "respiration") {
+        const key = p.type + "-" + index + "-" + seg.title + "-" + Math.floor(elapsed / Math.max(1, seg.duration || 1));
+        if (key !== breathKey) { breathKey = key; playBreathTone(seg.tone); }
+        if (segEl)  segEl.textContent  = seg.title + " · " + (seg.tone || "");
+        if (guidEl) guidEl.textContent = seg.guidance || p.guidance || "";
       }
     } else {
-      const segEl = document.getElementById("axisPhaseSegment");
+      const segEl  = document.getElementById("axisPhaseSegment");
       const guidEl = document.getElementById("axisPhaseGuidance");
-      if (segEl) segEl.textContent = phase.type || "";
-      if (guidEl) guidEl.textContent = phase.guidance || "";
+      if (segEl)  segEl.textContent  = p.type || "";
+      if (guidEl) guidEl.textContent = p.guidance || "";
     }
 
-    if (elapsed >= phase.duration) {
-      nextPhase();
-    }
+    if (elapsed >= p.duration) nextPhase();
   }
+
+  // ─── Contrôles ───────────────────────────────────────────────────
 
   function start() {
     session = readSession();
-
-    if (!session) {
-      renderSession();
-      return;
-    }
+    if (!session) { renderSession(); return; }
 
     try { audioContext(); } catch (_) {}
 
-    running = true;
-    paused = false;
-    inSpecialStep = false;
-    index = 0;
-    startAt = Date.now();
-    pauseAt = 0;
-    pausedTotal = 0;
+    running       = true;
+    paused        = false;
+    specialActive = false;
+    index         = 0;
+    startAt       = Date.now();
+    pauseAt       = 0;
+    pausedTotal   = 0;
 
     clearInterval(timer);
     timer = setInterval(tick, 250);
@@ -509,123 +431,105 @@
 
   function pause() {
     if (!running || paused) return;
-
-    paused = true;
+    paused  = true;
     pauseAt = Date.now();
-
     const video = document.getElementById("axisPracticeVideo");
     try { if (video) video.pause(); } catch (_) {}
-    try { if (bgAudio) bgAudio.pause(); } catch (_) {}
+    pauseBgAudio();
     speak("Pause.", true);
   }
 
   function resume() {
     if (!running || !paused) return;
-
-    paused = false;
+    paused       = false;
     pausedTotal += Date.now() - pauseAt;
-
     const video = document.getElementById("axisPracticeVideo");
-
-    try {
-      if (video) {
-        const p = video.play();
-        if (p && typeof p.catch === "function") p.catch(() => {});
-      }
-    } catch (_) {}
-
-    try {
-      if (bgAudio) {
-        const p2 = bgAudio.play();
-        if (p2 && typeof p2.catch === "function") p2.catch(() => {});
-      }
-    } catch (_) {}
-
+    try { if (video) { const p = video.play(); if (p && p.catch) p.catch(() => {}); } } catch (_) {}
+    resumeBgAudio();
     speak("Reprise.", true);
   }
 
   function nextPhase() {
     if (!session) return;
-
     playBell();
-
     index += 1;
-
-    if (index >= session.phases.length) {
-      finish();
-      return;
-    }
-
-    startAt = Date.now();
-    pauseAt = 0;
+    if (index >= session.phases.length) { finish(); return; }
+    startAt     = Date.now();
+    pauseAt     = 0;
     pausedTotal = 0;
-    paused = false;
-
+    paused      = false;
     showPhase(true);
     tick();
   }
 
   function reset() {
-    running = false;
-    paused = false;
-    inSpecialStep = false;
-    index = 0;
-    startAt = 0;
-    pauseAt = 0;
-    pausedTotal = 0;
-
+    running       = false;
+    paused        = false;
+    specialActive = false;
+    index         = 0;
+    startAt       = 0;
+    pauseAt       = 0;
+    pausedTotal   = 0;
     clearInterval(timer);
     stopSpeech();
-    stopBackgroundAudio();
-
+    stopBgAudio();
     renderShell();
     bind();
     renderSession();
   }
 
   function finish() {
-    running = false;
-    paused = false;
-    inSpecialStep = false;
+    running       = false;
+    paused        = false;
+    specialActive = false;
     clearInterval(timer);
-    stopBackgroundAudio();
+    stopBgAudio();
     playBell();
 
     const video = document.getElementById("axisPracticeVideo");
     try { if (video) video.pause(); } catch (_) {}
 
-    const timerEl = document.getElementById("axisTimer");
-    const titleEl = document.getElementById("axisPhaseTitle");
-    const segEl   = document.getElementById("axisPhaseSegment");
-    const guidEl  = document.getElementById("axisPhaseGuidance");
-
-    if (timerEl) timerEl.textContent = "00:00";
-    if (titleEl) titleEl.textContent = "Séance terminée";
-    if (segEl)   segEl.textContent   = "Retour au calme";
-    if (guidEl)  guidEl.textContent  = "Respire doucement, puis reprends contact avec l'espace.";
+    const el = id => document.getElementById(id);
+    if (el("axisTimer"))        el("axisTimer").textContent        = "00:00";
+    if (el("axisPhaseTitle"))   el("axisPhaseTitle").textContent   = "Séance terminée";
+    if (el("axisPhaseSegment")) el("axisPhaseSegment").textContent = "Retour au calme";
+    if (el("axisPhaseGuidance"))el("axisPhaseGuidance").textContent= "Respire doucement, puis reprends contact avec l'espace.";
 
     renderTimeline();
     speak("Fin de l'exercice. Revenez doucement.", true);
   }
 
-  function bind() {
-    const startBtn  = document.getElementById("axisStart");
-    const pauseBtn  = document.getElementById("axisPause");
-    const resumeBtn = document.getElementById("axisResume");
-    const nextBtn   = document.getElementById("axisNext");
-    const resetBtn  = document.getElementById("axisReset");
+  // ─── Session init ─────────────────────────────────────────────────
 
-    if (startBtn)  startBtn.addEventListener("click", start);
-    if (pauseBtn)  pauseBtn.addEventListener("click", pause);
-    if (resumeBtn) resumeBtn.addEventListener("click", resume);
-    if (nextBtn)   nextBtn.addEventListener("click", nextPhase);
-    if (resetBtn)  resetBtn.addEventListener("click", reset);
+  function renderSession() {
+    session = readSession();
+    const intro = document.getElementById("axisPlayerIntro");
+    if (!session) {
+      if (intro) intro.textContent = "Aucune séance générée. Va dans Créer sa séance pour construire une timeline vidéo.";
+      renderTimeline();
+      return;
+    }
+    if (intro) intro.textContent = "Séance chargée : " + (session.totalLabel || formatDuration(session.totalSeconds || 0)) + ". Lance la pratique quand tu es prêt.";
+    index = 0;
+    showPhase(false);
   }
+
+  // ─── Liaisons boutons ─────────────────────────────────────────────
+
+  function bind() {
+    const btn = id => document.getElementById(id);
+    if (btn("axisStart"))  btn("axisStart").addEventListener("click",  start);
+    if (btn("axisPause"))  btn("axisPause").addEventListener("click",  pause);
+    if (btn("axisResume")) btn("axisResume").addEventListener("click", resume);
+    if (btn("axisNext"))   btn("axisNext").addEventListener("click",   nextPhase);
+    if (btn("axisReset"))  btn("axisReset").addEventListener("click",  reset);
+  }
+
+  // ─── Init ─────────────────────────────────────────────────────────
 
   function init() {
     root = document.getElementById("axis-session-player-root");
     if (!root) return;
-
     renderShell();
     bind();
     renderSession();

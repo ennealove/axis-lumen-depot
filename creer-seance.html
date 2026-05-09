@@ -74,18 +74,24 @@
 
         <div class="axis-field">
           <label for="axisSelectedObject">Objet de contemplation (20 s)</label>
-          <select id="axisSelectedObject">
-            <option value="tree">Arbre de vie</option>
-            <option value="triangle">Triangle</option>
-            <option value="cube">Cube</option>
-            <option value="etoile">Étoile</option>
-            <option value="flower">Fleur de vie</option>
-            <option value="geometry">Géométrie sacrée</option>
-            <option value="graine">Graine de vie</option>
-            <option value="lotus">Lotus</option>
-            <option value="sphere">Sphère</option>
-            <option value="spirale">Spirale</option>
-          </select>
+          <div class="axis-object-select-wrap">
+            <select id="axisSelectedObject">
+              <option value="tree">Arbre de vie</option>
+              <option value="triangle">Triangle</option>
+              <option value="cube">Cube</option>
+              <option value="etoile">Étoile</option>
+              <option value="flower">Fleur de vie</option>
+              <option value="geometry">Géométrie sacrée</option>
+              <option value="graine">Graine de vie</option>
+              <option value="lotus">Lotus</option>
+              <option value="sphere">Sphère</option>
+              <option value="spirale">Spirale</option>
+            </select>
+            <label class="session-btn axis-import-btn" title="Importer une image personnelle">
+              + Importer
+              <input type="file" id="axisObjectImport" accept="image/*" hidden>
+            </label>
+          </div>
         </div>
 
         <div class="axis-field">

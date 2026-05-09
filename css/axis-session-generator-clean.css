@@ -370,6 +370,27 @@ aside.sidebar,
   }
 }
 
+/* ─── Sélecteur d'objet + import ───────────────────────────── */
+.axis-object-select-wrap {
+  display: flex;
+  gap: 8px;
+  align-items: stretch;
+}
+
+.axis-object-select-wrap select {
+  flex: 1;
+  min-width: 0;
+}
+
+.axis-import-btn {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  font-size: 0.82rem;
+  cursor: pointer;
+  padding: 12px 14px;
+}
+
 /* ─── Sélecteur d'objet ─────────────────────────────────────── */
 .axis-object-picker {
   display: grid;
