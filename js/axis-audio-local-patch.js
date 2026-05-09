@@ -1,4 +1,4 @@
-﻿/* axis-audio-local-patch.js
+/* axis-audio-local-patch.js
    Sur localhost : remplace les URLs GitHub Releases par les chemins assets/audio/ locaux
    Sur production (Render) : ne fait rien */
 (function () {
@@ -30,11 +30,56 @@
     arr.forEach(function (t) { if (t && t.url) t.url = toLocal(t.url); });
   }
 
-  // Patcher AXIS_AUDIO_TRACKS immédiatement s'il est déjà chargé
+  // Patcher les sessions stockées en localStorage (audioTrack.url)
+  var SESSION_KEYS = [
+    'axis_lumen_custom_session',
+    'axis_lumen_generated_session',
+    'axis_current_session',
+    'axis-practice-session'
+  ];
+
+  function patchLocalStorage() {
+    SESSION_KEYS.forEach(function (key) {
+      try {
+        var raw = localStorage.getItem(key);
+        if (!raw) return;
+        var session = JSON.parse(raw);
+        var changed = false;
+
+        // Patcher audioTrack dans la session principale
+        if (session && session.audioTrack && session.audioTrack.url) {
+          var patched = toLocal(session.audioTrack.url);
+          if (patched !== session.audioTrack.url) {
+            session.audioTrack.url = patched;
+            changed = true;
+          }
+        }
+
+        // Patcher audioTrack dans chaque phase
+        if (session && Array.isArray(session.phases)) {
+          session.phases.forEach(function (phase) {
+            if (phase && phase.audioTrack && phase.audioTrack.url) {
+              var p = toLocal(phase.audioTrack.url);
+              if (p !== phase.audioTrack.url) {
+                phase.audioTrack.url = p;
+                changed = true;
+              }
+            }
+          });
+        }
+
+        if (changed) localStorage.setItem(key, JSON.stringify(session));
+      } catch (_) {}
+    });
+  }
+
+  // Patcher AXIS_AUDIO_TRACKS immédiatement
   patchTracks(window.AXIS_AUDIO_TRACKS);
 
-  // Patcher aussi après DOMContentLoaded au cas où
+  // Patcher le localStorage dès maintenant et après DOMContentLoaded
+  patchLocalStorage();
   document.addEventListener('DOMContentLoaded', function () {
     patchTracks(window.AXIS_AUDIO_TRACKS);
+    patchLocalStorage();
   });
 })();
