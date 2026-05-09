@@ -75,3 +75,6 @@ generate-images.mjs
 
 # dossier local Connaissance
 Connaissance/
+
+# Fichiers audio — hébergés sur GitHub Releases audio-v1
+assets/audio/

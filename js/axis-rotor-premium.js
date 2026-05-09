@@ -17,23 +17,23 @@
 
   const FALLBACK_TRACKS = [
     { id: "", name: "Aucune piste musicale", url: "" },
-    { id: "ck3_01", name: "CK3 Piste 01", url: "assets/audio/ck3_piste_01.mp3" },
-    { id: "ck3_02", name: "CK3 Piste 02", url: "assets/audio/ck3_piste_02.mp3" },
-    { id: "ck3_03", name: "CK3 Piste 03", url: "assets/audio/ck3_piste_03.mp3" },
-    { id: "ck3_04", name: "CK3 Piste 04", url: "assets/audio/ck3_piste_04.mp3" },
-    { id: "rythme_1s_3mn", name: "Rythme 1s — 3 min", url: "assets/audio/rythme_1s_3mn.mp3" },
-    { id: "rythme_1s_alt_3mn", name: "Rythme 1s alterné — 3 min", url: "assets/audio/rythme_1s_alt_3mn.mp3" },
-    { id: "rythme_bass_rotations", name: "Rythme bass rotations — 8 min", url: "assets/audio/rythme_bass_rotations_1s_6e_sec_8min.mp3" },
-    { id: "rythme_multidimensionnel", name: "Rythme multidimensionnel — 11 min", url: "assets/audio/rythme_multidimensionnel_1s_alt_6e_sec_11min.mp3" },
-    { id: "respirations_phosphenique", name: "Respirations phosphéniques", url: "assets/audio/Respirations-Phosphenique.mp3" },
-    { id: "mantra_aum_3mn", name: "Mantra AUM — 3 min", url: "assets/audio/mantra_aum_3mn.mp3" },
-    { id: "mantra_aum_20mn", name: "Mantra AUM — 20 min", url: "assets/audio/mantra_aum_20mn.mp3" },
-    { id: "om_mi", name: "OM en Mi", url: "assets/audio/OM_en_mi.mp3" },
-    { id: "angelic_meditation", name: "Angelic Meditation", url: "assets/audio/35433346-angelic-meditation-172334.mp3" },
-    { id: "heavenly_energy", name: "Heavenly Energy", url: "assets/audio/light_music-heavenly-energy-188908.mp3" },
-    { id: "zen_walk", name: "Zen Walk", url: "assets/audio/light_music-zen-walk-176110.mp3" },
-    { id: "deep_theta", name: "Deep 5Hz Theta Relaxation", url: "assets/audio/tim_kulig_free_music-deep-5hz-theta-relaxation-232572.mp3" },
-    { id: "healing_396", name: "Healing Sound 396 Hz", url: "assets/audio/sonorahealing-healing-sound-396_-hz-452272.mp3" }
+    { id: "ck3_01", name: "CK3 Piste 01", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/ck3_piste_01.mp3" },
+    { id: "ck3_02", name: "CK3 Piste 02", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/ck3_piste_02.mp3" },
+    { id: "ck3_03", name: "CK3 Piste 03", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/ck3_piste_03.mp3" },
+    { id: "ck3_04", name: "CK3 Piste 04", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/ck3_piste_04.mp3" },
+    { id: "rythme_1s_3mn", name: "Rythme 1s — 3 min", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/rythme_1s_3mn.mp3" },
+    { id: "rythme_1s_alt_3mn", name: "Rythme 1s alterné — 3 min", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/rythme_1s_alt_3mn.mp3" },
+    { id: "rythme_bass_rotations", name: "Rythme bass rotations — 8 min", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/rythme_bass_rotations_1s_6e_sec_8min.mp3" },
+    { id: "rythme_multidimensionnel", name: "Rythme multidimensionnel — 11 min", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/rythme_multidimensionnel_1s_alt_6e_sec_11min.mp3" },
+    { id: "respirations_phosphenique", name: "Respirations phosphéniques", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/Respirations-Phosphenique.mp3" },
+    { id: "mantra_aum_3mn", name: "Mantra AUM — 3 min", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/mantra_aum_3mn.mp3" },
+    { id: "mantra_aum_20mn", name: "Mantra AUM — 20 min", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/mantra_aum_20mn.mp3" },
+    { id: "om_mi", name: "OM en Mi", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/OM_en_mi.mp3" },
+    { id: "angelic_meditation", name: "Angelic Meditation", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/35433346-angelic-meditation-172334.mp3" },
+    { id: "heavenly_energy", name: "Heavenly Energy", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/light_music-heavenly-energy-188908.mp3" },
+    { id: "zen_walk", name: "Zen Walk", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/light_music-zen-walk-176110.mp3" },
+    { id: "deep_theta", name: "Deep 5Hz Theta Relaxation", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/tim_kulig_free_music-deep-5hz-theta-relaxation-232572.mp3" },
+    { id: "healing_396", name: "Healing Sound 396 Hz", url: "https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/sonorahealing-healing-sound-396_-hz-452272.mp3" }
   ];
 
   const PHASES = {

@@ -1,4 +1,4 @@
-import { $ } from '../core/dom.js';
+﻿import { $ } from '../core/dom.js';
 import { state } from '../core/state.js';
 
 const AUDIO_EXTENSIONS = ['.mp3', '.wav', '.ogg', '.m4a', '.aac', '.flac', '.webm'];
@@ -7,8 +7,8 @@ const FALLBACK_BUILTIN = [
   {
     id: 'builtin-ck3-02-wav',
     name: 'CK3 Piste 02 (WAV)',
-    path: 'assets/audio/ck3_piste_02.wav',
-    url: 'assets/audio/ck3_piste_02.wav',
+    path: 'https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/ck3_piste_02.wav',
+    url: 'https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/ck3_piste_02.wav',
     category: 'biofeedback',
     group: 'builtin',
     source: 'builtin',
@@ -17,8 +17,8 @@ const FALLBACK_BUILTIN = [
   {
     id: 'builtin-ck3-03-wav',
     name: 'CK3 Piste 03 (WAV)',
-    path: 'assets/audio/ck3_piste_03.wav',
-    url: 'assets/audio/ck3_piste_03.wav',
+    path: 'https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/ck3_piste_03.wav',
+    url: 'https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/ck3_piste_03.wav',
     category: 'biofeedback',
     group: 'builtin',
     source: 'builtin',
@@ -27,8 +27,8 @@ const FALLBACK_BUILTIN = [
   {
     id: 'builtin-ck3-04-wav',
     name: 'CK3 Piste 04 (WAV)',
-    path: 'assets/audio/ck3_piste_04.wav',
-    url: 'assets/audio/ck3_piste_04.wav',
+    path: 'https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/ck3_piste_04.wav',
+    url: 'https://github.com/ennealove/axis-lumen-depot/releases/download/audio-v1/ck3_piste_04.wav',
     category: 'biofeedback',
     group: 'builtin',
     source: 'builtin',
