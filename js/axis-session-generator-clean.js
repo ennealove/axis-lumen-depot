@@ -75,7 +75,7 @@
   ];
 
   const AXIS_OBJECTS_PATH = 'assets/images/objet/';
-  const AXIS_BANDEAU_IMG  = 'assets/images/objet/personnage_avec_bandeau_sur_les_yeux.png';
+  const AXIS_BANDEAU_IMG  = 'assets/images/objet/personnage avec bandeau sur les yeux.png';
 
   function $(id) {
     return document.getElementById(id);
