@@ -213,7 +213,7 @@
     if (step.visual === "video-light") {
       visual = `
         <video class="axis-virtue-guided-video" autoplay muted loop playsinline>
-          <source src="assets/videos/web/session-lumiere-30s.mp4" type="video/mp4">
+          <source src="https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/session-lumiere-30s.mp4" type="video/mp4">
         </video>
       `;
     } else if (step.visual === "remanence") {

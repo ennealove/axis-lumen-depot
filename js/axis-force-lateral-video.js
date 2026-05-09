@@ -1,6 +1,6 @@
-(function () {
+﻿(function () {
   const STAMP = "20260501_192957";
-  const LATERAL_SRC = "assets/videos/web/axis-balancement-lateral-source.mp4";
+  const LATERAL_SRC = "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/axis-balancement-lateral-source.mp4";
 
   function pageName() {
     return (window.location.pathname.split("/").pop() || "index.html").toLowerCase();

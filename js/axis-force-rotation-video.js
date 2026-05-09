@@ -1,6 +1,6 @@
-(function () {
+﻿(function () {
   const STAMP = "20260501_192728";
-  const ROTATION_SRC = "assets/videos/web/axis-rotation-source.mp4";
+  const ROTATION_SRC = "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/axis-rotation-source.mp4";
 
   function pageName() {
     return (window.location.pathname.split("/").pop() || "index.html").toLowerCase();

@@ -1,4 +1,4 @@
-const AXIS = {
+﻿const AXIS = {
   prices: {
     jeSuisPdf: 19,
     jeSuisEpub: 19,
@@ -59,13 +59,13 @@ const AXIS = {
   },
 
   videos: {
-    lateral_swing: "assets/videos/web/balancement-lateral-complet.web.mp4",
-    vertical_swing: "assets/videos/web/balancement-lateral-complet.web.mp4",
-    rotation_swing: "assets/videos/web/rotation-complete.web.mp4",
-    gyro_rotation: "assets/videos/web/rotation-complete.web.mp4",
-    static_tension: "assets/videos/web/tension-statique-complete.web.mp4",
-    breathing_3: "assets/videos/web/respiration-complete-10-minutes.web.mp4",
-    breathing_10: "assets/videos/web/respiration-complete-10-minutes.web.mp4"
+    lateral_swing: "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/balancement-lateral-complet.web.mp4",
+    vertical_swing: "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/balancement-lateral-complet.web.mp4",
+    rotation_swing: "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/rotation-complete.web.mp4",
+    gyro_rotation: "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/rotation-complete.web.mp4",
+    static_tension: "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/tension-statique-complete.web.mp4",
+    breathing_3: "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/respiration-complete-10-minutes.web.mp4",
+    breathing_10: "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/respiration-complete-10-minutes.web.mp4"
   }
 };
 

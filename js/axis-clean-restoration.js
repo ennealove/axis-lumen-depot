@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   const STAMP = "20260501_182126";
   const COVERS = [
   { key: "je-suis", src: "assets/books/je-suis-cover.jpg", match: ["JE SUIS", "Rendre son temple vivant", "temple vivant"] },
@@ -13,17 +13,17 @@
 
   const VIDEO_MAP = {
     lateral: [
-      "assets/videos/web/balancement-lateral-complet.web.mp4",
-      "assets/videos/complete/balancement-lateral-complet.mp4",
+      "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/balancement-lateral-complet.web.mp4",
+      "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/balancement-lateral-complet.mp4",
       "assets/vidéo/vidéo complète/utiles/balancement latéral 3 minutes .mp4"
     ],
     vertical: [
-      "assets/videos/web/balancement-vertical-complet.web.mp4",
-      "assets/videos/complete/balancement-vertical-complet.mp4"
+      "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/balancement-vertical-complet.web.mp4",
+      "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/balancement-vertical-complet.mp4"
     ],
     rotation: [
-      "assets/videos/web/rotation-complete.web.mp4",
-      "assets/videos/complete/rotation-complete.mp4",
+      "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/rotation-complete.web.mp4",
+      "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/rotation-complete.mp4",
       "assets/vidéo/vidéo complète/vidéo complète/rotation .mp4"
     ]
   };

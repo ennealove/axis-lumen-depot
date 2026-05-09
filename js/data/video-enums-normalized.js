@@ -1,46 +1,46 @@
-(function () {
+﻿(function () {
   "use strict";
 
   const allVideos = [
     {
         "file":  "balancement-lateral-complet.mp4",
-        "path":  "assets/videos/complete/balancement-lateral-complet.mp4"
+        "path":  "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/balancement-lateral-complet.mp4"
     },
     {
         "file":  "balancement-vertical-complet.mp4",
-        "path":  "assets/videos/complete/balancement-vertical-complet.mp4"
+        "path":  "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/balancement-vertical-complet.mp4"
     },
     {
         "file":  "observer-la-lumiere-2.mp4",
-        "path":  "assets/videos/complete/observer-la-lumiere-2.mp4"
+        "path":  "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/observer-la-lumiere-2.mp4"
     },
     {
         "file":  "respiration-complete-10-minutes.mp4",
-        "path":  "assets/videos/complete/respiration-complete-10-minutes.mp4"
+        "path":  "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/respiration-complete-10-minutes.mp4"
     },
     {
         "file":  "tension-statique-complete.mp4",
-        "path":  "assets/videos/complete/tension-statique-complete.mp4"
+        "path":  "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/tension-statique-complete.mp4"
     },
     {
         "file":  "balancement-lateral-complet.web.mp4",
-        "path":  "assets/videos/web/balancement-lateral-complet.web.mp4"
+        "path":  "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/balancement-lateral-complet.web.mp4"
     },
     {
         "file":  "balancement-vertical-complet.web.mp4",
-        "path":  "assets/videos/web/balancement-vertical-complet.web.mp4"
+        "path":  "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/balancement-vertical-complet.web.mp4"
     },
     {
         "file":  "observer-la-lumiere-2.web.mp4",
-        "path":  "assets/videos/web/observer-la-lumiere-2.web.mp4"
+        "path":  "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/observer-la-lumiere-2.web.mp4"
     },
     {
         "file":  "respiration-complete-10-minutes.web.mp4",
-        "path":  "assets/videos/web/respiration-complete-10-minutes.web.mp4"
+        "path":  "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/respiration-complete-10-minutes.web.mp4"
     },
     {
         "file":  "tension-statique-complete.web.mp4",
-        "path":  "assets/videos/web/tension-statique-complete.web.mp4"
+        "path":  "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/tension-statique-complete.web.mp4"
     },
     {
         "file":  "allumez la lumiere .mp4",
@@ -172,14 +172,14 @@
     }
 ];
   const byRole = {
-    "light_on":  "assets/videos/complete/observer-la-lumiere-2.mp4",
-    "lateral_swing":  "assets/videos/complete/balancement-lateral-complet.mp4",
-    "vertical_swing":  "assets/videos/complete/balancement-vertical-complet.mp4",
+    "light_on":  "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/observer-la-lumiere-2.mp4",
+    "lateral_swing":  "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/balancement-lateral-complet.mp4",
+    "vertical_swing":  "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/balancement-vertical-complet.mp4",
     "rotation_swing":  "assets/vidéo/vidéo complète/utiles/rotation.mp4",
-    "breathing":  "assets/videos/complete/respiration-complete-10-minutes.mp4",
+    "breathing":  "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/respiration-complete-10-minutes.mp4",
     "gyro_rotation":  "assets/vidéo/vidéo complète/séquencage vidéo/gyrascope.mp4",
     "rotor":  "assets/vidéo/vidéo complète/séquencage vidéo/gyrascope.mp4",
-    "static_tension":  "assets/videos/complete/tension-statique-complete.mp4"
+    "static_tension":  "https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/tension-statique-complete.mp4"
 };
 
   const aliases = {
