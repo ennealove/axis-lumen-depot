@@ -1,24 +1,24 @@
 ﻿/* Axis Lumen Studio - Cours 013 images premium */
 (function () {
   var images = {
-    cover:         "assets/courses/course-013/cover.png",
+    cover:         "assets/courses/course-013/cover.webp",
     gallery: [
-      "assets/courses/course-013/cover.png",
-      "assets/courses/course-013/course-013-image-02.png",
-      "assets/courses/course-013/course-013-image-03.png",
-      "assets/courses/course-013/course-013-image-04.png",
-      "assets/courses/course-013/course-013-image-05.png",
-      "assets/courses/course-013/course-013-image-06.png",
-      "assets/courses/course-013/course-013-image-07.png",
-      "assets/courses/course-013/course-013-image-08.png"
+      "assets/courses/course-013/cover.webp",
+      "assets/courses/course-013/course-013-image-02.webp",
+      "assets/courses/course-013/course-013-image-03.webp",
+      "assets/courses/course-013/course-013-image-04.webp",
+      "assets/courses/course-013/course-013-image-05.webp",
+      "assets/courses/course-013/course-013-image-06.webp",
+      "assets/courses/course-013/course-013-image-07.webp",
+      "assets/courses/course-013/course-013-image-08.webp"
     ],
     pedagogical: [
-      "assets/courses/course-013/course-013-image-02.png",
-      "assets/courses/course-013/course-013-image-03.png",
-      "assets/courses/course-013/course-013-image-04.png"
+      "assets/courses/course-013/course-013-image-02.webp",
+      "assets/courses/course-013/course-013-image-03.webp",
+      "assets/courses/course-013/course-013-image-04.webp"
     ],
-    contemplative: "assets/courses/course-013/course-013-image-05.png",
-    exercise:      "assets/courses/course-013/course-013-image-06.png"
+    contemplative: "assets/courses/course-013/course-013-image-05.webp",
+    exercise:      "assets/courses/course-013/course-013-image-06.webp"
   };
 
   /* Injection SYNCHRONE - avant que axis-apprendre-one-hour.js rende les cartes */
