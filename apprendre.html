@@ -226,18 +226,26 @@
       <div class="axis-pf-gen-header">
         <span class="axis-pf-gen-badge">Séance sur mesure</span>
         <h3>Génère une séance à partir de cet exercice</h3>
-        <p>Choisis ton objet de contemplation, le type de balancement et la durée.</p>
+        <p>Choisis la forme, la couleur de l'objet, le balancement et la durée. La progression de couleur avance automatiquement de séance en séance.</p>
       </div>
 
       <div class="axis-pf-gen-grid">
         <div class="axis-pf-gen-field">
-          <label>Catégorie d'objet</label>
+          <label>Forme</label>
           <div id="axisPfCatBtns" class="axis-pf-cat-btns"></div>
         </div>
 
-        <div class="axis-pf-gen-field">
-          <label>Objet de contemplation</label>
-          <div id="axisPfImageGrid" class="axis-pf-image-grid"></div>
+        <div class="axis-pf-gen-two-col">
+          <div class="axis-pf-gen-field">
+            <label>Couleur (la suivante est suggérée)</label>
+            <div id="axisPfImageGrid" class="axis-pf-couleur-grid"></div>
+          </div>
+          <div class="axis-pf-gen-field axis-pf-gen-field--preview">
+            <label>Objet sélectionné</label>
+            <div id="axisPfObjetPreview" class="axis-pf-objet-preview">
+              <p class="axis-pf-objet-placeholder">Sélectionne une couleur</p>
+            </div>
+          </div>
         </div>
 
         <div class="axis-pf-gen-field">
