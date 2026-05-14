@@ -1,11 +1,11 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <title>Apprendre — École du Temple Vivant — Axis Lumen Studio</title>
-  <meta name="description" content="École Axis Lumen Studio : 112 cours inspirés des livres JE SUIS, Alimentation, Vertus et surtout du Livre d’Exercices.">
+  <meta name="description" content="École Axis Lumen Studio : 112 cours inspirés des livres JE SUIS, Alimentation, Vertus et surtout du Livre d'Exercices.">
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/site.css">
@@ -20,7 +20,8 @@
   <link rel="stylesheet" href="css/axis-apprendre-hide-old.css?v=20260502_220418">
   <link rel="stylesheet" href="styles/pages/course-001.css">
   <link rel="stylesheet" href="css/axis-course-001-connected.css?v=20260504_092333">
-  </head>
+  <link rel="stylesheet" href="css/axis-apprendre.css">
+</head>
 
 <body class="axis-learn-page">
 <header class="axis-top-dashboard">
@@ -49,146 +50,38 @@
   </div>
 </header>
 
-<main class="axis-learn-main">
-  <section class="axis-learn-hero">
-    <div class="axis-learn-hero-copy">
-      <p class="axis-learn-kicker">École du Temple Vivant</p>
-      <h1>112 portes pour apprendre, pratiquer et intégrer.</h1>
+<main id="apMain" class="ap-main">
+
+  <section class="ap-hero">
+    <div class="ap-hero-copy">
+      <p class="ap-kicker">Le chemin de la compréhension</p>
+      <h1>Apprendre</h1>
+      <p class="ap-hero-sub">Ressentir · Sonner · Voir · Bouger</p>
       <p>
-        Une école premium construite autour des quatre livres. Les cours sont réservés aux abonnés.
-        Le créateur dispose d’un accès total. Pour les abonnés, le parcours s’ouvre progressivement :
-        un cours tous les quatre jours, après validation du cours précédent.
+        Quatre blocs, un chemin progressif. Chaque leçon s'ouvre après que la précédente
+        est pratiquée et validée. Travaille à ton rythme, sans sauter d'étape.
       </p>
-
-      <div class="axis-learn-actions">
-        <button id="axisLearnResume" class="axis-learn-btn primary" type="button">Reprendre le parcours</button>
-        <button id="axisLearnRandom" class="axis-learn-btn secondary" type="button">Tirer une porte</button>
-        <button id="axisLearnFullscreen" class="axis-learn-btn ghost" type="button">Plein écran école</button>
-      </div>
     </div>
-
-    <aside class="axis-learn-hero-orbit">
-      <canvas id="axisLearnConstellation" width="720" height="720" aria-label="Constellation des 112 cours"></canvas>
-      <div class="axis-learn-orbit-label">
-        <strong id="axisLearnProgressPercent">0%</strong>
-        <span>progression validée</span>
-      </div>
-    </aside>
   </section>
 
-  <section class="axis-learn-books" aria-label="Les quatre livres sources">
-    <article class="axis-learn-book-card">
-      <span>I</span>
-      <h2>JE SUIS</h2>
-      <p>Centre, temple vivant, purification, souffle, lumière gardée et retour à l’axe.</p>
-    </article>
+  <div class="ap-progress-banner">
+    <div class="ap-progress-bar-wrap">
+      <div id="apProgressBar" class="ap-progress-bar-fill" style="width:0%"></div>
+    </div>
+    <span id="apProgressLabel" class="ap-progress-label">0 % accompli</span>
+  </div>
 
-    <article class="axis-learn-book-card">
-      <span>II</span>
-      <h2>Alimentation</h2>
-      <p>Terrain vivant, eau, minéraux, émonctoires, rH², sobriété alimentaire et rythme.</p>
-    </article>
+  <div class="ap-layout">
+    <nav id="apTimeline" class="ap-timeline" aria-label="Parcours d'apprentissage">
+      <!-- filled by JS -->
+    </nav>
 
-    <article class="axis-learn-book-card">
-      <span>III</span>
-      <h2>Vertus</h2>
-      <p>Tirage, lecture lente, observation lumineuse, rémanence et imprégnation intérieure.</p>
-    </article>
-
-    <article class="axis-learn-book-card strong">
-      <span>IV</span>
-      <h2>Exercices</h2>
-      <p>Préparer, observer, accueillir, stabiliser, respirer, balancer, tourner, contracter, clore.</p>
-    </article>
-  </section>
-
-  <section class="axis-learn-dashboard">
-    <aside class="axis-learn-sidebar">
-      <div class="axis-learn-panel axis-access-panel">
-        <h2>Accès</h2>
-        <div id="axisAccessPanel"></div>
-      </div>
-
-      <div class="axis-learn-panel">
-        <h2>Parcours</h2>
-        <div id="axisLearnPaths" class="axis-learn-paths"></div>
-      </div>
-
-      <div class="axis-learn-panel">
-        <h2>Recherche</h2>
-        <label class="axis-learn-field">
-          <span>Mot-clé</span>
-          <input id="axisLearnSearch" type="search" placeholder="lumière, souffle, rotor, vertu…">
-        </label>
-
-        <label class="axis-learn-field">
-          <span>Type de pratique</span>
-          <select id="axisLearnKind">
-            <option value="all">Toutes les pratiques</option>
-            <option value="contemplation">Contemplation</option>
-            <option value="terrain">Terrain vivant</option>
-            <option value="virtue">Vertu</option>
-            <option value="light">Lumière / rémanence</option>
-            <option value="swing">Balancement</option>
-            <option value="breath">Respiration</option>
-            <option value="rotor">Rotor optique</option>
-            <option value="tension">Tension statique</option>
-            <option value="session">Séance guidée</option>
-          </select>
-        </label>
-
-        <label class="axis-learn-field">
-          <span>Affichage</span>
-          <select id="axisLearnStatus">
-            <option value="all">Tous les cours</option>
-            <option value="available">Accessibles</option>
-            <option value="locked">Verrouillés</option>
-            <option value="todo">À pratiquer</option>
-            <option value="done">Validés</option>
-          </select>
-        </label>
-      </div>
-
-      <div class="axis-learn-panel axis-learn-progress-panel">
-        <h2>Progression</h2>
-        <div class="axis-learn-progress-bar">
-          <span id="axisLearnProgressBar"></span>
-        </div>
-        <p id="axisLearnProgressText">0 cours validé sur 112.</p>
-      </div>
-    </aside>
-
-    <section class="axis-learn-center">
-      <div class="axis-learn-section-head">
-        <div>
-          <p class="axis-learn-kicker">Catalogue</p>
-          <h2 id="axisLearnListTitle">Tous les cours</h2>
-        </div>
-        <span id="axisLearnCount" class="axis-learn-count">112 cours</span>
-      </div>
-
-      <div id="axisLearnGrid" class="axis-learn-grid"></div>
-    </section>
-
-    <aside class="axis-learn-reader">
-      <article id="axisLearnReader" class="axis-learn-reader-card"></article>
-    </aside>
-  </section>
-</main>
-
-<div id="axisLearnPracticeOverlay" class="axis-learn-practice-overlay hidden" aria-hidden="true">
-  <div class="axis-learn-practice-card">
-    <p class="axis-learn-kicker">Mode pratique</p>
-    <h2 id="axisLearnPracticeTitle">Cours</h2>
-    <div id="axisLearnPracticeTimer">03:00</div>
-    <p id="axisLearnPracticeGuidance">Installe-toi. Respire. Entre dans la pratique.</p>
-    <div class="axis-learn-practice-actions">
-      <button id="axisLearnPracticeStart" class="axis-learn-btn primary" type="button">Démarrer</button>
-      <button id="axisLearnPracticePause" class="axis-learn-btn secondary" type="button">Pause</button>
-      <button id="axisLearnPracticeClose" class="axis-learn-btn ghost" type="button">Fermer</button>
+    <div id="apContent" class="ap-content">
+      <!-- filled by JS -->
     </div>
   </div>
-</div>
+
+</main>
 
 <footer class="axis-legal-footer">
   <div class="axis-legal-footer-inner">
@@ -208,7 +101,7 @@
 <script src="js/axis-courses-enriched-37-56.js"></script>
 <script src="js/axis-courses-enriched-57-80.js"></script>
 <script src="js/axis-courses-enriched-81-112.js"></script>
-    <script src="js/axis-course-001-images-pdf-premium.js"></script>
+  <script src="js/axis-course-001-images-pdf-premium.js"></script>
   <script src="js/axis-course-002-images-pdf-premium.js"></script>
   <script src="js/axis-course-003-images-pdf-premium.js"></script>
   <script src="js/axis-course-004-images-pdf-premium.js"></script>
@@ -324,15 +217,7 @@
 <script src="js/axis-apprendre-one-hour.js" defer></script>
 <script src="js/axis-apprendre-rescue-renderer.js" defer></script>
 <script src="js/axis-apprendre-copy-force.js" defer></script>
+<script src="js/axis-voice-global.js"></script>
+<script src="js/axis-apprendre.js" defer></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
