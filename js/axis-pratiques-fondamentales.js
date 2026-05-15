@@ -7,7 +7,7 @@
       symbol:   '↔',
       title:    'Balancement latéral',
       mantra:   'ILLI',
-      cours:    'Cours 38, 39, 40',
+      cours:    'Cours 8',
       desc:     'Gauche-droite, une seconde par côté. ILLI résonne dans le haut du crâne et active les deux hémisphères en alternance.'
     },
     {
@@ -15,7 +15,7 @@
       symbol:   '↕',
       title:    'Balancement vertical',
       mantra:   'ALLA',
-      cours:    'Cours 41, 42',
+      cours:    'Cours 9',
       desc:     'Élévation et ancrage en alternance. ALLA traverse le centre de la gorge au cœur et structure l\'axe vertical.'
     },
     {
@@ -23,7 +23,7 @@
       symbol:   '⇄',
       title:    'Balancement antéro-postérieur',
       mantra:   'ELLU',
-      cours:    'Cours 43',
+      cours:    'Cours 10',
       desc:     'Avant pour s\'engager, arrière pour recevoir. ELLU arrondit l\'espace intérieur en sphère de présence.'
     }
   ];

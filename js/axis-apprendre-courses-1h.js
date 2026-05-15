@@ -1704,8 +1704,544 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-  "id": "C016-preparer-une-seance-ouvrir-le-seuil",
-  "number": 16,
+        "id":  "C016-yoga-du-temple-vivant",
+        "number":  16,
+        "familyId":  "souffle",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
+        "title":  "Yoga du temple vivant",
+        "subtitle":  "Le corps comme espace sacré de la respiration",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Fondation",
+        "kind":  "Enseignement & pratique corporelle",
+        "status":  "available",
+        "summary":  "Le premier cours de la famille Souffle pose les fondements : le corps humain est un temple vivant parcouru par le souffle. Ce cours présente l'architecture respiratoire du corps — voies, diaphragme, espaces — et établit la posture juste comme condition première de la pratique.",
+        "shortSummary":  "Le corps comme espace sacré : architecture respiratoire et posture juste pour la pratique du souffle.",
+        "longSummary":  "Toutes les traditions spirituelles font du souffle leur porte d'entrée. Le Grec ancien pneuma, le Sanskrit prana, le Chinois qi, l'Hébreu ruach — tous désignent à la fois le souffle physique et la force vivante qu'il transporte. Ce cours ne présente pas une technique de plus parmi d'autres : il établit le cadre fondamental dans lequel toutes les techniques respiratoires trouvent leur sens. Le corps est un temple — pas métaphoriquement, mais architecturalement. Il possède des chambres (poumons, sinus, nez), des colonnes (vertèbres), un plancher (périnée), un plafond (diaphragme thoracique), des fenêtres (narines). Comprendre cette architecture, c'est comprendre pourquoi certaines postures favorisent la respiration profonde et d'autres l'empêchent.",
+        "pedagogicalObjective":  "Identifier l'architecture respiratoire du corps (voies aériennes, trois étages de la respiration, diaphragme) et établir la posture juste pour toutes les pratiques de la famille Souffle.",
+        "initiaticObjective":  "Habiter le corps comme un espace sacré — non comme un objet à gérer mais comme un lieu vivant à écouter, dont le souffle est la voix la plus constante.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Conscience du souffle\", \"content\": \"Observation du souffle spontané : rythme, profondeur, lieu d'arrivée, qualité. Sans modifier." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Architecture respiratoire : nez, gorge, arbre bronchique, trois étages (abdominal, thoracique, claviculaire), diaphragme." },
+            { "time": "15:00 — 25:00\",\"title\": \"Posture\",           \"content\": \"Établissement de la posture juste : colonne, tête, épaules, mains. Différences assis/couché/debout." },
+            { "time": "25:00 — 40:00\",\"title\": \"Respiration complète\", \"content\": \"Pratique de la respiration complète en trois étages, lente, sans forçage. Association à la conscience du corps." },
+            { "time": "40:00 — 50:00\",\"title\": \"Temple vivant\",     \"content\": \"Visualisation du corps comme espace architectural : identifier les chambres, les colonnes, le souffle comme habitant." },
+            { "time": "50:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"Observations sur le souffle naturel, zones de résistance, qualité de présence." },
+            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Trois respirations conscientes de gratitude pour le corps." }
+        ],
+        "plan":  [
+            "0–5 min — Observation du souffle naturel sans modification",
+            "5–15 min — Enseignement : architecture respiratoire du corps",
+            "15–25 min — Établissement de la posture juste",
+            "25–40 min — Pratique de la respiration complète en trois étages",
+            "40–50 min — Visualisation du corps comme temple vivant",
+            "50–57 min — Carnet d'observation",
+            "57–60 min — Clôture"
+        ],
+        "teaching":  {
+            "intro":  "Avant toute technique respiratoire, il y a le souffle. Ce souffle que vous n'avez jamais demandé mais qui ne vous a jamais quitté depuis votre premier cri. Il était là avant votre premiere pensée, il sera là après la derniere. Dans toutes les traditions, le souffle est considéré comme le lien le plus direct entre le conscient et l'inconscient, entre la volonté et l'automatisme, entre le physique et l'énergétique. Ce cours commence là — par écouter ce qui est déjà là.",
+            "sections":  [
+                {
+                    "title":  "1. L'architecture respiratoire : le temple a des chambres",
+                    "content":  "Le corps est architecturalement conçu pour le souffle. Les narines filtrent, réchauffent et humidifient l'air. Les sinus amplifient les résonances. La gorge module le son. L'arbre bronchique distribue jusqu'aux alvéoles les plus profondes. Et le diaphragme — ce muscle en dôme qui sépare thorax et abdomen — est le chef d'orchestre de tout le mouvement respiratoire. Comprendre ces espaces, c'est commencer à les habiter consciemment."
+                },
+                {
+                    "title":  "2. Les trois étages de la respiration",
+                    "content":  "La respiration complète utilise trois étages. Le premier est l'étage abdominal : le diaphragme descend, le ventre sort, les lobes inférieurs des poumons se remplissent. Le deuxième est l'étage thoracique : la cage thoracique s'élargit latéralement, les lobes moyens se remplissent. Le troisième est l'étage claviculaire : les clavicules s'élèvent légèrement, les apex pulmonaires reçoivent l'air. La plupart des adultes respirent seulement avec les étages supérieurs — la respiration abdominale profonde est perdue ou inhibée."
+                },
+                {
+                    "title":  "3. Le diaphragme : muscle de la vie et de l'émotion",
+                    "content":  "Le diaphragme est le seul muscle strié (volontaire) qui soit aussi automatique. On peut le contrôler — on peut retenir son souffle — mais on ne peut pas l'arrêter définitivement. Plus remarquable : le diaphragme est directement connecté au système émotionnel. Peur, choc, stress — tout se marque dans le diaphragme par une contraction, un durcissement. L'anxiété chronique rigidifie le diaphragme, ce qui bloque la respiration abdominale et entretient l'état d'alerte. Libérer le diaphragme, c'est libérer l'émotion qui s'y est cristallisée."
+                },
+                {
+                    "title":  "4. La posture juste : condition première",
+                    "content":  "La posture conditionne la respiration. Une colonne vertébrale courbée vers l'avant (position devant un écran) comprime la cage thoracique et réduit la capacité pulmonaire de 30 à 40%. Une posture droite, avec la courbe lombaire naturelle, libère le diaphragme et permet la respiration complète. La tête légèrement reculée (menton ni baissé ni levé) ouvre le passage naso-pharyngé. Ce n'est pas une posture militaire — c'est une verticalité détendue, comme un arbre bien enraciné."
+                },
+                {
+                    "title":  "5. Le souffle comme voix du corps",
+                    "content":  "Observer son souffle sans le modifier est l'un des actes contemplatifs les plus difficiles et les plus révélateurs. Le souffle raconte l'état interne : rapide et superficiel (stress, anxiété), lent et profond (repos, méditation), bloqué et irrégulier (tension émotionnelle refoulée), ample et fluide (joie, ouverture). Avant d'apprendre à modifier le souffle, il faut apprendre à le lire. C'est ce que ce cours inaugure."
+                }
+            ]
+        },
+        "practice":  "Protocole yoga du temple vivant — 30 minutes actives :\n1. Asseyez-vous confortablement. Fermez les yeux. Observez votre souffle spontané pendant 3 minutes. Ne modifiez rien. Notez mentalement : rythme, lieu d'arrivée, profondeur.\n2. Posture : allongez doucement la colonne. Reculez légèrement la tête. Relâchez les épaules. Posez les mains sur les cuisses.\n3. Respiration complète (10 min) : inspirez en 3 temps — d'abord le ventre gonfle, puis la cage thoracique s'élargit, puis les clavicules s'élèvent légèrement. Expirez en sens inverse. Très lentement.\n4. Visualisation (10 min) : imaginez votre corps comme un temple de pierre. Identifiez les chambres (poumons), les colonnes (vertèbres), le plancher (périnée). Le souffle est l'habitant qui parcourt tous ces espaces.\n5. Retour au souffle naturel. Observez s'il a changé.\n6. Notez : qu'avez-vous découvert sur votre souffle ?",
+        "image":  "assets/course-visuals-premium/C016-yoga-du-temple-vivant.svg",
+        "pdf":  "assets/cours-pdf/C016-yoga-du-temple-vivant.pdf",
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Fondation"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C017-postures-statiques-et-axe",
+        "number":  17,
+        "familyId":  "souffle",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
+        "title":  "Postures statiques et axe",
+        "subtitle":  "Tenir la posture comme acte de conscience",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Fondation",
+        "kind":  "Pratique corporelle & méditation",
+        "status":  "available",
+        "summary":  "Tenir une posture statique en pleine conscience est une pratique à part entière. Ce cours explore plusieurs postures simples (assis, agenouillé, debout) et enseigne comment maintenir l'axe, détendre le superflu et observer ce qui se passe dans le corps immobile.",
+        "shortSummary":  "Les postures statiques comme pratique de présence : tenir l'axe, détendre le superflu, observer.",
+        "longSummary":  "Dans les traditions contemplatives, la posture n'est pas un préalable à la méditation — elle est déjà méditation. Tenir un corps immobile en conscience demande une qualité d'attention particulière : on doit simultanément maintenir la structure (axe, équilibre), relâcher le tension inutile, observer ce qui se passe dans le corps, et rester présent sans tomber dans l'assoupissement. Ce cours explore trois postures statiques fondamentales — la posture assise (au sol ou sur chaise), la posture agenouillée (seiza) et la posture debout (zhan zhuang) — en insistant sur la notion d'axe vertical comme fil conducteur de la conscience.",
+        "pedagogicalObjective":  "Maîtriser trois postures statiques fondamentales et comprendre comment l'immobilité consciente devient une pratique de centration et de développement de la présence.",
+        "initiaticObjective":  "Découvrir que l'immobilité n'est pas l'absence de mouvement mais sa forme la plus concentrée — que dans la posture tenue avec conscience, tout se révèle.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Choix de posture\",  \"content\": \"Présentation des trois options : assis, agenouillé, debout. Chacun choisit selon son confort." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Pourquoi tenir une posture ? L'axe comme fil de conscience. Différence entre tension utile et tension parasite." },
+            { "time": "15:00 — 30:00\",\"title\": \"Posture assise\",   \"content\": \"15 minutes de posture assise consciente. Scan du corps toutes les 3 minutes : où est la tension inutile ?" },
+            { "time": "30:00 — 40:00\",\"title\": \"Transition et debout\",\"content\": \"Passage en posture debout (zhan zhuang). 10 minutes de tenue consciente." },
+            { "time": "40:00 — 50:00\",\"title\": \"Immobilité profonde\",\"content\": \"Retour à la posture de son choix. Laisser s'installer l'immobilité complète. Observer sans analyser." },
+            { "time": "50:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"Quelles tensions ont émergé ? Où le corps résiste-t-il l'immobilité ?" },
+            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Trois mouvements de relâchement, retour au mouvement naturel." }
+        ],
+        "plan":  [
+            "0–5 min — Présentation et choix des postures",
+            "5–15 min — Enseignement : axe, tension utile vs parasite",
+            "15–30 min — Posture assise consciente avec scan du corps",
+            "30–40 min — Posture debout (zhan zhuang)",
+            "40–50 min — Immobilité profonde choisie",
+            "50–57 min — Carnet d'observation",
+            "57–60 min — Relâchement et clôture"
+        ],
+        "teaching":  {
+            "intro":  "Savoir rester immobile est devenu une compétence rare. Non pas l'immobilité de la fatigue ou de l'ennui, mais l'immobilité active de celui qui tient son corps en éveil tout en le laissant se calmer. C'est une contradiction apparente que la pratique résout : être vivant et quiete en même temps. Les traditions asiatiques ont développé cela à un niveau remarquable — la posture zazen, le zhan zhuang, le yin yoga. Ce cours en explore les principes fondamentaux.",
+            "sections":  [
+                {
+                    "title":  "1. L'axe comme fil de conscience",
+                    "content":  "L'axe vertical n'est pas seulement une réalité physique (la colonne vertébrale) — c'est un fil de conscience. Quand on perd l'axe dans la posture, on perd aussi la clarté mentale. Quand on retrouve l'axe, l'attention se recentre naturellement. Le travail avec la posture statique est donc directement un travail sur la qualité de la conscience : tenir son axe, c'est tenir son attention."
+                },
+                {
+                    "title":  "2. Tension utile et tension parasite",
+                    "content":  "Toute posture nécessite un minimum de tonus musculaire — c'est la tension utile. Mais la plupart des corps tiennent aussi une grande quantité de tension parasite : des muscles contractés qui n'ont aucune utilité fonctionnelle dans la posture, vestiges du stress accumulé. Le scan corporel régulier — passer mentalement chaque partie du corps en revue — permet d'identifier et de relâcher progressivement ces tensions superflues. La posture devient de plus en plus légère sans perdre son intégrité."
+                },
+                {
+                    "title":  "3. Le zhan zhuang : tenir debout comme un arbre",
+                    "content":  "Le zhan zhuang (littéralement « tenir le piquet ») est une pratique centrale des arts martiaux internes chinois. On se tient debout, genoux légèrement fléchis, bras arrondis comme si on tenait un grand ballon invisible. Cette posture développe le sung — un état de relâchement actif où le corps est détendu mais vivant, souple mais pas affaissé. Dix minutes de zhan zhuang conscient développent une qualité de présence remarquable."
+                },
+                {
+                    "title":  "4. L'inconfort comme information",
+                    "content":  "Tenir une posture statique révèle les zones de résistance du corps. La douleur d'inconfort (différente de la douleur lésionnelle) est une information précieuse : elle indique où le corps stocke de la tension chronique, où la circulation est entravée, où l'émotion est figée dans la chair. On n'ignore pas cet inconfort — on l'observe avec curiosité, sans le dramatiser ni le fuir. Souvent, rester présent à une zone d'inconfort suffit pour que celle-ci se libère progressivement."
+                },
+                {
+                    "title":  "5. Quand l'immobilité devient méditation",
+                    "content":  "Après 20 à 30 minutes de posture consciente, quelque chose se transforme : le dialogue intérieur ralentit, la perception s'affine, le sens du temps change. Ce n'est pas l'effet d'une technique — c'est le résultat naturel de l'immobilité soutenue. Le système nerveux commence à traiter différemment les signaux, l'état de vigilance détendue s'installe. C'est le seuil où la posture physique devient méditation vivante."
+                }
+            ]
+        },
+        "practice":  "Protocole postures statiques — 45 minutes actives :\n1. Choisissez votre posture : assis au sol, sur une chaise, ou debout. Assurez-vous d'être stable et confortable.\n2. Fermez les yeux. Sentez l'axe vertical. Imaginez un fil qui tire doucement le sommet du crâne vers le haut.\n3. Scan initial (3 min) : où est la tension inutile ? Dans les épaules ? La mâchoire ? Le ventre ? Relâchez progressivement.\n4. Tenez la posture 15 minutes. Toutes les 3 minutes, faites un scan rapide : qu'est-ce qui peut être relâché sans que la posture s'effondre ?\n5. Zhan zhuang debout (10 min) : genoux légèrement fléchis, bras arrondis. Sentez le poids s'ancrer vers le bas, la légèreté vers le haut.\n6. Retour à votre posture choisie. Laissez l'immobilité s'installer complètement. N'analysez pas — observez.\n7. Notez : où résidait la tension ? Qu'est-il arrivé après 20 minutes ?",
+        "image":  "assets/course-visuals-premium/C017-postures-statiques-et-axe.svg",
+        "pdf":  "assets/cours-pdf/C017-postures-statiques-et-axe.pdf",
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Fondation"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C018-respiration-naturelle",
+        "number":  18,
+        "familyId":  "souffle",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
+        "title":  "Respiration naturelle",
+        "subtitle":  "Retrouver le souffle originel avant toute technique",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Fondation",
+        "kind":  "Pratique contemplative",
+        "status":  "available",
+        "summary":  "La respiration naturelle — telle qu'elle existe chez l'enfant et l'animal — est la respiration abdominale spontanée. Ce cours guide le pratiquant dans la redécouverte de ce souffle originel, souvent comprimé ou oublié par le stress et les habitudes posturales.",
+        "shortSummary":  "Retrouver la respiration abdominale spontanée, libre et naturelle, avant toute technique.",
+        "longSummary":  "Avant toutes les techniques respiratoires, il existe un souffle simple, naturel, efficace : la respiration abdominale du nourrisson. Un bébé respire avec le ventre — à l'inspiration, le ventre gonfle ; à l'expiration, le ventre rentre. Ce mouvement simple engage le diaphragme à plein, oxygène profondément les poumons et active le nerf vague pour calmer le système nerveux. La plupart des adultes ont perdu ce mode respiratoire. La société exige un ventre plat, une poitrine haute, une posture de performance — et le résultat est une respiration thoracique haute, superficielle, anxiogène. Ce cours guide le retour à la respiration naturelle en passant par le corps couché, la main sur le ventre, et des exercices progressifs de libération du diaphragme.",
+        "pedagogicalObjective":  "Retrouver et stabiliser la respiration abdominale naturelle comme mode de base, comprendre pourquoi elle a été perdue et comment la maintenir dans la vie quotidienne.",
+        "initiaticObjective":  "Comprendre que le souffle naturel est déjà un acte de confiance — laisser le corps fonctionner sans contrôle excessif est une forme d'abandon bienveillant au vivant.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Observation couché\", \"content\": \"Allongé sur le dos, mains sur le ventre, observation du souffle spontané." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Pourquoi le souffle naturel s'est-il perdu ? Tension, posture, culture. Comment le retrouver." },
+            { "time": "15:00 — 30:00\",\"title\": \"Libération couché\", \"content\": \"Exercices de libération du diaphragme en position allongée : souffle naturel, résistance légère, gémissements libres." },
+            { "time": "30:00 — 45:00\",\"title\": \"Transfert assis\",  \"content\": \"Passage en position assise. Transférer la respiration abdominale découverte couché vers la position assise." },
+            { "time": "45:00 — 55:00\",\"title\": \"Respiration naturelle debout\", \"content\": \"Debout, souffle naturel. Sentir le ventre se mouvoir sans résistance." },
+            { "time": "55:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"Qu'est-ce qui empêchait la respiration naturelle ? Qu'est-ce qui la libère ?" },
+            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Engagement simple : une minute de respiration naturelle consciente par jour." }
+        ],
+        "plan":  [
+            "0–5 min — Observation du souffle spontané allongé",
+            "5–15 min — Enseignement : perte et retrouvaille du souffle naturel",
+            "15–30 min — Libération du diaphragme en position allongée",
+            "30–45 min — Transfert de la respiration abdominale en position assise",
+            "45–55 min — Respiration naturelle debout",
+            "55–57 min — Carnet d'observation",
+            "57–60 min — Clôture et engagement quotidien"
+        ],
+        "teaching":  {
+            "intro":  "Un enfant de six mois respire parfaitement. Son ventre monte et descend librement, son diaphragme fonctionne sans entraves, son systeme nerveux est calme entre les besoins. Vingt ans plus tard, ce même être respirera souvent avec la poitrine haute, l'abdomen contracté, le diaphragme bloqué. Que s'est-il passé ? Ce cours enquête sur cette perte et propose le retour à ce qui était naturel bien avant qu'on apprenne qu'il fallait rentrer le ventre.",
+            "sections":  [
+                {
+                    "title":  "1. Comment la respiration naturelle se perd",
+                    "content":  "Trois forces principales compriment le souffle naturel. La première est le stress : face à un danger ou une menace perçue, le corps retient son souffle ou passe en respiration thoracique haute (prête à l'action rapide). Quand ce stress devient chronique, ce pattern respiratoire s'installe durablement. La deuxième est la culture : rentrer le ventre est un impératif esthétique transmis par la mode, la culture physique, et les injonctions sociales. La troisième est la posture assise prolongée qui comprime mécaniquement l'espace abdominal."
+                },
+                {
+                    "title":  "2. Le nerf vague et le souffle abdominal",
+                    "content":  "Le nerf vague, dixième nerf crânien, innerve la plupart des organes thoraciques et abdominaux. Sa stimulation active le système nerveux parasympathique — la réponse de « repos et digestion » — opposée à la réponse de stress sympathique. Le diaphragme, lors de la respiration abdominale profonde, masse doucement le nerf vague lors de chaque inspiration. C'est pour cette raison que la respiration abdominale lente et profonde réduit l'anxiété, la tension artérielle, et le cortisol — elle stimule directement le système de calmage du corps."
+                },
+                {
+                    "title":  "3. Libération du diaphragme : technique et expérience",
+                    "content":  "La libération du diaphragme passe d'abord par la position allongée, qui supprime la gravité de la résistance posturale. On pose une main sur le ventre, l'autre sur la poitrine. L'objectif est simple : faire monter la main du ventre à l'inspiration sans que la main de la poitrine ne monte. Pour faciliter cette prise de conscience, on peut gémir doucement à l'expiration — le gémissement, vibration pharyngée naturelle, libère le diaphragme par réflexe. La résistance légère (pousser légèrement la main contre le ventre) offre aussi une rétroaction proprioceptive utile."
+                },
+                {
+                    "title":  "4. Le transfert : couché → assis → debout",
+                    "content":  "Retrouver la respiration abdominale allongé est relativement facile. Le défi est de transférer ce pattern vers les positions verticales, où les habitudes posturales reviennent rapidement. On travaille ce transfert progressivement : d'abord assis, en gardant une main sur le ventre comme guide ; puis debout, en cherchant la même sensation de libération abdominale sans avoir besoin de la main. Le transfert demande généralement plusieurs séances avant de devenir automatique."
+                },
+                {
+                    "title":  "5. La respiration naturelle dans la vie quotidienne",
+                    "content":  "L'objectif final n'est pas d'avoir une technique respiratoire de plus — c'est de restaurer le mode respiratoire de base. Une minute de respiration abdominale consciente chaque matin, avant de sortir du lit, suffit pour commencer à réorienter les habitudes. Avec le temps, le corps retrouve spontanément ce mode quand il n'est pas sous stress. Et dans les moments de stress, la respiration abdominale devient un outil de régulation rapide accessible en toutes circonstances."
+                }
+            ]
+        },
+        "practice":  "Protocole respiration naturelle — 40 minutes actives :\n1. Allongez-vous sur le dos, jambes décontractées. Une main sur le ventre, une main sur la poitrine.\n2. Observez 3 minutes sans modifier : quelle main monte d'abord ? Quelle est l'amplitude ?\n3. Libération (10 min) : à l'inspiration, cherchez à faire monter la main du ventre. À l'expiration, laissez-le se dégonfler. Gémiez doucement si cela aide.\n4. Si vous sentez une résistance abdominale, appuyez légèrement la main sur le ventre et poussez contre elle à l'inspiration.\n5. Transition assis (5 min) : asseyez-vous. Gardez une main sur le ventre. Continuez le même souffle.\n6. Debout (5 min) : sans la main. Cherchez le même sentiment de liberté abdominale.\n7. Retour assis, yeux fermés : laissez le souffle naturel s'installer seul pendant 10 minutes.\n8. Notez : qu'est-ce qui résistait ? Qu'est-ce qui s'est libéré ?",
+        "image":  "assets/course-visuals-premium/C018-respiration-naturelle.svg",
+        "pdf":  "assets/cours-pdf/C018-respiration-naturelle.pdf",
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Fondation"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C019-respiration-carree",
+        "number":  19,
+        "familyId":  "souffle",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
+        "title":  "Respiration carrée",
+        "subtitle":  "Équilibrer l'inspire, le plein, l'expire et le vide",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Approfondissement",
+        "kind":  "Technique respiratoire & équilibrage",
+        "status":  "available",
+        "summary":  "La respiration carrée divise le cycle respiratoire en quatre temps égaux : inspire, rétention poumons pleins, expire, rétention poumons vides. Ce rythme carré crée un équilibre remarquable entre les états d'activation et de calme, et développe le contrôle conscient du souffle.",
+        "shortSummary":  "Quatre temps égaux (inspire-plein-expire-vide) pour équilibrer le système nerveux et développer le contrôle du souffle.",
+        "longSummary":  "La respiration carrée (box breathing, sama vritti pranayama) est l'une des techniques respiratoires les plus étudiées et utilisées dans les contextes modernes de gestion du stress. Des unités d'élite militaires (Navy SEALs) aux salles de méditation bouddhiste, en passant par les cabinets de psychologie, cette technique simple est reconnue pour ses effets puissants sur la régulation du système nerveux autonome. Le principe est géométriquement simple : quatre phases égales qui forment un carré. Le défi est la régularité et la conscience : maintenir des temps égaux sans forcer, travailler les rétentions (kumbakas) progressivement, et observer comment chaque phase du carré a une qualité de conscience spécifique.",
+        "pedagogicalObjective":  "Maîtriser la technique de la respiration carrée en différentes durées (4-4-4-4, 6-6-6-6, 8-8-8-8) et comprendre l'action de chaque phase sur le système nerveux.",
+        "initiaticObjective":  "Expérimenter que le vide respiratoire (rétention poumons vides) est un espace de conscience particulier — un seuil entre deux mondes, entre deux souffles.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"État de base\",     \"content\": \"Évaluation de l'état du système nerveux : agité, calme, neutre ?" },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"La respiration carrée : principe, quatre phases, effets physiologiques, rétentions." },
+            { "time": "15:00 — 30:00\",\"title\": \"Pratique 4-4-4-4\", \"content\": \"15 minutes de respiration carrée à 4 secondes par phase. Chronométrage mental." },
+            { "time": "30:00 — 40:00\",\"title\": \"Pratique 6-6-6-6\", \"content\": \"10 minutes à 6 secondes par phase. Observer comment l'esprit ralentit." },
+            { "time": "40:00 — 50:00\",\"title\": \"Exploration du vide\",\"content\": \"Attention particulière à la rétention poumons vides : qu'y a-t-il dans ce vide ?" },
+            { "time": "50:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"Comparaison état avant/après, qualité de chaque phase du carré." },
+            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Retour au souffle naturel, observation de l'équilibre installé." }
+        ],
+        "plan":  [
+            "0–5 min — Évaluation de l'état du système nerveux",
+            "5–15 min — Enseignement : principe et effets de la respiration carrée",
+            "15–30 min — Pratique à 4 secondes par phase",
+            "30–40 min — Pratique à 6 secondes par phase",
+            "40–50 min — Exploration de la rétention poumons vides",
+            "50–57 min — Carnet de comparaison",
+            "57–60 min — Clôture et retour au souffle naturel"
+        ],
+        "teaching":  {
+            "intro":  "La geometrie s'applique aussi au souffle. Un carre a quatre cotes egaux — et la respiration carree a quatre phases egales. Cette symetrie n'est pas arbitraire : elle cree un equilibre remarquable entre les forces antagonistes qui gouvernent notre physiologie. L'inspiration active le sympathique, l'expiration active le parasympathique. En leur donnant un temps identique, on cree une alternance rythmique qui equilibre les deux systemes. Les retentions ajoutent une dimension supplémentaire : le temps suspendu.",
+            "sections":  [
+                {
+                    "title":  "1. Les quatre phases et leurs qualités",
+                    "content":  "L'inspiration (puraka) est active — elle engage les muscles inspirateurs, augmente légèrement la fréquence cardiaque, active le sympathique. La rétention poumons pleins (antara kumbhaka) est le plein : expansion maximale, pression intrathoracique élevée, moment de potentiel. L'expiration (rechaka) est libératrice — elle engage les muscles expiratoires ou la détente passive, ralentit la fréquence cardiaque, active le parasympathique. La rétention poumons vides (bahya kumbhaka) est le vide : espace de transition, réinitialisation, seuil de silence avant le prochain cycle."
+                },
+                {
+                    "title":  "2. Les rétentions (kumbhaka) : travailler le seuil",
+                    "content":  "Les rétentions respiratoires sont les phases les plus délicates et les plus précieuses de la respiration carrée. Elles ne doivent jamais être forcées — la durée d'une rétention confortable est celle où on pourrait encore inspirer ou expirer facilement, mais on choisit d'attendre. Forcer une rétention crée du stress et contredit l'objectif. On commence à 4 secondes, progressivement vers 8, jamais au-delà de son confort. La rétention poumons vides est la plus sensible : elle peut provoquer une légère anxiété chez les débutants, ce qui est précisément l'information à observer."
+                },
+                {
+                    "title":  "3. Action sur le système nerveux autonome",
+                    "content":  "Les études sur la respiration carrée montrent des effets mesurables : réduction de la variabilité de la fréquence cardiaque dans le sens de la cohérence, augmentation de l'activité du nerf vague, réduction du cortisol salivaire, amélioration des mesures de performance cognitive et de régulation émotionnelle. Quinze minutes de respiration carrée produisent des effets comparables à certaines interventions médicamenteuses de gestion du stress — sans les effets secondaires."
+                },
+                {
+                    "title":  "4. Le comptage mental : rythme intérieur vs métronome",
+                    "content":  "Compter les secondes mentalement pendant la respiration carrée est lui-même une pratique : on crée un métronome intérieur, une pulsation intérieure régulière. Avec l'expérience, ce comptage se fait sans effort — il devient un fond de conscience plutôt qu'une activité mentale de premier plan. On peut aussi utiliser un son régulier en fond sonore (bols tibétains à intervalles réguliers) pour externaliser le comptage et libérer l'attention vers l'observation pure."
+                },
+                {
+                    "title":  "5. Le vide respiratoire comme espace de conscience",
+                    "content":  "La rétention poumons vides est l'espace le plus mystérieux du cycle respiratoire. Physiologiquement, c'est un moment de tension maximale du système de régulation du CO2. Phénoménologiquement, c'est un espace de conscience particulier : sans souffle, sans mouvement, l'esprit se retrouve face à lui-même dans une clarté inhabituelle. Les pratiquants avancés décrivent ce vide comme un espace de potentiel pur, un seuil entre deux états, un lieu où des insights spontanés peuvent émerger."
+                }
+            ]
+        },
+        "practice":  "Protocole respiration carrée — 35 minutes actives :\n1. Assis, dos droit, fermez les yeux. Évaluez votre état sur une échelle 1-10 : 1 = très agité, 10 = très calme.\n2. Phase 4-4-4-4 (15 min) : inspirez en comptant 4, retenez 4, expirez 4, retenez 4. Recommencez immédiatement.\n3. Si la rétention poumons vides crée une anxiété, réduisez-la à 2 secondes d'abord.\n4. Phase 6-6-6-6 (10 min) : si confortable, passez à 6 secondes par phase. Observez comment l'esprit ralentit naturellement.\n5. Exploration du vide (5 min) : pendant la rétention poumons vides, portez toute l'attention à cet espace. Qu'y a-t-il ?\n6. Retour au souffle naturel. Évaluez à nouveau votre état : a-t-il changé ?\n7. Notez : quelle phase était la plus difficile ? La plus riche ?",
+        "image":  "assets/course-visuals-premium/C019-respiration-carree.svg",
+        "pdf":  "assets/cours-pdf/C019-respiration-carree.pdf",
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Approfondissement"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C020-respiration-triangulaire-et-rectangulaire",
+        "number":  20,
+        "familyId":  "souffle",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
+        "title":  "Respiration triangulaire et rectangulaire",
+        "subtitle":  "Moduler le ratio inspire/expire pour des effets ciblés",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Approfondissement",
+        "kind":  "Technique respiratoire avancée",
+        "status":  "available",
+        "summary":  "En modulant le ratio des phases respiratoires (inspire : rétention : expire), on obtient des effets très différents sur le système nerveux. Ce cours explore la respiration triangulaire (sans vide) et rectangulaire (avec vide allongé) pour apprendre à calibrer le souffle selon l'objectif : activation, équilibre ou calme profond.",
+        "shortSummary":  "Moduler les ratios respiratoires pour activer, équilibrer ou induire le calme profond.",
+        "longSummary":  "La respiration n'est pas un instrument monotone — elle est un instrument à vent dont on peut moduler le son en changeant les proportions. La respiration triangulaire (3 phases : inspire, rétention, expire, sans rétention basse) crée un flux continu d'activation douce. La respiration rectangulaire (4 phases mais avec rétention basse prolongée) crée un état de calme profond. En apprenant à moduler consciemment ces ratios, le pratiquant dispose d'un outil de régulation autonome remarquablement précis : plus l'expiration est longue par rapport à l'inspiration, plus l'effet calmant est prononcé. Un ratio 1:1:2 (inspire 4 sec, rétention 4 sec, expire 8 sec) est fortement calmant. Un ratio 1:1:1 (carré) est équilibrant. Un ratio 2:1:1 (inspire longue) est légèrement activant.",
+        "pedagogicalObjective":  "Maîtriser les formes triangulaire et rectangulaire de la respiration consciente et comprendre comment les ratios inspire/expire affectent le système nerveux de façon prévisible.",
+        "initiaticObjective":  "Développer une intelligence du souffle qui permet de choisir consciemment son état plutôt que d'être soumis à l'état dans lequel on se trouve.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Rappel\",           \"content\": \"Rappel de la respiration carrée. Évaluation de l'état de départ." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Ratios respiratoires et leurs effets : triangulaire (3 phases), rectangulaire (4 phases asymétriques)." },
+            { "time": "15:00 — 25:00\",\"title\": \"Triangulaire activante\", \"content\": \"Respiration triangulaire 2:1:1 (inspire longue). Observer l'effet activant." },
+            { "time": "25:00 — 35:00\",\"title\": \"Triangulaire calmante\", \"content\": \"Respiration triangulaire 1:1:2 (expire longue). Observer l'effet calmant." },
+            { "time": "35:00 — 50:00\",\"title\": \"Rectangulaire\",    \"content\": \"Respiration rectangulaire 1:1:2:1 puis 1:1:3:1. Observation du vide allongé." },
+            { "time": "50:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"Mapping des effets : quel ratio pour quel état ?" },
+            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Retour au souffle naturel, note de l'état final." }
+        ],
+        "plan":  [
+            "0–5 min — Rappel et évaluation de départ",
+            "5–15 min — Enseignement : ratios et effets différentiels",
+            "15–25 min — Respiration triangulaire activante (inspire longue)",
+            "25–35 min — Respiration triangulaire calmante (expire longue)",
+            "35–50 min — Respiration rectangulaire avec vide allongé",
+            "50–57 min — Carnet et mapping des effets",
+            "57–60 min — Clôture"
+        ],
+        "teaching":  {
+            "intro":  "Si la respiration carree est une equipolence parfaite, la respiration modulee est un instrument de precision. En changeant les proportions des phases, on change l'effet sur le systeme nerveux de facon previsible et reproductible. Cette connaissance transforme le souffle d'un automatisme en un outil conscient d'autorégulation. Vous pouvez apprendre à vous calmer, à vous activer, ou à entrer dans un état meditatif profond — par le seul choix du rythme de votre souffle.",
+            "sections":  [
+                {
+                    "title":  "1. La règle fondamentale : expire longue = calme",
+                    "content":  "La règle la plus importante de la modulation respiratoire est simple : allonger l'expiration active le parasympathique et induit le calme. Raccourcir l'expiration (ou allonger l'inspiration) active légèrement le sympathique. Cette règle a une base physiologique solide : la fréquence cardiaque augmente à l'inspiration et diminue à l'expiration (arythmie sinusale respiratoire). Prolonger l'expiration prolonge la phase de ralentissement cardiaque, ce qui active le nerf vague et envoie un signal de sécurité au système nerveux."
+                },
+                {
+                    "title":  "2. La respiration triangulaire : trois phases, flux continu",
+                    "content":  "La respiration triangulaire ne comporte que trois phases (pas de rétention basse) : inspire, rétention poumons pleins, expire. Ce rythme crée un flux continu sans pause basse, ce qui maintient un niveau d'activation légèrement plus élevé que le carré. La version 2:1:1 (inspire 8s, rétention 4s, expire 4s) est légèrement activante et utile pour améliorer la concentration. La version 1:1:2 (inspire 4s, rétention 4s, expire 8s) est fortement calmante et utile pour gérer le stress aigu."
+                },
+                {
+                    "title":  "3. La respiration rectangulaire : asymétrie et profondeur",
+                    "content":  "La respiration rectangulaire ressemble au carré mais avec des phases asymétriques — typiquement une rétention basse très courte et une expiration longue. Un exemple : inspire 4s, rétention haute 4s, expire 8s, rétention basse 2s (ratio 4:4:8:2). Ce pattern combine la profondeur de l'expiration longue avec une pause au vide qui intensifie la réinitialisation. C'est l'une des techniques les plus efficaces pour passer rapidement d'un état agité à un état de calme médiatif."
+                },
+                {
+                    "title":  "4. Calibrer le souffle selon l'objectif",
+                    "content":  "Une fois ces techniques maîtrisées, le pratiquant peut choisir consciemment son ratio selon son besoin du moment. Avant une présentation importante : triangulaire activant (2:1:1) pendant 5 minutes. Après une confrontation stressante : triangulaire calmant (1:1:2) pendant 10 minutes. Pour entrer en méditation profonde : rectangulaire asymétrique (1:1:3:1) pendant 15 minutes. Cette capacité de calibration est l'une des compétences les plus précieuses que cette famille Souffle développe."
+                },
+                {
+                    "title":  "5. Vers l'intuition respiratoire",
+                    "content":  "Au-delà des techniques explicites, la pratique régulière développe une intuition respiratoire : on commence à sentir instinctivement quel pattern respiratoire est nécessaire à ce moment. Le corps sait ce dont il a besoin — les techniques apprises deviennent des lettres d'un alphabet que le corps peut combiner librement. C'est l'objectif ultime : non pas exécuter des protocoles, mais respirer avec intelligence."
+                }
+            ]
+        },
+        "practice":  "Protocole respiration modulée — 40 minutes actives :\n1. Évaluez votre état de 1 (très agité) à 10 (très calme).\n2. Triangulaire activant (8 min) : inspire 6s, rétention 3s, expire 3s. Observez l'effet.\n3. Réévaluez votre état. A-t-il changé dans le sens de l'activation ?\n4. Triangulaire calmant (8 min) : inspire 3s, rétention 3s, expire 6s. Observez.\n5. Réévaluez. Différence ?\n6. Rectangulaire profond (12 min) : inspire 4s, rétention 4s, expire 8s, vide 2s. Focus sur l'expire longue et le vide.\n7. Retour au souffle naturel (5 min). Observez ce qu'il choisit spontanément.\n8. Notez : quel ratio a eu le plus d'effet sur vous ? Dans quel sens ?",
+        "image":  "assets/course-visuals-premium/C020-respiration-triangulaire-et-rectangulaire.svg",
+        "pdf":  "assets/cours-pdf/C020-respiration-triangulaire-et-rectangulaire.pdf",
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Approfondissement"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C021-mantras-illi-alla-ollo-roro",
+        "number":  21,
+        "familyId":  "souffle",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
+        "title":  "Mantras ILLI, ALLA, OLLO, RORO",
+        "subtitle":  "Les quatre syllabes comme instruments de résonance intérieure",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Approfondissement",
+        "kind":  "Pratique sonore & vibratoire",
+        "status":  "available",
+        "summary":  "Les quatre mantras ILLI, ALLA, OLLO et RORO sont des formules vibratoires dont chaque voyelle crée une résonance spécifique dans une zone du corps. Ce cours enseigne la technique de récitation intérieure et extérieure de ces mantras, leurs effets physiologiques et les zones de résonance correspondantes.",
+        "shortSummary":  "ILLI, ALLA, OLLO, RORO : quatre mantras vibratoires, chacun résonnant dans une zone distincte du corps.",
+        "longSummary":  "Les voyelles I, A, O et R (dans leur forme longue roulée) ont des propriétés acoustiques différentes qui créent des résonances dans des zones distinctes du corps. I résonne dans les structures crâniennes hautes (nez, sinus, crâne). A résonne dans la cage thoracique et la gorge. O résonne dans l'abdomen et la poitrine inférieure. R roulé résonne dans l'ensemble du corps comme une vibration basale. Les mantras ILLI, ALLA, OLLO et RORO utilisent la répétition de ces voyelles pour amplifier et prolonger leur résonance. Ce cours enseigne d'abord la récitation à voix haute pour sentir les résonances physiques, puis la récitation à voix basse, puis mentale, observant comment chaque passage intensifie certains effets tout en en diminuant d'autres.",
+        "pedagogicalObjective":  "Maîtriser la récitation des quatre mantras dans leurs trois formes (voix haute, voix basse, mentale) et identifier les zones de résonance spécifiques à chaque mantra.",
+        "initiaticObjective":  "Découvrir que le son intérieur est aussi réel que le son extérieur — que la récitation mentale d'un mantra crée des effets physiologiques et perceptifs mesurables.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Écoute du silence\", \"content\": \"Écouter le silence intérieur : quels sons internes existent déjà ? Tintement, bourdonnement, silence ?" },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Les voyelles et leurs zones de résonance. Principe de résonance sympathique. Mantra vs prière." },
+            { "time": "15:00 — 25:00\",\"title\": \"ILLI et ALLA\",     \"content\": \"Récitation à voix haute de ILLI (5 min) puis ALLA (5 min). Localisation des résonances." },
+            { "time": "25:00 — 35:00\",\"title\": \"OLLO et RORO\",     \"content\": \"Récitation à voix haute de OLLO (5 min) puis RORO (5 min). Comparaison avec ILLI/ALLA." },
+            { "time": "35:00 — 45:00\",\"title\": \"Voix basse\",       \"content\": \"Répétition en chuchotement. Observer comment les effets changent quand le son diminue." },
+            { "time": "45:00 — 55:00\",\"title\": \"Récitation mentale\",\"content\": \"Récitation silencieuse. Choisir un mantra. Répéter 10 min en silence. Observer les effets persistants." },
+            { "time": "55:00 — 60:00\",\"title\": \"Carnet et clôture\", \"content\": \"Quel mantra résonne le plus ? Zones touchées. Différences voix haute / mentale." }
+        ],
+        "plan":  [
+            "0–5 min — Écoute du silence intérieur",
+            "5–15 min — Enseignement : voyelles, résonances, principe du mantra",
+            "15–25 min — ILLI et ALLA à voix haute",
+            "25–35 min — OLLO et RORO à voix haute",
+            "35–45 min — Répétition en voix basse",
+            "45–55 min — Récitation mentale silencieuse",
+            "55–60 min — Carnet et clôture"
+        ],
+        "teaching":  {
+            "intro":  "Toutes les traditions ont compris que certains sons ont des effets sur le corps et l'ame. Le son est vibration — et la vibration se propage dans la matiere. Un corps humain est compose d'eau a 70% : il est exceptionnellement conducteur de la vibration sonore. Quand vous prononcez un son, vous ne produisez pas seulement des ondes aerienness — vous faites vibrer votre propre corps comme un instrument. Les mantras ILLI, ALLA, OLLO et RORO sont des instruments de cette musique interieure.",
+            "sections":  [
+                {
+                    "title":  "1. La physique de la résonance vocale",
+                    "content":  "Chaque voyelle mobilise différemment la cavité buccale, les sinus, la gorge et la cage thoracique. La voyelle I est produite avec la langue haute et l'avant de la bouche : elle crée une résonance dans les cavités supérieures (sinus, crâne). La voyelle A est produite avec une grande ouverture buccale : elle résonne dans la gorge et le thorax supérieur. La voyelle O est produite avec les lèvres arrondies : elle crée une cavité de résonance thoracique-abdominale. La vibration du R roulé crée une résonance basale dans l'ensemble du corps."
+                },
+                {
+                    "title":  "2. ILLI : résonance crânienne et clarté",
+                    "content":  "Le mantra ILLI répète deux fois la voyelle I entourée de consonnes L (vibration linguale). La combinaison IL-LI crée une résonance dans les structures crâniennes supérieures, les sinus frontaux et ethmoïdaux, et les zones nasales. Les pratiquants décrivent souvent une sensation de clarté mentale, de légèreté au niveau du front, parfois une légère pression dans les sinus pendant les premières récitations. ILLI est le mantra de la clarté, de la vision, de la haute perception."
+                },
+                {
+                    "title":  "3. ALLA : résonance thoracique et ouverture",
+                    "content":  "Le mantra ALLA répète deux fois la voyelle A entourée de consonnes L. La voyelle A est la plus universelle — on la retrouve dans les mots désignant le divin dans pratiquement toutes les langues. Prononcée dans le mantra AL-LA, elle crée une résonance dans la cage thoracique et la gorge, zone du cœur et de l'expression. Les pratiquants décrivent souvent une sensation d'ouverture au niveau de la poitrine, une émotion légère, parfois des larmes sans raison apparente. ALLA est le mantra du cœur et de la présence."
+                },
+                {
+                    "title":  "4. OLLO et RORO : l'ancrage et la totalité",
+                    "content":  "OLLO (OL-LO) crée une résonance abdominale et centrée — on le sent souvent dans le ventre et la région lombaire. C'est le mantra du centre de gravité, de l'ancrage, du hara. RORO (RO-RO) est différent : le R roulé est une vibration laryngée qui se propage dans tout le thorax et le corps entier quand il est prononcé avec amplitude. C'est le mantra le plus « terrestre », le plus vibrant physiquement. Il peut créer une vibration perceptible dans les os, ce qui lui confère une fonction énergétisante particulière."
+                },
+                {
+                    "title":  "5. La récitation mentale : le son sans le son",
+                    "content":  "La découverte la plus surprenante de ce cours est que la récitation mentale silencieuse d'un mantra crée des effets physiologiques réels, bien que différents de la récitation vocale. L'imagerie motrice (répéter mentalement un geste sans le faire) active les mêmes zones cérébrales que le geste réel. De même, répéter mentalement un mantra active partiellement les zones de production vocale et de résonance. Avec la pratique, la récitation mentale devient aussi vibrante que la récitation vocale — le corps apprend à résonner intérieurement."
+                }
+            ]
+        },
+        "practice":  "Protocole mantras — 45 minutes actives :\n1. Silence initial (3 min) : fermez les yeux, écoutez le silence intérieur.\n2. ILLI à voix normale (5 min) : respirez et, à l'expiration, prononcez ILLI lentement (2-3 secondes). Où sentez-vous la vibration ?\n3. ALLA à voix normale (5 min) : même chose. Zone de résonance ?\n4. OLLO à voix normale (5 min) : même chose. Comparaison avec les précédents.\n5. RORO à voix normale (5 min) : prononcez le R roulé si vous pouvez. Vibration dans le corps.\n6. Choisissez votre préféré. Voix très basse (chuchotée) : 5 min. Observez comment les effets changent.\n7. Récitation mentale complète (10 min) : silence absolu. Répétez le mantra choisi dans votre tête. Cherchez les résonances internes sans le son.\n8. Notez : quel mantra touche quelle zone ? Différences voix haute / mentale.",
+        "image":  "assets/course-visuals-premium/C021-mantras-illi-alla-ollo-roro.svg",
+        "pdf":  "assets/cours-pdf/C021-mantras-illi-alla-ollo-roro.pdf",
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Approfondissement"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C022-om-et-vibration-interieure",
+        "number":  22,
+        "familyId":  "souffle",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
+        "title":  "OM et vibration intérieure",
+        "subtitle":  "Le son primordial comme outil de centration et de résonance globale",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Avancé",
+        "kind":  "Pratique sonore & méditation profonde",
+        "status":  "available",
+        "summary":  "OM (AUM) est considéré dans de nombreuses traditions comme le son primordial — le son de la création. Ce cours explore ses trois composantes (A, U, M) et le silence qui suit, enseigne la technique complète de récitation longue, et guide vers la perception de la vibration intérieure qui persiste après le son.",
+        "shortSummary":  "AUM : le son primordial, ses trois phases, et la vibration intérieure qui subsiste dans le silence.",
+        "longSummary":  "Le mantra OM, ou AUM dans sa forme complète, est l'un des sons les plus étudiés dans les traditions contemplatives et, récemment, dans la recherche neuroscientifique. Sa structure ternaire (A-U-M) avec le silence qui suit représente les quatre états de conscience selon la tradition védique : veille (A), rêve (U), sommeil profond (M) et turiya (le silence, état de témoin pur). Sur le plan physiologique, la prononciation du OM engage progressivement l'ensemble des résonateurs vocaux (thorax, gorge, crâne) dans un balayage complet de bas en haut. Des études d'imagerie cérébrale montrent que la récitation du OM active des zones associées au système limbique et au nerf vague de façon plus prononcée que d'autres sons.",
+        "pedagogicalObjective":  "Maîtriser la technique de récitation complète du AUM (A-U-M + silence) et comprendre les quatre états de conscience correspondants.",
+        "initiaticObjective":  "Toucher l'expérience du son primordial — le moment où la voix, le souffle et le silence se rejoignent dans une qualité de présence qui transcende les états habituels.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Silence initial\",  \"content\": \"5 minutes de silence complet pour sentir le contraste avec le son qui viendra." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"AUM : structure, signification, quatre états de conscience, études neuroscientifiques." },
+            { "time": "15:00 — 25:00\",\"title\": \"A, U, M séparés\", \"content\": \"Réciter A seul (3 min), U seul (3 min), M seul (3 min). Localiser les résonances." },
+            { "time": "25:00 — 40:00\",\"title\": \"AUM complet\",      \"content\": \"15 minutes de récitation du AUM complet, long (8-12 secondes par récitation)." },
+            { "time": "40:00 — 52:00\",\"title\": \"Silence post-OM\",  \"content\": \"Arrêt de la récitation. Observer la vibration intérieure qui persiste. 12 minutes de silence actif." },
+            { "time": "52:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"État de conscience, qualité du silence, vibration ressentie." },
+            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Un dernier AUM très lent. Fermeture." }
+        ],
+        "plan":  [
+            "0–5 min — Silence initial de contraste",
+            "5–15 min — Enseignement : AUM, quatre états, neuroscience",
+            "15–25 min — A, U, M récités séparément",
+            "25–40 min — AUM complet, récitation longue",
+            "40–52 min — Silence actif, observation de la vibration persistante",
+            "52–57 min — Carnet d'état",
+            "57–60 min — Clôture"
+        ],
+        "teaching":  {
+            "intro":  "Le son OM (ou AUM dans sa forme complète) apparaît dans les plus anciens textes connus de l'humanité, écrits il y a plus de trois mille ans. Il est présent dans l'hindouisme, le bouddhisme tibetain, le jaïnisme. Mais il n'appartient à aucune de ces traditions — il les précede toutes. Des physiciens ont calculé que si l'univers avait une fréquence de résonance propre, elle serait proche des 7,83 Hz (fréquence de Schumann). Coïncidence ou pas, c'est également la fréquence des ondes thêta produites par le cerveau lors des états méditatifs profonds associés à la récitation de OM.",
+            "sections":  [
+                {
+                    "title":  "1. La structure de AUM : A, U, M et le silence",
+                    "content":  "AUM n'est pas une seule syllabe mais une séquence de trois phonèmes et un silence. A est produit à l'arrière de la gorge avec la bouche très ouverte — c'est le son le plus ouvert. Il résonne dans la poitrine. U se produit en rapprochant les lèvres progressivement — la résonance monte vers la gorge et la bouche. M se produit lèvres closes — la résonance monte vers le crâne, les sinus, le front. Le silence qui suit (souvent aussi long que le son lui-même) est la quatrième composante : le lieu où le son s'intègre."
+                },
+                {
+                    "title":  "2. Les quatre états de conscience",
+                    "content":  "Selon la tradition védique, les trois phonèmes de AUM correspondent à trois états ordinaires de conscience : A est l'état de veille (jagrat), la conscience tournée vers le monde extérieur. U est l'état de rêve (svapna), la conscience tournée vers le monde intérieur. M est l'état de sommeil profond (sushupti), la conscience sans objet. Le silence qui suit est turiya — le « quatrième », l'état de témoin pur qui observe les trois autres sans être affecté par eux. La pratique du AUM est un voyage à travers ces quatre états."
+                },
+                {
+                    "title":  "3. Neuroscience du OM : qu'est-ce que la recherche montre ?",
+                    "content":  "Des études IRM et EEG conduits en Inde et en Europe montrent que la récitation du OM active de façon distinctive le cortex insulaire, le cortex cingulaire antérieur et le tronc cérébral — des zones associées à la conscience corporelle, à la régulation émotionnelle et au traitement de la douleur. La récitation produit également une déactivation des réseaux associés à la rumination et au dialog interne. Ces effets sont significativement plus prononcés pour le OM que pour d'autres sons contrôles."
+                },
+                {
+                    "title":  "4. La technique : durée, résonance, intention",
+                    "content":  "La récitation longue du AUM (8 à 12 secondes) est plus efficace que la récitation courte. On commence par le A avec la bouche grande ouverte, en laissant la voix résonner dans le thorax. Progressivement, les lèvres se rapprochent : U. Puis lèvres closes, vibration dans le crâne : M. La transition doit être fluide — les consonants glissent les uns dans les autres. Après le M, le silence : on n'inspire pas immédiatement. On attend que la vibration intérieure se pose avant de respirer à nouveau."
+                },
+                {
+                    "title":  "5. La vibration intérieure : ce qui reste après le son",
+                    "content":  "Après une session de 15 minutes de OM, quelque chose remarquable se produit dans le silence : une vibration continue, comme un bourdonnement très fin, semble persister dans le corps et dans l'espace de perception. Ce n'est pas un son — il n'y a plus de son. C'est une qualité de l'état de conscience, une résonance qui a été amorcée par le son et continue de se propaguer. Les pratiquants décrivent cet état post-OM comme l'un des plus clairs et des plus stables qu'ils connaissent. C'est dans ce silence habité que la méditation profonde devient accessible."
+                }
+            ]
+        },
+        "practice":  "Protocole OM — 45 minutes actives :\n1. Silence complet 5 minutes. Observez ce qui existe déjà dans ce silence.\n2. A seul (3 min) : bouche grande ouverte, gorge détendue, produisez un son grave et ample. Sentez la résonance thoracique.\n3. U seul (3 min) : lèvres progressivement plus arrondies. Résonance montante.\n4. M seul (3 min) : lèvres closes, son nasal. Résonance crânienne.\n5. AUM complet (15 min) : enchainez A → U → M en une seule expiration longue. Attendez dans le silence avant d'inspirer à nouveau. Rythme : environ 5 AUM par minute.\n6. Arrêt complet (12 min) : silence absolu. Observez la vibration intérieure. Résiste-t-elle ? S'amplifie-t-elle ?\n7. Notez : qualité du silence post-OM, état de conscience, ce qui a changé.",
+        "image":  "assets/course-visuals-premium/C022-om-et-vibration-interieure.svg",
+        "pdf":  "assets/cours-pdf/C022-om-et-vibration-interieure.pdf",
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Avancé"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C023-sequence-souffle-mantra-et-mouvement",
+        "number":  23,
+        "familyId":  "souffle",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
+        "title":  "Séquence souffle, mantra et mouvement",
+        "subtitle":  "Clôture intégrative de la famille Souffle",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Avancé",
+        "kind":  "Séance intégrative",
+        "status":  "available",
+        "summary":  "Ce cours de clôture de la famille Souffle combine dans une séquence fluide les trois éléments fondamentaux de la pratique : le souffle conscient, le mantra vibratoire et le mouvement oscillatoire. La synthèse des trois crée un état d'intégration profonde et ouvre la voie à la pratique autonome.",
+        "shortSummary":  "Synthèse de la famille Souffle : associer respiration, mantra et mouvement en une pratique intégrative fluide.",
+        "longSummary":  "Tout au long de la famille Souffle, on a travaillé séparément le souffle naturel, les techniques respiratoires modulées, les postures et les mantras. Ce cours de clôture propose l'intégration de ces trois dimensions dans une séquence continue. L'association souffle + mantra + mouvement crée un état perceptif particulier : les trois composantes se renforcent mutuellement, chacune amplifiant l'effet des deux autres. Le mouvement ancre le mantra dans le corps. Le mantra rythme le mouvement. Le souffle unit les deux. Cette triade est l'une des approches contemplatives les plus complètes et les plus accessibles à des états de conscience méditative profonde.",
+        "pedagogicalObjective":  "Savoir construire une séquence intégrative souffle-mantra-mouvement autonome et comprendre les effets de synergie entre ces trois éléments.",
+        "initiaticObjective":  "Expérimenter que la triade corps-souffle-son peut induire des états de conscience que ni l'un ni l'autre ne produit seul — la synthèse crée quelque chose de nouveau.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Évaluation\",       \"content\": \"État de départ : corps, souffle, état mental. Note rapide dans le carnet." },
+            { "time": "5:00 — 10:00\", \"title\": \"Activation\",       \"content\": \"Respiration activante (triangulaire 2:1:1) pour être présent et disponible." },
+            { "time": "10:00 — 25:00\",\"title\": \"Balancement + mantra\",\"content\": \"Balancement latéral avec mantra ILLI (5 min), puis vertical avec ALLA (5 min), puis antéro-postérieur avec OLLO (5 min)." },
+            { "time": "25:00 — 35:00\",\"title\": \"Rotation + OM\",    \"content\": \"Rotation douce avec récitation de OM. Le OM rythme la rotation. Convergence des deux pratiques." },
+            { "time": "35:00 — 45:00\",\"title\": \"Immobilité + mantra mental\",\"content\": \"Arrêt de tout mouvement. Continuation du mantra en récitation mentale. Souffle naturel." },
+            { "time": "45:00 — 55:00\",\"title\": \"Silence intégratif\",\"content\": \"Arrêt de tout : pas de mantra, pas de mouvement. Observer ce qui existe dans ce silence." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture de famille\",\"content\": \"Carnet de clôture de la famille Souffle. Phrase essentielle. Engagement de pratique autonome." }
+        ],
+        "plan":  [
+            "0–5 min — Évaluation de l'état de départ",
+            "5–10 min — Activation respiratoire",
+            "10–25 min — Balancements avec mantras associés",
+            "25–35 min — Rotation douce avec récitation de OM",
+            "35–45 min — Immobilité avec mantra mental et souffle naturel",
+            "45–55 min — Silence intégratif total",
+            "55–60 min — Carnet de clôture de la famille Souffle"
+        ],
+        "teaching":  {
+            "intro":  "Le souffle seul est puissant. Le mantra seul est puissant. Le mouvement seul est puissant. Mais leur association crée quelque chose que chacun pris séparément ne peut pas produire : un état de présence intégrative où corps, son et énergie fonctionnent comme un seul système. Les traditions qui ont développé ces pratiques le savaient : le yoga associe posture et souffle, le tantra associe mantra et mudra, le soufisme associe mouvement (sama) et dhikr (répétition du nom divin). Ce cours vous permet de faire cette expérience par vous-même.",
+            "sections":  [
+                {
+                    "title":  "1. Pourquoi la triade corps-souffle-son ?",
+                    "content":  "Le corps, le souffle et le son engagent trois niveaux différents de l'être. Le corps est le niveau le plus dense, le plus concret — il ancre la pratique dans la réalité physique. Le souffle est le niveau intermédiaire — interface entre l'automatique et le volontaire, entre le physique et l'énergétique. Le son (mantra) est le niveau le plus subtil dans cette triade — il travaille directement sur les vibrations qui structurent la perception. Associer les trois niveaux crée un alignement rare entre ces différentes couches de l'être."
+                },
+                {
+                    "title":  "2. L'association balancement-mantra : rythme et résonance",
+                    "content":  "L'association d'un balancement spécifique avec un mantra spécifique crée une correspondance corps-son : le mouvement donne un rythme au mantra, le mantra donne une intention au mouvement. ILLI avec le balancement latéral : la double syllabe épouse naturellement l'aller-retour. ALLA avec le balancement vertical : la voyelle ouverte s'associe à l'ouverture de la cage thoracique à la montée. OLLO avec l'antéro-postérieur : la voyelle centrale s'ancre dans l'avant et l'arrière. Ces associations ne sont pas arbitraires — elles émergent de la pratique comme des évidences."
+                },
+                {
+                    "title":  "3. La rotation et le OM : deux spirales qui se rejoignent",
+                    "content":  "La rotation du corps est une spirale spatiale. Le son OM est une spirale temporelle : A-U-M-silence, encore et encore. L'association de ces deux spirales — spatiale et temporelle — crée un état de convergence particulier. On observe souvent, lors de cette phase, une sensation de « double hélice » : le mouvement et le son semblent s'enrouler l'un autour de l'autre, créant une unité plus grande que leurs deux parties séparées."
+                },
+                {
+                    "title":  "4. La transition vers l'immobilité : continuer sans continuer",
+                    "content":  "Quand on arrête le mouvement physique mais qu'on continue le mantra mental, on entre dans une zone de transition fascinante : le corps est immobile mais le son continue de vibrer intérieurement. Puis, quand on arrête aussi le mantra, il reste une sorte d'empreinte — un écho de la triade corps-souffle-son — qui structure le silence. C'est dans ce silence structuré que les perceptions les plus fines deviennent accessibles."
+                },
+                {
+                    "title":  "5. Bâtir sa pratique autonome",
+                    "content":  "Ce cours de clôture est aussi un cours d'autonomisation. On a maintenant tous les outils pour construire ses propres séances : la posture juste, le souffle modulé selon le besoin, les mantras adaptés à l'objectif, les balancements choisis selon l'état du corps. La pratique autonome commence par une question simple : qu'est-ce que mon corps, mon souffle et mon silence ont besoin aujourd'hui ? La réponse à cette question est l'entrée dans la pratique."
+                }
+            ]
+        },
+        "practice":  "Protocole séquence intégrative — 55 minutes :\n\n1. Note de départ (3 min) : état du corps, du souffle, de l'esprit en 3 mots chacun.\n\n2. Activation (5 min) : respiration triangulaire 2:1:1 (inspire 6s, rétention 3s, expire 3s).\n\n3. Balancement + mantra (15 min) :\n   - 5 min : balancement latéral + ILLI mental\n   - 5 min : balancement vertical + ALLA mental\n   - 5 min : balancement antéro-postérieur + OLLO mental\n\n4. Rotation + OM (10 min) : rotation douce, un OM à chaque expiration à voix basse.\n\n5. Immobilité + mantra mental (10 min) : choisissez le mantra qui vous appelle. Récitation silencieuse. Souffle naturel.\n\n6. Silence total (7 min) : plus rien. Observer ce qui existe maintenant.\n\n7. Clôture (5 min) : trois AUM lents. Notez votre phrase essentielle de la famille Souffle.",
+        "image":  "assets/course-visuals-premium/C023-sequence-souffle-mantra-et-mouvement.svg",
+        "pdf":  "assets/cours-pdf/C023-sequence-souffle-mantra-et-mouvement.pdf",
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Avancé"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+  "id": "C024-preparer-une-seance-ouvrir-le-seuil",
+  "number": 24,
   "title": "Préparer une séance : ouvrir le seuil",
   "subtitle": "Passer du bruit ordinaire à l’espace de pratique",
   "family": "Règles de l’enseignement",
@@ -1905,7 +2441,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   "shortPhrase": "J’ouvre le seuil, puis j’entre.",
 
   "pdf": {
-    "path": "data/courses/course-016-preparer-une-seance-ouvrir-le-seuil/pdf/course-016-preparer-une-seance.pdf",
+    "path": "data/courses/course-024-preparer-une-seance-ouvrir-le-seuil/pdf/course-024-preparer-une-seance.pdf",
     "title": "Cours 5 — Préparer une séance : ouvrir le seuil",
     "protectedNotice": "Support réservé aux élèves Axis Lumen Studio. Reproduction, diffusion ou revente interdites sans autorisation."
   },
@@ -1970,8 +2506,8 @@ window.AXIS_ONE_HOUR_COURSES = [
   "pdfPremium": true
 },
     {
-  "id": "course-017-clore-une-seance",
-  "number": 17,
+  "id": "course-025-clore-une-seance",
+  "number": 25,
   "title": "Clore une séance",
   "subtitle": "Déposer la lumière, revenir au corps, intégrer l’expérience",
   "family": "Fondation — Le Livre d’Exercices",
@@ -2164,8 +2700,8 @@ window.AXIS_ONE_HOUR_COURSES = [
   "pdfPremium": true
 },
     {
-  "id": "C018-presence-carte-et-lumiere",
-  "number": 18,
+  "id": "C026-presence-carte-et-lumiere",
+  "number": 26,
   "title": "Cours 7 — Présence, carte et lumière",
   "subtitle": "Faire descendre une vertu dans la rémanence",
   "family": "Fondations du Temple Vivant",
@@ -2302,7 +2838,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   "visualKey": "assets/courses/course-007/cover.png",
 
   "pdf": {
-    "path": "data/courses/course-018-presence-carte-et-lumiere/pdf/cours-007-presence-carte-et-lumiere.pdf",
+    "path": "data/courses/course-026-presence-carte-et-lumiere/pdf/cours-007-presence-carte-et-lumiere.pdf",
     "title": "Cours 7 — Présence, carte et lumière",
     "protectedNotice": "Support réservé aux élèves Axis Lumen Studio. Reproduction, diffusion ou revente interdites sans autorisation."
   },
@@ -2371,8 +2907,8 @@ window.AXIS_ONE_HOUR_COURSES = [
   "pdfPremium": true
 },
     {
-  "id": "course-019-construire-une-seance-d-une-heure",
-  "number": 19,
+  "id": "course-027-construire-une-seance-d-une-heure",
+  "number": 27,
   "title": "Cours 8 — Construire une séance d'une heure",
   "subtitle": "Structure, rythme et cadre d'une pratique complète",
   "family": "Règles de l'enseignement",
@@ -2582,8 +3118,8 @@ window.AXIS_ONE_HOUR_COURSES = [
   "copyright": "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
 },
     {
-        "id":  "C020-terrain-vivant-eau-sang-souffle-mineraux",
-        "number":  20,
+        "id":  "C028-terrain-vivant-eau-sang-souffle-mineraux",
+        "number":  28,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -2643,8 +3179,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Protocole de lecture du terrain : boire un verre d'eau lentement, avec présence totale. Observer la texture en bouche, la chaleur ou fraîcheur ressentie, la sensation de passage dans la gorge. Après, rester assis 2 minutes et noter dans le carnet : état d'hydratation ressenti, qualité du souffle, légèreté ou lourdeur du corps, clarté mentale. Répéter matin et soir pendant 7 jours.",
-        "image":  "assets/course-visuals-premium/C020-terrain-vivant-eau-sang-souffle-mineraux.svg",
-        "pdf":  "assets/cours-pdf/C020-terrain-vivant-eau-sang-souffle-mineraux.pdf",
+        "image":  "assets/course-visuals-premium/C028-terrain-vivant-eau-sang-souffle-mineraux.svg",
+        "pdf":  "assets/cours-pdf/C028-terrain-vivant-eau-sang-souffle-mineraux.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -2654,8 +3190,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C021-alimentation-fraiche-et-reduction-de-la-surcharge",
-        "number":  21,
+        "id":  "C029-alimentation-fraiche-et-reduction-de-la-surcharge",
+        "number":  29,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -2715,8 +3251,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Tenir un journal alimentaire pendant 3 jours. Pour chaque repas, noter : heure, contenu approximatif, état d'énergie et de clarté 2h après. Observer sans juger les corrélations. Identifier un aliment qui alourdit systématiquement et un aliment qui allège. Prendre une décision simple : réduire l'un et augmenter l'autre pendant une semaine.",
-        "image":  "assets/course-visuals-premium/C021-alimentation-fraiche-et-reduction-de-la-surcharge.svg",
-        "pdf":  "assets/cours-pdf/C021-alimentation-fraiche-et-reduction-de-la-surcharge.pdf",
+        "image":  "assets/course-visuals-premium/C029-alimentation-fraiche-et-reduction-de-la-surcharge.svg",
+        "pdf":  "assets/cours-pdf/C029-alimentation-fraiche-et-reduction-de-la-surcharge.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -2726,8 +3262,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C022-emonctoires-intestins-reins-foie-lymphe",
-        "number":  22,
+        "id":  "C030-emonctoires-intestins-reins-foie-lymphe",
+        "number":  30,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -2787,8 +3323,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Choisir un émonctoire à soutenir pendant 7 jours. Pratiquer chaque matin : un grand verre d'eau tiède au réveil (reins), 10 minutes de marche (lymphe et intestin), 5 respirations abdominales profondes (poumons). En fin de journée, noter dans le carnet l'état d'énergie, de légèreté ou de pesanteur. Observer si un signe de saturation s'allège.",
-        "image":  "assets/course-visuals-premium/C022-emonctoires-intestins-reins-foie-lymphe.svg",
-        "pdf":  "assets/cours-pdf/C022-emonctoires-intestins-reins-foie-lymphe.pdf",
+        "image":  "assets/course-visuals-premium/C030-emonctoires-intestins-reins-foie-lymphe.svg",
+        "pdf":  "assets/cours-pdf/C030-emonctoires-intestins-reins-foie-lymphe.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -2798,8 +3334,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C023-rh-ph-et-resistivite-boussole-du-terrain",
-        "number":  23,
+        "id":  "C031-rh-ph-et-resistivite-boussole-du-terrain",
+        "number":  31,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -2859,8 +3395,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Auto-observation corporelle du terrain : pendant 5 jours, noter chaque matin (avant de manger ou boire) : qualité de la bouche (acide, neutre, douce), clarté ou opacité mentale, fatigue ou vitalité, texture et couleur de l'urine (foncée et forte = acidité + déshydratation, claire et abondante = bonne élimination). Construire une cartographie subjective de son terrain sur la semaine.",
-        "image":  "assets/course-visuals-premium/C023-rh-ph-et-resistivite-boussole-du-terrain.svg",
-        "pdf":  "assets/cours-pdf/C023-rh-ph-et-resistivite-boussole-du-terrain.pdf",
+        "image":  "assets/course-visuals-premium/C031-rh-ph-et-resistivite-boussole-du-terrain.svg",
+        "pdf":  "assets/cours-pdf/C031-rh-ph-et-resistivite-boussole-du-terrain.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -2870,8 +3406,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C024-electrolytes-sel-complet-et-conductivite",
-        "number":  24,
+        "id":  "C032-electrolytes-sel-complet-et-conductivite",
+        "number":  32,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -2931,8 +3467,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Préparer chaque matin une boisson minéralisée : 500 ml d'eau de bonne qualité, une pincée de sel gris (moins d'1 g), le jus d'un demi-citron (potassium), une pincée de magnésium marin en poudre si disponible. Boire lentement, avec présence. Observer pendant 5 jours : état d'énergie 1h après, qualité de la concentration en matinée, sensation musculaire. Noter dans le carnet.",
-        "image":  "assets/course-visuals-premium/C024-electrolytes-sel-complet-et-conductivite.svg",
-        "pdf":  "assets/cours-pdf/C024-electrolytes-sel-complet-et-conductivite.pdf",
+        "image":  "assets/course-visuals-premium/C032-electrolytes-sel-complet-et-conductivite.svg",
+        "pdf":  "assets/cours-pdf/C032-electrolytes-sel-complet-et-conductivite.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -2942,8 +3478,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C025-jeune-juste-et-temps-sans-manger",
-        "number":  25,
+        "id":  "C033-jeune-juste-et-temps-sans-manger",
+        "number":  33,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -3003,8 +3539,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Explorer la fenêtre alimentaire 14/10 pendant 5 jours : ne rien manger avant 10h et après 20h. Boire de l'eau ou des tisanes non sucrées en dehors de cette fenêtre. Chaque matin, avant le premier repas, noter dans le carnet : état mental (clair, brumeux, neutre), énergie physique (vive, stable, fatiguée), rapport à la faim (absent, présent, pressant). Observer si la clarté matinale augmente au fil des jours.",
-        "image":  "assets/course-visuals-premium/C025-jeune-juste-et-temps-sans-manger.svg",
-        "pdf":  "assets/cours-pdf/C025-jeune-juste-et-temps-sans-manger.pdf",
+        "image":  "assets/course-visuals-premium/C033-jeune-juste-et-temps-sans-manger.svg",
+        "pdf":  "assets/cours-pdf/C033-jeune-juste-et-temps-sans-manger.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -3014,8 +3550,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C026-recettes-de-clarification-avant-pratique",
-        "number":  26,
+        "id":  "C034-recettes-de-clarification-avant-pratique",
+        "number":  34,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -3075,8 +3611,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Créer son rituel de clarification personnel en 4 étapes : (1) Choisir une boisson (eau minéralisée ou tisane adaptée). (2) Choisir un geste de transition (se laver les mains, allumer une bougie, formuler une intention). (3) Pratiquer 5 minutes de respiration pré-séance. (4) Rester 1 minute dans le silence avant de commencer. Pratiquer ce rituel avant chaque séance pendant 21 jours et noter dans le carnet si la qualité des états accessibles évolue.",
-        "image":  "assets/course-visuals-premium/C026-recettes-de-clarification-avant-pratique.svg",
-        "pdf":  "assets/cours-pdf/C026-recettes-de-clarification-avant-pratique.pdf",
+        "image":  "assets/course-visuals-premium/C034-recettes-de-clarification-avant-pratique.svg",
+        "pdf":  "assets/cours-pdf/C034-recettes-de-clarification-avant-pratique.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -3086,8 +3622,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C027-protocole-terrain-de-sept-jours",
-        "number":  27,
+        "id":  "C035-protocole-terrain-de-sept-jours",
+        "number":  35,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -3147,8 +3683,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Lancer le protocole des 7 jours immédiatement après ce cours. Tenir un carnet dédié avec pour chaque jour : (matin) état général avant le geste, (soir) observation des effets sur le corps, l'énergie et la clarté mentale. En fin de semaine, rédiger un bilan de 10 lignes : qu'est-ce qui a changé ? Qu'est-ce qui reste à travailler ? Quelle pratique garder quotidiennement ?",
-        "image":  "assets/course-visuals-premium/C027-protocole-terrain-de-sept-jours.svg",
-        "pdf":  "assets/cours-pdf/C027-protocole-terrain-de-sept-jours.pdf",
+        "image":  "assets/course-visuals-premium/C035-protocole-terrain-de-sept-jours.svg",
+        "pdf":  "assets/cours-pdf/C035-protocole-terrain-de-sept-jours.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -3158,8 +3694,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C028-soleil-visible-et-lumiere-interieure",
-        "number":  28,
+        "id":  "C036-soleil-visible-et-lumiere-interieure",
+        "number":  36,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -3230,8 +3766,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C029-prudence-oculaire-et-observation-douce",
-        "number":  29,
+        "id":  "C037-prudence-oculaire-et-observation-douce",
+        "number":  37,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -3302,8 +3838,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C030-remanence-lumineuse-et-systeme-nerveux",
-        "number":  30,
+        "id":  "C038-remanence-lumineuse-et-systeme-nerveux",
+        "number":  38,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -3374,8 +3910,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C031-lumiere-du-matin-et-rythme-circadien",
-        "number":  31,
+        "id":  "C039-lumiere-du-matin-et-rythme-circadien",
+        "number":  39,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -3446,8 +3982,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C032-photons-attention-et-plasticite-cerebrale",
-        "number":  32,
+        "id":  "C040-photons-attention-et-plasticite-cerebrale",
+        "number":  40,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -3518,8 +4054,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C033-lumiere-sommeil-et-reparation",
-        "number":  33,
+        "id":  "C041-lumiere-sommeil-et-reparation",
+        "number":  41,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -3590,8 +4126,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C034-source-lumineuse-intention-et-impregnation",
-        "number":  34,
+        "id":  "C042-source-lumineuse-intention-et-impregnation",
+        "number":  42,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -3662,8 +4198,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C035-integrer-la-lumiere-dans-la-journee",
-        "number":  35,
+        "id":  "C043-integrer-la-lumiere-dans-la-journee",
+        "number":  43,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -3734,8 +4270,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C036-loi-du-rythme-biologique",
-        "number":  36,
+        "id":  "C044-loi-du-rythme-biologique",
+        "number":  44,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -3801,8 +4337,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C037-alternance-gauche-droite-et-attention",
-        "number":  37,
+        "id":  "C045-alternance-gauche-droite-et-attention",
+        "number":  45,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -3868,8 +4404,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C038-nombre-d-or-comme-architecture-vivante",
-        "number":  38,
+        "id":  "C046-nombre-d-or-comme-architecture-vivante",
+        "number":  46,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -3920,8 +4456,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C039-fractales-du-vivant-et-perception",
-        "number":  39,
+        "id":  "C047-fractales-du-vivant-et-perception",
+        "number":  47,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -3972,8 +4508,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C040-spirales-proportions-et-axe-interieur",
-        "number":  40,
+        "id":  "C048-spirales-proportions-et-axe-interieur",
+        "number":  48,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -4024,8 +4560,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C041-rythmes-cerebraux-et-etats-de-conscience",
-        "number":  41,
+        "id":  "C049-rythmes-cerebraux-et-etats-de-conscience",
+        "number":  49,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -4076,8 +4612,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C042-musique-mantra-et-cadence",
-        "number":  42,
+        "id":  "C050-musique-mantra-et-cadence",
+        "number":  50,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -4128,8 +4664,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C043-construire-un-protocole-rythmique-personnel",
-        "number":  43,
+        "id":  "C051-construire-un-protocole-rythmique-personnel",
+        "number":  51,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -4180,8 +4716,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C044-ce-qui-est-en-haut-comme-ce-qui-est-en-bas",
-        "number":  44,
+        "id":  "C052-ce-qui-est-en-haut-comme-ce-qui-est-en-bas",
+        "number":  52,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -4232,8 +4768,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C045-le-miroir-inverse-de-l-incarnation",
-        "number":  45,
+        "id":  "C053-le-miroir-inverse-de-l-incarnation",
+        "number":  53,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -4284,8 +4820,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C046-polarites-axe-croix-et-retournement",
-        "number":  46,
+        "id":  "C054-polarites-axe-croix-et-retournement",
+        "number":  54,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -4336,8 +4872,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C047-descendre-pour-elever",
-        "number":  47,
+        "id":  "C055-descendre-pour-elever",
+        "number":  55,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -4388,8 +4924,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C048-ombre-lumiere-et-inversion-du-regard",
-        "number":  48,
+        "id":  "C056-ombre-lumiere-et-inversion-du-regard",
+        "number":  56,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -4440,8 +4976,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C049-symbolique-du-temple-inverse",
-        "number":  49,
+        "id":  "C057-symbolique-du-temple-inverse",
+        "number":  57,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -4492,8 +5028,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C050-integrer-l-inversion-dans-les-exercices",
-        "number":  50,
+        "id":  "C058-integrer-l-inversion-dans-les-exercices",
+        "number":  58,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -4544,8 +5080,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C051-meditation-du-retournement-interieur",
-        "number":  51,
+        "id":  "C059-meditation-du-retournement-interieur",
+        "number":  59,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -4591,542 +5127,6 @@ window.AXIS_ONE_HOUR_COURSES = [
         "image":  "assets/course-visuals-premium/C040-meditation-du-retournement-interieur.svg",
         "pdf":  "assets/cours-pdf/C040-meditation-du-retournement-interieur.pdf",
         "tags":  ["Inversion & incarnation", "Cours 1h", "PDF protégé", "Approfondissement"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-    {
-        "id":  "C052-yoga-du-temple-vivant",
-        "number":  52,
-        "familyId":  "souffle",
-        "familyTitle":  "Souffle & mantras",
-        "symbol":  "🌬",
-        "title":  "Yoga du temple vivant",
-        "subtitle":  "Le corps comme espace sacré de la respiration",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Fondation",
-        "kind":  "Enseignement & pratique corporelle",
-        "status":  "available",
-        "summary":  "Le premier cours de la famille Souffle pose les fondements : le corps humain est un temple vivant parcouru par le souffle. Ce cours présente l'architecture respiratoire du corps — voies, diaphragme, espaces — et établit la posture juste comme condition première de la pratique.",
-        "shortSummary":  "Le corps comme espace sacré : architecture respiratoire et posture juste pour la pratique du souffle.",
-        "longSummary":  "Toutes les traditions spirituelles font du souffle leur porte d'entrée. Le Grec ancien pneuma, le Sanskrit prana, le Chinois qi, l'Hébreu ruach — tous désignent à la fois le souffle physique et la force vivante qu'il transporte. Ce cours ne présente pas une technique de plus parmi d'autres : il établit le cadre fondamental dans lequel toutes les techniques respiratoires trouvent leur sens. Le corps est un temple — pas métaphoriquement, mais architecturalement. Il possède des chambres (poumons, sinus, nez), des colonnes (vertèbres), un plancher (périnée), un plafond (diaphragme thoracique), des fenêtres (narines). Comprendre cette architecture, c'est comprendre pourquoi certaines postures favorisent la respiration profonde et d'autres l'empêchent.",
-        "pedagogicalObjective":  "Identifier l'architecture respiratoire du corps (voies aériennes, trois étages de la respiration, diaphragme) et établir la posture juste pour toutes les pratiques de la famille Souffle.",
-        "initiaticObjective":  "Habiter le corps comme un espace sacré — non comme un objet à gérer mais comme un lieu vivant à écouter, dont le souffle est la voix la plus constante.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"Conscience du souffle\", \"content\": \"Observation du souffle spontané : rythme, profondeur, lieu d'arrivée, qualité. Sans modifier." },
-            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Architecture respiratoire : nez, gorge, arbre bronchique, trois étages (abdominal, thoracique, claviculaire), diaphragme." },
-            { "time": "15:00 — 25:00\",\"title\": \"Posture\",           \"content\": \"Établissement de la posture juste : colonne, tête, épaules, mains. Différences assis/couché/debout." },
-            { "time": "25:00 — 40:00\",\"title\": \"Respiration complète\", \"content\": \"Pratique de la respiration complète en trois étages, lente, sans forçage. Association à la conscience du corps." },
-            { "time": "40:00 — 50:00\",\"title\": \"Temple vivant\",     \"content\": \"Visualisation du corps comme espace architectural : identifier les chambres, les colonnes, le souffle comme habitant." },
-            { "time": "50:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"Observations sur le souffle naturel, zones de résistance, qualité de présence." },
-            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Trois respirations conscientes de gratitude pour le corps." }
-        ],
-        "plan":  [
-            "0–5 min — Observation du souffle naturel sans modification",
-            "5–15 min — Enseignement : architecture respiratoire du corps",
-            "15–25 min — Établissement de la posture juste",
-            "25–40 min — Pratique de la respiration complète en trois étages",
-            "40–50 min — Visualisation du corps comme temple vivant",
-            "50–57 min — Carnet d'observation",
-            "57–60 min — Clôture"
-        ],
-        "teaching":  {
-            "intro":  "Avant toute technique respiratoire, il y a le souffle. Ce souffle que vous n'avez jamais demandé mais qui ne vous a jamais quitté depuis votre premier cri. Il était là avant votre premiere pensée, il sera là après la derniere. Dans toutes les traditions, le souffle est considéré comme le lien le plus direct entre le conscient et l'inconscient, entre la volonté et l'automatisme, entre le physique et l'énergétique. Ce cours commence là — par écouter ce qui est déjà là.",
-            "sections":  [
-                {
-                    "title":  "1. L'architecture respiratoire : le temple a des chambres",
-                    "content":  "Le corps est architecturalement conçu pour le souffle. Les narines filtrent, réchauffent et humidifient l'air. Les sinus amplifient les résonances. La gorge module le son. L'arbre bronchique distribue jusqu'aux alvéoles les plus profondes. Et le diaphragme — ce muscle en dôme qui sépare thorax et abdomen — est le chef d'orchestre de tout le mouvement respiratoire. Comprendre ces espaces, c'est commencer à les habiter consciemment."
-                },
-                {
-                    "title":  "2. Les trois étages de la respiration",
-                    "content":  "La respiration complète utilise trois étages. Le premier est l'étage abdominal : le diaphragme descend, le ventre sort, les lobes inférieurs des poumons se remplissent. Le deuxième est l'étage thoracique : la cage thoracique s'élargit latéralement, les lobes moyens se remplissent. Le troisième est l'étage claviculaire : les clavicules s'élèvent légèrement, les apex pulmonaires reçoivent l'air. La plupart des adultes respirent seulement avec les étages supérieurs — la respiration abdominale profonde est perdue ou inhibée."
-                },
-                {
-                    "title":  "3. Le diaphragme : muscle de la vie et de l'émotion",
-                    "content":  "Le diaphragme est le seul muscle strié (volontaire) qui soit aussi automatique. On peut le contrôler — on peut retenir son souffle — mais on ne peut pas l'arrêter définitivement. Plus remarquable : le diaphragme est directement connecté au système émotionnel. Peur, choc, stress — tout se marque dans le diaphragme par une contraction, un durcissement. L'anxiété chronique rigidifie le diaphragme, ce qui bloque la respiration abdominale et entretient l'état d'alerte. Libérer le diaphragme, c'est libérer l'émotion qui s'y est cristallisée."
-                },
-                {
-                    "title":  "4. La posture juste : condition première",
-                    "content":  "La posture conditionne la respiration. Une colonne vertébrale courbée vers l'avant (position devant un écran) comprime la cage thoracique et réduit la capacité pulmonaire de 30 à 40%. Une posture droite, avec la courbe lombaire naturelle, libère le diaphragme et permet la respiration complète. La tête légèrement reculée (menton ni baissé ni levé) ouvre le passage naso-pharyngé. Ce n'est pas une posture militaire — c'est une verticalité détendue, comme un arbre bien enraciné."
-                },
-                {
-                    "title":  "5. Le souffle comme voix du corps",
-                    "content":  "Observer son souffle sans le modifier est l'un des actes contemplatifs les plus difficiles et les plus révélateurs. Le souffle raconte l'état interne : rapide et superficiel (stress, anxiété), lent et profond (repos, méditation), bloqué et irrégulier (tension émotionnelle refoulée), ample et fluide (joie, ouverture). Avant d'apprendre à modifier le souffle, il faut apprendre à le lire. C'est ce que ce cours inaugure."
-                }
-            ]
-        },
-        "practice":  "Protocole yoga du temple vivant — 30 minutes actives :\n1. Asseyez-vous confortablement. Fermez les yeux. Observez votre souffle spontané pendant 3 minutes. Ne modifiez rien. Notez mentalement : rythme, lieu d'arrivée, profondeur.\n2. Posture : allongez doucement la colonne. Reculez légèrement la tête. Relâchez les épaules. Posez les mains sur les cuisses.\n3. Respiration complète (10 min) : inspirez en 3 temps — d'abord le ventre gonfle, puis la cage thoracique s'élargit, puis les clavicules s'élèvent légèrement. Expirez en sens inverse. Très lentement.\n4. Visualisation (10 min) : imaginez votre corps comme un temple de pierre. Identifiez les chambres (poumons), les colonnes (vertèbres), le plancher (périnée). Le souffle est l'habitant qui parcourt tous ces espaces.\n5. Retour au souffle naturel. Observez s'il a changé.\n6. Notez : qu'avez-vous découvert sur votre souffle ?",
-        "image":  "assets/course-visuals-premium/C052-yoga-du-temple-vivant.svg",
-        "pdf":  "assets/cours-pdf/C052-yoga-du-temple-vivant.pdf",
-        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Fondation"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-    {
-        "id":  "C053-postures-statiques-et-axe",
-        "number":  53,
-        "familyId":  "souffle",
-        "familyTitle":  "Souffle & mantras",
-        "symbol":  "🌬",
-        "title":  "Postures statiques et axe",
-        "subtitle":  "Tenir la posture comme acte de conscience",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Fondation",
-        "kind":  "Pratique corporelle & méditation",
-        "status":  "available",
-        "summary":  "Tenir une posture statique en pleine conscience est une pratique à part entière. Ce cours explore plusieurs postures simples (assis, agenouillé, debout) et enseigne comment maintenir l'axe, détendre le superflu et observer ce qui se passe dans le corps immobile.",
-        "shortSummary":  "Les postures statiques comme pratique de présence : tenir l'axe, détendre le superflu, observer.",
-        "longSummary":  "Dans les traditions contemplatives, la posture n'est pas un préalable à la méditation — elle est déjà méditation. Tenir un corps immobile en conscience demande une qualité d'attention particulière : on doit simultanément maintenir la structure (axe, équilibre), relâcher le tension inutile, observer ce qui se passe dans le corps, et rester présent sans tomber dans l'assoupissement. Ce cours explore trois postures statiques fondamentales — la posture assise (au sol ou sur chaise), la posture agenouillée (seiza) et la posture debout (zhan zhuang) — en insistant sur la notion d'axe vertical comme fil conducteur de la conscience.",
-        "pedagogicalObjective":  "Maîtriser trois postures statiques fondamentales et comprendre comment l'immobilité consciente devient une pratique de centration et de développement de la présence.",
-        "initiaticObjective":  "Découvrir que l'immobilité n'est pas l'absence de mouvement mais sa forme la plus concentrée — que dans la posture tenue avec conscience, tout se révèle.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"Choix de posture\",  \"content\": \"Présentation des trois options : assis, agenouillé, debout. Chacun choisit selon son confort." },
-            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Pourquoi tenir une posture ? L'axe comme fil de conscience. Différence entre tension utile et tension parasite." },
-            { "time": "15:00 — 30:00\",\"title\": \"Posture assise\",   \"content\": \"15 minutes de posture assise consciente. Scan du corps toutes les 3 minutes : où est la tension inutile ?" },
-            { "time": "30:00 — 40:00\",\"title\": \"Transition et debout\",\"content\": \"Passage en posture debout (zhan zhuang). 10 minutes de tenue consciente." },
-            { "time": "40:00 — 50:00\",\"title\": \"Immobilité profonde\",\"content\": \"Retour à la posture de son choix. Laisser s'installer l'immobilité complète. Observer sans analyser." },
-            { "time": "50:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"Quelles tensions ont émergé ? Où le corps résiste-t-il l'immobilité ?" },
-            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Trois mouvements de relâchement, retour au mouvement naturel." }
-        ],
-        "plan":  [
-            "0–5 min — Présentation et choix des postures",
-            "5–15 min — Enseignement : axe, tension utile vs parasite",
-            "15–30 min — Posture assise consciente avec scan du corps",
-            "30–40 min — Posture debout (zhan zhuang)",
-            "40–50 min — Immobilité profonde choisie",
-            "50–57 min — Carnet d'observation",
-            "57–60 min — Relâchement et clôture"
-        ],
-        "teaching":  {
-            "intro":  "Savoir rester immobile est devenu une compétence rare. Non pas l'immobilité de la fatigue ou de l'ennui, mais l'immobilité active de celui qui tient son corps en éveil tout en le laissant se calmer. C'est une contradiction apparente que la pratique résout : être vivant et quiete en même temps. Les traditions asiatiques ont développé cela à un niveau remarquable — la posture zazen, le zhan zhuang, le yin yoga. Ce cours en explore les principes fondamentaux.",
-            "sections":  [
-                {
-                    "title":  "1. L'axe comme fil de conscience",
-                    "content":  "L'axe vertical n'est pas seulement une réalité physique (la colonne vertébrale) — c'est un fil de conscience. Quand on perd l'axe dans la posture, on perd aussi la clarté mentale. Quand on retrouve l'axe, l'attention se recentre naturellement. Le travail avec la posture statique est donc directement un travail sur la qualité de la conscience : tenir son axe, c'est tenir son attention."
-                },
-                {
-                    "title":  "2. Tension utile et tension parasite",
-                    "content":  "Toute posture nécessite un minimum de tonus musculaire — c'est la tension utile. Mais la plupart des corps tiennent aussi une grande quantité de tension parasite : des muscles contractés qui n'ont aucune utilité fonctionnelle dans la posture, vestiges du stress accumulé. Le scan corporel régulier — passer mentalement chaque partie du corps en revue — permet d'identifier et de relâcher progressivement ces tensions superflues. La posture devient de plus en plus légère sans perdre son intégrité."
-                },
-                {
-                    "title":  "3. Le zhan zhuang : tenir debout comme un arbre",
-                    "content":  "Le zhan zhuang (littéralement « tenir le piquet ») est une pratique centrale des arts martiaux internes chinois. On se tient debout, genoux légèrement fléchis, bras arrondis comme si on tenait un grand ballon invisible. Cette posture développe le sung — un état de relâchement actif où le corps est détendu mais vivant, souple mais pas affaissé. Dix minutes de zhan zhuang conscient développent une qualité de présence remarquable."
-                },
-                {
-                    "title":  "4. L'inconfort comme information",
-                    "content":  "Tenir une posture statique révèle les zones de résistance du corps. La douleur d'inconfort (différente de la douleur lésionnelle) est une information précieuse : elle indique où le corps stocke de la tension chronique, où la circulation est entravée, où l'émotion est figée dans la chair. On n'ignore pas cet inconfort — on l'observe avec curiosité, sans le dramatiser ni le fuir. Souvent, rester présent à une zone d'inconfort suffit pour que celle-ci se libère progressivement."
-                },
-                {
-                    "title":  "5. Quand l'immobilité devient méditation",
-                    "content":  "Après 20 à 30 minutes de posture consciente, quelque chose se transforme : le dialogue intérieur ralentit, la perception s'affine, le sens du temps change. Ce n'est pas l'effet d'une technique — c'est le résultat naturel de l'immobilité soutenue. Le système nerveux commence à traiter différemment les signaux, l'état de vigilance détendue s'installe. C'est le seuil où la posture physique devient méditation vivante."
-                }
-            ]
-        },
-        "practice":  "Protocole postures statiques — 45 minutes actives :\n1. Choisissez votre posture : assis au sol, sur une chaise, ou debout. Assurez-vous d'être stable et confortable.\n2. Fermez les yeux. Sentez l'axe vertical. Imaginez un fil qui tire doucement le sommet du crâne vers le haut.\n3. Scan initial (3 min) : où est la tension inutile ? Dans les épaules ? La mâchoire ? Le ventre ? Relâchez progressivement.\n4. Tenez la posture 15 minutes. Toutes les 3 minutes, faites un scan rapide : qu'est-ce qui peut être relâché sans que la posture s'effondre ?\n5. Zhan zhuang debout (10 min) : genoux légèrement fléchis, bras arrondis. Sentez le poids s'ancrer vers le bas, la légèreté vers le haut.\n6. Retour à votre posture choisie. Laissez l'immobilité s'installer complètement. N'analysez pas — observez.\n7. Notez : où résidait la tension ? Qu'est-il arrivé après 20 minutes ?",
-        "image":  "assets/course-visuals-premium/C053-postures-statiques-et-axe.svg",
-        "pdf":  "assets/cours-pdf/C053-postures-statiques-et-axe.pdf",
-        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Fondation"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-    {
-        "id":  "C054-respiration-naturelle",
-        "number":  54,
-        "familyId":  "souffle",
-        "familyTitle":  "Souffle & mantras",
-        "symbol":  "🌬",
-        "title":  "Respiration naturelle",
-        "subtitle":  "Retrouver le souffle originel avant toute technique",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Fondation",
-        "kind":  "Pratique contemplative",
-        "status":  "available",
-        "summary":  "La respiration naturelle — telle qu'elle existe chez l'enfant et l'animal — est la respiration abdominale spontanée. Ce cours guide le pratiquant dans la redécouverte de ce souffle originel, souvent comprimé ou oublié par le stress et les habitudes posturales.",
-        "shortSummary":  "Retrouver la respiration abdominale spontanée, libre et naturelle, avant toute technique.",
-        "longSummary":  "Avant toutes les techniques respiratoires, il existe un souffle simple, naturel, efficace : la respiration abdominale du nourrisson. Un bébé respire avec le ventre — à l'inspiration, le ventre gonfle ; à l'expiration, le ventre rentre. Ce mouvement simple engage le diaphragme à plein, oxygène profondément les poumons et active le nerf vague pour calmer le système nerveux. La plupart des adultes ont perdu ce mode respiratoire. La société exige un ventre plat, une poitrine haute, une posture de performance — et le résultat est une respiration thoracique haute, superficielle, anxiogène. Ce cours guide le retour à la respiration naturelle en passant par le corps couché, la main sur le ventre, et des exercices progressifs de libération du diaphragme.",
-        "pedagogicalObjective":  "Retrouver et stabiliser la respiration abdominale naturelle comme mode de base, comprendre pourquoi elle a été perdue et comment la maintenir dans la vie quotidienne.",
-        "initiaticObjective":  "Comprendre que le souffle naturel est déjà un acte de confiance — laisser le corps fonctionner sans contrôle excessif est une forme d'abandon bienveillant au vivant.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"Observation couché\", \"content\": \"Allongé sur le dos, mains sur le ventre, observation du souffle spontané." },
-            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Pourquoi le souffle naturel s'est-il perdu ? Tension, posture, culture. Comment le retrouver." },
-            { "time": "15:00 — 30:00\",\"title\": \"Libération couché\", \"content\": \"Exercices de libération du diaphragme en position allongée : souffle naturel, résistance légère, gémissements libres." },
-            { "time": "30:00 — 45:00\",\"title\": \"Transfert assis\",  \"content\": \"Passage en position assise. Transférer la respiration abdominale découverte couché vers la position assise." },
-            { "time": "45:00 — 55:00\",\"title\": \"Respiration naturelle debout\", \"content\": \"Debout, souffle naturel. Sentir le ventre se mouvoir sans résistance." },
-            { "time": "55:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"Qu'est-ce qui empêchait la respiration naturelle ? Qu'est-ce qui la libère ?" },
-            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Engagement simple : une minute de respiration naturelle consciente par jour." }
-        ],
-        "plan":  [
-            "0–5 min — Observation du souffle spontané allongé",
-            "5–15 min — Enseignement : perte et retrouvaille du souffle naturel",
-            "15–30 min — Libération du diaphragme en position allongée",
-            "30–45 min — Transfert de la respiration abdominale en position assise",
-            "45–55 min — Respiration naturelle debout",
-            "55–57 min — Carnet d'observation",
-            "57–60 min — Clôture et engagement quotidien"
-        ],
-        "teaching":  {
-            "intro":  "Un enfant de six mois respire parfaitement. Son ventre monte et descend librement, son diaphragme fonctionne sans entraves, son systeme nerveux est calme entre les besoins. Vingt ans plus tard, ce même être respirera souvent avec la poitrine haute, l'abdomen contracté, le diaphragme bloqué. Que s'est-il passé ? Ce cours enquête sur cette perte et propose le retour à ce qui était naturel bien avant qu'on apprenne qu'il fallait rentrer le ventre.",
-            "sections":  [
-                {
-                    "title":  "1. Comment la respiration naturelle se perd",
-                    "content":  "Trois forces principales compriment le souffle naturel. La première est le stress : face à un danger ou une menace perçue, le corps retient son souffle ou passe en respiration thoracique haute (prête à l'action rapide). Quand ce stress devient chronique, ce pattern respiratoire s'installe durablement. La deuxième est la culture : rentrer le ventre est un impératif esthétique transmis par la mode, la culture physique, et les injonctions sociales. La troisième est la posture assise prolongée qui comprime mécaniquement l'espace abdominal."
-                },
-                {
-                    "title":  "2. Le nerf vague et le souffle abdominal",
-                    "content":  "Le nerf vague, dixième nerf crânien, innerve la plupart des organes thoraciques et abdominaux. Sa stimulation active le système nerveux parasympathique — la réponse de « repos et digestion » — opposée à la réponse de stress sympathique. Le diaphragme, lors de la respiration abdominale profonde, masse doucement le nerf vague lors de chaque inspiration. C'est pour cette raison que la respiration abdominale lente et profonde réduit l'anxiété, la tension artérielle, et le cortisol — elle stimule directement le système de calmage du corps."
-                },
-                {
-                    "title":  "3. Libération du diaphragme : technique et expérience",
-                    "content":  "La libération du diaphragme passe d'abord par la position allongée, qui supprime la gravité de la résistance posturale. On pose une main sur le ventre, l'autre sur la poitrine. L'objectif est simple : faire monter la main du ventre à l'inspiration sans que la main de la poitrine ne monte. Pour faciliter cette prise de conscience, on peut gémir doucement à l'expiration — le gémissement, vibration pharyngée naturelle, libère le diaphragme par réflexe. La résistance légère (pousser légèrement la main contre le ventre) offre aussi une rétroaction proprioceptive utile."
-                },
-                {
-                    "title":  "4. Le transfert : couché → assis → debout",
-                    "content":  "Retrouver la respiration abdominale allongé est relativement facile. Le défi est de transférer ce pattern vers les positions verticales, où les habitudes posturales reviennent rapidement. On travaille ce transfert progressivement : d'abord assis, en gardant une main sur le ventre comme guide ; puis debout, en cherchant la même sensation de libération abdominale sans avoir besoin de la main. Le transfert demande généralement plusieurs séances avant de devenir automatique."
-                },
-                {
-                    "title":  "5. La respiration naturelle dans la vie quotidienne",
-                    "content":  "L'objectif final n'est pas d'avoir une technique respiratoire de plus — c'est de restaurer le mode respiratoire de base. Une minute de respiration abdominale consciente chaque matin, avant de sortir du lit, suffit pour commencer à réorienter les habitudes. Avec le temps, le corps retrouve spontanément ce mode quand il n'est pas sous stress. Et dans les moments de stress, la respiration abdominale devient un outil de régulation rapide accessible en toutes circonstances."
-                }
-            ]
-        },
-        "practice":  "Protocole respiration naturelle — 40 minutes actives :\n1. Allongez-vous sur le dos, jambes décontractées. Une main sur le ventre, une main sur la poitrine.\n2. Observez 3 minutes sans modifier : quelle main monte d'abord ? Quelle est l'amplitude ?\n3. Libération (10 min) : à l'inspiration, cherchez à faire monter la main du ventre. À l'expiration, laissez-le se dégonfler. Gémiez doucement si cela aide.\n4. Si vous sentez une résistance abdominale, appuyez légèrement la main sur le ventre et poussez contre elle à l'inspiration.\n5. Transition assis (5 min) : asseyez-vous. Gardez une main sur le ventre. Continuez le même souffle.\n6. Debout (5 min) : sans la main. Cherchez le même sentiment de liberté abdominale.\n7. Retour assis, yeux fermés : laissez le souffle naturel s'installer seul pendant 10 minutes.\n8. Notez : qu'est-ce qui résistait ? Qu'est-ce qui s'est libéré ?",
-        "image":  "assets/course-visuals-premium/C054-respiration-naturelle.svg",
-        "pdf":  "assets/cours-pdf/C054-respiration-naturelle.pdf",
-        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Fondation"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-    {
-        "id":  "C055-respiration-carree",
-        "number":  55,
-        "familyId":  "souffle",
-        "familyTitle":  "Souffle & mantras",
-        "symbol":  "🌬",
-        "title":  "Respiration carrée",
-        "subtitle":  "Équilibrer l'inspire, le plein, l'expire et le vide",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Approfondissement",
-        "kind":  "Technique respiratoire & équilibrage",
-        "status":  "available",
-        "summary":  "La respiration carrée divise le cycle respiratoire en quatre temps égaux : inspire, rétention poumons pleins, expire, rétention poumons vides. Ce rythme carré crée un équilibre remarquable entre les états d'activation et de calme, et développe le contrôle conscient du souffle.",
-        "shortSummary":  "Quatre temps égaux (inspire-plein-expire-vide) pour équilibrer le système nerveux et développer le contrôle du souffle.",
-        "longSummary":  "La respiration carrée (box breathing, sama vritti pranayama) est l'une des techniques respiratoires les plus étudiées et utilisées dans les contextes modernes de gestion du stress. Des unités d'élite militaires (Navy SEALs) aux salles de méditation bouddhiste, en passant par les cabinets de psychologie, cette technique simple est reconnue pour ses effets puissants sur la régulation du système nerveux autonome. Le principe est géométriquement simple : quatre phases égales qui forment un carré. Le défi est la régularité et la conscience : maintenir des temps égaux sans forcer, travailler les rétentions (kumbakas) progressivement, et observer comment chaque phase du carré a une qualité de conscience spécifique.",
-        "pedagogicalObjective":  "Maîtriser la technique de la respiration carrée en différentes durées (4-4-4-4, 6-6-6-6, 8-8-8-8) et comprendre l'action de chaque phase sur le système nerveux.",
-        "initiaticObjective":  "Expérimenter que le vide respiratoire (rétention poumons vides) est un espace de conscience particulier — un seuil entre deux mondes, entre deux souffles.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"État de base\",     \"content\": \"Évaluation de l'état du système nerveux : agité, calme, neutre ?" },
-            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"La respiration carrée : principe, quatre phases, effets physiologiques, rétentions." },
-            { "time": "15:00 — 30:00\",\"title\": \"Pratique 4-4-4-4\", \"content\": \"15 minutes de respiration carrée à 4 secondes par phase. Chronométrage mental." },
-            { "time": "30:00 — 40:00\",\"title\": \"Pratique 6-6-6-6\", \"content\": \"10 minutes à 6 secondes par phase. Observer comment l'esprit ralentit." },
-            { "time": "40:00 — 50:00\",\"title\": \"Exploration du vide\",\"content\": \"Attention particulière à la rétention poumons vides : qu'y a-t-il dans ce vide ?" },
-            { "time": "50:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"Comparaison état avant/après, qualité de chaque phase du carré." },
-            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Retour au souffle naturel, observation de l'équilibre installé." }
-        ],
-        "plan":  [
-            "0–5 min — Évaluation de l'état du système nerveux",
-            "5–15 min — Enseignement : principe et effets de la respiration carrée",
-            "15–30 min — Pratique à 4 secondes par phase",
-            "30–40 min — Pratique à 6 secondes par phase",
-            "40–50 min — Exploration de la rétention poumons vides",
-            "50–57 min — Carnet de comparaison",
-            "57–60 min — Clôture et retour au souffle naturel"
-        ],
-        "teaching":  {
-            "intro":  "La geometrie s'applique aussi au souffle. Un carre a quatre cotes egaux — et la respiration carree a quatre phases egales. Cette symetrie n'est pas arbitraire : elle cree un equilibre remarquable entre les forces antagonistes qui gouvernent notre physiologie. L'inspiration active le sympathique, l'expiration active le parasympathique. En leur donnant un temps identique, on cree une alternance rythmique qui equilibre les deux systemes. Les retentions ajoutent une dimension supplémentaire : le temps suspendu.",
-            "sections":  [
-                {
-                    "title":  "1. Les quatre phases et leurs qualités",
-                    "content":  "L'inspiration (puraka) est active — elle engage les muscles inspirateurs, augmente légèrement la fréquence cardiaque, active le sympathique. La rétention poumons pleins (antara kumbhaka) est le plein : expansion maximale, pression intrathoracique élevée, moment de potentiel. L'expiration (rechaka) est libératrice — elle engage les muscles expiratoires ou la détente passive, ralentit la fréquence cardiaque, active le parasympathique. La rétention poumons vides (bahya kumbhaka) est le vide : espace de transition, réinitialisation, seuil de silence avant le prochain cycle."
-                },
-                {
-                    "title":  "2. Les rétentions (kumbhaka) : travailler le seuil",
-                    "content":  "Les rétentions respiratoires sont les phases les plus délicates et les plus précieuses de la respiration carrée. Elles ne doivent jamais être forcées — la durée d'une rétention confortable est celle où on pourrait encore inspirer ou expirer facilement, mais on choisit d'attendre. Forcer une rétention crée du stress et contredit l'objectif. On commence à 4 secondes, progressivement vers 8, jamais au-delà de son confort. La rétention poumons vides est la plus sensible : elle peut provoquer une légère anxiété chez les débutants, ce qui est précisément l'information à observer."
-                },
-                {
-                    "title":  "3. Action sur le système nerveux autonome",
-                    "content":  "Les études sur la respiration carrée montrent des effets mesurables : réduction de la variabilité de la fréquence cardiaque dans le sens de la cohérence, augmentation de l'activité du nerf vague, réduction du cortisol salivaire, amélioration des mesures de performance cognitive et de régulation émotionnelle. Quinze minutes de respiration carrée produisent des effets comparables à certaines interventions médicamenteuses de gestion du stress — sans les effets secondaires."
-                },
-                {
-                    "title":  "4. Le comptage mental : rythme intérieur vs métronome",
-                    "content":  "Compter les secondes mentalement pendant la respiration carrée est lui-même une pratique : on crée un métronome intérieur, une pulsation intérieure régulière. Avec l'expérience, ce comptage se fait sans effort — il devient un fond de conscience plutôt qu'une activité mentale de premier plan. On peut aussi utiliser un son régulier en fond sonore (bols tibétains à intervalles réguliers) pour externaliser le comptage et libérer l'attention vers l'observation pure."
-                },
-                {
-                    "title":  "5. Le vide respiratoire comme espace de conscience",
-                    "content":  "La rétention poumons vides est l'espace le plus mystérieux du cycle respiratoire. Physiologiquement, c'est un moment de tension maximale du système de régulation du CO2. Phénoménologiquement, c'est un espace de conscience particulier : sans souffle, sans mouvement, l'esprit se retrouve face à lui-même dans une clarté inhabituelle. Les pratiquants avancés décrivent ce vide comme un espace de potentiel pur, un seuil entre deux états, un lieu où des insights spontanés peuvent émerger."
-                }
-            ]
-        },
-        "practice":  "Protocole respiration carrée — 35 minutes actives :\n1. Assis, dos droit, fermez les yeux. Évaluez votre état sur une échelle 1-10 : 1 = très agité, 10 = très calme.\n2. Phase 4-4-4-4 (15 min) : inspirez en comptant 4, retenez 4, expirez 4, retenez 4. Recommencez immédiatement.\n3. Si la rétention poumons vides crée une anxiété, réduisez-la à 2 secondes d'abord.\n4. Phase 6-6-6-6 (10 min) : si confortable, passez à 6 secondes par phase. Observez comment l'esprit ralentit naturellement.\n5. Exploration du vide (5 min) : pendant la rétention poumons vides, portez toute l'attention à cet espace. Qu'y a-t-il ?\n6. Retour au souffle naturel. Évaluez à nouveau votre état : a-t-il changé ?\n7. Notez : quelle phase était la plus difficile ? La plus riche ?",
-        "image":  "assets/course-visuals-premium/C055-respiration-carree.svg",
-        "pdf":  "assets/cours-pdf/C055-respiration-carree.pdf",
-        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Approfondissement"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-    {
-        "id":  "C056-respiration-triangulaire-et-rectangulaire",
-        "number":  56,
-        "familyId":  "souffle",
-        "familyTitle":  "Souffle & mantras",
-        "symbol":  "🌬",
-        "title":  "Respiration triangulaire et rectangulaire",
-        "subtitle":  "Moduler le ratio inspire/expire pour des effets ciblés",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Approfondissement",
-        "kind":  "Technique respiratoire avancée",
-        "status":  "available",
-        "summary":  "En modulant le ratio des phases respiratoires (inspire : rétention : expire), on obtient des effets très différents sur le système nerveux. Ce cours explore la respiration triangulaire (sans vide) et rectangulaire (avec vide allongé) pour apprendre à calibrer le souffle selon l'objectif : activation, équilibre ou calme profond.",
-        "shortSummary":  "Moduler les ratios respiratoires pour activer, équilibrer ou induire le calme profond.",
-        "longSummary":  "La respiration n'est pas un instrument monotone — elle est un instrument à vent dont on peut moduler le son en changeant les proportions. La respiration triangulaire (3 phases : inspire, rétention, expire, sans rétention basse) crée un flux continu d'activation douce. La respiration rectangulaire (4 phases mais avec rétention basse prolongée) crée un état de calme profond. En apprenant à moduler consciemment ces ratios, le pratiquant dispose d'un outil de régulation autonome remarquablement précis : plus l'expiration est longue par rapport à l'inspiration, plus l'effet calmant est prononcé. Un ratio 1:1:2 (inspire 4 sec, rétention 4 sec, expire 8 sec) est fortement calmant. Un ratio 1:1:1 (carré) est équilibrant. Un ratio 2:1:1 (inspire longue) est légèrement activant.",
-        "pedagogicalObjective":  "Maîtriser les formes triangulaire et rectangulaire de la respiration consciente et comprendre comment les ratios inspire/expire affectent le système nerveux de façon prévisible.",
-        "initiaticObjective":  "Développer une intelligence du souffle qui permet de choisir consciemment son état plutôt que d'être soumis à l'état dans lequel on se trouve.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"Rappel\",           \"content\": \"Rappel de la respiration carrée. Évaluation de l'état de départ." },
-            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Ratios respiratoires et leurs effets : triangulaire (3 phases), rectangulaire (4 phases asymétriques)." },
-            { "time": "15:00 — 25:00\",\"title\": \"Triangulaire activante\", \"content\": \"Respiration triangulaire 2:1:1 (inspire longue). Observer l'effet activant." },
-            { "time": "25:00 — 35:00\",\"title\": \"Triangulaire calmante\", \"content\": \"Respiration triangulaire 1:1:2 (expire longue). Observer l'effet calmant." },
-            { "time": "35:00 — 50:00\",\"title\": \"Rectangulaire\",    \"content\": \"Respiration rectangulaire 1:1:2:1 puis 1:1:3:1. Observation du vide allongé." },
-            { "time": "50:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"Mapping des effets : quel ratio pour quel état ?" },
-            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Retour au souffle naturel, note de l'état final." }
-        ],
-        "plan":  [
-            "0–5 min — Rappel et évaluation de départ",
-            "5–15 min — Enseignement : ratios et effets différentiels",
-            "15–25 min — Respiration triangulaire activante (inspire longue)",
-            "25–35 min — Respiration triangulaire calmante (expire longue)",
-            "35–50 min — Respiration rectangulaire avec vide allongé",
-            "50–57 min — Carnet et mapping des effets",
-            "57–60 min — Clôture"
-        ],
-        "teaching":  {
-            "intro":  "Si la respiration carree est une equipolence parfaite, la respiration modulee est un instrument de precision. En changeant les proportions des phases, on change l'effet sur le systeme nerveux de facon previsible et reproductible. Cette connaissance transforme le souffle d'un automatisme en un outil conscient d'autorégulation. Vous pouvez apprendre à vous calmer, à vous activer, ou à entrer dans un état meditatif profond — par le seul choix du rythme de votre souffle.",
-            "sections":  [
-                {
-                    "title":  "1. La règle fondamentale : expire longue = calme",
-                    "content":  "La règle la plus importante de la modulation respiratoire est simple : allonger l'expiration active le parasympathique et induit le calme. Raccourcir l'expiration (ou allonger l'inspiration) active légèrement le sympathique. Cette règle a une base physiologique solide : la fréquence cardiaque augmente à l'inspiration et diminue à l'expiration (arythmie sinusale respiratoire). Prolonger l'expiration prolonge la phase de ralentissement cardiaque, ce qui active le nerf vague et envoie un signal de sécurité au système nerveux."
-                },
-                {
-                    "title":  "2. La respiration triangulaire : trois phases, flux continu",
-                    "content":  "La respiration triangulaire ne comporte que trois phases (pas de rétention basse) : inspire, rétention poumons pleins, expire. Ce rythme crée un flux continu sans pause basse, ce qui maintient un niveau d'activation légèrement plus élevé que le carré. La version 2:1:1 (inspire 8s, rétention 4s, expire 4s) est légèrement activante et utile pour améliorer la concentration. La version 1:1:2 (inspire 4s, rétention 4s, expire 8s) est fortement calmante et utile pour gérer le stress aigu."
-                },
-                {
-                    "title":  "3. La respiration rectangulaire : asymétrie et profondeur",
-                    "content":  "La respiration rectangulaire ressemble au carré mais avec des phases asymétriques — typiquement une rétention basse très courte et une expiration longue. Un exemple : inspire 4s, rétention haute 4s, expire 8s, rétention basse 2s (ratio 4:4:8:2). Ce pattern combine la profondeur de l'expiration longue avec une pause au vide qui intensifie la réinitialisation. C'est l'une des techniques les plus efficaces pour passer rapidement d'un état agité à un état de calme médiatif."
-                },
-                {
-                    "title":  "4. Calibrer le souffle selon l'objectif",
-                    "content":  "Une fois ces techniques maîtrisées, le pratiquant peut choisir consciemment son ratio selon son besoin du moment. Avant une présentation importante : triangulaire activant (2:1:1) pendant 5 minutes. Après une confrontation stressante : triangulaire calmant (1:1:2) pendant 10 minutes. Pour entrer en méditation profonde : rectangulaire asymétrique (1:1:3:1) pendant 15 minutes. Cette capacité de calibration est l'une des compétences les plus précieuses que cette famille Souffle développe."
-                },
-                {
-                    "title":  "5. Vers l'intuition respiratoire",
-                    "content":  "Au-delà des techniques explicites, la pratique régulière développe une intuition respiratoire : on commence à sentir instinctivement quel pattern respiratoire est nécessaire à ce moment. Le corps sait ce dont il a besoin — les techniques apprises deviennent des lettres d'un alphabet que le corps peut combiner librement. C'est l'objectif ultime : non pas exécuter des protocoles, mais respirer avec intelligence."
-                }
-            ]
-        },
-        "practice":  "Protocole respiration modulée — 40 minutes actives :\n1. Évaluez votre état de 1 (très agité) à 10 (très calme).\n2. Triangulaire activant (8 min) : inspire 6s, rétention 3s, expire 3s. Observez l'effet.\n3. Réévaluez votre état. A-t-il changé dans le sens de l'activation ?\n4. Triangulaire calmant (8 min) : inspire 3s, rétention 3s, expire 6s. Observez.\n5. Réévaluez. Différence ?\n6. Rectangulaire profond (12 min) : inspire 4s, rétention 4s, expire 8s, vide 2s. Focus sur l'expire longue et le vide.\n7. Retour au souffle naturel (5 min). Observez ce qu'il choisit spontanément.\n8. Notez : quel ratio a eu le plus d'effet sur vous ? Dans quel sens ?",
-        "image":  "assets/course-visuals-premium/C056-respiration-triangulaire-et-rectangulaire.svg",
-        "pdf":  "assets/cours-pdf/C056-respiration-triangulaire-et-rectangulaire.pdf",
-        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Approfondissement"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-    {
-        "id":  "C057-mantras-illi-alla-ollo-roro",
-        "number":  57,
-        "familyId":  "souffle",
-        "familyTitle":  "Souffle & mantras",
-        "symbol":  "🌬",
-        "title":  "Mantras ILLI, ALLA, OLLO, RORO",
-        "subtitle":  "Les quatre syllabes comme instruments de résonance intérieure",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Approfondissement",
-        "kind":  "Pratique sonore & vibratoire",
-        "status":  "available",
-        "summary":  "Les quatre mantras ILLI, ALLA, OLLO et RORO sont des formules vibratoires dont chaque voyelle crée une résonance spécifique dans une zone du corps. Ce cours enseigne la technique de récitation intérieure et extérieure de ces mantras, leurs effets physiologiques et les zones de résonance correspondantes.",
-        "shortSummary":  "ILLI, ALLA, OLLO, RORO : quatre mantras vibratoires, chacun résonnant dans une zone distincte du corps.",
-        "longSummary":  "Les voyelles I, A, O et R (dans leur forme longue roulée) ont des propriétés acoustiques différentes qui créent des résonances dans des zones distinctes du corps. I résonne dans les structures crâniennes hautes (nez, sinus, crâne). A résonne dans la cage thoracique et la gorge. O résonne dans l'abdomen et la poitrine inférieure. R roulé résonne dans l'ensemble du corps comme une vibration basale. Les mantras ILLI, ALLA, OLLO et RORO utilisent la répétition de ces voyelles pour amplifier et prolonger leur résonance. Ce cours enseigne d'abord la récitation à voix haute pour sentir les résonances physiques, puis la récitation à voix basse, puis mentale, observant comment chaque passage intensifie certains effets tout en en diminuant d'autres.",
-        "pedagogicalObjective":  "Maîtriser la récitation des quatre mantras dans leurs trois formes (voix haute, voix basse, mentale) et identifier les zones de résonance spécifiques à chaque mantra.",
-        "initiaticObjective":  "Découvrir que le son intérieur est aussi réel que le son extérieur — que la récitation mentale d'un mantra crée des effets physiologiques et perceptifs mesurables.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"Écoute du silence\", \"content\": \"Écouter le silence intérieur : quels sons internes existent déjà ? Tintement, bourdonnement, silence ?" },
-            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Les voyelles et leurs zones de résonance. Principe de résonance sympathique. Mantra vs prière." },
-            { "time": "15:00 — 25:00\",\"title\": \"ILLI et ALLA\",     \"content\": \"Récitation à voix haute de ILLI (5 min) puis ALLA (5 min). Localisation des résonances." },
-            { "time": "25:00 — 35:00\",\"title\": \"OLLO et RORO\",     \"content\": \"Récitation à voix haute de OLLO (5 min) puis RORO (5 min). Comparaison avec ILLI/ALLA." },
-            { "time": "35:00 — 45:00\",\"title\": \"Voix basse\",       \"content\": \"Répétition en chuchotement. Observer comment les effets changent quand le son diminue." },
-            { "time": "45:00 — 55:00\",\"title\": \"Récitation mentale\",\"content\": \"Récitation silencieuse. Choisir un mantra. Répéter 10 min en silence. Observer les effets persistants." },
-            { "time": "55:00 — 60:00\",\"title\": \"Carnet et clôture\", \"content\": \"Quel mantra résonne le plus ? Zones touchées. Différences voix haute / mentale." }
-        ],
-        "plan":  [
-            "0–5 min — Écoute du silence intérieur",
-            "5–15 min — Enseignement : voyelles, résonances, principe du mantra",
-            "15–25 min — ILLI et ALLA à voix haute",
-            "25–35 min — OLLO et RORO à voix haute",
-            "35–45 min — Répétition en voix basse",
-            "45–55 min — Récitation mentale silencieuse",
-            "55–60 min — Carnet et clôture"
-        ],
-        "teaching":  {
-            "intro":  "Toutes les traditions ont compris que certains sons ont des effets sur le corps et l'ame. Le son est vibration — et la vibration se propage dans la matiere. Un corps humain est compose d'eau a 70% : il est exceptionnellement conducteur de la vibration sonore. Quand vous prononcez un son, vous ne produisez pas seulement des ondes aerienness — vous faites vibrer votre propre corps comme un instrument. Les mantras ILLI, ALLA, OLLO et RORO sont des instruments de cette musique interieure.",
-            "sections":  [
-                {
-                    "title":  "1. La physique de la résonance vocale",
-                    "content":  "Chaque voyelle mobilise différemment la cavité buccale, les sinus, la gorge et la cage thoracique. La voyelle I est produite avec la langue haute et l'avant de la bouche : elle crée une résonance dans les cavités supérieures (sinus, crâne). La voyelle A est produite avec une grande ouverture buccale : elle résonne dans la gorge et le thorax supérieur. La voyelle O est produite avec les lèvres arrondies : elle crée une cavité de résonance thoracique-abdominale. La vibration du R roulé crée une résonance basale dans l'ensemble du corps."
-                },
-                {
-                    "title":  "2. ILLI : résonance crânienne et clarté",
-                    "content":  "Le mantra ILLI répète deux fois la voyelle I entourée de consonnes L (vibration linguale). La combinaison IL-LI crée une résonance dans les structures crâniennes supérieures, les sinus frontaux et ethmoïdaux, et les zones nasales. Les pratiquants décrivent souvent une sensation de clarté mentale, de légèreté au niveau du front, parfois une légère pression dans les sinus pendant les premières récitations. ILLI est le mantra de la clarté, de la vision, de la haute perception."
-                },
-                {
-                    "title":  "3. ALLA : résonance thoracique et ouverture",
-                    "content":  "Le mantra ALLA répète deux fois la voyelle A entourée de consonnes L. La voyelle A est la plus universelle — on la retrouve dans les mots désignant le divin dans pratiquement toutes les langues. Prononcée dans le mantra AL-LA, elle crée une résonance dans la cage thoracique et la gorge, zone du cœur et de l'expression. Les pratiquants décrivent souvent une sensation d'ouverture au niveau de la poitrine, une émotion légère, parfois des larmes sans raison apparente. ALLA est le mantra du cœur et de la présence."
-                },
-                {
-                    "title":  "4. OLLO et RORO : l'ancrage et la totalité",
-                    "content":  "OLLO (OL-LO) crée une résonance abdominale et centrée — on le sent souvent dans le ventre et la région lombaire. C'est le mantra du centre de gravité, de l'ancrage, du hara. RORO (RO-RO) est différent : le R roulé est une vibration laryngée qui se propage dans tout le thorax et le corps entier quand il est prononcé avec amplitude. C'est le mantra le plus « terrestre », le plus vibrant physiquement. Il peut créer une vibration perceptible dans les os, ce qui lui confère une fonction énergétisante particulière."
-                },
-                {
-                    "title":  "5. La récitation mentale : le son sans le son",
-                    "content":  "La découverte la plus surprenante de ce cours est que la récitation mentale silencieuse d'un mantra crée des effets physiologiques réels, bien que différents de la récitation vocale. L'imagerie motrice (répéter mentalement un geste sans le faire) active les mêmes zones cérébrales que le geste réel. De même, répéter mentalement un mantra active partiellement les zones de production vocale et de résonance. Avec la pratique, la récitation mentale devient aussi vibrante que la récitation vocale — le corps apprend à résonner intérieurement."
-                }
-            ]
-        },
-        "practice":  "Protocole mantras — 45 minutes actives :\n1. Silence initial (3 min) : fermez les yeux, écoutez le silence intérieur.\n2. ILLI à voix normale (5 min) : respirez et, à l'expiration, prononcez ILLI lentement (2-3 secondes). Où sentez-vous la vibration ?\n3. ALLA à voix normale (5 min) : même chose. Zone de résonance ?\n4. OLLO à voix normale (5 min) : même chose. Comparaison avec les précédents.\n5. RORO à voix normale (5 min) : prononcez le R roulé si vous pouvez. Vibration dans le corps.\n6. Choisissez votre préféré. Voix très basse (chuchotée) : 5 min. Observez comment les effets changent.\n7. Récitation mentale complète (10 min) : silence absolu. Répétez le mantra choisi dans votre tête. Cherchez les résonances internes sans le son.\n8. Notez : quel mantra touche quelle zone ? Différences voix haute / mentale.",
-        "image":  "assets/course-visuals-premium/C057-mantras-illi-alla-ollo-roro.svg",
-        "pdf":  "assets/cours-pdf/C057-mantras-illi-alla-ollo-roro.pdf",
-        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Approfondissement"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-    {
-        "id":  "C058-om-et-vibration-interieure",
-        "number":  58,
-        "familyId":  "souffle",
-        "familyTitle":  "Souffle & mantras",
-        "symbol":  "🌬",
-        "title":  "OM et vibration intérieure",
-        "subtitle":  "Le son primordial comme outil de centration et de résonance globale",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Avancé",
-        "kind":  "Pratique sonore & méditation profonde",
-        "status":  "available",
-        "summary":  "OM (AUM) est considéré dans de nombreuses traditions comme le son primordial — le son de la création. Ce cours explore ses trois composantes (A, U, M) et le silence qui suit, enseigne la technique complète de récitation longue, et guide vers la perception de la vibration intérieure qui persiste après le son.",
-        "shortSummary":  "AUM : le son primordial, ses trois phases, et la vibration intérieure qui subsiste dans le silence.",
-        "longSummary":  "Le mantra OM, ou AUM dans sa forme complète, est l'un des sons les plus étudiés dans les traditions contemplatives et, récemment, dans la recherche neuroscientifique. Sa structure ternaire (A-U-M) avec le silence qui suit représente les quatre états de conscience selon la tradition védique : veille (A), rêve (U), sommeil profond (M) et turiya (le silence, état de témoin pur). Sur le plan physiologique, la prononciation du OM engage progressivement l'ensemble des résonateurs vocaux (thorax, gorge, crâne) dans un balayage complet de bas en haut. Des études d'imagerie cérébrale montrent que la récitation du OM active des zones associées au système limbique et au nerf vague de façon plus prononcée que d'autres sons.",
-        "pedagogicalObjective":  "Maîtriser la technique de récitation complète du AUM (A-U-M + silence) et comprendre les quatre états de conscience correspondants.",
-        "initiaticObjective":  "Toucher l'expérience du son primordial — le moment où la voix, le souffle et le silence se rejoignent dans une qualité de présence qui transcende les états habituels.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"Silence initial\",  \"content\": \"5 minutes de silence complet pour sentir le contraste avec le son qui viendra." },
-            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"AUM : structure, signification, quatre états de conscience, études neuroscientifiques." },
-            { "time": "15:00 — 25:00\",\"title\": \"A, U, M séparés\", \"content\": \"Réciter A seul (3 min), U seul (3 min), M seul (3 min). Localiser les résonances." },
-            { "time": "25:00 — 40:00\",\"title\": \"AUM complet\",      \"content\": \"15 minutes de récitation du AUM complet, long (8-12 secondes par récitation)." },
-            { "time": "40:00 — 52:00\",\"title\": \"Silence post-OM\",  \"content\": \"Arrêt de la récitation. Observer la vibration intérieure qui persiste. 12 minutes de silence actif." },
-            { "time": "52:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"État de conscience, qualité du silence, vibration ressentie." },
-            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Un dernier AUM très lent. Fermeture." }
-        ],
-        "plan":  [
-            "0–5 min — Silence initial de contraste",
-            "5–15 min — Enseignement : AUM, quatre états, neuroscience",
-            "15–25 min — A, U, M récités séparément",
-            "25–40 min — AUM complet, récitation longue",
-            "40–52 min — Silence actif, observation de la vibration persistante",
-            "52–57 min — Carnet d'état",
-            "57–60 min — Clôture"
-        ],
-        "teaching":  {
-            "intro":  "Le son OM (ou AUM dans sa forme complète) apparaît dans les plus anciens textes connus de l'humanité, écrits il y a plus de trois mille ans. Il est présent dans l'hindouisme, le bouddhisme tibetain, le jaïnisme. Mais il n'appartient à aucune de ces traditions — il les précede toutes. Des physiciens ont calculé que si l'univers avait une fréquence de résonance propre, elle serait proche des 7,83 Hz (fréquence de Schumann). Coïncidence ou pas, c'est également la fréquence des ondes thêta produites par le cerveau lors des états méditatifs profonds associés à la récitation de OM.",
-            "sections":  [
-                {
-                    "title":  "1. La structure de AUM : A, U, M et le silence",
-                    "content":  "AUM n'est pas une seule syllabe mais une séquence de trois phonèmes et un silence. A est produit à l'arrière de la gorge avec la bouche très ouverte — c'est le son le plus ouvert. Il résonne dans la poitrine. U se produit en rapprochant les lèvres progressivement — la résonance monte vers la gorge et la bouche. M se produit lèvres closes — la résonance monte vers le crâne, les sinus, le front. Le silence qui suit (souvent aussi long que le son lui-même) est la quatrième composante : le lieu où le son s'intègre."
-                },
-                {
-                    "title":  "2. Les quatre états de conscience",
-                    "content":  "Selon la tradition védique, les trois phonèmes de AUM correspondent à trois états ordinaires de conscience : A est l'état de veille (jagrat), la conscience tournée vers le monde extérieur. U est l'état de rêve (svapna), la conscience tournée vers le monde intérieur. M est l'état de sommeil profond (sushupti), la conscience sans objet. Le silence qui suit est turiya — le « quatrième », l'état de témoin pur qui observe les trois autres sans être affecté par eux. La pratique du AUM est un voyage à travers ces quatre états."
-                },
-                {
-                    "title":  "3. Neuroscience du OM : qu'est-ce que la recherche montre ?",
-                    "content":  "Des études IRM et EEG conduits en Inde et en Europe montrent que la récitation du OM active de façon distinctive le cortex insulaire, le cortex cingulaire antérieur et le tronc cérébral — des zones associées à la conscience corporelle, à la régulation émotionnelle et au traitement de la douleur. La récitation produit également une déactivation des réseaux associés à la rumination et au dialog interne. Ces effets sont significativement plus prononcés pour le OM que pour d'autres sons contrôles."
-                },
-                {
-                    "title":  "4. La technique : durée, résonance, intention",
-                    "content":  "La récitation longue du AUM (8 à 12 secondes) est plus efficace que la récitation courte. On commence par le A avec la bouche grande ouverte, en laissant la voix résonner dans le thorax. Progressivement, les lèvres se rapprochent : U. Puis lèvres closes, vibration dans le crâne : M. La transition doit être fluide — les consonants glissent les uns dans les autres. Après le M, le silence : on n'inspire pas immédiatement. On attend que la vibration intérieure se pose avant de respirer à nouveau."
-                },
-                {
-                    "title":  "5. La vibration intérieure : ce qui reste après le son",
-                    "content":  "Après une session de 15 minutes de OM, quelque chose remarquable se produit dans le silence : une vibration continue, comme un bourdonnement très fin, semble persister dans le corps et dans l'espace de perception. Ce n'est pas un son — il n'y a plus de son. C'est une qualité de l'état de conscience, une résonance qui a été amorcée par le son et continue de se propaguer. Les pratiquants décrivent cet état post-OM comme l'un des plus clairs et des plus stables qu'ils connaissent. C'est dans ce silence habité que la méditation profonde devient accessible."
-                }
-            ]
-        },
-        "practice":  "Protocole OM — 45 minutes actives :\n1. Silence complet 5 minutes. Observez ce qui existe déjà dans ce silence.\n2. A seul (3 min) : bouche grande ouverte, gorge détendue, produisez un son grave et ample. Sentez la résonance thoracique.\n3. U seul (3 min) : lèvres progressivement plus arrondies. Résonance montante.\n4. M seul (3 min) : lèvres closes, son nasal. Résonance crânienne.\n5. AUM complet (15 min) : enchainez A → U → M en une seule expiration longue. Attendez dans le silence avant d'inspirer à nouveau. Rythme : environ 5 AUM par minute.\n6. Arrêt complet (12 min) : silence absolu. Observez la vibration intérieure. Résiste-t-elle ? S'amplifie-t-elle ?\n7. Notez : qualité du silence post-OM, état de conscience, ce qui a changé.",
-        "image":  "assets/course-visuals-premium/C058-om-et-vibration-interieure.svg",
-        "pdf":  "assets/cours-pdf/C058-om-et-vibration-interieure.pdf",
-        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Avancé"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-    {
-        "id":  "C059-sequence-souffle-mantra-et-mouvement",
-        "number":  59,
-        "familyId":  "souffle",
-        "familyTitle":  "Souffle & mantras",
-        "symbol":  "🌬",
-        "title":  "Séquence souffle, mantra et mouvement",
-        "subtitle":  "Clôture intégrative de la famille Souffle",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Avancé",
-        "kind":  "Séance intégrative",
-        "status":  "available",
-        "summary":  "Ce cours de clôture de la famille Souffle combine dans une séquence fluide les trois éléments fondamentaux de la pratique : le souffle conscient, le mantra vibratoire et le mouvement oscillatoire. La synthèse des trois crée un état d'intégration profonde et ouvre la voie à la pratique autonome.",
-        "shortSummary":  "Synthèse de la famille Souffle : associer respiration, mantra et mouvement en une pratique intégrative fluide.",
-        "longSummary":  "Tout au long de la famille Souffle, on a travaillé séparément le souffle naturel, les techniques respiratoires modulées, les postures et les mantras. Ce cours de clôture propose l'intégration de ces trois dimensions dans une séquence continue. L'association souffle + mantra + mouvement crée un état perceptif particulier : les trois composantes se renforcent mutuellement, chacune amplifiant l'effet des deux autres. Le mouvement ancre le mantra dans le corps. Le mantra rythme le mouvement. Le souffle unit les deux. Cette triade est l'une des approches contemplatives les plus complètes et les plus accessibles à des états de conscience méditative profonde.",
-        "pedagogicalObjective":  "Savoir construire une séquence intégrative souffle-mantra-mouvement autonome et comprendre les effets de synergie entre ces trois éléments.",
-        "initiaticObjective":  "Expérimenter que la triade corps-souffle-son peut induire des états de conscience que ni l'un ni l'autre ne produit seul — la synthèse crée quelque chose de nouveau.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"Évaluation\",       \"content\": \"État de départ : corps, souffle, état mental. Note rapide dans le carnet." },
-            { "time": "5:00 — 10:00\", \"title\": \"Activation\",       \"content\": \"Respiration activante (triangulaire 2:1:1) pour être présent et disponible." },
-            { "time": "10:00 — 25:00\",\"title\": \"Balancement + mantra\",\"content\": \"Balancement latéral avec mantra ILLI (5 min), puis vertical avec ALLA (5 min), puis antéro-postérieur avec OLLO (5 min)." },
-            { "time": "25:00 — 35:00\",\"title\": \"Rotation + OM\",    \"content\": \"Rotation douce avec récitation de OM. Le OM rythme la rotation. Convergence des deux pratiques." },
-            { "time": "35:00 — 45:00\",\"title\": \"Immobilité + mantra mental\",\"content\": \"Arrêt de tout mouvement. Continuation du mantra en récitation mentale. Souffle naturel." },
-            { "time": "45:00 — 55:00\",\"title\": \"Silence intégratif\",\"content\": \"Arrêt de tout : pas de mantra, pas de mouvement. Observer ce qui existe dans ce silence." },
-            { "time": "55:00 — 60:00\",\"title\": \"Clôture de famille\",\"content\": \"Carnet de clôture de la famille Souffle. Phrase essentielle. Engagement de pratique autonome." }
-        ],
-        "plan":  [
-            "0–5 min — Évaluation de l'état de départ",
-            "5–10 min — Activation respiratoire",
-            "10–25 min — Balancements avec mantras associés",
-            "25–35 min — Rotation douce avec récitation de OM",
-            "35–45 min — Immobilité avec mantra mental et souffle naturel",
-            "45–55 min — Silence intégratif total",
-            "55–60 min — Carnet de clôture de la famille Souffle"
-        ],
-        "teaching":  {
-            "intro":  "Le souffle seul est puissant. Le mantra seul est puissant. Le mouvement seul est puissant. Mais leur association crée quelque chose que chacun pris séparément ne peut pas produire : un état de présence intégrative où corps, son et énergie fonctionnent comme un seul système. Les traditions qui ont développé ces pratiques le savaient : le yoga associe posture et souffle, le tantra associe mantra et mudra, le soufisme associe mouvement (sama) et dhikr (répétition du nom divin). Ce cours vous permet de faire cette expérience par vous-même.",
-            "sections":  [
-                {
-                    "title":  "1. Pourquoi la triade corps-souffle-son ?",
-                    "content":  "Le corps, le souffle et le son engagent trois niveaux différents de l'être. Le corps est le niveau le plus dense, le plus concret — il ancre la pratique dans la réalité physique. Le souffle est le niveau intermédiaire — interface entre l'automatique et le volontaire, entre le physique et l'énergétique. Le son (mantra) est le niveau le plus subtil dans cette triade — il travaille directement sur les vibrations qui structurent la perception. Associer les trois niveaux crée un alignement rare entre ces différentes couches de l'être."
-                },
-                {
-                    "title":  "2. L'association balancement-mantra : rythme et résonance",
-                    "content":  "L'association d'un balancement spécifique avec un mantra spécifique crée une correspondance corps-son : le mouvement donne un rythme au mantra, le mantra donne une intention au mouvement. ILLI avec le balancement latéral : la double syllabe épouse naturellement l'aller-retour. ALLA avec le balancement vertical : la voyelle ouverte s'associe à l'ouverture de la cage thoracique à la montée. OLLO avec l'antéro-postérieur : la voyelle centrale s'ancre dans l'avant et l'arrière. Ces associations ne sont pas arbitraires — elles émergent de la pratique comme des évidences."
-                },
-                {
-                    "title":  "3. La rotation et le OM : deux spirales qui se rejoignent",
-                    "content":  "La rotation du corps est une spirale spatiale. Le son OM est une spirale temporelle : A-U-M-silence, encore et encore. L'association de ces deux spirales — spatiale et temporelle — crée un état de convergence particulier. On observe souvent, lors de cette phase, une sensation de « double hélice » : le mouvement et le son semblent s'enrouler l'un autour de l'autre, créant une unité plus grande que leurs deux parties séparées."
-                },
-                {
-                    "title":  "4. La transition vers l'immobilité : continuer sans continuer",
-                    "content":  "Quand on arrête le mouvement physique mais qu'on continue le mantra mental, on entre dans une zone de transition fascinante : le corps est immobile mais le son continue de vibrer intérieurement. Puis, quand on arrête aussi le mantra, il reste une sorte d'empreinte — un écho de la triade corps-souffle-son — qui structure le silence. C'est dans ce silence structuré que les perceptions les plus fines deviennent accessibles."
-                },
-                {
-                    "title":  "5. Bâtir sa pratique autonome",
-                    "content":  "Ce cours de clôture est aussi un cours d'autonomisation. On a maintenant tous les outils pour construire ses propres séances : la posture juste, le souffle modulé selon le besoin, les mantras adaptés à l'objectif, les balancements choisis selon l'état du corps. La pratique autonome commence par une question simple : qu'est-ce que mon corps, mon souffle et mon silence ont besoin aujourd'hui ? La réponse à cette question est l'entrée dans la pratique."
-                }
-            ]
-        },
-        "practice":  "Protocole séquence intégrative — 55 minutes :\n\n1. Note de départ (3 min) : état du corps, du souffle, de l'esprit en 3 mots chacun.\n\n2. Activation (5 min) : respiration triangulaire 2:1:1 (inspire 6s, rétention 3s, expire 3s).\n\n3. Balancement + mantra (15 min) :\n   - 5 min : balancement latéral + ILLI mental\n   - 5 min : balancement vertical + ALLA mental\n   - 5 min : balancement antéro-postérieur + OLLO mental\n\n4. Rotation + OM (10 min) : rotation douce, un OM à chaque expiration à voix basse.\n\n5. Immobilité + mantra mental (10 min) : choisissez le mantra qui vous appelle. Récitation silencieuse. Souffle naturel.\n\n6. Silence total (7 min) : plus rien. Observer ce qui existe maintenant.\n\n7. Clôture (5 min) : trois AUM lents. Notez votre phrase essentielle de la famille Souffle.",
-        "image":  "assets/course-visuals-premium/C059-sequence-souffle-mantra-et-mouvement.svg",
-        "pdf":  "assets/cours-pdf/C059-sequence-souffle-mantra-et-mouvement.pdf",
-        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Avancé"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
@@ -7653,7 +7653,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "title": "Maintenir son temple propre au quotidien"
   },
   "nextCourse": {
-    "id": "C016-le-carnet-d-experience-comme-preuve-interieure",
+    "id": "C056-le-carnet-d-experience-comme-preuve-interieure",
     "title": "Le carnet d’expérience comme preuve intérieure"
   },
   "copyright": "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
@@ -7920,10 +7920,10 @@ window.AXIS_ONE_HOUR_COURSES = [
 })();
 /* AXIS_COURSE_003_PREMIUM_PATCH_END */
 
-/* AXIS_COURSE_016_PREMIUM_PATCH_START */
+/* AXIS_COURSE_056_PREMIUM_PATCH_START */
 (function () {
-  const richCourse016 = {
-    id: "C016-preparer-une-seance-ouvrir-le-seuil",
+  const richCourse056 = {
+    id: "C056-preparer-une-seance-ouvrir-le-seuil",
     number: 5,
     title: "Préparer une séance : ouvrir le seuil",
     subtitle: "Passer du bruit ordinaire à l’espace de pratique",
@@ -8078,7 +8078,7 @@ window.AXIS_ONE_HOUR_COURSES = [
 
     pdf: {
       title: "Cours 5 — Préparer une séance : ouvrir le seuil",
-      path: "data/courses/course-016-preparer-une-seance-ouvrir-le-seuil/pdf/course-016-preparer-une-seance.pdf",
+      path: "data/courses/course-056-preparer-une-seance-ouvrir-le-seuil/pdf/course-056-preparer-une-seance.pdf",
       protectedNotice: "Support réservé aux élèves Axis Lumen Studio. Reproduction, diffusion ou revente interdites sans autorisation."
     },
     pdfPremium: true,
@@ -8117,12 +8117,12 @@ window.AXIS_ONE_HOUR_COURSES = [
     list[4];
 
   if (target) {
-    Object.assign(target, richCourse016);
+    Object.assign(target, richCourse056);
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
 })();
- /* AXIS_COURSE_016_PREMIUM_PATCH_END */
+ /* AXIS_COURSE_056_PREMIUM_PATCH_END */
 /* AXIS_COURSE_006_IMAGES_ONLY_PATCH_START */
 (function () {
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES)
@@ -8188,11 +8188,11 @@ window.AXIS_ONE_HOUR_COURSES = [
 })();
  /* AXIS_COURSE_006_IMAGES_ONLY_PATCH_END */
 
- /* AXIS_COURSE_018_PREMIUM_PATCH_START */
+ /* AXIS_COURSE_058_PREMIUM_PATCH_START */
 (function () {
-  const richCourse018 = {
-  "id": "C018-presence-carte-et-lumiere",
-  "number": 18,
+  const richCourse058 = {
+  "id": "C058-presence-carte-et-lumiere",
+  "number": 58,
   "title": "Cours 7 — Présence, carte et lumière",
   "subtitle": "Faire descendre une vertu dans la rémanence",
   "family": "Fondations du Temple Vivant",
@@ -8363,7 +8363,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "atmosphere": "assets/courses/course-007/atmosphere.png"
   },
   "pdf": {
-    "path": "data/courses/course-018-presence-carte-et-lumiere/pdf/cours-007-presence-carte-et-lumiere.pdf",
+    "path": "data/courses/course-058-presence-carte-et-lumiere/pdf/cours-007-presence-carte-et-lumiere.pdf",
     "title": "Cours 7 — Présence, carte et lumière",
     "protectedNotice": "Support réservé aux élèves Axis Lumen Studio. Reproduction, diffusion ou revente interdites sans autorisation."
   },
@@ -8402,7 +8402,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     list[6];
 
   if (target) {
-    Object.assign(target, richCourse018);
+    Object.assign(target, richCourse058);
     target.coverImage = "assets/courses/course-007/cover.png";
     target.image = "assets/courses/course-007/cover.png";
     target.cover = "assets/courses/course-007/cover.png";
@@ -8415,7 +8415,7 @@ window.AXIS_ONE_HOUR_COURSES = [
 
   window.AXIS_ONE_HOUR_COURSES = list;
 })();
- /* AXIS_COURSE_018_PREMIUM_PATCH_END */
+ /* AXIS_COURSE_058_PREMIUM_PATCH_END */
 /* AXIS_REINJECT_FROM_DATA_COURSES_START */
 (function () {
   console.info("[Axis Lumen] Réinjection des cours enrichis depuis data/courses et connexion des visuels premium.");
@@ -9576,7 +9576,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "Je sais clore la séance sans laisser l’attention dispersée."
   ],
   "previousCourse": "C003-maintenir-son-temple-propre-au-quotidien",
-  "nextCourse": "C016-le-carnet-d-experience-comme-preuve-interieure",
+  "nextCourse": "C056-le-carnet-d-experience-comme-preuve-interieure",
   "copyright": "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
 };
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES) ? window.AXIS_ONE_HOUR_COURSES : [];
@@ -9651,8 +9651,8 @@ window.AXIS_ONE_HOUR_COURSES = [
 })();
 (function () {
   const enriched = {
-  "id": "C016-preparer-une-seance-ouvrir-le-seuil",
-  "number": 16,
+  "id": "C056-preparer-une-seance-ouvrir-le-seuil",
+  "number": 56,
   "title": "Préparer une séance : ouvrir le seuil",
   "subtitle": "Passer du bruit ordinaire à l’espace de pratique",
   "family": "Règles de l’enseignement",
@@ -9883,7 +9883,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "atmosphere": "assets/courses/course-005/atmosphere.svg"
   },
   "pdf": {
-    "path": "data/courses/course-016-preparer-une-seance-ouvrir-le-seuil/pdf/course-016-preparer-une-seance.pdf",
+    "path": "data/courses/course-056-preparer-une-seance-ouvrir-le-seuil/pdf/course-056-preparer-une-seance.pdf",
     "title": "Cours 5 — Préparer une séance : ouvrir le seuil",
     "protectedNotice": "Support réservé aux élèves Axis Lumen Studio. Reproduction, diffusion ou revente interdites sans autorisation."
   },
@@ -10130,7 +10130,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "J’ai noté quelques mots vrais dans le carnet.",
     "J’ai repris une action simple sans me disperser."
   ],
-  "previousCourse": "course-016-preparer-une-seance-ouvrir-le-seuil",
+  "previousCourse": "course-056-preparer-une-seance-ouvrir-le-seuil",
   "nextCourse": "course-007",
   "copyright": "© Axis Lumen Studio — Tous droits réservés.",
   "coverImage": "assets/courses/course-006/cover.png",
@@ -10248,8 +10248,8 @@ window.AXIS_ONE_HOUR_COURSES = [
 })();
 (function () {
   const enriched = {
-  "id": "C018-presence-carte-et-lumiere",
-  "number": 18,
+  "id": "C058-presence-carte-et-lumiere",
+  "number": 58,
   "title": "Cours 7 — Présence, carte et lumière",
   "subtitle": "Faire descendre une vertu dans la rémanence",
   "family": "Fondations du Temple Vivant",
@@ -10420,7 +10420,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "atmosphere": "assets/courses/course-007/atmosphere.png"
   },
   "pdf": {
-    "path": "data/courses/course-018-presence-carte-et-lumiere/pdf/cours-007-presence-carte-et-lumiere.pdf",
+    "path": "data/courses/course-058-presence-carte-et-lumiere/pdf/cours-007-presence-carte-et-lumiere.pdf",
     "title": "Cours 7 — Présence, carte et lumière",
     "protectedNotice": "Support réservé aux élèves Axis Lumen Studio. Reproduction, diffusion ou revente interdites sans autorisation."
   },
