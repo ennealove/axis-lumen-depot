@@ -17,7 +17,7 @@
     },
     {
         "id":  "lumiere",
-        "order":  3,
+        "order":  4,
         "symbol":  "☉",
         "title":  "Soleil, lumière \u0026 neurosciences",
         "subtitle":  "Rémanence, attention, rythme circadien",
@@ -25,7 +25,7 @@
     },
     {
         "id":  "rythmes",
-        "order":  4,
+        "order":  5,
         "symbol":  "φ",
         "title":  "Rythmes, nombre d’or \u0026 fractales",
         "subtitle":  "Cadence, cerveau, proportions du vivant",
@@ -33,7 +33,7 @@
     },
     {
         "id":  "inversion",
-        "order":  5,
+        "order":  6,
         "symbol":  "↧",
         "title":  "Inversion \u0026 incarnation",
         "subtitle":  "Ce qui est en haut comme ce qui est en bas, mais inversé",
@@ -41,7 +41,7 @@
     },
     {
         "id":  "balancements",
-        "order":  6,
+        "order":  3,
         "symbol":  "↔",
         "title":  "Balancements",
         "subtitle":  "Latéral, vertical, huit, croix, rotation",
@@ -1381,14 +1381,14 @@ window.AXIS_ONE_HOUR_COURSES = [
   "essentialPhrase": "Clore, ce n’est pas perdre la lumière : c’est lui donner une demeure.",
   "shortPhrase": "Je ne quitte pas la séance, je la dépose.",
   "minutePlan": [
-    { "time": "0:00 — 5:00", "title": "Entrée", "content": "Se poser, comprendre le thème : pourquoi terminer est un acte initiatique." },
-    { "time": "5:00 — 12:00", "title": "La fausse fin", "content": "Arrêter la technique n’est pas encore clore la séance." },
-    { "time": "12:00 — 20:00", "title": "Les risques de dispersion", "content": "Écran, parole rapide, agitation, faim automatique, interprétation excessive." },
-    { "time": "20:00 — 28:00", "title": "Déposer la lumière", "content": "Cœur, ventre, colonne, mains, pieds : donner une demeure corporelle à l’expérience." },
-    { "time": "28:00 — 35:00", "title": "Contemplation", "content": "Où vais-je trop vite après mes séances ?" },
-    { "time": "35:00 — 50:00", "title": "Pratique guidée", "content": "Protocole complet de clôture en douze étapes." },
-    { "time": "50:00 — 56:00", "title": "Carnet", "content": "Noter sans ajouter, sans retirer." },
-    { "time": "56:00 — 60:00", "title": "Validation", "content": "Phrase de fermeture, action simple, intégration." }
+    { "time": "0:00 — 5:00\", \"title\": \"Entrée\", \"content\": \"Se poser, comprendre le thème : pourquoi terminer est un acte initiatique." },
+    { "time": "5:00 — 12:00\", \"title\": \"La fausse fin\", \"content\": \"Arrêter la technique n’est pas encore clore la séance." },
+    { "time": "12:00 — 20:00\", \"title\": \"Les risques de dispersion\", \"content\": \"Écran, parole rapide, agitation, faim automatique, interprétation excessive." },
+    { "time": "20:00 — 28:00\", \"title\": \"Déposer la lumière\", \"content\": \"Cœur, ventre, colonne, mains, pieds : donner une demeure corporelle à l’expérience." },
+    { "time": "28:00 — 35:00\", \"title\": \"Contemplation\", \"content\": \"Où vais-je trop vite après mes séances ?" },
+    { "time": "35:00 — 50:00\", \"title\": \"Pratique guidée\", \"content\": \"Protocole complet de clôture en douze étapes." },
+    { "time": "50:00 — 56:00\", \"title\": \"Carnet\", \"content\": \"Noter sans ajouter, sans retirer." },
+    { "time": "56:00 — 60:00\", \"title\": \"Validation\", \"content\": \"Phrase de fermeture, action simple, intégration." }
   ],
   "teaching": {
     "intro": "Une séance ne se termine pas lorsque l’exercice s’arrête. Elle se termine lorsque le corps retrouve son assise, lorsque le souffle redevient naturel, lorsque la pensée cesse de flotter, lorsque l’expérience a été déposée dans une présence simple.",
@@ -1457,17 +1457,17 @@ window.AXIS_ONE_HOUR_COURSES = [
     "safety": "Ne jamais se lever brutalement après une pratique intérieure intense. Ne pas reprendre immédiatement une conduite, un écran, une conversation conflictuelle ou une tâche exigeante. En cas de vertige, fatigue visuelle, tension cervicale, malaise ou inconfort, arrêter la pratique, ouvrir les yeux, respirer naturellement, boire un peu d’eau et revenir aux sensations corporelles simples. Pour la lumière : utiliser uniquement une lumière douce, indirecte ou adaptée. Ne jamais fixer le soleil directement. Arrêter en cas de gêne visuelle."
   },
   "vocalScript": [
-    { "time": "0:00 — 1:00", "title": "Arrivée", "text": "Installe-toi. La séance arrive à sa fin, mais ne quitte pas trop vite l’espace intérieur." },
-    { "time": "1:00 — 2:00", "title": "Arrêt doux", "text": "Laisse ce que tu faisais s’arrêter doucement. Si tu étais dans un mouvement, réduis l’amplitude. Si tu étais dans un souffle, laisse le souffle redevenir naturel." },
-    { "time": "2:00 — 3:00", "title": "Ne pas retenir", "text": "Si tu étais dans une image, ne la poursuis plus. Reste là, quelques instants, sans chercher à prolonger, sans chercher à retenir." },
-    { "time": "3:00 — 4:30", "title": "Les pieds", "text": "Sens maintenant tes pieds. Le contact avec le sol. Le poids simple du corps." },
-    { "time": "4:30 — 6:00", "title": "Le corps", "text": "Sens le bassin, le dos, les épaules, les mains. La séance revient dans le corps." },
-    { "time": "6:00 — 8:00", "title": "Le dépôt", "text": "Ce que tu as vécu n’a pas besoin d’être expliqué maintenant. Il peut se déposer. Choisis un lieu de dépôt : le cœur, le ventre, la colonne, les mains ou les pieds." },
-    { "time": "8:00 — 10:00", "title": "Déposer sans forcer", "text": "Laisse la lumière, la sensation, l’image ou le calme descendre doucement dans ce lieu. Rien à forcer. Rien à produire. Seulement déposer." },
-    { "time": "10:00 — 11:30", "title": "Retour sensoriel", "text": "Bouge légèrement les doigts. Bouge légèrement les orteils. Laisse le regard revenir doucement." },
-    { "time": "11:30 — 13:00", "title": "La pièce", "text": "Regarde simplement la pièce : un objet, une forme, une couleur, un appui." },
-    { "time": "13:00 — 14:00", "title": "Phrase de fermeture", "text": "Dis intérieurement : Je reviens dans mon corps. Je garde le fruit de l’exercice. Je rends ce qui ne m’appartient pas. La lumière se dépose. La séance est close." },
-    { "time": "14:00 — 15:00", "title": "Carnet", "text": "Prends ton carnet et note ce qui est réel : une sensation, une phrase, un ajustement. La séance est maintenant intégrée." }
+    { "time": "0:00 — 1:00\", \"title\": \"Arrivée\", \"text\": \"Installe-toi. La séance arrive à sa fin, mais ne quitte pas trop vite l’espace intérieur." },
+    { "time": "1:00 — 2:00\", \"title\": \"Arrêt doux\", \"text\": \"Laisse ce que tu faisais s’arrêter doucement. Si tu étais dans un mouvement, réduis l’amplitude. Si tu étais dans un souffle, laisse le souffle redevenir naturel." },
+    { "time": "2:00 — 3:00\", \"title\": \"Ne pas retenir\", \"text\": \"Si tu étais dans une image, ne la poursuis plus. Reste là, quelques instants, sans chercher à prolonger, sans chercher à retenir." },
+    { "time": "3:00 — 4:30\", \"title\": \"Les pieds\", \"text\": \"Sens maintenant tes pieds. Le contact avec le sol. Le poids simple du corps." },
+    { "time": "4:30 — 6:00\", \"title\": \"Le corps\", \"text\": \"Sens le bassin, le dos, les épaules, les mains. La séance revient dans le corps." },
+    { "time": "6:00 — 8:00\", \"title\": \"Le dépôt\", \"text\": \"Ce que tu as vécu n’a pas besoin d’être expliqué maintenant. Il peut se déposer. Choisis un lieu de dépôt : le cœur, le ventre, la colonne, les mains ou les pieds." },
+    { "time": "8:00 — 10:00\", \"title\": \"Déposer sans forcer\", \"text\": \"Laisse la lumière, la sensation, l’image ou le calme descendre doucement dans ce lieu. Rien à forcer. Rien à produire. Seulement déposer." },
+    { "time": "10:00 — 11:30\", \"title\": \"Retour sensoriel\", \"text\": \"Bouge légèrement les doigts. Bouge légèrement les orteils. Laisse le regard revenir doucement." },
+    { "time": "11:30 — 13:00\", \"title\": \"La pièce\", \"text\": \"Regarde simplement la pièce : un objet, une forme, une couleur, un appui." },
+    { "time": "13:00 — 14:00\", \"title\": \"Phrase de fermeture\", \"text\": \"Dis intérieurement : Je reviens dans mon corps. Je garde le fruit de l’exercice. Je rends ce qui ne m’appartient pas. La lumière se dépose. La séance est close." },
+    { "time": "14:00 — 15:00\", \"title\": \"Carnet\", \"text\": \"Prends ton carnet et note ce qui est réel : une sensation, une phrase, un ajustement. La séance est maintenant intégrée." }
   ],
   "journalQuestions": [
     "Ai-je terminé trop vite ?",
@@ -1580,15 +1580,15 @@ window.AXIS_ONE_HOUR_COURSES = [
   "pedagogicalObjective": "Apprendre à conduire une séance complète à partir d’une carte de vertu : préparation, tirage, lecture lente, observation lumineuse prudente, rémanence, carnet et clôture.",
   "initiaticObjective": "Transformer une vertu en présence. Ne plus seulement comprendre une qualité, mais l’accueillir dans le champ intérieur, la laisser s’imprimer doucement, puis l’incarner dans un geste simple.",
   "minutePlan": [
-    { "time": "0–5 min", "title": "Entrer dans le seuil", "content": "Préparer le lieu, couper les distractions, poser le carnet, choisir une lumière douce." },
-    { "time": "5–10 min", "title": "Tirer la carte", "content": "Tirer une seule carte de vertu. Une séance, une vertu, une direction." },
-    { "time": "10–20 min", "title": "Lire lentement", "content": "Lire le nom, la phrase essentielle, puis le texte bref. Laisser les mots devenir climat intérieur." },
-    { "time": "20–25 min", "title": "Préparer le regard", "content": "Installer la lumière douce. Vérifier les yeux, la fatigue, la posture et l’état du corps." },
-    { "time": "25–30 min", "title": "Observer la lumière", "content": "Regard souple, durée courte, sans fixation dure, sans tension." },
-    { "time": "30–40 min", "title": "Accueillir la rémanence", "content": "Fermer les yeux. Recevoir la trace. Déposer la vertu dans la lumière intérieure." },
-    { "time": "40–48 min", "title": "Stabiliser la présence", "content": "Laisser la vertu devenir sensation : chaleur, calme, axe, douceur, courage, clarté." },
-    { "time": "48–55 min", "title": "Carnet d’expérience", "content": "Noter ce qui est réel : état avant/après, qualité de la lumière, sensation, phrase, geste du jour." },
-    { "time": "55–60 min", "title": "Clôture", "content": "Revenir au souffle naturel, sentir les mains, les pieds, la pièce, puis fermer la séance." }
+    { "time": "0–5 min\", \"title\": \"Entrer dans le seuil\", \"content\": \"Préparer le lieu, couper les distractions, poser le carnet, choisir une lumière douce." },
+    { "time": "5–10 min\", \"title\": \"Tirer la carte\", \"content\": \"Tirer une seule carte de vertu. Une séance, une vertu, une direction." },
+    { "time": "10–20 min\", \"title\": \"Lire lentement\", \"content\": \"Lire le nom, la phrase essentielle, puis le texte bref. Laisser les mots devenir climat intérieur." },
+    { "time": "20–25 min\", \"title\": \"Préparer le regard\", \"content\": \"Installer la lumière douce. Vérifier les yeux, la fatigue, la posture et l’état du corps." },
+    { "time": "25–30 min\", \"title\": \"Observer la lumière\", \"content\": \"Regard souple, durée courte, sans fixation dure, sans tension." },
+    { "time": "30–40 min\", \"title\": \"Accueillir la rémanence\", \"content\": \"Fermer les yeux. Recevoir la trace. Déposer la vertu dans la lumière intérieure." },
+    { "time": "40–48 min\", \"title\": \"Stabiliser la présence\", \"content\": \"Laisser la vertu devenir sensation : chaleur, calme, axe, douceur, courage, clarté." },
+    { "time": "48–55 min\", \"title\": \"Carnet d’expérience\", \"content\": \"Noter ce qui est réel : état avant/après, qualité de la lumière, sensation, phrase, geste du jour." },
+    { "time": "55–60 min\", \"title\": \"Clôture\", \"content\": \"Revenir au souffle naturel, sentir les mains, les pieds, la pièce, puis fermer la séance." }
   ],
   "teaching": {
     "intro": "La présence n’est pas une idée vague. C’est une qualité d’habitation. Elle commence lorsque l’élève cesse de consommer les signes et accepte de demeurer avec une seule chose : une carte, une phrase, une lumière, une trace, une sensation.",
@@ -1665,13 +1665,13 @@ window.AXIS_ONE_HOUR_COURSES = [
     ]
   },
   "vocalScript": [
-    { "time": "0:00", "title": "Installation", "text": "Installe-toi simplement. Pose la carte devant toi. Ne cherche pas encore à comprendre. Laisse seulement ton corps arriver." },
-    { "time": "3:00", "title": "La carte", "text": "Regarde le nom de la vertu. Lis-le lentement. Laisse ce mot exister dans l’espace." },
-    { "time": "8:00", "title": "La phrase", "text": "Lis maintenant la phrase essentielle. Ne la saisis pas. Laisse-la descendre comme une goutte dans l’eau." },
-    { "time": "13:00", "title": "La lumière", "text": "Prépare maintenant ton regard. La lumière est douce. Le regard est souple. Rien ne doit forcer." },
-    { "time": "18:00", "title": "La rémanence", "text": "Ferme les yeux. Reçois ce qui reste : une trace, une couleur, une forme, un voile ou seulement une sensation." },
-    { "time": "23:00", "title": "Le geste", "text": "Demande simplement : quel geste peut porter cette vertu aujourd’hui ? Un geste petit, réel, possible." },
-    { "time": "28:00", "title": "Clôture", "text": "Reviens au corps. Sens les mains, les pieds, la pièce autour de toi. La séance se referme doucement." }
+    { "time": "0:00\", \"title\": \"Installation\", \"text\": \"Installe-toi simplement. Pose la carte devant toi. Ne cherche pas encore à comprendre. Laisse seulement ton corps arriver." },
+    { "time": "3:00\", \"title\": \"La carte\", \"text\": \"Regarde le nom de la vertu. Lis-le lentement. Laisse ce mot exister dans l’espace." },
+    { "time": "8:00\", \"title\": \"La phrase\", \"text\": \"Lis maintenant la phrase essentielle. Ne la saisis pas. Laisse-la descendre comme une goutte dans l’eau." },
+    { "time": "13:00\", \"title\": \"La lumière\", \"text\": \"Prépare maintenant ton regard. La lumière est douce. Le regard est souple. Rien ne doit forcer." },
+    { "time": "18:00\", \"title\": \"La rémanence\", \"text\": \"Ferme les yeux. Reçois ce qui reste : une trace, une couleur, une forme, un voile ou seulement une sensation." },
+    { "time": "23:00\", \"title\": \"Le geste\", \"text\": \"Demande simplement : quel geste peut porter cette vertu aujourd’hui ? Un geste petit, réel, possible." },
+    { "time": "28:00\", \"title\": \"Clôture\", \"text\": \"Reviens au corps. Sens les mains, les pieds, la pièce autour de toi. La séance se referme doucement." }
   ],
   "journalQuestions": [
     "Quelle carte ai-je tirée ?",
@@ -1974,1443 +1974,3089 @@ window.AXIS_ONE_HOUR_COURSES = [
         "id":  "C009-terrain-vivant-eau-sang-souffle-mineraux",
         "number":  9,
         "familyId":  "terrain",
-        "familyTitle":  "Terrain vivant \u0026 alimentation",
+        "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
         "title":  "Terrain vivant : eau, sang, souffle, minéraux",
-        "subtitle":  "Temple propre, eau, rH², émonctoires",
+        "subtitle":  "Le corps comme milieu conducteur de la pratique",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : Terrain vivant : eau, sang, souffle, minéraux. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Préparer le corps par l’alimentation, l’eau, les minéraux, les temps sans manger et les sorties naturelles du terrain.",
-        "practice":  "Préparer un verre d’eau, respirer lentement, observer l’état du corps, noter le terrain avant et après. L’objectif est de rendre le corps plus lisible, plus conducteur et moins saturé.",
+        "kind":  "Enseignement & auto-observation",
+        "status":  "available",
+        "summary":  "Comprendre le corps comme un système vivant dont la qualité détermine la qualité de toute pratique intérieure. Ce cours pose les fondements : eau, sang, souffle, minéraux — les quatre piliers d'un terrain réceptif.",
+        "shortSummary":  "Le corps comme milieu conducteur : eau, minéraux, souffle et sang au service de la pratique.",
+        "longSummary":  "Avant toute pratique sur la lumière, le rythme ou la perception subtile, il existe un niveau fondamental souvent négligé : la qualité du milieu intérieur. Le corps n'est pas seulement un contenant — c'est un système électrochimique vivant dont la conductivité, l'hydratation, le pH et la charge ionique déterminent directement la qualité de transmission de tout signal, qu'il soit nerveux, énergétique ou informationnel. Ce cours introduit quatre leviers essentiels : l'eau comme milieu premier de transmission, le sang comme vecteur d'oxygène et de minéraux, le souffle comme régulateur des échanges cellulaires, et les minéraux comme architectes de la conductivité. Sans comprendre ces bases, les pratiques resteront floues, instables ou superficielles. Avec elles, chaque exercice trouve un support vivant.",
+        "pedagogicalObjective":  "Comprendre le concept de terrain vivant et son lien direct avec la réceptivité à la pratique.",
+        "initiaticObjective":  "Commencer à percevoir le corps non comme un obstacle mais comme le premier instrument de la pratique — un instrument qui s'entretient et se respecte.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Installation, posture, respiration naturelle. Observer l'état réel du corps sans jugement." },
+            { "time":  "5:00 — 15:00\", \"title\":  \"Le corps comme milieu vivant\", \"content\":  \"Introduction : qu'est-ce qu'un terrain ? Pourquoi la qualité du milieu intérieur conditionne la pratique." },
+            { "time":  "15:00 — 30:00\", \"title\":  \"Les quatre piliers\", \"content\":  \"Eau, sang, souffle, minéraux : rôle de chacun, liens entre eux, effets sur la réceptivité." },
+            { "time":  "30:00 — 40:00\", \"title\":  \"Lecture intérieure\", \"content\":  \"Exercice de scan corporel : ressentir l'état d'hydratation, la qualité du souffle, les tensions chroniques." },
+            { "time":  "40:00 — 50:00\", \"title\":  \"Pratique guidée\", \"content\":  \"Protocole eau consciente : boire lentement, avec présence, en observant les effets dans le corps." },
+            { "time":  "50:00 — 57:00\", \"title\":  \"Carnet de terrain\", \"content\":  \"Noter les observations : état avant/après, qualité du souffle, sensations, résistances." },
+            { "time":  "57:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au souffle naturel, formule de fermeture, geste concret du jour." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : installation, posture, respiration naturelle.",
+            "5–15 min — Le corps comme milieu vivant : qu'est-ce qu'un terrain ?",
+            "15–30 min — Les quatre piliers : eau, sang, souffle, minéraux.",
+            "30–40 min — Lecture intérieure : scan du terrain réel.",
+            "40–50 min — Pratique : protocole eau consciente.",
+            "50–57 min — Carnet : noter les observations du terrain.",
+            "57–60 min — Clôture : retour au corps et intégration."
+        ],
+        "teaching":  {
+            "intro":  "Tout commence par le milieu. Avant la lumière, avant le rythme, avant la perception — il y a le corps. Un corps saturé, déshydraté ou minéralement appauvri est un corps moins conducteur, moins réceptif, moins clair. Ce cours pose la première pierre : comprendre ce qu'est un terrain vivant.",
+            "sections":  [
+                {
+                    "title":  "1. Qu'est-ce qu'un terrain vivant ?",
+                    "content":  "Le terrain vivant désigne l'ensemble des conditions intérieures qui permettent au corps de fonctionner de manière optimale. Il ne s'agit pas d'une abstraction : c'est la qualité réelle du milieu intérieur, mesurable et modifiable. Un terrain de qualité est légèrement alcalin, bien hydraté, correctement minéralisé et librement oxygéné. Ces quatre paramètres ensemble créent les conditions d'une réceptivité accrue — tant sur le plan physique que subtil."
+                },
+                {
+                    "title":  "2. L'eau comme premier vecteur",
+                    "content":  "L'eau représente environ 70 % de la masse corporelle. Elle n'est pas un simple solvant : elle transporte l'information, conduit l'électricité biologique, régule la température et maintient la pression osmotique de chaque cellule. Une eau de qualité, à faible résidu sec (idéalement inférieur à 100 mg/L), légèrement alcaline et consommée régulièrement tout au long de la journée, améliore directement la conductivité du terrain. À l'inverse, une déshydratation même légère réduit la clarté mentale, alourdit le ressenti corporel et ralentit les processus de régénération."
+                },
+                {
+                    "title":  "3. Le sang et les minéraux",
+                    "content":  "Le sang est le milieu de transport universel du corps : oxygène, nutriments, déchets, hormones, informations électrochimiques. Sa qualité dépend directement des minéraux présents dans l'alimentation. Les électrolytes — sodium, potassium, magnésium, calcium — maintiennent l'équilibre ionique qui permet la transmission nerveuse. Un sel complet non raffiné, consommé en petites quantités, apporte une palette minérale bien plus riche qu'un sel industriel. Le magnésium en particulier joue un rôle central dans la relaxation musculaire et la qualité du sommeil."
+                },
+                {
+                    "title":  "4. Le souffle comme régulateur",
+                    "content":  "Le souffle est le seul paramètre du système nerveux autonome que nous pouvons modifier consciemment. Par la respiration, nous influençons directement l'oxygénation cellulaire, le pH sanguin et l'état du système nerveux. Une respiration chroniquement courte et thoracique acidifie légèrement le milieu intérieur et maintient le système nerveux en état d'alerte. Une respiration lente, profonde et abdominale alcalinise, détend et prépare le corps à la réceptivité. Observer sa propre respiration est déjà une pratique de terrain."
+                },
+                {
+                    "title":  "5. Le lien terrain-pratique",
+                    "content":  "Les expériences qui surviennent lors des pratiques intérieures — états de calme, qualité de la visualisation, précision des perceptions — sont directement corrélées à l'état du terrain. Un pratiquant bien hydraté, suffisamment minéralisé, dont le souffle est libre, accède plus aisément aux états méditatifs. Ce n'est pas une promesse mystique : c'est une réalité physiologique. L'entretien du terrain est donc un acte de préparation spirituelle autant que physique."
+                }
+            ]
+        },
+        "practice":  "Protocole de lecture du terrain : boire un verre d'eau lentement, avec présence totale. Observer la texture en bouche, la chaleur ou fraîcheur ressentie, la sensation de passage dans la gorge. Après, rester assis 2 minutes et noter dans le carnet : état d'hydratation ressenti, qualité du souffle, légèreté ou lourdeur du corps, clarté mentale. Répéter matin et soir pendant 7 jours.",
         "image":  "assets/course-visuals-premium/C009-terrain-vivant-eau-sang-souffle-mineraux.svg",
         "pdf":  "assets/cours-pdf/C009-terrain-vivant-eau-sang-souffle-mineraux.pdf",
         "tags":  [
-                     "Terrain vivant \u0026 alimentation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Terrain vivant & alimentation",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C010-alimentation-fraiche-et-reduction-de-la-surcharge",
         "number":  10,
         "familyId":  "terrain",
-        "familyTitle":  "Terrain vivant \u0026 alimentation",
+        "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
         "title":  "Alimentation fraîche et réduction de la surcharge",
-        "subtitle":  "Temple propre, eau, rH², émonctoires",
+        "subtitle":  "Nourrir sans alourdir : le choix des aliments vivants",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : Alimentation fraîche et réduction de la surcharge. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Préparer le corps par l’alimentation, l’eau, les minéraux, les temps sans manger et les sorties naturelles du terrain.",
-        "practice":  "Préparer un verre d’eau, respirer lentement, observer l’état du corps, noter le terrain avant et après. L’objectif est de rendre le corps plus lisible, plus conducteur et moins saturé.",
+        "kind":  "Enseignement & protocole pratique",
+        "status":  "available",
+        "summary":  "Explorer le lien direct entre la qualité de l'alimentation et la qualité des états intérieurs. Comprendre ce que signifie un aliment vivant, une charge digestive, et comment réduire la surcharge pour libérer de l'énergie disponible à la pratique.",
+        "shortSummary":  "Alimentation vivante vs aliments morts : choisir ce qui nourrit sans alourdir.",
+        "longSummary":  "L'alimentation est l'acte quotidien le plus structurant du terrain. Ce que nous ingérons ne se borne pas à fournir des calories : cela détermine la charge que le système digestif doit traiter, la quantité d'énergie disponible pour d'autres fonctions (y compris la pratique), la qualité du milieu intestinal et la teneur en enzymes du corps. Les aliments ultra-transformés, cuits à haute température, dénaturés ou chimiquement altérés demandent un effort digestif colossal et laissent peu d'énergie disponible. À l'inverse, les aliments frais, fermentés, crus en partie ou légèrement cuits apportent enzymes, minéraux biodisponibles et information structurelle. Ce cours propose une compréhension claire de ces distinctions et un protocole progressif de transition.",
+        "pedagogicalObjective":  "Distinguer les aliments qui soutiennent le terrain de ceux qui le surchargent, et commencer une démarche progressive d'allègement.",
+        "initiaticObjective":  "Comprendre que manger est un acte spirituel autant que physique — une manière de choisir quotidiennement la qualité de son milieu intérieur.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Installation et observation de l'état digestif et énergétique du moment." },
+            { "time":  "5:00 — 15:00\", \"title\":  \"Vivant vs mort\", \"content\":  \"Qu'est-ce qu'un aliment vivant ? Enzymatique, fermenté, frais, non dénaturé." },
+            { "time":  "15:00 — 28:00\", \"title\":  \"La surcharge digestive\", \"content\":  \"Comprendre ce que coûte une digestion lourde : énergie, inflammation de bas grade, brouillage intérieur." },
+            { "time":  "28:00 — 40:00\", \"title\":  \"Les choix concrets\", \"content\":  \"Aliments à privilégier, aliments à réduire progressivement. Sans règles rigides : une orientation vivante." },
+            { "time":  "40:00 — 50:00\", \"title\":  \"Pratique : journal alimentaire\", \"content\":  \"Écrire dans le carnet ce que l'on a mangé ce jour, et noter l'état d'énergie 2h après chaque repas." },
+            { "time":  "50:00 — 57:00\", \"title\":  \"Carnet\", \"content\":  \"Réflexion sur la relation personnelle à l'alimentation : plaisir, compulsion, oubli, conscience." },
+            { "time":  "57:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au souffle, intention d'un petit geste alimentaire concret pour le lendemain." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : état digestif et énergétique du moment.",
+            "5–15 min — Vivant vs mort : l'alimentation enzymatique.",
+            "15–28 min — La surcharge digestive et son coût énergétique.",
+            "28–40 min — Les choix concrets : aliments à privilégier et à réduire.",
+            "40–50 min — Pratique : journal alimentaire du jour.",
+            "50–57 min — Carnet : relation personnelle à la nourriture.",
+            "57–60 min — Clôture : un geste concret pour demain."
+        ],
+        "teaching":  {
+            "intro":  "Manger est l'acte le plus banal et le plus transformateur du quotidien. Ce que nous choisissons d'ingérer crée directement le milieu dans lequel se déploie toute notre vie intérieure. Ce cours n'impose pas de régime : il propose une compréhension vivante.",
+            "sections":  [
+                {
+                    "title":  "1. La notion d'aliment vivant",
+                    "content":  "Un aliment vivant n'est pas défini par sa catégorie mais par son degré d'intégrité enzymatique et structurelle. Les enzymes sont des protéines actives qui facilitent la digestion et réduisent le travail du système digestif. Elles sont détruites par la chaleur au-delà de 42°C. Les aliments crus, fermentés (choucroute, kéfir, miso) et légèrement cuits conservent une partie de cette activité enzymatique. Les aliments ultra-transformés, stérilisés et dénaturés n'en contiennent plus aucune."
+                },
+                {
+                    "title":  "2. La surcharge : ce qu'elle coûte",
+                    "content":  "Chaque repas lourd génère une demande énergétique considérable : digérer une pizza industrielle peut mobiliser autant d'énergie que 30 minutes de marche rapide. Cette énergie est alors indisponible pour les fonctions supérieures — clarté mentale, réceptivité, créativité, pratique intérieure. Une digestion chroniquement lourde maintient le corps dans un état de traitement permanent qui s'oppose à l'état de disponibilité nécessaire à la pratique."
+                },
+                {
+                    "title":  "3. L'inflammation de bas grade",
+                    "content":  "Les aliments ultra-transformés, les huiles végétales oxydées, le sucre industriel et les additifs alimentaires entretiennent un état inflammatoire chronique de faible intensité. Cette inflammation de bas grade n'est pas douloureuse mais elle brouille les signaux corporels subtils, fatigue le système immunitaire et altère la qualité du sommeil et des états méditatifs. La réduire progressivement est l'une des interventions les plus rapides pour améliorer la qualité des pratiques."
+                },
+                {
+                    "title":  "4. Les choix concrets",
+                    "content":  "Quelques orientations simples, à intégrer progressivement : augmenter la proportion d'aliments crus dans les repas (crudités, fruits frais), intégrer un aliment fermenté par jour (yaourt nature, choucroute, kéfir), réduire les farines blanches et remplacer par des céréales complètes ou des légumineuses, choisir des huiles pressées à froid (olive, lin) et éviter les huiles raffinées, boire de l'eau pure en dehors des repas plutôt que pendant (pour ne pas diluer les sucs digestifs). Aucune de ces orientations n'est absolue : c'est le sens de la direction qui compte."
+                },
+                {
+                    "title":  "5. La conscience pendant le repas",
+                    "content":  "L'attention portée pendant le repas modifie la qualité de la digestion. Manger en pleine conscience, sans écran, sans distraction, en mâchant lentement active le système nerveux parasympathique — le mode de 'repos et digestion'. Cette simple pratique améliore l'absorption des nutriments, réduit la quantité ingérée et augmente le sentiment de satiété. C'est un terrain de pratique quotidien, ordinaire et transformateur."
+                }
+            ]
+        },
+        "practice":  "Tenir un journal alimentaire pendant 3 jours. Pour chaque repas, noter : heure, contenu approximatif, état d'énergie et de clarté 2h après. Observer sans juger les corrélations. Identifier un aliment qui alourdit systématiquement et un aliment qui allège. Prendre une décision simple : réduire l'un et augmenter l'autre pendant une semaine.",
         "image":  "assets/course-visuals-premium/C010-alimentation-fraiche-et-reduction-de-la-surcharge.svg",
         "pdf":  "assets/cours-pdf/C010-alimentation-fraiche-et-reduction-de-la-surcharge.pdf",
         "tags":  [
-                     "Terrain vivant \u0026 alimentation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Terrain vivant & alimentation",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C011-emonctoires-intestins-reins-foie-lymphe",
         "number":  11,
         "familyId":  "terrain",
-        "familyTitle":  "Terrain vivant \u0026 alimentation",
+        "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
         "title":  "Émonctoires : intestins, reins, foie, lymphe",
-        "subtitle":  "Temple propre, eau, rH², émonctoires",
+        "subtitle":  "Les quatre portes de sortie du terrain saturé",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : Émonctoires : intestins, reins, foie, lymphe. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Préparer le corps par l’alimentation, l’eau, les minéraux, les temps sans manger et les sorties naturelles du terrain.",
-        "practice":  "Préparer un verre d’eau, respirer lentement, observer l’état du corps, noter le terrain avant et après. L’objectif est de rendre le corps plus lisible, plus conducteur et moins saturé.",
+        "kind":  "Enseignement & protocole de soutien",
+        "status":  "available",
+        "summary":  "Comprendre les voies naturelles d'élimination du corps — intestins, reins, foie, lymphe — comme leviers essentiels de l'entretien du terrain. Un terrain saturé est un terrain peu réceptif. Libérer les émonctoires, c'est augmenter la conductivité du milieu intérieur.",
+        "shortSummary":  "Les quatre émonctoires du corps : comprendre et soutenir les voies naturelles d'élimination.",
+        "longSummary":  "Le corps humain est un système vivant en flux permanent : il reçoit des nutriments, les transforme, produit des déchets métaboliques et doit les éliminer. Cette élimination se fait par quatre voies principales appelées émonctoires : l'intestin (les selles), les reins (l'urine), le foie via la bile (selles colorées et digestion des graisses), et la peau/poumons (transpiration et exhalation). Lorsque l'une de ces voies est surchargée, ralentie ou bloquée, les déchets se redistribuent dans les autres — générant une saturation progressive du terrain. Un terrain saturé est moins conducteur, moins réceptif et moins clair. Soutenir les émonctoires par des pratiques simples et naturelles est l'un des gestes les plus efficaces pour améliorer la qualité des états intérieurs.",
+        "pedagogicalObjective":  "Comprendre le rôle de chaque émonctoire et identifier des protocoles simples pour les soutenir.",
+        "initiaticObjective":  "Percevoir le corps comme un système d'élimination aussi important qu'un système d'absorption — et intégrer l'élimination comme une pratique spirituelle quotidienne.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Installation. Observer l'état du corps : pesanteur, légèreté, vitalité, fatigue." },
+            { "time":  "5:00 — 18:00\", \"title\":  \"Les quatre émonctoires\", \"content\":  \"Intestin, reins, foie/bile, peau/poumons : rôle, signes de saturation, soutien simple." },
+            { "time":  "18:00 — 30:00\", \"title\":  \"Signes d'un terrain saturé\", \"content\":  \"Fatigue chronique, tête lourde, peau terne, digestion lente : lire les signaux du corps." },
+            { "time":  "30:00 — 42:00\", \"title\":  \"Protocoles de soutien doux\", \"content\":  \"Eau au réveil, tisanes drainantes, marche, respiration profonde, brossage à sec." },
+            { "time":  "42:00 — 52:00\", \"title\":  \"Pratique guidée\", \"content\":  \"Exercice de respiration abdominale profonde : soutien pulmonaire et lymphatique simultané." },
+            { "time":  "52:00 — 57:00\", \"title\":  \"Carnet\", \"content\":  \"Identifier son émonctoire le plus chargé. Choisir un geste de soutien pour 7 jours." },
+            { "time":  "57:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au souffle. Intention de soutien d'un émonctoire pour la semaine." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : observer pesanteur ou légèreté du corps.",
+            "5–18 min — Les quatre émonctoires : rôles et signes de saturation.",
+            "18–30 min — Lire les signaux d'un terrain surchargé.",
+            "30–42 min — Protocoles de soutien doux et naturels.",
+            "42–52 min — Pratique : respiration abdominale profonde.",
+            "52–57 min — Carnet : identifier et choisir un geste de soutien.",
+            "57–60 min — Clôture : intention pour la semaine."
+        ],
+        "teaching":  {
+            "intro":  "Le corps élimine en permanence. Cette élimination est aussi vitale que l'absorption. Quand les sorties sont encombrées, tout le milieu intérieur se sature. Comprendre et soutenir les émonctoires, c'est entretenir la fluidité du terrain.",
+            "sections":  [
+                {
+                    "title":  "1. L'intestin : première porte",
+                    "content":  "L'intestin est la voie d'élimination la plus volumineuse. Il élimine les résidus alimentaires mais aussi une partie des hormones, des métabolites hépatiques et des bactéries mortes. Un transit lent (moins d'une selle par jour) indique une saturation progressive. Le soutien de base : boire suffisamment d'eau, consommer des fibres (légumes, fruits, légumineuses), marcher 20 minutes par jour et éviter les aliments qui constipent chroniquement (farines blanches, produits laitiers en excès)."
+                },
+                {
+                    "title":  "2. Les reins : filtre continu",
+                    "content":  "Les reins filtrent l'intégralité du sang environ 300 fois par jour, éliminant l'urée, l'acide urique, les sels en excès et une partie des médicaments. Leur soutien principal : l'hydratation suffisante (environ 1,5 à 2 litres d'eau par jour selon l'activité), la réduction des protéines animales en excès (qui génèrent plus d'urée), et certaines plantes douces comme la queue de cerise, la prêle ou le bouleau qui stimulent doucement la diurèse."
+                },
+                {
+                    "title":  "3. Le foie et la bile : le grand chimiste",
+                    "content":  "Le foie est l'organe de transformation central. Il détoxifie les substances étrangères (polluants, médicaments, alcool), neutralise les hormones usées et produit la bile nécessaire à la digestion des graisses. Une bile épaisse ou un foie surchargé se manifestent par une digestion difficile des graisses, des nausées matinales, une fatigue après les repas et une teinte légèrement jaunâtre. Les soutiens naturels : le radis noir, l'artichaut, le chardon-marie, le citron chaud le matin, et la réduction temporaire des graisses cuites en excès."
+                },
+                {
+                    "title":  "4. La peau et les poumons : émonctoires oubliés",
+                    "content":  "La peau élimine par la transpiration une partie des déchets que les reins et l'intestin ne parviennent pas à traiter seuls. Une peau terne, sèche, avec des éruptions récurrentes peut signaler une surcharge rénale ou intestinale. Soutenir la peau : brossage à sec avant la douche, sauna ou bain chaud hebdomadaire, exercice physique suffisant pour transpirer légèrement. Les poumons, quant à eux, éliminent le CO2 et une partie des acides volatils. Une respiration chroniquement superficielle est une élimination insuffisante."
+                },
+                {
+                    "title":  "5. La lymphe : le transport silencieux",
+                    "content":  "La lymphe est le système de drainage qui récupère les déchets cellulaires dans les espaces interstitiels et les achemine vers les ganglions lymphatiques puis vers le sang. Contrairement au sang, la lymphe n'a pas de pompe propre : elle circule grâce aux contractions musculaires et à la respiration. Un mode de vie sédentaire génère une stagnation lymphatique (membres lourds, gonflements). Les remèdes : marcher, rebondir légèrement (mini-trampoline), respirer profondément, et les massages doux en direction du cœur."
+                }
+            ]
+        },
+        "practice":  "Choisir un émonctoire à soutenir pendant 7 jours. Pratiquer chaque matin : un grand verre d'eau tiède au réveil (reins), 10 minutes de marche (lymphe et intestin), 5 respirations abdominales profondes (poumons). En fin de journée, noter dans le carnet l'état d'énergie, de légèreté ou de pesanteur. Observer si un signe de saturation s'allège.",
         "image":  "assets/course-visuals-premium/C011-emonctoires-intestins-reins-foie-lymphe.svg",
         "pdf":  "assets/cours-pdf/C011-emonctoires-intestins-reins-foie-lymphe.pdf",
         "tags":  [
-                     "Terrain vivant \u0026 alimentation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Terrain vivant & alimentation",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C012-rh-ph-et-resistivite-boussole-du-terrain",
         "number":  12,
         "familyId":  "terrain",
-        "familyTitle":  "Terrain vivant \u0026 alimentation",
+        "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
         "title":  "rH², pH et résistivité : boussole du terrain",
-        "subtitle":  "Temple propre, eau, rH², émonctoires",
+        "subtitle":  "Mesurer l'invisible pour orienter la pratique",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : rH², pH et résistivité : boussole du terrain. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Préparer le corps par l’alimentation, l’eau, les minéraux, les temps sans manger et les sorties naturelles du terrain.",
-        "practice":  "Préparer un verre d’eau, respirer lentement, observer l’état du corps, noter le terrain avant et après. L’objectif est de rendre le corps plus lisible, plus conducteur et moins saturé.",
+        "kind":  "Enseignement & auto-diagnostic",
+        "status":  "available",
+        "summary":  "Découvrir les trois mesures fondamentales du terrain vivant : le pH (acidité ou alcalinité), le rH² (potentiel d'oxydo-réduction) et la résistivité (conductivité électrique). Ces trois paramètres forment une boussole précise pour orienter les choix de santé et de pratique.",
+        "shortSummary":  "pH, rH², résistivité : les trois indicateurs du terrain vivant et comment les interpréter.",
+        "longSummary":  "Le terrain vivant n'est pas une abstraction poétique. Il est mesurable. Trois paramètres biochimiques permettent de le quantifier avec précision : le pH des fluides (qui indique leur degré d'acidité ou d'alcalinité), le rH² (qui mesure le potentiel d'oxydo-réduction, c'est-à-dire l'état d'oxydation ou de réduction des tissus), et la résistivité (qui mesure la capacité des fluides à conduire l'électricité biologique). Ces trois mesures, réalisées sur l'urine ou la salive, forment une photographie du terrain à un instant donné. Elles ne remplacent pas un bilan médical mais elles offrent une forme d'auto-observation précise que peu de pratiquants connaissent. Ce cours explique ces paramètres, leur signification et leur lien direct avec la qualité des états méditatifs.",
+        "pedagogicalObjective":  "Comprendre les trois mesures biochimiques du terrain et leur signification pratique pour la qualité de la pratique intérieure.",
+        "initiaticObjective":  "Développer une relation précise et sobre avec son corps — savoir lire ses propres indicateurs plutôt que de s'en remettre aux impressions vagues.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Installation. Observation de l'état de clarté mentale et de vitalité corporelle du moment." },
+            { "time":  "5:00 — 15:00\", \"title\":  \"Le pH : acidité et alcalinité\", \"content\":  \"Qu'est-ce que le pH ? Valeurs normales du corps. Effets d'une acidose chronique sur la pratique." },
+            { "time":  "15:00 — 27:00\", \"title\":  \"Le rH² : potentiel d'oxydo-réduction\", \"content\":  \"Qu'est-ce que le rH² ? Terrain oxydé vs terrain réducteur. Lien avec le vieillissement et la vitalité." },
+            { "time":  "27:00 — 37:00\", \"title\":  \"La résistivité : conducteur ou isolant\", \"content\":  \"La résistivité mesure la conductivité électrique du terrain. Lien avec les minéraux et l'hydratation." },
+            { "time":  "37:00 — 50:00\", \"title\":  \"Pratique : auto-observation guidée\", \"content\":  \"Exercice de lecture corporelle : sans bandelette, observer les signaux corporels de chaque paramètre." },
+            { "time":  "50:00 — 57:00\", \"title\":  \"Carnet\", \"content\":  \"Cartographier son terrain subjectif : noter acidité ressentie, fatigue, clarté, lourdeur ou légèreté." },
+            { "time":  "57:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au souffle, intention d'observer son terrain pendant 7 jours." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : clarté mentale et vitalité du moment.",
+            "5–15 min — Le pH : acidité, alcalinité, valeurs normales.",
+            "15–27 min — Le rH² : oxydo-réduction et vitalité.",
+            "27–37 min — La résistivité : conductivité électrique du corps.",
+            "37–50 min — Pratique : auto-observation corporelle des trois paramètres.",
+            "50–57 min — Carnet : cartographie subjective du terrain.",
+            "57–60 min — Clôture : observer son terrain pendant 7 jours."
+        ],
+        "teaching":  {
+            "intro":  "Le terrain vivant n'est pas une métaphore. Il est mesurable, modifiable et directement lié à la qualité des états intérieurs. Trois indicateurs permettent de le lire avec précision. Ce cours les explique clairement et propose une lecture corporelle de ces paramètres sans matériel.",
+            "sections":  [
+                {
+                    "title":  "1. Le pH : l'acidité du milieu",
+                    "content":  "Le pH mesure la concentration en ions hydrogène d'un fluide. Sur une échelle de 0 à 14, le chiffre 7 est neutre. En dessous, le milieu est acide ; au-dessus, il est alcalin. Les fluides du corps sain ont des pH précis : le sang doit rester entre 7,35 et 7,45 (légèrement alcalin) sous peine de perturbations graves. L'urine, elle, peut varier entre 5,5 et 7,5 selon l'alimentation et l'état de santé. Une urine chroniquement acide (pH < 6) peut indiquer une surcharge acide, souvent liée à un excès de protéines animales, de sucres industriels ou de stress chronique."
+                },
+                {
+                    "title":  "2. Le rH² : terrain oxydé ou réducteur ?",
+                    "content":  "Le rH² est le potentiel d'oxydo-réduction du terrain. Il mesure la tendance des tissus à céder ou à capter des électrons libres. Un rH² élevé (>28) indique un terrain oxydé — vieilli, fatigué, inflammatoire. Un rH² bas (<20) indique un terrain réducteur — qui peut sembler énergique mais peut manquer d'oxygénation. La valeur optimale se situe entre 22 et 26. Les antioxydants alimentaires (vitamine C, polyphénols, astaxanthine) contribuent à réduire l'oxydation. L'exercice physique modéré et régulier le maintient en équilibre."
+                },
+                {
+                    "title":  "3. La résistivité : conducteur ou isolant ?",
+                    "content":  "La résistivité mesure la capacité d'un fluide à conduire l'électricité. Un terrain bien minéralisé et hydraté est un bon conducteur électrique (résistivité faible). Un terrain déshydraté, pauvre en minéraux ou saturé en substances isolantes présente une résistivité élevée. Dans un corps à résistivité élevée, les signaux bioélectriques — qui sont à la base de toute transmission nerveuse — peinent à se propager. La conductivité optimale dépend directement de la qualité de l'eau bue et de la présence de minéraux ionisés (électrolytes)."
+                },
+                {
+                    "title":  "4. Les trois mesures ensemble",
+                    "content":  "Ces trois paramètres forment un triangle. Un terrain peut avoir un pH correct mais un rH² élevé — oxydé malgré une alcalinité apparente. Il peut avoir une résistivité faible (bien minéralisé) mais un rH² trop haut si les antioxydants sont absents. C'est la combinaison des trois qui dessine le portrait fidèle du terrain. Sans bandelettes de mesure, on peut commencer par l'observation subjective : fatigue chronique → terrain oxydé probable ; tête lourde et digestion lente → pH acide probable ; sécheresse cutanée et crampes → minéralisation insuffisante."
+                },
+                {
+                    "title":  "5. Lien avec les états méditatifs",
+                    "content":  "Des études sur des pratiquants réguliers de méditation et de pratiques intérieures montrent une corrélation entre un terrain équilibré (pH 6,8–7,2 urinaire, rH² 22–26, résistivité optimale) et la facilité à entrer dans des états de calme profond. Ce lien n'est pas mystérieux : un corps dont les trois paramètres sont équilibrés est un corps dont les systèmes nerveux, endocrinien et immunitaire fonctionnent sans surcharge — libérant ainsi des ressources pour la conscience et la réceptivité."
+                }
+            ]
+        },
+        "practice":  "Auto-observation corporelle du terrain : pendant 5 jours, noter chaque matin (avant de manger ou boire) : qualité de la bouche (acide, neutre, douce), clarté ou opacité mentale, fatigue ou vitalité, texture et couleur de l'urine (foncée et forte = acidité + déshydratation, claire et abondante = bonne élimination). Construire une cartographie subjective de son terrain sur la semaine.",
         "image":  "assets/course-visuals-premium/C012-rh-ph-et-resistivite-boussole-du-terrain.svg",
         "pdf":  "assets/cours-pdf/C012-rh-ph-et-resistivite-boussole-du-terrain.pdf",
         "tags":  [
-                     "Terrain vivant \u0026 alimentation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Terrain vivant & alimentation",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C013-electrolytes-sel-complet-et-conductivite",
         "number":  13,
         "familyId":  "terrain",
-        "familyTitle":  "Terrain vivant \u0026 alimentation",
+        "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
         "title":  "Électrolytes, sel complet et conductivité",
-        "subtitle":  "Temple propre, eau, rH², émonctoires",
+        "subtitle":  "La minéralisation comme fondation de la transmission intérieure",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : Électrolytes, sel complet et conductivité. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Préparer le corps par l’alimentation, l’eau, les minéraux, les temps sans manger et les sorties naturelles du terrain.",
-        "practice":  "Préparer un verre d’eau, respirer lentement, observer l’état du corps, noter le terrain avant et après. L’objectif est de rendre le corps plus lisible, plus conducteur et moins saturé.",
+        "kind":  "Enseignement & intégration pratique",
+        "status":  "available",
+        "summary":  "Comprendre le rôle des électrolytes dans la transmission des signaux biologiques et énergétiques. Découvrir pourquoi le sel complet est bien plus qu'un condiment et comment la minéralisation du corps est la condition de sa conductivité.",
+        "shortSummary":  "Électrolytes et sel complet : le fondement ionique de la conductivité du terrain vivant.",
+        "longSummary":  "Le corps humain est traversé en permanence par des courants électriques biologiques : influx nerveux, potentiels d'action, signaux hormonaux électrochimiques. Ces courants n'existent que grâce aux ions dissous dans les fluides du corps — ce que l'on appelle les électrolytes. Sans électrolytes en quantité et en proportion suffisantes, aucune transmission n'est possible : ni la contraction musculaire, ni la signalisation neuronale, ni la réception de signaux subtils. Les principaux électrolytes sont le sodium, le potassium, le magnésium, le calcium, le chlore et le phosphore. Ils sont naturellement présents dans un sel complet non raffiné, dans les légumes et les fruits frais, et dans certaines eaux minérales. Ce cours explore leur rôle, leur source et la manière de maintenir un équilibre électrolytique optimal pour la pratique.",
+        "pedagogicalObjective":  "Comprendre le rôle des électrolytes et identifier les sources alimentaires qui soutiennent la conductivité du terrain.",
+        "initiaticObjective":  "Percevoir la minéralisation du corps comme une condition de la réceptivité — non pas un détail nutritionnel mais un fondement de la vie intérieure.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Installation. Observer l'état de clarté et de tonicité musculaire." },
+            { "time":  "5:00 — 15:00\", \"title\":  \"Les électrolytes : ions et courants\", \"content\":  \"Qu'est-ce qu'un électrolyte ? Comment les ions créent les courants biologiques." },
+            { "time":  "15:00 — 28:00\", \"title\":  \"Les principaux électrolytes\", \"content\":  \"Sodium, potassium, magnésium, calcium : rôles distincts et complémentaires." },
+            { "time":  "28:00 — 38:00\", \"title\":  \"Le sel complet vs le sel industriel\", \"content\":  \"Différences de composition, de traçabilité minérale, d'effets sur le terrain." },
+            { "time":  "38:00 — 50:00\", \"title\":  \"Pratique : eau minéralisée consciente\", \"content\":  \"Préparer une eau légèrement minéralisée avec une pincée de sel gris et boire en observant les effets." },
+            { "time":  "50:00 — 57:00\", \"title\":  \"Carnet\", \"content\":  \"Identifier les signes d'un déséquilibre électrolytique : crampes, tremblements, fatigue, maux de tête." },
+            { "time":  "57:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au souffle, intention de soutenir sa minéralisation cette semaine." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : clarté et tonicité musculaire.",
+            "5–15 min — Les électrolytes : ions, courants et transmission.",
+            "15–28 min — Sodium, potassium, magnésium, calcium : rôles distincts.",
+            "28–38 min — Sel complet vs sel industriel.",
+            "38–50 min — Pratique : eau minéralisée consciente.",
+            "50–57 min — Carnet : identifier les signes d'un déséquilibre.",
+            "57–60 min — Clôture : soutenir sa minéralisation."
+        ],
+        "teaching":  {
+            "intro":  "La transmission nerveuse est une affaire d'ions. Sans les bons minéraux en solution dans les bons fluides, aucun signal ne circule correctement — ni les signaux ordinaires, ni les plus subtils. La minéralisation n'est pas un luxe nutritionnel : c'est la base électrique du corps vivant.",
+            "sections":  [
+                {
+                    "title":  "1. Qu'est-ce qu'un électrolyte ?",
+                    "content":  "Un électrolyte est une substance qui, dissoute dans l'eau, se dissocie en ions chargés électriquement (positifs ou négatifs). Ces ions permettent à l'eau de conduire l'électricité. Dans le corps, les électrolytes sont indispensables à toute transmission électrochimique : contraction musculaire, influx nerveux, régulation du pH, équilibre hydrique entre les cellules. Leur concentration dans le sang est régulée avec une précision extrême par les reins."
+                },
+                {
+                    "title":  "2. Les électrolytes clés",
+                    "content":  "Le sodium régule le volume des fluides extracellulaires et la pression osmotique. Le potassium est l'électrolyte dominant à l'intérieur des cellules — sa concentration intracellulaire détermine le potentiel de membrane. Le magnésium intervient dans plus de 300 réactions enzymatiques, dont la synthèse d'ATP (énergie cellulaire) et la relaxation musculaire. Le calcium est essentiel à la contraction musculaire, à la signalisation neuronale et à la coagulation. Tous ces électrolytes fonctionnent ensemble, dans des équilibres précis."
+                },
+                {
+                    "title":  "3. Le sel complet : une palette minérale",
+                    "content":  "Le sel marin non raffiné gris (sel de Guérande ou équivalent) est très différent du sel industriel blanc. Le sel industriel est du chlorure de sodium pur à 99,9%, additionné d'anti-agglomérants chimiques. Le sel complet contient 84 minéraux et oligo-éléments en proportions naturelles. En petites quantités (3 à 5 g par jour au maximum), il apporte une palette minérale que l'alimentation moderne ne fournit souvent plus. Ce n'est pas une recommandation de consommer plus de sel — c'est une recommandation de choisir un sel qui apporte autre chose que du sodium seul."
+                },
+                {
+                    "title":  "4. Le magnésium : le minéral de la pratique",
+                    "content":  "Le magnésium mérite une attention particulière dans le contexte de la pratique intérieure. Il est impliqué dans la régulation du système nerveux, la qualité du sommeil, la gestion du stress et la détente musculaire. Une carence (très commune dans les sociétés occidentales) se manifeste par de l'anxiété, des crampes nocturnes, une fatigue persistante et une hypersensibilité aux bruits ou aux lumières. Les meilleures sources alimentaires : le cacao brut, les oléagineux (amandes, noix du Brésil), les légumineuses et les légumes à feuilles vertes."
+                },
+                {
+                    "title":  "5. L'équilibre sodium-potassium",
+                    "content":  "La pompe sodium-potassium est le mécanisme cellulaire qui maintient la différence de potentiel électrique entre l'intérieur et l'extérieur de chaque cellule. Cette différence de potentiel — environ 70 millivolts — est la condition de chaque influx nerveux. L'alimentation moderne est souvent hypernatrémique (trop de sodium industriel) et hypokaliémique (pas assez de potassium, absent des aliments transformés). Rééquilibrer en augmentant les légumes, les fruits et en réduisant les produits ultra-transformés améliore directement ce rapport."
+                }
+            ]
+        },
+        "practice":  "Préparer chaque matin une boisson minéralisée : 500 ml d'eau de bonne qualité, une pincée de sel gris (moins d'1 g), le jus d'un demi-citron (potassium), une pincée de magnésium marin en poudre si disponible. Boire lentement, avec présence. Observer pendant 5 jours : état d'énergie 1h après, qualité de la concentration en matinée, sensation musculaire. Noter dans le carnet.",
         "image":  "assets/course-visuals-premium/C013-electrolytes-sel-complet-et-conductivite.svg",
         "pdf":  "assets/cours-pdf/C013-electrolytes-sel-complet-et-conductivite.pdf",
         "tags":  [
-                     "Terrain vivant \u0026 alimentation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Terrain vivant & alimentation",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C014-jeune-juste-et-temps-sans-manger",
         "number":  14,
         "familyId":  "terrain",
-        "familyTitle":  "Terrain vivant \u0026 alimentation",
+        "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
         "title":  "Jeûne juste et temps sans manger",
-        "subtitle":  "Temple propre, eau, rH², émonctoires",
+        "subtitle":  "Les fenêtres de clarification : comprendre le jeûne comme pratique",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : Jeûne juste et temps sans manger. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Préparer le corps par l’alimentation, l’eau, les minéraux, les temps sans manger et les sorties naturelles du terrain.",
-        "practice":  "Préparer un verre d’eau, respirer lentement, observer l’état du corps, noter le terrain avant et après. L’objectif est de rendre le corps plus lisible, plus conducteur et moins saturé.",
+        "kind":  "Enseignement & mise en pratique progressive",
+        "status":  "available",
+        "summary":  "Explorer le jeûne et les temps sans manger comme outils de clarification du terrain — non comme mortification mais comme nettoyage naturel. Comprendre les mécanismes biologiques et trouver le format juste pour chaque corps.",
+        "shortSummary":  "Jeûne intermittent, fenêtres alimentaires, jeûne d'une journée : comprendre et pratiquer le temps sans manger.",
+        "longSummary":  "Le jeûne n'est pas une privation : c'est une forme d'écoute du corps. Tous les systèmes vivants ont besoin de temps sans apport pour se nettoyer, se réparer et se renouveler. L'autophagie — processus par lequel les cellules recyclent leurs propres composants défectueux — ne s'active pleinement qu'en l'absence de nourriture pendant plusieurs heures. Les fenêtres alimentaires (manger sur une plage de 8 à 10 heures puis jeûner 14 à 16 heures) permettent d'activer ces processus de nettoyage quotidiennement, sans effort excessif. Des jeûnes d'une journée, pratiqués occasionnellement (une à deux fois par mois), approfondissent ce nettoyage et produisent souvent une clarté mentale remarquable qui soutient la pratique intérieure. Ce cours explore les mécanismes, les formats et les précautions.",
+        "pedagogicalObjective":  "Comprendre les mécanismes biologiques du jeûne et identifier un format adapté à sa constitution et à sa pratique.",
+        "initiaticObjective":  "Vivre le temps sans manger comme un espace de clarté — non comme une contrainte mais comme une invitation à la légèreté et à la réceptivité.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Installation. Prendre conscience de l'état de l'estomac : plein, à demi-digéré, léger, vide." },
+            { "time":  "5:00 — 18:00\", \"title\":  \"Pourquoi jeûner ?\", \"content\":  \"Autophagie, nettoyage cellulaire, libération d'énergie, clarté mentale : les mécanismes scientifiques." },
+            { "time":  "18:00 — 30:00\", \"title\":  \"Les formats du jeûne\", \"content\":  \"Fenêtre alimentaire (16/8), jeûne d'une journée, jeûne au sec : avantages et précautions de chacun." },
+            { "time":  "30:00 — 40:00\", \"title\":  \"Ce que l'on ressent\", \"content\":  \"Traverser la faim, distinguer la faim réelle de la faim émotionnelle ou de l'habitude." },
+            { "time":  "40:00 — 52:00\", \"title\":  \"Pratique guidée\", \"content\":  \"Si l'estomac est vide : explorer en conscience l'état de légèreté. Respiration douce, observation intérieure." },
+            { "time":  "52:00 — 57:00\", \"title\":  \"Carnet\", \"content\":  \"Identifier son rapport au jeûne et à la faim. Choisir un format à essayer cette semaine." },
+            { "time":  "57:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au souffle. Intention d'un format de jeûne à expérimenter cette semaine." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : état de l'estomac et niveau d'énergie.",
+            "5–18 min — Pourquoi jeûner : autophagie et nettoyage cellulaire.",
+            "18–30 min — Les formats du jeûne : fenêtre alimentaire, journée, sec.",
+            "30–40 min — Traverser la faim : réelle, émotionnelle ou habitude.",
+            "40–52 min — Pratique : explorer l'état de légèreté à jeun.",
+            "52–57 min — Carnet : rapport au jeûne, choix d'un format.",
+            "57–60 min — Clôture : intention d'expérimentation."
+        ],
+        "teaching":  {
+            "intro":  "Tout système vivant a besoin de pauses. Les cellules se réparent quand l'apport s'arrête. La clarté mentale s'installe quand la digestion se repose. Le jeûne n'est pas une discipline de privation : c'est une invitation à la légèreté.",
+            "sections":  [
+                {
+                    "title":  "1. L'autophagie : le nettoyage cellulaire",
+                    "content":  "L'autophagie est le processus par lequel les cellules recyclent et dégradent leurs propres composants défectueux ou inutiles. Elle est essentielle à la régénération cellulaire, à la prévention du vieillissement prématuré et au bon fonctionnement du système immunitaire. Ce processus s'active principalement lorsque les taux d'insuline et de glucose sanguin sont bas — c'est-à-dire lors des périodes de jeûne. Un simple jeûne de 16 heures active significativement l'autophagie dans la plupart des tissus."
+                },
+                {
+                    "title":  "2. La fenêtre alimentaire (16/8)",
+                    "content":  "Le format le plus accessible est la fenêtre alimentaire : manger normalement sur une plage de 8 heures (par exemple entre 11h et 19h) et s'abstenir de toute nourriture — mais pas d'eau — pendant les 16 heures restantes. Ce format est compatible avec une vie ordinaire, n'implique pas de privation excessive et active quotidiennement les processus de nettoyage. Pour commencer, on peut débuter avec une fenêtre de 12 heures et réduire progressivement jusqu'à 16 heures selon le confort."
+                },
+                {
+                    "title":  "3. Le jeûne d'une journée",
+                    "content":  "Un jeûne complet d'une journée (24 à 36 heures sans nourriture, uniquement de l'eau) pratiqué une à deux fois par mois produit des effets plus profonds : réinitialisation de la flore intestinale, approfondissement de l'autophagie, libération de kétones cérébraux qui favorisent la clarté mentale. Les premières expériences peuvent être inconfortables (fatigue, irritabilité, légères nausées) — des signes normaux du processus de nettoyage. La clarté qui arrive souvent au deuxième jour en est la récompense."
+                },
+                {
+                    "title":  "4. La faim réelle et la faim émotionnelle",
+                    "content":  "L'une des expériences les plus formatives du jeûne est d'apprendre à distinguer la faim réelle de la faim émotionnelle ou de l'habitude. La vraie faim est un signal physiologique progressif, rarement urgent. Elle est souvent accompagnée d'une clarté mentale plutôt que d'une agitation. La faim émotionnelle est brusque, liée à un état intérieur (ennui, anxiété, tristesse) et tend à cibler des aliments spécifiques (sucrés, gras). Jeûner permet de rencontrer cette distinction directement, dans le corps, sans théorie."
+                },
+                {
+                    "title":  "5. Précautions et contre-indications",
+                    "content":  "Le jeûne n'est pas universel. Il est déconseillé aux personnes souffrant de troubles alimentaires, de diabète de type 1, de grossesse ou d'allaitement, de certaines maladies chroniques et aux personnes sous traitement médical nécessitant une prise alimentaire. Il est toujours préférable de commencer progressivement (fenêtre alimentaire avant le jeûne d'une journée) et de ne jamais pratiquer sous pression sociale ou idéologique. Le juste jeûne est celui que le corps accepte avec aisance, non celui que l'ego impose."
+                }
+            ]
+        },
+        "practice":  "Explorer la fenêtre alimentaire 14/10 pendant 5 jours : ne rien manger avant 10h et après 20h. Boire de l'eau ou des tisanes non sucrées en dehors de cette fenêtre. Chaque matin, avant le premier repas, noter dans le carnet : état mental (clair, brumeux, neutre), énergie physique (vive, stable, fatiguée), rapport à la faim (absent, présent, pressant). Observer si la clarté matinale augmente au fil des jours.",
         "image":  "assets/course-visuals-premium/C014-jeune-juste-et-temps-sans-manger.svg",
         "pdf":  "assets/cours-pdf/C014-jeune-juste-et-temps-sans-manger.pdf",
         "tags":  [
-                     "Terrain vivant \u0026 alimentation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Terrain vivant & alimentation",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C015-recettes-de-clarification-avant-pratique",
         "number":  15,
         "familyId":  "terrain",
-        "familyTitle":  "Terrain vivant \u0026 alimentation",
+        "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
         "title":  "Recettes de clarification avant pratique",
-        "subtitle":  "Temple propre, eau, rH², émonctoires",
+        "subtitle":  "Préparer le milieu intérieur avant chaque séance",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : Recettes de clarification avant pratique. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Préparer le corps par l’alimentation, l’eau, les minéraux, les temps sans manger et les sorties naturelles du terrain.",
-        "practice":  "Préparer un verre d’eau, respirer lentement, observer l’état du corps, noter le terrain avant et après. L’objectif est de rendre le corps plus lisible, plus conducteur et moins saturé.",
+        "kind":  "Enseignement & protocoles concrets",
+        "status":  "available",
+        "summary":  "Découvrir des protocoles simples et concrets pour préparer le terrain avant une séance de pratique intérieure : hydratation, léger jeûne pré-séance, boisson minéralisée, tisanes drainantes. Des recettes pratiques qui transforment la préparation physique en rituel de clarification.",
+        "shortSummary":  "Protocoles concrets pour préparer le terrain avant la pratique : boissons, jeûne pré-séance, hydratation.",
+        "longSummary":  "Chaque séance de pratique intérieure peut être précédée d'un rituel de préparation physique qui améliore significativement la qualité des états accessibles. Ces préparations ne sont pas des exigences contraignantes mais des gestes sensés : ne pas manger lourd dans les deux heures qui précèdent, boire un verre d'eau, pratiquer quelques respirations profondes pour décharger la tension accumulée. Ce cours va plus loin et propose des recettes précises : boissons minéralisées adaptées à l'heure de la journée et à l'état du terrain, tisanes ciblées selon l'émonctoire à soutenir, protocoles de respiration pré-séance, et petits rituels de transition qui signalent au corps que le mode ordinaire va laisser la place à un mode de réceptivité élargie.",
+        "pedagogicalObjective":  "Acquérir un répertoire de gestes concrets pour préparer le terrain avant une séance et comprendre la logique de chacun.",
+        "initiaticObjective":  "Transformer la préparation physique en rituel conscient — faire de la transition vers la pratique un acte aussi signifiant que la pratique elle-même.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"S'asseoir et observer l'état réel du corps et du mental en ce moment. Aucun jugement." },
+            { "time":  "5:00 — 18:00\", \"title\":  \"La logique de la préparation\", \"content\":  \"Pourquoi préparer le terrain change la qualité de la pratique : physiologie et expérience." },
+            { "time":  "18:00 — 32:00\", \"title\":  \"Les recettes de clarification\", \"content\":  \"Boissons minéralisées, tisanes drainantes, eau citronnée, infusions de plantes selon le besoin." },
+            { "time":  "32:00 — 44:00\", \"title\":  \"La respiration pré-séance\", \"content\":  \"Protocole de 5 minutes de respiration qui nettoie le CO2, détend le diaphragme et prépare le système nerveux." },
+            { "time":  "44:00 — 52:00\", \"title\":  \"Pratique intégrée\", \"content\":  \"Mettre en œuvre une préparation complète : boire, respirer, observer, formuler une intention." },
+            { "time":  "52:00 — 57:00\", \"title\":  \"Carnet\", \"content\":  \"Choisir sa recette de clarification personnelle et la noter pour en faire un rituel régulier." },
+            { "time":  "57:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au souffle. Intention de préparer le terrain avant la prochaine séance." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : observer l'état réel du moment.",
+            "5–18 min — La logique de la préparation physique.",
+            "18–32 min — Les recettes de clarification : boissons et tisanes.",
+            "32–44 min — Respiration pré-séance : protocole de 5 minutes.",
+            "44–52 min — Pratique intégrée : boisson, souffle, intention.",
+            "52–57 min — Carnet : créer son rituel de clarification personnel.",
+            "57–60 min — Clôture : intention pour la prochaine séance."
+        ],
+        "teaching":  {
+            "intro":  "La qualité d'une séance commence avant la séance. Ce que le corps porte dans les heures qui précèdent détermine en grande partie ce qui sera accessible pendant la pratique. Des gestes simples, répétés, conscients font de la préparation un acte de clarification en soi.",
+            "sections":  [
+                {
+                    "title":  "1. La règle des deux heures",
+                    "content":  "Pratiquer à moins de deux heures d'un repas lourd revient à pratiquer dans un corps dont la moitié de l'énergie nerveuse est mobilisée par la digestion. Le système nerveux entérique (intestinal) consomme autant d'énergie que le cerveau pendant une digestion active. Éviter les repas lourds dans les deux heures précédant une séance est la première recette de clarification — simple, gratuite et immédiatement efficace."
+                },
+                {
+                    "title":  "2. La boisson minéralisée de préparation",
+                    "content":  "Un verre d'eau (300 ml) avec une pincée de sel gris complet (sodium, magnésium, trace de potassium), quelques gouttes de jus de citron (alcalinisant) et, si disponible, une pincée de silice végétale (prêle) constitue une préparation minérale optimale. Cette boisson hydrate rapidement, équilibre légèrement le pH, apporte des électrolytes immédiatement disponibles et prépare le milieu intérieur à la conductivité. À prendre 20 à 30 minutes avant la séance."
+                },
+                {
+                    "title":  "3. Les tisanes ciblées",
+                    "content":  "Certaines plantes préparent le terrain de manière ciblée : la menthe poivrée stimule légèrement et clarifie le mental pour une pratique diurne. La camomille détend le système nerveux pour une pratique vespérale. Le thym purifie les voies respiratoires et soutient les poumons. La prêle reminéralise et soutient les reins. Ces tisanes, consommées sans sucre, constituent des préparations simples et efficaces. L'essentiel est de les choisir en fonction de l'état du moment, non par habitude."
+                },
+                {
+                    "title":  "4. La respiration pré-séance",
+                    "content":  "Cinq minutes de respiration consciente avant une séance transforment l'état du système nerveux. Le protocole : s'asseoir, dos libre, yeux mi-clos. Inspirer par le nez sur 4 temps, souffler par la bouche sur 6 temps. Répéter 10 fois. Ensuite, laisser la respiration revenir naturelle pendant 2 minutes. Ce simple protocole active le nerf vague, bascule le système nerveux en mode parasympathique (repos, réceptivité) et décharge le CO2 accumulé par le stress de la journée. Le corps est alors prêt."
+                },
+                {
+                    "title":  "5. Le geste de transition",
+                    "content":  "Un geste physique simple, répété avant chaque séance, devient un signal que le corps reconnaît et qui déclenche un changement d'état. Ce peut être : se laver les mains à l'eau froide, allumer une bougie, s'asseoir toujours au même endroit, prononcer intérieurement une phrase d'intention. La répétition de ce geste crée une association neuro-comportementale : le corps commence à basculer dans le mode de réceptivité dès que le geste est effectué. Ce conditionnement positif est un outil précieux."
+                }
+            ]
+        },
+        "practice":  "Créer son rituel de clarification personnel en 4 étapes : (1) Choisir une boisson (eau minéralisée ou tisane adaptée). (2) Choisir un geste de transition (se laver les mains, allumer une bougie, formuler une intention). (3) Pratiquer 5 minutes de respiration pré-séance. (4) Rester 1 minute dans le silence avant de commencer. Pratiquer ce rituel avant chaque séance pendant 21 jours et noter dans le carnet si la qualité des états accessibles évolue.",
         "image":  "assets/course-visuals-premium/C015-recettes-de-clarification-avant-pratique.svg",
         "pdf":  "assets/cours-pdf/C015-recettes-de-clarification-avant-pratique.pdf",
         "tags":  [
-                     "Terrain vivant \u0026 alimentation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Terrain vivant & alimentation",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C016-protocole-terrain-de-sept-jours",
         "number":  16,
         "familyId":  "terrain",
-        "familyTitle":  "Terrain vivant \u0026 alimentation",
+        "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
         "title":  "Protocole terrain de sept jours",
-        "subtitle":  "Temple propre, eau, rH², émonctoires",
+        "subtitle":  "Une semaine pour transformer le milieu intérieur",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : Protocole terrain de sept jours. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Préparer le corps par l’alimentation, l’eau, les minéraux, les temps sans manger et les sorties naturelles du terrain.",
-        "practice":  "Préparer un verre d’eau, respirer lentement, observer l’état du corps, noter le terrain avant et après. L’objectif est de rendre le corps plus lisible, plus conducteur et moins saturé.",
+        "kind":  "Protocole intégrateur & mise en pratique",
+        "status":  "available",
+        "summary":  "Intégrer l'ensemble des connaissances de la famille Terrain dans un protocole complet de sept jours. Chaque jour apporte un geste, une observation et une intégration. Ce cours est le point d'arrivée et de départ : il boucle le cycle terrain et ouvre le passage vers la famille Lumière.",
+        "shortSummary":  "Protocole de 7 jours pour transformer le terrain : un geste quotidien, une observation, une intégration.",
+        "longSummary":  "Les sept cours précédents ont posé les fondements : qu'est-ce qu'un terrain vivant, comment nourrir sans alourdir, comment soutenir les émonctoires, comment lire le pH et le rH², comment minéraliser et conduire, comment jeûner justement, comment préparer le terrain avant la pratique. Ce huitième cours les intègre dans un protocole cohérent et progressif de sept jours, un jour par thème de la famille. Chaque jour porte un geste principal, une observation guidée et une réflexion de carnet. L'ensemble forme une semaine de transformation douce qui améliore sensiblement la qualité du milieu intérieur et prépare le corps à recevoir les enseignements de la famille Lumière — la prochaine étape du parcours.",
+        "pedagogicalObjective":  "Intégrer les sept thèmes de la famille Terrain dans une pratique concrète de sept jours.",
+        "initiaticObjective":  "Faire l'expérience directe que le travail sur le milieu intérieur transforme la qualité de la conscience disponible — et que cette transformation est reproductible, mesurable et sous notre responsabilité.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Bilan de l'état du terrain après les 7 cours précédents. Que s'est-il transformé ? Qu'est-ce qui reste à clarifier ?" },
+            { "time":  "5:00 — 20:00\", \"title\":  \"Le protocole jour par jour\", \"content\":  \"Présentation des 7 jours : jour 1 eau, jour 2 alimentation, jour 3 émonctoires, jour 4 mesures, jour 5 minéraux, jour 6 jeûne, jour 7 préparation." },
+            { "time":  "20:00 — 32:00\", \"title\":  \"Comment tenir le carnet du protocole\", \"content\":  \"Structure quotidienne : noter le matin (état), le midi (observation), le soir (bilan). Ce que l'on cherche à voir." },
+            { "time":  "32:00 — 45:00\", \"title\":  \"Les effets attendus et inattendus\", \"content\":  \"Ce que produit une semaine de travail de terrain : clarté mentale, meilleur sommeil, pratiques plus profondes." },
+            { "time":  "45:00 — 55:00\", \"title\":  \"Pratique : lancer le jour 1\", \"content\":  \"Mise en pratique immédiate du premier geste du protocole : eau consciente, observation, carnet." },
+            { "time":  "55:00 — 57:00\", \"title\":  \"Carnet\", \"content\":  \"Formuler une intention pour les 7 jours à venir. Ce que l'on cherche à observer et à transformer." },
+            { "time":  "57:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au souffle. Engagement intérieur pour la semaine du terrain." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : bilan après les 7 cours précédents.",
+            "5–20 min — Présentation du protocole 7 jours.",
+            "20–32 min — Tenir le carnet du protocole : structure quotidienne.",
+            "32–45 min — Effets attendus : clarté, sommeil, pratique améliorée.",
+            "45–55 min — Pratique : lancer le jour 1 du protocole.",
+            "55–57 min — Carnet : intention pour les 7 jours.",
+            "57–60 min — Clôture : engagement intérieur."
+        ],
+        "teaching":  {
+            "intro":  "Un terrain se transforme en 7 jours de pratique consciente. Ce n'est pas une promesse magique : c'est la durée minimale pour que des gestes quotidiens répétés créent des changements mesurables dans le milieu intérieur. Ce protocole intègre tout ce qui a été appris dans cette famille.",
+            "sections":  [
+                {
+                    "title":  "1. Jour 1 — L'eau consciente",
+                    "content":  "Boire 1,5 à 2 litres d'eau de qualité (faible résidu sec) tout au long de la journée, entre les repas. Observer : clarté mentale, qualité de la concentration, sensation dans le corps. Matin : boire un grand verre d'eau tiède avant tout aliment. Carnet du soir : état de légèreté ou de pesanteur, qualité de l'urine (couleur, odeur), clarté au réveil le lendemain."
+                },
+                {
+                    "title":  "2. Jour 2 — Alimentation vivante",
+                    "content":  "Augmenter la proportion d'aliments crus ou légèrement cuits à 50% du repas (crudités, fruits, graines germées). Supprimer les produits ultra-transformés pour la journée. Observer : digestion, énergie 2h après les repas, clarté mentale, légèreté ou lourdeur. Carnet du soir : quel aliment a produit le plus de légèreté ? Lequel a pesé ?"
+                },
+                {
+                    "title":  "3. Jour 3 — Soutien des émonctoires",
+                    "content":  "Matin : verre d'eau tiède avec jus de demi-citron (foie). Marche de 20 minutes (lymphe). Tisane de prêle ou queue de cerise (reins). Légumes verts le soir (intestin). Observer l'état général d'élimination : qualité et régularité des selles, couleur et volume de l'urine, sensation de légèreté ou pesanteur en fin de journée."
+                },
+                {
+                    "title":  "4. Jour 4 — Mesures et observation",
+                    "content":  "Observer les trois paramètres du terrain sans bandelette : pH subjectif (goût de la bouche, acidité ressenti), état d'oxydation (fatigue chronique, articulations, clarté visuelle), conductivité (crampes, sécheresse, concentration). Carnet : cartographier l'état du terrain objectivement. Comparer avec le jour 1."
+                },
+                {
+                    "title":  "5. Jours 5-6-7 — Minéraux, jeûne et préparation",
+                    "content":  "Jour 5 : intégrer la boisson minéralisée matin et soir. Observer l'énergie et la tonicité. Jour 6 : pratiquer une fenêtre alimentaire de 14 heures (jeûne nocturne prolongé). Nourrir uniquement dans une fenêtre de 10 heures. Observer la clarté mentale à jeun. Jour 7 : pratiquer le rituel complet de préparation avant une séance intérieure (boisson, respiration, geste de transition, intention). Observer la qualité de la séance comparée aux séances antérieures. Carnet de clôture : qu'est-ce qui a changé en 7 jours ?"
+                }
+            ]
+        },
+        "practice":  "Lancer le protocole des 7 jours immédiatement après ce cours. Tenir un carnet dédié avec pour chaque jour : (matin) état général avant le geste, (soir) observation des effets sur le corps, l'énergie et la clarté mentale. En fin de semaine, rédiger un bilan de 10 lignes : qu'est-ce qui a changé ? Qu'est-ce qui reste à travailler ? Quelle pratique garder quotidiennement ?",
         "image":  "assets/course-visuals-premium/C016-protocole-terrain-de-sept-jours.svg",
         "pdf":  "assets/cours-pdf/C016-protocole-terrain-de-sept-jours.pdf",
         "tags":  [
-                     "Terrain vivant \u0026 alimentation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Terrain vivant & alimentation",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
-    {
-        "id":  "C017-soleil-visible-et-lumiere-interieure",
-        "number":  17,
+        {
+        "id":  "C025-soleil-visible-et-lumiere-interieure",
+        "number":  25,
         "familyId":  "lumiere",
-        "familyTitle":  "Soleil, lumière \u0026 neurosciences",
+        "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
         "title":  "Soleil visible et lumière intérieure",
-        "subtitle":  "Rémanence, attention, rythme circadien",
+        "subtitle":  "La lumière comme porte d'entrée de la pratique intérieure",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : Soleil visible et lumière intérieure. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Comprendre le rôle de la lumière, du soleil, de la prudence visuelle, de la rémanence et des effets sur le système nerveux.",
-        "practice":  "Observer une lumière douce sans forcer, fermer les yeux, accueillir la rémanence, déposer une intention simple puis rester dans le silence intérieur.",
+        "kind":  "Enseignement & exercice de perception",
+        "status":  "available",
+        "summary":  "Découvrir la lumière naturelle comme premier support de la pratique intérieure. Comprendre pourquoi la lumière agit sur le système nerveux et comment l'observation douce d'une source lumineuse peut devenir un exercice de développement de l'attention et de la réceptivité.",
+        "shortSummary":  "La lumière naturelle comme support vivant de la pratique : observer, accueillir, laisser agir.",
+        "longSummary":  "La lumière est le premier outil de la pratique. Avant les techniques élaborées, avant les protocoles précis, il y a ceci : s'asseoir face à une lumière douce, l'observer quelques secondes avec présence, fermer les yeux, et accueillir ce qui se produit dans le champ intérieur. Ce geste simple active des mécanismes neurologiques précis — la rémanence rétinienne, la stimulation du système nerveux central, la synchronisation des rythmes cérébraux avec la perception lumineuse. Ce cours pose le cadre fondamental de toute la famille lumière : qu'est-ce que la lumière intérieure ? Comment en faire un support de pratique ? Quelles précautions absolues respecter ? Et comment ce qui commence comme un exercice de perception peut devenir une porte d'accès à des états de conscience plus clairs et plus vastes.",
+        "pedagogicalObjective":  "Comprendre le lien entre la lumière extérieure et la lumière intérieure, et poser le cadre sécurisé de l'ensemble des pratiques lumineuses.",
+        "initiaticObjective":  "Commencer à percevoir la lumière non comme un objet extérieur mais comme un vecteur de transformation intérieure — disponible, simple et puissant.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Installation, posture, souffle naturel. Rappel des règles de sécurité absolues." },
+            { "time":  "5:00 — 18:00\", \"title\":  \"Lumière extérieure et lumière intérieure\", \"content\":  \"Qu'est-ce que la lumière ? Du photon à la perception. Comment la lumière entre dans le corps et y produit des effets mesurables." },
+            { "time":  "18:00 — 30:00\", \"title\":  \"Le système nerveux et la lumière\", \"content\":  \"Rémanence rétinienne, voies visuelles, connexions avec l'hypothalamus et la glande pinéale. Effets sur les rythmes circadiens." },
+            { "time":  "30:00 — 45:00\", \"title\":  \"Premier exercice de perception lumineuse\", \"content\":  \"Observer une bougie ou une lumière douce indirecte pendant 20-30 secondes. Fermer les yeux. Accueillir la trace intérieure. Observer sans forcer." },
+            { "time":  "45:00 — 52:00\", \"title\":  \"Observation et notation\", \"content\":  \"Qu'avez-vous vu ? Une forme, une couleur, un point lumineux ? L'absence de perception est aussi une observation valide." },
+            { "time":  "52:00 — 57:00\", \"title\":  \"Carnet\", \"content\":  \"Décrire l'expérience sans embellir ni minimiser. Ce que le carnet protège dans cette pratique." },
+            { "time":  "57:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au corps, au souffle, au lieu réel. Formule de fermeture." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : posture, souffle, règles de sécurité.",
+            "5–18 min — Lumière extérieure et intérieure : du photon à la perception.",
+            "18–30 min — Système nerveux et lumière : rémanence, rythmes circadiens.",
+            "30–45 min — Premier exercice de perception lumineuse douce.",
+            "45–52 min — Observation et description de la trace intérieure.",
+            "52–57 min — Carnet : noter sans embellir.",
+            "57–60 min — Clôture et retour au corps."
+        ],
+        "teaching":  {
+            "intro":  "La lumière est la porte la plus accessible de la pratique intérieure. Elle n'exige ni croyance, ni effort particulier, ni technique élaborée. Elle demande seulement de l'attention, de la présence et de la sobriété. Ce cours pose les bases de toute la famille lumière.",
+            "sections":  [
+                {
+                    "title":  "1. Du photon à la perception",
+                    "content":  "La lumière est une forme d'énergie électromagnétique. Quand un photon entre dans l'œil, il frappe les photorécepteurs de la rétine (cônes et bâtonnets), déclenche une cascade chimique qui génère un signal électrique, lequel remonte par le nerf optique vers le cerveau. Ce signal ne s'arrête pas au cortex visuel : il irrigue l'hypothalamus, la glande pinéale, l'amygdale et d'autres structures profondes. La lumière n'est donc pas une information purement visuelle — c'est un signal qui traverse tout le système nerveux central."
+                },
+                {
+                    "title":  "2. La lumière et les rythmes biologiques",
+                    "content":  "L'horloge biologique interne (rythme circadien) est directement synchronisée par la lumière. Les cellules rétiniennes à mélanopsine, distinctes des cônes et bâtonnets, projettent directement vers le noyau suprachiasmatique de l'hypothalamus — le chef d'orchestre du rythme circadien. La lumière du matin (riche en bleu) signale l'éveil et supprime la mélatonine. La lumière douce du soir prépare le sommeil. Dans la pratique, une source lumineuse douce (bougie, lampe tamisée) observée en fin d'après-midi ou en début de soirée peut induire un état neurologique particulièrement réceptif."
+                },
+                {
+                    "title":  "3. La rémanence : une trace active",
+                    "content":  "Lorsqu'on observe une source lumineuse pendant 20 à 30 secondes puis qu'on ferme les yeux, une image persiste dans le champ visuel intérieur. Cette image rémanente n'est pas une simple illusion optique — c'est un état neurologique actif. La rétine sur-stimulée continue de décharger des signaux pendant plusieurs secondes. Le cortex visuel reste actif en l'absence de stimulation extérieure. Cet état est une zone de haute réceptivité : l'attention peut s'y déposer, des images intérieures peuvent y émerger, des états de calme profond peuvent s'y installer."
+                },
+                {
+                    "title":  "4. La lumière intérieure",
+                    "content":  "Toutes les traditions contemplatives, quelle que soit leur origine géographique ou culturelle, font référence à une expérience de lumière intérieure. Non pas une métaphore poétique, mais une perception réelle, subjective, de lumière dans le champ visuel interne avec les yeux fermés. Cette perception — qui peut prendre la forme d'un point lumineux, d'une lueur diffuse, d'un éclat bref ou d'une présence lumineuse stable — est l'un des signes d'un état méditatif profond. Elle n'est pas le but de la pratique : elle en est un signe, un indicateur de profondeur."
+                },
+                {
+                    "title":  "5. Règles absolues de sécurité",
+                    "content":  "L'observation lumineuse requiert un cadre de sécurité strict et non négociable. Premièrement : jamais le soleil direct. Même quelques secondes d'observation solaire directe peuvent causer des dommages rétiniens irréversibles. Deuxièmement : sources uniquement douces — bougie à distance, lampe tamisée, lumière du jour filtrée par un tissu ou un rideau. Troisièmement : durée limitée — 20 à 30 secondes d'observation maximum par série. Quatrièmement : arrêt immédiat en cas de gêne visuelle, larmoiement, douleur, vertige ou maux de tête. Cinquièmement : ne pas pratiquer avec des yeux fatigués, irrités ou en cas de pathologie ophtalmologique connue."
+                }
+            ]
+        },
+        "practice":  "Exercice de première perception lumineuse : allumer une bougie ou une lampe de chevet tamisée dans un lieu calme. S'asseoir à environ 1 mètre de la source. Observer la flamme ou la lumière pendant 20 secondes avec une attention détendue. Fermer les yeux. Accueillir ce qui se produit dans le champ intérieur — sans chercher, sans forcer. Observer pendant 1 à 2 minutes. Ouvrir les yeux doucement. Répéter 2 à 3 fois. Dans le carnet : décrire ce qui a été perçu (formes, couleurs, absence de perception). Répéter chaque jour pendant 7 jours et observer l'évolution.",
         "image":  "assets/course-visuals-premium/C017-soleil-visible-et-lumiere-interieure.svg",
         "pdf":  "assets/cours-pdf/C017-soleil-visible-et-lumiere-interieure.pdf",
         "tags":  [
-                     "Soleil, lumière \u0026 neurosciences",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Soleil, lumière & neurosciences",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C018-prudence-oculaire-et-observation-douce",
-        "number":  18,
+        "id":  "C026-prudence-oculaire-et-observation-douce",
+        "number":  26,
         "familyId":  "lumiere",
-        "familyTitle":  "Soleil, lumière \u0026 neurosciences",
+        "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
         "title":  "Prudence oculaire et observation douce",
-        "subtitle":  "Rémanence, attention, rythme circadien",
+        "subtitle":  "Protéger les yeux pour protéger la pratique",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : Prudence oculaire et observation douce. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Comprendre le rôle de la lumière, du soleil, de la prudence visuelle, de la rémanence et des effets sur le système nerveux.",
-        "practice":  "Observer une lumière douce sans forcer, fermer les yeux, accueillir la rémanence, déposer une intention simple puis rester dans le silence intérieur.",
+        "kind":  "Enseignement & pratique de sécurité",
+        "status":  "available",
+        "summary":  "Apprendre à observer la lumière en toute sécurité. Comprendre l'anatomie de l'œil, les sources de danger, les signes d'alerte et les conditions optimales d'observation. La prudence n'est pas un obstacle à la pratique : elle en est la condition de longévité.",
+        "shortSummary":  "Anatomie de l'œil, sources de danger et conditions d'observation sécurisée : la prudence au service de la pratique.",
+        "longSummary":  "La pratique d'observation lumineuse est puissante. Elle est aussi exigeante sur le plan de la sécurité. Les yeux sont des organes précieux, irremplaçables et dont les dommages sont souvent irréversibles. Ce cours consacre une heure entière à la prudence oculaire — non comme une contrainte mais comme une compétence essentielle du pratiquant. Comprendre comment l'œil fonctionne, quelles sources sont réellement dangereuses, quels signaux d'alerte le corps envoie, et comment choisir les conditions d'observation optimales : telle est la matière de ce cours. Un pratiquant qui comprend la sécurité pratique durablement. Un pratiquant qui la néglige peut tout perdre en quelques secondes.",
+        "pedagogicalObjective":  "Connaître les règles précises de sécurité oculaire et être capable d'évaluer une source lumineuse avant de la pratiquer.",
+        "initiaticObjective":  "Intégrer la prudence comme une vertu active — non pas la peur de l'expérience, mais le respect du corps comme instrument irremplaçable.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Installation. Prendre un moment pour observer la qualité de sa vision : est-elle claire, fatiguée, sensible ?" },
+            { "time":  "5:00 — 18:00\", \"title\":  \"Anatomie de l'œil\", \"content\":  \"Rétine, fovéa, photorécepteurs. Ce qui brûle, ce qui reste, ce qui ne cicatrise pas." },
+            { "time":  "18:00 — 30:00\", \"title\":  \"Sources dangereuses et sources sûres\", \"content\":  \"Classifier les sources lumineuses. Le soleil direct, les lampes LED puissantes, les lasers : dangers absolus. La bougie, la lampe tamisée : conditions sûres." },
+            { "time":  "30:00 — 42:00\", \"title\":  \"Les signaux d'alerte du corps\", \"content\":  \"Larmoiement, photophobie, douleur, taches dans le champ visuel : arrêter immédiatement et que faire après." },
+            { "time":  "42:00 — 52:00\", \"title\":  \"Pratique : évaluation d'une source\", \"content\":  \"Exercice guidé : évaluer la sécurité d'une source lumineuse avant de l'utiliser. Checklist des conditions." },
+            { "time":  "52:00 — 57:00\", \"title\":  \"Carnet\", \"content\":  \"Dresser sa liste personnelle de sources sûres et de sources à éviter absolument." },
+            { "time":  "57:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au souffle, engagement de prudence réaffirmé." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : observer l'état de sa vision.",
+            "5–18 min — Anatomie de l'œil : ce qui brûle et ne cicatrise pas.",
+            "18–30 min — Sources dangereuses vs sources sûres.",
+            "30–42 min — Signaux d'alerte : reconnaître et arrêter.",
+            "42–52 min — Pratique : évaluer une source avant d'observer.",
+            "52–57 min — Carnet : liste personnelle de sources sûres.",
+            "57–60 min — Clôture : engagement de prudence."
+        ],
+        "teaching":  {
+            "intro":  "La vue est irremplaçable. Les dommages rétiniens sont permanents. Ce cours ne freine pas la pratique — il la rend possible sur la durée. La prudence est ici une compétence, pas une peur.",
+            "sections":  [
+                {
+                    "title":  "1. L'œil : un organe précis et vulnérable",
+                    "content":  "La rétine est le tissu sensible à la lumière tapissant l'intérieur du fond de l'œil. Elle contient environ 120 millions de bâtonnets (vision nocturne en noir et blanc) et 6 millions de cônes (vision diurne en couleurs). La zone la plus dense en cônes, la fovéa, est responsable de la vision nette centrale. Cette zone est aussi la plus vulnérable : une surexposition lumineuse y crée des lésions irréversibles appelées scotomes — des taches permanentes dans le champ visuel, sans traitement possible. La rétine n'a aucune cellule nerveuse sensible à la douleur : on peut la brûler sans le sentir immédiatement."
+                },
+                {
+                    "title":  "2. Le mécanisme de la brûlure rétinienne",
+                    "content":  "La lumière concentrée (soleil direct, faisceau laser, arc électrique) génère de la chaleur dans les tissus rétiniens. Dès que la température locale dépasse un seuil critique, les protéines des photorécepteurs se dénaturent irrémédiablement — comme un blanc d'œuf qui cuit. Ce processus peut survenir en quelques secondes d'exposition au soleil direct. L'éclipse solaire est particulièrement dangereuse car la pupille se dilate (peu de lumière visible) tandis que les rayonnements UV et IR atteignent la rétine en quantité massive. Aucun inconfort n'est ressenti pendant — les dommages se révèlent 12 à 24 heures après."
+                },
+                {
+                    "title":  "3. Classifier les sources lumineuses",
+                    "content":  "Sources à éviter absolument : soleil direct (y compris au lever et au coucher), réflexion du soleil sur l'eau ou la neige, lampes à arc, lasers de toute puissance, téléphones portables lumineux dans l'obscurité. Sources sûres pour la pratique : bougie stable (flamme naturelle), lampe de chevet tamisée (pas LED froide), lumière du jour filtrée par un tissu léger ou un rideau translucide, lumière de crépuscule après disparition du disque solaire. La règle simple : si regarder cette source à l'œil nu dans la vie ordinaire serait inconfortable, elle n'est pas adaptée à la pratique."
+                },
+                {
+                    "title":  "4. Les signaux d'alerte",
+                    "content":  "Le corps envoie des signaux avant que les dommages soient graves. Les reconnaître et y répondre immédiatement est essentiel : larmoiement involontaire (les yeux tentent de se protéger par dilution), photophobie (sensibilité douloureuse à la lumière ordinaire après l'exercice), phosphènes persistants (lumières colorées qui ne disparaissent pas après fermeture des yeux), taches dans le champ visuel, douleur oculaire ou autour de l'œil. En cas de l'un de ces signaux : arrêt immédiat, repos dans l'obscurité totale, consultation ophtalmologique si les symptômes persistent plus de 30 minutes."
+                },
+                {
+                    "title":  "5. Conditions optimales d'observation",
+                    "content":  "Pour que l'exercice soit sûr et efficace : lumière douce de faible intensité (bougie ou lampe tamisée), distance d'au moins 50 cm à 1 mètre, durée d'observation de 15 à 30 secondes maximum par série, yeux reposés (ne pas pratiquer après une journée de travail sur écran sans pause), lieu calme et semi-obscur pour contraster la source sans éblouir, jamais si les yeux sont irrités, secs, inflammés ou post-infectieux. Commencer court (15 secondes) et n'augmenter que si les yeux le permettent confortablement, sans jamais dépasser 30 secondes d'observation continue."
+                }
+            ]
+        },
+        "practice":  "Exercice d'évaluation de source lumineuse : choisir trois sources lumineuses disponibles dans son environnement. Pour chacune, remplir une checklist mentale : intensité (douce / moyenne / forte), couleur dominante (chaude / froide / blanche), possibilité de regarder confortablement à distance d'un mètre sans inconfort. Identifier laquelle est adaptée à la pratique. Pratiquer uniquement avec la source retenue. Si aucune ne convient, utiliser une bougie. Dans le carnet : noter les trois sources évaluées et la conclusion.",
         "image":  "assets/course-visuals-premium/C018-prudence-oculaire-et-observation-douce.svg",
         "pdf":  "assets/cours-pdf/C018-prudence-oculaire-et-observation-douce.pdf",
         "tags":  [
-                     "Soleil, lumière \u0026 neurosciences",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Soleil, lumière & neurosciences",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C019-remanence-lumineuse-et-systeme-nerveux",
-        "number":  19,
+        "id":  "C027-remanence-lumineuse-et-systeme-nerveux",
+        "number":  27,
         "familyId":  "lumiere",
-        "familyTitle":  "Soleil, lumière \u0026 neurosciences",
+        "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
         "title":  "Rémanence lumineuse et système nerveux",
-        "subtitle":  "Rémanence, attention, rythme circadien",
+        "subtitle":  "La trace intérieure comme état neurologique actif",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : Rémanence lumineuse et système nerveux. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Comprendre le rôle de la lumière, du soleil, de la prudence visuelle, de la rémanence et des effets sur le système nerveux.",
-        "practice":  "Observer une lumière douce sans forcer, fermer les yeux, accueillir la rémanence, déposer une intention simple puis rester dans le silence intérieur.",
+        "kind":  "Enseignement & exploration guidée",
+        "status":  "available",
+        "summary":  "Comprendre en profondeur le phénomène de la rémanence lumineuse : ses mécanismes neurologiques précis, ses phases, ses variations individuelles, et son utilisation comme support de pratique. La rémanence n'est pas une illusion optique — c'est un état neurologique actif de haute réceptivité.",
+        "shortSummary":  "Rémanence lumineuse : mécanismes neurologiques, phases de la trace intérieure, protocole d'utilisation.",
+        "longSummary":  "La rémanence lumineuse est le phénomène central de toute cette famille de cours. Lorsqu'on observe une source lumineuse douce pendant 20 à 30 secondes puis qu'on ferme les yeux, une image persiste dans le champ visuel interne. Cette trace traverse plusieurs phases distinctes : d'abord une image complémentaire (couleur opposée à la source), puis une image homochrome (même couleur que la source), puis une dissolution progressive dans le champ intérieur plus large. Chaque phase correspond à un niveau différent de disponibilité du système nerveux. L'attention portée sur cette trace active, amplifie et prolonge cet état particulier. Associée à un rythme doux (balancement ou souffle), la rémanence devient un vecteur d'accès à des états de conscience que les techniques ordinaires atteignent difficilement.",
+        "pedagogicalObjective":  "Comprendre les mécanismes précis de la rémanence et être capable de l'utiliser consciemment comme support de pratique.",
+        "initiaticObjective":  "Découvrir que le corps produit spontanément des états de haute réceptivité dès lors qu'on lui en offre les conditions — et que la pratique n'est pas autre chose que créer ces conditions répétées.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Installation. Observer l'état du champ visuel interne les yeux fermés : qu'y a-t-il naturellement ?" },
+            { "time":  "5:00 — 20:00\", \"title\":  \"Mécanismes de la rémanence\", \"content\":  \"Physiologie de la rétine, adaptation des photorécepteurs, décharge spontanée post-stimulation. Pourquoi l'image persiste." },
+            { "time":  "20:00 — 32:00\", \"title\":  \"Les trois phases de la trace\", \"content\":  \"Image complémentaire, image homochrome, dissolution. Ce que chaque phase indique sur l'état neurologique." },
+            { "time":  "32:00 — 48:00\", \"title\":  \"Exercice : observer les phases\", \"content\":  \"Observer une bougie 25 secondes. Fermer les yeux. Décrire mentalement chaque phase. Laisser la trace se dissoudre naturellement." },
+            { "time":  "48:00 — 55:00\", \"title\":  \"La trace comme support\", \"content\":  \"Comment déposer une intention simple sur la trace lumineuse. Lien entre rémanence et balancement." },
+            { "time":  "55:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Décrire les phases observées : couleurs, formes, durée, sensations associées." },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au corps, souffle naturel, formule de fermeture." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : champ visuel interne au naturel.",
+            "5–20 min — Mécanismes de la rémanence : physiologie précise.",
+            "20–32 min — Les trois phases de la trace lumineuse.",
+            "32–48 min — Exercice : observer et décrire les phases.",
+            "48–55 min — Utiliser la trace comme support de pratique.",
+            "55–58 min — Carnet : décrire couleurs, formes, durée.",
+            "58–60 min — Clôture et retour au corps."
+        ],
+        "teaching":  {
+            "intro":  "La rémanence est le cœur de la pratique lumineuse. Comprendre son mécanisme, c'est comprendre pourquoi observer une bougie peut produire des états de calme profond, de concentration accrue et de réceptivité subtile.",
+            "sections":  [
+                {
+                    "title":  "1. Pourquoi l'image persiste",
+                    "content":  "Les photorécepteurs de la rétine contiennent des pigments photosensibles (opsines) qui réagissent chimiquement à la lumière. Sous stimulation soutenue, ces pigments se désaturent dans la zone exposée — les photorécepteurs s'y adaptent. Quand on ferme les yeux, les photorécepteurs non exposés (la rétine périphérique) continuent de décharger normalement, mais la zone exposée décharge plus lentement, créant un contraste de signal. Le cerveau interprète cette différence de signal comme une image inversée (complémentaire) persistante dans le champ visuel interne."
+                },
+                {
+                    "title":  "2. Les trois phases de la trace",
+                    "content":  "Phase 1 — Image complémentaire : les premières secondes après fermeture des yeux, la trace apparaît dans la couleur opposée à la source (une flamme orange produit une trace bleu-vert). C'est la décharge compensatoire des cônes. Phase 2 — Image homochrome : après 10 à 30 secondes, la trace peut revenir à la couleur de la source originale, légèrement modifiée. Les mécanismes de mémoire visuelle à court terme participent. Phase 3 — Dissolution : la trace se dissout progressivement dans le champ intérieur général, laissant une zone de légèreté et de réceptivité accrue. Cette phase est la plus précieuse pour la pratique."
+                },
+                {
+                    "title":  "3. Variations individuelles",
+                    "content":  "La durée et l'intensité de la rémanence varient considérablement d'un individu à l'autre. Les facteurs influençants : état de fatigue (oculaire et générale), qualité du terrain (hydratation, minéralisation), degré d'entraînement (la rémanence se développe avec la pratique), état du système nerveux (calme ou agité), et même le cycle chronobiologique (la rémanence est plus prononcée à certains moments de la journée). Il n'existe pas de bonne ou de mauvaise rémanence — il existe la rémanence de ce corps, à ce moment, dans ces conditions."
+                },
+                {
+                    "title":  "4. La trace comme état neurologique actif",
+                    "content":  "Pendant la phase de rémanence, le cortex visuel reste actif sans stimulation extérieure. Les études en neuroimagerie montrent une activation du réseau du mode par défaut (default mode network) associée à cet état — le même réseau actif pendant la rêverie créatrice, la méditation profonde et la pensée imaginative. La trace lumineuse n'est pas une illusion passive : c'est une activité neurale réelle, une zone de traitement interne qui peut être utilisée consciemment comme support d'attention."
+                },
+                {
+                    "title":  "5. Déposer une intention sur la trace",
+                    "content":  "La technique centrale de la pratique lumineuse consiste à observer la source, fermer les yeux, laisser la trace s'établir, puis y déposer — doucement, sans forcer — une intention simple. Cette intention peut être une image (visualiser quelqu'un en bonne santé), une question (que dois-je comprendre ici ?), une sensation désirée (la légèreté, la clarté) ou simplement une attention présente et ouverte. Le lien entre la trace lumineuse active et l'intention crée une synergie qui dépasse ce que chacun produit séparément. C'est la base du protocole avancé lumière-balancement-mantra."
+                }
+            ]
+        },
+        "practice":  "Protocole de la rémanence en trois phases : (1) Dans un lieu semi-obscur, observer une bougie ou lampe douce pendant exactement 25 secondes. Fermer les yeux. (2) Observer sans chercher : noter mentalement les phases — couleur, forme, durée. Ne pas tenter de prolonger ou d'accélérer. (3) Quand la trace se dissout, rester dans le champ intérieur silencieux pendant 2 minutes. Dans le carnet : décrire chaque phase (couleur, intensité, durée approximative). Répéter le protocole 3 fois dans la séance. Pratiquer chaque jour pendant 14 jours.",
         "image":  "assets/course-visuals-premium/C019-remanence-lumineuse-et-systeme-nerveux.svg",
         "pdf":  "assets/cours-pdf/C019-remanence-lumineuse-et-systeme-nerveux.pdf",
         "tags":  [
-                     "Soleil, lumière \u0026 neurosciences",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Soleil, lumière & neurosciences",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C020-lumiere-du-matin-et-rythme-circadien",
-        "number":  20,
+        "id":  "C028-lumiere-du-matin-et-rythme-circadien",
+        "number":  28,
         "familyId":  "lumiere",
-        "familyTitle":  "Soleil, lumière \u0026 neurosciences",
+        "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
         "title":  "Lumière du matin et rythme circadien",
-        "subtitle":  "Rémanence, attention, rythme circadien",
+        "subtitle":  "Synchroniser l'horloge biologique pour une pratique plus profonde",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : Lumière du matin et rythme circadien. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Comprendre le rôle de la lumière, du soleil, de la prudence visuelle, de la rémanence et des effets sur le système nerveux.",
-        "practice":  "Observer une lumière douce sans forcer, fermer les yeux, accueillir la rémanence, déposer une intention simple puis rester dans le silence intérieur.",
+        "kind":  "Enseignement & protocole quotidien",
+        "status":  "available",
+        "summary":  "Comprendre le rythme circadien et l'influence de la lumière du matin sur la qualité des états intérieurs disponibles dans la journée. Intégrer une pratique simple de lumière matinale qui synchronise l'horloge biologique et améliore la réceptivité globale.",
+        "shortSummary":  "Lumière du matin et rythme circadien : synchroniser l'horloge biologique pour améliorer la pratique.",
+        "longSummary":  "Toute vie biologique est rythmée. Le rythme circadien — cette horloge interne d'environ 24 heures — gouverne le sommeil, l'éveil, la sécrétion hormonale, la température corporelle, l'humeur et la réceptivité. Cette horloge est directement synchronisée par la lumière. La lumière du matin (riche en longueurs d'onde bleues, qui décline après l'aube) est le signal le plus puissant de synchronisation circadienne. Quand ce signal est reçu correctement — par une exposition à la lumière naturelle dans les 30 minutes suivant le réveil — l'horloge biologique se cale correctement, le cortisol du matin s'élève au bon moment, la mélatonine du soir se libère à la bonne heure, et la qualité du sommeil et des états diurnes s'améliore. Ce cours montre comment utiliser la lumière du matin comme première pratique du jour.",
+        "pedagogicalObjective":  "Comprendre le rythme circadien et comment la lumière du matin le synchronise, puis intégrer une pratique quotidienne de lumière matinale.",
+        "initiaticObjective":  "Faire de l'aube un rituel — apprendre à commencer chaque jour par un contact conscient avec la lumière naturelle comme premier geste de la pratique.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Installation. Observer sa relation habituelle au matin : comment se lève-t-on ? Dans quelle lumière ?" },
+            { "time":  "5:00 — 20:00\", \"title\":  \"L'horloge circadienne\", \"content\":  \"Mécanismes du rythme circadien, noyau suprachiasmatique, mélatonine vs cortisol, le rôle de la lumière." },
+            { "time":  "20:00 — 32:00\", \"title\":  \"La lumière du matin comme signal\", \"content\":  \"Pourquoi les 30 premières minutes après le réveil sont cruciales. Lumière naturelle vs artificielle." },
+            { "time":  "32:00 — 44:00\", \"title\":  \"Les effets sur la pratique\", \"content\":  \"Une horloge bien synchronisée améliore la clarté mentale, la résilience émotionnelle et la profondeur méditative." },
+            { "time":  "44:00 — 54:00\", \"title\":  \"Pratique : le rituel de lumière matinale\", \"content\":  \"Protocole guidé d'exposition consciente à la lumière du matin : posture, durée, intention, observation." },
+            { "time":  "54:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Observer pendant 7 jours : état au réveil, qualité de l'exposition matinale, clarté dans la journée." },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au souffle, engagement pour le rituel de demain matin." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : relation habituelle au matin et à la lumière.",
+            "5–20 min — L'horloge circadienne : mécanismes et régulation par la lumière.",
+            "20–32 min — La lumière du matin comme signal de synchronisation.",
+            "32–44 min — Effets sur la clarté, l'émotion et la pratique.",
+            "44–54 min — Pratique : rituel de lumière matinale guidé.",
+            "54–58 min — Carnet : observer 7 jours d'exposition matinale.",
+            "58–60 min — Clôture : engagement pour demain."
+        ],
+        "teaching":  {
+            "intro":  "L'horloge du corps est photosensible. La lumière est son signal de réinitialisation quotidien. Sans ce signal correct, tout dérègle graduellement — sommeil, humeur, énergie, réceptivité. Recevoir la lumière du matin est le premier acte de la pratique.",
+            "sections":  [
+                {
+                    "title":  "1. Le rythme circadien : chef d'orchestre invisible",
+                    "content":  "Le rythme circadien est un oscillateur biologique interne d'environ 24 heures qui gouverne la plupart des processus physiologiques : cycle veille-sommeil, sécrétion de cortisol (pic le matin), mélatonine (pic la nuit), température corporelle (plus basse au réveil, plus haute en fin d'après-midi), système immunitaire, digestion et humeur. Cet oscillateur est maintenu par le noyau suprachiasmatique (NSC) de l'hypothalamus — un groupe de neurones qui reçoit directement les signaux lumineux de la rétine et synchronise toutes les horloges périphériques du corps."
+                },
+                {
+                    "title":  "2. La lumière comme zeitgeber (donneur de temps)",
+                    "content":  "Le terme allemand Zeitgeber (donneur de temps) désigne les signaux extérieurs qui synchronisent l'horloge biologique. La lumière est le Zeitgeber le plus puissant. Les cellules à mélanopsine de la rétine sont particulièrement sensibles à la lumière bleue (460-480 nm) présente abondamment dans la lumière du jour matinal. Un signal lumineux reçu dans les 30 à 60 minutes après le réveil active le cortisol matinal (qui donne l'élan de la journée), supprime la mélatonine résiduelle (qui maintient la somnolence) et programme le timer d'endormissement du soir environ 16 heures plus tard."
+                },
+                {
+                    "title":  "3. La lumière artificielle : un substitut partiel",
+                    "content":  "Les lampes de luminothérapie (10 000 lux, spectre blanc froid) peuvent partiellement remplacer la lumière naturelle en hiver ou dans les environnements sans accès naturel. Elles sont utiles mais incomplètes : elles manquent d'une partie du spectre infrarouge proche de la lumière solaire, qui joue un rôle dans la photobiomodulation cellulaire. La lumière naturelle, même par ciel couvert (typiquement 10 000 à 20 000 lux en extérieur contre 300 lux à l'intérieur), est toujours préférable. Ouvrir une fenêtre, marcher 5 minutes dehors, ou simplement s'asseoir près d'une fenêtre ouverte constitue une exposition suffisante."
+                },
+                {
+                    "title":  "4. Effets sur la pratique intérieure",
+                    "content":  "Un pratiquant dont le rythme circadien est bien synchronisé bénéficie d'une qualité de présence et de réceptivité notablement supérieure à celui dont l'horloge biologique est décalée. Les effets concrets : clarté mentale plus rapide au réveil, meilleure cohérence émotionnelle dans la journée, endormissement plus facile le soir, rêves plus nets et plus mémorisables, états méditatifs plus accessibles dans les créneaux de pratique. La synchronisation circadienne est donc une infrastructure invisible de la pratique."
+                },
+                {
+                    "title":  "5. Le rituel de lumière matinale",
+                    "content":  "Un protocole simple, pratiqué quotidiennement : dans les 30 minutes qui suivent le réveil, sortir dehors ou s'asseoir face à une fenêtre ouverte. Exposer le visage (surtout les yeux) à la lumière naturelle pendant 5 à 10 minutes. Ne pas regarder le soleil directement — laisser la lumière ambiante pénétrer. Pendant ce temps, ne pas regarder d'écran. Observer l'état du corps : la différence de tension, de somnolence, de clarté avant et après. C'est une pratique quotidienne de 10 minutes qui améliore tout le reste."
+                }
+            ]
+        },
+        "practice":  "Rituel de lumière matinale : pendant 7 jours consécutifs, dans les 30 minutes suivant le réveil, s'exposer à la lumière naturelle pendant 5 à 10 minutes. Debout à la fenêtre ouverte ou en extérieur. Sans écran. Observer l'état de clarté, d'éveil et de tonus. Dans le carnet chaque soir : noter la qualité de l'éveil ce matin, la clarté mentale dans la journée, et l'heure naturelle d'endormissement. Observer l'évolution sur 7 jours.",
         "image":  "assets/course-visuals-premium/C020-lumiere-du-matin-et-rythme-circadien.svg",
         "pdf":  "assets/cours-pdf/C020-lumiere-du-matin-et-rythme-circadien.pdf",
         "tags":  [
-                     "Soleil, lumière \u0026 neurosciences",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Soleil, lumière & neurosciences",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C021-photons-attention-et-plasticite-cerebrale",
-        "number":  21,
+        "id":  "C029-photons-attention-et-plasticite-cerebrale",
+        "number":  29,
         "familyId":  "lumiere",
-        "familyTitle":  "Soleil, lumière \u0026 neurosciences",
+        "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
         "title":  "Photons, attention et plasticité cérébrale",
-        "subtitle":  "Rémanence, attention, rythme circadien",
+        "subtitle":  "Comment la lumière réorganise le cerveau attentif",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : Photons, attention et plasticité cérébrale. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Comprendre le rôle de la lumière, du soleil, de la prudence visuelle, de la rémanence et des effets sur le système nerveux.",
-        "practice":  "Observer une lumière douce sans forcer, fermer les yeux, accueillir la rémanence, déposer une intention simple puis rester dans le silence intérieur.",
+        "kind":  "Enseignement & exploration neuroscientifique",
+        "status":  "available",
+        "summary":  "Explorer la relation entre la perception lumineuse, l'attention dirigée et la plasticité cérébrale. Comprendre comment l'observation consciente d'une source lumineuse, répétée régulièrement, produit des réorganisations mesurables dans le cerveau — et ce que ces réorganisations signifient pour la pratique intérieure.",
+        "shortSummary":  "Lumière, attention et plasticité : comment la pratique lumineuse répétée réorganise le cerveau.",
+        "longSummary":  "La plasticité cérébrale est la capacité du cerveau à se réorganiser structurellement en réponse à l'expérience. Chaque pratique régulière — qu'elle soit musicale, sportive, méditative ou perceptive — modifie littéralement l'organisation des réseaux neuronaux. L'observation lumineuse consciente, pratiquée régulièrement, entraîne une série de modifications : renforcement des connexions entre le cortex visuel et les zones d'attention (cortex préfrontal, cortex pariétal), amélioration de la qualité du traitement visuel interne, développement de la capacité à maintenir une image mentale stable, et accès progressivement plus facile aux états méditatifs. Ce cours explore ce processus de transformation neurale en termes clairs et accessibles.",
+        "pedagogicalObjective":  "Comprendre la plasticité cérébrale dans le contexte de la pratique lumineuse et comment la répétition construit de nouvelles capacités.",
+        "initiaticObjective":  "Percevoir la régularité de la pratique non comme une contrainte mais comme le mécanisme même de la transformation — chaque séance remodèle légèrement le cerveau.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Installation. Observer la qualité de l'attention aujourd'hui : vive, dispersée, stable, fatiguée ?" },
+            { "time":  "5:00 — 20:00\", \"title\":  \"La plasticité cérébrale\", \"content\":  \"Qu'est-ce que la plasticité ? Hebb, potentialisation à long terme, myélinisation. Comment le cerveau se remodèle." },
+            { "time":  "20:00 — 32:00\", \"title\":  \"Lumière et attention : le circuit\", \"content\":  \"Cortex visuel, réseau attentionnel, connexions fronto-pariétales. Ce que l'observation lumineuse entraîne." },
+            { "time":  "32:00 — 45:00\", \"title\":  \"Pratique : attention consciente sur la rémanence\", \"content\":  \"Observer une source, fermer les yeux, maintenir l'attention sur la trace sans effort. Exercice de tenue de l'attention." },
+            { "time":  "45:00 — 53:00\", \"title\":  \"Observer la qualité de l'attention\", \"content\":  \"La trace comme miroir : si l'attention s'agite, la trace aussi. La trace comme biofeedback de l'état intérieur." },
+            { "time":  "53:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Durée de tenue de l'attention sur la trace, qualité de la présence, pensées parasites observées." },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au souffle, formule de fermeture." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : qualité de l'attention aujourd'hui.",
+            "5–20 min — Plasticité cérébrale : le cerveau qui se remodèle.",
+            "20–32 min — Lumière et attention : le circuit neuronal.",
+            "32–45 min — Pratique : maintenir l'attention sur la trace lumineuse.",
+            "45–53 min — La trace comme miroir de l'état intérieur.",
+            "53–58 min — Carnet : tenue de l'attention, durée, qualité.",
+            "58–60 min — Clôture."
+        ],
+        "teaching":  {
+            "intro":  "Le cerveau se remodèle à chaque expérience répétée. La pratique lumineuse régulière construit littéralement de nouvelles connexions neuronales. Ce n'est pas une métaphore — c'est de la biologie.",
+            "sections":  [
+                {
+                    "title":  "1. La plasticité synaptique : Hebb et la potentialisation",
+                    "content":  "La règle de Hebb (1949) résume le mécanisme fondamental de la plasticité : les neurones qui s'activent ensemble se connectent ensemble. Quand deux neurones s'activent simultanément de manière répétée, la synapse qui les relie se renforce — on parle de potentialisation à long terme (LTP). À l'inverse, des connexions peu utilisées s'affaiblissent (dépression à long terme, LTD). La pratique régulière de n'importe quelle activité perceptive renforce les circuits qui y participent, créant progressivement une facilité accrue d'accès à cet état."
+                },
+                {
+                    "title":  "2. Le réseau attentionnel",
+                    "content":  "L'attention n'est pas un état unitaire mais un réseau distribué impliquant plusieurs régions cérébrales : le cortex préfrontal dorsolatéral (attention exécutive, effort), le cortex pariétal postérieur (orientation spatiale de l'attention), le cortex cingulaire antérieur (détection des erreurs et régulation), et le locus cœruleus (neuromodulation par la noradrénaline). L'observation lumineuse consciente active ce réseau et, par répétition, le renforce — améliorant progressivement la capacité à maintenir une attention stable, à remarquer les distractions sans y réagir, et à revenir au point d'ancrage."
+                },
+                {
+                    "title":  "3. La myélinisation des voies visuelles",
+                    "content":  "La myéline est une gaine graisseuse qui entoure les axones neuronaux et augmente la vitesse de transmission des signaux (jusqu'à 100 fois). La pratique répétée d'une voie neuronale stimule la myélinisation de cette voie. Les pratiquants de méditation à long terme montrent une myélinisation accrue dans plusieurs faisceaux de substance blanche, notamment ceux reliant les régions préfrontales aux structures limbiques. La pratique lumineuse régulière peut contribuer à ce processus pour les voies visuelles et attentionnelles."
+                },
+                {
+                    "title":  "4. La trace comme biofeedback de l'attention",
+                    "content":  "L'un des aspects les plus fascinants de la rémanence est qu'elle réagit à l'état de l'attention. Une attention stable, déposée doucement sur la trace, prolonge et clarifie celle-ci. Une attention agitée, sautant d'une pensée à l'autre, fait vaciller ou disparaître la trace plus rapidement. La trace devient ainsi un biofeedback en temps réel de la qualité de l'attention — un miroir intérieur objectif. Observer ce miroir sans le juger, simplement noter ce qui se produit, est un exercice d'une finesse remarquable."
+                },
+                {
+                    "title":  "5. La cumulation des effets",
+                    "content":  "Les effets de la plasticité cérébrale sont cumulatifs et progressifs. Après 30 jours de pratique régulière, la plupart des pratiquants rapportent : un accès plus rapide à l'état de calme (l'état se déclenche plus vite), une trace lumineuse plus nette et plus stable, une attention qui revient plus aisément après distraction, et une qualité de sommeil améliorée. Ces changements ne sont pas subjectifs : ils correspondent à des modifications mesurables des réseaux neuronaux. La régularité est le seul outil de cette transformation — pas l'intensité ni la durée de chaque séance, mais la répétition quotidienne."
+                }
+            ]
+        },
+        "practice":  "Exercice de tenue de l'attention : observer une source lumineuse douce pendant 25 secondes. Fermer les yeux. Déposer l'attention sur la trace lumineuse et la maintenir aussi longtemps que confortable, sans effort. Quand la trace disparaît ou que l'attention s'échappe, noter mentalement la durée. Dans le carnet : noter la durée de tenue (en secondes approximativement), la qualité de la trace (nette / diffuse / absente), le nombre de distractions pendant la tenue. Répéter 3 fois par séance, chaque jour pendant 21 jours. Observer l'évolution de la durée de tenue.",
         "image":  "assets/course-visuals-premium/C021-photons-attention-et-plasticite-cerebrale.svg",
         "pdf":  "assets/cours-pdf/C021-photons-attention-et-plasticite-cerebrale.pdf",
         "tags":  [
-                     "Soleil, lumière \u0026 neurosciences",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Soleil, lumière & neurosciences",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C022-lumiere-sommeil-et-reparation",
-        "number":  22,
+        "id":  "C030-lumiere-sommeil-et-reparation",
+        "number":  30,
         "familyId":  "lumiere",
-        "familyTitle":  "Soleil, lumière \u0026 neurosciences",
+        "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
         "title":  "Lumière, sommeil et réparation",
-        "subtitle":  "Rémanence, attention, rythme circadien",
+        "subtitle":  "La nuit comme laboratoire intérieur de transformation",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : Lumière, sommeil et réparation. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Comprendre le rôle de la lumière, du soleil, de la prudence visuelle, de la rémanence et des effets sur le système nerveux.",
-        "practice":  "Observer une lumière douce sans forcer, fermer les yeux, accueillir la rémanence, déposer une intention simple puis rester dans le silence intérieur.",
+        "kind":  "Enseignement & protocole pré-sommeil",
+        "status":  "available",
+        "summary":  "Comprendre le lien entre la lumière, la qualité du sommeil et les processus de réparation qui se produisent la nuit. Découvrir comment l'utilisation consciente de la lumière en soirée peut améliorer le sommeil et faire de la nuit un laboratoire de transformation intérieure.",
+        "shortSummary":  "Lumière du soir, mélatonine, sommeil profond : préparer la nuit comme un espace de réparation et de pratique.",
+        "longSummary":  "Le sommeil n'est pas une interruption de la conscience — c'est une phase active de régénération, de consolidation mémorielle, de traitement émotionnel et, pour le pratiquant attentif, de travail intérieur inconscient. La qualité du sommeil est directement influencée par la lumière des heures qui précèdent l'endormissement. La lumière bleue des écrans supprime la mélatonine et retarde l'endormissement. La lumière douce d'une bougie ou d'une lampe ambrée prépare le système nerveux à la transition vers le sommeil. Ce cours explore comment utiliser la lumière lumineuse en soirée comme protocole de préparation au sommeil, comment la pratique de rémanence pré-sommeil peut enrichir la qualité des rêves, et comment faire de la nuit un espace de continuité — et non d'interruption — de la pratique.",
+        "pedagogicalObjective":  "Comprendre la relation lumière-sommeil et intégrer un protocole de lumière douce en soirée qui améliore la qualité du sommeil et de la pratique nocturne.",
+        "initiaticObjective":  "Percevoir la nuit non comme une absence de pratique mais comme la phase la plus profonde du travail intérieur — là où l'inconscient intègre ce que le jour a préparé.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Observer sa relation habituelle au soir et au sommeil : routine, qualité, rêves mémorisés ou non." },
+            { "time":  "5:00 — 18:00\", \"title\":  \"Mélatonine et transition nocturne\", \"content\":  \"Mélatonine : rôle, production, suppression par la lumière. La courbe d'endormissement naturelle." },
+            { "time":  "18:00 — 30:00\", \"title\":  \"La lumière des écrans : un perturbateur majeur\", \"content\":  \"Lumière bleue, décalage circadien, retard d'endormissement, fragmentation du sommeil." },
+            { "time":  "30:00 — 42:00\", \"title\":  \"La rémanence en pré-sommeil\", \"content\":  \"Utiliser l'exercice de rémanence 30 minutes avant de dormir pour induire un état de transition favorable." },
+            { "time":  "42:00 — 53:00\", \"title\":  \"Pratique : protocole de lumière vespérale\", \"content\":  \"Séquence guidée : lumière ambrée, observation 20 secondes, rémanence, intention de rêve, fermeture." },
+            { "time":  "53:00 — 57:00\", \"title\":  \"Carnet\", \"content\":  \"Tenir un carnet de rêve pendant 7 jours pour observer l'effet du protocole sur la mémoire onirique." },
+            { "time":  "57:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au souffle. Intention de pratiquer le protocole ce soir." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : relation habituelle au soir et au sommeil.",
+            "5–18 min — Mélatonine et transition nocturne.",
+            "18–30 min — La lumière des écrans : perturbateur circadien.",
+            "30–42 min — La rémanence en pré-sommeil : protocole.",
+            "42–53 min — Pratique : séquence de lumière vespérale.",
+            "53–57 min — Carnet de rêve : tenir 7 jours.",
+            "57–60 min — Clôture : intention pour ce soir."
+        ],
+        "teaching":  {
+            "intro":  "La nuit est une pratique. Pas une pause. Ce qui se passe pendant le sommeil — réparation cellulaire, consolidation mémorielle, traitement émotionnel, rêves — est directement conditionné par la qualité de la transition lumière-obscurité du soir.",
+            "sections":  [
+                {
+                    "title":  "1. La mélatonine : hormone de la nuit",
+                    "content":  "La mélatonine est produite par la glande pinéale en réponse à l'absence de lumière. Sa production commence environ 2 heures avant l'heure habituelle d'endormissement, atteint son pic entre 2h et 4h du matin, puis décline avant le réveil. Elle signale à chaque cellule du corps que la nuit est arrivée et que les processus de régénération peuvent commencer. La lumière bleue (écrans, LED blanc froid) supprime sa production pendant jusqu'à 3 heures après l'exposition — retardant et fragmentant le sommeil."
+                },
+                {
+                    "title":  "2. Le sommeil comme processus de réparation",
+                    "content":  "Durant le sommeil profond (ondes lentes, stades 3 et 4 du NREM), le corps libère 70 à 80 % de l'hormone de croissance nocturne, répare les micro-lésions musculaires et cellulaires, consolide les apprentissages moteurs et les mémoires déclaratives, et active le système glymphatique — le système de nettoyage cérébral qui élimine les déchets métaboliques accumulés pendant l'éveil, dont les protéines associées à la neurodégénérescence. Un sommeil profond insuffisant compromet toutes ces fonctions."
+                },
+                {
+                    "title":  "3. Le sommeil paradoxal et les rêves",
+                    "content":  "Le sommeil REM (Rapid Eye Movement ou sommeil paradoxal) est la phase des rêves. C'est aussi la phase de traitement émotionnel (le cerveau rejoue et réorganise les expériences émotionnelles) et d'intégration créatrice (les connections associatives entre idées distantes se renforcent). Pour le pratiquant intérieur, cette phase est précieuse : les impressions, les expériences de la journée et les intentions formulées avant de dormir continuent d'être travaillées pendant le sommeil REM. Le carnet de rêves permet de récupérer ces processus à la conscience."
+                },
+                {
+                    "title":  "4. Le protocole de lumière vespérale",
+                    "content":  "Dans la dernière heure avant le sommeil : remplacer toutes les sources lumineuses bleues ou blanches (écrans, LED froid) par des sources de lumière ambrée ou rouge (bougies, lampes à sel, ampoules teintées). Pratiquer l'exercice de rémanence avec une bougie pendant 3 à 5 minutes. Formuler intérieurement une intention simple pour la nuit (une question, un sujet à intégrer). Fermer le carnet sur cette intention. S'allonger sans écran. Observer le passage vers le sommeil avec une attention douce."
+                },
+                {
+                    "title":  "5. Le carnet de rêve comme outil de pratique",
+                    "content":  "Tenir un carnet de rêve est l'une des pratiques les plus transformatrices disponibles. Le protocole : tenir le carnet et un crayon à portée du lit. Au réveil, avant de bouger ou de parler, noter immédiatement les images, impressions, fragments de rêve qui restent accessibles. Ne pas analyser — noter. La mémoire onirique s'améliore rapidement avec la pratique : au bout de 2 à 3 semaines, les rêves deviennent plus nets, plus détaillés et plus fréquemment mémorisables. Ce carnet est le pont entre le travail nocturne de l'inconscient et la conscience diurne."
+                }
+            ]
+        },
+        "practice":  "Protocole de lumière vespérale pendant 7 jours : 30 minutes avant de dormir, éteindre tous les écrans. Allumer une bougie ou une lampe ambrée. Pratiquer l'exercice de rémanence 3 fois (observer 20 secondes, fermer les yeux, accueillir la trace). Formuler intérieurement une intention pour la nuit. S'allonger. Au réveil : noter immédiatement les images et impressions du rêve dans le carnet. En fin de semaine : relire les 7 entrées et identifier les thèmes récurrents.",
         "image":  "assets/course-visuals-premium/C022-lumiere-sommeil-et-reparation.svg",
         "pdf":  "assets/cours-pdf/C022-lumiere-sommeil-et-reparation.pdf",
         "tags":  [
-                     "Soleil, lumière \u0026 neurosciences",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Soleil, lumière & neurosciences",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C023-source-lumineuse-intention-et-impregnation",
-        "number":  23,
+        "id":  "C031-source-lumineuse-intention-et-impregnation",
+        "number":  31,
         "familyId":  "lumiere",
-        "familyTitle":  "Soleil, lumière \u0026 neurosciences",
+        "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
         "title":  "Source lumineuse, intention et imprégnation",
-        "subtitle":  "Rémanence, attention, rythme circadien",
+        "subtitle":  "Associer une intention à la trace pour imprégner l'inconscient",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : Source lumineuse, intention et imprégnation. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Comprendre le rôle de la lumière, du soleil, de la prudence visuelle, de la rémanence et des effets sur le système nerveux.",
-        "practice":  "Observer une lumière douce sans forcer, fermer les yeux, accueillir la rémanence, déposer une intention simple puis rester dans le silence intérieur.",
+        "kind":  "Enseignement & pratique intégratrice",
+        "status":  "available",
+        "summary":  "Apprendre à associer une intention consciente à la trace lumineuse pour créer un processus d'imprégnation intérieure. Comprendre comment l'état de réceptivité activé par la rémanence amplifie l'effet des intentions et comment ce protocole constitue la forme la plus directe de travail sur l'inconscient.",
+        "shortSummary":  "Observer, rémanence, intention : le protocole d'imprégnation consciente par la lumière.",
+        "longSummary":  "La pratique lumineuse atteint sa pleine puissance quand elle associe trois éléments : une source lumineuse douce observée avec attention, l'état de rémanence qui s'ensuit, et une intention simple déposée dans cet état de haute réceptivité. L'imprégnation ainsi créée n'est pas un acte de volonté — c'est un acte d'offrande à l'intelligence intérieure. L'état de rémanence ouvre une zone de réceptivité dans le système nerveux où les intentions trouvent un ancrage profond, non filtré par le mental ordinaire. Ce cours explore ce protocole dans toute sa précision : comment choisir une intention juste, comment la formuler, comment la déposer sans forcer, et comment observer les effets dans les jours qui suivent.",
+        "pedagogicalObjective":  "Maîtriser le protocole d'imprégnation lumineuse : observation, rémanence, intention, observation des effets.",
+        "initiaticObjective":  "Comprendre que l'imprégnation n'est pas une manipulation de l'inconscient mais une communication avec lui — et que la qualité de l'intention détermine la qualité du résultat.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Installation. Formuler intérieurement une intention pour cette séance. L'écrire dans le carnet avant de commencer." },
+            { "time":  "5:00 — 18:00\", \"title\":  \"Qu'est-ce qu'une intention juste ?\", \"content\":  \"Définir l'intention : ni désir de contrôle, ni exigence de résultat, mais une direction donnée à l'attention intérieure." },
+            { "time":  "18:00 — 30:00\", \"title\":  \"La rémanence comme état d'ouverture\", \"content\":  \"Pourquoi cet état particulier est plus réceptif aux intentions. Le filtre du mental ordinaire et comment la rémanence le contourne." },
+            { "time":  "30:00 — 48:00\", \"title\":  \"Pratique : observer-rémanence-intention\", \"content\":  \"Trois cycles complets : observer 25 secondes, fermer les yeux, accueillir la trace, y déposer l'intention formulée. Sans forcer." },
+            { "time":  "48:00 — 55:00\", \"title\":  \"Observer les effets\", \"content\":  \"Qu'est-ce qui se produit pendant l'imprégnation ? Images, sensations, résistances, calme. Ne pas juger." },
+            { "time":  "55:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Décrire l'intention formulée, ce qui s'est produit, les images et sensations. Laisser la vérification à plus tard." },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au corps, fermeture, engagement de laisser travailler sans surveiller." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : formuler et écrire l'intention avant de commencer.",
+            "5–18 min — L'intention juste : direction sans contrôle.",
+            "18–30 min — La rémanence comme état d'ouverture à l'intention.",
+            "30–48 min — Pratique : trois cycles observer-rémanence-intention.",
+            "48–55 min — Observer les effets : images, sensations, résistances.",
+            "55–58 min — Carnet : décrire sans analyser.",
+            "58–60 min — Clôture : laisser travailler sans surveiller."
+        ],
+        "teaching":  {
+            "intro":  "La lumière ouvre. L'intention oriente. L'imprégnation dépasse l'effort conscient. Ce protocole en trois temps est l'une des techniques les plus directes de communication avec l'intelligence intérieure.",
+            "sections":  [
+                {
+                    "title":  "1. Qu'est-ce qu'une intention juste ?",
+                    "content":  "Une intention n'est pas un ordre donné à l'inconscient. C'est une direction proposée à l'attention intérieure. Une intention juste a trois qualités : elle est simple (une seule idée, formulée en quelques mots), positive (formulée vers ce que l'on cherche, non contre ce que l'on fuit), et ouverte (sans exigence de résultat, sans délai imposé). Par exemple : \"Je fais confiance au processus de guérison de mon corps\" est une intention juste. \"Je veux guérir d'ici la semaine prochaine\" est une exigence — et produit généralement de la frustration."
+                },
+                {
+                    "title":  "2. L'état de rémanence comme filtre ouvert",
+                    "content":  "Dans l'état ordinaire d'éveil, le cortex préfrontal filtre activement les informations — évaluant, comparant, résistant ou acceptant. C'est le travail du mental discursif. Pendant l'état de rémanence lumineuse, l'activité du cortex préfrontal latéral est légèrement réduite (un mécanisme similaire à l'état hypnagogique et aux états méditatifs profonds) tandis que les connexions vers le système limbique et le cortex visuel restent vives. Cet état est moins filtrant et donc plus réceptif aux communications subtiles."
+                },
+                {
+                    "title":  "3. Déposer sans forcer",
+                    "content":  "La technique du dépôt d'intention pendant la rémanence requiert une qualité particulière d'attention : présente mais non tendue, dirigée mais non crispée. La métaphore juste est celle de déposer un objet précieux sur une surface sensible : on ne le jette pas, on ne l'y maintient pas de force, on le pose simplement et on observe. La résistance intérieure (sentiment que \"ça ne fonctionne pas\", doute, impatience) est normale et ne compromet pas l'effet — elle l'accompagne seulement."
+                },
+                {
+                    "title":  "4. Les règles de l'imprégnation éthique",
+                    "content":  "Ce protocole ne peut jamais être utilisé pour influencer une autre personne à son insu. L'intention doit toujours concerner uniquement soi-même : sa propre santé, sa propre compréhension, sa propre transformation. Toute tentative d'imprégnation sur autrui (même bienveillante) sans consentement explicite sort du cadre éthique de cette pratique. La puissance de cet outil est précisément ce qui requiert cette sobriété et cette limitation."
+                },
+                {
+                    "title":  "5. Observer les effets à distance",
+                    "content":  "Les effets d'une imprégnation ne sont généralement pas immédiats. Ils se manifestent dans les heures ou les jours suivants, souvent de manière inattendue : un changement de regard sur une situation, une facilité soudaine à accomplir quelque chose qui semblait difficile, un rêve porteur d'information, une synchronicité remarquable. Ces effets ne prouvent rien mais ils méritent d'être notés. Le carnet est le seul moyen de vérifier objectivement si une pratique produit des effets réels au fil du temps."
+                }
+            ]
+        },
+        "practice":  "Protocole d'imprégnation en trois cycles : avant la séance, formule une intention simple et positive dans le carnet (une phrase, pas plus). Pratique trois cycles complets : observer 25 secondes, fermer les yeux, accueillir la trace, déposer l'intention dans la trace sans forcer. Ferme les yeux et reste 2 minutes dans le silence après chaque dépôt. Après la séance : noter dans le carnet ce qui s'est produit. Dans les 3 jours qui suivent : noter tout ce qui, dans la vie ordinaire, semble resonner avec l'intention formulée.",
         "image":  "assets/course-visuals-premium/C023-source-lumineuse-intention-et-impregnation.svg",
         "pdf":  "assets/cours-pdf/C023-source-lumineuse-intention-et-impregnation.pdf",
         "tags":  [
-                     "Soleil, lumière \u0026 neurosciences",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Soleil, lumière & neurosciences",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C024-integrer-la-lumiere-dans-la-journee",
-        "number":  24,
+        "id":  "C032-integrer-la-lumiere-dans-la-journee",
+        "number":  32,
         "familyId":  "lumiere",
-        "familyTitle":  "Soleil, lumière \u0026 neurosciences",
+        "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
         "title":  "Intégrer la lumière dans la journée",
-        "subtitle":  "Rémanence, attention, rythme circadien",
+        "subtitle":  "Faire de la lumière une pratique continue dans l'ordinaire",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Fondation",
-        "summary":  "Comprendre, pratiquer et intégrer : Intégrer la lumière dans la journée. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Comprendre le rôle de la lumière, du soleil, de la prudence visuelle, de la rémanence et des effets sur le système nerveux.",
-        "practice":  "Observer une lumière douce sans forcer, fermer les yeux, accueillir la rémanence, déposer une intention simple puis rester dans le silence intérieur.",
+        "kind":  "Protocole intégrateur & synthèse de la famille Lumière",
+        "status":  "available",
+        "summary":  "Intégrer l'ensemble des pratiques de la famille Lumière dans un protocole quotidien fluide. Faire de la lumière — matinale, diurne et vespérale — une présence continue dans la journée du pratiquant, et clore la famille avec une séquence complète matin-journée-soir.",
+        "shortSummary":  "Protocole intégrateur : lumière du matin, rémanence du jour, lumière du soir — une journée complète de pratique lumineuse.",
+        "longSummary":  "Les huit cours de la famille Lumière ont posé les bases théoriques et pratiques du travail lumineux. Ce cours final les intègre dans une journée type du pratiquant : lumière naturelle du matin pour synchroniser l'horloge biologique, exercices de rémanence dans la journée (matin ou après-midi selon le tempérament), protocole d'imprégnation pour les intentions importantes, et lumière douce vespérale pour préparer le sommeil. Ce protocole n'exige pas d'heures supplémentaires dans la journée — il s'insère dans les transitions naturelles : le réveil, la pause de midi, le moment avant le dîner, le soir avant de dormir. Chaque moment de lumière consciente est un geste de pratique. La journée entière devient un laboratoire.",
+        "pedagogicalObjective":  "Intégrer les pratiques de la famille Lumière dans un protocole quotidien cohérent et praticable.",
+        "initiaticObjective":  "Faire de la pratique quotidienne non un ajout à la journée mais une texture de la journée — un état de présence continu qui ne nécessite pas de temps séparé mais une qualité d'attention maintenue.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Bilan de la famille Lumière : qu'ai-je découvert dans ces 8 cours ? Qu'est-ce qui a changé ?" },
+            { "time":  "5:00 — 15:00\", \"title\":  \"La journée type du pratiquant lumineux\", \"content\":  \"Présentation du protocole intégrateur : matin, journée, soir. Les gestes, les durées, les transitions." },
+            { "time":  "15:00 — 28:00\", \"title\":  \"Matin : lumière naturelle et premier exercice\", \"content\":  \"Exposition matinale + première rémanence de la journée + intention du jour." },
+            { "time":  "28:00 — 40:00\", \"title\":  \"Journée : les micro-pratiques\", \"content\":  \"Pauses lumineuses dans la journée : comment insérer 2 à 3 minutes de pratique dans les transitions ordinaires." },
+            { "time":  "40:00 — 53:00\", \"title\":  \"Pratique complète : séquence intégratrice\", \"content\":  \"Séquence guidée complète : lumière, rémanence, intention, silence, carnet. Simulation d'une pratique quotidienne." },
+            { "time":  "53:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Rédiger son protocole lumineux personnel pour les 30 prochains jours. Ce que l'on retient. Ce que l'on va pratiquer." },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture de la famille Lumière\", \"content\":  \"Retour au corps. Gratitude pour ce qui a été appris. Ouverture vers la famille suivante : les Rythmes." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : bilan de la famille Lumière.",
+            "5–15 min — La journée type du pratiquant : protocole intégrateur.",
+            "15–28 min — Matin : lumière naturelle + première rémanence + intention.",
+            "28–40 min — Journée : micro-pratiques dans les transitions ordinaires.",
+            "40–53 min — Pratique complète : séquence intégratrice guidée.",
+            "53–58 min — Carnet : protocole personnel pour 30 jours.",
+            "58–60 min — Clôture de la famille et ouverture aux Rythmes."
+        ],
+        "teaching":  {
+            "intro":  "La lumière n'est pas réservée aux séances formelles. Elle est partout, disponible tout au long de la journée. Ce dernier cours de la famille transforme chaque contact avec la lumière en une occasion de pratique.",
+            "sections":  [
+                {
+                    "title":  "1. Le matin : fondation de la journée",
+                    "content":  "Le matin est la phase la plus importante de la pratique lumineuse quotidienne. Dans les 30 à 60 minutes après le réveil : exposition à la lumière naturelle (5 à 10 minutes dehors ou à la fenêtre ouverte). Puis, si le temps le permet, 5 à 10 minutes d'exercice de rémanence avec une source douce (bougie ou lampe tamisée). Puis formulation de l'intention du jour dans le carnet. Ces trois gestes enchaînés forment le rituel d'ancrage matinal qui donne une couleur à la journée entière."
+                },
+                {
+                    "title":  "2. Les micro-pratiques dans la journée",
+                    "content":  "La pratique lumineuse ne requiert pas toujours une séance formelle. Dans la journée, plusieurs moments se prêtent à des micro-pratiques de 2 à 3 minutes : la pause café (observer la lumière du ciel depuis la fenêtre), le déjeuner (manger en extérieur sous la lumière naturelle), la transition entre deux activités (fermer les yeux 30 secondes et observer le champ intérieur). Ces micro-pratiques ne remplacent pas les séances formelles mais elles maintiennent une qualité d'attention lumineuse tout au long de la journée."
+                },
+                {
+                    "title":  "3. L'après-midi : le créneau de la rémanence",
+                    "content":  "Pour de nombreux pratiquants, l'après-midi (entre 15h et 17h) est le moment optimal pour une séance de rémanence. Le cerveau est dans un état de légère somnolence naturelle (la baisse post-prandiale) qui facilite l'entrée dans des états méditatifs. Une séance de 15 à 20 minutes d'exercice de rémanence dans ce créneau peut produire des états de profondeur remarquables. C'est aussi un excellent moment pour les exercices d'imprégnation, qui bénéficient de cet état de disponibilité."
+                },
+                {
+                    "title":  "4. Le soir : préparer la nuit",
+                    "content":  "Le protocole de lumière vespérale (cours 22) s'intègre naturellement à la routine du soir. 30 à 60 minutes avant le sommeil : toutes les sources LED bleues ou blanches sont remplacées par des sources ambrées ou des bougies. Une courte séance de rémanence (3 cycles de 20 secondes) prépare le système nerveux à la transition. L'intention de nuit est formulée. Le carnet est fermé. Cet enchaînement crée un rituel puissant qui améliore systématiquement la qualité du sommeil et de la mémoire des rêves."
+                },
+                {
+                    "title":  "5. La journée comme pratique continue",
+                    "content":  "L'objectif ultime de la famille Lumière n'est pas de créer des séances de pratique mais de transformer la qualité de la présence dans la journée ordinaire. Quand un pratiquant s'est suffisamment entraîné, il commence à percevoir la lumière différemment : dans la rue, dans la forêt, dans le regard d'une personne. Cette perception élargie n'est pas une hallucination — c'est une sensibilité accrue, construite par la pratique, qui rend la journée entière légèrement plus lumineuse, plus présente, plus intérieure. C'est la récompense réelle de cette famille."
+                }
+            ]
+        },
+        "practice":  "Concevoir et noter dans le carnet son protocole lumineux personnel pour les 30 prochains jours : (1) Geste du matin : quel geste lumineux chaque matin ? (2) Micro-pratique de journée : à quel moment ? Quelle durée ? (3) Séance formelle : à quelle fréquence ? Quelle durée ? (4) Geste du soir : lumière douce, rémanence, carnet. Ce protocole personnel sera le fondement de la pratique pendant tout le passage à la famille Rythmes.",
         "image":  "assets/course-visuals-premium/C024-integrer-la-lumiere-dans-la-journee.svg",
         "pdf":  "assets/cours-pdf/C024-integrer-la-lumiere-dans-la-journee.pdf",
         "tags":  [
-                     "Soleil, lumière \u0026 neurosciences",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Fondation"
-                 ],
+            "Soleil, lumière & neurosciences",
+            "Cours 1h",
+            "PDF protégé",
+            "Fondation"
+        ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
-    {
-        "id":  "C025-loi-du-rythme-biologique",
-        "number":  25,
+        {
+        "id":  "C033-loi-du-rythme-biologique",
+        "number":  33,
         "familyId":  "rythmes",
-        "familyTitle":  "Rythmes, nombre d’or \u0026 fractales",
+        "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
         "title":  "Loi du rythme biologique",
-        "subtitle":  "Cadence, cerveau, proportions du vivant",
+        "subtitle":  "Le rythme comme première loi du vivant",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Loi du rythme biologique. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Relier rythme, nombre d’or, géométrie fractale, états cérébraux, musique, mantra et architecture du vivant.",
-        "practice":  "Installer une cadence simple, ressentir l’alternance, synchroniser souffle, attention et geste, puis noter la qualité du rythme intérieur.",
+        "kind":  "Enseignement & exploration rythmique",
+        "status":  "available",
+        "summary":  "Comprendre pourquoi le rythme est la structure fondamentale de tout processus vivant. Du battement cardiaque aux cycles saisonniers, de la respiration aux rythmes cérébraux — le rythme est la loi première. Ce cours explore cette loi et ses applications dans la pratique intérieure.",
+        "shortSummary":  "Le rythme comme loi fondamentale du vivant : comprendre et utiliser la cadence comme outil de transformation.",
+        "longSummary":  "Tout ce qui vit bat, oscille, respire, pulse. Le rythme n'est pas une caractéristique des êtres vivants parmi d'autres — c'est leur structure première. Du battement cardiaque (environ 60 à 100 fois par minute) aux rythmes cérébraux (0,5 à 100 Hz), de la respiration (12 à 20 cycles par minute) aux cycles menstruels (environ 28 jours) aux saisons (12 mois) — le vivant se déploie en rythmes emboîtés. Cette organisation rythmique n'est pas aléatoire : elle est la condition de la cohérence, de la communication et de l'efficience entre les systèmes. Comprendre la loi du rythme biologique, c'est comprendre la grammaire fondamentale du corps vivant. Et cette grammaire peut être utilisée consciemment : en calant sa pratique sur les rythmes naturels du corps, le pratiquant accède à des états autrement inaccessibles.",
+        "pedagogicalObjective":  "Comprendre le rythme comme loi fondamentale du vivant et identifier les principaux rythmes biologiques qui conditionnent la pratique.",
+        "initiaticObjective":  "Commencer à percevoir sa propre vie comme un entrelacement de rythmes — et découvrir que suivre ces rythmes, plutôt que les ignorer ou les contrecarrer, est la première forme de sagesse corporelle.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Installation. Observer son propre rythme cardiaque sans y toucher. Le sentir." },
+            { "time":  "5:00 — 18:00\", \"title\":  \"La loi du rythme\", \"content\":  \"Tout ce qui vit oscille. Du battement cardiaque aux saisons : les rythmes emboîtés du vivant." },
+            { "time":  "18:00 — 30:00\", \"title\":  \"Les rythmes du corps\", \"content\":  \"Rythme cardiaque, respiratoire, cérébral, circadien, infradien. Leur rôle dans la santé et la réceptivité." },
+            { "time":  "30:00 — 45:00\", \"title\":  \"Pratique : synchronisation rythmique\", \"content\":  \"Observer le rythme cardiaque. Calquer le souffle dessus. Puis introduire un balancement doux synchronisé." },
+            { "time":  "45:00 — 53:00\", \"title\":  \"La résonance entre les rythmes\", \"content\":  \"Quand respiration, battement et mouvement s'accordent : l'état de cohérence rythmique et ses effets." },
+            { "time":  "53:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Identifier les rythmes naturels de sa journée. Quand est-on naturellement en phase ? Hors phase ?" },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au souffle naturel. Intention de vivre une journée en observant ses rythmes." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : sentir le rythme cardiaque.",
+            "5–18 min — La loi du rythme : oscillations emboîtées du vivant.",
+            "18–30 min — Les rythmes du corps : cardiaque, respiratoire, cérébral, circadien.",
+            "30–45 min — Pratique : synchronisation rythmique cœur-souffle-mouvement.",
+            "45–53 min — Cohérence rythmique et ses effets sur la pratique.",
+            "53–58 min — Carnet : cartographier ses rythmes naturels.",
+            "58–60 min — Clôture : observer ses rythmes pendant une journée."
+        ],
+        "teaching":  {
+            "intro":  "Tout ce qui vit bat. Tout ce qui respire oscille. Le rythme est la première loi du vivant — avant la forme, avant la pensée, avant la conscience. Comprendre cette loi, c'est comprendre la structure même du corps comme instrument de pratique.",
+            "sections":  [
+                {
+                    "title":  "1. Le rythme comme structure fondamentale",
+                    "content":  "En physique, une oscillation est un mouvement périodique autour d'un point d'équilibre. En biologie, les oscillations sont omniprésentes : le cœur bat, les neurones déchargent, les hormones pulsent, les cellules respirent. Cette organisation rythmique n'est pas accessoire — elle est la condition de la coordination et de la communication entre les systèmes. Sans rythme, il n'y a pas de corps vivant : seulement un ensemble de molécules sans cohérence."
+                },
+                {
+                    "title":  "2. Les rythmes emboîtés du vivant",
+                    "content":  "Les rythmes biologiques s'organisent à différentes échelles temporelles, emboîtées comme des poupées russes. À la milliseconde : les potentiels d'action neuronaux. À la seconde : les rythmes cérébraux (alpha, bêta, thêta, delta). À la minute : le rythme cardiaque et respiratoire. À l'heure : les variations de vigilance. Au jour : le rythme circadien. Au mois : les cycles hormonaux. À l'année : les rythmes saisonniers. Chaque niveau influence les autres : une respiration lente abaisse le rythme cardiaque, qui influence les rythmes cérébraux."
+                },
+                {
+                    "title":  "3. La cohérence cardiaque : rythme et système nerveux",
+                    "content":  "Le cœur n'est pas seulement une pompe. Il possède son propre système nerveux (environ 40 000 neurones) et communique avec le cerveau via le nerf vague et les voies sympathiques. La variabilité de la fréquence cardiaque (VFC) — les légères variations du temps entre deux battements — est un indicateur précis de l'état du système nerveux autonome. Une VFC élevée indique un système nerveux flexible et résilient. La respiration lente et régulière (environ 5 à 6 cycles par minute) induit une cohérence cardiaque maximale — un état de synchronisation entre rythme respiratoire, cardiaque et cérébral associé à des effets mesurables : clarté mentale, stabilité émotionnelle, réceptivité accrue."
+                },
+                {
+                    "title":  "4. Le rythme de deux secondes comme point de départ",
+                    "content":  "Le premier cours de l'école a introduit le rythme de deux secondes. Ce rythme particulier (0,5 Hz) correspond approximativement aux oscillations de basse fréquence du système nerveux autonome et se situe dans la plage des rythmes alpha-thêta. Ce n'est pas un choix arbitraire : c'est le rythme naturel de l'oscillation douce qui synchronise le plus aisément les autres rythmes du corps. À ce rythme, une seconde vers la gauche et une seconde vers la droite, le corps trouve naturellement un équilibre entre activation et détente."
+                },
+                {
+                    "title":  "5. Vivre selon ses rythmes",
+                    "content":  "La pratique rythmique ne se limite pas aux séances formelles. Elle consiste à apprendre à lire ses propres rythmes naturels et à organiser sa vie en conséquence : pratiquer dans les créneaux de haute réceptivité (souvent tôt le matin ou en milieu d'après-midi), manger à heures régulières pour soutenir les rythmes digestifs, dormir et se lever aux mêmes heures pour maintenir le rythme circadien, prendre des pauses régulières dans le travail pour respecter les cycles ultradian (environ 90 minutes). Vivre avec ses rythmes plutôt que contre eux est la forme la plus simple et la plus puissante de la pratique quotidienne."
+                }
+            ]
+        },
+        "practice":  "Exercice de synchronisation rythmique : assis confortablement, observer d'abord le rythme cardiaque (poser une main sur le sternum). Compter les battements. Ensuite, calquer le souffle sur un rythme de 4 à 6 secondes par cycle (inspiration 2-3 s, expiration 2-3 s). Puis, une fois le souffle stabilisé, ajouter un très léger balancement latéral synchronisé avec le souffle (vers la gauche à l'inspiration, vers la droite à l'expiration, ou l'inverse). Maintenir 10 minutes. Dans le carnet : observer l'état avant et après — clarté mentale, tonus, calme.",
         "image":  "assets/course-visuals-premium/C025-loi-du-rythme-biologique.svg",
         "pdf":  "assets/cours-pdf/C025-loi-du-rythme-biologique.pdf",
-        "tags":  [
-                     "Rythmes, nombre d’or \u0026 fractales",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Rythmes, nombre d'or & fractales", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C026-alternance-gauche-droite-et-attention",
-        "number":  26,
+        "id":  "C034-alternance-gauche-droite-et-attention",
+        "number":  34,
         "familyId":  "rythmes",
-        "familyTitle":  "Rythmes, nombre d’or \u0026 fractales",
+        "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
         "title":  "Alternance gauche-droite et attention",
-        "subtitle":  "Cadence, cerveau, proportions du vivant",
+        "subtitle":  "Stimulation hémisphérique alternée comme outil d'équilibre cérébral",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Alternance gauche-droite et attention. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Relier rythme, nombre d’or, géométrie fractale, états cérébraux, musique, mantra et architecture du vivant.",
-        "practice":  "Installer une cadence simple, ressentir l’alternance, synchroniser souffle, attention et geste, puis noter la qualité du rythme intérieur.",
+        "kind":  "Enseignement & pratique hémisphérique",
+        "status":  "available",
+        "summary":  "Explorer les effets neurologiques de l'alternance gauche-droite sur les deux hémisphères cérébraux. Comprendre pourquoi le balancement latéral n'est pas simplement un mouvement mais une stimulation précise du cerveau, et comment l'utiliser pour produire des états d'équilibre, de clarté et de réceptivité.",
+        "shortSummary":  "Alternance latérale et hémisphères cérébraux : comprendre et utiliser la stimulation alternée pour l'équilibre cognitif.",
+        "longSummary":  "Le cerveau humain est divisé en deux hémisphères distincts, reliés par le corps calleux. L'hémisphère gauche traite préférentiellement le langage, la logique séquentielle et l'analyse. L'hémisphère droit traite préférentiellement les images, les patterns globaux, les émotions et la créativité. Dans l'état ordinaire, ces deux hémisphères fonctionnent souvent de manière asymétrique — l'un dominant l'autre selon les tâches et les états. Le balancement latéral, alternant gauche et droite à rythme régulier, stimule alternativement les deux hémisphères via les voies nerveuses croisées (le côté gauche du corps est commandé par l'hémisphère droit et vice versa). Cette stimulation alternée produit une synchronisation hémisphérique progressive — un état de cohérence inter-hémisphérique associé à la clarté mentale, à la résolution créative de problèmes et à des états méditatifs stables.",
+        "pedagogicalObjective":  "Comprendre la latéralisation cérébrale et comment l'alternance gauche-droite produit des états d'équilibre et de cohérence inter-hémisphérique.",
+        "initiaticObjective":  "Expérimenter dans son propre corps la différence entre un état de dominance hémisphérique (logique ou intuitif) et un état de cohérence (les deux hémisphères en harmonie) — et apprendre à induire ce second état à volonté.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Observer son état habituel : plutôt dans la pensée logique ou dans l'intuition ? Quel hémisphère domine ?" },
+            { "time":  "5:00 — 18:00\", \"title\":  \"Les deux hémisphères\", \"content\":  \"Gauche : langage, logique, séquentiel. Droit : images, patterns, émotions. Corps calleux et communication." },
+            { "time":  "18:00 — 30:00\", \"title\":  \"Voies croisées et stimulation alternée\", \"content\":  \"Pourquoi le gauche contrôle le droit et vice versa. Comment le mouvement latéral stimule les deux hémisphères." },
+            { "time":  "30:00 — 47:00\", \"title\":  \"Pratique : balancement latéral progressif\", \"content\":  \"Grand mouvement latéral (2 min), mouvement moyen (5 min), micro-mouvement (5 min), immobilité intérieure (3 min)." },
+            { "time":  "47:00 — 55:00\", \"title\":  \"Observer la cohérence\", \"content\":  \"Après le balancement : qualité de la pensée, présence des images et de la logique simultanément, calme." },
+            { "time":  "55:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Décrire l'état avant et après. Clarté cognitive, calme émotionnel, qualité de la présence." },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au souffle. Formule de fermeture." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : quel hémisphère domine en ce moment ?",
+            "5–18 min — Les deux hémisphères : fonctions et communication.",
+            "18–30 min — Voies croisées : comment le mouvement latéral stimule le cerveau.",
+            "30–47 min — Pratique : balancement latéral progressif (grand → micro → intérieur).",
+            "47–55 min — Observer la cohérence inter-hémisphérique.",
+            "55–58 min — Carnet : état avant/après, clarté, calme.",
+            "58–60 min — Clôture."
+        ],
+        "teaching":  {
+            "intro":  "Le cerveau est deux en un. Gauche et droit traitent le monde différemment. Quand ils se synchronisent, quelque chose de nouveau devient possible : une pensée qui est à la fois logique et intuitive, analytique et créatrice. Le balancement latéral est la clé de cette synchronisation.",
+            "sections":  [
+                {
+                    "title":  "1. La latéralisation cérébrale",
+                    "content":  "Les deux hémisphères cérébraux ne sont pas des copies symétriques. L'hémisphère gauche (chez la plupart des individus droitiers) traite préférentiellement le langage (production et compréhension), la logique séquentielle, l'analyse de détail et le temps (passé-futur). L'hémisphère droit traite préférentiellement la reconnaissance de patterns globaux, le traitement spatial, les émotions, la créativité, la musique et le présent immédiat. Cette spécialisation est fonctionnelle et non absolue : les deux hémisphères participent à presque toutes les tâches cognitives, mais dans des proportions différentes."
+                },
+                {
+                    "title":  "2. Le corps calleux : pont entre les mondes",
+                    "content":  "Le corps calleux est le principal faisceau de fibres nerveuses reliant les deux hémisphères. Il contient environ 200 à 250 millions d'axones et permet la communication rapide entre les deux systèmes de traitement. La qualité de cette communication inter-hémisphérique est mesurable : des études en neuroimagerie montrent que les méditants à long terme ont un corps calleux plus épais et mieux myélinisé que les non-méditants, permettant une intégration plus efficace des deux modes de traitement."
+                },
+                {
+                    "title":  "3. Les voies nerveuses croisées",
+                    "content":  "Les voies sensorielles et motrices du corps sont croisées : la main gauche est contrôlée par l'hémisphère droit, et vice versa. Quand le corps se balance vers la gauche, les mécanorécepteurs (peau, muscles, articulations) du côté gauche envoient des signaux à l'hémisphère droit. Quand il se balance vers la droite, les signaux vont à l'hémisphère gauche. Un balancement latéral régulier crée ainsi une stimulation alternée et rythmique des deux hémisphères, les activant successivement et favorisant progressivement leur synchronisation."
+                },
+                {
+                    "title":  "4. La progression du grand au petit mouvement",
+                    "content":  "La technique du balancement latéral suit toujours la même progression : on commence par le grand mouvement (amplitude maximale confortable, qui mobilise le corps entier), pour activer puissamment les deux hémisphères via les capteurs proprioceptifs. Progressivement, on réduit l'amplitude tout en maintenant la régularité du rythme. Le mouvement devient de plus en plus intérieur, jusqu'à n'être plus visible de l'extérieur — une simple sensation d'alternance dans le corps immobile. C'est dans ce dernier stade, le mouvement intérieur, que la synchronisation hémisphérique est la plus stable."
+                },
+                {
+                    "title":  "5. Applications pratiques",
+                    "content":  "L'état de cohérence inter-hémisphérique induit par le balancement latéral a plusieurs applications directes dans la pratique quotidienne. Avant une décision importante : le balancement aide à intégrer la logique (hémisphère gauche) et l'intuition (hémisphère droit) plutôt que de les opposer. Avant une création (écriture, art, musique) : il ouvre l'accès aux ressources créatives de l'hémisphère droit sans perdre la structure de l'hémisphère gauche. En situation de stress ou de surcharge émotionnelle : il rééquilibre la dominance d'un hémisphère sur l'autre et réduit l'agitation. Avant une pratique lumineuse ou de rémanence : il prépare un état de disponibilité maximale."
+                }
+            ]
+        },
+        "practice":  "Balancement latéral progressif : s'asseoir confortablement. Commencer par 2 minutes de balancement ample (amplitude ~15 cm de chaque côté), rythme de 2 secondes. Réduire l'amplitude progressivement sur 5 minutes. Passer à un très léger micro-mouvement (perceptible mais invisible) pendant 5 minutes. S'immobiliser complètement et observer l'alternance intérieure pendant 3 minutes. Dans le carnet : décrire l'état de clarté, d'équilibre et de présence dans les 15 minutes qui suivent.",
         "image":  "assets/course-visuals-premium/C026-alternance-gauche-droite-et-attention.svg",
         "pdf":  "assets/cours-pdf/C026-alternance-gauche-droite-et-attention.pdf",
-        "tags":  [
-                     "Rythmes, nombre d’or \u0026 fractales",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Rythmes, nombre d'or & fractales", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C027-nombre-d-or-comme-architecture-vivante",
-        "number":  27,
+        "id":  "C035-nombre-d-or-comme-architecture-vivante",
+        "number":  35,
         "familyId":  "rythmes",
-        "familyTitle":  "Rythmes, nombre d’or \u0026 fractales",
+        "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
-        "title":  "Nombre d’or comme architecture vivante",
-        "subtitle":  "Cadence, cerveau, proportions du vivant",
+        "title":  "Nombre d'or comme architecture vivante",
+        "subtitle":  "φ = 1,618 : la proportion qui structure le vivant",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Nombre d’or comme architecture vivante. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Relier rythme, nombre d’or, géométrie fractale, états cérébraux, musique, mantra et architecture du vivant.",
-        "practice":  "Installer une cadence simple, ressentir l’alternance, synchroniser souffle, attention et geste, puis noter la qualité du rythme intérieur.",
+        "kind":  "Enseignement & contemplation",
+        "status":  "available",
+        "summary":  "Découvrir le nombre d'or (φ ≈ 1,618) comme principe organisateur du vivant. Du nautile à l'ADN, de la disposition des graines de tournesol aux proportions du corps humain — φ est la signature géométrique de la croissance efficiente. Apprendre à l'utiliser dans la structure des séances de pratique.",
+        "shortSummary":  "Le nombre d'or φ : principe organisateur du vivant et outil de structuration de la pratique.",
+        "longSummary":  "Le nombre d'or (φ, phi, environ 1,618034...) est un rapport mathématique qui apparaît de manière récurrente dans les structures naturelles et dans les créations humaines jugées les plus harmonieuses. Ce n'est pas une coincidence ni une projection humaine : c'est une propriété mathématique des systèmes qui croissent de manière efficiente. La suite de Fibonacci (1, 1, 2, 3, 5, 8, 13, 21...) converge vers φ quand on divise chaque nombre par le précédent. Cette suite décrit la croissance de nombreuses formes biologiques. Dans la pratique intérieure, le nombre d'or peut être utilisé pour structurer le temps de la séance, les rapports entre phases d'apprentissage et phases de pratique, et les durées de respiration. Ce n'est pas de la numérologie — c'est l'application d'un principe de proportion naturelle à l'organisation du temps de pratique.",
+        "pedagogicalObjective":  "Comprendre le nombre d'or et son omniprésence dans le vivant, et apprendre à utiliser ses proportions dans l'organisation de la pratique.",
+        "initiaticObjective":  "Percevoir la beauté mathématique du vivant non comme une abstraction intellectuelle mais comme une intelligence de la forme — et commencer à aligner sa pratique sur cette intelligence.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"S'asseoir et observer : y a-t-il un sens du rythme naturel dans mon état du moment ?" },
+            { "time":  "5:00 — 22:00\", \"title\":  \"Le nombre d'or dans le vivant\", \"content\":  \"φ = 1,618. Suite de Fibonacci. Nautile, tournesol, ADN, corps humain, galaxies spirales." },
+            { "time":  "22:00 — 35:00\", \"title\":  \"φ dans le temps de la pratique\", \"content\":  \"Comment structurer une séance d'une heure selon les proportions φ. Enseignement 23 min, pratique 37 min." },
+            { "time":  "35:00 — 47:00\", \"title\":  \"Respiration en proportion φ\", \"content\":  \"Inspiration 2 s, expiration 3,2 s (rapport φ). Observer l'effet sur la qualité de la présence." },
+            { "time":  "47:00 — 53:00\", \"title\":  \"Contemplation de la spirale\", \"content\":  \"Observer mentalement une spirale croissante selon φ. Laisser la forme devenir intérieure." },
+            { "time":  "53:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Identifier une spirale ou une proportion φ dans son environnement quotidien. La noter et la dessiner." },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au corps et au souffle. Formule de fermeture." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : sens du rythme dans l'état du moment.",
+            "5–22 min — Le nombre d'or : φ dans le vivant.",
+            "22–35 min — φ dans le temps de la pratique.",
+            "35–47 min — Respiration en proportion φ.",
+            "47–53 min — Contemplation de la spirale intérieure.",
+            "53–58 min — Carnet : trouver φ dans le quotidien.",
+            "58–60 min — Clôture."
+        ],
+        "teaching":  {
+            "intro":  "Il existe un rapport qui revient partout dans le vivant. Un rapport entre les parties qui crée l'harmonie. Un rapport que les mathématiciens appellent φ et que le corps connaît depuis toujours. Ce cours le rend conscient.",
+            "sections":  [
+                { "title":  "1. φ : la proportion qui crée l'harmonie\", \"content\":  \"Le nombre d'or φ est défini comme la proportion entre deux segments a et b telle que (a+b)/a = a/b = φ ≈ 1,618034. Cette proportion a une propriété unique : elle est la seule proportion auto-similaire — c'est-à-dire que le rapport entre le tout et la grande partie est le même que le rapport entre la grande partie et la petite. C'est pourquoi elle apparaît dans les structures qui croissent en préservant leur forme : la spirale du nautile, la disposition des branches d'un arbre, la structure de l'ADN." },
+                { "title":  "2. La suite de Fibonacci et la croissance naturelle\", \"content\":  \"La suite de Fibonacci (0, 1, 1, 2, 3, 5, 8, 13, 21, 34...) est générée par une règle simple : chaque nombre est la somme des deux précédents. Cette suite converge rapidement vers φ : 21/13 = 1,615..., 34/21 = 1,619... Au-delà d'une curiosité mathématique, cette suite décrit la croissance naturelle efficiente — le nombre de pétales de la plupart des fleurs, la disposition des graines dans un tournesol, le nombre de spirales dans un ananas correspondent tous à des nombres de Fibonacci." },
+                { "title":  "3. φ dans le corps humain\", \"content\":  \"Le corps humain lui-même présente de nombreuses proportions proches de φ : le rapport entre la hauteur totale et la hauteur du nombril, entre la longueur de l'avant-bras et la longueur de la main, entre la phalange distale et la phalange médiane des doigts. Ces proportions ne sont pas accidentelles — elles reflètent un principe d'organisation efficiente qui optimise simultanément la force, la flexibilité et l'économie de matière. Percevoir ces proportions dans son propre corps est une forme de contemplation de l'intelligence du vivant." },
+                { "title":  "4. φ dans le temps de la pratique\", \"content\":  \"Un cours d'une heure (60 minutes) peut être structuré selon les proportions φ : la grande partie (enseignement, préparation) = 60/φ ≈ 37 minutes. La petite partie (pratique, intégration) = 60 - 37 ≈ 23 minutes. Ou l'inverse selon les besoins. Une respiration en proportion φ : si l'inspiration dure 2 secondes, l'expiration dure 2 × 1,618 ≈ 3,2 secondes. Ce rapport légèrement asymétrique (l'expiration plus longue) est naturellement relaxant et active le système nerveux parasympathique." },
+                { "title":  "5. La spirale φ comme support de contemplation\", \"content\":  \"La spirale de Fibonacci — construite en tournant successivement de quarts de cercle dont les rayons suivent la suite de Fibonacci — est l'une des formes les plus universelles du vivant et l'une des plus apaisantes à contempler. Fermer les yeux et visualiser une spirale qui s'enroule progressivement vers son centre est un exercice de centration puissant. La spirale symbolise le mouvement de l'exploration (la périphérie large) vers l'intérieur (le centre, le point fixe) — le mouvement même de toute pratique intérieure." }
+            ]
+        },
+        "practice":  "Explorer la respiration φ pendant 10 minutes : inspiration 2 s, expiration 3 s (approximation de φ). Après 5 minutes, augmenter légèrement : inspiration 3 s, expiration 5 s (nombres de Fibonacci). Observer la qualité de la détente et de la présence. Dans le carnet : comparer avec la respiration ordinaire et noter l'effet sur l'état intérieur.",
         "image":  "assets/course-visuals-premium/C027-nombre-d-or-comme-architecture-vivante.svg",
         "pdf":  "assets/cours-pdf/C027-nombre-d-or-comme-architecture-vivante.pdf",
-        "tags":  [
-                     "Rythmes, nombre d’or \u0026 fractales",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Rythmes, nombre d'or & fractales", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C028-fractales-du-vivant-et-perception",
-        "number":  28,
+        "id":  "C036-fractales-du-vivant-et-perception",
+        "number":  36,
         "familyId":  "rythmes",
-        "familyTitle":  "Rythmes, nombre d’or \u0026 fractales",
+        "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
         "title":  "Fractales du vivant et perception",
-        "subtitle":  "Cadence, cerveau, proportions du vivant",
+        "subtitle":  "La géométrie qui se répète à toutes les échelles",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Fractales du vivant et perception. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Relier rythme, nombre d’or, géométrie fractale, états cérébraux, musique, mantra et architecture du vivant.",
-        "practice":  "Installer une cadence simple, ressentir l’alternance, synchroniser souffle, attention et geste, puis noter la qualité du rythme intérieur.",
+        "kind":  "Enseignement & perception multi-échelle",
+        "status":  "available",
+        "summary":  "Comprendre la géométrie fractale comme structure fondamentale du corps humain et de la nature. Un neurone ressemble à un arbre, un arbre ressemble à un poumon, un poumon ressemble à une rivière et ses affluents. Cette auto-similarité à toutes les échelles est une clé de compréhension de la pratique intérieure.",
+        "shortSummary":  "Géométrie fractale : auto-similarité à toutes les échelles, du neurone au cosmos.",
+        "longSummary":  "Une fractale est une structure géométrique dont chaque partie reproduit le tout à une échelle différente. La côte bretonne est fractale : zoomez, et vous verrez la même complexité de criques et de caps à toutes les échelles. Un flocon de neige est fractal. Un arbre est fractal : chaque branche ressemble à l'arbre entier. Le corps humain est fractal à de nombreux niveaux : les bronchioles ressemblent aux bronches qui ressemblent à la trachée ; les artérioles ressemblent aux artères ; les dendrites d'un neurone ressemblent à l'arbre neuronal entier. Cette auto-similarité n'est pas une curiosité esthétique : elle reflète un principe d'organisation qui maximise l'efficience à toutes les échelles simultanément. Pour le pratiquant, cela signifie que toute modification à un niveau (une intention, une sensation, une habitude) peut se propager à tous les autres niveaux par résonance fractale.",
+        "pedagogicalObjective":  "Comprendre la géométrie fractale et son omniprésence dans le corps et la nature, et en dériver des implications pour la pratique intérieure.",
+        "initiaticObjective":  "Percevoir la cohérence du vivant à toutes les échelles — et commencer à percevoir sa propre intériorité comme un espace fractal où chaque geste, chaque pensée, chaque intention résonne à tous les niveaux.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Observer la forme d'une feuille si disponible, ou imaginer un arbre. Chercher la répétition de la forme à différentes échelles." },
+            { "time":  "5:00 — 20:00\", \"title\":  \"Qu'est-ce qu'une fractale ?\", \"content\":  \"Auto-similarité, dimension fractale, exemples naturels : côte, arbre, poumon, système vasculaire, neige." },
+            { "time":  "20:00 — 32:00\", \"title\":  \"Le corps humain fractal\", \"content\":  \"Bronchioles, neurones, vaisseaux, intestin (villosités) : l'auto-similarité au service de l'efficience biologique." },
+            { "time":  "32:00 — 45:00\", \"title\":  \"Implications pour la pratique\", \"content\":  \"Si le corps est fractal, toute modification à un niveau résonne à tous les autres. La conséquence pour l'intention, le travail émotionnel, la pratique physique." },
+            { "time":  "45:00 — 55:00\", \"title\":  \"Pratique : méditation en spirale fractale\", \"content\":  \"Partir du point le plus vaste (espace, cosmos) et spiraler progressivement vers le point le plus intime (souffle, battement)." },
+            { "time":  "55:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Identifier une fractale dans son corps ou son environnement. La décrire. Observer ce qu'elle évoque." },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au souffle, formule de fermeture." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : chercher la répétition de forme à différentes échelles.",
+            "5–20 min — Qu'est-ce qu'une fractale ? Auto-similarité et nature.",
+            "20–32 min — Le corps humain fractal : organes et systèmes.",
+            "32–45 min — Implications pour la pratique : résonance à toutes les échelles.",
+            "45–55 min — Pratique : méditation en spirale du cosmos au souffle.",
+            "55–58 min — Carnet : identifier une fractale.",
+            "58–60 min — Clôture."
+        ],
+        "teaching":  {
+            "intro":  "Le cosmos et le corps partagent le même alphabet géométrique. Les mêmes formes, les mêmes proportions, les mêmes principes organisateurs apparaissent à toutes les échelles. Comprendre cela transforme la façon de se percevoir soi-même — non comme un accident isolé mais comme une expression localisée du même ordre universel.",
+            "sections":  [
+                { "title":  "1. Auto-similarité : la même forme à toutes les échelles\", \"content\":  \"Une fractale est une structure mathématique dont chaque partie est une version miniaturisée du tout. Cette propriété s'appelle l'auto-similarité. Les fractales naturelles ne sont pas parfaitement auto-similaires comme les fractales mathématiques — elles le sont statistiquement, c'est-à-dire que les motifs se répètent avec des variations. Les exemples naturels les plus frappants : la fougère (chaque petite feuille ressemble à la feuille entière), le chou romanesco (spirales de spirales), les nuages, les montagnes, les réseaux de rivières." },
+                { "title":  "2. La dimension fractale : entre l'un et le deux\", \"content\":  \"En géométrie ordinaire, une ligne a une dimension de 1 et une surface a une dimension de 2. Les fractales existent entre ces dimensions : une côte très découpée a une dimension fractale d'environ 1,2 à 1,8. Cette dimension fractale mesure la complexité de la structure — plus elle est élevée, plus la structure est complexe à toutes les échelles. Le poumon humain a une surface interne d'environ 70 m² dans un volume de quelques litres — rendue possible par sa structure fractale (bronches → bronchioles → alvéoles → micro-alvéoles)." },
+                { "title":  "3. Le corps comme système fractal\", \"content\":  \"Le corps humain est fractal à de nombreux niveaux. Le système vasculaire : l'aorte se divise en artères, qui se divisent en artérioles, qui se divisent en capillaires — chaque niveau répète le pattern de ramification. Le système nerveux : les neurones avec leurs dendrites arborescentes et leurs axones ramifiés. Les poumons : la bifurcation des voies aériennes suit un pattern fractal précis qui maximise la surface d'échange. Les villosités intestinales et les micro-villosités (brush border) multiplient la surface d'absorption par 600. La nature ne répète pas par hasard — elle répète parce que c'est la solution la plus efficiente." },
+                { "title":  "4. Résonance fractale : toute modification irradie\", \"content\":  \"Si le corps est fractal, cela signifie que ses différents niveaux sont connectés par la même logique géométrique et fonctionnelle. Une modification à un niveau — une habitude alimentaire, une pratique respiratoire, une intention récurrente — ne reste pas confinée à ce niveau. Elle résonne progressivement à d'autres niveaux selon la logique fractale de propagation. C'est pourquoi un changement de posture corporelle (niveau physique) peut modifier l'état émotionnel (niveau affectif), qui peut modifier la qualité de la pensée (niveau cognitif). Le corps n'est pas une somme de parties — c'est une cohérence multi-échelle." },
+                { "title":  "5. La méditation en spirale fractale\", \"content\":  \"Une technique de méditation issue de la compréhension fractale consiste à faire voyager l'attention à travers plusieurs échelles successives, en spirale vers l'intérieur. On commence par le vaste (imaginer l'espace autour de la planète), on réduit progressivement l'échelle (continent, pays, ville, maison, pièce, corps, organe, cellule, molécule, atome, vide quantique) — ou l'on suit le chemin inverse. Ce voyage à travers les échelles entraîne l'attention à se mouvoir avec souplesse entre les niveaux de perception, et induit des états de calme et de perspective remarquables." }
+            ]
+        },
+        "practice":  "Méditation en spirale fractale (10 minutes) : avec les yeux fermés, faire voyager l'attention du plus vaste au plus intime. Commencer par imaginer l'espace interstellaire (vaste, silencieux, immobile). Zoomer progressivement : la planète, le continent, le pays, la ville, le bâtiment, la pièce, le corps, la cage thoracique, le cœur, une cellule cardiaque, une molécule d'ATP, l'espace entre les atomes. S'arrêter là, dans le silence intime de la matière. Remonter lentement au corps entier. Dans le carnet : décrire ce qui a été perçu à chaque échelle.",
         "image":  "assets/course-visuals-premium/C028-fractales-du-vivant-et-perception.svg",
         "pdf":  "assets/cours-pdf/C028-fractales-du-vivant-et-perception.pdf",
-        "tags":  [
-                     "Rythmes, nombre d’or \u0026 fractales",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Rythmes, nombre d'or & fractales", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C029-spirales-proportions-et-axe-interieur",
-        "number":  29,
+        "id":  "C037-spirales-proportions-et-axe-interieur",
+        "number":  37,
         "familyId":  "rythmes",
-        "familyTitle":  "Rythmes, nombre d’or \u0026 fractales",
+        "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
         "title":  "Spirales, proportions et axe intérieur",
-        "subtitle":  "Cadence, cerveau, proportions du vivant",
+        "subtitle":  "La spirale comme chemin de l'extérieur vers le centre",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Spirales, proportions et axe intérieur. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Relier rythme, nombre d’or, géométrie fractale, états cérébraux, musique, mantra et architecture du vivant.",
-        "practice":  "Installer une cadence simple, ressentir l’alternance, synchroniser souffle, attention et geste, puis noter la qualité du rythme intérieur.",
+        "kind":  "Enseignement & méditation en spirale",
+        "status":  "available",
+        "summary":  "Explorer la spirale comme forme universelle du mouvement vers le centre. De la galaxie à la coquille, de l'ADN au tourbillon d'eau — la spirale est le mouvement naturel de tout ce qui converge. Apprendre à utiliser la méditation en spirale pour trouver l'axe intérieur.",
+        "shortSummary":  "La spirale : forme universelle de convergence vers le centre — et technique de méditation pour trouver l'axe intérieur.",
+        "longSummary":  "La spirale est l'une des formes les plus universelles du vivant et du cosmos. Les galaxies spiralent. L'ADN s'enroule en double hélice. L'eau qui s'écoule spiral autour d'un vortex. La coquille du nautile est une spirale logarithmique de proportion φ. Les phyllotaxies (dispositions des feuilles, graines, pétales) suivent des spirales de Fibonacci. Dans les traditions contemplatives du monde entier, la spirale est un symbole du chemin intérieur : le mouvement qui part de la surface (le monde extérieur, la pensée dispersée) et converge progressivement vers le centre (le silence, l'axe, l'être pur). Ce cours utilise la spirale comme métaphore et comme technique de méditation, pour conduire l'attention du vaste vers le point central — l'axe intérieur autour duquel toute la pratique s'organise.",
+        "pedagogicalObjective":  "Comprendre la spirale comme forme naturelle de convergence et maîtriser la méditation en spirale comme technique d'accès à l'axe intérieur.",
+        "initiaticObjective":  "Trouver son propre centre de gravité intérieur — le point de silence et d'équilibre autour duquel toute la pratique peut s'organiser.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"S'asseoir et sentir l'axe vertical du corps. Le trouver, le maintenir, l'habiter." },
+            { "time":  "5:00 — 18:00\", \"title\":  \"La spirale dans le vivant\", \"content\":  \"Galaxies, nautile, ADN, eau, phyllotaxies. La spirale comme convergence naturelle vers le centre." },
+            { "time":  "18:00 — 30:00\", \"title\":  \"La spirale intérieure\", \"content\":  \"Dans les traditions contemplatives : la spirale comme chemin vers le centre de soi. L'axe intérieur comme point de référence de toute pratique." },
+            { "time":  "30:00 — 50:00\", \"title\":  \"Méditation en spirale\", \"content\":  \"Guide complet : partir de la périphérie (monde, corps, pensées) et spiraler progressivement vers le centre (souffle, battement, silence)." },
+            { "time":  "50:00 — 56:00\", \"title\":  \"L'axe retrouvé\", \"content\":  \"Observer l'état de centration après la méditation. L'axe intérieur comme boussole de la pratique quotidienne." },
+            { "time":  "56:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Décrire l'axe intérieur tel qu'il a été ressenti. Y revenir aura-t-il un sens dans la vie ordinaire ?" },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au corps, au lieu, au souffle. Garder un fil vers le centre." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : sentir et habiter l'axe vertical.",
+            "5–18 min — La spirale dans le vivant : convergence naturelle.",
+            "18–30 min — La spirale intérieure et l'axe de la pratique.",
+            "30–50 min — Méditation guidée en spirale vers le centre.",
+            "50–56 min — L'axe retrouvé : centration et boussole intérieure.",
+            "56–58 min — Carnet : décrire l'axe intérieur.",
+            "58–60 min — Clôture : garder un fil vers le centre."
+        ],
+        "teaching":  {
+            "intro":  "Tout ce qui converge spirale. La nature ne va jamais droit au centre — elle tourne progressivement, s'approche, se concentre. La méditation en spirale imite ce mouvement naturel : partir de la périphérie agitée et, en tournant doux, trouver le cœur silencieux.",
+            "sections":  [
+                { "title":  "1. La spirale logarithmique : une convergence infinie\", \"content\":  \"La spirale logarithmique est la spirale qui croit (ou converge) à taux constant à chaque rotation. Elle a la propriété de conserver la même forme quelle que soit l'échelle — c'est une spirale auto-similaire, donc fractale. La spirale du nautile, de la galaxie d'Andromède et des nuages de cyclone sont toutes des approximations de la spirale logarithmique. Sa constante de croissance est souvent liée au nombre d'or φ. Ce type de spirale n'a pas de centre atteint en un nombre fini de tours — elle converge asymptotiquement, comme la méditation elle-même converge sans jamais prétendre \"avoir tout compris\"." },
+                { "title":  "2. L'axe : le centre immobile\", \"content\":  \"Dans toute spirale, il y a un axe autour duquel le mouvement s'organise. Cet axe est le point d'équilibre, le centre de gravité, l'invariant. Dans le corps, l'axe vertical (colonne vertébrale, axe céphalique) est ce point central autour duquel le reste du corps peut s'organiser et se mouvoir sans perdre son centre. Dans la pratique intérieure, l'axe intérieur est ce lieu de silence et de stabilité d'où toute perception peut être observée sans être emportée. Les traditions le nomment diversement : présence, témoin, conscience pure, centre silencieux." },
+                { "title":  "3. La méditation en spirale : une technique universelle\", \"content\":  \"La méditation en spirale consiste à conduire l'attention progressivement du vaste vers le point. On part du plus large (espace, lumière, sons de l'environnement), on réduit progressivement l'échelle d'attention (la pièce, le corps entier, le torse, la poitrine, le cœur, le battement du cœur, l'espace entre deux battements), jusqu'à arriver au silence central. Ce parcours spiralant est différent de la concentration directe (qui peut créer de la tension) : c'est une approximation douce qui respecte le rythme naturel de l'attention." },
+                { "title":  "4. L'axe intérieur comme boussole\", \"content\":  \"Avoir accès à l'axe intérieur — ce sentiment d'être au centre de soi-même, stable sans être rigide, calme sans être absent — est l'un des fruits les plus pratiques de la pratique régulière. Cette centration peut être retrouvée en quelques secondes dans la vie ordinaire : une courte pause, quelques respirations, la sensation du poids du corps sur le siège ou le sol. L'axe devient une boussole intérieure accessible à tout moment, qui indique si l'on est \"au centre\" ou \"emporté\" par les événements." },
+                { "title":  "5. Spirale et balancement : deux mouvements complémentaires\", \"content\":  \"Le balancement alternatif (gauche-droite, avant-arrière) et la spirale sont deux mouvements complémentaires. Le balancement alterne et synchronise. La spirale converge et centre. Utilisés ensemble — un balancement qui se réduit progressivement jusqu'à devenir une spirale imaginaire vers le centre — ils produisent un état de centration progressive particulièrement efficace. La transition du balancement vers la spirale intérieure est l'une des techniques les plus avancées de cette famille de cours." }
+            ]
+        },
+        "practice":  "Méditation en spirale (15 minutes) : assis, yeux fermés. Démarrer au plus large — le son de l'environnement, la sensation de la pièce. Progressivement, réduire l'attention vers le corps entier, puis vers la cage thoracique, vers le cœur, vers le battement, vers l'espace entre deux battements. Rester dans ce silence central 3 minutes. Puis remonter lentement vers la périphérie. Dans le carnet : décrire la qualité du centre trouvé et combien de temps on a pu y rester.",
         "image":  "assets/course-visuals-premium/C029-spirales-proportions-et-axe-interieur.svg",
         "pdf":  "assets/cours-pdf/C029-spirales-proportions-et-axe-interieur.pdf",
-        "tags":  [
-                     "Rythmes, nombre d’or \u0026 fractales",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Rythmes, nombre d'or & fractales", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C030-rythmes-cerebraux-et-etats-de-conscience",
-        "number":  30,
+        "id":  "C038-rythmes-cerebraux-et-etats-de-conscience",
+        "number":  38,
         "familyId":  "rythmes",
-        "familyTitle":  "Rythmes, nombre d’or \u0026 fractales",
+        "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
         "title":  "Rythmes cérébraux et états de conscience",
-        "subtitle":  "Cadence, cerveau, proportions du vivant",
+        "subtitle":  "Delta, thêta, alpha, bêta, gamma : la carte des états intérieurs",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Rythmes cérébraux et états de conscience. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Relier rythme, nombre d’or, géométrie fractale, états cérébraux, musique, mantra et architecture du vivant.",
-        "practice":  "Installer une cadence simple, ressentir l’alternance, synchroniser souffle, attention et geste, puis noter la qualité du rythme intérieur.",
+        "kind":  "Enseignement & exploration des états cérébraux",
+        "status":  "available",
+        "summary":  "Comprendre les cinq rythmes cérébraux principaux (delta, thêta, alpha, bêta, gamma) et leur correspondance avec les états de conscience. Apprendre à reconnaître dans quel état on se trouve, et comment la pratique lumineuse et rythmique conduit naturellement du bêta vers l'alpha et le thêta.",
+        "shortSummary":  "Delta, thêta, alpha, bêta, gamma : la carte des rythmes cérébraux et leur correspondance avec les états méditatifs.",
+        "longSummary":  "Le cerveau produit en permanence des oscillations électriques mesurables par électroencéphalographie (EEG). Ces oscillations — les ondes cérébrales — sont classifiées en bandes de fréquence qui correspondent à des états de conscience distincts. Delta (0,5-4 Hz) : sommeil profond, régénération. Thêta (4-8 Hz) : hypnagogie, rêverie, créativité profonde, méditation profonde. Alpha (8-13 Hz) : relaxation vigilante, méditation légère, réceptivité calme. Bêta (13-30 Hz) : éveil actif, pensée logique, résolution de problèmes. Gamma (30-100 Hz) : cohérence inter-régionale intense, états de flow, insight soudain. La pratique lumineuse et rythmique (balancement + rémanence + souffle lent) induit naturellement un glissement du bêta vers l'alpha puis le thêta — un passage mesurable et reproductible.",
+        "pedagogicalObjective":  "Connaître les cinq rythmes cérébraux, leurs caractéristiques et leurs correspondances avec les états de conscience, et comprendre comment la pratique les module.",
+        "initiaticObjective":  "Apprendre à reconnaître son propre état cérébral du moment, à valoriser les états thêta et alpha comme espaces de transformation, et à trouver les conditions qui y conduisent naturellement.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Observer son état de conscience actuel. Plutôt agité et analytique ? Calme et réceptif ? Somnolent ?" },
+            { "time":  "5:00 — 22:00\", \"title\":  \"Les cinq rythmes cérébraux\", \"content\":  \"Delta, thêta, alpha, bêta, gamma : fréquences, états correspondants, signes subjectifs." },
+            { "time":  "22:00 — 32:00\", \"title\":  \"La pratique et les ondes\", \"content\":  \"Comment la rémanence, le balancement et la respiration lente conduisent du bêta vers l'alpha-thêta." },
+            { "time":  "32:00 — 48:00\", \"title\":  \"Pratique : induire l'état alpha-thêta\", \"content\":  \"Séquence guidée : lumière douce + rémanence + balancement réduit + souffle de 5 cycles/minute." },
+            { "time":  "48:00 — 55:00\", \"title\":  \"Observer l'état\", \"content\":  \"Pendant et après la pratique : reconnaître les signes de l'alpha (calme vigilant) et du thêta (images, rêverie)." },
+            { "time":  "55:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Décrire l'état atteint. Dans quelle bande de fréquence ? Comment y est-on entré ? Combien de temps ?" },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au bêta ordinaire. Formule de fermeture, geste concret." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : identifier son état de conscience actuel.",
+            "5–22 min — Les cinq rythmes cérébraux : fréquences et états.",
+            "22–32 min — Pratique et ondes : comment la séquence conduit à l'alpha-thêta.",
+            "32–48 min — Pratique : induire l'état alpha-thêta.",
+            "48–55 min — Observer l'état atteint et ses signes subjectifs.",
+            "55–58 min — Carnet : décrire et cartographier l'état.",
+            "58–60 min — Clôture : retour au bêta ordinaire."
+        ],
+        "teaching":  {
+            "intro":  "Le cerveau produit de l'électricité. Des ondes. Différentes ondes créent différents états. Comprendre cette carte intérieure, c'est comprendre ce que la pratique produit réellement — et pouvoir le répéter avec intention.",
+            "sections":  [
+                { "title":  "1. Delta (0,5–4 Hz) : le sommeil profond\", \"content\":  \"Les ondes delta sont les plus lentes. Elles dominent pendant le sommeil profond non-REM (stades 3 et 4). Dans cet état, la conscience est absente ou très diffuse. C'est la phase de régénération maximale : l'hormone de croissance est libérée, le système immunitaire se renforce, le cerveau élimine ses déchets métaboliques. On ne pratique pas dans l'état delta — on y récupère. Mais les pratiques qui améliorent la qualité du sommeil profond augmentent indirectement la vitalité disponible pour toutes les autres pratiques." },
+                { "title":  "2. Thêta (4–8 Hz) : la porte de l'inconscient\", \"content\":  \"L'état thêta est la frontière entre le sommeil et l'éveil — l'état hypnagogique. C'est l'état des rêveries spontanées, de la créativité profonde, des insights soudains, de certains états méditatifs avancés et des épisodes de \"channeling\" (réception d'informations non logiques). Dans cet état, les filtres du mental logique sont réduits et l'accès aux matériaux de l'inconscient est facilité. Les méditants expérimentés peuvent maintenir un état thêta en restant éveillés — ce qui est l'un des signes d'une pratique avancée." },
+                { "title":  "3. Alpha (8–13 Hz) : la détente vigilante\", \"content\":  \"L'état alpha est celui de la relaxation vigilante — calme mais présent, détendu mais attentif. C'est l'état \"naturel\" de repos éveillé, celui qu'on retrouve lors d'une promenade en nature, d'une lecture absorbante, d'une rêverie légère ou d'une méditation légère. Les pratiques lumineuses et rythmiques induisent cet état rapidement. Dans l'état alpha, la réceptivité aux impressions subtiles est maximale, l'anxiété est minimale et la mémoire à court terme est légèrement améliorée." },
+                { "title":  "4. Bêta (13–30 Hz) : l'éveil actif\", \"content\":  \"L'état bêta est l'état ordinaire d'éveil actif — pensée logique, résolution de problèmes, conversation, gestion des tâches. Les ondes bêta rapides (20-30 Hz) sont associées à l'anxiété, au stress et à la surcharge cognitive. Les ondes bêta lentes (13-18 Hz) sont associées à une pensée claire et focalisée sans stress excessif. La plupart des personnes passent la majorité de leurs heures d'éveil dans cet état. La pratique intérieure vise à développer la capacité à passer volontairement du bêta à l'alpha et au thêta." },
+                { "title":  "5. Gamma (30–100 Hz) : la cohérence maximale\", \"content\":  \"Les ondes gamma sont les plus rapides. Elles sont associées à des états de cohérence maximale entre différentes régions cérébrales — l'état de \"binding\" (liaison) qui intègre les différentes modalités sensorielles en une expérience unifiée. Les études sur les méditants tibétains montrent des bouffées gamma extraordinairement puissantes pendant les états méditatifs profonds de compassion et de présence ouverte. Ces états ne peuvent pas être forcés — ils surviennent naturellement quand les conditions sont réunies (pratique régulière, intention claire, terrain stable, ouverture)." }
+            ]
+        },
+        "practice":  "Induire l'état alpha-thêta (15 minutes) : observer une bougie 25 secondes, fermer les yeux, accueillir la trace. Puis commencer un très léger balancement synchronisé avec un souffle de 5 cycles par minute (inspiration 6 s, expiration 6 s). Maintenir 10 minutes. Observer les signes de l'état atteint : images spontanées (thêta), calme profond (alpha), pensée ralentie. Dans le carnet : noter la durée avant d'entrer dans l'état, la qualité et la durée de l'état.",
         "image":  "assets/course-visuals-premium/C030-rythmes-cerebraux-et-etats-de-conscience.svg",
         "pdf":  "assets/cours-pdf/C030-rythmes-cerebraux-et-etats-de-conscience.pdf",
-        "tags":  [
-                     "Rythmes, nombre d’or \u0026 fractales",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Rythmes, nombre d'or & fractales", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C031-musique-mantra-et-cadence",
-        "number":  31,
+        "id":  "C039-musique-mantra-et-cadence",
+        "number":  39,
         "familyId":  "rythmes",
-        "familyTitle":  "Rythmes, nombre d’or \u0026 fractales",
+        "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
         "title":  "Musique, mantra et cadence",
-        "subtitle":  "Cadence, cerveau, proportions du vivant",
+        "subtitle":  "Le son comme vecteur de rythme intérieur",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Musique, mantra et cadence. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Relier rythme, nombre d’or, géométrie fractale, états cérébraux, musique, mantra et architecture du vivant.",
-        "practice":  "Installer une cadence simple, ressentir l’alternance, synchroniser souffle, attention et geste, puis noter la qualité du rythme intérieur.",
+        "kind":  "Enseignement & pratique sonore",
+        "status":  "available",
+        "summary":  "Explorer le son — musique, mantra, cadence vocale — comme vecteur de rythme intérieur. Comprendre comment les vibrations sonores traversent le corps et synchronisent les rythmes biologiques. Découvrir les mantras structurels (ILLI, ALLA, OLLO, RORO) et leur lien avec les axes de balancement.",
+        "shortSummary":  "Son, vibration, mantra : comment la cadence sonore synchronise les rythmes intérieurs du corps.",
+        "longSummary":  "Le son n'est pas seulement entendu — il est ressenti dans tout le corps. Les vibrations acoustiques se propagent dans les structures osseuses, les cavités crâniennes et les tissus mous. Un son produit par le corps lui-même (chanté, murmuré ou pensé) génère une vibration mécanique interne qui peut synchroniser les rythmes biologiques par résonance. Les traditions contemplatives ont développé au fil des millénaires des sons spécifiques — mantras — qui résonnent de manière particulièrement efficace dans les cavités corporelles. ILLI, ALLA, OLLO, RORO sont des mantras structurels directement liés aux quatre axes de balancement et aux quatre hémisphères de la conscience. OM/AUM est le mantra unifiant qui résonne dans la totalité du crâne et de la cage thoracique. Ce cours explore ces sons et leurs applications pratiques.",
+        "pedagogicalObjective":  "Comprendre comment le son et le mantra agissent sur les rythmes biologiques et maîtriser les mantras structurels ILLI-ALLA-OLLO-RORO dans leur contexte rythmique.",
+        "initiaticObjective":  "Découvrir que la voix est un instrument de pratique — et que produire consciemment un son juste est un acte aussi transformateur que n'importe quelle autre technique.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Observer le son de sa propre respiration. Le percevoir comme musique." },
+            { "time":  "5:00 — 18:00\", \"title\":  \"Le son comme vibration corporelle\", \"content\":  \"Acoustique de base, propagation dans les tissus, cavités de résonance crânienne, effets sur le système nerveux." },
+            { "time":  "18:00 — 30:00\", \"title\":  \"Les mantras structurels\", \"content\":  \"ILLI (latéral), ALLA (vertical), OLLO (circulaire), RORO (antéro-postérieur). Logique phonétique et lien avec les balancements." },
+            { "time":  "30:00 — 47:00\", \"title\":  \"Pratique : chanter les mantras\", \"content\":  \"Pratiquer chaque mantra avec le balancement correspondant. Observer les résonances dans le corps." },
+            { "time":  "47:00 — 55:00\", \"title\":  \"OM comme mantra unifiant\", \"content\":  \"Anatomie de OM : A (bouche ouverte), U (milieu de la bouche), M (lèvres fermées). Vibration dans le crâne et la cage thoracique." },
+            { "time":  "55:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Quel mantra a créé la résonance la plus forte ? Dans quelle partie du corps ?" },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Un dernier OM en silence intérieur. Retour au corps et au souffle." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : le son de la respiration comme musique.",
+            "5–18 min — Son et vibration corporelle : propagation et résonance.",
+            "18–30 min — Les mantras structurels : ILLI, ALLA, OLLO, RORO.",
+            "30–47 min — Pratique : chanter chaque mantra avec son balancement.",
+            "47–55 min — OM : anatomie et vibration du mantra unifiant.",
+            "55–58 min — Carnet : résonances ressenties.",
+            "58–60 min — Clôture : OM intérieur."
+        ],
+        "teaching":  {
+            "intro":  "La voix est le premier instrument. Elle vibrait avant les mains. Elle résonait dans les corps avant que les corps sachent penser. Le mantra n'est pas une récitation : c'est une vibration intentionnelle qui agit sur le corps de l'intérieur.",
+            "sections":  [
+                { "title":  "1. La propagation des vibrations dans le corps\", \"content\":  \"Le son est une onde mécanique de compression-décompression qui se propage dans les milieux matériels. Dans le corps humain, les os conduisent le son environ 15 fois plus vite que l'air. Les cavités crâniennes (sinus frontaux, ethmoïdaux, sphénoïdaux, maxillaires), la cavité buccale, la cavité nasale et la cage thoracique agissent comme des caisses de résonance qui amplifient certaines fréquences. Un son chanté par le corps lui-même crée donc une vibration interne qui n'existe pas avec un son entendu de l'extérieur : elle traverse les structures et les informe de l'intérieur." },
+                { "title":  "2. Les mantras structurels et les axes\", \"content\":  \"ILLI est le mantra de l'axe latéral (gauche-droite). Sa sonorité alterne entre les deux côtés de la bouche, stimulant les voies nerveuses latérales et favorisant l'équilibre hémisphérique. ALLA est le mantra de l'axe vertical (haut-bas). Son ouverture vocale (le A ouvert) crée une résonance qui descend de la tête vers la gorge et la poitrine. OLLO est le mantra de la rotation circulaire. Sa forme arrondie (O) crée une résonance qui se ferme sur elle-même, invitant à la centration. RORO est le mantra de l'axe antéro-postérieur (avant-arrière). Le roulement du R crée une vibration tonique dans le palais et la base du crâne." },
+                { "title":  "3. La logique phonétique des mantras\", \"content\":  \"Ces quatre mantras ne sont pas arbitraires. Leur logique phonétique est précise. Chacun utilise une alternance de consonnes et de voyelles qui crée un pattern rythmique binaire, identique au rythme de balancement. ILLI : I-L-L-I, deux syllabes équilibrées, miroir l'une de l'autre. ALLA : A-L-L-A, même structure avec une voyelle plus ouverte. OLLO : O-L-L-O, voyelle la plus ronde, la plus fermée sur elle-même. RORO : R-O-R-O, le R vibre dans le palais, le O ouvre la résonance. Chanter ces mantras au rythme du balancement crée une synergie acoustique-cinétique qui dépasse chaque élément pris séparément." },
+                { "title":  "4. OM : le mantra de l'unification\", \"content\":  \"OM (aussi écrit AUM) est le mantra le plus universel et le plus étudié. Sa structure en trois phonèmes correspond à trois zones de résonance. A (prononcé comme \"ah\") : résonne dans la cavité thoracique et dans la bouche grande ouverte. U (prononcé comme \"oo\") : résonne dans la cavité buccale, en fermant progressivement. M (lips vibrant fermés) : résonne dans la cavité crânienne, les os du crâne et la région céphalique entière. La résonance de OM après l'émission vocale (le silence vibrant qui suit) est aussi importante que l'émission elle-même. Dans ce silence, la vibration continue à propager dans les structures du crâne." },
+                { "title":  "5. Son intérieur et sons endogènes\", \"content\":  \"Certains pratiquants perçoivent, dans le silence prolongé, des sons intérieurs non pathologiques — un bourdonnement, un sifflement, une note tenue, un son pulsatile. Ces sons endogènes (produits par le corps lui-même) sont des marqueurs d'un état de profond recueillement. L'écoute consciente de ces sons, sans les amplifier ni les réprimer, peut devenir un support de méditation particulièrement puissant. L'alternation auditive consciente — percevoir un son alternativement dans l'oreille gauche puis dans l'oreille droite — est une forme de stimulation hémisphérique alternée par le canal auditif." }
+            ]
+        },
+        "practice":  "Pratique des quatre mantras (20 minutes) : assis, yeux mi-clos. Chanter lentement ILLI en se balançant légèrement de gauche à droite, 10 répétitions. Pause 30 secondes. Passer à ALLA avec un léger balancement vertical (ou imaginaire), 10 répétitions. Pause. Passer à OLLO avec une rotation douce imaginaire, 10 répétitions. Pause. Passer à RORO avec un léger balancement avant-arrière, 10 répétitions. Terminer avec 3 OM complets. Dans le carnet : résonance ressentie pour chaque mantra (quel effet, dans quelle zone du corps).",
         "image":  "assets/course-visuals-premium/C031-musique-mantra-et-cadence.svg",
         "pdf":  "assets/cours-pdf/C031-musique-mantra-et-cadence.pdf",
-        "tags":  [
-                     "Rythmes, nombre d’or \u0026 fractales",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Rythmes, nombre d'or & fractales", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C032-construire-un-protocole-rythmique-personnel",
-        "number":  32,
+        "id":  "C040-construire-un-protocole-rythmique-personnel",
+        "number":  40,
         "familyId":  "rythmes",
-        "familyTitle":  "Rythmes, nombre d’or \u0026 fractales",
+        "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
         "title":  "Construire un protocole rythmique personnel",
-        "subtitle":  "Cadence, cerveau, proportions du vivant",
+        "subtitle":  "Intégrer rythme, proportion et son dans une pratique sur mesure",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Construire un protocole rythmique personnel. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Relier rythme, nombre d’or, géométrie fractale, états cérébraux, musique, mantra et architecture du vivant.",
-        "practice":  "Installer une cadence simple, ressentir l’alternance, synchroniser souffle, attention et geste, puis noter la qualité du rythme intérieur.",
+        "kind":  "Protocole intégrateur & création personnelle",
+        "status":  "available",
+        "summary":  "Intégrer l'ensemble des connaissances de la famille Rythmes dans un protocole personnel et sur mesure. Rythme biologique, alternance latérale, nombre d'or, fractales, rythmes cérébraux, mantras : tout s'assemble dans une séquence adaptée à son propre corps, sa propre journée, ses propres objectifs.",
+        "shortSummary":  "Créer son protocole rythmique personnel : assembler rythme, proportion, balancement et mantra en une séquence sur mesure.",
+        "longSummary":  "Les sept cours précédents ont fourni une boîte à outils complète : la loi du rythme biologique, l'alternance hémisphérique, le nombre d'or, la géométrie fractale, la spirale, les rythmes cérébraux et les mantras. Ce dernier cours de la famille Rythmes les intègre dans une démarche de création personnelle. Chaque pratiquant est différent — différents rythmes naturels, différents créneaux disponibles, différents objectifs, différentes facilités et résistances. Ce cours guide la construction d'un protocole rythmique personnel, adapté à ces paramètres spécifiques, que le pratiquant pourra utiliser pendant tout le temps de la famille suivante (Inversion & Incarnation) et au-delà.",
+        "pedagogicalObjective":  "Construire un protocole rythmique personnel complet, cohérent et praticable quotidiennement, en intégrant les apprentissages des 7 cours précédents.",
+        "initiaticObjective":  "Passer de l'élève qui reçoit des techniques à l'artisan qui les assemble en fonction de sa propre réalité — premier pas vers la pratique autonome et créatrice.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Bilan de la famille Rythmes : qu'ai-je appris ? Qu'est-ce qui a le plus résonné ?" },
+            { "time":  "5:00 — 18:00\", \"title\":  \"Les éléments de l'assemblage\", \"content\":  \"Passer en revue les 7 outils : rythme biologique, alternance, φ, fractale, spirale, ondes, mantras. Les forces et les limites de chacun." },
+            { "time":  "18:00 — 32:00\", \"title\":  \"Créer son protocole\", \"content\":  \"Guide de création : choisir une durée (15, 30 ou 45 min), un créneau, une séquence logique (du plus vaste au plus intime), les outils adaptés à son objectif du jour." },
+            { "time":  "32:00 — 50:00\", \"title\":  \"Pratique : première application du protocole personnel\", \"content\":  \"Chacun pratique son protocole créé pendant la session." },
+            { "time":  "50:00 — 56:00\", \"title\":  \"Évaluation et ajustement\", \"content\":  \"Qu'est-ce qui a bien fonctionné ? Qu'est-ce qui a besoin d'ajustement ? Souplesse vs rigidité dans le protocole." },
+            { "time":  "56:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Écrire le protocole finalisé dans le carnet. Le noter clairement pour pouvoir le reprendre demain." },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture de la famille Rythmes\", \"content\":  \"Retour au corps, au souffle. Ouverture vers la famille Inversion & Incarnation." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : bilan de la famille Rythmes.",
+            "5–18 min — Les 7 outils rythmiques : forces et limites.",
+            "18–32 min — Créer son protocole : guide d'assemblage.",
+            "32–50 min — Pratique : première application du protocole personnel.",
+            "50–56 min — Évaluation et ajustement.",
+            "56–58 min — Carnet : noter le protocole finalisé.",
+            "58–60 min — Clôture de la famille et ouverture vers Inversion."
+        ],
+        "teaching":  {
+            "intro":  "Les outils sont là. Il reste à les assembler de façon qui soit la vôtre. Un protocole personnel n'est pas une recette copiée — c'est une réponse adaptée à son propre corps, ses propres rythmes, ses propres objectifs. Ce cours guide cette création.",
+            "sections":  [
+                { "title":  "1. Identifier ses rythmes naturels\", \"content\":  \"Avant de créer un protocole, observer ses propres rythmes naturels : à quelle heure est-on naturellement le plus alerte ? À quelle heure se produit la baisse de l'après-midi ? Quel est son temps naturel d'endormissement ? Ces rythmes individuels sont le premier paramètre du protocole. Pratiquer dans un créneau de haute réceptivité naturelle (pour la plupart : tôt le matin ou en milieu d'après-midi) est plus efficace que pratiquer contre son rythme." },
+                { "title":  "2. Choisir une durée praticable\", \"content\":  \"La régularité prime sur la durée. Un protocole de 15 minutes pratiqué 7 jours sur 7 est plus transformateur qu'un protocole de 60 minutes pratiqué 2 fois par semaine. La durée idéale est celle que l'on peut maintenir sans effort excessif pendant au moins 30 jours consécutifs. Pour la plupart des pratiquants en début de pratique : 20 à 30 minutes est un créneau réaliste. Pour un pratiquant plus avancé : 45 minutes à 1 heure." },
+                { "title":  "3. La structure logique d'un protocole\", \"content\":  \"Un bon protocole rythmique personnel suit une logique de progression : ouverture (installation, observation de l'état, intention) → activation (balancement latéral ample, éventuellement mantra) → approfondissement (balancement réduit ou spirale, souffle ralenti) → point de centre (immobilité, silence, présence pure) → intégration (rémanence si lumière disponible, carnet) → clôture. Cette structure du large vers le point et du point vers la surface suit la logique naturelle de la spirale." },
+                { "title":  "4. Adapter selon l'objectif\", \"content\":  \"Selon l'objectif du jour, certains éléments priment sur les autres. Clarté mentale et équilibre cognitif : insister sur l'alternance latérale (cours 26). État de réceptivité profonde : priorité au balancement réduit + souffle lent + spirale (cours 29 et 30). Ancrage dans le corps et réduction du stress : priorité à la synchronisation rythme cardiaque-souffle (cours 25). Préparation à une création : mantra + rémanence + intention (cours 31 + 23). Ces choix se font intuitivement après quelques semaines de pratique." },
+                { "title":  "5. La souplesse comme règle ultime\", \"content\":  \"Un protocole trop rigide devient une prison. La règle ultime du protocole personnel est la souplesse : si aujourd'hui le corps veut rester immobile, laisser l'immobilité. Si le balancement vient naturellement, le suivre. Si un mantra s'impose, le chanter. Le protocole est un cadre, non une cage. La pratique la plus avancée est celle qui n'a plus besoin de protocole pour trouver l'état — mais y arriver nécessite d'avoir d'abord maîtrisé les protocoles." }
+            ]
+        },
+        "practice":  "Créer et noter dans le carnet son protocole rythmique personnel (durée : 20-30 minutes) : (1) Créneau choisi et justification. (2) Structure de la séance (avec durées pour chaque phase). (3) Outils retenus (balancement, mantra, souffle, spirale, rémanence). (4) Intention type de début de séance. Pratiquer ce protocole chaque jour pendant les 8 cours de la famille suivante (Inversion) et noter dans le carnet ce qui se modifie avec le temps.",
         "image":  "assets/course-visuals-premium/C032-construire-un-protocole-rythmique-personnel.svg",
         "pdf":  "assets/cours-pdf/C032-construire-un-protocole-rythmique-personnel.pdf",
-        "tags":  [
-                     "Rythmes, nombre d’or \u0026 fractales",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Rythmes, nombre d'or & fractales", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
-    {
-        "id":  "C033-ce-qui-est-en-haut-comme-ce-qui-est-en-bas",
-        "number":  33,
+        {
+        "id":  "C041-ce-qui-est-en-haut-comme-ce-qui-est-en-bas",
+        "number":  41,
         "familyId":  "inversion",
-        "familyTitle":  "Inversion \u0026 incarnation",
+        "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
         "title":  "Ce qui est en haut comme ce qui est en bas",
-        "subtitle":  "Ce qui est en haut comme ce qui est en bas, mais inversé",
+        "subtitle":  "Le principe hermétique de correspondance comme clé de lecture du réel",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Ce qui est en haut comme ce qui est en bas. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Travailler le miroir, l’incarnation, la croix, la descente, le retournement intérieur et la lecture symbolique du monde.",
-        "practice":  "Lire lentement le cours, choisir une intention, pratiquer vingt minutes avec une consigne unique, puis intégrer par le carnet.",
+        "kind":  "Enseignement & contemplation",
+        "status":  "available",
+        "summary":  "Explorer le principe de correspondance — ce qui est en haut est comme ce qui est en bas — comme clé de lecture du réel et de la pratique intérieure. Comprendre que les lois qui gouvernent le cosmos gouvernent aussi le corps, et que toute pratique intérieure est en miroir d'une réalité plus vaste.",
+        "shortSummary":  "Le principe de correspondance : miroir entre le cosmos et le corps, entre l'extérieur et l'intérieur.",
+        "longSummary":  "Le principe de correspondance est l'un des sept principes hermétiques universels. Il affirme que les mêmes lois opèrent à toutes les échelles de la réalité : dans l'atome comme dans la galaxie, dans la cellule comme dans l'organisme, dans l'individu comme dans la société. Ce principe n'est pas une croyance mystique — il est une observation précise de la nature. La structure de l'atome (un noyau dense entouré d'électrons en orbite) ressemble à celle du système solaire. La géométrie fractale démontre mathématiquement que les mêmes formes et proportions se répètent à toutes les échelles. Pour le pratiquant intérieur, ce principe est libérateur : ce qui se passe dans le grand peut être étudié et compris à travers le petit. Ce qui est difficile d'accès à l'extérieur peut être exploré à l'intérieur de soi. Le micro est un miroir du macro.",
+        "pedagogicalObjective":  "Comprendre le principe de correspondance et ses applications concrètes dans la lecture du corps, de la pratique et de la vie ordinaire.",
+        "initiaticObjective":  "Commencer à percevoir le corps comme un microcosme — un espace où les grandes lois de l'univers se lisent dans les plus petits détails — et à utiliser cette correspondance comme boussole intérieure.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"S'asseoir. Observer : quelle loi du corps reflète une loi du cosmos que je connais ?" },
+            { "time":  "5:00 — 20:00\", \"title\":  \"Le principe de correspondance\", \"content\":  \"Origine, sens, exemples dans la nature, dans la physique, dans la biologie. Micro et macro, intérieur et extérieur." },
+            { "time":  "20:00 — 32:00\", \"title\":  \"Corps et cosmos : les correspondances\", \"content\":  \"Rythme cardiaque et cycles planétaires. Structure cellulaire et structure galactique. Spirale ADN et spirale cosmique." },
+            { "time":  "32:00 — 47:00\", \"title\":  \"Pratique : lire le grand dans le petit\", \"content\":  \"Méditation : observer le battement cardiaque comme un soleil pulsant au centre de la galaxie du corps." },
+            { "time":  "47:00 — 54:00\", \"title\":  \"Correspondances dans la vie ordinaire\", \"content\":  \"Comment utiliser le principe pour lire ses propres états intérieurs comme reflets de réalités plus vastes." },
+            { "time":  "54:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Identifier une correspondance entre quelque chose de personnel (émotion, schéma) et quelque chose de cosmique (loi, cycle)." },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au corps. Formule de fermeture." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : une loi du corps qui reflète une loi du cosmos.",
+            "5–20 min — Le principe de correspondance : sens et exemples.",
+            "20–32 min — Corps et cosmos : correspondances précises.",
+            "32–47 min — Pratique : lire le grand dans le petit.",
+            "47–54 min — Correspondances dans la vie ordinaire.",
+            "54–58 min — Carnet : identifier une correspondance personnelle.",
+            "58–60 min — Clôture."
+        ],
+        "teaching":  {
+            "intro":  "Ce qui est en haut est comme ce qui est en bas. Ce qui est à l'intérieur est comme ce qui est à l'extérieur. Cette loi ancienne n'est pas une métaphore poétique — c'est une observation structurale du réel que les sciences confirment sans le nommer ainsi.",
+            "sections":  [
+                { "title":  "1. Le principe de correspondance : une loi structurelle\", \"content\":  \"Le principe de correspondance affirme que la réalité est organisée selon les mêmes lois à toutes les échelles. Ce n'est pas une affirmation de type magique mais une observation de la cohérence structurelle de la nature. Les mêmes équations décrivent le mouvement orbital des planètes et celui des électrons. Les mêmes proportions (φ, π, les rapports de Fibonacci) apparaissent dans les structures atomiques, biologiques et cosmiques. Cette cohérence structurelle est le fondement mathématique du principe de correspondance." },
+                { "title":  "2. Le corps comme microcosme\", \"content\":  \"Le corps humain est un microcosme de l'univers. Le sang est une mer intérieure. Les os sont la géologie intérieure. Le cerveau est la surface la plus complexe connue, avec ses 86 milliards de neurones et ses 100 000 milliards de synapses — une complexité comparable à celle des étoiles dans l'univers observable. Le cœur bat selon des rythmes qui résonnent avec les oscillations de la Terre (résonance de Schumann). Le cycle cellulaire dure environ 24 heures — la durée d'une rotation de la planète. Ces correspondances ne sont pas des coincidences : elles reflètent le fait que le corps est fait de la même matière et des mêmes lois que le cosmos." },
+                { "title":  "3. Intérieur et extérieur : le miroir de conscience\", \"content\":  \"Au-delà des correspondances physiques, le principe de correspondance s'applique à la conscience elle-même. Ce que l'on perçoit dans le monde extérieur — les schémas de relation, les répétitions de situations, les attractions et répulsions — est en partie un miroir de l'état intérieur. Ce n'est pas une affirmation que \"tout est dans la tête\" — c'est l'observation que la conscience fonctionne comme un filtre et un générateur de sens qui tend à percevoir ce avec quoi elle résonne. Le travail intérieur modifie ce filtre et, par là, modifie progressivement ce qui est perçu dans le monde." },
+                { "title":  "4. Lire le grand dans le petit\", \"content\":  \"L'une des applications les plus précieuses du principe de correspondance dans la pratique est d'apprendre à lire le grand à travers le petit, l'accessible. Au lieu de tenter de comprendre la totalité de la situation (trop vaste), on peut observer un micro-détail — une sensation corporelle, une image spontanée, une résistance dans le mouvement — et le traiter comme un miroir de quelque chose de plus grand. C'est la méthode du symbole vivant : chaque détail de l'expérience intérieure parle d'une réalité plus vaste." },
+                { "title":  "5. La correspondance temporelle : rythmes et cycles\", \"content\":  \"Le principe de correspondance s'applique aussi au temps. Les cycles de la vie personnelle (7 ans, souvent identifiés comme des phases de transformation) correspondent aux cycles planétaires (cycle de Saturne : 29 ans, soit 4 × 7 ans). Les cycles hormonaux féminins (~28 jours) correspondent au cycle lunaire. La respiration (environ 12-16 cycles/minute, soit 17 000 à 23 000 respirations par jour) correspond à un rythme d'échange entre le corps et le milieu. Observer ces correspondances temporelles dans sa propre vie est un exercice d'humilité et de sens — on n'est pas hors du flux du vivant, on en est une expression localisée." }
+            ]
+        },
+        "practice":  "Méditation de la correspondance (12 minutes) : assis, yeux fermés, observer le battement cardiaque. Laisser venir l'image d'un soleil pulsant au centre d'une galaxie — le corps comme univers, le cœur comme étoile centrale. Observer le flux du sang comme le mouvement des bras spiralants d'une galaxie. Laisser cette image se développer sans la forcer. Dans le carnet : quelle correspondance s'est présentée spontanément ? Entre quoi et quoi ?",
         "image":  "assets/course-visuals-premium/C033-ce-qui-est-en-haut-comme-ce-qui-est-en-bas.svg",
         "pdf":  "assets/cours-pdf/C033-ce-qui-est-en-haut-comme-ce-qui-est-en-bas.pdf",
-        "tags":  [
-                     "Inversion \u0026 incarnation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Inversion & incarnation", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C034-le-miroir-inverse-de-l-incarnation",
-        "number":  34,
+        "id":  "C042-le-miroir-inverse-de-l-incarnation",
+        "number":  42,
         "familyId":  "inversion",
-        "familyTitle":  "Inversion \u0026 incarnation",
+        "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
-        "title":  "Le miroir inversé de l’incarnation",
-        "subtitle":  "Ce qui est en haut comme ce qui est en bas, mais inversé",
+        "title":  "Le miroir inversé de l'incarnation",
+        "subtitle":  "Comprendre l'inversion comme structure de la manifestation",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Le miroir inversé de l’incarnation. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Travailler le miroir, l’incarnation, la croix, la descente, le retournement intérieur et la lecture symbolique du monde.",
-        "practice":  "Lire lentement le cours, choisir une intention, pratiquer vingt minutes avec une consigne unique, puis intégrer par le carnet.",
+        "kind":  "Enseignement & exploration symbolique",
+        "status":  "available",
+        "summary":  "Explorer le principe d'inversion comme structure fondamentale de la manifestation. Comment l'idée devient forme, comment le spirituel devient matériel, comment l'intérieur se retourne en extérieur — et comment comprendre cette inversion transforme la façon de se percevoir et de pratiquer.",
+        "shortSummary":  "L'inversion comme structure de la manifestation : de l'idée à la forme, de l'intérieur à l'extérieur.",
+        "longSummary":  "L'inversion est un principe fondamental de la physique et de la philosophie. En physique : le champ électromagnétique s'inverse à chaque alternance. La propagation d'une onde sonore crée des zones alternées de compression et de raréfaction. L'image formée par un miroir est une inversion latérale. L'image formée par un objectif photographique est une inversion verticale et horizontale. En philosophie et dans les traditions contemplatives : la manifestation du non-manifeste est souvent décrite comme une inversion — le spirituel qui se retourne en matériel, l'éternel qui entre dans le temporel, l'Un qui se divise en multiple. Comprendre l'inversion comme structure de la réalité, c'est comprendre pourquoi les choses ne sont jamais exactement ce qu'elles paraissent — et comment la pratique intérieure consiste précisément à renverser le regard ordinaire.",
+        "pedagogicalObjective":  "Comprendre le principe d'inversion dans la physique, la biologie et la philosophie, et l'appliquer à la compréhension de sa propre pratique intérieure.",
+        "initiaticObjective":  "Apprendre à renverser son regard habituel — à voir le monde non comme une collection d'objets extérieurs mais comme un miroir de processus intérieurs, et à travailler sur le reflet pour transformer l'original.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Observer le reflet de soi-même dans un miroir imaginaire. Qu'y voit-on ?" },
+            { "time":  "5:00 — 18:00\", \"title\":  \"L'inversion dans la physique\", \"content\":  \"Optique, électromagnétisme, acoustique : l'inversion comme structure fondamentale de la propagation." },
+            { "time":  "18:00 — 30:00\", \"title\":  \"Inversion et incarnation\", \"content\":  \"La manifestation du spirituel dans le matériel comme inversion. L'âme qui s'habille de chair. La pensée qui prend forme." },
+            { "time":  "30:00 — 45:00\", \"title\":  \"Pratique : le retournement du regard\", \"content\":  \"Exercice : observer une pensée comme si elle était un objet extérieur. Observer un objet extérieur comme si c'était un état intérieur." },
+            { "time":  "45:00 — 53:00\", \"title\":  \"Le miroir comme pratique quotidienne\", \"content\":  \"Comment utiliser l'inversion du regard dans la vie ordinaire : voir dans les conflits ce qu'ils révèlent de soi." },
+            { "time":  "53:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Identifier une situation extérieure qui pourrait être lue comme un miroir d'un état intérieur. La décrire." },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au corps. Formule de fermeture." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : le miroir imaginaire de soi-même.",
+            "5–18 min — L'inversion dans la physique : optique, acoustique.",
+            "18–30 min — Inversion et incarnation : la manifestation.",
+            "30–45 min — Pratique : retournement du regard.",
+            "45–53 min — Le miroir dans la vie ordinaire.",
+            "53–58 min — Carnet : une situation lue comme miroir.",
+            "58–60 min — Clôture."
+        ],
+        "teaching":  {
+            "intro":  "Tout miroir inverse. Toute manifestation retourne quelque chose d'invisible en quelque chose de visible. La pratique intérieure est un art de l'inversion : apprendre à lire derrière les formes ce qui les génère.",
+            "sections":  [
+                { "title":  "1. L'inversion en optique\", \"content\":  \"Un miroir plan inverse la gauche et la droite de l'image (inversion latérale). Un miroir concave ou un objectif photographique inverse aussi le haut et le bas (l'image se forme à l'envers sur la rétine ou le capteur). La rétine elle-même reçoit une image inversée que le cerveau redresse automatiquement. Ce que nous appelons \"voir le monde à l'endroit\" est en réalité une correction post-hoc d'une image inversée. Le monde que nous percevons est toujours une reconstruction cérébrale — non une photographie directe." },
+                { "title":  "2. L'inversion en acoustique et électromagnétisme\", \"content\":  \"Une onde sonore crée des zones alternées de compression (les molécules se rapprochent) et de raréfaction (les molécules s'éloignent). Ces deux zones sont inverses l'une de l'autre — et c'est précisément cette alternance qui permet la propagation. De même, une onde électromagnétique alterne entre champ électrique et champ magnétique perpendiculaires, chacun inversant l'autre à chaque demi-cycle. L'alternance, l'inversion, le retournement — ce sont les mécanismes de la propagation de toute onde." },
+                { "title":  "3. La manifestation comme inversion\", \"content\":  \"Dans de nombreuses traditions philosophiques, la manifestation du monde sensible à partir d'un principe non-manifesté est décrite comme un retournement ou une inversion. Ce qui était intérieur devient extérieur. Ce qui était un devient multiple. Ce qui était permanent devient temporaire. Ce qui était non-formel prend forme. Comprendre la manifestation comme une inversion, c'est comprendre que la pratique intérieure est un mouvement inverse à la manifestation : de la forme vers le non-formel, de la multiplicité vers l'un, de l'extérieur vers l'intérieur." },
+                { "title":  "4. Le retournement du regard\", \"content\":  \"L'application pratique de l'inversion est ce que les contemplatives appellent le \"retournement du regard\" : au lieu de regarder les objets et les événements extérieurs comme causes de l'état intérieur, on commence à les lire comme des miroirs ou des révélateurs de l'état intérieur. Une personne qui m'irrite — qu'est-ce qu'elle révèle de ce que je n'accepte pas en moi ? Une situation qui me bloque — quel aspect de moi-même résiste ? Cette lecture inversée ne nie pas la réalité extérieure — elle l'utilise comme un outil de connaissance de soi." },
+                { "title":  "5. L'inversion dans la pratique rythmique\", \"content\":  \"Dans la pratique du balancement, l'inversion est structurelle : quand le corps va à gauche, l'attention intérieure peut se déposer à droite. Quand le mouvement est externe, l'attention peut se tourner vers l'intérieur. Quand l'esprit pense, le corps peut rester calme — et vice versa. La pratique de l'inversion rythmique consiste à alterner consciemment entre le focus externe et le focus interne, entre le corps et la conscience, entre le mouvement et l'immobilité — en utilisant la structure de l'alternance comme vecteur de cette alternance de perspective." }
+            ]
+        },
+        "practice":  "Exercice du miroir inversé (10 minutes) : choisir une situation de la vie quotidienne qui génère une réaction émotionnelle (frustration, anxiété, irritation). Décrire la situation en 3 phrases dans le carnet. Puis retourner la description : au lieu de décrire ce que l'extérieur fait à l'intérieur, décrire ce que l'intérieur projette sur l'extérieur. Qu'est-ce que cette situation révèle de son propre état ? De ses propres croyances ? De ses propres résistances ? Observer sans juger.",
         "image":  "assets/course-visuals-premium/C034-le-miroir-inverse-de-l-incarnation.svg",
         "pdf":  "assets/cours-pdf/C034-le-miroir-inverse-de-l-incarnation.pdf",
-        "tags":  [
-                     "Inversion \u0026 incarnation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Inversion & incarnation", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C035-polarites-axe-croix-et-retournement",
-        "number":  35,
+        "id":  "C043-polarites-axe-croix-et-retournement",
+        "number":  43,
         "familyId":  "inversion",
-        "familyTitle":  "Inversion \u0026 incarnation",
+        "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
         "title":  "Polarités, axe, croix et retournement",
-        "subtitle":  "Ce qui est en haut comme ce qui est en bas, mais inversé",
+        "subtitle":  "Les opposés comme parties d'un même mouvement",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Polarités, axe, croix et retournement. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Travailler le miroir, l’incarnation, la croix, la descente, le retournement intérieur et la lecture symbolique du monde.",
-        "practice":  "Lire lentement le cours, choisir une intention, pratiquer vingt minutes avec une consigne unique, puis intégrer par le carnet.",
+        "kind":  "Enseignement & pratique des polarités",
+        "status":  "available",
+        "summary":  "Explorer le principe de polarité — chaud/froid, haut/bas, gauche/droite, lumière/ombre — comme structure fondamentale du réel. Comprendre que les opposés ne sont pas des contraires absolus mais les deux extrémités d'un même continuum, et que l'axe qui les relie est le lieu de l'équilibre.",
+        "shortSummary":  "Polarités et axe d'équilibre : les opposés comme deux extrémités d'un même continuum.",
+        "longSummary":  "La polarité est l'une des lois les plus universelles du réel observable. Partout où l'on regarde, on trouve des paires d'opposés : positif et négatif, nord et sud, chaud et froid, lumière et ombre, masculin et féminin, contraction et expansion. Ces paires sont généralement vécues comme des antagonismes — l'un contre l'autre. Mais la compréhension profonde de la polarité révèle autre chose : les opposés ne sont pas séparés, ils sont les deux extrémités d'un même spectre continu. Il n'y a pas de chaud et de froid en soi — il y a une échelle de température dont chaud et froid sont les pôles. La croix est le symbole classique de cette structure : deux axes perpendiculaires, chacun avec deux pôles opposés, se croisant en un point central qui les intègre tous. Ce point central est le lieu de l'équilibre — non pas la médiocrité tiède entre les extrêmes, mais la conscience qui contient les deux.",
+        "pedagogicalObjective":  "Comprendre le principe de polarité et la structure de la croix comme intégration des opposés, et l'appliquer à la pratique du balancement et de la vie ordinaire.",
+        "initiaticObjective":  "Apprendre à rester au centre — dans l'axe — face aux polarités de l'expérience : ni rejet de l'un des pôles, ni identification à l'autre, mais conscience qui accueille les deux.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Identifier deux polarités actives dans sa vie en ce moment. Les nommer dans le carnet." },
+            { "time":  "5:00 — 18:00\", \"title\":  \"Le principe de polarité\", \"content\":  \"Chaud-froid, lumière-ombre, contraction-expansion. Les opposés comme extrémités d'un même spectre." },
+            { "time":  "18:00 — 30:00\", \"title\":  \"L'axe et la croix\", \"content\":  \"La croix comme intégration des quatre polarités. Le centre comme lieu de la conscience qui contient les deux pôles." },
+            { "time":  "30:00 — 47:00\", \"title\":  \"Pratique : balancement en croix\", \"content\":  \"Séquence de balancement sur les quatre axes : gauche-droite, haut-bas, avant-arrière, rotation. Trouver le centre." },
+            { "time":  "47:00 — 54:00\", \"title\":  \"Vivre avec les polarités\", \"content\":  \"Comment ne pas être emporté par un pôle. Rester dans l'axe : ni rejet, ni attachement, mais présence." },
+            { "time":  "54:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Reprendre les deux polarités identifiées à l'ouverture. L'axe qui les relie est-il visible ?" },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au centre du corps. Formule de fermeture." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : nommer deux polarités actives.",
+            "5–18 min — Le principe de polarité : un spectre, non deux contraires.",
+            "18–30 min — L'axe et la croix : intégration des quatre polarités.",
+            "30–47 min — Pratique : balancement en croix, trouver le centre.",
+            "47–54 min — Vivre avec les polarités sans être emporté.",
+            "54–58 min — Carnet : l'axe entre les deux polarités identifiées.",
+            "58–60 min — Clôture."
+        ],
+        "teaching":  {
+            "intro":  "Chaud et froid ne sont pas des ennemis — ce sont les deux extrémités de la même réalité. Tout ce qui semble opposé est en réalité complémentaire. Comprendre cela, c'est commencer à trouver l'axe entre les polarités — le lieu de l'équilibre vivant.",
+            "sections":  [
+                { "title":  "1. La polarité comme structure universelle\", \"content\":  \"La polarité est le quatrième principe hermétique. Il affirme que tout ce qui existe a son opposé — et que les opposés ne sont que des expressions différentes d'une même chose. La chaleur et le froid ne sont pas des essences distinctes mais des degrés sur un même thermomètre. La lumière et l'ombre ne sont pas des entités séparées mais des gradations du même spectre lumineux. Cette compréhension libère du piège de la pensée binaire — qui catégorise le monde en bon/mauvais, bien/mal, vrai/faux — et ouvre vers une perception plus nuancée et plus vraie." },
+                { "title":  "2. Le retournement des opposés\", \"content\":  \"Une loi corollaire de la polarité est que les opposés peuvent être retournés : ce qui semble un obstacle peut devenir une aide ; ce qui semble une faiblesse peut être une force ; ce qui semble une fin peut être un commencement. Ce retournement n'est pas une pensée positive naïve — c'est la reconnaissance que la même chose peut être vécue différemment selon l'angle de vision et l'état intérieur du sujet qui la perçoit. Le travail intérieur consiste en partie à développer la capacité de se déplacer sur le spectre entre les pôles plutôt que d'être fixé à l'un d'eux." },
+                { "title":  "3. La croix : symbole d'intégration\", \"content\":  \"La croix est l'un des symboles les plus universels de l'humanité, présent dans toutes les cultures bien avant le christianisme. Elle représente deux axes perpendiculaires : l'axe horizontal (gauche-droite, le monde manifesté, la dualité) et l'axe vertical (haut-bas, le mouvement entre le céleste et le terrestre, le transcendant et l'immanent). Le point de croisement est le centre intégrateur — le lieu où les quatre directions se rejoignent sans se confondre. Ce point central est précisément ce qu'on cherche à habiter dans la pratique : l'équilibre conscient entre tous les pôles." },
+                { "title":  "4. Les quatre axes et leurs polarités\", \"content\":  \"Dans la pratique du balancement, les quatre axes correspondent à quatre paires de polarités. L'axe latéral (gauche-droite) : logique vs intuition, analyse vs synthèse, passé vs futur. L'axe vertical (haut-bas) : céleste vs terrestre, élan vs ancrage, vision vs racine. L'axe antéro-postérieur (avant-arrière) : projection vs réception, futur vs passé, effort vs lâcher-prise. L'axe de rotation (circulaire) : expansion vs contraction, ouverture vs fermeture, périphérie vs centre. Pratiquer le balancement en croix permet de traverser et d'intégrer ces quatre paires de polarités." },
+                { "title":  "5. L'axe : le lieu de la conscience\", \"content\":  \"L'axe intérieur — ce fil de conscience stable qui ne s'identifie ni à l'un ni à l'autre pôle — est ce que toutes les traditions contemplatives tentent de développer. Il ne s'agit pas d'une neutralité passive ou d'une indifférence — c'est une présence active qui peut accueillir les deux pôles sans être emportée par l'un d'eux. Dans la vie ordinaire, cela se traduit par la capacité de rester calme face à une situation stressante, d'être pleinement présent à une joie sans s'y accrocher, de traverser une difficulté sans la dramatiser. L'axe est la liberté intérieure." }
+            ]
+        },
+        "practice":  "Balancement en croix (15 minutes) : pratiquer successivement les 4 axes de balancement, 3 minutes chaque. Axe latéral (gauche-droite), puis vertical (tête et bassin dans des directions opposées ou mouvement imaginaire), puis antéro-postérieur (avant-arrière), puis rotation douce. Après chaque axe, s'immobiliser 30 secondes et sentir le centre. En fin de séquence : rester immobile 2 minutes au centre intégré. Dans le carnet : quel axe a produit le plus de résistance ? Le plus de facilité ?",
         "image":  "assets/course-visuals-premium/C035-polarites-axe-croix-et-retournement.svg",
         "pdf":  "assets/cours-pdf/C035-polarites-axe-croix-et-retournement.pdf",
-        "tags":  [
-                     "Inversion \u0026 incarnation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Inversion & incarnation", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C036-descendre-pour-elever",
-        "number":  36,
+        "id":  "C044-descendre-pour-elever",
+        "number":  44,
         "familyId":  "inversion",
-        "familyTitle":  "Inversion \u0026 incarnation",
+        "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
         "title":  "Descendre pour élever",
-        "subtitle":  "Ce qui est en haut comme ce qui est en bas, mais inversé",
+        "subtitle":  "L'ancrage comme condition de l'élévation",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Descendre pour élever. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Travailler le miroir, l’incarnation, la croix, la descente, le retournement intérieur et la lecture symbolique du monde.",
-        "practice":  "Lire lentement le cours, choisir une intention, pratiquer vingt minutes avec une consigne unique, puis intégrer par le carnet.",
+        "kind":  "Enseignement & pratique d'ancrage",
+        "status":  "available",
+        "summary":  "Explorer le paradoxe de l'ancrage : pour s'élever, il faut d'abord descendre. Pour accéder aux états subtils, il faut être profondément incarné. Le manque d'ancrage est l'une des causes les plus fréquentes d'instabilité dans les pratiques intérieures.",
+        "shortSummary":  "Ancrage et élévation : le paradoxe de la pratique — descendre dans le corps pour accéder à ce qui le dépasse.",
+        "longSummary":  "Une des erreurs les plus communes dans la pratique intérieure est de chercher à s'élever en quittant le corps. Cette stratégie produit l'inverse de ce qu'elle cherche : des états instables, des expériences fugaces et difficiles à intégrer, et une fragilité face aux situations ordinaires de la vie. Le vrai chemin est paradoxal : pour accéder aux états les plus subtils et les plus élevés, il faut d'abord s'ancrer profondément dans le corps, dans la terre, dans la matière. C'est cette base solide qui permet à l'arbre de s'élever sans se renverser. C'est la profondeur de l'enracinement qui détermine la hauteur possible de la cime. Ce cours explore le paradoxe de l'ancrage — ses mécanismes, ses techniques et ses effets sur la stabilité de la pratique.",
+        "pedagogicalObjective":  "Comprendre pourquoi l'ancrage est une condition de l'élévation et maîtriser des techniques d'ancrage corporel pour stabiliser la pratique.",
+        "initiaticObjective":  "Intégrer l'incarnation comme une grâce et non comme un obstacle — percevoir le corps et la matière comme le sol nourricier de toute pratique spirituelle authentique.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Observer l'état d'ancrage actuel : est-on plutôt dans la tête, plutôt dans le corps, à l'aise avec les deux ?" },
+            { "time":  "5:00 — 18:00\", \"title\":  \"Le paradoxe de l'ancrage\", \"content\":  \"Pourquoi descendre pour s'élever ? L'arbre comme image. Les racines comme condition des branches." },
+            { "time":  "18:00 — 30:00\", \"title\":  \"Les signes d'un manque d'ancrage\", \"content\":  \"Instabilité émotionnelle, pensées dispersées, difficultés à intégrer les expériences, fatigue chronique sans cause physique." },
+            { "time":  "30:00 — 47:00\", \"title\":  \"Pratique : techniques d'ancrage\", \"content\":  \"Trois techniques : pieds dans le sol conscient, balancement vertical (haut-bas), souffle abdominal profond." },
+            { "time":  "47:00 — 54:00\", \"title\":  \"Ancrage et pratique lumineuse\", \"content\":  \"Comment l'ancrage préalable améliore la qualité de la rémanence et des états subtils accessibles." },
+            { "time":  "54:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Identifier son niveau habituel d'ancrage. Choisir une technique d'ancrage à pratiquer avant chaque séance." },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au corps, aux pieds, au poids. Formule de fermeture ancrée." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : observer son état d'ancrage actuel.",
+            "5–18 min — Le paradoxe de l'ancrage : descendre pour s'élever.",
+            "18–30 min — Signes d'un manque d'ancrage.",
+            "30–47 min — Pratique : trois techniques d'ancrage.",
+            "47–54 min — Ancrage et qualité de la pratique lumineuse.",
+            "54–58 min — Carnet : niveau d'ancrage, technique choisie.",
+            "58–60 min — Clôture ancrée."
+        ],
+        "teaching":  {
+            "intro":  "L'arbre le plus haut a les racines les plus profondes. La flèche qui s'élève le plus loin est tirée de la corde la plus tendue. Dans la pratique intérieure : plus on est ancré dans le corps, plus on peut accéder à ce qui le dépasse.",
+            "sections":  [
+                { "title":  "1. Le paradoxe de l'incarnation\", \"content\":  \"De nombreux pratiquants débutants croient que la pratique spirituelle consiste à quitter le corps — à s'élever au-dessus de la matière, à se distancier des émotions, à transcender la physicalité. Cette croyance produit des pratiquants instables, facilement perturbés par les événements ordinaires, qui font des expériences difficiles à intégrer dans leur vie concrète. Le paradoxe que révèle toute pratique sérieuse est l'inverse : c'est précisément la qualité de l'ancrage dans le corps, dans la sensorialité, dans la matière, qui détermine la qualité et la stabilité des états spirituels accessibles." },
+                { "title":  "2. L'arbre comme modèle\", \"content\":  \"L'image de l'arbre est l'une des métaphores les plus universelles de la pratique spirituelle. Un arbre ne peut s'élever que dans la mesure où ses racines s'enfoncent profond. Les racines ne sont pas une alternative aux branches — elles en sont la condition. Dans la pratique, le corps est les racines. La terre est la nourriture. L'ancrage dans la sensorialité (sentir ses pieds, sentir son poids, sentir sa respiration, sentir les mains, sentir la texture des objets) est ce qui permet à la conscience de s'élever sans perdre son enracinement." },
+                { "title":  "3. Les signes d'un manque d'ancrage\", \"content\":  \"Un pratiquant peu ancré se reconnaît à plusieurs signes : pensées qui s'emballent et difficultés à les ralentir, sensations de flottement ou de légèreté désagréable, difficulté à dormir ou endormissement tardif, irritabilité face aux détails pratiques de la vie (paperasse, cuisine, courses), expériences intérieures qui ne s'intègrent pas dans la vie quotidienne et restent \"flottantes\", sensibilité excessive aux énergies des autres (absorber sans filtrer). Ces signes indiquent un déséquilibre entre le travail sur la conscience et l'ancrage dans le corps." },
+                { "title":  "4. Techniques d'ancrage fondamentales', \"content\":  \"Trois techniques simples et efficaces. Première : conscience des pieds. Assis ou debout, porter toute l'attention sur les sensations des pieds — leur poids, leur contact avec le sol, leur chaleur, leur texture. Maintenir 2 à 3 minutes. Deuxième : balancement vertical. Un léger balancement de la tête vers le bas et vers le haut, synchronisé avec le souffle. L'expiration vers le bas (ancrage, terre) ; l'inspiration vers le haut (espace, ciel). Troisième : souffle abdominal. Poser une main sur l'abdomen. Sentir le ventre se gonfler à l'inspiration et se dégonfler à l'expiration. 5 minutes." },
+                { "title":  "5. Ancrage avant chaque pratique lumineux\", \"content\":  \"L'une des règles les plus pratiques de cette famille : toujours pratiquer l'ancrage avant un exercice de rémanence ou de pratique subtile. Un corps non ancré dans un état subtil est comme une antenne sans mise à la terre — elle capte, mais de manière instable et susceptible d'être perturbée par les parasites. Un corps ancré est une antenne parfaitement mise à la terre — elle capte avec précision et stabilité. La séquence optimale : 3 minutes d'ancrage + rémanence + pratique d'intention + retour à l'ancrage en clôture." }
+            ]
+        },
+        "practice":  "Protocole d'ancrage complet (10 minutes) : (1) 2 minutes — conscience des pieds (assis, sentir le contact des pieds avec le sol ou le plancher). (2) 3 minutes — balancement vertical très doux, expiration vers le bas, inspiration vers le haut. (3) 3 minutes — souffle abdominal lent (une main sur le ventre). (4) 2 minutes — immobilité : sentir le poids du corps sur le siège, la solidité du sol sous les pieds. Dans le carnet : noter la différence d'état entre avant et après le protocole d'ancrage.",
         "image":  "assets/course-visuals-premium/C036-descendre-pour-elever.svg",
         "pdf":  "assets/cours-pdf/C036-descendre-pour-elever.pdf",
-        "tags":  [
-                     "Inversion \u0026 incarnation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Inversion & incarnation", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C037-ombre-lumiere-et-inversion-du-regard",
-        "number":  37,
+        "id":  "C045-ombre-lumiere-et-inversion-du-regard",
+        "number":  45,
         "familyId":  "inversion",
-        "familyTitle":  "Inversion \u0026 incarnation",
+        "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
         "title":  "Ombre, lumière et inversion du regard",
-        "subtitle":  "Ce qui est en haut comme ce qui est en bas, mais inversé",
+        "subtitle":  "Accueillir ce qui est exclu pour libérer ce qui est retenu",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Ombre, lumière et inversion du regard. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Travailler le miroir, l’incarnation, la croix, la descente, le retournement intérieur et la lecture symbolique du monde.",
-        "practice":  "Lire lentement le cours, choisir une intention, pratiquer vingt minutes avec une consigne unique, puis intégrer par le carnet.",
+        "kind":  "Enseignement & travail avec l'ombre",
+        "status":  "available",
+        "summary":  "Explorer la relation entre lumière et ombre dans la pratique intérieure. Comprendre que ce que l'on exclut de soi-même (l'ombre) consomme une énergie considérable et limite la pratique. Apprendre à inverser le regard sur ce qui est refusé pour libérer l'énergie qu'il retient.",
+        "shortSummary":  "Ombre et lumière : accueillir ce qui est exclu pour libérer l'énergie qu'il retient et approfondir la pratique.",
+        "longSummary":  "La lumière crée l'ombre. Partout où la lumière de la conscience se pose, elle crée une zone d'ombre — les aspects de soi que l'on ne regarde pas, que l'on refuse, que l'on juge inacceptables. Ces zones d'ombre ne disparaissent pas parce qu'on ne les regarde pas — elles continuent d'agir, silencieusement, dans les comportements automatiques, les réactions émotionnelles disproportionnées, les schémas répétitifs de la vie. Le travail avec l'ombre — non pas pour la juger davantage mais pour l'accueillir et la comprendre — est l'une des pratiques les plus transformatrices et les moins confortables de la voie intérieure. Inverser le regard sur ce qui est habituellement exclu libère une énergie considérable, précédemment utilisée pour maintenir l'exclusion.",
+        "pedagogicalObjective":  "Comprendre le concept d'ombre psychologique et apprendre une approche sécurisée pour l'accueillir sans se y identifier.",
+        "initiaticObjective":  "Découvrir que ce qui est exclu de la conscience n'est pas un danger à fuir mais une ressource à intégrer — et que l'intégration de l'ombre est une condition de la complétude intérieure.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Observer : qu'est-ce que je refuse de voir en moi-même en ce moment ? Sans juger, juste noter." },
+            { "time":  "5:00 — 18:00\", \"title\":  \"Qu'est-ce que l'ombre ?\", \"content\":  \"Les zones de soi que la conscience exclut. Comment elles se forment. Comment elles agissent en silence." },
+            { "time":  "18:00 — 30:00\", \"title\":  \"L'énergie retenue par l'ombre\", \"content\":  \"L'exclusion coûte de l'énergie. Répression vs intégration. Ce que l'ombre retient et ce qu'elle libère quand on l'accueille." },
+            { "time":  "30:00 — 45:00\", \"title\":  \"Pratique : accueillir sans s'identifier\", \"content\":  \"Exercice guidé : nommer un aspect de soi-même habituellement refusé. Observer sans juger. Lui donner une forme. Lui parler." },
+            { "time":  "45:00 — 53:00\", \"title\":  \"L'inversion du regard\", \"content\":  \"Regarder ce qu'on juge chez les autres comme miroir de ce qu'on refuse en soi. L'inversion projectionnelle." },
+            { "time":  "53:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Identifier un aspect de soi-même en ombre. Écrire sans censure ce qu'on lui dirait si on le rencontrait." },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au corps. Remercier ce qui a été vu. Formule de fermeture." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : ce que je refuse de voir en moi.",
+            "5–18 min — L'ombre : formation et action silencieuse.",
+            "18–30 min — L'énergie retenue par l'exclusion.",
+            "30–45 min — Pratique : accueillir sans s'identifier.",
+            "45–53 min — L'inversion du regard : l'ombre des autres comme miroir.",
+            "53–58 min — Carnet : écrire à l'aspect en ombre.",
+            "58–60 min — Clôture : remercier ce qui a été vu."
+        ],
+        "teaching":  {
+            "intro":  "Tout ce que l'on refuse de voir en soi continue d'agir en soi. L'exclusion ne fait pas disparaître — elle met sous pression. Accueillir l'ombre, c'est rendre conscient ce qui agissait dans le dos de la conscience. C'est libérer une énergie immense.",
+            "sections":  [
+                { "title":  "1. La formation de l'ombre\", \"content\":  \"L'ombre se forme par l'exclusion. Dès l'enfance, nous apprenons que certaines émotions, certains comportements, certains aspects de nous-mêmes sont inacceptables — pour les parents, les enseignants, le groupe social. Ces aspects ne disparaissent pas : ils sont mis de côté, refoulés, dissimulés. Ils forment l'ombre — la partie non éclairée de la personnalité. L'ombre n'est pas synonyme de négatif : on peut y trouver des qualités refoulées (créativité, sensualité, colère saine, assertivité) autant que des défauts non assumés." },
+                { "title":  "2. L'ombre en action : comportements automatiques\", \"content\":  \"L'ombre agit dans les angles morts de la conscience. Elle se manifeste dans les comportements automatiques et les réactions disproportionnées : s'emporter violemment face à un détail anodin (la colère refoulée fait surface), tomber amoureux de manière obsessionnelle (la projection de qualités de l'ombre sur l'autre), saboter ses propres réussites (une partie de soi refuse la réussite), ressentir une irritation intense face à une qualité d'une autre personne (on projette sur elle ce qu'on refuse en soi). Ces réactions \"trop grandes\" sont les empreintes de l'ombre." },
+                { "title":  "3. L'énergie de l'exclusion\", \"content\":  \"Maintenir quelque chose en dehors de la conscience coûte de l'énergie. C'est le travail du refoulement — un processus actif, non passif. Chaque fois qu'un aspect de l'ombre veut se manifester (une émotion refusée, un désir nié, une pulsion réprimée), l'ego doit redéployer de l'énergie pour le maintenir hors du champ de conscience. C'est pourquoi les personnes avec une ombre dense et non travaillée sont souvent chroniquement fatiguées sans raison physique apparente : elles utilisent une part considérable de leur énergie à maintenir leurs propres refoulements." },
+                { "title":  "4. Accueillir sans s'identifier\", \"content\":  \"Le travail avec l'ombre ne consiste pas à s'identifier à ce qu'on a refusé — ce serait passer d'un extrême à l'autre. Il s'agit d'accueillir, c'est-à-dire de rendre visible, de nommer, de laisser exister dans le champ de conscience, sans agir à partir de l'ombre ni la nier. La technique : observer l'aspect de l'ombre comme s'il était un personnage distinct, lui donner une forme imaginaire, l'écouter sans le laisser dicter les actions. Cette distanciation consciente permet d'intégrer le contenu sans être emporté par lui." },
+                { "title":  "5. L'inversion projectionnelle\", \"content\":  \"L'une des méthodes les plus directes pour identifier son ombre est d'observer ce qui irrite ou fascine intensément chez les autres. Ce qui irrite chez une autre personne est souvent une qualité ou un défaut que l'on possède soi-même mais que l'on n'accepte pas. Ce qui fascine est souvent une qualité refoulée que l'on possède mais que l'on ne s'autorise pas à exprimer. En retournant la projection — au lieu de \"cette personne est ainsi\", demander \"en quoi suis-je ainsi moi aussi ?\" — on accède directement à son propre contenu d'ombre. C'est inconfortable et transformateur." }
+            ]
+        },
+        "practice":  "Exercice du miroir de l'ombre (15 minutes) : penser à une qualité ou un comportement d'une personne concrète (passée ou présente) qui irrite ou fascine intensément. Écrire dans le carnet cette qualité. Puis retourner la question : en quoi ai-je cette qualité en moi ? Dans quelle situation, même petite, est-ce que je l'exprime ou l'ai-je exprimée ? Observer la réponse sans se juger. Ce que l'on reconnaît en soi avec honnêteté n'a plus le même pouvoir.",
         "image":  "assets/course-visuals-premium/C037-ombre-lumiere-et-inversion-du-regard.svg",
         "pdf":  "assets/cours-pdf/C037-ombre-lumiere-et-inversion-du-regard.pdf",
-        "tags":  [
-                     "Inversion \u0026 incarnation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Inversion & incarnation", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C038-symbolique-du-temple-inverse",
-        "number":  38,
+        "id":  "C046-symbolique-du-temple-inverse",
+        "number":  46,
         "familyId":  "inversion",
-        "familyTitle":  "Inversion \u0026 incarnation",
+        "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
         "title":  "Symbolique du temple inversé",
-        "subtitle":  "Ce qui est en haut comme ce qui est en bas, mais inversé",
+        "subtitle":  "Le corps comme temple descendu du ciel vers la terre",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Symbolique du temple inversé. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Travailler le miroir, l’incarnation, la croix, la descente, le retournement intérieur et la lecture symbolique du monde.",
-        "practice":  "Lire lentement le cours, choisir une intention, pratiquer vingt minutes avec une consigne unique, puis intégrer par le carnet.",
+        "kind":  "Enseignement & symbolique",
+        "status":  "available",
+        "summary":  "Explorer la symbolique du temple inversé : le corps humain debout est un temple céleste retourné, planté dans la terre par ses racines. Comprendre cette image transforme la relation au corps et à l'incarnation.",
+        "shortSummary":  "Le corps comme temple inversé : symbolique de l'incarnation et transformation du regard sur la matière.",
+        "longSummary":  "Dans de nombreuses traditions, le corps humain est décrit comme un temple inversé — un édifice céleste qui a été planté dans la terre, tête en haut et racines en bas. L'arbre est l'image la plus universelle de cette inversion : ses racines plongent dans la terre (le monde souterrain, l'inconscient, la matière dense) tandis que ses branches s'élèvent vers le ciel (le monde spirituel, la lumière, le non-manifesté). Le corps humain debout est cet arbre : ses pieds sont ses racines dans la matière, sa tête est sa couronne vers le ciel, et son axe vertical est le tronc qui relie les deux mondes. Cette image n'est pas seulement poétique : elle fournit une carte symbolique précise de la pratique intérieure, indiquant où travailler l'ancrage (en bas), où chercher la lumière (en haut) et comment maintenir le lien entre les deux (l'axe).",
+        "pedagogicalObjective":  "Comprendre la symbolique du temple inversé et l'utiliser comme carte intérieure pour orienter la pratique.",
+        "initiaticObjective":  "Transformer son rapport au corps : le voir non comme une limite ou un obstacle mais comme un temple vivant, précisément construit pour l'expérience qu'il abrite.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Sentir le corps dans la position assise. Le reconnaître comme un édifice vivant." },
+            { "time":  "5:00 — 18:00\", \"title\":  \"Le temple inversé\", \"content\":  \"L'image universelle de l'arbre et du corps humain debout. La tête comme couronne, les pieds comme racines, l'axe comme tronc." },
+            { "time":  "18:00 — 30:00\", \"title\":  \"Les niveaux du temple\", \"content\":  \"Pieds-ancrage-terre, ventre-génération-désir, cœur-relation-amour, gorge-expression-vérité, tête-conscience-lumière." },
+            { "time":  "30:00 — 47:00\", \"title\":  \"Pratique : habiter le temple\", \"content\":  \"Méditation guidée : voyager de bas en haut dans les niveaux du corps. S'arrêter dans chaque zone et y déposer une attention." },
+            { "time":  "47:00 — 54:00\", \"title\":  \"Le temple et la pratique quotidienne\", \"content\":  \"Comment utiliser cette carte symbolique pour situer les pratiques : où travaille-t-on selon les familles de cours ?" },
+            { "time":  "54:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Quel niveau du temple est le plus vivant en soi ? Lequel est le moins habité ?" },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au corps entier. Formule de fermeture." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : sentir le corps comme édifice.",
+            "5–18 min — Le temple inversé : tête, tronc, racines.",
+            "18–30 min — Les niveaux du temple et leurs qualités.",
+            "30–47 min — Pratique : méditation de haut en bas dans le temple.",
+            "47–54 min — La carte du temple dans la pratique quotidienne.",
+            "54–58 min — Carnet : niveaux vivants et niveaux endormis.",
+            "58–60 min — Clôture."
+        ],
+        "teaching":  {
+            "intro":  "Le corps n'est pas une prison de l'âme. C'est un temple. Un temple précisément conçu pour abriter une expérience que rien d'autre ne peut offrir : l'incarnation consciente. Ce cours explore la carte symbolique de ce temple.",
+            "sections":  [
+                { "title":  "1. L'arbre comme image universelle\", \"content\":  \"L'arbre est l'un des symboles les plus universels et les plus constants de l'histoire humaine. Dans la mythologie nordique, Yggdrasil est l'arbre cosmique dont les racines plongent dans les royaumes inférieurs et les branches atteignent les royaumes supérieurs. Dans la Kabbale, l'Arbre de vie est la carte des forces qui maintiennent la réalité. Dans la tradition bouddhiste, le Bouddha atteint l'éveil sous l'Arbre de la Bodhi. Dans presque toutes les cultures, l'arbre est le symbole du pont entre le ciel et la terre — entre le monde spirituel et le monde matériel. Le corps humain debout est cet arbre : tête vers le ciel, pieds vers la terre." },
+                { "title":  "2. Le corps inversé : racines en haut\", \"content\":  \"Il existe une image encore plus radicale du temple inversé : certaines traditions décrivent l'arbre de vie comme un arbre dont les racines sont en haut (dans le ciel, dans le non-manifesté) et les branches pointent vers le bas (vers la terre, vers la manifestation). Dans cette image, l'être humain est un arbre céleste dont la sève descend du cosmos vers la matière. La pratique intérieure consiste à suivre cette sève dans les deux sens : descendre pour ancrer ce qui vient d'en haut, et remonter pour ramener à la conscience ce qui vient d'en bas." },
+                { "title":  "3. Les niveaux du temple humain\", \"content\":  \"La symbolique du temple invite à voir le corps comme un édifice à niveaux. Les pieds et les jambes : l'ancrage dans la matière, la connexion à la terre, la stabilité. Le bassin et l'abdomen : le centre vital, la génération, l'instinct, la vitalité primaire. Le plexus solaire : la relation au monde, la volonté, l'assertion de soi. La cage thoracique et le cœur : l'amour, la relation, la compassion, l'ouverture. La gorge : l'expression, la vérité, la voix. La tête : la conscience, la pensée, la lumière intérieure. La couronne : la connexion au non-manifesté." },
+                { "title":  "4. Habiter le temple\", \"content\":  \"La plupart des gens habitent seulement quelques niveaux de leur temple. Certains vivent principalement dans la tête (intellectuels qui \"pensent trop\"). D'autres sont principalement dans le ventre (émotions brutes, instincts). D'autres encore sont principalement dans le cœur (très empathiques, parfois sans limites). La pratique du temple consiste à apprendre à habiter tous les niveaux successivement et simultanément — à être une conscience qui parcourt l'intégralité de l'édifice sans exclure aucun niveau, sans \"oublier\" d'habiter une partie du corps." },
+                { "title":  "5. La pratique et le temple\", \"content\":  \"Chaque famille de cours de l'école travaille prioritairement à un niveau du temple. La famille Terrain travaille les pieds, l'eau, les minéraux — l'ancrage matériel. La famille Lumière travaille la tête et la couronne — la réceptivité de la conscience. La famille Rythmes travaille le tronc entier — le flux de circulation entre les niveaux. La famille Balancements travaille les axes — les voies de communication entre les niveaux. Voir sa pratique dans cette carte globale donne un sens supplémentaire à chaque exercice : je ne fais pas seulement un exercice, j'entretiens un niveau de mon temple." }
+            ]
+        },
+        "practice":  "Méditation du temple (15 minutes) : assis, yeux fermés. Commencer par les pieds — sentir leur contact avec le sol, leur poids, leur chaleur. Monter progressivement : jambes, bassin (sentir le poids sur le siège), ventre (sentir la respiration abdominale), cage thoracique (sentir le battement du cœur), gorge (la sentir se relâcher), crâne (sentir la boîte crânienne comme une coupole). Puis s'arrêter dans le niveau le moins habituellement habité et y rester 3 minutes. Dans le carnet : quel niveau était le plus difficile à habiter ?",
         "image":  "assets/course-visuals-premium/C038-symbolique-du-temple-inverse.svg",
         "pdf":  "assets/cours-pdf/C038-symbolique-du-temple-inverse.pdf",
-        "tags":  [
-                     "Inversion \u0026 incarnation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Inversion & incarnation", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C039-integrer-l-inversion-dans-les-exercices",
-        "number":  39,
+        "id":  "C047-integrer-l-inversion-dans-les-exercices",
+        "number":  47,
         "familyId":  "inversion",
-        "familyTitle":  "Inversion \u0026 incarnation",
+        "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
-        "title":  "Intégrer l’inversion dans les exercices",
-        "subtitle":  "Ce qui est en haut comme ce qui est en bas, mais inversé",
+        "title":  "Intégrer l'inversion dans les exercices",
+        "subtitle":  "Appliquer le principe d'inversion à la pratique quotidienne",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Intégrer l’inversion dans les exercices. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Travailler le miroir, l’incarnation, la croix, la descente, le retournement intérieur et la lecture symbolique du monde.",
-        "practice":  "Lire lentement le cours, choisir une intention, pratiquer vingt minutes avec une consigne unique, puis intégrer par le carnet.",
+        "kind":  "Intégration pratique & application",
+        "status":  "available",
+        "summary":  "Apprendre à utiliser concrètement le principe d'inversion dans les exercices déjà maîtrisés : inverser la direction du balancement, changer le sens de la spirale, inverser la focalisation de l'attention, pratiquer avec l'œil gauche puis l'œil droit. Ces inversions pratiques révèlent de nouvelles dimensions de chaque exercice.",
+        "shortSummary":  "Inversion pratique : inverser le balancement, la spirale, l'attention, pour révéler de nouvelles dimensions des exercices.",
+        "longSummary":  "Le principe d'inversion n'est pas seulement une notion philosophique — il est un outil pratique applicable directement aux exercices. Chaque exercice habituel peut être inversé pour en révéler une dimension cachée. Balancer vers la gauche en premier au lieu de la droite ? La synergie produite est différente. Spiraler dans le sens antihoraire au lieu d'horaire ? L'effet sur la centration change. Observer la trace lumineuse avec l'œil gauche au lieu du droit ? La nature de la rémanence se modifie légèrement. Ces inversions pratiques ne sont pas des trucs de variété — elles sont des outils de connaissance. En perturbant l'habitude, elles révèlent ce qui était automatique, et donc inconscient. Et rendre conscient ce qui était automatique est précisément le travail de la pratique.",
+        "pedagogicalObjective":  "Maîtriser l'application concrète du principe d'inversion aux exercices connus, et comprendre pourquoi la perturbation de l'habitude est un outil de connaissance.",
+        "initiaticObjective":  "Développer la flexibilité intérieure — la capacité de faire n'importe quel exercice dans n'importe quel sens, sans attachment à une forme particulière, en restant toujours présent à ce qui se produit.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Observer ses habitudes de pratique : par où commence-t-on toujours ? Quel geste est toujours dans le même sens ?" },
+            { "time":  "5:00 — 15:00\", \"title\":  \"L'habitude comme automatisme\", \"content\":  \"Ce que l'habitude révèle et ce qu'elle cache. L'inversion comme outil de révélation de l'automatique." },
+            { "time":  "15:00 — 30:00\", \"title\":  \"Inversions pratiques concrètes\", \"content\":  \"Balancement vers la droite d'abord vs la gauche. Spirale horaire vs anti-horaire. Attention externe vs interne." },
+            { "time":  "30:00 — 47:00\", \"title\":  \"Pratique : exercices inversés\", \"content\":  \"Pratiquer 3 exercices connus dans leur version inversée. Observer ce qui change, ce qui résiste, ce qui se révèle." },
+            { "time":  "47:00 — 54:00\", \"title\":  \"Observer la résistance\", \"content\":  \"Ce que la résistance à l'inversion révèle sur les automatismes. Le confort de l'habitude et ce qu'il coûte." },
+            { "time":  "54:00 — 58:00\", \"title\":  \"Carnet\", \"content\":  \"Quel exercice inversé a produit le plus de résistance ? Le plus de surprise ? Le plus de nouvel effet ?" },
+            { "time":  "58:00 — 60:00\", \"title\":  \"Clôture\", \"content\":  \"Retour au corps. Formule de fermeture." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : identifier ses habitudes de pratique.",
+            "5–15 min — L'habitude comme automatisme et l'inversion comme révélateur.",
+            "15–30 min — Inversions pratiques concrètes : exemples.",
+            "30–47 min — Pratique : 3 exercices connus en version inversée.",
+            "47–54 min — Observer la résistance à l'inversion.",
+            "54–58 min — Carnet : résistances et surprises.",
+            "58–60 min — Clôture."
+        ],
+        "teaching":  {
+            "intro":  "L'habitude rend les choses invisibles. Ce qu'on fait toujours de la même façon, on finit par ne plus le voir. L'inversion d'un exercice habituel est un coup de projecteur sur l'automatisme — et ce qu'il révèle est toujours instructif.",
+            "sections":  [
+                { "title":  "1. L'habitude comme chemin invisible\", \"content\":  \"Une habitude est un comportement qui ne requiert plus d'attention consciente. C'est à la fois sa force (elle libère des ressources cognitives) et sa limite (elle rend invisible ce qui se produit). Le pratiquant qui fait toujours son balancement en commençant par la gauche ne sait pas ce que ça ferait de commencer par la droite — et dans cette ignorance se cache une information sur sa propre structure. L'inversion de l'habitude ne vise pas à changer l'habitude définitivement — elle vise à rendre visible ce qui était automatique." },
+                { "title":  "2. Inverser le balancement\", \"content\":  \"Le balancement latéral habituel commence généralement par le gauche (du fait de la dominance de l'hémisphère gauche dans la plupart des individus droitiers, qui envoie un signal contrastif vers la droite du corps). Commencer par le droit produit une légère déstabilisation qui peut être instructive : on perçoit la résistance de l'hémisphère habituel à céder la priorité. De même, varier le rythme (1 seconde au lieu de 2, ou 3 secondes) produit des états différents et révèle à quel point le rythme de 2 secondes est devenu \"invisible\"." },
+                { "title":  "3. Inverser la spirale\", \"content\":  \"La spirale imaginaire qui converge vers le centre peut tourner dans le sens horaire ou anti-horaire. La plupart des pratiquants ont une préférence spontanée. Inverser ce sens produit généralement un effet plus lent, plus laborieux, parfois une légère résistance — ce qui révèle que le sens habituel était devenu un automatisme. Les traditions ont des attributions symboliques aux deux sens : le sens horaire (le même que le sens de rotation apparent du soleil dans l'hémisphère nord) est souvent associé à l'expansion et à la manifestation ; le sens anti-horaire à l'intériorisation et à l'absorption." },
+                { "title":  "4. Inverser la focalisation de l'attention\", \"content\":  \"Pendant un exercice habituel de rémanence (focus externe sur la trace lumineuse), inverser la focalisation : au lieu de regarder la trace, devenir celui qui regarde. Au lieu d'observer l'objet de l'attention, observer le sujet qui observe. Cette inversion — qui est la base de toutes les pratiques de \"témoin\" ou d'\"auto-enquête\" — révèle une dimension de la conscience qui reste normalement invisible parce qu'elle est celle qui fait l'observation, pas ce qui est observé." },
+                { "title":  "5. La flexibilité comme signe de maturité\", \"content\":  \"Un pratiquant mature peut pratiquer n'importe quel exercice dans n'importe quel sens, dans n'importe quel ordre, dans n'importe quelles conditions. Il n'est pas attaché à une forme particulière parce qu'il comprend que la forme est au service de l'état, non l'inverse. Cette flexibilité n'est pas acquise par la théorie mais par la pratique répétée de l'inversion — en se confrontant régulièrement à ce qui dérange, résiste et surprend dans ses propres exercices habituels." }
+            ]
+        },
+        "practice":  "Choisir 3 exercices déjà maîtrisés dans les familles précédentes. Pour chacun : le pratiquer d'abord normalement (2 minutes), puis en version inversée (2 minutes). Inversions possibles : direction du balancement (droite d'abord), sens de la spirale, œil gauche au lieu du droit pour la rémanence, expiration d'abord au lieu de l'inspiration pour la respiration carrée. Dans le carnet : noter pour chaque exercice inversé ce qui a résisté, ce qui a surpris, ce qui a révélé quelque chose de nouveau.",
         "image":  "assets/course-visuals-premium/C039-integrer-l-inversion-dans-les-exercices.svg",
         "pdf":  "assets/cours-pdf/C039-integrer-l-inversion-dans-les-exercices.pdf",
-        "tags":  [
-                     "Inversion \u0026 incarnation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Inversion & incarnation", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C040-meditation-du-retournement-interieur",
-        "number":  40,
+        "id":  "C048-meditation-du-retournement-interieur",
+        "number":  48,
         "familyId":  "inversion",
-        "familyTitle":  "Inversion \u0026 incarnation",
+        "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
         "title":  "Méditation du retournement intérieur",
-        "subtitle":  "Ce qui est en haut comme ce qui est en bas, mais inversé",
+        "subtitle":  "Clôture de la famille Inversion : retourner le regard vers sa source",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Méditation du retournement intérieur. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Travailler le miroir, l’incarnation, la croix, la descente, le retournement intérieur et la lecture symbolique du monde.",
-        "practice":  "Lire lentement le cours, choisir une intention, pratiquer vingt minutes avec une consigne unique, puis intégrer par le carnet.",
+        "kind":  "Méditation intégratrice & clôture de famille",
+        "status":  "available",
+        "summary":  "Intégrer l'ensemble de la famille Inversion dans une méditation complète de retournement intérieur. Retourner le regard de l'extérieur vers l'intérieur, de la forme vers la conscience qui la perçoit, du mouvement vers son axe silencieux.",
+        "shortSummary":  "Méditation de retournement : de l'extérieur vers l'intérieur, de la forme vers la conscience, du mouvement vers l'axe.",
+        "longSummary":  "Le retournement intérieur est la pratique centrale de toute voie contemplative. Il consiste à retourner l'attention de ses objets habituels (le monde extérieur, les pensées, les émotions) vers sa source — la conscience elle-même. Non comme une fuite du monde mais comme une récognition : qui est celui qui perçoit ? Cette question, posée sérieusement et maintenue dans un état de réceptivité calme, est l'une des pratiques les plus directes de connaissance de soi. Ce cours final de la famille Inversion guide cette méditation de retournement dans toute sa précision : ancrage dans le corps, retournement progressif de l'attention, séjour dans la conscience-témoin, et retour au monde avec un regard légèrement transformé.",
+        "pedagogicalObjective":  "Maîtriser la méditation de retournement intérieur et comprendre sa place dans l'ensemble de la pratique.",
+        "initiaticObjective":  "Toucher, même brièvement, l'expérience de la conscience-témoin — celle qui observe sans être emportée — et comprendre que c'est cet espace qui est le vrai support de toute pratique.",
+        "minutePlan":  [
+            { "time":  "0:00 — 5:00\", \"title\":  \"Ouverture\", \"content\":  \"Bilan de la famille Inversion. Qu'est-ce que ces 8 cours ont modifié dans la perception de soi ?" },
+            { "time":  "5:00 — 15:00\", \"title\":  \"Le retournement intérieur\", \"content\":  \"Qu'est-ce que retourner le regard ? La différence entre regarder les objets et regarder le sujet qui regarde." },
+            { "time":  "15:00 — 28:00\", \"title\":  \"La conscience-témoin\", \"content\":  \"Ce qui observe sans être emporté. La différence entre la conscience et son contenu. Pourquoi c'est le support de tout." },
+            { "time":  "28:00 — 52:00\", \"title\":  \"Méditation guidée du retournement\", \"content\":  \"Séquence complète : ancrage, retournement de l'attention, séjour dans la conscience-témoin, retour progressif au monde." },
+            { "time":  "52:00 — 57:00\", \"title\":  \"Carnet\", \"content\":  \"Décrire ce qui a été perçu pendant la méditation. Y avait-il un moment de \"qui regarde ?\" Combien de temps ?" },
+            { "time":  "57:00 — 60:00\", \"title\":  \"Clôture de la famille Inversion', \"content\":  \"Retour au corps, au lieu, au souffle. Ouverture vers la famille Balancements qui vient." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Ouverture : bilan de la famille Inversion.",
+            "5–15 min — Le retournement intérieur : regarder le sujet qui regarde.",
+            "15–28 min — La conscience-témoin : observer sans être emporté.",
+            "28–52 min — Méditation guidée complète du retournement.",
+            "52–57 min — Carnet : décrire l'expérience du témoin.",
+            "57–60 min — Clôture et ouverture vers les Balancements."
+        ],
+        "teaching":  {
+            "intro":  "Toute la famille Inversion a conduit vers un seul point : retourner. Non pas fuir, mais voir autrement. Non pas quitter le monde, mais voir de quelle conscience il est perçu. Ce cours final guide ce retournement complet.",
+            "sections":  [
+                { "title":  "1. Le regard ordinaire et le regard retourné\", \"content\":  \"Dans le regard ordinaire, la conscience est tournée vers ses objets : pensées, émotions, sensations, événements extérieurs. Elle est si occupée par ses objets qu'elle s'oublie elle-même — elle ne se voit pas voir. Dans le regard retourné, la conscience se tourne vers elle-même : au lieu de regarder la pensée, elle regarde ce qui regarde la pensée. Au lieu d'observer l'émotion, elle observe ce qui observe l'émotion. Ce retournement ne supprime pas les pensées et les émotions — il révèle l'espace dans lequel ils se produisent, et cet espace est silencieux, stable et non perturbé par eux." },
+                { "title":  "2. La conscience-témoin\", \"content\":  \"La conscience-témoin est ce qui observe sans être emporté. C'est la conscience qui est présente pendant les rêves et qui sait qu'elle rêve (c'est le début du rêve lucide). C'est la conscience qui est présente pendant une émotion forte et qui peut dire \"je suis en colère\" plutôt que d'être entièrement la colère. C'est la conscience qui observe la pratique et qui sait distinguer l'expérience réelle de la projection ou de l'imagination. Cette conscience-témoin est toujours déjà présente — la pratique du retournement ne la crée pas, elle la révèle." },
+                { "title":  "3. La pratique du \"qui regarde ?\"', \"content\":  \"La pratique la plus directe du retournement est la question \"qui regarde ?\". Poser cette question n'est pas une réflexion intellectuelle — c'est un geste de l'attention. On regarde la trace lumineuse dans la rémanence. Puis on retourne l'attention : qui est en train de regarder cette trace ? On ne cherche pas une réponse verbale — on cherche la présence de ce qui regarde. Cette présence est silencieuse, légèrement spacieuse, non localisée à un endroit précis du corps. S'y stabiliser, même une seconde, est l'expérience du retournement." },
+                { "title":  "4. La méditation en quatre temps', \"content\":  \"La méditation complète du retournement se déroule en quatre temps. Premier temps : ancrage profond dans le corps (pieds, poids, souffle abdominal). Deuxième temps : élargissement de la conscience pour inclure tout ce qui est perçu (sons, sensations, pensées, sans s'y attacher). Troisième temps : retournement — au lieu de percevoir les objets, se tourner vers ce qui perçoit. Trouver et habiter ce centre silencieux. Quatrième temps : rester dans le témoin le plus longtemps possible sans forcer ni se durcir. Laisser les pensées et sensations se produire dans l'espace du témoin sans y être emporté." },
+                { "title":  "5. Le retour comme intégration\", \"content\":  \"Le retour du retournement est aussi important que le retournement lui-même. Revenir des profondeurs de la conscience-témoin vers l'activité ordinaire avec un regard légèrement transformé est l'objectif de toute pratique contemplative. Ce n'est pas un retour à l'\"avant\" — c'est une réintégration du monde dans la lumière de ce qui a été vu. Le monde n'a pas changé, mais le regard sur le monde a légèrement changé. Et c'est ce léger changement de regard, répété séance après séance, qui produit la transformation progressive que toute pratique sérieuse vise." }
+            ]
+        },
+        "practice":  "Méditation du retournement (20 minutes) : (1) Ancrage 3 minutes — pieds, poids, souffle. (2) Élargissement 3 minutes — inclure tous les perceptions sans s'y attacher. (3) Retournement 10 minutes — poser intérieurement la question 'qui perçoit cela ?' et chercher la présence silencieuse qui regarde. Ne pas analyser — juste pointer l'attention vers le sujet qui perçoit. (4) Retour 4 minutes — revenir progressivement à la perception normale du corps, du lieu, du souffle. Dans le carnet : décrire la qualité du silence intérieur trouvé (fugace, stable, absent, surprise).",
         "image":  "assets/course-visuals-premium/C040-meditation-du-retournement-interieur.svg",
         "pdf":  "assets/cours-pdf/C040-meditation-du-retournement-interieur.pdf",
-        "tags":  [
-                     "Inversion \u0026 incarnation",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Inversion & incarnation", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
-    {
-        "id":  "C041-balancement-lateral-complet",
-        "number":  41,
+        {
+        "id":  "C017-balancement-lateral-complet",
+        "number":  17,
         "familyId":  "balancements",
         "familyTitle":  "Balancements",
         "symbol":  "↔",
         "title":  "Balancement latéral complet",
-        "subtitle":  "Latéral, vertical, huit, croix, rotation",
+        "subtitle":  "L’oscillation droite-gauche comme rééquilibrage des hémisphères",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Balancement latéral complet. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Structurer tous les mouvements du Livre d’Exercices en séances complètes, avec mantra, axe et rémanence.",
-        "practice":  "Pratiquer le mouvement choisi avec lenteur, garder l’axe, associer le mantra, puis passer du grand mouvement au mouvement intérieur.",
+        "kind":  "Pratique corporelle & intégration",
+        "status":  "available",
+        "summary":  "Le balancement latéral est l’un des mouvements les plus anciens de la mémoire corporelle humaine. De la berceuse à la prière, ce geste universel calme le système nerveux, synchronise les hémisphères et crée un terrain intérieur de réceptivité profonde.",
+        "shortSummary":  "Oscillation droite-gauche pour rééquilibrer les hémisphères et induire un état de réceptivité.",
+        "longSummary":  "Le balancement latéral réactive une intelligence ancestrale inscrite dans le corps. Ce mouvement doux de droite à gauche produit des effets mesurables sur le système nerveux autonome : il réduit l’activation sympathique, favorise la cohérence entre les deux hémisphères cérébraux et crée une alternance rythmique qui prépare l’être à recevoir des impressions subtiles. Dans ce cours, nous explorons le balancement latéral dans ses trois formes — du corps entier, de la tête seule, et intériorisé (sans mouvement physique) — en l’associant à la respiration, au mantra et à la visualisation de l’axe central. La pratique guidee permet de saisir comment un simple geste oscillatoire peut devenir une méthode de centrage, de traitement émotionnel et d’ouverture perceptive.",
+        "pedagogicalObjective":  "Maîtriser la technique du balancement latéral dans ses trois formes (corps, tête, intériorisé) et comprendre son action sur le système nerveux et la perception.",
+        "initiaticObjective":  "Faire du balancement latéral un instrument de dialogue entre les deux polarités intérieures — action et réception, analyse et synthèse — pour trouver le point de silence en leur centre.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Installation\",     \"content\": \"Position assise stable, évaluation de l’état intérieur du moment, respiration naturelle." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Principe du balancement latéral : histoire universelle du geste, action sur les hémisphères, notion de rémanence." },
+            { "time": "15:00 — 25:00\",\"title\": \"Pratique corps\",   \"content\": \"Balancement du corps entier, lenteur, suivi du point d’équilibre, association du mantra ILLI." },
+            { "time": "25:00 — 35:00\",\"title\": \"Pratique tête\",    \"content\": \"Balancement de la tête seule, yeux fermés, observation de l’espace intérieur en mouvement." },
+            { "time": "35:00 — 45:00\",\"title\": \"Intériorisation\",  \"content\": \"Arrêt du mouvement physique, continuation du balancement en imagination, observation de la rémanence." },
+            { "time": "45:00 — 55:00\",\"title\": \"Intégration\",     \"content\": \"Carnet de pratique, phrase essentielle du cours, observation des effets dans le corps." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Retour au souffle, enracinement, geste concret du jour." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Installation et évaluation de l’état de départ",
+            "5–15 min — Enseignement : universalité du geste oscillatoire et action sur les hémisphères",
+            "15–25 min — Pratique du balancement du corps entier avec mantra ILLI",
+            "25–35 min — Pratique du balancement de la tête seule",
+            "35–45 min — Intériorisation du mouvement et observation de la rémanence",
+            "45–55 min — Intégration, carnet, phrase essentielle",
+            "55–60 min — Clôture et enracinement"
+        ],
+        "teaching":  {
+            "intro":  "Le corps humain porte en lui des gestes que nul n’a besoin d’apprendre. L’oscillation droite-gauche en fait partie. Avant toute culture, avant toute tradition, cet enfant qu’on berce, ce vieillard qui prie, ce meditant qui se balance dans le silence — tous retrouvent par instinct ce mouvement fondamental. Ce cours explore pourquoi ce geste est si universel et comment l’utiliser comme instrument de travail interieur.",
+            "sections":  [
+                {
+                    "title":  "1. Le geste universel de la berceuse et de la prière",
+                    "content":  "Dans toutes les cultures, le balancement latéral accompagne les moments de transition : on berce l’enfant pour le faire passer de l’éveil au sommeil, on se balance en prière pour passer de l’ordinaire au sacré. Ce n’est pas une coïncidence. Le mouvement oscillatoire de droite à gauche active le nerf vague, réduit la tension sympathique et favorise l’entrée en état de réceptivité élargie. Le corps sait ce que l’esprit cherche encore à comprendre."
+                },
+                {
+                    "title":  "2. Action sur les hémisphères cérébraux",
+                    "content":  "Le balancement latéral crée une alternance rythmique gauche-droite qui favorise la cohérence inter-hémisphérique. L’hémisphère gauche, associé au langage et à l’analyse, et l’hémisphère droit, associé à la perception spatiale et à la synthèse, entrent progressivement en dialogue. On observe après une pratique soutenue une réduction du dialogue intérieur, une plus grande disponibilité sensorielle et un sentiment de centrage qui persiste bien au-delà du mouvement lui-même."
+                },
+                {
+                    "title":  "3. Les trois formes du balancement latéral",
+                    "content":  "La pratique se décline en trois formes progressives. La première est le balancement du corps entier depuis la base : assis, on laisse le buste osciller lentement, les hanches servant de pivot. La deuxième est le balancement de la tête seule, corps immobile, ce qui concentre l’effet sur les structures cérébrales et sensitives supérieures. La troisième est l’intériorisation complète : on arrête tout mouvement physique mais on continue le balancement en imagination pure, ce qui prolonge l’effet tout en cultivant la capacité de visualisation cinétique."
+                },
+                {
+                    "title":  "4. Le mantra ILLI et le rythme naturel",
+                    "content":  "Le mantra ILLI (prononcé « il-li », deux syllabes égales) s’associe naturellement au balancement latéral : une syllabe pour la droite, une syllabe pour la gauche. Ce n’est pas une récitation mentale mais une résonance : la vibration de la voyelle I dans la structure osseuse du crâne accompagne et amplifie le mouvement oscillatoire. On cherche le rythme naturel du corps, ni trop lent ni trop rapide, celui qui s’installe de lui-même quand on cesse de contrôler."
+                },
+                {
+                    "title":  "5. La rémanence : ce qui reste après le mouvement",
+                    "content":  "L’un des phénomènes les plus intéressants du balancement est la rémanence : après l’arrêt du mouvement physique, une sensation de continuation persiste dans le corps et dans le champ de conscience. Cette rémanence est précieuse — elle signale que l’effet s’est installé dans des couches plus profondes. On apprend à l’accueillir sans l’interrompre, à rester dans cet espace de transition où la perception est la plus fine."
+                }
+            ]
+        },
+        "practice":  "Protocole balancement latéral — 45 minutes actives :\n1. Asseyez-vous en tailleur ou sur une chaise, colonne vertébrale droite, mains sur les genoux.\n2. Fermez les yeux. Trois respirations profondes pour évaluer votre état de départ.\n3. Commencez le balancement du corps entier : lentement, de droite à gauche, laissez le rythme s'installer naturellement (environ 1 aller-retour par seconde ou moins).\n4. Ajoutez mentalement le mantra ILLI : 'IL' à droite, 'LI' à gauche.\n5. Après 10 minutes, réduisez progressivement le mouvement au seul balancement de la tête.\n6. Après 10 minutes supplémentaires, immobilisez totalement le corps. Continuez le balancement en imagination.\n7. Restez immobile 10 minutes dans la rémanence. Observez sans analyser.\n8. Notez immédiatement dans votre carnet : sensations, images, qualité de l'espace intérieur.",
         "image":  "assets/course-visuals-premium/C041-balancement-lateral-complet.svg",
         "pdf":  "assets/cours-pdf/C041-balancement-lateral-complet.pdf",
-        "tags":  [
-                     "Balancements",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C042-balancement-vertical-complet",
-        "number":  42,
+        "id":  "C018-balancement-vertical-complet",
+        "number":  18,
         "familyId":  "balancements",
         "familyTitle":  "Balancements",
         "symbol":  "↔",
         "title":  "Balancement vertical complet",
-        "subtitle":  "Latéral, vertical, huit, croix, rotation",
+        "subtitle":  "L’oscillation haut-bas comme dialogue entre ciel et terre",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Balancement vertical complet. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Structurer tous les mouvements du Livre d’Exercices en séances complètes, avec mantra, axe et rémanence.",
-        "practice":  "Pratiquer le mouvement choisi avec lenteur, garder l’axe, associer le mantra, puis passer du grand mouvement au mouvement intérieur.",
+        "kind":  "Pratique corporelle & intégration",
+        "status":  "available",
+        "summary":  "Le balancement vertical explore l’axe haut-bas du corps, dialogue entre l’ancrage terrestre et l’élévation spirituelle. Ce mouvement travaille la colonne vertébrale comme antenne vivante et cultive la capacité à recevoir des impressions du champ supérieur tout en restant enraciné.",
+        "shortSummary":  "Oscillation haut-bas pour activer l’axe vertical du corps et relier ancrage et élévation.",
+        "longSummary":  "L’axe vertical est l’un des axes fondamentaux de l’expérience humaine. Se tenir debout, c’est déjà affirmer une relation entre le bas (la terre, la matière, l’ancrage) et le haut (le ciel, l’esprit, la direction). Le balancement vertical intègre ces deux pôles en les mettant en mouvement rythmique. Ce cours présente trois formes de balancement vertical — du buste (hoche-tête ancestral), de la tête seule (avant-arrière sagittal réduit), et intériorisé comme flux d’énergie montant et descendant le long de la colonne. Le mantra ALLA (deux syllabes harmoniques) accompagne le mouvement. La pratique développe la sensibilité à l’axe cranio-sacré et à la circulation de l’énergie vitale entre les chakras inférieurs et supérieurs.",
+        "pedagogicalObjective":  "Maîtriser les trois formes du balancement vertical et comprendre l’axe cranio-sacré comme support de circulation énergétique.",
+        "initiaticObjective":  "Faire du balancement vertical un rituel de connexion entre la dimension terrestre et la dimension spirituelle de l’être, cultivant la capacité à être un pont entre ciel et terre.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Ancrage initial\",   \"content\": \"Prise de conscience de la colonne vertébrale comme axe, trois respirations verticales (inspire vers le haut, expire vers le bas)." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"L’axe vertical dans la tradition et la physiologie : colonne, axe cranio-sacré, pression du LCR." },
+            { "time": "15:00 — 25:00\",\"title\": \"Pratique buste\",   \"content\": \"Balancement vertical du buste, mouvement ample et lent, mantra ALLA." },
+            { "time": "25:00 — 35:00\",\"title\": \"Pratique tête\",    \"content\": \"Balancement de la tête seule (avant-arrière), très léger, focus sur la base du crâne." },
+            { "time": "35:00 — 45:00\",\"title\": \"Intériorisation\",  \"content\": \"Arrêt du mouvement, visualisation du flux énergétique montant-descendant le long de la colonne." },
+            { "time": "45:00 — 55:00\",\"title\": \"Intégration\",     \"content\": \"Carnet, observation des zones touchées, phrase essentielle." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Retour au sol, enracinement des pieds, projection de l’énergie vers le bas puis vers le haut." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Prise de conscience de l’axe vertical et ancrage",
+            "5–15 min — Enseignement : axe cranio-sacré, ciel et terre, LCR",
+            "15–25 min — Balancement vertical du buste avec mantra ALLA",
+            "25–35 min — Balancement de la tête seule, axe sagittal",
+            "35–45 min — Intériorisation : flux énergétique le long de la colonne",
+            "45–55 min — Intégration et carnet de pratique",
+            "55–60 min — Clôture et enracinement"
+        ],
+        "teaching":  {
+            "intro":  "Se tenir debout est un geste initiatique en soi. L’axe vertical du corps humain est unique parmi les mammiferes : nous seuls maintenons la colonne perpendiculaire au sol, crâne pointé vers le ciel. Ce positionnement n’est pas un accident evolutif — il fait de nous des antennes particulieres, capables de capter des frequences qui ne peuvent atteindre un etre couche ou plat. Le balancement vertical active et conscientise cet axe.",
+            "sections":  [
+                {
+                    "title":  "1. L’axe vertical comme antenne vivante",
+                    "content":  "La colonne vertébrale est une structure piézoélectrique : elle génère un signal électrique sous contrainte mécanique. Chaque oscillation verticale crée une onde de compression qui se propage de la base au sommet du crâne, modulant l’activité du système nerveux central. L’axe cranio-sacré, parcouru par le liquide céphalo-rachidien en oscillation lente, est un système dynamique d’une extrême sensibilité. Le balancement vertical résonne avec ce rythme primordial."
+                },
+                {
+                    "title":  "2. Les polarités haut et bas dans la physiologie énergétique",
+                    "content":  "Dans toutes les traditions de travail énergétique, l’axe vertical met en relation deux pôles : le pôle inférieur (ancrage, densité, for ces terrestres) et le pôle supérieur (élévation, légèreté, réceptivité aux influences subtiles). Le balancement vertical n’est pas un simple mouvement mécanique : c’est un dialogue entre ces deux dimensions de l’être. Ni la terre seule, ni le ciel seul ne suffisent — c’est le mouvement entre eux qui génère la vie."
+                },
+                {
+                    "title":  "3. Le mantra ALLA : la fondation et l’élévation",
+                    "content":  "Le mantra ALLA (prononcé « al-la », accent sur la première syllabe) associe la consonne L — vibration linguale centrale — à la voyelle A, la plus ouverte, celle qui résonne dans la cavité thoracique. La syllabe AL, prononcée à la descente, ancre. La syllabe LA, prononcée à la montée, élève. Ce mantra ne nomme rien d’extérieur — il active un circuit intérieur de circulation énergétique le long de l’axe vertical."
+                },
+                {
+                    "title":  "4. La pression du liquide céphalo-rachidien et la conscience",
+                    "content":  "Le liquide céphalo-rachidien (LCR) baigne le cerveau et la moelle épinière dans un mouvement autonome d’expansion-contraction. Des recherches en ostéopathie cranio-sacrée indiquent que ce rythme primaire, de 6 à 12 cycles par minute, est lié à des états de conscience spécifiques. Le balancement vertical synchronisé avec la respiration peut amplifier et harmoniser ce rythme, créant des états de conscience élargie accessibles sans pharmacoïdes."
+                },
+                {
+                    "title":  "5. La pratique intériorisée : sentir le flux sans se mouvoir",
+                    "content":  "Après la phase de mouvement, on arrête complètement le corps et on cherche à sentir le flux énergétique qui continue de circuler le long de la colonne. Certains pratiquants décrivent une chaleur ascendante, d’autres une légèreté progressive, d’autres encore des pulsations au sommet du crâne. Ce n’est pas de l’imagination — c’est la perception affinée d’un phénomène physiologique réel qui devient perceptible quand le mouvement extérieur cesse d’attirer l’attention."
+                }
+            ]
+        },
+        "practice":  "Protocole balancement vertical — 45 minutes actives :\n1. Assis ou debout, colonne verticale, sentez le poids de votre corps vers le bas et l'aspiration vers le haut simultanément.\n2. Inspirez en vous grandissant mentalement, expirez en vous enracinant. Trois cycles.\n3. Commencez le balancement du buste vers l'avant (inspiration) et l'arrière (expiration), ou vers le haut (étirement) et le bas (affaissement). Rythme très lent.\n4. Mantra ALLA : 'AL' à la descente, 'LA' à la montée.\n5. Après 10 minutes, réduisez au seul balancement de la tête, très léger.\n6. Après 10 minutes, immobilisez. Cherchez le flux interne le long de la colonne.\n7. Restez 10 minutes dans l'immobilité attentive.\n8. Notez : zones actives, qualité du flux, sensations au sommet du crâne.",
         "image":  "assets/course-visuals-premium/C042-balancement-vertical-complet.svg",
         "pdf":  "assets/cours-pdf/C042-balancement-vertical-complet.pdf",
-        "tags":  [
-                     "Balancements",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C043-balancement-antero-posterieur",
-        "number":  43,
+        "id":  "C019-balancement-antero-posterieur",
+        "number":  19,
         "familyId":  "balancements",
         "familyTitle":  "Balancements",
         "symbol":  "↔",
         "title":  "Balancement antéro-postérieur",
-        "subtitle":  "Latéral, vertical, huit, croix, rotation",
+        "subtitle":  "L’oscillation avant-arrière comme intégration du passé et de l’avenir",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Balancement antéro-postérieur. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Structurer tous les mouvements du Livre d’Exercices en séances complètes, avec mantra, axe et rémanence.",
-        "practice":  "Pratiquer le mouvement choisi avec lenteur, garder l’axe, associer le mantra, puis passer du grand mouvement au mouvement intérieur.",
+        "kind":  "Pratique corporelle & intégration",
+        "status":  "available",
+        "summary":  "Le balancement antéro-postérieur (avant-arrière) explore une dimension temporelle : l’avant est associé au futur, au projet, à l’intention ; l’arrière est associé au passé, à la mémoire, à l’enracinement. Ce cours utilise ce mouvement pour intégrer les deux dimensions du temps dans un présent élargi.",
+        "shortSummary":  "Oscillation avant-arrière pour intégrer passé et avenir dans un présent élargi.",
+        "longSummary":  "L’axe antéro-postérieur du corps porte une charge symbolique et psychologique particulière. Dans la culture et dans l’expérience commune, se pencher en avant signifie aller vers, s’exposer, anticiper ; se pencher en arrière signifie reculer, se protéger, revenir. Le balancement antéro-postérieur met ces deux postures en dialogue rythmique, dissolvant progressivement la tension entre ce qui a été et ce qui sera pour ancrer l’être dans le seul espace où la perception est possible : le présent vivant. Ce cours travaille aussi sur la conscience dorsale — la perception de ce qui se passe dans le dos, ce « champ arrière » souvent négligé mais crucial pour une conscience spatiale complète.",
+        "pedagogicalObjective":  "Maîtriser le balancement antéro-postérieur et développer la conscience du champ arrière comme espace de réception.",
+        "initiaticObjective":  "Dissoudre la tension entre passé et futur en cultivant la capacité à habiter le présent comme unique lieu de perception et d’action.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Présence\",         \"content\": \"Évaluation de l’orientation temporelle du moment : êtres-vous plutôt dans le futur (tâches, projets) ou le passé (souvenirs, regrets) ?" },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Symbolique avant-arrière : futur/passé, exposition/protection, conscience frontale et dorsale." },
+            { "time": "15:00 — 25:00\",\"title\": \"Pratique avant\",   \"content\": \"Balancement vers l’avant, intention de contact avec ce qui vient, respiration du projet." },
+            { "time": "25:00 — 35:00\",\"title\": \"Pratique arrière\", \"content\": \"Balancement vers l’arrière, contact avec le champ dorsal, respiration de la mémoire apaisée." },
+            { "time": "35:00 — 45:00\",\"title\": \"Intégration\",     \"content\": \"Oscillation complète avant-arrière, recherche du point de neutralité au centre." },
+            { "time": "45:00 — 55:00\",\"title\": \"Carnet\",           \"content\": \"Observations sur la relation au temps, phrase essentielle." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Enracinement dans le présent, geste du jour." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Évaluation de l’orientation temporelle habituelle",
+            "5–15 min — Enseignement : avant/arrière, temps, conscience dorsale",
+            "15–25 min — Pratique du balancement vers l’avant",
+            "25–35 min — Pratique du balancement vers l’arrière",
+            "35–45 min — Oscillation complète et recherche du centre",
+            "45–55 min — Carnet et phrase essentielle",
+            "55–60 min — Clôture et enracinement dans le présent"
+        ],
+        "teaching":  {
+            "intro":  "Nous vivons rarement dans le présent. L’esprit humain est naturellement pendulaire : il oscille entre le passé (regrets, nostalgie, mémoire) et le futur (anticipation, préoccupation, projection). Le balancement antéro-postérieur représente ce pendule temporel et lui donne une forme physique. En con-s-cient-i-sant ce mouvement, en l’associant à la respiration, on peut progressivement dissoudre la tension entre ces deux pôles et trouver le point de repos : le présent vivant.",
+            "sections":  [
+                {
+                    "title":  "1. L’axe temps : avant comme futur, arrière comme passé",
+                    "content":  "En body-mind, la posture revele l’état interne. Une personne fortement projetée vers le futur tend à incliner le corps en avant, à marcher en penchant la tête devant les épaules, à avoir le regard biaisé vers le bas-avant. Une personne ancrée dans le passé tend à se recourber vers l’arrière, à avoir les épaules en retrait, une posture de retrait. Le balancement antéro-postérieur n’est pas un exercice technique : c’est un dialogue avec sa propre relation au temps."
+                },
+                {
+                    "title":  "2. La conscience dorsale : le champ arrière",
+                    "content":  "Nous voyons par en avant, nous agissons par en avant, nous proj-etons notre attention par en avant. Le dos est la zone la plus aveugle de notre conscience corporelle. Pourtant, le champ dorsal est fondamental pour une perception spatiale complète. Dans certaines traditions, la capacité à percevoir ce qui se passe dans son dos est associée à une forme de vigilance énergétique, une conscience à 360 degrés. Le balancement vers l’arrière est une invitation à ouvrir ce champ aveugle."
+                },
+                {
+                    "title":  "3. Respiration d’avant et respiration d’arrière",
+                    "content":  "La respiration change selon l’orientation du balancement. En se penchant vers l’avant, la cage thoracique se comprime légèrement — c’est une respiration d’intention, de projet, d’envoi. En se penchant vers l’arrière, la cage thoracique s’ouvre — c’est une respiration de réception, d’espace, d’accueil. On associe consciemment ces deux qualités respiratoires au mouvement pour amplifier l’effet de l’oscillation."
+                },
+                {
+                    "title":  "4. Le point de neutralité : le présent comme espace de perception",
+                    "content":  "Entre l’avant et l’arrière existe un point de neutralité : la verticalité parfaite. Ce point n’est pas l’immobilité — c’est le cœur vivant du mouvement, le moment où le balancement change de direction. L’attention portée à ce point de retournement crée un ancrage dans le présent. Avec la pratique, ce point de neutralité s’élargit, devient un espace habitable, un lieu de repos dans le flux du temps."
+                },
+                {
+                    "title":  "5. Intégration : intégrer le passé et l’avenir sans être pris par eux",
+                    "content":  "La pratique avancée du balancement antéro-postérieur vise à cultiver une qualité d’attention spécifique : être conscient du passé sans y être prisonnier, orienté vers l’avenir sans y être absorbé. On pense à l’eau d’une rivière qui coule dans les deux sens autour d’un rocher : le rocher ne se déplace pas, mais il est en relation vivante avec tout ce qui passe. C’est cette qualité de présence que cultive ce cours."
+                }
+            ]
+        },
+        "practice":  "Protocole balancement antéro-postérieur — 45 minutes actives :\n1. Assis en tailleur ou sur une chaise. Évaluez : êtes-vous plutôt dans vos projets futurs ou dans vos souvenirs en ce moment ?\n2. Commencez par un léger balancement vers l'avant : inclinez le buste 10-20 cm, retour au centre. Associez l'intention : 'je vais vers ce qui vient'.\n3. Puis vers l'arrière : inclinez le buste 10-20 cm en arrière, retour. Associez : 'je reçois ce qui a été'.\n4. Installez le mouvement complet avant-arrière, lent, 1 cycle toutes les 2-3 secondes.\n5. Portez attention au point de retournement : le moment exact où vous passez de l'avant à l'arrière. C'est le présent.\n6. Après 10 minutes, réduisez à la tête seule, puis intériorisez.\n7. Restez 10 minutes dans l'immobilité. Observez votre relation au temps.\n8. Notez : dans quel temps habitez-vous naturellement ? Qu'avez-vous senti dans le dos ?",
         "image":  "assets/course-visuals-premium/C043-balancement-antero-posterieur.svg",
         "pdf":  "assets/cours-pdf/C043-balancement-antero-posterieur.pdf",
-        "tags":  [
-                     "Balancements",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C044-balancement-en-huit",
-        "number":  44,
+        "id":  "C020-balancement-en-huit",
+        "number":  20,
         "familyId":  "balancements",
         "familyTitle":  "Balancements",
         "symbol":  "↔",
         "title":  "Balancement en huit",
-        "subtitle":  "Latéral, vertical, huit, croix, rotation",
+        "subtitle":  "La lemniscate comme intégration des polarités",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Balancement en huit. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Structurer tous les mouvements du Livre d’Exercices en séances complètes, avec mantra, axe et rémanence.",
-        "practice":  "Pratiquer le mouvement choisi avec lenteur, garder l’axe, associer le mantra, puis passer du grand mouvement au mouvement intérieur.",
+        "kind":  "Pratique corporelle & intégration",
+        "status":  "available",
+        "summary":  "Le balancement en huit (lemniscate) combine les oscillations latérale et verticale dans une figure continue qui ne s’arrête jamais. Ce mouvement infini intègre les polarités et crée un état de flux perceptif particulier, associé à la créativité et à l’intelligence intégrative.",
+        "shortSummary":  "Mouvement lemniscate pour intégrer les polarités et activer l’intelligence intégrative.",
+        "longSummary":  "La lemniscate — le huit couché, symbole de l’infini — est l’une des formes géométriques les plus profondes de la nature. On la retrouve dans les trajectoires des planètes, dans les électrons, dans les mouvements des aquiferes. Elle représente le principe de circulation continue entre deux pôles sans jamais les séparer ni les fusionner. Appliqué au corps, le mouvement en lemniscate (huit) combine les axes latéral et vertical dans une trajectoire fluide et continue. Les recherches en kinesio-logie et en neuro-ducation identifient ce mouvement comme particulièrement efficace pour activer les connexions inter-hémisphériques et faciliter l’apprentissage, la mémorisation et les états de flow.",
+        "pedagogicalObjective":  "Maîtriser la trajectoire en lemniscate avec le corps, la tête et la main directrice, et comprendre son action sur l’intégration inter-hémisphérique.",
+        "initiaticObjective":  "Faire du huit une méditation en mouvement sur le principe d’infini : deux mondes distincts reliés par un centre toujours en mouvement, jamais immobile.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Dessin préparatoire\", \"content\": \"Dessiner un huit couche en l’air avec la main, yeux fermés, pour sentir la trajectoire." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"La lemniscate dans la nature et les traditions : infini, circulation, intégration des polarités." },
+            { "time": "15:00 — 25:00\",\"title\": \"Pratique main\",    \"content\": \"Grandes lemniscates des bras et des épaules, suivi du regard, synchronisation respiration." },
+            { "time": "25:00 — 35:00\",\"title\": \"Pratique buste\",   \"content\": \"Lemniscate du buste entier, d’abord ample puis de plus en plus subtile." },
+            { "time": "35:00 — 45:00\",\"title\": \"Pratique tête\",    \"content\": \"Lemniscate de la tête seule, très légère, puis intériorisée." },
+            { "time": "45:00 — 55:00\",\"title\": \"Intégration\",     \"content\": \"Carnet, observation des effets sur la perception et la pensée." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Trois lemniscates lentes avec la main, retour au centre, geste du jour." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Dessin préparatoire de la lemniscate en l’air",
+            "5–15 min — Enseignement : le huit couche, l’infini, les polarités",
+            "15–25 min — Grandes lemniscates des bras et épaules",
+            "25–35 min — Lemniscate du buste, ample puis subtile",
+            "35–45 min — Lemniscate de la tête puis intériorisation",
+            "45–55 min — Intégration et carnet",
+            "55–60 min — Clôture et retour au centre"
+        ],
+        "teaching":  {
+            "intro":  "Le huit couche, ou lemniscate, est l’un des symboles mathematiques les plus universels. Dans la pensee initiatique, il represente la circulation eternelle entre deux mondes — visible et invisible, matiere et energie, conscient et inconscient — sans jamais que l’un absorbe l’autre. Ce mouvement continu, ce passage perpetuel par le centre, est une lecon que le corps peut apprendre avant que l’esprit ne la comprenne.",
+            "sections":  [
+                {
+                    "title":  "1. La lemniscate dans la nature et les mathématiques",
+                    "content":  "La lemniscate (du latin « ruban ») fut formalisée en mathématiques au XVIIe siècle mais elle apparaît bien avant dans l’art sacré, les mandalas et les sym-boles alchimiques. On la retrouve dans les trajectoires relatives des planètes (comme Terre-Venus vues de l’extérieur du système), dans les lignes de champ magnétique bipolaires, dans la forme de certains protéines. Elle représente un principe universel : deux pôles séparés mais perpetuellement reliés par un flux circulaire."
+                },
+                {
+                    "title":  "2. Le huit et l’intégration inter-hémisphérique",
+                    "content":  "En kinésiologie éducative, le « lazy eight » (huit couche) est l’exercice de référence pour activer les connexions inter-hémisphériques via le corps calleux. Le mouvement croise la ligne médiane du corps de façon répétée, forçant les deux hémisphères à collaborer plutôt qu’à altern er. Des études auprès d’enfants dyslexiques ont montré des améliorations significatives de la lecture et de l’écriture après des séquences régulières de ce mouvement."
+                },
+                {
+                    "title":  "3. La trajectoire : comment tracer le huit avec précision",
+                    "content":  "La lemniscate commence au centre, monte vers le haut-gauche, fait un grand arc, revient au centre, monte vers le haut-droit, fait un grand arc, revient au centre. Le centre est le point crucial : on ne le traverse pas à toute vitesse, on y fait une pause imperceptible, un moment de transition. C’est là que se joue l’intégration. Avec la tête, le mouvement est minuscule mais le principe est identique. Avec le buste, on cherche une fluidité comparable à de l’eau qui s’écoule."
+                },
+                {
+                    "title":  "4. Le flux et le flow : état de créativité élargie",
+                    "content":  "Le mouvement en lemniscate, maintenu plusieurs minutes, induit un état perceptif particulier décrit par les pratiquants comme « état de flux » : la pensée devient fluide, les associations d’idées s’accélèrent, les solutions émergent spontanément, les blocages se dissolvent. Cet état correspond à ce que Csikszentmihalyi appelle le « flow ». Il peut être cultivé intentionnellement par ce type de pratique corporelle."
+                },
+                {
+                    "title":  "5. Intériorisation et lemniscate énergétique",
+                    "content":  "Au-delà du mouvement physique, on peut tracer une lemniscate dans l’espace énergétique du corps : un huit qui passe par le centre du cœur et s’étend dans les deux directions, ou un huit vertical qui relie crâne et bassin. Ces visualisations, associées à la respiration, créent un circuit énergétique interne qui amplifie les effets du mouvement physique. La lemniscate n’est pas juste une trajectoire — c’est une architecture vivante de circulation."
+                }
+            ]
+        },
+        "practice":  "Protocole balancement en huit — 45 minutes actives :\n1. Commencez debout ou assis. Étendez le bras droit, index pointé. Tracez un grand huit couché (∞) en l'air, aussi grand que possible, en commençant par le haut-gauche.\n2. Suivez votre index des yeux. Faites 5 grands huits, puis changez de main.\n3. Asseyez-vous. Commencez les huits du buste : inclinez vers le haut-gauche, tracez un arc, revenez au centre, inclinez vers le haut-droit, tracez un arc, retour. Mouvement lent et fluide.\n4. Après 10 minutes, réduisez à la tête seule : micro-lemniscates, presque imperceptibles de l'extérieur.\n5. Après 10 minutes, intériorisez : imaginez un huit énergétique passant par le cœur.\n6. Restez 10 minutes en immobilité avec cette image.\n7. Notez : état de la pensée, émergence d'idées, qualité du flux intérieur.",
         "image":  "assets/course-visuals-premium/C044-balancement-en-huit.svg",
         "pdf":  "assets/cours-pdf/C044-balancement-en-huit.pdf",
-        "tags":  [
-                     "Balancements",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C045-balancement-en-croix",
-        "number":  45,
+        "id":  "C021-balancement-en-croix",
+        "number":  21,
         "familyId":  "balancements",
         "familyTitle":  "Balancements",
         "symbol":  "↔",
         "title":  "Balancement en croix",
-        "subtitle":  "Latéral, vertical, huit, croix, rotation",
+        "subtitle":  "Les quatre directions comme ancrage dans l’espace sacré",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Balancement en croix. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Structurer tous les mouvements du Livre d’Exercices en séances complètes, avec mantra, axe et rémanence.",
-        "practice":  "Pratiquer le mouvement choisi avec lenteur, garder l’axe, associer le mantra, puis passer du grand mouvement au mouvement intérieur.",
+        "kind":  "Pratique corporelle & intégration",
+        "status":  "available",
+        "summary":  "Le balancement en croix combine les quatre axes cardinaux — haut, bas, gauche, droite — dans une séquence qui inscrit le corps au centre d’un espace orienté. Ce cours travaille l’ancrage spatial, la conscience des quatre directions et l’habitation du centre comme lieu de stabilité absolue.",
+        "shortSummary":  "Quatre directions pour ancrer le corps au centre d’un espace orienté et sacré.",
+        "longSummary":  "La croix est l’un des symboles universaux de l’humanité : elle précède toutes les religions, représentant l’intersection de l’horizontal et du vertical, du temps et de l’espace, de l’humain et du divin. Le balancement en croix utilise ce symbole comme structure de pratique : on explore successivement chaque branche de la croix (nord-sud, est-ouest) avant de trouver le repos au centre. Ce travail développe ce qu’on pourrait appeler l’intelligence spatiale énergétique : la capacité à sentir l’espace qui entoure le corps, à percevoir les qualités directionnelles et à habiter le centre de son espace comme lieu de stabilité absolue.",
+        "pedagogicalObjective":  "Intégrer les quatre axes directionnels dans une pratique de balancement et développer la conscience spatiale à 360 degrés.",
+        "initiaticObjective":  "Se placer consciemment au centre de sa croix personnelle, point d’intersection de toutes les directions, comme métaphore et expérience de la stabilité dans le mouvement.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Orientation\",      \"content\": \"Identification des quatre directions dans l’espace physique de la pièce, conscience de sa position au centre." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"La croix comme symbole universel, les quatre directions, le centre comme lieu de pouvoir." },
+            { "time": "15:00 — 25:00\",\"title\": \"Pratique latérale\", \"content\": \"Balancement droite-gauche (axe est-ouest), contact avec les énergies de chaque direction." },
+            { "time": "25:00 — 35:00\",\"title\": \"Pratique verticale\",\"content\": \"Balancement avant-arrière (axe nord-sud), contact avec les directions avant et derrière." },
+            { "time": "35:00 — 45:00\",\"title\": \"Croix complète\",   \"content\": \"Alternance des deux axes dans une séquence en croix, puis arrêt au centre." },
+            { "time": "45:00 — 55:00\",\"title\": \"Centre\",           \"content\": \"Immobilité au centre, conscience des quatre directions simultanément, carnet." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Geste de clôture des quatre directions, retour au centre, protection." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Orientation dans l’espace et conscience du centre",
+            "5–15 min — Enseignement : la croix, les quatre directions, le centre",
+            "15–25 min — Balancement latéral (est-ouest)",
+            "25–35 min — Balancement antéro-postérieur (nord-sud)",
+            "35–45 min — Séquence en croix et immobilité au centre",
+            "45–55 min — Conscience des quatre directions et carnet",
+            "55–60 min — Clôture rituelle des quatre directions"
+        ],
+        "teaching":  {
+            "intro":  "Avant le christianisme, avant l’égypte ancienne, avant les premières civilisations connues, les humains gravaient des croix sur les rochers. Ce symbole universel n’appartient à aucune religion — il est insecrit dans la structure même de l’expérience humaine. Nous vivons dans un espace à quatre dimensions directionnelles (haut, bas, gauche, droite) et nous sommes, à chaque instant, le point d’intersection de ces quatre axes. Le balancement en croix rend cette expérience consciente et habitee.",
+            "sections":  [
+                {
+                    "title":  "1. La croix comme structure universelle de l’espace",
+                    "content":  "Le corps humain debout est lui-même une croix : axe vertical de la tête aux pieds, axe horizontal des épaules. Chaque moment de conscience humaine se produit à l’intersection de ces deux axes. La croix n’est pas un symbole religieux — c’est une carte de l’espace vécu. Elle représente la façon dont un être conscient habite l’espace : centré, orienté, en relation avec les quatre directions."
+                },
+                {
+                    "title":  "2. Les qualités des quatre directions",
+                    "content":  "Chaque direction porte une qualité énergétique. Ces qualités varient selon les traditions mais un fonds commun existe : l’avant est associé au futur, à l’action, à la vision ; l’arrière au passé, à la mémoire, à la protection ; la droite à l’action, la force, le rationnel ; la gauche à la réception, la sensibilité, l’intuitif. Ces associations ne sont pas des vérités absolues — ce sont des portes d’entrée pour sentir comment vous-même habitez chaque direction."
+                },
+                {
+                    "title":  "3. Le centre comme lieu de stabilité",
+                    "content":  "Dans toutes les traditions de travail sacral, le centre est le lieu de pouvoir : ni à l’est ni à l’ouest, ni au nord ni au sud, mais au point d’intersection. Le taoïsme appelle ce centre le « vide créateur », les traditions amérindiennes le « medicine wheel » center, les traditions d’Asie centrale le « navel du monde ». C’est le point fixe autour duquel tout tourne sans être lui-même emporté. La pratique du balancement en croix vise à trouver ce centre dans le corps."
+                },
+                {
+                    "title":  "4. La séquence pratique : explorer chaque branche avant de revenir",
+                    "content":  "La séquence pratique suit un ordre rituel : on explore d’abord l’axe est-ouest (balancement latéral), puis l’axe nord-sud (balancement antéro-postérieur), puis on alterne les deux axes en une sorte de danse croisée. Chaque exploration est une « visite » à la direction correspondante : on l’acc-ueille, on sent sa qualité énergétique, on en revient enrichi. L’arrêt final au centre intègre les quatre énergies."
+                },
+                {
+                    "title":  "5. La conscience des quatre directions simultanément",
+                    "content":  "L’objectif final du balancement en croix est de développer une conscience spatiale omni-directionnelle : percevoir simultanément ce qui se passe dans les quatre directions sans tourner la tête. Cette conscience élargie est liée à un état de vigilance détendue, combin-ant alerte et calme. Elle est cultivée dans les traditions guerrières, dans la méditation zen marchee, et dans certaines formes de travail énergétique avancé."
+                }
+            ]
+        },
+        "practice":  "Protocole balancement en croix — 45 minutes actives :\n1. Assis, fermez les yeux. Identifiez les quatre directions autour de vous : devant, derrière, gauche, droite.\n2. Phase est-ouest (10 min) : balancement latéral lent. À chaque direction, demandez-vous : 'Quelle qualité d'énergie est là ?' N'analysez pas, sentez.\n3. Phase nord-sud (10 min) : balancement antéro-postérieur lent. Avant : futur, projet. Arrière : passé, mémoire.\n4. Phase croix (10 min) : alternez les deux axes. Latéral 3 fois, vertical 3 fois, latéral 3 fois... Puis immobilité au centre.\n5. Phase centre (10 min) : immobile. Conscience des quatre directions simultanément. Sentez-vous au milieu d'un espace vivant.\n6. Notez : quelle direction résiste ? Quelle direction attire ? Qu'avez-vous trouvé au centre ?",
         "image":  "assets/course-visuals-premium/C045-balancement-en-croix.svg",
         "pdf":  "assets/cours-pdf/C045-balancement-en-croix.pdf",
-        "tags":  [
-                     "Balancements",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C046-rotation-douce",
-        "number":  46,
+        "id":  "C022-rotation-douce",
+        "number":  22,
         "familyId":  "balancements",
         "familyTitle":  "Balancements",
         "symbol":  "↔",
         "title":  "Rotation douce",
-        "subtitle":  "Latéral, vertical, huit, croix, rotation",
+        "subtitle":  "Le mouvement spiralaire comme accès à la centration profonde",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Rotation douce. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Structurer tous les mouvements du Livre d’Exercices en séances complètes, avec mantra, axe et rémanence.",
-        "practice":  "Pratiquer le mouvement choisi avec lenteur, garder l’axe, associer le mantra, puis passer du grand mouvement au mouvement intérieur.",
+        "kind":  "Pratique corporelle & intégration",
+        "status":  "available",
+        "summary":  "La rotation douce — mouvement circulaire du buste ou de la tête — est l’un des outils les plus puissants pour entrer dans des états modifiés de conscience doux. Ce cours explore la rotation dans ses formes progressives, du cercle ample à la spirale intériorisée, en passant par l’immobilité post-rotatoire.",
+        "shortSummary":  "Rotation circulaire pour induire la centration profonde et l’accès aux états de conscience subtils.",
+        "longSummary":  "La rotation est l’un des mouvements les plus anciens utilisés pour modifier l’état de conscience. Les derviches tourneurs, les chamans qui tournent sur eux-mêmes, les enfants qui font des ronds dans le sable — tous utilisent ce principe fondamental. La rotation croise tous les axes en même temps, créant une stimulation vestibulaire complexe qui modifie la perception de l’espace et du temps. Ce cours explore la rotation douce (sans vertige ni accélération), travaillée comme un outil de centration : on tourne pour trouver son axe, non pour s’en éloigner. La clé est la lenteur et la conscience de l’axe central autour duquel le mouvement s’organise.",
+        "pedagogicalObjective":  "Maîtriser la technique de rotation douce (buste, tête, intériorisée) et comprendre son action sur le système vestibulaire et la perception.",
+        "initiaticObjective":  "Utiliser la rotation comme méditation sur l’axe : trouver le point fixe à l’intérieur du mouvement, la conscience immobile au cœur de ce qui tourne.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Axe\",              \"content\": \"Prise de conscience de l’axe vertical du corps comme point fixe autour duquel tout peut tourner." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"La rotation dans les traditions : derviches, chamans, cercles de danse. Système vestibulaire et perception." },
+            { "time": "15:00 — 25:00\",\"title\": \"Rotation buste\",   \"content\": \"Grands cercles du buste (assis), sens horaire puis anti-horaire, très lents, axe tenu." },
+            { "time": "25:00 — 35:00\",\"title\": \"Rotation tête\",    \"content\": \"Cercles de la tête, très lents, attention à la nuque, sans forçage." },
+            { "time": "35:00 — 45:00\",\"title\": \"Spirale intérieure\", \"content\": \"Arrêt du mouvement. Visualisation d’une spirale de lumiere remontant l’axe central." },
+            { "time": "45:00 — 55:00\",\"title\": \"Post-rotation\",    \"content\": \"Observation de la rémanence rotative, perception de l’axe encore plus nettement après arrêt." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Carnet, ancrage au sol, geste de cloture." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Prise de conscience de l’axe central",
+            "5–15 min — Enseignement : rotation, vestibulaire, traditions",
+            "15–25 min — Rotation douce du buste, horaire et anti-horaire",
+            "25–35 min — Rotation de la tête, très lente",
+            "35–45 min — Spirale intérieure et visualisation de l’axe",
+            "45–55 min — Observation de la rémanence post-rotatoire",
+            "55–60 min — Carnet et clôture"
+        ],
+        "teaching":  {
+            "intro":  "La rotation est le mouvement de la galaxie, de l’atome, de la vie elle-même. L’ADN est une double helice en rotation. Les cyclones organisent l’atmosphere. Les electrons orbitent. Quand le corps humain tourne lentement autour de son axe, il entre en resonance avec ces patterns fondamentaux. La cle n’est pas la vitesse — c’est la conscience de l’axe autour duquel le mouvement s’organise.",
+            "sections":  [
+                {
+                    "title":  "1. Le système vestibulaire : organe de la conscience spatiale",
+                    "content":  "Le système vestibulaire, logé dans l’oreille interne, est l’organe de l’équilibre et de la perception du mouvement. Il est également étroitement connecté au système limbique (centre des émotions) et à certains centres de vigilance du tronc cérébral. Une stimulation vestibulaire douce et rhythmique peut modifier l’état émotionnel, réduire l’anxieté et induire des états de conscience élargie. La rotation douce utilise ce principe sans vertige, en restant en-dessous du seuil de déconfort."
+                },
+                {
+                    "title":  "2. Les traditions de rotation : de Rumi aux chamans",
+                    "content":  "Les derviches tourneurs de l’ordre Mevlevi, fondé par Rumi au XIIIe siècle, tournent pendant des heures à des vitesses croissantes. Mais le principe n’est pas la vitesse — c’est la présence à l’axe. Chaque derviche tient une main vers le ciel et une vers la terre, tournant comme une antenne vivante. Dans les traditions chamaniques siberiennes et amérindiennes, la rotation est utilisée pour entrer dans un état de trance douce, un seuil entre les mondes. Notre pratique en emprunte la logique sans en copier la forme."
+                },
+                {
+                    "title":  "3. Horaire et anti-horaire : deux qualités de rotation",
+                    "content":  "La rotation dans le sens horaire et dans le sens anti-horaire ont des effets différents. En physiologie, les deux sens stimulent le système vestibulaire de façon asymétrique. Dans la tradition énergétique, la rotation horaire est souvent associée à l’envoi, l’émission, l’action ; la rotation anti-horaire à la réception, la dissolution, le relâchement. On explore les deux en observant sans préjugé quelle différence effective vous percevez."
+                },
+                {
+                    "title":  "4. Trouver l’axe : le point fixe dans le mouvement",
+                    "content":  "La rotation douce n’est pas une dissolution de l’axe — c’est une révélation de l’axe. Plus on tourne lentement et consciemment, plus on sent ce fil d’or vertical autour duquel tout s’organise. Le pratiquant expérimenté peut tourner en gardant le sentiment d’être parfaitement immobile à son centre, comme si le monde tournait autour de lui plutôt que lui autour du monde. C’est cette expérience paradoxale que ce cours cultive."
+                },
+                {
+                    "title":  "5. La rémanence post-rotatoire et la perception de l’axe",
+                    "content":  "Après l’arrêt de la rotation, le système vestibulaire continue d’enregistrer un mouvement fantome pendant quelques secondes à quelques minutes. Ce phénomène, normalement source de vertige, devient, avec la pratique, une source d’information : dans cet état post-rotationnel, la perception de l’axe central devient plus nette qu’en temps ordinaire. On apprend à utiliser cette fenêtre pour sentir l’axe avec une précision inhabituelles."
+                }
+            ]
+        },
+        "practice":  "Protocole rotation douce — 45 minutes actives :\n1. Assis, colonne verticale. Fermez les yeux. Sentez l'axe vertical de votre corps comme un fil de lumière.\n2. Commencez des cercles du buste : très lents, très doux, comme dessiner un cercle de 20 cm avec le sommet de votre tête. Sens horaire d'abord.\n3. Après 3 minutes, sens anti-horaire. Observez la différence.\n4. Réduisez progressivement le rayon du cercle. Plus petit, plus petit, jusqu'à un cercle imperceptible.\n5. Après 10 minutes, même chose avec la tête seule : cercles très lents, attention aux tensions dans la nuque.\n6. Arrêt complet. Observez la rémanence : sensation de continuation du mouvement. Cherchez l'axe dans cet espace.\n7. Visualisez une spirale de lumière remontant l'axe de la base du crâne vers le sommet.\n8. 10 minutes d'immobilité. Notez : qualité de l'axe ressenti, différence horaire/anti-horaire, rémanence.",
         "image":  "assets/course-visuals-premium/C046-rotation-douce.svg",
         "pdf":  "assets/cours-pdf/C046-rotation-douce.pdf",
-        "tags":  [
-                     "Balancements",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C047-fer-a-cheval-et-perception-arriere",
-        "number":  47,
+        "id":  "C023-fer-a-cheval-et-perception-arriere",
+        "number":  23,
         "familyId":  "balancements",
         "familyTitle":  "Balancements",
         "symbol":  "↔",
         "title":  "Fer à cheval et perception arrière",
-        "subtitle":  "Latéral, vertical, huit, croix, rotation",
+        "subtitle":  "Ouvrir le champ dorsal pour une conscience spatiale complète",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Fer à cheval et perception arrière. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Structurer tous les mouvements du Livre d’Exercices en séances complètes, avec mantra, axe et rémanence.",
-        "practice":  "Pratiquer le mouvement choisi avec lenteur, garder l’axe, associer le mantra, puis passer du grand mouvement au mouvement intérieur.",
+        "kind":  "Pratique corporelle & intégration",
+        "status":  "available",
+        "summary":  "Le balancement en fer à cheval est un mouvement semi-circulaire qui tourne autour d’un axe central, ouvrant progressivement la conscience vers le champ arrière du corps. Ce cours développe la perception dorsale et la conscience à 360 degrés, fondamentales pour la clairvoyance spatiale.",
+        "shortSummary":  "Mouvement semi-circulaire pour développer la perception dorsale et la conscience à 360 degrés.",
+        "longSummary":  "Le fer à cheval est une trajectoire semi-circulaire : on commence d’un côté, on passe par l’arrière et on arrive de l’autre côté, ou on va-et-vient de gauche à droite en passant systématiquement par l’arrière. Ce mouvement force l’attention à traverser le champ dorsal, zone habituellement aveugle. Avec la pratique, le fer à cheval développe ce qu’on pourrait appeler la « vision arrière » — non pas une visi-on littérale, mais une sensitivité accrue à ce qui se passe dans l’espace derrière soi. Cette capacité est fondamentale pour une conscience spatiale complète et pour les pratiques de clairvoyance.",
+        "pedagogicalObjective":  "Maîtriser la trajectoire en fer à cheval et développer la sensitivité perceptive du champ arrière.",
+        "initiaticObjective":  "Développer une conscience à 360 degrés qui permet de percevoir l’espace complet autour de soi, ouvrant la voie aux pratiques de perception à distance.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Champ aveugle\",   \"content\": \"Prise de conscience du champ arrière : qu’y a-t-il derrière vous en ce moment ? Que sentez-vous là ?" },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"La conscience dorsale, la « vision arrière », le champ énergétique dorsal." },
+            { "time": "15:00 — 25:00\",\"title\": \"Fer à cheval buste\",\"content\": \"Balancement en fer à cheval du buste : gauche → arrière → droite, lentement, attention à la phase arrière." },
+            { "time": "25:00 — 35:00\",\"title\": \"Fer à cheval tête\", \"content\": \"Même trajectoire avec la tête seule, attention aux zones de tension, ouverture de la nuque." },
+            { "time": "35:00 — 45:00\",\"title\": \"Intériorisation\",  \"content\": \"Arrêt du mouvement, extension de la conscience vers le champ arrière en immobilité." },
+            { "time": "45:00 — 55:00\",\"title\": \"Perception à 360°\",\"content\": \"Exercice de conscience omni-directionnelle, perception de l’espace complet, carnet." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Protection du champ dorsal, geste de clôture, retour." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Prise de conscience du champ arrière",
+            "5–15 min — Enseignement : conscience dorsale et vision arrière",
+            "15–25 min — Balancement en fer à cheval du buste",
+            "25–35 min — Fer à cheval de la tête",
+            "35–45 min — Intériorisation et extension vers le champ dorsal",
+            "45–55 min — Exercice de conscience à 360 degrés et carnet",
+            "55–60 min — Protection du champ dorsal et clôture"
+        ],
+        "teaching":  {
+            "intro":  "Il existe des personnes qui 'sentent' quand quelqu'un entre dans une pièce derriere elles, avant tout signal sonore ou visuel. Cette sensitivité dorsale n’est pas mysterieuse — elle est une capacite humaine normale qui s’atrophie par manque d’utilisation. Dans un monde ou tout est devant (ecrans, visages, routes), le champ arriere devient une zone morte. Ce cours propose de le reveiller.",
+            "sections":  [
+                {
+                    "title":  "1. Pourquoi le champ dorsal est-il aveugle ?",
+                    "content":  "La raison évolutive est simple : nos organes sensoriels principaux (yeux, oreilles, nez, bouche) sont tous orientés vers l’avant. Pendant des millénaires, le danger venait souvent de l’avant — proies à chasser, prédateurs à éviter. Mais le monde énergétique n’est pas uni-directionnel. Un champ de conscience complèt doit couvrir 360 degrés. La négligence du champ arrière crée une vulnérabilité énergétique : ce qu’on ne perçoit pas ne peut être ni évalué ni intégré."
+                },
+                {
+                    "title":  "2. La trajectoire en fer à cheval",
+                    "content":  "Le fer à cheval décrit une demi-ellipse : depuis la position centrale-droite, le mouvement part vers la droite, passe par l’arrière (point le plus éloigné de l’avant), arrive à la position centrale-gauche, puis revient par le même chemin. Le passage par l’arrière est la phase clé : c’est là que l’attention est invitée à se poser dans le champ dorsal. On ne force pas — on invite. La nuque doit rester détendue pendant toute la phase arrière."
+                },
+                {
+                    "title":  "3. La sensitivité dorsale : une capacité entraîneable",
+                    "content":  "Des recherches en perception extra-sensorielle montrent que la sensitivité à des stimuli derrière soi (« être regardé dans le dos ») est réelle et mesurable au-dessus du hasard. Des expériences contrôlées ont montré que des sujets pouvaient détecter à un taux significatif si quelqu’un les regardait dans le dos ou non. Cette capacité semble liée à la sensitivité générale du système nerveux autonome et peut être développée par l’attention régulière au champ dorsal."
+                },
+                {
+                    "title":  "4. Le champ énergétique dorsal",
+                    "content":  "Dans les traditions énergétiques, le dos est associé à la protection, aux ancêtres, aux guides, à l’invisible. À l’opposé du visage tournié vers le monde visible, le dos est tourné vers les mondes non-visibles. Certains pra-ticiens entraînés décrivent une perception distincte de leur champ dorsal comme un espace de réception particulière, un lieu où les impressions subtiles arrivent avant d’être traitées par le mental analytique."
+                },
+                {
+                    "title":  "5. Vers une conscience à 360 degrés",
+                    "content":  "La pratique régulière du fer à cheval mène progressivement à une étape remarquable : la capacité de percevoir l’espace complet autour de soi sans tourner la tête. Ce n’est pas de la voyance — c’est une sensitivité accrue aux micro-signaux qui existent déjà dans notre environnement mais que nous n’avons pas appris à lire. Pression de l’air, variation de température, infra-sons, perturbations électro-magnétiques, tout cela arrive par l’arrière autant que par l’avant."
+                }
+            ]
+        },
+        "practice":  "Protocole fer à cheval — 45 minutes actives :\n1. Assis. Fermez les yeux. Demandez-vous : 'Que se passe-t-il dans l'espace derrière moi ?' Notez votre première réponse spontanée.\n2. Commencez le fer à cheval du buste : inclinez vers la droite, glissez vers l'arrière (passez par la position 'penchée en arrière'), glissez vers la gauche. Très lentement.\n3. Pendant la phase arrière, portez toute votre attention au champ dorsal. Que sentez-vous là ?\n4. Après 10 minutes, même chose avec la tête seule. Nuque détendue, pas de forçage.\n5. Arrêt complet. En immobilité, étendez consciemment votre attention vers l'arrière. Imaginez que vous avez des 'yeux dans le dos'.\n6. Restez 10 minutes avec cette attention dorsale élargie.\n7. Exercice de clôture : sentez simultanément l'avant et l'arrière. Puis l'espace complet autour de vous.\n8. Notez : qu'avez-vous perçu dans le dos ? Différence avant/après ?",
         "image":  "assets/course-visuals-premium/C047-fer-a-cheval-et-perception-arriere.svg",
         "pdf":  "assets/cours-pdf/C047-fer-a-cheval-et-perception-arriere.pdf",
-        "tags":  [
-                     "Balancements",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C048-seance-combinee-de-balancements",
-        "number":  48,
+        "id":  "C024-seance-combinee-de-balancements",
+        "number":  24,
         "familyId":  "balancements",
         "familyTitle":  "Balancements",
         "symbol":  "↔",
         "title":  "Séance combinée de balancements",
-        "subtitle":  "Latéral, vertical, huit, croix, rotation",
+        "subtitle":  "Intégration de tous les mouvements en une pratique fluide",
         "duration":  "1 h",
-        "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Séance combinée de balancements. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Structurer tous les mouvements du Livre d’Exercices en séances complètes, avec mantra, axe et rémanence.",
-        "practice":  "Pratiquer le mouvement choisi avec lenteur, garder l’axe, associer le mantra, puis passer du grand mouvement au mouvement intérieur.",
+        "durationMin":  60,
+        "level":  "Avancé",
+        "kind":  "Séance intégrative & libre",
+        "status":  "available",
+        "summary":  "La séance combinée intègre tous les balancements étudiés dans la famille — latéral, vertical, antéro-postérieur, huit, croix, rotation, fer à cheval — dans une séquence fluide guidée par l’intuition du pratiquant. Ce cours est la clôture de la famille et ouvre la porte à la pratique autonome.",
+        "shortSummary":  "Séance intégrative qui combine tous les balancements en une pratique fluide guidée par l’intuition.",
+        "longSummary":  "Après sept cours d’exploration des différentes formes de balancement, ce cours de clôture propose une séquence libre : le pratiquant est guidé dans une pratique où il combine les mouvements selon son ressenti du moment. On apprend ainsi à écouter le corps et à laisser le mouvement émerger plutôt qu’à l’exécuter mécaniquement. La séance combine les phases clatées (exploration de chaque axe), les phases synthèse (combinaisons), les phases de transition (reduction progressive vers l’intériorisation) et la phase de repos (rémanence, carnet). C’est aussi un cours sur l’autonomisation : désormais, le pratiquant sait construire ses propres séances.",
+        "pedagogicalObjective":  "Savoir construire une séance combinée de balancements autonome, en choisissant et enchanânant les mouvements selon les besoins du moment.",
+        "initiaticObjective":  "Laisser le corps choisir son propre langage de mouvement : devenir élève de sa propre intelligence corporelle plutôt que simple exécutant de protocoles.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Écoute initiale\",  \"content\": \"Évaluation du corps en ce moment : quel axe manque ? Quelle direction est tendue ? Quelle qualité est présente ?" },
+            { "time": "5:00 — 15:00\", \"title\": \"Exploration libre\",  \"content\": \"Laisser émerger le premier mouvement. Suivre le corps. Passer d’un balancement à l’autre selon le besoin." },
+            { "time": "15:00 — 30:00\",\"title\": \"Séquence guidée\",  \"content\": \"Guide audio : latéral → vertical → antéro-postérieur → huit → croix → rotation → fer à cheval. 2 min chacun." },
+            { "time": "30:00 — 40:00\",\"title\": \"Synthèse libre\",    \"content\": \"Combinaison libre : enchanâner deux ou trois mouvements qui se répondent. Laisser les transitions émerger." },
+            { "time": "40:00 — 50:00\",\"title\": \"Réduction\",        \"content\": \"Réduire progressivement tous les mouvements, de l’ample vers le subtil, vers l’intériorisé, vers l’immobilité." },
+            { "time": "50:00 — 57:00\",\"title\": \"Rémanence\",        \"content\": \"Immobilité totale. Observer la rémanence de tous les mouvements. Quel axe persiste le plus ?" },
+            { "time": "57:00 — 60:00\",\"title\": \"Clôture de famille\",\"content\": \"Carnet, phrase essentielle de la famille Balancements, geste de clôture de cycle." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Écoute initiale du corps et évaluation des besoins",
+            "5–15 min — Exploration libre, premier mouvement émergent",
+            "15–30 min — Séquence guidée de tous les balancements (2 min chacun)",
+            "30–40 min — Combinaisons libres et transitions fluides",
+            "40–50 min — Réduction progressive vers l’intériorisation",
+            "50–57 min — Immobilité et observation de la rémanence",
+            "57–60 min — Carnet et clôture de la famille Balancements"
+        ],
+        "teaching":  {
+            "intro":  "Le vrai apprentissage d’une discipline n’est pas de maîtriser des protocoles — c’est d’internaliser ses principes au point où les protocoles ne sont plus nécessaires. Ce cours de clôture marque ce seuil : vous avez exploré sept formes de balancement, vous en connaissez les effets, les qualités, les nuances. Désormais, votre corps sait ce dont il a besoin. Il s’agit d’apprendre à l’écouter.",
+            "sections":  [
+                {
+                    "title":  "1. L’intelligence du corps : avant le protocole",
+                    "content":  "Le corps humain a une intelligence propre qui précède toute pensée consciente. Il sait quand il est froid avant que l’esprit ne le remarque. Il sait quand une personne est bienveillante ou menaçante avant que la pensée ne l’ait analysée. Cette même intelligence sait, dans une séance de balancement, quel mouvement est nécessaire à ce moment précis. La pratique avancée consiste à apprendre à lire cette intelligence plutôt qu’à l’écraser sous des protocoles."
+                },
+                {
+                    "title":  "2. Comment écouter le corps avant de commencer",
+                    "content":  "Avant la séance, on prend trois minutes pour scanner le corps avec neutralité : où est la tension ? Où est la fluidité ? Quel axe semble bloqué, rigide, absent ? Un pratiquant bien formé peut sentir, par exemple, que son axe latéral est présent mais son axe vertical absent ce jour-là, et choisir de commencer par les balancements verticaux pour rééquilibrer. Cette lecture préliminaire est en soi un acte de conscience."
+                },
+                {
+                    "title":  "3. Les transitions : l’art du passage entre les mouvements",
+                    "content":  "Dans une séance combinée, les transitions entre les mouvements sont aussi importantes que les mouvements eux-mêmes. Une transition forcée — passer brusquement du latéral au vertical sans moment intermédiaire — rompt la continuité perceptive. Une transition fluide laisse le mouvement se dissoudre naturellement avant qu’un nouveau n’émerge. Ces moments de flottement entre deux mouvements sont particulièrement précieux pour la perception subtile."
+                },
+                {
+                    "title":  "4. La réduction progressive : du grand vers l’invisible",
+                    "content":  "L’une des techniques les plus importantes de la famille Balancements est la réduction progressive : partir d’un mouvement ample et visible, puis le réduire graduellement — moins d’amplitude, moins de vitesse, moins de distance — jusqu’à ce qu’il soit invisible de l’extérieur mais toujours présent à l’intérieur. Cette réduction est une technique de transition vers l’état méditatif : le mouvement devient son propre objet de méditation."
+                },
+                {
+                    "title":  "5. La clôture de cycle : qu’avez-vous appris ?",
+                    "content":  "La séance combinée est aussi une clôture de la famille Balancements. On prend le temps, dans le carnet, de répondre à quelques questions essentielles : Quel balancement a eu le plus d’effet sur moi ? Lequel ai-je trouvé difficile ou inconfortable ? Quelle qualité nouvelle ai-je développée ? Qu’est-ce que les balancements m’ont appris sur ma relation à l’espace, au temps, à mon corps ? Ces réponses sont la matière première de la pratique autonome."
+                }
+            ]
+        },
+        "practice":  "Protocole séance combinée — 55 minutes actives :\n\nPHASE 1 - Écoute (5 min) : Fermez les yeux. Scanner le corps. Où est la tension ? Quel axe manque ?\n\nPHASE 2 - Exploration libre (10 min) : Laissez émerger le mouvement qui se propose spontanément. Ne choisissez pas — écoutez. Suivez-le jusqu'à ce qu'il se modifie naturellement.\n\nPHASE 3 - Séquence guidée (14 min) : Parcourez chaque balancement 2 minutes dans cet ordre : latéral → vertical → antéro-postérieur → huit → croix → rotation → fer à cheval.\n\nPHASE 4 - Combinaisons libres (10 min) : Combinez deux ou trois mouvements qui se répondent. Laissez les transitions se faire naturellement.\n\nPHASE 5 - Réduction (10 min) : Réduisez progressivement tous les mouvements vers l'imperceptible, puis vers l'intérieur.\n\nPHASE 6 - Rémanence (7 min) : Immobilité totale. Observez ce qui continue.\n\nPHASE 7 - Carnet (3 min) : Notez la phrase essentielle de cette famille pour vous.",
         "image":  "assets/course-visuals-premium/C048-seance-combinee-de-balancements.svg",
         "pdf":  "assets/cours-pdf/C048-seance-combinee-de-balancements.pdf",
-        "tags":  [
-                     "Balancements",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Avancé"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
-    {
+
+        {
         "id":  "C049-yoga-du-temple-vivant",
         "number":  49,
         "familyId":  "souffle",
-        "familyTitle":  "Yoga, souffle \u0026 mantras",
-        "symbol":  "ॐ",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
         "title":  "Yoga du temple vivant",
-        "subtitle":  "Respiration, posture, vibration",
+        "subtitle":  "Le corps comme espace sacré de la respiration",
         "duration":  "1 h",
-        "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Yoga du temple vivant. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Assembler respiration, yoga statique, mantra, présence corporelle et séquences d’intégration.",
-        "practice":  "Entrer par le souffle naturel, installer le rythme respiratoire, ajouter le mantra ou la posture, puis clore par une minute d’écoute corporelle.",
+        "durationMin":  60,
+        "level":  "Fondation",
+        "kind":  "Enseignement & pratique corporelle",
+        "status":  "available",
+        "summary":  "Le premier cours de la famille Souffle pose les fondements : le corps humain est un temple vivant parcouru par le souffle. Ce cours présente l'architecture respiratoire du corps — voies, diaphragme, espaces — et établit la posture juste comme condition première de la pratique.",
+        "shortSummary":  "Le corps comme espace sacré : architecture respiratoire et posture juste pour la pratique du souffle.",
+        "longSummary":  "Toutes les traditions spirituelles font du souffle leur porte d'entrée. Le Grec ancien pneuma, le Sanskrit prana, le Chinois qi, l'Hébreu ruach — tous désignent à la fois le souffle physique et la force vivante qu'il transporte. Ce cours ne présente pas une technique de plus parmi d'autres : il établit le cadre fondamental dans lequel toutes les techniques respiratoires trouvent leur sens. Le corps est un temple — pas métaphoriquement, mais architecturalement. Il possède des chambres (poumons, sinus, nez), des colonnes (vertèbres), un plancher (périnée), un plafond (diaphragme thoracique), des fenêtres (narines). Comprendre cette architecture, c'est comprendre pourquoi certaines postures favorisent la respiration profonde et d'autres l'empêchent.",
+        "pedagogicalObjective":  "Identifier l'architecture respiratoire du corps (voies aériennes, trois étages de la respiration, diaphragme) et établir la posture juste pour toutes les pratiques de la famille Souffle.",
+        "initiaticObjective":  "Habiter le corps comme un espace sacré — non comme un objet à gérer mais comme un lieu vivant à écouter, dont le souffle est la voix la plus constante.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Conscience du souffle\", \"content\": \"Observation du souffle spontané : rythme, profondeur, lieu d'arrivée, qualité. Sans modifier." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Architecture respiratoire : nez, gorge, arbre bronchique, trois étages (abdominal, thoracique, claviculaire), diaphragme." },
+            { "time": "15:00 — 25:00\",\"title\": \"Posture\",           \"content\": \"Établissement de la posture juste : colonne, tête, épaules, mains. Différences assis/couché/debout." },
+            { "time": "25:00 — 40:00\",\"title\": \"Respiration complète\", \"content\": \"Pratique de la respiration complète en trois étages, lente, sans forçage. Association à la conscience du corps." },
+            { "time": "40:00 — 50:00\",\"title\": \"Temple vivant\",     \"content\": \"Visualisation du corps comme espace architectural : identifier les chambres, les colonnes, le souffle comme habitant." },
+            { "time": "50:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"Observations sur le souffle naturel, zones de résistance, qualité de présence." },
+            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Trois respirations conscientes de gratitude pour le corps." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Observation du souffle naturel sans modification",
+            "5–15 min — Enseignement : architecture respiratoire du corps",
+            "15–25 min — Établissement de la posture juste",
+            "25–40 min — Pratique de la respiration complète en trois étages",
+            "40–50 min — Visualisation du corps comme temple vivant",
+            "50–57 min — Carnet d'observation",
+            "57–60 min — Clôture"
+        ],
+        "teaching":  {
+            "intro":  "Avant toute technique respiratoire, il y a le souffle. Ce souffle que vous n'avez jamais demandé mais qui ne vous a jamais quitté depuis votre premier cri. Il était là avant votre premiere pensée, il sera là après la derniere. Dans toutes les traditions, le souffle est considéré comme le lien le plus direct entre le conscient et l'inconscient, entre la volonté et l'automatisme, entre le physique et l'énergétique. Ce cours commence là — par écouter ce qui est déjà là.",
+            "sections":  [
+                {
+                    "title":  "1. L'architecture respiratoire : le temple a des chambres",
+                    "content":  "Le corps est architecturalement conçu pour le souffle. Les narines filtrent, réchauffent et humidifient l'air. Les sinus amplifient les résonances. La gorge module le son. L'arbre bronchique distribue jusqu'aux alvéoles les plus profondes. Et le diaphragme — ce muscle en dôme qui sépare thorax et abdomen — est le chef d'orchestre de tout le mouvement respiratoire. Comprendre ces espaces, c'est commencer à les habiter consciemment."
+                },
+                {
+                    "title":  "2. Les trois étages de la respiration",
+                    "content":  "La respiration complète utilise trois étages. Le premier est l'étage abdominal : le diaphragme descend, le ventre sort, les lobes inférieurs des poumons se remplissent. Le deuxième est l'étage thoracique : la cage thoracique s'élargit latéralement, les lobes moyens se remplissent. Le troisième est l'étage claviculaire : les clavicules s'élèvent légèrement, les apex pulmonaires reçoivent l'air. La plupart des adultes respirent seulement avec les étages supérieurs — la respiration abdominale profonde est perdue ou inhibée."
+                },
+                {
+                    "title":  "3. Le diaphragme : muscle de la vie et de l'émotion",
+                    "content":  "Le diaphragme est le seul muscle strié (volontaire) qui soit aussi automatique. On peut le contrôler — on peut retenir son souffle — mais on ne peut pas l'arrêter définitivement. Plus remarquable : le diaphragme est directement connecté au système émotionnel. Peur, choc, stress — tout se marque dans le diaphragme par une contraction, un durcissement. L'anxiété chronique rigidifie le diaphragme, ce qui bloque la respiration abdominale et entretient l'état d'alerte. Libérer le diaphragme, c'est libérer l'émotion qui s'y est cristallisée."
+                },
+                {
+                    "title":  "4. La posture juste : condition première",
+                    "content":  "La posture conditionne la respiration. Une colonne vertébrale courbée vers l'avant (position devant un écran) comprime la cage thoracique et réduit la capacité pulmonaire de 30 à 40%. Une posture droite, avec la courbe lombaire naturelle, libère le diaphragme et permet la respiration complète. La tête légèrement reculée (menton ni baissé ni levé) ouvre le passage naso-pharyngé. Ce n'est pas une posture militaire — c'est une verticalité détendue, comme un arbre bien enraciné."
+                },
+                {
+                    "title":  "5. Le souffle comme voix du corps",
+                    "content":  "Observer son souffle sans le modifier est l'un des actes contemplatifs les plus difficiles et les plus révélateurs. Le souffle raconte l'état interne : rapide et superficiel (stress, anxiété), lent et profond (repos, méditation), bloqué et irrégulier (tension émotionnelle refoulée), ample et fluide (joie, ouverture). Avant d'apprendre à modifier le souffle, il faut apprendre à le lire. C'est ce que ce cours inaugure."
+                }
+            ]
+        },
+        "practice":  "Protocole yoga du temple vivant — 30 minutes actives :\n1. Asseyez-vous confortablement. Fermez les yeux. Observez votre souffle spontané pendant 3 minutes. Ne modifiez rien. Notez mentalement : rythme, lieu d'arrivée, profondeur.\n2. Posture : allongez doucement la colonne. Reculez légèrement la tête. Relâchez les épaules. Posez les mains sur les cuisses.\n3. Respiration complète (10 min) : inspirez en 3 temps — d'abord le ventre gonfle, puis la cage thoracique s'élargit, puis les clavicules s'élèvent légèrement. Expirez en sens inverse. Très lentement.\n4. Visualisation (10 min) : imaginez votre corps comme un temple de pierre. Identifiez les chambres (poumons), les colonnes (vertèbres), le plancher (périnée). Le souffle est l'habitant qui parcourt tous ces espaces.\n5. Retour au souffle naturel. Observez s'il a changé.\n6. Notez : qu'avez-vous découvert sur votre souffle ?",
         "image":  "assets/course-visuals-premium/C049-yoga-du-temple-vivant.svg",
         "pdf":  "assets/cours-pdf/C049-yoga-du-temple-vivant.pdf",
-        "tags":  [
-                     "Yoga, souffle \u0026 mantras",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Fondation"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C050-postures-statiques-et-axe",
         "number":  50,
         "familyId":  "souffle",
-        "familyTitle":  "Yoga, souffle \u0026 mantras",
-        "symbol":  "ॐ",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
         "title":  "Postures statiques et axe",
-        "subtitle":  "Respiration, posture, vibration",
+        "subtitle":  "Tenir la posture comme acte de conscience",
         "duration":  "1 h",
-        "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Postures statiques et axe. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Assembler respiration, yoga statique, mantra, présence corporelle et séquences d’intégration.",
-        "practice":  "Entrer par le souffle naturel, installer le rythme respiratoire, ajouter le mantra ou la posture, puis clore par une minute d’écoute corporelle.",
+        "durationMin":  60,
+        "level":  "Fondation",
+        "kind":  "Pratique corporelle & méditation",
+        "status":  "available",
+        "summary":  "Tenir une posture statique en pleine conscience est une pratique à part entière. Ce cours explore plusieurs postures simples (assis, agenouillé, debout) et enseigne comment maintenir l'axe, détendre le superflu et observer ce qui se passe dans le corps immobile.",
+        "shortSummary":  "Les postures statiques comme pratique de présence : tenir l'axe, détendre le superflu, observer.",
+        "longSummary":  "Dans les traditions contemplatives, la posture n'est pas un préalable à la méditation — elle est déjà méditation. Tenir un corps immobile en conscience demande une qualité d'attention particulière : on doit simultanément maintenir la structure (axe, équilibre), relâcher le tension inutile, observer ce qui se passe dans le corps, et rester présent sans tomber dans l'assoupissement. Ce cours explore trois postures statiques fondamentales — la posture assise (au sol ou sur chaise), la posture agenouillée (seiza) et la posture debout (zhan zhuang) — en insistant sur la notion d'axe vertical comme fil conducteur de la conscience.",
+        "pedagogicalObjective":  "Maîtriser trois postures statiques fondamentales et comprendre comment l'immobilité consciente devient une pratique de centration et de développement de la présence.",
+        "initiaticObjective":  "Découvrir que l'immobilité n'est pas l'absence de mouvement mais sa forme la plus concentrée — que dans la posture tenue avec conscience, tout se révèle.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Choix de posture\",  \"content\": \"Présentation des trois options : assis, agenouillé, debout. Chacun choisit selon son confort." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Pourquoi tenir une posture ? L'axe comme fil de conscience. Différence entre tension utile et tension parasite." },
+            { "time": "15:00 — 30:00\",\"title\": \"Posture assise\",   \"content\": \"15 minutes de posture assise consciente. Scan du corps toutes les 3 minutes : où est la tension inutile ?" },
+            { "time": "30:00 — 40:00\",\"title\": \"Transition et debout\",\"content\": \"Passage en posture debout (zhan zhuang). 10 minutes de tenue consciente." },
+            { "time": "40:00 — 50:00\",\"title\": \"Immobilité profonde\",\"content\": \"Retour à la posture de son choix. Laisser s'installer l'immobilité complète. Observer sans analyser." },
+            { "time": "50:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"Quelles tensions ont émergé ? Où le corps résiste-t-il l'immobilité ?" },
+            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Trois mouvements de relâchement, retour au mouvement naturel." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Présentation et choix des postures",
+            "5–15 min — Enseignement : axe, tension utile vs parasite",
+            "15–30 min — Posture assise consciente avec scan du corps",
+            "30–40 min — Posture debout (zhan zhuang)",
+            "40–50 min — Immobilité profonde choisie",
+            "50–57 min — Carnet d'observation",
+            "57–60 min — Relâchement et clôture"
+        ],
+        "teaching":  {
+            "intro":  "Savoir rester immobile est devenu une compétence rare. Non pas l'immobilité de la fatigue ou de l'ennui, mais l'immobilité active de celui qui tient son corps en éveil tout en le laissant se calmer. C'est une contradiction apparente que la pratique résout : être vivant et quiete en même temps. Les traditions asiatiques ont développé cela à un niveau remarquable — la posture zazen, le zhan zhuang, le yin yoga. Ce cours en explore les principes fondamentaux.",
+            "sections":  [
+                {
+                    "title":  "1. L'axe comme fil de conscience",
+                    "content":  "L'axe vertical n'est pas seulement une réalité physique (la colonne vertébrale) — c'est un fil de conscience. Quand on perd l'axe dans la posture, on perd aussi la clarté mentale. Quand on retrouve l'axe, l'attention se recentre naturellement. Le travail avec la posture statique est donc directement un travail sur la qualité de la conscience : tenir son axe, c'est tenir son attention."
+                },
+                {
+                    "title":  "2. Tension utile et tension parasite",
+                    "content":  "Toute posture nécessite un minimum de tonus musculaire — c'est la tension utile. Mais la plupart des corps tiennent aussi une grande quantité de tension parasite : des muscles contractés qui n'ont aucune utilité fonctionnelle dans la posture, vestiges du stress accumulé. Le scan corporel régulier — passer mentalement chaque partie du corps en revue — permet d'identifier et de relâcher progressivement ces tensions superflues. La posture devient de plus en plus légère sans perdre son intégrité."
+                },
+                {
+                    "title":  "3. Le zhan zhuang : tenir debout comme un arbre",
+                    "content":  "Le zhan zhuang (littéralement « tenir le piquet ») est une pratique centrale des arts martiaux internes chinois. On se tient debout, genoux légèrement fléchis, bras arrondis comme si on tenait un grand ballon invisible. Cette posture développe le sung — un état de relâchement actif où le corps est détendu mais vivant, souple mais pas affaissé. Dix minutes de zhan zhuang conscient développent une qualité de présence remarquable."
+                },
+                {
+                    "title":  "4. L'inconfort comme information",
+                    "content":  "Tenir une posture statique révèle les zones de résistance du corps. La douleur d'inconfort (différente de la douleur lésionnelle) est une information précieuse : elle indique où le corps stocke de la tension chronique, où la circulation est entravée, où l'émotion est figée dans la chair. On n'ignore pas cet inconfort — on l'observe avec curiosité, sans le dramatiser ni le fuir. Souvent, rester présent à une zone d'inconfort suffit pour que celle-ci se libère progressivement."
+                },
+                {
+                    "title":  "5. Quand l'immobilité devient méditation",
+                    "content":  "Après 20 à 30 minutes de posture consciente, quelque chose se transforme : le dialogue intérieur ralentit, la perception s'affine, le sens du temps change. Ce n'est pas l'effet d'une technique — c'est le résultat naturel de l'immobilité soutenue. Le système nerveux commence à traiter différemment les signaux, l'état de vigilance détendue s'installe. C'est le seuil où la posture physique devient méditation vivante."
+                }
+            ]
+        },
+        "practice":  "Protocole postures statiques — 45 minutes actives :\n1. Choisissez votre posture : assis au sol, sur une chaise, ou debout. Assurez-vous d'être stable et confortable.\n2. Fermez les yeux. Sentez l'axe vertical. Imaginez un fil qui tire doucement le sommet du crâne vers le haut.\n3. Scan initial (3 min) : où est la tension inutile ? Dans les épaules ? La mâchoire ? Le ventre ? Relâchez progressivement.\n4. Tenez la posture 15 minutes. Toutes les 3 minutes, faites un scan rapide : qu'est-ce qui peut être relâché sans que la posture s'effondre ?\n5. Zhan zhuang debout (10 min) : genoux légèrement fléchis, bras arrondis. Sentez le poids s'ancrer vers le bas, la légèreté vers le haut.\n6. Retour à votre posture choisie. Laissez l'immobilité s'installer complètement. N'analysez pas — observez.\n7. Notez : où résidait la tension ? Qu'est-il arrivé après 20 minutes ?",
         "image":  "assets/course-visuals-premium/C050-postures-statiques-et-axe.svg",
         "pdf":  "assets/cours-pdf/C050-postures-statiques-et-axe.pdf",
-        "tags":  [
-                     "Yoga, souffle \u0026 mantras",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Fondation"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C051-respiration-naturelle",
         "number":  51,
         "familyId":  "souffle",
-        "familyTitle":  "Yoga, souffle \u0026 mantras",
-        "symbol":  "ॐ",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
         "title":  "Respiration naturelle",
-        "subtitle":  "Respiration, posture, vibration",
+        "subtitle":  "Retrouver le souffle originel avant toute technique",
         "duration":  "1 h",
-        "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Respiration naturelle. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Assembler respiration, yoga statique, mantra, présence corporelle et séquences d’intégration.",
-        "practice":  "Entrer par le souffle naturel, installer le rythme respiratoire, ajouter le mantra ou la posture, puis clore par une minute d’écoute corporelle.",
+        "durationMin":  60,
+        "level":  "Fondation",
+        "kind":  "Pratique contemplative",
+        "status":  "available",
+        "summary":  "La respiration naturelle — telle qu'elle existe chez l'enfant et l'animal — est la respiration abdominale spontanée. Ce cours guide le pratiquant dans la redécouverte de ce souffle originel, souvent comprimé ou oublié par le stress et les habitudes posturales.",
+        "shortSummary":  "Retrouver la respiration abdominale spontanée, libre et naturelle, avant toute technique.",
+        "longSummary":  "Avant toutes les techniques respiratoires, il existe un souffle simple, naturel, efficace : la respiration abdominale du nourrisson. Un bébé respire avec le ventre — à l'inspiration, le ventre gonfle ; à l'expiration, le ventre rentre. Ce mouvement simple engage le diaphragme à plein, oxygène profondément les poumons et active le nerf vague pour calmer le système nerveux. La plupart des adultes ont perdu ce mode respiratoire. La société exige un ventre plat, une poitrine haute, une posture de performance — et le résultat est une respiration thoracique haute, superficielle, anxiogène. Ce cours guide le retour à la respiration naturelle en passant par le corps couché, la main sur le ventre, et des exercices progressifs de libération du diaphragme.",
+        "pedagogicalObjective":  "Retrouver et stabiliser la respiration abdominale naturelle comme mode de base, comprendre pourquoi elle a été perdue et comment la maintenir dans la vie quotidienne.",
+        "initiaticObjective":  "Comprendre que le souffle naturel est déjà un acte de confiance — laisser le corps fonctionner sans contrôle excessif est une forme d'abandon bienveillant au vivant.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Observation couché\", \"content\": \"Allongé sur le dos, mains sur le ventre, observation du souffle spontané." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Pourquoi le souffle naturel s'est-il perdu ? Tension, posture, culture. Comment le retrouver." },
+            { "time": "15:00 — 30:00\",\"title\": \"Libération couché\", \"content\": \"Exercices de libération du diaphragme en position allongée : souffle naturel, résistance légère, gémissements libres." },
+            { "time": "30:00 — 45:00\",\"title\": \"Transfert assis\",  \"content\": \"Passage en position assise. Transférer la respiration abdominale découverte couché vers la position assise." },
+            { "time": "45:00 — 55:00\",\"title\": \"Respiration naturelle debout\", \"content\": \"Debout, souffle naturel. Sentir le ventre se mouvoir sans résistance." },
+            { "time": "55:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"Qu'est-ce qui empêchait la respiration naturelle ? Qu'est-ce qui la libère ?" },
+            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Engagement simple : une minute de respiration naturelle consciente par jour." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Observation du souffle spontané allongé",
+            "5–15 min — Enseignement : perte et retrouvaille du souffle naturel",
+            "15–30 min — Libération du diaphragme en position allongée",
+            "30–45 min — Transfert de la respiration abdominale en position assise",
+            "45–55 min — Respiration naturelle debout",
+            "55–57 min — Carnet d'observation",
+            "57–60 min — Clôture et engagement quotidien"
+        ],
+        "teaching":  {
+            "intro":  "Un enfant de six mois respire parfaitement. Son ventre monte et descend librement, son diaphragme fonctionne sans entraves, son systeme nerveux est calme entre les besoins. Vingt ans plus tard, ce même être respirera souvent avec la poitrine haute, l'abdomen contracté, le diaphragme bloqué. Que s'est-il passé ? Ce cours enquête sur cette perte et propose le retour à ce qui était naturel bien avant qu'on apprenne qu'il fallait rentrer le ventre.",
+            "sections":  [
+                {
+                    "title":  "1. Comment la respiration naturelle se perd",
+                    "content":  "Trois forces principales compriment le souffle naturel. La première est le stress : face à un danger ou une menace perçue, le corps retient son souffle ou passe en respiration thoracique haute (prête à l'action rapide). Quand ce stress devient chronique, ce pattern respiratoire s'installe durablement. La deuxième est la culture : rentrer le ventre est un impératif esthétique transmis par la mode, la culture physique, et les injonctions sociales. La troisième est la posture assise prolongée qui comprime mécaniquement l'espace abdominal."
+                },
+                {
+                    "title":  "2. Le nerf vague et le souffle abdominal",
+                    "content":  "Le nerf vague, dixième nerf crânien, innerve la plupart des organes thoraciques et abdominaux. Sa stimulation active le système nerveux parasympathique — la réponse de « repos et digestion » — opposée à la réponse de stress sympathique. Le diaphragme, lors de la respiration abdominale profonde, masse doucement le nerf vague lors de chaque inspiration. C'est pour cette raison que la respiration abdominale lente et profonde réduit l'anxiété, la tension artérielle, et le cortisol — elle stimule directement le système de calmage du corps."
+                },
+                {
+                    "title":  "3. Libération du diaphragme : technique et expérience",
+                    "content":  "La libération du diaphragme passe d'abord par la position allongée, qui supprime la gravité de la résistance posturale. On pose une main sur le ventre, l'autre sur la poitrine. L'objectif est simple : faire monter la main du ventre à l'inspiration sans que la main de la poitrine ne monte. Pour faciliter cette prise de conscience, on peut gémir doucement à l'expiration — le gémissement, vibration pharyngée naturelle, libère le diaphragme par réflexe. La résistance légère (pousser légèrement la main contre le ventre) offre aussi une rétroaction proprioceptive utile."
+                },
+                {
+                    "title":  "4. Le transfert : couché → assis → debout",
+                    "content":  "Retrouver la respiration abdominale allongé est relativement facile. Le défi est de transférer ce pattern vers les positions verticales, où les habitudes posturales reviennent rapidement. On travaille ce transfert progressivement : d'abord assis, en gardant une main sur le ventre comme guide ; puis debout, en cherchant la même sensation de libération abdominale sans avoir besoin de la main. Le transfert demande généralement plusieurs séances avant de devenir automatique."
+                },
+                {
+                    "title":  "5. La respiration naturelle dans la vie quotidienne",
+                    "content":  "L'objectif final n'est pas d'avoir une technique respiratoire de plus — c'est de restaurer le mode respiratoire de base. Une minute de respiration abdominale consciente chaque matin, avant de sortir du lit, suffit pour commencer à réorienter les habitudes. Avec le temps, le corps retrouve spontanément ce mode quand il n'est pas sous stress. Et dans les moments de stress, la respiration abdominale devient un outil de régulation rapide accessible en toutes circonstances."
+                }
+            ]
+        },
+        "practice":  "Protocole respiration naturelle — 40 minutes actives :\n1. Allongez-vous sur le dos, jambes décontractées. Une main sur le ventre, une main sur la poitrine.\n2. Observez 3 minutes sans modifier : quelle main monte d'abord ? Quelle est l'amplitude ?\n3. Libération (10 min) : à l'inspiration, cherchez à faire monter la main du ventre. À l'expiration, laissez-le se dégonfler. Gémiez doucement si cela aide.\n4. Si vous sentez une résistance abdominale, appuyez légèrement la main sur le ventre et poussez contre elle à l'inspiration.\n5. Transition assis (5 min) : asseyez-vous. Gardez une main sur le ventre. Continuez le même souffle.\n6. Debout (5 min) : sans la main. Cherchez le même sentiment de liberté abdominale.\n7. Retour assis, yeux fermés : laissez le souffle naturel s'installer seul pendant 10 minutes.\n8. Notez : qu'est-ce qui résistait ? Qu'est-ce qui s'est libéré ?",
         "image":  "assets/course-visuals-premium/C051-respiration-naturelle.svg",
         "pdf":  "assets/cours-pdf/C051-respiration-naturelle.pdf",
-        "tags":  [
-                     "Yoga, souffle \u0026 mantras",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Fondation"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C052-respiration-carree",
         "number":  52,
         "familyId":  "souffle",
-        "familyTitle":  "Yoga, souffle \u0026 mantras",
-        "symbol":  "ॐ",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
         "title":  "Respiration carrée",
-        "subtitle":  "Respiration, posture, vibration",
+        "subtitle":  "Équilibrer l'inspire, le plein, l'expire et le vide",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Respiration carrée. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Assembler respiration, yoga statique, mantra, présence corporelle et séquences d’intégration.",
-        "practice":  "Entrer par le souffle naturel, installer le rythme respiratoire, ajouter le mantra ou la posture, puis clore par une minute d’écoute corporelle.",
+        "kind":  "Technique respiratoire & équilibrage",
+        "status":  "available",
+        "summary":  "La respiration carrée divise le cycle respiratoire en quatre temps égaux : inspire, rétention poumons pleins, expire, rétention poumons vides. Ce rythme carré crée un équilibre remarquable entre les états d'activation et de calme, et développe le contrôle conscient du souffle.",
+        "shortSummary":  "Quatre temps égaux (inspire-plein-expire-vide) pour équilibrer le système nerveux et développer le contrôle du souffle.",
+        "longSummary":  "La respiration carrée (box breathing, sama vritti pranayama) est l'une des techniques respiratoires les plus étudiées et utilisées dans les contextes modernes de gestion du stress. Des unités d'élite militaires (Navy SEALs) aux salles de méditation bouddhiste, en passant par les cabinets de psychologie, cette technique simple est reconnue pour ses effets puissants sur la régulation du système nerveux autonome. Le principe est géométriquement simple : quatre phases égales qui forment un carré. Le défi est la régularité et la conscience : maintenir des temps égaux sans forcer, travailler les rétentions (kumbakas) progressivement, et observer comment chaque phase du carré a une qualité de conscience spécifique.",
+        "pedagogicalObjective":  "Maîtriser la technique de la respiration carrée en différentes durées (4-4-4-4, 6-6-6-6, 8-8-8-8) et comprendre l'action de chaque phase sur le système nerveux.",
+        "initiaticObjective":  "Expérimenter que le vide respiratoire (rétention poumons vides) est un espace de conscience particulier — un seuil entre deux mondes, entre deux souffles.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"État de base\",     \"content\": \"Évaluation de l'état du système nerveux : agité, calme, neutre ?" },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"La respiration carrée : principe, quatre phases, effets physiologiques, rétentions." },
+            { "time": "15:00 — 30:00\",\"title\": \"Pratique 4-4-4-4\", \"content\": \"15 minutes de respiration carrée à 4 secondes par phase. Chronométrage mental." },
+            { "time": "30:00 — 40:00\",\"title\": \"Pratique 6-6-6-6\", \"content\": \"10 minutes à 6 secondes par phase. Observer comment l'esprit ralentit." },
+            { "time": "40:00 — 50:00\",\"title\": \"Exploration du vide\",\"content\": \"Attention particulière à la rétention poumons vides : qu'y a-t-il dans ce vide ?" },
+            { "time": "50:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"Comparaison état avant/après, qualité de chaque phase du carré." },
+            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Retour au souffle naturel, observation de l'équilibre installé." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Évaluation de l'état du système nerveux",
+            "5–15 min — Enseignement : principe et effets de la respiration carrée",
+            "15–30 min — Pratique à 4 secondes par phase",
+            "30–40 min — Pratique à 6 secondes par phase",
+            "40–50 min — Exploration de la rétention poumons vides",
+            "50–57 min — Carnet de comparaison",
+            "57–60 min — Clôture et retour au souffle naturel"
+        ],
+        "teaching":  {
+            "intro":  "La geometrie s'applique aussi au souffle. Un carre a quatre cotes egaux — et la respiration carree a quatre phases egales. Cette symetrie n'est pas arbitraire : elle cree un equilibre remarquable entre les forces antagonistes qui gouvernent notre physiologie. L'inspiration active le sympathique, l'expiration active le parasympathique. En leur donnant un temps identique, on cree une alternance rythmique qui equilibre les deux systemes. Les retentions ajoutent une dimension supplémentaire : le temps suspendu.",
+            "sections":  [
+                {
+                    "title":  "1. Les quatre phases et leurs qualités",
+                    "content":  "L'inspiration (puraka) est active — elle engage les muscles inspirateurs, augmente légèrement la fréquence cardiaque, active le sympathique. La rétention poumons pleins (antara kumbhaka) est le plein : expansion maximale, pression intrathoracique élevée, moment de potentiel. L'expiration (rechaka) est libératrice — elle engage les muscles expiratoires ou la détente passive, ralentit la fréquence cardiaque, active le parasympathique. La rétention poumons vides (bahya kumbhaka) est le vide : espace de transition, réinitialisation, seuil de silence avant le prochain cycle."
+                },
+                {
+                    "title":  "2. Les rétentions (kumbhaka) : travailler le seuil",
+                    "content":  "Les rétentions respiratoires sont les phases les plus délicates et les plus précieuses de la respiration carrée. Elles ne doivent jamais être forcées — la durée d'une rétention confortable est celle où on pourrait encore inspirer ou expirer facilement, mais on choisit d'attendre. Forcer une rétention crée du stress et contredit l'objectif. On commence à 4 secondes, progressivement vers 8, jamais au-delà de son confort. La rétention poumons vides est la plus sensible : elle peut provoquer une légère anxiété chez les débutants, ce qui est précisément l'information à observer."
+                },
+                {
+                    "title":  "3. Action sur le système nerveux autonome",
+                    "content":  "Les études sur la respiration carrée montrent des effets mesurables : réduction de la variabilité de la fréquence cardiaque dans le sens de la cohérence, augmentation de l'activité du nerf vague, réduction du cortisol salivaire, amélioration des mesures de performance cognitive et de régulation émotionnelle. Quinze minutes de respiration carrée produisent des effets comparables à certaines interventions médicamenteuses de gestion du stress — sans les effets secondaires."
+                },
+                {
+                    "title":  "4. Le comptage mental : rythme intérieur vs métronome",
+                    "content":  "Compter les secondes mentalement pendant la respiration carrée est lui-même une pratique : on crée un métronome intérieur, une pulsation intérieure régulière. Avec l'expérience, ce comptage se fait sans effort — il devient un fond de conscience plutôt qu'une activité mentale de premier plan. On peut aussi utiliser un son régulier en fond sonore (bols tibétains à intervalles réguliers) pour externaliser le comptage et libérer l'attention vers l'observation pure."
+                },
+                {
+                    "title":  "5. Le vide respiratoire comme espace de conscience",
+                    "content":  "La rétention poumons vides est l'espace le plus mystérieux du cycle respiratoire. Physiologiquement, c'est un moment de tension maximale du système de régulation du CO2. Phénoménologiquement, c'est un espace de conscience particulier : sans souffle, sans mouvement, l'esprit se retrouve face à lui-même dans une clarté inhabituelle. Les pratiquants avancés décrivent ce vide comme un espace de potentiel pur, un seuil entre deux états, un lieu où des insights spontanés peuvent émerger."
+                }
+            ]
+        },
+        "practice":  "Protocole respiration carrée — 35 minutes actives :\n1. Assis, dos droit, fermez les yeux. Évaluez votre état sur une échelle 1-10 : 1 = très agité, 10 = très calme.\n2. Phase 4-4-4-4 (15 min) : inspirez en comptant 4, retenez 4, expirez 4, retenez 4. Recommencez immédiatement.\n3. Si la rétention poumons vides crée une anxiété, réduisez-la à 2 secondes d'abord.\n4. Phase 6-6-6-6 (10 min) : si confortable, passez à 6 secondes par phase. Observez comment l'esprit ralentit naturellement.\n5. Exploration du vide (5 min) : pendant la rétention poumons vides, portez toute l'attention à cet espace. Qu'y a-t-il ?\n6. Retour au souffle naturel. Évaluez à nouveau votre état : a-t-il changé ?\n7. Notez : quelle phase était la plus difficile ? La plus riche ?",
         "image":  "assets/course-visuals-premium/C052-respiration-carree.svg",
         "pdf":  "assets/cours-pdf/C052-respiration-carree.pdf",
-        "tags":  [
-                     "Yoga, souffle \u0026 mantras",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C053-respiration-triangulaire-et-rectangulaire",
         "number":  53,
         "familyId":  "souffle",
-        "familyTitle":  "Yoga, souffle \u0026 mantras",
-        "symbol":  "ॐ",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
         "title":  "Respiration triangulaire et rectangulaire",
-        "subtitle":  "Respiration, posture, vibration",
+        "subtitle":  "Moduler le ratio inspire/expire pour des effets ciblés",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Respiration triangulaire et rectangulaire. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Assembler respiration, yoga statique, mantra, présence corporelle et séquences d’intégration.",
-        "practice":  "Entrer par le souffle naturel, installer le rythme respiratoire, ajouter le mantra ou la posture, puis clore par une minute d’écoute corporelle.",
+        "kind":  "Technique respiratoire avancée",
+        "status":  "available",
+        "summary":  "En modulant le ratio des phases respiratoires (inspire : rétention : expire), on obtient des effets très différents sur le système nerveux. Ce cours explore la respiration triangulaire (sans vide) et rectangulaire (avec vide allongé) pour apprendre à calibrer le souffle selon l'objectif : activation, équilibre ou calme profond.",
+        "shortSummary":  "Moduler les ratios respiratoires pour activer, équilibrer ou induire le calme profond.",
+        "longSummary":  "La respiration n'est pas un instrument monotone — elle est un instrument à vent dont on peut moduler le son en changeant les proportions. La respiration triangulaire (3 phases : inspire, rétention, expire, sans rétention basse) crée un flux continu d'activation douce. La respiration rectangulaire (4 phases mais avec rétention basse prolongée) crée un état de calme profond. En apprenant à moduler consciemment ces ratios, le pratiquant dispose d'un outil de régulation autonome remarquablement précis : plus l'expiration est longue par rapport à l'inspiration, plus l'effet calmant est prononcé. Un ratio 1:1:2 (inspire 4 sec, rétention 4 sec, expire 8 sec) est fortement calmant. Un ratio 1:1:1 (carré) est équilibrant. Un ratio 2:1:1 (inspire longue) est légèrement activant.",
+        "pedagogicalObjective":  "Maîtriser les formes triangulaire et rectangulaire de la respiration consciente et comprendre comment les ratios inspire/expire affectent le système nerveux de façon prévisible.",
+        "initiaticObjective":  "Développer une intelligence du souffle qui permet de choisir consciemment son état plutôt que d'être soumis à l'état dans lequel on se trouve.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Rappel\",           \"content\": \"Rappel de la respiration carrée. Évaluation de l'état de départ." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Ratios respiratoires et leurs effets : triangulaire (3 phases), rectangulaire (4 phases asymétriques)." },
+            { "time": "15:00 — 25:00\",\"title\": \"Triangulaire activante\", \"content\": \"Respiration triangulaire 2:1:1 (inspire longue). Observer l'effet activant." },
+            { "time": "25:00 — 35:00\",\"title\": \"Triangulaire calmante\", \"content\": \"Respiration triangulaire 1:1:2 (expire longue). Observer l'effet calmant." },
+            { "time": "35:00 — 50:00\",\"title\": \"Rectangulaire\",    \"content\": \"Respiration rectangulaire 1:1:2:1 puis 1:1:3:1. Observation du vide allongé." },
+            { "time": "50:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"Mapping des effets : quel ratio pour quel état ?" },
+            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Retour au souffle naturel, note de l'état final." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Rappel et évaluation de départ",
+            "5–15 min — Enseignement : ratios et effets différentiels",
+            "15–25 min — Respiration triangulaire activante (inspire longue)",
+            "25–35 min — Respiration triangulaire calmante (expire longue)",
+            "35–50 min — Respiration rectangulaire avec vide allongé",
+            "50–57 min — Carnet et mapping des effets",
+            "57–60 min — Clôture"
+        ],
+        "teaching":  {
+            "intro":  "Si la respiration carree est une equipolence parfaite, la respiration modulee est un instrument de precision. En changeant les proportions des phases, on change l'effet sur le systeme nerveux de facon previsible et reproductible. Cette connaissance transforme le souffle d'un automatisme en un outil conscient d'autorégulation. Vous pouvez apprendre à vous calmer, à vous activer, ou à entrer dans un état meditatif profond — par le seul choix du rythme de votre souffle.",
+            "sections":  [
+                {
+                    "title":  "1. La règle fondamentale : expire longue = calme",
+                    "content":  "La règle la plus importante de la modulation respiratoire est simple : allonger l'expiration active le parasympathique et induit le calme. Raccourcir l'expiration (ou allonger l'inspiration) active légèrement le sympathique. Cette règle a une base physiologique solide : la fréquence cardiaque augmente à l'inspiration et diminue à l'expiration (arythmie sinusale respiratoire). Prolonger l'expiration prolonge la phase de ralentissement cardiaque, ce qui active le nerf vague et envoie un signal de sécurité au système nerveux."
+                },
+                {
+                    "title":  "2. La respiration triangulaire : trois phases, flux continu",
+                    "content":  "La respiration triangulaire ne comporte que trois phases (pas de rétention basse) : inspire, rétention poumons pleins, expire. Ce rythme crée un flux continu sans pause basse, ce qui maintient un niveau d'activation légèrement plus élevé que le carré. La version 2:1:1 (inspire 8s, rétention 4s, expire 4s) est légèrement activante et utile pour améliorer la concentration. La version 1:1:2 (inspire 4s, rétention 4s, expire 8s) est fortement calmante et utile pour gérer le stress aigu."
+                },
+                {
+                    "title":  "3. La respiration rectangulaire : asymétrie et profondeur",
+                    "content":  "La respiration rectangulaire ressemble au carré mais avec des phases asymétriques — typiquement une rétention basse très courte et une expiration longue. Un exemple : inspire 4s, rétention haute 4s, expire 8s, rétention basse 2s (ratio 4:4:8:2). Ce pattern combine la profondeur de l'expiration longue avec une pause au vide qui intensifie la réinitialisation. C'est l'une des techniques les plus efficaces pour passer rapidement d'un état agité à un état de calme médiatif."
+                },
+                {
+                    "title":  "4. Calibrer le souffle selon l'objectif",
+                    "content":  "Une fois ces techniques maîtrisées, le pratiquant peut choisir consciemment son ratio selon son besoin du moment. Avant une présentation importante : triangulaire activant (2:1:1) pendant 5 minutes. Après une confrontation stressante : triangulaire calmant (1:1:2) pendant 10 minutes. Pour entrer en méditation profonde : rectangulaire asymétrique (1:1:3:1) pendant 15 minutes. Cette capacité de calibration est l'une des compétences les plus précieuses que cette famille Souffle développe."
+                },
+                {
+                    "title":  "5. Vers l'intuition respiratoire",
+                    "content":  "Au-delà des techniques explicites, la pratique régulière développe une intuition respiratoire : on commence à sentir instinctivement quel pattern respiratoire est nécessaire à ce moment. Le corps sait ce dont il a besoin — les techniques apprises deviennent des lettres d'un alphabet que le corps peut combiner librement. C'est l'objectif ultime : non pas exécuter des protocoles, mais respirer avec intelligence."
+                }
+            ]
+        },
+        "practice":  "Protocole respiration modulée — 40 minutes actives :\n1. Évaluez votre état de 1 (très agité) à 10 (très calme).\n2. Triangulaire activant (8 min) : inspire 6s, rétention 3s, expire 3s. Observez l'effet.\n3. Réévaluez votre état. A-t-il changé dans le sens de l'activation ?\n4. Triangulaire calmant (8 min) : inspire 3s, rétention 3s, expire 6s. Observez.\n5. Réévaluez. Différence ?\n6. Rectangulaire profond (12 min) : inspire 4s, rétention 4s, expire 8s, vide 2s. Focus sur l'expire longue et le vide.\n7. Retour au souffle naturel (5 min). Observez ce qu'il choisit spontanément.\n8. Notez : quel ratio a eu le plus d'effet sur vous ? Dans quel sens ?",
         "image":  "assets/course-visuals-premium/C053-respiration-triangulaire-et-rectangulaire.svg",
         "pdf":  "assets/cours-pdf/C053-respiration-triangulaire-et-rectangulaire.pdf",
-        "tags":  [
-                     "Yoga, souffle \u0026 mantras",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C054-mantras-illi-alla-ollo-roro",
         "number":  54,
         "familyId":  "souffle",
-        "familyTitle":  "Yoga, souffle \u0026 mantras",
-        "symbol":  "ॐ",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
         "title":  "Mantras ILLI, ALLA, OLLO, RORO",
-        "subtitle":  "Respiration, posture, vibration",
+        "subtitle":  "Les quatre syllabes comme instruments de résonance intérieure",
         "duration":  "1 h",
+        "durationMin":  60,
         "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Mantras ILLI, ALLA, OLLO, RORO. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Assembler respiration, yoga statique, mantra, présence corporelle et séquences d’intégration.",
-        "practice":  "Entrer par le souffle naturel, installer le rythme respiratoire, ajouter le mantra ou la posture, puis clore par une minute d’écoute corporelle.",
+        "kind":  "Pratique sonore & vibratoire",
+        "status":  "available",
+        "summary":  "Les quatre mantras ILLI, ALLA, OLLO et RORO sont des formules vibratoires dont chaque voyelle crée une résonance spécifique dans une zone du corps. Ce cours enseigne la technique de récitation intérieure et extérieure de ces mantras, leurs effets physiologiques et les zones de résonance correspondantes.",
+        "shortSummary":  "ILLI, ALLA, OLLO, RORO : quatre mantras vibratoires, chacun résonnant dans une zone distincte du corps.",
+        "longSummary":  "Les voyelles I, A, O et R (dans leur forme longue roulée) ont des propriétés acoustiques différentes qui créent des résonances dans des zones distinctes du corps. I résonne dans les structures crâniennes hautes (nez, sinus, crâne). A résonne dans la cage thoracique et la gorge. O résonne dans l'abdomen et la poitrine inférieure. R roulé résonne dans l'ensemble du corps comme une vibration basale. Les mantras ILLI, ALLA, OLLO et RORO utilisent la répétition de ces voyelles pour amplifier et prolonger leur résonance. Ce cours enseigne d'abord la récitation à voix haute pour sentir les résonances physiques, puis la récitation à voix basse, puis mentale, observant comment chaque passage intensifie certains effets tout en en diminuant d'autres.",
+        "pedagogicalObjective":  "Maîtriser la récitation des quatre mantras dans leurs trois formes (voix haute, voix basse, mentale) et identifier les zones de résonance spécifiques à chaque mantra.",
+        "initiaticObjective":  "Découvrir que le son intérieur est aussi réel que le son extérieur — que la récitation mentale d'un mantra crée des effets physiologiques et perceptifs mesurables.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Écoute du silence\", \"content\": \"Écouter le silence intérieur : quels sons internes existent déjà ? Tintement, bourdonnement, silence ?" },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Les voyelles et leurs zones de résonance. Principe de résonance sympathique. Mantra vs prière." },
+            { "time": "15:00 — 25:00\",\"title\": \"ILLI et ALLA\",     \"content\": \"Récitation à voix haute de ILLI (5 min) puis ALLA (5 min). Localisation des résonances." },
+            { "time": "25:00 — 35:00\",\"title\": \"OLLO et RORO\",     \"content\": \"Récitation à voix haute de OLLO (5 min) puis RORO (5 min). Comparaison avec ILLI/ALLA." },
+            { "time": "35:00 — 45:00\",\"title\": \"Voix basse\",       \"content\": \"Répétition en chuchotement. Observer comment les effets changent quand le son diminue." },
+            { "time": "45:00 — 55:00\",\"title\": \"Récitation mentale\",\"content\": \"Récitation silencieuse. Choisir un mantra. Répéter 10 min en silence. Observer les effets persistants." },
+            { "time": "55:00 — 60:00\",\"title\": \"Carnet et clôture\", \"content\": \"Quel mantra résonne le plus ? Zones touchées. Différences voix haute / mentale." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Écoute du silence intérieur",
+            "5–15 min — Enseignement : voyelles, résonances, principe du mantra",
+            "15–25 min — ILLI et ALLA à voix haute",
+            "25–35 min — OLLO et RORO à voix haute",
+            "35–45 min — Répétition en voix basse",
+            "45–55 min — Récitation mentale silencieuse",
+            "55–60 min — Carnet et clôture"
+        ],
+        "teaching":  {
+            "intro":  "Toutes les traditions ont compris que certains sons ont des effets sur le corps et l'ame. Le son est vibration — et la vibration se propage dans la matiere. Un corps humain est compose d'eau a 70% : il est exceptionnellement conducteur de la vibration sonore. Quand vous prononcez un son, vous ne produisez pas seulement des ondes aerienness — vous faites vibrer votre propre corps comme un instrument. Les mantras ILLI, ALLA, OLLO et RORO sont des instruments de cette musique interieure.",
+            "sections":  [
+                {
+                    "title":  "1. La physique de la résonance vocale",
+                    "content":  "Chaque voyelle mobilise différemment la cavité buccale, les sinus, la gorge et la cage thoracique. La voyelle I est produite avec la langue haute et l'avant de la bouche : elle crée une résonance dans les cavités supérieures (sinus, crâne). La voyelle A est produite avec une grande ouverture buccale : elle résonne dans la gorge et le thorax supérieur. La voyelle O est produite avec les lèvres arrondies : elle crée une cavité de résonance thoracique-abdominale. La vibration du R roulé crée une résonance basale dans l'ensemble du corps."
+                },
+                {
+                    "title":  "2. ILLI : résonance crânienne et clarté",
+                    "content":  "Le mantra ILLI répète deux fois la voyelle I entourée de consonnes L (vibration linguale). La combinaison IL-LI crée une résonance dans les structures crâniennes supérieures, les sinus frontaux et ethmoïdaux, et les zones nasales. Les pratiquants décrivent souvent une sensation de clarté mentale, de légèreté au niveau du front, parfois une légère pression dans les sinus pendant les premières récitations. ILLI est le mantra de la clarté, de la vision, de la haute perception."
+                },
+                {
+                    "title":  "3. ALLA : résonance thoracique et ouverture",
+                    "content":  "Le mantra ALLA répète deux fois la voyelle A entourée de consonnes L. La voyelle A est la plus universelle — on la retrouve dans les mots désignant le divin dans pratiquement toutes les langues. Prononcée dans le mantra AL-LA, elle crée une résonance dans la cage thoracique et la gorge, zone du cœur et de l'expression. Les pratiquants décrivent souvent une sensation d'ouverture au niveau de la poitrine, une émotion légère, parfois des larmes sans raison apparente. ALLA est le mantra du cœur et de la présence."
+                },
+                {
+                    "title":  "4. OLLO et RORO : l'ancrage et la totalité",
+                    "content":  "OLLO (OL-LO) crée une résonance abdominale et centrée — on le sent souvent dans le ventre et la région lombaire. C'est le mantra du centre de gravité, de l'ancrage, du hara. RORO (RO-RO) est différent : le R roulé est une vibration laryngée qui se propage dans tout le thorax et le corps entier quand il est prononcé avec amplitude. C'est le mantra le plus « terrestre », le plus vibrant physiquement. Il peut créer une vibration perceptible dans les os, ce qui lui confère une fonction énergétisante particulière."
+                },
+                {
+                    "title":  "5. La récitation mentale : le son sans le son",
+                    "content":  "La découverte la plus surprenante de ce cours est que la récitation mentale silencieuse d'un mantra crée des effets physiologiques réels, bien que différents de la récitation vocale. L'imagerie motrice (répéter mentalement un geste sans le faire) active les mêmes zones cérébrales que le geste réel. De même, répéter mentalement un mantra active partiellement les zones de production vocale et de résonance. Avec la pratique, la récitation mentale devient aussi vibrante que la récitation vocale — le corps apprend à résonner intérieurement."
+                }
+            ]
+        },
+        "practice":  "Protocole mantras — 45 minutes actives :\n1. Silence initial (3 min) : fermez les yeux, écoutez le silence intérieur.\n2. ILLI à voix normale (5 min) : respirez et, à l'expiration, prononcez ILLI lentement (2-3 secondes). Où sentez-vous la vibration ?\n3. ALLA à voix normale (5 min) : même chose. Zone de résonance ?\n4. OLLO à voix normale (5 min) : même chose. Comparaison avec les précédents.\n5. RORO à voix normale (5 min) : prononcez le R roulé si vous pouvez. Vibration dans le corps.\n6. Choisissez votre préféré. Voix très basse (chuchotée) : 5 min. Observez comment les effets changent.\n7. Récitation mentale complète (10 min) : silence absolu. Répétez le mantra choisi dans votre tête. Cherchez les résonances internes sans le son.\n8. Notez : quel mantra touche quelle zone ? Différences voix haute / mentale.",
         "image":  "assets/course-visuals-premium/C054-mantras-illi-alla-ollo-roro.svg",
         "pdf":  "assets/cours-pdf/C054-mantras-illi-alla-ollo-roro.pdf",
-        "tags":  [
-                     "Yoga, souffle \u0026 mantras",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C055-om-et-vibration-interieure",
         "number":  55,
         "familyId":  "souffle",
-        "familyTitle":  "Yoga, souffle \u0026 mantras",
-        "symbol":  "ॐ",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
         "title":  "OM et vibration intérieure",
-        "subtitle":  "Respiration, posture, vibration",
+        "subtitle":  "Le son primordial comme outil de centration et de résonance globale",
         "duration":  "1 h",
-        "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : OM et vibration intérieure. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Assembler respiration, yoga statique, mantra, présence corporelle et séquences d’intégration.",
-        "practice":  "Entrer par le souffle naturel, installer le rythme respiratoire, ajouter le mantra ou la posture, puis clore par une minute d’écoute corporelle.",
+        "durationMin":  60,
+        "level":  "Avancé",
+        "kind":  "Pratique sonore & méditation profonde",
+        "status":  "available",
+        "summary":  "OM (AUM) est considéré dans de nombreuses traditions comme le son primordial — le son de la création. Ce cours explore ses trois composantes (A, U, M) et le silence qui suit, enseigne la technique complète de récitation longue, et guide vers la perception de la vibration intérieure qui persiste après le son.",
+        "shortSummary":  "AUM : le son primordial, ses trois phases, et la vibration intérieure qui subsiste dans le silence.",
+        "longSummary":  "Le mantra OM, ou AUM dans sa forme complète, est l'un des sons les plus étudiés dans les traditions contemplatives et, récemment, dans la recherche neuroscientifique. Sa structure ternaire (A-U-M) avec le silence qui suit représente les quatre états de conscience selon la tradition védique : veille (A), rêve (U), sommeil profond (M) et turiya (le silence, état de témoin pur). Sur le plan physiologique, la prononciation du OM engage progressivement l'ensemble des résonateurs vocaux (thorax, gorge, crâne) dans un balayage complet de bas en haut. Des études d'imagerie cérébrale montrent que la récitation du OM active des zones associées au système limbique et au nerf vague de façon plus prononcée que d'autres sons.",
+        "pedagogicalObjective":  "Maîtriser la technique de récitation complète du AUM (A-U-M + silence) et comprendre les quatre états de conscience correspondants.",
+        "initiaticObjective":  "Toucher l'expérience du son primordial — le moment où la voix, le souffle et le silence se rejoignent dans une qualité de présence qui transcende les états habituels.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Silence initial\",  \"content\": \"5 minutes de silence complet pour sentir le contraste avec le son qui viendra." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"AUM : structure, signification, quatre états de conscience, études neuroscientifiques." },
+            { "time": "15:00 — 25:00\",\"title\": \"A, U, M séparés\", \"content\": \"Réciter A seul (3 min), U seul (3 min), M seul (3 min). Localiser les résonances." },
+            { "time": "25:00 — 40:00\",\"title\": \"AUM complet\",      \"content\": \"15 minutes de récitation du AUM complet, long (8-12 secondes par récitation)." },
+            { "time": "40:00 — 52:00\",\"title\": \"Silence post-OM\",  \"content\": \"Arrêt de la récitation. Observer la vibration intérieure qui persiste. 12 minutes de silence actif." },
+            { "time": "52:00 — 57:00\",\"title\": \"Carnet\",           \"content\": \"État de conscience, qualité du silence, vibration ressentie." },
+            { "time": "57:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Un dernier AUM très lent. Fermeture." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Silence initial de contraste",
+            "5–15 min — Enseignement : AUM, quatre états, neuroscience",
+            "15–25 min — A, U, M récités séparément",
+            "25–40 min — AUM complet, récitation longue",
+            "40–52 min — Silence actif, observation de la vibration persistante",
+            "52–57 min — Carnet d'état",
+            "57–60 min — Clôture"
+        ],
+        "teaching":  {
+            "intro":  "Le son OM (ou AUM dans sa forme complète) apparaît dans les plus anciens textes connus de l'humanité, écrits il y a plus de trois mille ans. Il est présent dans l'hindouisme, le bouddhisme tibetain, le jaïnisme. Mais il n'appartient à aucune de ces traditions — il les précede toutes. Des physiciens ont calculé que si l'univers avait une fréquence de résonance propre, elle serait proche des 7,83 Hz (fréquence de Schumann). Coïncidence ou pas, c'est également la fréquence des ondes thêta produites par le cerveau lors des états méditatifs profonds associés à la récitation de OM.",
+            "sections":  [
+                {
+                    "title":  "1. La structure de AUM : A, U, M et le silence",
+                    "content":  "AUM n'est pas une seule syllabe mais une séquence de trois phonèmes et un silence. A est produit à l'arrière de la gorge avec la bouche très ouverte — c'est le son le plus ouvert. Il résonne dans la poitrine. U se produit en rapprochant les lèvres progressivement — la résonance monte vers la gorge et la bouche. M se produit lèvres closes — la résonance monte vers le crâne, les sinus, le front. Le silence qui suit (souvent aussi long que le son lui-même) est la quatrième composante : le lieu où le son s'intègre."
+                },
+                {
+                    "title":  "2. Les quatre états de conscience",
+                    "content":  "Selon la tradition védique, les trois phonèmes de AUM correspondent à trois états ordinaires de conscience : A est l'état de veille (jagrat), la conscience tournée vers le monde extérieur. U est l'état de rêve (svapna), la conscience tournée vers le monde intérieur. M est l'état de sommeil profond (sushupti), la conscience sans objet. Le silence qui suit est turiya — le « quatrième », l'état de témoin pur qui observe les trois autres sans être affecté par eux. La pratique du AUM est un voyage à travers ces quatre états."
+                },
+                {
+                    "title":  "3. Neuroscience du OM : qu'est-ce que la recherche montre ?",
+                    "content":  "Des études IRM et EEG conduits en Inde et en Europe montrent que la récitation du OM active de façon distinctive le cortex insulaire, le cortex cingulaire antérieur et le tronc cérébral — des zones associées à la conscience corporelle, à la régulation émotionnelle et au traitement de la douleur. La récitation produit également une déactivation des réseaux associés à la rumination et au dialog interne. Ces effets sont significativement plus prononcés pour le OM que pour d'autres sons contrôles."
+                },
+                {
+                    "title":  "4. La technique : durée, résonance, intention",
+                    "content":  "La récitation longue du AUM (8 à 12 secondes) est plus efficace que la récitation courte. On commence par le A avec la bouche grande ouverte, en laissant la voix résonner dans le thorax. Progressivement, les lèvres se rapprochent : U. Puis lèvres closes, vibration dans le crâne : M. La transition doit être fluide — les consonants glissent les uns dans les autres. Après le M, le silence : on n'inspire pas immédiatement. On attend que la vibration intérieure se pose avant de respirer à nouveau."
+                },
+                {
+                    "title":  "5. La vibration intérieure : ce qui reste après le son",
+                    "content":  "Après une session de 15 minutes de OM, quelque chose remarquable se produit dans le silence : une vibration continue, comme un bourdonnement très fin, semble persister dans le corps et dans l'espace de perception. Ce n'est pas un son — il n'y a plus de son. C'est une qualité de l'état de conscience, une résonance qui a été amorcée par le son et continue de se propaguer. Les pratiquants décrivent cet état post-OM comme l'un des plus clairs et des plus stables qu'ils connaissent. C'est dans ce silence habité que la méditation profonde devient accessible."
+                }
+            ]
+        },
+        "practice":  "Protocole OM — 45 minutes actives :\n1. Silence complet 5 minutes. Observez ce qui existe déjà dans ce silence.\n2. A seul (3 min) : bouche grande ouverte, gorge détendue, produisez un son grave et ample. Sentez la résonance thoracique.\n3. U seul (3 min) : lèvres progressivement plus arrondies. Résonance montante.\n4. M seul (3 min) : lèvres closes, son nasal. Résonance crânienne.\n5. AUM complet (15 min) : enchainez A → U → M en une seule expiration longue. Attendez dans le silence avant d'inspirer à nouveau. Rythme : environ 5 AUM par minute.\n6. Arrêt complet (12 min) : silence absolu. Observez la vibration intérieure. Résiste-t-elle ? S'amplifie-t-elle ?\n7. Notez : qualité du silence post-OM, état de conscience, ce qui a changé.",
         "image":  "assets/course-visuals-premium/C055-om-et-vibration-interieure.svg",
         "pdf":  "assets/cours-pdf/C055-om-et-vibration-interieure.pdf",
-        "tags":  [
-                     "Yoga, souffle \u0026 mantras",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Avancé"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
         "id":  "C056-sequence-souffle-mantra-et-mouvement",
         "number":  56,
         "familyId":  "souffle",
-        "familyTitle":  "Yoga, souffle \u0026 mantras",
-        "symbol":  "ॐ",
+        "familyTitle":  "Souffle & mantras",
+        "symbol":  "🌬",
         "title":  "Séquence souffle, mantra et mouvement",
-        "subtitle":  "Respiration, posture, vibration",
+        "subtitle":  "Clôture intégrative de la famille Souffle",
         "duration":  "1 h",
-        "level":  "Approfondissement",
-        "summary":  "Comprendre, pratiquer et intégrer : Séquence souffle, mantra et mouvement. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
-        "teaching":  "Assembler respiration, yoga statique, mantra, présence corporelle et séquences d’intégration.",
-        "practice":  "Entrer par le souffle naturel, installer le rythme respiratoire, ajouter le mantra ou la posture, puis clore par une minute d’écoute corporelle.",
+        "durationMin":  60,
+        "level":  "Avancé",
+        "kind":  "Séance intégrative",
+        "status":  "available",
+        "summary":  "Ce cours de clôture de la famille Souffle combine dans une séquence fluide les trois éléments fondamentaux de la pratique : le souffle conscient, le mantra vibratoire et le mouvement oscillatoire. La synthèse des trois crée un état d'intégration profonde et ouvre la voie à la pratique autonome.",
+        "shortSummary":  "Synthèse de la famille Souffle : associer respiration, mantra et mouvement en une pratique intégrative fluide.",
+        "longSummary":  "Tout au long de la famille Souffle, on a travaillé séparément le souffle naturel, les techniques respiratoires modulées, les postures et les mantras. Ce cours de clôture propose l'intégration de ces trois dimensions dans une séquence continue. L'association souffle + mantra + mouvement crée un état perceptif particulier : les trois composantes se renforcent mutuellement, chacune amplifiant l'effet des deux autres. Le mouvement ancre le mantra dans le corps. Le mantra rythme le mouvement. Le souffle unit les deux. Cette triade est l'une des approches contemplatives les plus complètes et les plus accessibles à des états de conscience méditative profonde.",
+        "pedagogicalObjective":  "Savoir construire une séquence intégrative souffle-mantra-mouvement autonome et comprendre les effets de synergie entre ces trois éléments.",
+        "initiaticObjective":  "Expérimenter que la triade corps-souffle-son peut induire des états de conscience que ni l'un ni l'autre ne produit seul — la synthèse crée quelque chose de nouveau.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Évaluation\",       \"content\": \"État de départ : corps, souffle, état mental. Note rapide dans le carnet." },
+            { "time": "5:00 — 10:00\", \"title\": \"Activation\",       \"content\": \"Respiration activante (triangulaire 2:1:1) pour être présent et disponible." },
+            { "time": "10:00 — 25:00\",\"title\": \"Balancement + mantra\",\"content\": \"Balancement latéral avec mantra ILLI (5 min), puis vertical avec ALLA (5 min), puis antéro-postérieur avec OLLO (5 min)." },
+            { "time": "25:00 — 35:00\",\"title\": \"Rotation + OM\",    \"content\": \"Rotation douce avec récitation de OM. Le OM rythme la rotation. Convergence des deux pratiques." },
+            { "time": "35:00 — 45:00\",\"title\": \"Immobilité + mantra mental\",\"content\": \"Arrêt de tout mouvement. Continuation du mantra en récitation mentale. Souffle naturel." },
+            { "time": "45:00 — 55:00\",\"title\": \"Silence intégratif\",\"content\": \"Arrêt de tout : pas de mantra, pas de mouvement. Observer ce qui existe dans ce silence." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture de famille\",\"content\": \"Carnet de clôture de la famille Souffle. Phrase essentielle. Engagement de pratique autonome." }
+        ],
         "plan":  [
-                     "0–10 min — Seuil : installation, respiration, intention, rappel de sécurité.",
-                     "10–30 min — Enseignement : principe, symbolique, terrain, lecture intérieure.",
-                     "30–45 min — Pratique : exercice guidé adapté au thème du cours.",
-                     "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
-                     "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
-                 ],
+            "0–5 min — Évaluation de l'état de départ",
+            "5–10 min — Activation respiratoire",
+            "10–25 min — Balancements avec mantras associés",
+            "25–35 min — Rotation douce avec récitation de OM",
+            "35–45 min — Immobilité avec mantra mental et souffle naturel",
+            "45–55 min — Silence intégratif total",
+            "55–60 min — Carnet de clôture de la famille Souffle"
+        ],
+        "teaching":  {
+            "intro":  "Le souffle seul est puissant. Le mantra seul est puissant. Le mouvement seul est puissant. Mais leur association crée quelque chose que chacun pris séparément ne peut pas produire : un état de présence intégrative où corps, son et énergie fonctionnent comme un seul système. Les traditions qui ont développé ces pratiques le savaient : le yoga associe posture et souffle, le tantra associe mantra et mudra, le soufisme associe mouvement (sama) et dhikr (répétition du nom divin). Ce cours vous permet de faire cette expérience par vous-même.",
+            "sections":  [
+                {
+                    "title":  "1. Pourquoi la triade corps-souffle-son ?",
+                    "content":  "Le corps, le souffle et le son engagent trois niveaux différents de l'être. Le corps est le niveau le plus dense, le plus concret — il ancre la pratique dans la réalité physique. Le souffle est le niveau intermédiaire — interface entre l'automatique et le volontaire, entre le physique et l'énergétique. Le son (mantra) est le niveau le plus subtil dans cette triade — il travaille directement sur les vibrations qui structurent la perception. Associer les trois niveaux crée un alignement rare entre ces différentes couches de l'être."
+                },
+                {
+                    "title":  "2. L'association balancement-mantra : rythme et résonance",
+                    "content":  "L'association d'un balancement spécifique avec un mantra spécifique crée une correspondance corps-son : le mouvement donne un rythme au mantra, le mantra donne une intention au mouvement. ILLI avec le balancement latéral : la double syllabe épouse naturellement l'aller-retour. ALLA avec le balancement vertical : la voyelle ouverte s'associe à l'ouverture de la cage thoracique à la montée. OLLO avec l'antéro-postérieur : la voyelle centrale s'ancre dans l'avant et l'arrière. Ces associations ne sont pas arbitraires — elles émergent de la pratique comme des évidences."
+                },
+                {
+                    "title":  "3. La rotation et le OM : deux spirales qui se rejoignent",
+                    "content":  "La rotation du corps est une spirale spatiale. Le son OM est une spirale temporelle : A-U-M-silence, encore et encore. L'association de ces deux spirales — spatiale et temporelle — crée un état de convergence particulier. On observe souvent, lors de cette phase, une sensation de « double hélice » : le mouvement et le son semblent s'enrouler l'un autour de l'autre, créant une unité plus grande que leurs deux parties séparées."
+                },
+                {
+                    "title":  "4. La transition vers l'immobilité : continuer sans continuer",
+                    "content":  "Quand on arrête le mouvement physique mais qu'on continue le mantra mental, on entre dans une zone de transition fascinante : le corps est immobile mais le son continue de vibrer intérieurement. Puis, quand on arrête aussi le mantra, il reste une sorte d'empreinte — un écho de la triade corps-souffle-son — qui structure le silence. C'est dans ce silence structuré que les perceptions les plus fines deviennent accessibles."
+                },
+                {
+                    "title":  "5. Bâtir sa pratique autonome",
+                    "content":  "Ce cours de clôture est aussi un cours d'autonomisation. On a maintenant tous les outils pour construire ses propres séances : la posture juste, le souffle modulé selon le besoin, les mantras adaptés à l'objectif, les balancements choisis selon l'état du corps. La pratique autonome commence par une question simple : qu'est-ce que mon corps, mon souffle et mon silence ont besoin aujourd'hui ? La réponse à cette question est l'entrée dans la pratique."
+                }
+            ]
+        },
+        "practice":  "Protocole séquence intégrative — 55 minutes :\n\n1. Note de départ (3 min) : état du corps, du souffle, de l'esprit en 3 mots chacun.\n\n2. Activation (5 min) : respiration triangulaire 2:1:1 (inspire 6s, rétention 3s, expire 3s).\n\n3. Balancement + mantra (15 min) :\n   - 5 min : balancement latéral + ILLI mental\n   - 5 min : balancement vertical + ALLA mental\n   - 5 min : balancement antéro-postérieur + OLLO mental\n\n4. Rotation + OM (10 min) : rotation douce, un OM à chaque expiration à voix basse.\n\n5. Immobilité + mantra mental (10 min) : choisissez le mantra qui vous appelle. Récitation silencieuse. Souffle naturel.\n\n6. Silence total (7 min) : plus rien. Observer ce qui existe maintenant.\n\n7. Clôture (5 min) : trois AUM lents. Notez votre phrase essentielle de la famille Souffle.",
         "image":  "assets/course-visuals-premium/C056-sequence-souffle-mantra-et-mouvement.svg",
         "pdf":  "assets/cours-pdf/C056-sequence-souffle-mantra-et-mouvement.pdf",
-        "tags":  [
-                     "Yoga, souffle \u0026 mantras",
-                     "Cours 1h",
-                     "PDF protégé",
-                     "Approfondissement"
-                 ],
+        "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Avancé"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
-    {
+
+        {
         "id":  "C057-developper-l-imagination-sensorielle",
         "number":  57,
         "familyId":  "clairvoyance",
@@ -5089,7 +6735,83 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "Recherche"
                  ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    }
+    },
+  {
+    "id": "C113-convergence-oculaire",
+    "number": 113,
+    "familyId": "exercices",
+    "familyTitle": "Livre d'Exercices enrichi",
+    "symbol": "◎",
+    "title": "Exercice 9 — Convergence oculaire",
+    "subtitle": "Fusionner deux points visuels vers un centre unique",
+    "duration": "1 h",
+    "durationMin": 60,
+    "level": "Fondation",
+    "kind": "Exercice de perception visuelle",
+    "status": "available",
+    "summary": "La convergence oculaire est un exercice de concentration du regard qui consiste à fixer un point ou à fusionner deux images en un centre unique. Cet exercice développe la stabilité du regard intérieur et prépare à la perception de la rémanence.",
+    "shortSummary": "Diriger les deux axes visuels vers un même point central.",
+    "longSummary": "La convergence oculaire est l'un des exercices fondamentaux du Livre d'Exercices. En dirigeant les deux axes visuels vers un point unique — réel ou imaginaire — on crée un état de concentration naturelle qui calme le mental discursif. Cet exercice peut se pratiquer avec deux doigts devant le visage, avec un objet suspendu, ou purement en imagination. La convergence active les mécanismes de focalisation binoculaire du cerveau et prépare directement à la stabilisation du point intérieur décrite dans les exercices 3 et 4. Avec l'entraînement, la convergence devient un déclencheur d'état : quelques secondes suffisent pour retrouver la qualité d'attention requise pour la pratique lumineuse.",
+    "pedagogicalObjective": "Maîtriser la convergence des axes visuels vers un centre unique et stabiliser le regard intérieur.",
+    "initiaticObjective": "Développer la qualité d'attention focalisée qui précède et accompagne la rémanence.",
+    "essentialPhrase": "Je dirige mes deux regards vers un même centre. Je tiens ce point. Je laisse l'attention se poser.",
+    "shortPhrase": "Un centre. Deux yeux. Un seul regard.",
+    "coverImage": "assets/courses/course-113/cover.svg",
+    "image": "assets/courses/course-113/cover.svg",
+    "pdfPremium": false,
+    "tags": ["convergence", "regard", "concentration", "binoculaire", "point fixe", "exercice"]
+  },
+  {
+    "id": "C114-mantras-voyelles-vibratoires",
+    "number": 114,
+    "familyId": "souffle",
+    "familyTitle": "Yoga, souffle & mantras",
+    "symbol": "φ",
+    "title": "Exercice 10 — Mantras et voyelles vibratoires",
+    "subtitle": "Ancrer le son dans le corps comme support d'attention intérieure",
+    "duration": "1 h",
+    "durationMin": 60,
+    "level": "Fondation",
+    "kind": "Exercice sonore & vibratoire",
+    "status": "available",
+    "summary": "Les voyelles vibratoires — I, A, O, U et leurs combinaisons — sont utilisées comme ancres sonores pour stabiliser l'attention et créer un espace intérieur de résonance. Ce cours approfondit la pratique des mantras au-delà des syllabes fondamentales.",
+    "shortSummary": "Pratiquer les voyelles vibratoires comme ancres d'attention et de résonance corporelle.",
+    "longSummary": "Le mantra est une technologie de l'attention par le son. En vocalisant ou en pensant intérieurement une syllabe vibratoire, on crée une oscillation qui stabilise le mental de la même façon que le balancement stabilise le corps. Les voyelles I, A, O, U résonnent différemment dans le corps : le I résonne en haut (crâne, sinus), le A au centre (poitrine, coeur), le O dans le bas (ventre, bassin), le U dans la profondeur (racines). Les combinaisons ILLI, ALLA, OLLO, RORO créent des cycles complets qui accompagnent le rythme respiratoire. Ce cours propose une pratique progressive : d'abord vocaliser à voix haute pour sentir les résonances, puis intérioriser jusqu'au mantra silencieux, puis associer le mantra à la rémanence lumineuse pour créer une double ancre.",
+    "pedagogicalObjective": "Maîtriser les voyelles vibratoires et leurs résonances corporelles, et les associer à la pratique lumineuse.",
+    "initiaticObjective": "Transformer la vocalisation en présence intérieure, du son audible au mantra silencieux.",
+    "essentialPhrase": "Le son que je produis résonne dans mon corps avant de sortir. Je suis la caverne qui chante.",
+    "shortPhrase": "Je suis le son. Je suis la résonance. Je suis le silence qui suit.",
+    "coverImage": "assets/courses/course-114/cover.svg",
+    "image": "assets/courses/course-114/cover.svg",
+    "pdfPremium": false,
+    "tags": ["mantra", "voyelles", "son", "vibration", "ILLI", "ALLA", "OLLO", "RORO", "souffle", "exercice"]
+  },
+  {
+    "id": "C115-sensations-cenesthesiques",
+    "number": 115,
+    "familyId": "vivant",
+    "familyTitle": "Clair-ressenti & vivant",
+    "symbol": "◈",
+    "title": "Exercice 11 — Sensations cénesthésiques",
+    "subtitle": "Percevoir et habiter les sensations internes du corps vivant",
+    "duration": "1 h",
+    "durationMin": 60,
+    "level": "Fondation",
+    "kind": "Exercice de perception corporelle",
+    "status": "available",
+    "summary": "La cénesthésie est la conscience globale du corps — la somme de toutes les sensations internes : chaleur, picotements, poids, légèreté, flux, pulsation. Apprendre à percevoir ces sensations fine le système nerveux et ouvre la voie au clair-ressenti.",
+    "shortSummary": "Développer la conscience des sensations internes du corps comme fondation du clair-ressenti.",
+    "longSummary": "La cénesthésie désigne l'ensemble des sensations que le corps produit de l'intérieur : temperature, pression, mouvement, vibration, tonus musculaire, pulsation cardiaque, flux sanguin, légèreté ou lourdeur des membres. C'est le socle physiologique de ce que les traditions appellent le corps subtil. En apprenant à percevoir ces sensations avec finesse et sans les interpréter, on développe un outil d'observation interne précieux. La pratique commence par un inventaire corporel calme (scanner de la tête aux pieds), puis s'affine vers la perception de nuances plus subtiles : picotement au bout des doigts, chaleur qui monte dans la colonne, légère pulsation au centre du front. Ces perceptions ne sont ni imaginées ni construites — elles sont réelles et mesurables. Ce cours apprend à les accueillir sans amplification ni déni, et à les utiliser comme repères dans les séances de pratique lumineuse.",
+    "pedagogicalObjective": "Développer la capacité de percevoir et nommer les sensations cénesthésiques corporelles avec précision.",
+    "initiaticObjective": "Transformer le corps en instrument de perception intérieure fidèle et sobre.",
+    "essentialPhrase": "Je perçois ce qui est. Je ne fabrique pas. Je ne refuse pas. Je laisse le corps parler son langage discret.",
+    "shortPhrase": "Je sens donc je suis présent.",
+    "coverImage": "assets/courses/course-115/cover.svg",
+    "image": "assets/courses/course-115/cover.svg",
+    "pdfPremium": false,
+    "tags": ["cénesthésie", "sensations", "corps", "chaleur", "picotements", "perception", "clair-ressenti", "exercice"]
+  }
+
 ];
 
 
@@ -6263,14 +7985,14 @@ window.AXIS_ONE_HOUR_COURSES = [
     },
 
     minutePlan: [
-      { time: "0–5 min", title: "Arrivée", content: "Quitter le rythme ordinaire et constater l’état réel du corps et du mental." },
-      { time: "5–12 min", title: "Comprendre le seuil", content: "Voir pourquoi une séance commence avant la technique." },
-      { time: "12–22 min", title: "Préparer le lieu", content: "Installer sobriété, stabilité, sécurité, lumière douce et carnet." },
-      { time: "22–32 min", title: "Préparer le corps", content: "Observer les yeux, la nuque, le ventre, les mains, les appuis et le souffle naturel." },
-      { time: "32–45 min", title: "Pratique guidée", content: "Réaliser le protocole d’ouverture du seuil." },
-      { time: "45–52 min", title: "Observation", content: "Comparer l’état avant et après l’ouverture du seuil." },
-      { time: "52–57 min", title: "Carnet", content: "Noter l’état d’entrée, la qualité du seuil et l’intention retenue." },
-      { time: "57–60 min", title: "Validation", content: "Clore et choisir une règle simple pour les trois prochaines séances." }
+      { time: "0–5 min\", title: \"Arrivée\", content: \"Quitter le rythme ordinaire et constater l’état réel du corps et du mental." },
+      { time: "5–12 min\", title: \"Comprendre le seuil\", content: \"Voir pourquoi une séance commence avant la technique." },
+      { time: "12–22 min\", title: \"Préparer le lieu\", content: \"Installer sobriété, stabilité, sécurité, lumière douce et carnet." },
+      { time: "22–32 min\", title: \"Préparer le corps\", content: \"Observer les yeux, la nuque, le ventre, les mains, les appuis et le souffle naturel." },
+      { time: "32–45 min\", title: \"Pratique guidée\", content: \"Réaliser le protocole d’ouverture du seuil." },
+      { time: "45–52 min\", title: \"Observation\", content: \"Comparer l’état avant et après l’ouverture du seuil." },
+      { time: "52–57 min\", title: \"Carnet\", content: \"Noter l’état d’entrée, la qualité du seuil et l’intention retenue." },
+      { time: "57–60 min\", title: \"Validation\", content: \"Clore et choisir une règle simple pour les trois prochaines séances." }
     ],
 
     teaching: {
@@ -6336,12 +8058,12 @@ window.AXIS_ONE_HOUR_COURSES = [
     },
 
     vocalScript: [
-      { time: "0:00", title: "Arrivée", text: "Installe-toi devant ton espace de pratique. Ne commence pas encore. Regarde simplement le lieu." },
-      { time: "2:00", title: "Retrait du bruit", text: "Éloigne une distraction. Un écran, un objet, une urgence inutile. Le seuil commence par un retrait simple." },
-      { time: "5:00", title: "Installation du corps", text: "Assieds-toi. Sens les pieds, les mains, le bassin, la colonne. Laisse les épaules descendre." },
-      { time: "9:00", title: "Consultation", text: "Observe les yeux, la nuque, le ventre, le souffle. Tu viens écouter l’état réel du temple." },
-      { time: "13:00", title: "Intention", text: "Choisis une phrase courte : je reviens au centre, je clarifie mon attention, je prépare le réceptacle." },
-      { time: "24:00", title: "Clôture", text: "Sens les mains, les pieds, la colonne. Ouvre doucement les yeux. Note une phrase vraie dans ton carnet." }
+      { time: "0:00\", title: \"Arrivée\", text: \"Installe-toi devant ton espace de pratique. Ne commence pas encore. Regarde simplement le lieu." },
+      { time: "2:00\", title: \"Retrait du bruit\", text: \"Éloigne une distraction. Un écran, un objet, une urgence inutile. Le seuil commence par un retrait simple." },
+      { time: "5:00\", title: \"Installation du corps\", text: \"Assieds-toi. Sens les pieds, les mains, le bassin, la colonne. Laisse les épaules descendre." },
+      { time: "9:00\", title: \"Consultation\", text: \"Observe les yeux, la nuque, le ventre, le souffle. Tu viens écouter l’état réel du temple." },
+      { time: "13:00\", title: \"Intention\", text: \"Choisis une phrase courte : je reviens au centre, je clarifie mon attention, je prépare le réceptacle." },
+      { time: "24:00\", title: \"Clôture\", text: \"Sens les mains, les pieds, la colonne. Ouvre doucement les yeux. Note une phrase vraie dans ton carnet." }
     ],
 
     journalQuestions: [
@@ -6499,15 +8221,15 @@ window.AXIS_ONE_HOUR_COURSES = [
   "pedagogicalObjective": "Apprendre à conduire une séance complète à partir d’une carte de vertu : préparation, tirage, lecture lente, observation lumineuse prudente, rémanence, carnet et clôture.",
   "initiaticObjective": "Transformer une vertu en présence. Ne plus seulement comprendre une qualité, mais l’accueillir dans le champ intérieur, la laisser s’imprimer doucement, puis l’incarner dans un geste simple.",
   "minutePlan": [
-    { "time": "0–5 min", "title": "Entrer dans le seuil", "content": "Préparer le lieu, couper les distractions, poser le carnet, choisir une lumière douce." },
-    { "time": "5–10 min", "title": "Tirer la carte", "content": "Tirer une seule carte de vertu. Une séance, une vertu, une direction." },
-    { "time": "10–20 min", "title": "Lire lentement", "content": "Lire le nom, la phrase essentielle, puis le texte bref. Laisser les mots devenir climat intérieur." },
-    { "time": "20–25 min", "title": "Préparer le regard", "content": "Installer la lumière douce. Vérifier les yeux, la fatigue, la posture et l’état du corps." },
-    { "time": "25–30 min", "title": "Observer la lumière", "content": "Regard souple, durée courte, sans fixation dure, sans tension." },
-    { "time": "30–40 min", "title": "Accueillir la rémanence", "content": "Fermer les yeux. Recevoir la trace. Déposer la vertu dans la lumière intérieure." },
-    { "time": "40–48 min", "title": "Stabiliser la présence", "content": "Laisser la vertu devenir sensation : chaleur, calme, axe, douceur, courage, clarté." },
-    { "time": "48–55 min", "title": "Carnet d’expérience", "content": "Noter ce qui est réel : état avant/après, qualité de la lumière, sensation, phrase, geste du jour." },
-    { "time": "55–60 min", "title": "Clôture", "content": "Revenir au souffle naturel, sentir les mains, les pieds, la pièce, puis fermer la séance." }
+    { "time": "0–5 min\", \"title\": \"Entrer dans le seuil\", \"content\": \"Préparer le lieu, couper les distractions, poser le carnet, choisir une lumière douce." },
+    { "time": "5–10 min\", \"title\": \"Tirer la carte\", \"content\": \"Tirer une seule carte de vertu. Une séance, une vertu, une direction." },
+    { "time": "10–20 min\", \"title\": \"Lire lentement\", \"content\": \"Lire le nom, la phrase essentielle, puis le texte bref. Laisser les mots devenir climat intérieur." },
+    { "time": "20–25 min\", \"title\": \"Préparer le regard\", \"content\": \"Installer la lumière douce. Vérifier les yeux, la fatigue, la posture et l’état du corps." },
+    { "time": "25–30 min\", \"title\": \"Observer la lumière\", \"content\": \"Regard souple, durée courte, sans fixation dure, sans tension." },
+    { "time": "30–40 min\", \"title\": \"Accueillir la rémanence\", \"content\": \"Fermer les yeux. Recevoir la trace. Déposer la vertu dans la lumière intérieure." },
+    { "time": "40–48 min\", \"title\": \"Stabiliser la présence\", \"content\": \"Laisser la vertu devenir sensation : chaleur, calme, axe, douceur, courage, clarté." },
+    { "time": "48–55 min\", \"title\": \"Carnet d’expérience\", \"content\": \"Noter ce qui est réel : état avant/après, qualité de la lumière, sensation, phrase, geste du jour." },
+    { "time": "55–60 min\", \"title\": \"Clôture\", \"content\": \"Revenir au souffle naturel, sentir les mains, les pieds, la pièce, puis fermer la séance." }
   ],
   "teaching": {
     "intro": "La présence n’est pas une idée vague. C’est une qualité d’habitation. Elle commence lorsque l’élève cesse de consommer les signes et accepte de demeurer avec une seule chose : une carte, une phrase, une lumière, une trace, une sensation.",
@@ -6584,13 +8306,13 @@ window.AXIS_ONE_HOUR_COURSES = [
     ]
   },
   "vocalScript": [
-    { "time": "0:00", "title": "Installation", "text": "Installe-toi simplement. Pose la carte devant toi. Ne cherche pas encore à comprendre. Laisse seulement ton corps arriver." },
-    { "time": "3:00", "title": "La carte", "text": "Regarde le nom de la vertu. Lis-le lentement. Laisse ce mot exister dans l’espace." },
-    { "time": "8:00", "title": "La phrase", "text": "Lis maintenant la phrase essentielle. Ne la saisis pas. Laisse-la descendre comme une goutte dans l’eau." },
-    { "time": "13:00", "title": "La lumière", "text": "Prépare maintenant ton regard. La lumière est douce. Le regard est souple. Rien ne doit forcer." },
-    { "time": "18:00", "title": "La rémanence", "text": "Ferme les yeux. Reçois ce qui reste : une trace, une couleur, une forme, un voile ou seulement une sensation." },
-    { "time": "23:00", "title": "Le geste", "text": "Demande simplement : quel geste peut porter cette vertu aujourd’hui ? Un geste petit, réel, possible." },
-    { "time": "28:00", "title": "Clôture", "text": "Reviens au corps. Sens les mains, les pieds, la pièce autour de toi. La séance se referme doucement." }
+    { "time": "0:00\", \"title\": \"Installation\", \"text\": \"Installe-toi simplement. Pose la carte devant toi. Ne cherche pas encore à comprendre. Laisse seulement ton corps arriver." },
+    { "time": "3:00\", \"title\": \"La carte\", \"text\": \"Regarde le nom de la vertu. Lis-le lentement. Laisse ce mot exister dans l’espace." },
+    { "time": "8:00\", \"title\": \"La phrase\", \"text\": \"Lis maintenant la phrase essentielle. Ne la saisis pas. Laisse-la descendre comme une goutte dans l’eau." },
+    { "time": "13:00\", \"title\": \"La lumière\", \"text\": \"Prépare maintenant ton regard. La lumière est douce. Le regard est souple. Rien ne doit forcer." },
+    { "time": "18:00\", \"title\": \"La rémanence\", \"text\": \"Ferme les yeux. Reçois ce qui reste : une trace, une couleur, une forme, un voile ou seulement une sensation." },
+    { "time": "23:00\", \"title\": \"Le geste\", \"text\": \"Demande simplement : quel geste peut porter cette vertu aujourd’hui ? Un geste petit, réel, possible." },
+    { "time": "28:00\", \"title\": \"Clôture\", \"text\": \"Reviens au corps. Sens les mains, les pieds, la pièce autour de toi. La séance se referme doucement." }
   ],
   "journalQuestions": [
     "Quelle carte ai-je tirée ?",
@@ -8284,14 +10006,14 @@ window.AXIS_ONE_HOUR_COURSES = [
   "essentialPhrase": "Clore, ce n’est pas perdre la lumière : c’est lui donner une demeure.",
   "shortPhrase": "Je ne quitte pas la séance, je la dépose.",
   "minutePlan": [
-    { "time": "0:00 — 5:00", "title": "Entrée", "content": "Se poser, comprendre le thème : pourquoi terminer est un acte initiatique." },
-    { "time": "5:00 — 12:00", "title": "La fausse fin", "content": "Arrêter la technique n’est pas encore clore la séance." },
-    { "time": "12:00 — 20:00", "title": "Les risques de dispersion", "content": "Écran, parole rapide, agitation, faim automatique, interprétation excessive." },
-    { "time": "20:00 — 28:00", "title": "Déposer la lumière", "content": "Cœur, ventre, colonne, mains, pieds : donner une demeure corporelle à l’expérience." },
-    { "time": "28:00 — 35:00", "title": "Contemplation", "content": "Où vais-je trop vite après mes séances ?" },
-    { "time": "35:00 — 50:00", "title": "Pratique guidée", "content": "Protocole complet de clôture en douze étapes." },
-    { "time": "50:00 — 56:00", "title": "Carnet", "content": "Noter sans ajouter, sans retirer." },
-    { "time": "56:00 — 60:00", "title": "Validation", "content": "Phrase de fermeture, action simple, intégration." }
+    { "time": "0:00 — 5:00\", \"title\": \"Entrée\", \"content\": \"Se poser, comprendre le thème : pourquoi terminer est un acte initiatique." },
+    { "time": "5:00 — 12:00\", \"title\": \"La fausse fin\", \"content\": \"Arrêter la technique n’est pas encore clore la séance." },
+    { "time": "12:00 — 20:00\", \"title\": \"Les risques de dispersion\", \"content\": \"Écran, parole rapide, agitation, faim automatique, interprétation excessive." },
+    { "time": "20:00 — 28:00\", \"title\": \"Déposer la lumière\", \"content\": \"Cœur, ventre, colonne, mains, pieds : donner une demeure corporelle à l’expérience." },
+    { "time": "28:00 — 35:00\", \"title\": \"Contemplation\", \"content\": \"Où vais-je trop vite après mes séances ?" },
+    { "time": "35:00 — 50:00\", \"title\": \"Pratique guidée\", \"content\": \"Protocole complet de clôture en douze étapes." },
+    { "time": "50:00 — 56:00\", \"title\": \"Carnet\", \"content\": \"Noter sans ajouter, sans retirer." },
+    { "time": "56:00 — 60:00\", \"title\": \"Validation\", \"content\": \"Phrase de fermeture, action simple, intégration." }
   ],
   "teaching": {
     "intro": "Une séance ne se termine pas lorsque l’exercice s’arrête. Elle se termine lorsque le corps retrouve son assise, lorsque le souffle redevient naturel, lorsque la pensée cesse de flotter, lorsque l’expérience a été déposée dans une présence simple.",
@@ -8360,17 +10082,17 @@ window.AXIS_ONE_HOUR_COURSES = [
     "safety": "Ne jamais se lever brutalement après une pratique intérieure intense. Ne pas reprendre immédiatement une conduite, un écran, une conversation conflictuelle ou une tâche exigeante. En cas de vertige, fatigue visuelle, tension cervicale, malaise ou inconfort, arrêter la pratique, ouvrir les yeux, respirer naturellement, boire un peu d’eau et revenir aux sensations corporelles simples. Pour la lumière : utiliser uniquement une lumière douce, indirecte ou adaptée. Ne jamais fixer le soleil directement. Arrêter en cas de gêne visuelle."
   },
   "vocalScript": [
-    { "time": "0:00 — 1:00", "title": "Arrivée", "text": "Installe-toi. La séance arrive à sa fin, mais ne quitte pas trop vite l’espace intérieur." },
-    { "time": "1:00 — 2:00", "title": "Arrêt doux", "text": "Laisse ce que tu faisais s’arrêter doucement. Si tu étais dans un mouvement, réduis l’amplitude. Si tu étais dans un souffle, laisse le souffle redevenir naturel." },
-    { "time": "2:00 — 3:00", "title": "Ne pas retenir", "text": "Si tu étais dans une image, ne la poursuis plus. Reste là, quelques instants, sans chercher à prolonger, sans chercher à retenir." },
-    { "time": "3:00 — 4:30", "title": "Les pieds", "text": "Sens maintenant tes pieds. Le contact avec le sol. Le poids simple du corps." },
-    { "time": "4:30 — 6:00", "title": "Le corps", "text": "Sens le bassin, le dos, les épaules, les mains. La séance revient dans le corps." },
-    { "time": "6:00 — 8:00", "title": "Le dépôt", "text": "Ce que tu as vécu n’a pas besoin d’être expliqué maintenant. Il peut se déposer. Choisis un lieu de dépôt : le cœur, le ventre, la colonne, les mains ou les pieds." },
-    { "time": "8:00 — 10:00", "title": "Déposer sans forcer", "text": "Laisse la lumière, la sensation, l’image ou le calme descendre doucement dans ce lieu. Rien à forcer. Rien à produire. Seulement déposer." },
-    { "time": "10:00 — 11:30", "title": "Retour sensoriel", "text": "Bouge légèrement les doigts. Bouge légèrement les orteils. Laisse le regard revenir doucement." },
-    { "time": "11:30 — 13:00", "title": "La pièce", "text": "Regarde simplement la pièce : un objet, une forme, une couleur, un appui." },
-    { "time": "13:00 — 14:00", "title": "Phrase de fermeture", "text": "Dis intérieurement : Je reviens dans mon corps. Je garde le fruit de l’exercice. Je rends ce qui ne m’appartient pas. La lumière se dépose. La séance est close." },
-    { "time": "14:00 — 15:00", "title": "Carnet", "text": "Prends ton carnet et note ce qui est réel : une sensation, une phrase, un ajustement. La séance est maintenant intégrée." }
+    { "time": "0:00 — 1:00\", \"title\": \"Arrivée\", \"text\": \"Installe-toi. La séance arrive à sa fin, mais ne quitte pas trop vite l’espace intérieur." },
+    { "time": "1:00 — 2:00\", \"title\": \"Arrêt doux\", \"text\": \"Laisse ce que tu faisais s’arrêter doucement. Si tu étais dans un mouvement, réduis l’amplitude. Si tu étais dans un souffle, laisse le souffle redevenir naturel." },
+    { "time": "2:00 — 3:00\", \"title\": \"Ne pas retenir\", \"text\": \"Si tu étais dans une image, ne la poursuis plus. Reste là, quelques instants, sans chercher à prolonger, sans chercher à retenir." },
+    { "time": "3:00 — 4:30\", \"title\": \"Les pieds\", \"text\": \"Sens maintenant tes pieds. Le contact avec le sol. Le poids simple du corps." },
+    { "time": "4:30 — 6:00\", \"title\": \"Le corps\", \"text\": \"Sens le bassin, le dos, les épaules, les mains. La séance revient dans le corps." },
+    { "time": "6:00 — 8:00\", \"title\": \"Le dépôt\", \"text\": \"Ce que tu as vécu n’a pas besoin d’être expliqué maintenant. Il peut se déposer. Choisis un lieu de dépôt : le cœur, le ventre, la colonne, les mains ou les pieds." },
+    { "time": "8:00 — 10:00\", \"title\": \"Déposer sans forcer\", \"text\": \"Laisse la lumière, la sensation, l’image ou le calme descendre doucement dans ce lieu. Rien à forcer. Rien à produire. Seulement déposer." },
+    { "time": "10:00 — 11:30\", \"title\": \"Retour sensoriel\", \"text\": \"Bouge légèrement les doigts. Bouge légèrement les orteils. Laisse le regard revenir doucement." },
+    { "time": "11:30 — 13:00\", \"title\": \"La pièce\", \"text\": \"Regarde simplement la pièce : un objet, une forme, une couleur, un appui." },
+    { "time": "13:00 — 14:00\", \"title\": \"Phrase de fermeture\", \"text\": \"Dis intérieurement : Je reviens dans mon corps. Je garde le fruit de l’exercice. Je rends ce qui ne m’appartient pas. La lumière se dépose. La séance est close." },
+    { "time": "14:00 — 15:00\", \"title\": \"Carnet\", \"text\": \"Prends ton carnet et note ce qui est réel : une sensation, une phrase, un ajustement. La séance est maintenant intégrée." }
   ],
   "journalQuestions": [
     "Ai-je terminé trop vite ?",
@@ -8556,15 +10278,15 @@ window.AXIS_ONE_HOUR_COURSES = [
   "pedagogicalObjective": "Apprendre à conduire une séance complète à partir d’une carte de vertu : préparation, tirage, lecture lente, observation lumineuse prudente, rémanence, carnet et clôture.",
   "initiaticObjective": "Transformer une vertu en présence. Ne plus seulement comprendre une qualité, mais l’accueillir dans le champ intérieur, la laisser s’imprimer doucement, puis l’incarner dans un geste simple.",
   "minutePlan": [
-    { "time": "0–5 min", "title": "Entrer dans le seuil", "content": "Préparer le lieu, couper les distractions, poser le carnet, choisir une lumière douce." },
-    { "time": "5–10 min", "title": "Tirer la carte", "content": "Tirer une seule carte de vertu. Une séance, une vertu, une direction." },
-    { "time": "10–20 min", "title": "Lire lentement", "content": "Lire le nom, la phrase essentielle, puis le texte bref. Laisser les mots devenir climat intérieur." },
-    { "time": "20–25 min", "title": "Préparer le regard", "content": "Installer la lumière douce. Vérifier les yeux, la fatigue, la posture et l’état du corps." },
-    { "time": "25–30 min", "title": "Observer la lumière", "content": "Regard souple, durée courte, sans fixation dure, sans tension." },
-    { "time": "30–40 min", "title": "Accueillir la rémanence", "content": "Fermer les yeux. Recevoir la trace. Déposer la vertu dans la lumière intérieure." },
-    { "time": "40–48 min", "title": "Stabiliser la présence", "content": "Laisser la vertu devenir sensation : chaleur, calme, axe, douceur, courage, clarté." },
-    { "time": "48–55 min", "title": "Carnet d’expérience", "content": "Noter ce qui est réel : état avant/après, qualité de la lumière, sensation, phrase, geste du jour." },
-    { "time": "55–60 min", "title": "Clôture", "content": "Revenir au souffle naturel, sentir les mains, les pieds, la pièce, puis fermer la séance." }
+    { "time": "0–5 min\", \"title\": \"Entrer dans le seuil\", \"content\": \"Préparer le lieu, couper les distractions, poser le carnet, choisir une lumière douce." },
+    { "time": "5–10 min\", \"title\": \"Tirer la carte\", \"content\": \"Tirer une seule carte de vertu. Une séance, une vertu, une direction." },
+    { "time": "10–20 min\", \"title\": \"Lire lentement\", \"content\": \"Lire le nom, la phrase essentielle, puis le texte bref. Laisser les mots devenir climat intérieur." },
+    { "time": "20–25 min\", \"title\": \"Préparer le regard\", \"content\": \"Installer la lumière douce. Vérifier les yeux, la fatigue, la posture et l’état du corps." },
+    { "time": "25–30 min\", \"title\": \"Observer la lumière\", \"content\": \"Regard souple, durée courte, sans fixation dure, sans tension." },
+    { "time": "30–40 min\", \"title\": \"Accueillir la rémanence\", \"content\": \"Fermer les yeux. Recevoir la trace. Déposer la vertu dans la lumière intérieure." },
+    { "time": "40–48 min\", \"title\": \"Stabiliser la présence\", \"content\": \"Laisser la vertu devenir sensation : chaleur, calme, axe, douceur, courage, clarté." },
+    { "time": "48–55 min\", \"title\": \"Carnet d’expérience\", \"content\": \"Noter ce qui est réel : état avant/après, qualité de la lumière, sensation, phrase, geste du jour." },
+    { "time": "55–60 min\", \"title\": \"Clôture\", \"content\": \"Revenir au souffle naturel, sentir les mains, les pieds, la pièce, puis fermer la séance." }
   ],
   "teaching": {
     "intro": "La présence n’est pas une idée vague. C’est une qualité d’habitation. Elle commence lorsque l’élève cesse de consommer les signes et accepte de demeurer avec une seule chose : une carte, une phrase, une lumière, une trace, une sensation.",
@@ -8641,13 +10363,13 @@ window.AXIS_ONE_HOUR_COURSES = [
     ]
   },
   "vocalScript": [
-    { "time": "0:00", "title": "Installation", "text": "Installe-toi simplement. Pose la carte devant toi. Ne cherche pas encore à comprendre. Laisse seulement ton corps arriver." },
-    { "time": "3:00", "title": "La carte", "text": "Regarde le nom de la vertu. Lis-le lentement. Laisse ce mot exister dans l’espace." },
-    { "time": "8:00", "title": "La phrase", "text": "Lis maintenant la phrase essentielle. Ne la saisis pas. Laisse-la descendre comme une goutte dans l’eau." },
-    { "time": "13:00", "title": "La lumière", "text": "Prépare maintenant ton regard. La lumière est douce. Le regard est souple. Rien ne doit forcer." },
-    { "time": "18:00", "title": "La rémanence", "text": "Ferme les yeux. Reçois ce qui reste : une trace, une couleur, une forme, un voile ou seulement une sensation." },
-    { "time": "23:00", "title": "Le geste", "text": "Demande simplement : quel geste peut porter cette vertu aujourd’hui ? Un geste petit, réel, possible." },
-    { "time": "28:00", "title": "Clôture", "text": "Reviens au corps. Sens les mains, les pieds, la pièce autour de toi. La séance se referme doucement." }
+    { "time": "0:00\", \"title\": \"Installation\", \"text\": \"Installe-toi simplement. Pose la carte devant toi. Ne cherche pas encore à comprendre. Laisse seulement ton corps arriver." },
+    { "time": "3:00\", \"title\": \"La carte\", \"text\": \"Regarde le nom de la vertu. Lis-le lentement. Laisse ce mot exister dans l’espace." },
+    { "time": "8:00\", \"title\": \"La phrase\", \"text\": \"Lis maintenant la phrase essentielle. Ne la saisis pas. Laisse-la descendre comme une goutte dans l’eau." },
+    { "time": "13:00\", \"title\": \"La lumière\", \"text\": \"Prépare maintenant ton regard. La lumière est douce. Le regard est souple. Rien ne doit forcer." },
+    { "time": "18:00\", \"title\": \"La rémanence\", \"text\": \"Ferme les yeux. Reçois ce qui reste : une trace, une couleur, une forme, un voile ou seulement une sensation." },
+    { "time": "23:00\", \"title\": \"Le geste\", \"text\": \"Demande simplement : quel geste peut porter cette vertu aujourd’hui ? Un geste petit, réel, possible." },
+    { "time": "28:00\", \"title\": \"Clôture\", \"text\": \"Reviens au corps. Sens les mains, les pieds, la pièce autour de toi. La séance se referme doucement." }
   ],
   "journalQuestions": [
     "Quelle carte ai-je tirée ?",
