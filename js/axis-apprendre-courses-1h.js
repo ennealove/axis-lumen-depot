@@ -642,7 +642,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   },
   "pdfPremium": true
 },
-        {
+    {
   "id": "C003-maintenir-son-temple-propre-au-quotidien",
   "number": 3,
   "title": "Maintenir son temple propre au quotidien",
@@ -1093,8 +1093,619 @@ window.AXIS_ONE_HOUR_COURSES = [
   "pdfPremium": true
 },
     {
-  "id": "C005-preparer-une-seance-ouvrir-le-seuil",
-  "number": 5,
+    "id": "C005-convergence-oculaire",
+    "number": 5,
+    "familyId": "exercices",
+    "familyTitle": "Livre d'Exercices enrichi",
+    "symbol": "◎",
+    "title": "Exercice 9 — Convergence oculaire",
+    "subtitle": "Fusionner deux points visuels vers un centre unique",
+    "duration": "1 h",
+    "durationMin": 60,
+    "level": "Fondation",
+    "kind": "Exercice de perception visuelle",
+    "status": "available",
+    "summary": "La convergence oculaire est un exercice de concentration du regard qui consiste à fixer un point ou à fusionner deux images en un centre unique. Cet exercice développe la stabilité du regard intérieur et prépare à la perception de la rémanence.",
+    "shortSummary": "Diriger les deux axes visuels vers un même point central.",
+    "longSummary": "La convergence oculaire est l'un des exercices fondamentaux du Livre d'Exercices. En dirigeant les deux axes visuels vers un point unique — réel ou imaginaire — on crée un état de concentration naturelle qui calme le mental discursif. Cet exercice peut se pratiquer avec deux doigts devant le visage, avec un objet suspendu, ou purement en imagination. La convergence active les mécanismes de focalisation binoculaire du cerveau et prépare directement à la stabilisation du point intérieur décrite dans les exercices 3 et 4. Avec l'entraînement, la convergence devient un déclencheur d'état : quelques secondes suffisent pour retrouver la qualité d'attention requise pour la pratique lumineuse.",
+    "pedagogicalObjective": "Maîtriser la convergence des axes visuels vers un centre unique et stabiliser le regard intérieur.",
+    "initiaticObjective": "Développer la qualité d'attention focalisée qui précède et accompagne la rémanence.",
+    "essentialPhrase": "Je dirige mes deux regards vers un même centre. Je tiens ce point. Je laisse l'attention se poser.",
+    "shortPhrase": "Un centre. Deux yeux. Un seul regard.",
+    "coverImage": "assets/images/exercice%20113%20114%20115/convergence%20oculaire%201.png",
+    "image": "assets/images/exercice%20113%20114%20115/convergence%20oculaire%201.png",
+    "pdfPremium": false,
+    "tags": ["convergence", "regard", "concentration", "binoculaire", "point fixe", "exercice"]
+  },
+    {
+    "id": "C006-mantras-voyelles-vibratoires",
+    "number": 6,
+    "familyId": "souffle",
+    "familyTitle": "Yoga, souffle & mantras",
+    "symbol": "φ",
+    "title": "Exercice 10 — Mantras et voyelles vibratoires",
+    "subtitle": "Ancrer le son dans le corps comme support d'attention intérieure",
+    "duration": "1 h",
+    "durationMin": 60,
+    "level": "Fondation",
+    "kind": "Exercice sonore & vibratoire",
+    "status": "available",
+    "summary": "Les voyelles vibratoires — I, A, O, U et leurs combinaisons — sont utilisées comme ancres sonores pour stabiliser l'attention et créer un espace intérieur de résonance. Ce cours approfondit la pratique des mantras au-delà des syllabes fondamentales.",
+    "shortSummary": "Pratiquer les voyelles vibratoires comme ancres d'attention et de résonance corporelle.",
+    "longSummary": "Le mantra est une technologie de l'attention par le son. En vocalisant ou en pensant intérieurement une syllabe vibratoire, on crée une oscillation qui stabilise le mental de la même façon que le balancement stabilise le corps. Les voyelles I, A, O, U résonnent différemment dans le corps : le I résonne en haut (crâne, sinus), le A au centre (poitrine, coeur), le O dans le bas (ventre, bassin), le U dans la profondeur (racines). Les combinaisons ILLI, ALLA, OLLO, RORO créent des cycles complets qui accompagnent le rythme respiratoire. Ce cours propose une pratique progressive : d'abord vocaliser à voix haute pour sentir les résonances, puis intérioriser jusqu'au mantra silencieux, puis associer le mantra à la rémanence lumineuse pour créer une double ancre.",
+    "pedagogicalObjective": "Maîtriser les voyelles vibratoires et leurs résonances corporelles, et les associer à la pratique lumineuse.",
+    "initiaticObjective": "Transformer la vocalisation en présence intérieure, du son audible au mantra silencieux.",
+    "essentialPhrase": "Le son que je produis résonne dans mon corps avant de sortir. Je suis la caverne qui chante.",
+    "shortPhrase": "Je suis le son. Je suis la résonance. Je suis le silence qui suit.",
+    "coverImage": "assets/images/exercice%20113%20114%20115/mantra%201.png",
+    "image": "assets/images/exercice%20113%20114%20115/mantra%201.png",
+    "pdfPremium": false,
+    "tags": ["mantra", "voyelles", "son", "vibration", "ILLI", "ALLA", "OLLO", "RORO", "souffle", "exercice"]
+  },
+    {
+    "id": "C007-sensations-cenesthesiques",
+    "number": 7,
+    "familyId": "vivant",
+    "familyTitle": "Clair-ressenti & vivant",
+    "symbol": "◈",
+    "title": "Exercice 11 — Sensations cénesthésiques",
+    "subtitle": "Percevoir et habiter les sensations internes du corps vivant",
+    "duration": "1 h",
+    "durationMin": 60,
+    "level": "Fondation",
+    "kind": "Exercice de perception corporelle",
+    "status": "available",
+    "summary": "La cénesthésie est la conscience globale du corps — la somme de toutes les sensations internes : chaleur, picotements, poids, légèreté, flux, pulsation. Apprendre à percevoir ces sensations fine le système nerveux et ouvre la voie au clair-ressenti.",
+    "shortSummary": "Développer la conscience des sensations internes du corps comme fondation du clair-ressenti.",
+    "longSummary": "La cénesthésie désigne l'ensemble des sensations que le corps produit de l'intérieur : temperature, pression, mouvement, vibration, tonus musculaire, pulsation cardiaque, flux sanguin, légèreté ou lourdeur des membres. C'est le socle physiologique de ce que les traditions appellent le corps subtil. En apprenant à percevoir ces sensations avec finesse et sans les interpréter, on développe un outil d'observation interne précieux. La pratique commence par un inventaire corporel calme (scanner de la tête aux pieds), puis s'affine vers la perception de nuances plus subtiles : picotement au bout des doigts, chaleur qui monte dans la colonne, légère pulsation au centre du front. Ces perceptions ne sont ni imaginées ni construites — elles sont réelles et mesurables. Ce cours apprend à les accueillir sans amplification ni déni, et à les utiliser comme repères dans les séances de pratique lumineuse.",
+    "pedagogicalObjective": "Développer la capacité de percevoir et nommer les sensations cénesthésiques corporelles avec précision.",
+    "initiaticObjective": "Transformer le corps en instrument de perception intérieure fidèle et sobre.",
+    "essentialPhrase": "Je perçois ce qui est. Je ne fabrique pas. Je ne refuse pas. Je laisse le corps parler son langage discret.",
+    "shortPhrase": "Je sens donc je suis présent.",
+    "coverImage": "assets/images/exercice%20113%20114%20115/c%C3%A9n%C3%A8st%C3%A9sique%201.png",
+    "image": "assets/images/exercice%20113%20114%20115/c%C3%A9n%C3%A8st%C3%A9sique%201.png",
+    "pdfPremium": false,
+    "tags": ["cénesthésie", "sensations", "corps", "chaleur", "picotements", "perception", "clair-ressenti", "exercice"]
+  },
+    {
+        "id":  "C008-balancement-lateral-complet",
+        "number":  8,
+        "familyId":  "balancements",
+        "familyTitle":  "Balancements",
+        "symbol":  "↔",
+        "title":  "Balancement latéral complet",
+        "subtitle":  "L’oscillation droite-gauche comme rééquilibrage des hémisphères",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Approfondissement",
+        "kind":  "Pratique corporelle & intégration",
+        "status":  "available",
+        "summary":  "Le balancement latéral est l’un des mouvements les plus anciens de la mémoire corporelle humaine. De la berceuse à la prière, ce geste universel calme le système nerveux, synchronise les hémisphères et crée un terrain intérieur de réceptivité profonde.",
+        "shortSummary":  "Oscillation droite-gauche pour rééquilibrer les hémisphères et induire un état de réceptivité.",
+        "longSummary":  "Le balancement latéral réactive une intelligence ancestrale inscrite dans le corps. Ce mouvement doux de droite à gauche produit des effets mesurables sur le système nerveux autonome : il réduit l’activation sympathique, favorise la cohérence entre les deux hémisphères cérébraux et crée une alternance rythmique qui prépare l’être à recevoir des impressions subtiles. Dans ce cours, nous explorons le balancement latéral dans ses trois formes — du corps entier, de la tête seule, et intériorisé (sans mouvement physique) — en l’associant à la respiration, au mantra et à la visualisation de l’axe central. La pratique guidee permet de saisir comment un simple geste oscillatoire peut devenir une méthode de centrage, de traitement émotionnel et d’ouverture perceptive.",
+        "pedagogicalObjective":  "Maîtriser la technique du balancement latéral dans ses trois formes (corps, tête, intériorisé) et comprendre son action sur le système nerveux et la perception.",
+        "initiaticObjective":  "Faire du balancement latéral un instrument de dialogue entre les deux polarités intérieures — action et réception, analyse et synthèse — pour trouver le point de silence en leur centre.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Installation\",     \"content\": \"Position assise stable, évaluation de l’état intérieur du moment, respiration naturelle." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Principe du balancement latéral : histoire universelle du geste, action sur les hémisphères, notion de rémanence." },
+            { "time": "15:00 — 25:00\",\"title\": \"Pratique corps\",   \"content\": \"Balancement du corps entier, lenteur, suivi du point d’équilibre, association du mantra ILLI." },
+            { "time": "25:00 — 35:00\",\"title\": \"Pratique tête\",    \"content\": \"Balancement de la tête seule, yeux fermés, observation de l’espace intérieur en mouvement." },
+            { "time": "35:00 — 45:00\",\"title\": \"Intériorisation\",  \"content\": \"Arrêt du mouvement physique, continuation du balancement en imagination, observation de la rémanence." },
+            { "time": "45:00 — 55:00\",\"title\": \"Intégration\",     \"content\": \"Carnet de pratique, phrase essentielle du cours, observation des effets dans le corps." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Retour au souffle, enracinement, geste concret du jour." }
+        ],
+        "plan":  [
+            "0–5 min — Installation et évaluation de l’état de départ",
+            "5–15 min — Enseignement : universalité du geste oscillatoire et action sur les hémisphères",
+            "15–25 min — Pratique du balancement du corps entier avec mantra ILLI",
+            "25–35 min — Pratique du balancement de la tête seule",
+            "35–45 min — Intériorisation du mouvement et observation de la rémanence",
+            "45–55 min — Intégration, carnet, phrase essentielle",
+            "55–60 min — Clôture et enracinement"
+        ],
+        "teaching":  {
+            "intro":  "Le corps humain porte en lui des gestes que nul n’a besoin d’apprendre. L’oscillation droite-gauche en fait partie. Avant toute culture, avant toute tradition, cet enfant qu’on berce, ce vieillard qui prie, ce meditant qui se balance dans le silence — tous retrouvent par instinct ce mouvement fondamental. Ce cours explore pourquoi ce geste est si universel et comment l’utiliser comme instrument de travail interieur.",
+            "sections":  [
+                {
+                    "title":  "1. Le geste universel de la berceuse et de la prière",
+                    "content":  "Dans toutes les cultures, le balancement latéral accompagne les moments de transition : on berce l’enfant pour le faire passer de l’éveil au sommeil, on se balance en prière pour passer de l’ordinaire au sacré. Ce n’est pas une coïncidence. Le mouvement oscillatoire de droite à gauche active le nerf vague, réduit la tension sympathique et favorise l’entrée en état de réceptivité élargie. Le corps sait ce que l’esprit cherche encore à comprendre."
+                },
+                {
+                    "title":  "2. Action sur les hémisphères cérébraux",
+                    "content":  "Le balancement latéral crée une alternance rythmique gauche-droite qui favorise la cohérence inter-hémisphérique. L’hémisphère gauche, associé au langage et à l’analyse, et l’hémisphère droit, associé à la perception spatiale et à la synthèse, entrent progressivement en dialogue. On observe après une pratique soutenue une réduction du dialogue intérieur, une plus grande disponibilité sensorielle et un sentiment de centrage qui persiste bien au-delà du mouvement lui-même."
+                },
+                {
+                    "title":  "3. Les trois formes du balancement latéral",
+                    "content":  "La pratique se décline en trois formes progressives. La première est le balancement du corps entier depuis la base : assis, on laisse le buste osciller lentement, les hanches servant de pivot. La deuxième est le balancement de la tête seule, corps immobile, ce qui concentre l’effet sur les structures cérébrales et sensitives supérieures. La troisième est l’intériorisation complète : on arrête tout mouvement physique mais on continue le balancement en imagination pure, ce qui prolonge l’effet tout en cultivant la capacité de visualisation cinétique."
+                },
+                {
+                    "title":  "4. Le mantra ILLI et le rythme naturel",
+                    "content":  "Le mantra ILLI (prononcé « il-li », deux syllabes égales) s’associe naturellement au balancement latéral : une syllabe pour la droite, une syllabe pour la gauche. Ce n’est pas une récitation mentale mais une résonance : la vibration de la voyelle I dans la structure osseuse du crâne accompagne et amplifie le mouvement oscillatoire. On cherche le rythme naturel du corps, ni trop lent ni trop rapide, celui qui s’installe de lui-même quand on cesse de contrôler."
+                },
+                {
+                    "title":  "5. La rémanence : ce qui reste après le mouvement",
+                    "content":  "L’un des phénomènes les plus intéressants du balancement est la rémanence : après l’arrêt du mouvement physique, une sensation de continuation persiste dans le corps et dans le champ de conscience. Cette rémanence est précieuse — elle signale que l’effet s’est installé dans des couches plus profondes. On apprend à l’accueillir sans l’interrompre, à rester dans cet espace de transition où la perception est la plus fine."
+                }
+            ]
+        },
+        "practice":  "Protocole balancement latéral — 45 minutes actives :\n1. Asseyez-vous en tailleur ou sur une chaise, colonne vertébrale droite, mains sur les genoux.\n2. Fermez les yeux. Trois respirations profondes pour évaluer votre état de départ.\n3. Commencez le balancement du corps entier : lentement, de droite à gauche, laissez le rythme s'installer naturellement (environ 1 aller-retour par seconde ou moins).\n4. Ajoutez mentalement le mantra ILLI : 'IL' à droite, 'LI' à gauche.\n5. Après 10 minutes, réduisez progressivement le mouvement au seul balancement de la tête.\n6. Après 10 minutes supplémentaires, immobilisez totalement le corps. Continuez le balancement en imagination.\n7. Restez immobile 10 minutes dans la rémanence. Observez sans analyser.\n8. Notez immédiatement dans votre carnet : sensations, images, qualité de l'espace intérieur.",
+        "image":  "assets/course-visuals-premium/C041-balancement-lateral-complet.svg",
+        "pdf":  "assets/cours-pdf/C041-balancement-lateral-complet.pdf",
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C009-balancement-vertical-complet",
+        "number":  9,
+        "familyId":  "balancements",
+        "familyTitle":  "Balancements",
+        "symbol":  "↔",
+        "title":  "Balancement vertical complet",
+        "subtitle":  "L’oscillation haut-bas comme dialogue entre ciel et terre",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Approfondissement",
+        "kind":  "Pratique corporelle & intégration",
+        "status":  "available",
+        "summary":  "Le balancement vertical explore l’axe haut-bas du corps, dialogue entre l’ancrage terrestre et l’élévation spirituelle. Ce mouvement travaille la colonne vertébrale comme antenne vivante et cultive la capacité à recevoir des impressions du champ supérieur tout en restant enraciné.",
+        "shortSummary":  "Oscillation haut-bas pour activer l’axe vertical du corps et relier ancrage et élévation.",
+        "longSummary":  "L’axe vertical est l’un des axes fondamentaux de l’expérience humaine. Se tenir debout, c’est déjà affirmer une relation entre le bas (la terre, la matière, l’ancrage) et le haut (le ciel, l’esprit, la direction). Le balancement vertical intègre ces deux pôles en les mettant en mouvement rythmique. Ce cours présente trois formes de balancement vertical — du buste (hoche-tête ancestral), de la tête seule (avant-arrière sagittal réduit), et intériorisé comme flux d’énergie montant et descendant le long de la colonne. Le mantra ALLA (deux syllabes harmoniques) accompagne le mouvement. La pratique développe la sensibilité à l’axe cranio-sacré et à la circulation de l’énergie vitale entre les chakras inférieurs et supérieurs.",
+        "pedagogicalObjective":  "Maîtriser les trois formes du balancement vertical et comprendre l’axe cranio-sacré comme support de circulation énergétique.",
+        "initiaticObjective":  "Faire du balancement vertical un rituel de connexion entre la dimension terrestre et la dimension spirituelle de l’être, cultivant la capacité à être un pont entre ciel et terre.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Ancrage initial\",   \"content\": \"Prise de conscience de la colonne vertébrale comme axe, trois respirations verticales (inspire vers le haut, expire vers le bas)." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"L’axe vertical dans la tradition et la physiologie : colonne, axe cranio-sacré, pression du LCR." },
+            { "time": "15:00 — 25:00\",\"title\": \"Pratique buste\",   \"content\": \"Balancement vertical du buste, mouvement ample et lent, mantra ALLA." },
+            { "time": "25:00 — 35:00\",\"title\": \"Pratique tête\",    \"content\": \"Balancement de la tête seule (avant-arrière), très léger, focus sur la base du crâne." },
+            { "time": "35:00 — 45:00\",\"title\": \"Intériorisation\",  \"content\": \"Arrêt du mouvement, visualisation du flux énergétique montant-descendant le long de la colonne." },
+            { "time": "45:00 — 55:00\",\"title\": \"Intégration\",     \"content\": \"Carnet, observation des zones touchées, phrase essentielle." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Retour au sol, enracinement des pieds, projection de l’énergie vers le bas puis vers le haut." }
+        ],
+        "plan":  [
+            "0–5 min — Prise de conscience de l’axe vertical et ancrage",
+            "5–15 min — Enseignement : axe cranio-sacré, ciel et terre, LCR",
+            "15–25 min — Balancement vertical du buste avec mantra ALLA",
+            "25–35 min — Balancement de la tête seule, axe sagittal",
+            "35–45 min — Intériorisation : flux énergétique le long de la colonne",
+            "45–55 min — Intégration et carnet de pratique",
+            "55–60 min — Clôture et enracinement"
+        ],
+        "teaching":  {
+            "intro":  "Se tenir debout est un geste initiatique en soi. L’axe vertical du corps humain est unique parmi les mammiferes : nous seuls maintenons la colonne perpendiculaire au sol, crâne pointé vers le ciel. Ce positionnement n’est pas un accident evolutif — il fait de nous des antennes particulieres, capables de capter des frequences qui ne peuvent atteindre un etre couche ou plat. Le balancement vertical active et conscientise cet axe.",
+            "sections":  [
+                {
+                    "title":  "1. L’axe vertical comme antenne vivante",
+                    "content":  "La colonne vertébrale est une structure piézoélectrique : elle génère un signal électrique sous contrainte mécanique. Chaque oscillation verticale crée une onde de compression qui se propage de la base au sommet du crâne, modulant l’activité du système nerveux central. L’axe cranio-sacré, parcouru par le liquide céphalo-rachidien en oscillation lente, est un système dynamique d’une extrême sensibilité. Le balancement vertical résonne avec ce rythme primordial."
+                },
+                {
+                    "title":  "2. Les polarités haut et bas dans la physiologie énergétique",
+                    "content":  "Dans toutes les traditions de travail énergétique, l’axe vertical met en relation deux pôles : le pôle inférieur (ancrage, densité, for ces terrestres) et le pôle supérieur (élévation, légèreté, réceptivité aux influences subtiles). Le balancement vertical n’est pas un simple mouvement mécanique : c’est un dialogue entre ces deux dimensions de l’être. Ni la terre seule, ni le ciel seul ne suffisent — c’est le mouvement entre eux qui génère la vie."
+                },
+                {
+                    "title":  "3. Le mantra ALLA : la fondation et l’élévation",
+                    "content":  "Le mantra ALLA (prononcé « al-la », accent sur la première syllabe) associe la consonne L — vibration linguale centrale — à la voyelle A, la plus ouverte, celle qui résonne dans la cavité thoracique. La syllabe AL, prononcée à la descente, ancre. La syllabe LA, prononcée à la montée, élève. Ce mantra ne nomme rien d’extérieur — il active un circuit intérieur de circulation énergétique le long de l’axe vertical."
+                },
+                {
+                    "title":  "4. La pression du liquide céphalo-rachidien et la conscience",
+                    "content":  "Le liquide céphalo-rachidien (LCR) baigne le cerveau et la moelle épinière dans un mouvement autonome d’expansion-contraction. Des recherches en ostéopathie cranio-sacrée indiquent que ce rythme primaire, de 6 à 12 cycles par minute, est lié à des états de conscience spécifiques. Le balancement vertical synchronisé avec la respiration peut amplifier et harmoniser ce rythme, créant des états de conscience élargie accessibles sans pharmacoïdes."
+                },
+                {
+                    "title":  "5. La pratique intériorisée : sentir le flux sans se mouvoir",
+                    "content":  "Après la phase de mouvement, on arrête complètement le corps et on cherche à sentir le flux énergétique qui continue de circuler le long de la colonne. Certains pratiquants décrivent une chaleur ascendante, d’autres une légèreté progressive, d’autres encore des pulsations au sommet du crâne. Ce n’est pas de l’imagination — c’est la perception affinée d’un phénomène physiologique réel qui devient perceptible quand le mouvement extérieur cesse d’attirer l’attention."
+                }
+            ]
+        },
+        "practice":  "Protocole balancement vertical — 45 minutes actives :\n1. Assis ou debout, colonne verticale, sentez le poids de votre corps vers le bas et l'aspiration vers le haut simultanément.\n2. Inspirez en vous grandissant mentalement, expirez en vous enracinant. Trois cycles.\n3. Commencez le balancement du buste vers l'avant (inspiration) et l'arrière (expiration), ou vers le haut (étirement) et le bas (affaissement). Rythme très lent.\n4. Mantra ALLA : 'AL' à la descente, 'LA' à la montée.\n5. Après 10 minutes, réduisez au seul balancement de la tête, très léger.\n6. Après 10 minutes, immobilisez. Cherchez le flux interne le long de la colonne.\n7. Restez 10 minutes dans l'immobilité attentive.\n8. Notez : zones actives, qualité du flux, sensations au sommet du crâne.",
+        "image":  "assets/course-visuals-premium/C042-balancement-vertical-complet.svg",
+        "pdf":  "assets/cours-pdf/C042-balancement-vertical-complet.pdf",
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C010-balancement-antero-posterieur",
+        "number":  10,
+        "familyId":  "balancements",
+        "familyTitle":  "Balancements",
+        "symbol":  "↔",
+        "title":  "Balancement antéro-postérieur",
+        "subtitle":  "L’oscillation avant-arrière comme intégration du passé et de l’avenir",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Approfondissement",
+        "kind":  "Pratique corporelle & intégration",
+        "status":  "available",
+        "summary":  "Le balancement antéro-postérieur (avant-arrière) explore une dimension temporelle : l’avant est associé au futur, au projet, à l’intention ; l’arrière est associé au passé, à la mémoire, à l’enracinement. Ce cours utilise ce mouvement pour intégrer les deux dimensions du temps dans un présent élargi.",
+        "shortSummary":  "Oscillation avant-arrière pour intégrer passé et avenir dans un présent élargi.",
+        "longSummary":  "L’axe antéro-postérieur du corps porte une charge symbolique et psychologique particulière. Dans la culture et dans l’expérience commune, se pencher en avant signifie aller vers, s’exposer, anticiper ; se pencher en arrière signifie reculer, se protéger, revenir. Le balancement antéro-postérieur met ces deux postures en dialogue rythmique, dissolvant progressivement la tension entre ce qui a été et ce qui sera pour ancrer l’être dans le seul espace où la perception est possible : le présent vivant. Ce cours travaille aussi sur la conscience dorsale — la perception de ce qui se passe dans le dos, ce « champ arrière » souvent négligé mais crucial pour une conscience spatiale complète.",
+        "pedagogicalObjective":  "Maîtriser le balancement antéro-postérieur et développer la conscience du champ arrière comme espace de réception.",
+        "initiaticObjective":  "Dissoudre la tension entre passé et futur en cultivant la capacité à habiter le présent comme unique lieu de perception et d’action.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Présence\",         \"content\": \"Évaluation de l’orientation temporelle du moment : êtres-vous plutôt dans le futur (tâches, projets) ou le passé (souvenirs, regrets) ?" },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Symbolique avant-arrière : futur/passé, exposition/protection, conscience frontale et dorsale." },
+            { "time": "15:00 — 25:00\",\"title\": \"Pratique avant\",   \"content\": \"Balancement vers l’avant, intention de contact avec ce qui vient, respiration du projet." },
+            { "time": "25:00 — 35:00\",\"title\": \"Pratique arrière\", \"content\": \"Balancement vers l’arrière, contact avec le champ dorsal, respiration de la mémoire apaisée." },
+            { "time": "35:00 — 45:00\",\"title\": \"Intégration\",     \"content\": \"Oscillation complète avant-arrière, recherche du point de neutralité au centre." },
+            { "time": "45:00 — 55:00\",\"title\": \"Carnet\",           \"content\": \"Observations sur la relation au temps, phrase essentielle." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Enracinement dans le présent, geste du jour." }
+        ],
+        "plan":  [
+            "0–5 min — Évaluation de l’orientation temporelle habituelle",
+            "5–15 min — Enseignement : avant/arrière, temps, conscience dorsale",
+            "15–25 min — Pratique du balancement vers l’avant",
+            "25–35 min — Pratique du balancement vers l’arrière",
+            "35–45 min — Oscillation complète et recherche du centre",
+            "45–55 min — Carnet et phrase essentielle",
+            "55–60 min — Clôture et enracinement dans le présent"
+        ],
+        "teaching":  {
+            "intro":  "Nous vivons rarement dans le présent. L’esprit humain est naturellement pendulaire : il oscille entre le passé (regrets, nostalgie, mémoire) et le futur (anticipation, préoccupation, projection). Le balancement antéro-postérieur représente ce pendule temporel et lui donne une forme physique. En con-s-cient-i-sant ce mouvement, en l’associant à la respiration, on peut progressivement dissoudre la tension entre ces deux pôles et trouver le point de repos : le présent vivant.",
+            "sections":  [
+                {
+                    "title":  "1. L’axe temps : avant comme futur, arrière comme passé",
+                    "content":  "En body-mind, la posture revele l’état interne. Une personne fortement projetée vers le futur tend à incliner le corps en avant, à marcher en penchant la tête devant les épaules, à avoir le regard biaisé vers le bas-avant. Une personne ancrée dans le passé tend à se recourber vers l’arrière, à avoir les épaules en retrait, une posture de retrait. Le balancement antéro-postérieur n’est pas un exercice technique : c’est un dialogue avec sa propre relation au temps."
+                },
+                {
+                    "title":  "2. La conscience dorsale : le champ arrière",
+                    "content":  "Nous voyons par en avant, nous agissons par en avant, nous proj-etons notre attention par en avant. Le dos est la zone la plus aveugle de notre conscience corporelle. Pourtant, le champ dorsal est fondamental pour une perception spatiale complète. Dans certaines traditions, la capacité à percevoir ce qui se passe dans son dos est associée à une forme de vigilance énergétique, une conscience à 360 degrés. Le balancement vers l’arrière est une invitation à ouvrir ce champ aveugle."
+                },
+                {
+                    "title":  "3. Respiration d’avant et respiration d’arrière",
+                    "content":  "La respiration change selon l’orientation du balancement. En se penchant vers l’avant, la cage thoracique se comprime légèrement — c’est une respiration d’intention, de projet, d’envoi. En se penchant vers l’arrière, la cage thoracique s’ouvre — c’est une respiration de réception, d’espace, d’accueil. On associe consciemment ces deux qualités respiratoires au mouvement pour amplifier l’effet de l’oscillation."
+                },
+                {
+                    "title":  "4. Le point de neutralité : le présent comme espace de perception",
+                    "content":  "Entre l’avant et l’arrière existe un point de neutralité : la verticalité parfaite. Ce point n’est pas l’immobilité — c’est le cœur vivant du mouvement, le moment où le balancement change de direction. L’attention portée à ce point de retournement crée un ancrage dans le présent. Avec la pratique, ce point de neutralité s’élargit, devient un espace habitable, un lieu de repos dans le flux du temps."
+                },
+                {
+                    "title":  "5. Intégration : intégrer le passé et l’avenir sans être pris par eux",
+                    "content":  "La pratique avancée du balancement antéro-postérieur vise à cultiver une qualité d’attention spécifique : être conscient du passé sans y être prisonnier, orienté vers l’avenir sans y être absorbé. On pense à l’eau d’une rivière qui coule dans les deux sens autour d’un rocher : le rocher ne se déplace pas, mais il est en relation vivante avec tout ce qui passe. C’est cette qualité de présence que cultive ce cours."
+                }
+            ]
+        },
+        "practice":  "Protocole balancement antéro-postérieur — 45 minutes actives :\n1. Assis en tailleur ou sur une chaise. Évaluez : êtes-vous plutôt dans vos projets futurs ou dans vos souvenirs en ce moment ?\n2. Commencez par un léger balancement vers l'avant : inclinez le buste 10-20 cm, retour au centre. Associez l'intention : 'je vais vers ce qui vient'.\n3. Puis vers l'arrière : inclinez le buste 10-20 cm en arrière, retour. Associez : 'je reçois ce qui a été'.\n4. Installez le mouvement complet avant-arrière, lent, 1 cycle toutes les 2-3 secondes.\n5. Portez attention au point de retournement : le moment exact où vous passez de l'avant à l'arrière. C'est le présent.\n6. Après 10 minutes, réduisez à la tête seule, puis intériorisez.\n7. Restez 10 minutes dans l'immobilité. Observez votre relation au temps.\n8. Notez : dans quel temps habitez-vous naturellement ? Qu'avez-vous senti dans le dos ?",
+        "image":  "assets/course-visuals-premium/C043-balancement-antero-posterieur.svg",
+        "pdf":  "assets/cours-pdf/C043-balancement-antero-posterieur.pdf",
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C011-balancement-en-huit",
+        "number":  11,
+        "familyId":  "balancements",
+        "familyTitle":  "Balancements",
+        "symbol":  "↔",
+        "title":  "Balancement en huit",
+        "subtitle":  "La lemniscate comme intégration des polarités",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Approfondissement",
+        "kind":  "Pratique corporelle & intégration",
+        "status":  "available",
+        "summary":  "Le balancement en huit (lemniscate) combine les oscillations latérale et verticale dans une figure continue qui ne s’arrête jamais. Ce mouvement infini intègre les polarités et crée un état de flux perceptif particulier, associé à la créativité et à l’intelligence intégrative.",
+        "shortSummary":  "Mouvement lemniscate pour intégrer les polarités et activer l’intelligence intégrative.",
+        "longSummary":  "La lemniscate — le huit couché, symbole de l’infini — est l’une des formes géométriques les plus profondes de la nature. On la retrouve dans les trajectoires des planètes, dans les électrons, dans les mouvements des aquiferes. Elle représente le principe de circulation continue entre deux pôles sans jamais les séparer ni les fusionner. Appliqué au corps, le mouvement en lemniscate (huit) combine les axes latéral et vertical dans une trajectoire fluide et continue. Les recherches en kinesio-logie et en neuro-ducation identifient ce mouvement comme particulièrement efficace pour activer les connexions inter-hémisphériques et faciliter l’apprentissage, la mémorisation et les états de flow.",
+        "pedagogicalObjective":  "Maîtriser la trajectoire en lemniscate avec le corps, la tête et la main directrice, et comprendre son action sur l’intégration inter-hémisphérique.",
+        "initiaticObjective":  "Faire du huit une méditation en mouvement sur le principe d’infini : deux mondes distincts reliés par un centre toujours en mouvement, jamais immobile.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Dessin préparatoire\", \"content\": \"Dessiner un huit couche en l’air avec la main, yeux fermés, pour sentir la trajectoire." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"La lemniscate dans la nature et les traditions : infini, circulation, intégration des polarités." },
+            { "time": "15:00 — 25:00\",\"title\": \"Pratique main\",    \"content\": \"Grandes lemniscates des bras et des épaules, suivi du regard, synchronisation respiration." },
+            { "time": "25:00 — 35:00\",\"title\": \"Pratique buste\",   \"content\": \"Lemniscate du buste entier, d’abord ample puis de plus en plus subtile." },
+            { "time": "35:00 — 45:00\",\"title\": \"Pratique tête\",    \"content\": \"Lemniscate de la tête seule, très légère, puis intériorisée." },
+            { "time": "45:00 — 55:00\",\"title\": \"Intégration\",     \"content\": \"Carnet, observation des effets sur la perception et la pensée." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Trois lemniscates lentes avec la main, retour au centre, geste du jour." }
+        ],
+        "plan":  [
+            "0–5 min — Dessin préparatoire de la lemniscate en l’air",
+            "5–15 min — Enseignement : le huit couche, l’infini, les polarités",
+            "15–25 min — Grandes lemniscates des bras et épaules",
+            "25–35 min — Lemniscate du buste, ample puis subtile",
+            "35–45 min — Lemniscate de la tête puis intériorisation",
+            "45–55 min — Intégration et carnet",
+            "55–60 min — Clôture et retour au centre"
+        ],
+        "teaching":  {
+            "intro":  "Le huit couche, ou lemniscate, est l’un des symboles mathematiques les plus universels. Dans la pensee initiatique, il represente la circulation eternelle entre deux mondes — visible et invisible, matiere et energie, conscient et inconscient — sans jamais que l’un absorbe l’autre. Ce mouvement continu, ce passage perpetuel par le centre, est une lecon que le corps peut apprendre avant que l’esprit ne la comprenne.",
+            "sections":  [
+                {
+                    "title":  "1. La lemniscate dans la nature et les mathématiques",
+                    "content":  "La lemniscate (du latin « ruban ») fut formalisée en mathématiques au XVIIe siècle mais elle apparaît bien avant dans l’art sacré, les mandalas et les sym-boles alchimiques. On la retrouve dans les trajectoires relatives des planètes (comme Terre-Venus vues de l’extérieur du système), dans les lignes de champ magnétique bipolaires, dans la forme de certains protéines. Elle représente un principe universel : deux pôles séparés mais perpetuellement reliés par un flux circulaire."
+                },
+                {
+                    "title":  "2. Le huit et l’intégration inter-hémisphérique",
+                    "content":  "En kinésiologie éducative, le « lazy eight » (huit couche) est l’exercice de référence pour activer les connexions inter-hémisphériques via le corps calleux. Le mouvement croise la ligne médiane du corps de façon répétée, forçant les deux hémisphères à collaborer plutôt qu’à altern er. Des études auprès d’enfants dyslexiques ont montré des améliorations significatives de la lecture et de l’écriture après des séquences régulières de ce mouvement."
+                },
+                {
+                    "title":  "3. La trajectoire : comment tracer le huit avec précision",
+                    "content":  "La lemniscate commence au centre, monte vers le haut-gauche, fait un grand arc, revient au centre, monte vers le haut-droit, fait un grand arc, revient au centre. Le centre est le point crucial : on ne le traverse pas à toute vitesse, on y fait une pause imperceptible, un moment de transition. C’est là que se joue l’intégration. Avec la tête, le mouvement est minuscule mais le principe est identique. Avec le buste, on cherche une fluidité comparable à de l’eau qui s’écoule."
+                },
+                {
+                    "title":  "4. Le flux et le flow : état de créativité élargie",
+                    "content":  "Le mouvement en lemniscate, maintenu plusieurs minutes, induit un état perceptif particulier décrit par les pratiquants comme « état de flux » : la pensée devient fluide, les associations d’idées s’accélèrent, les solutions émergent spontanément, les blocages se dissolvent. Cet état correspond à ce que Csikszentmihalyi appelle le « flow ». Il peut être cultivé intentionnellement par ce type de pratique corporelle."
+                },
+                {
+                    "title":  "5. Intériorisation et lemniscate énergétique",
+                    "content":  "Au-delà du mouvement physique, on peut tracer une lemniscate dans l’espace énergétique du corps : un huit qui passe par le centre du cœur et s’étend dans les deux directions, ou un huit vertical qui relie crâne et bassin. Ces visualisations, associées à la respiration, créent un circuit énergétique interne qui amplifie les effets du mouvement physique. La lemniscate n’est pas juste une trajectoire — c’est une architecture vivante de circulation."
+                }
+            ]
+        },
+        "practice":  "Protocole balancement en huit — 45 minutes actives :\n1. Commencez debout ou assis. Étendez le bras droit, index pointé. Tracez un grand huit couché (∞) en l'air, aussi grand que possible, en commençant par le haut-gauche.\n2. Suivez votre index des yeux. Faites 5 grands huits, puis changez de main.\n3. Asseyez-vous. Commencez les huits du buste : inclinez vers le haut-gauche, tracez un arc, revenez au centre, inclinez vers le haut-droit, tracez un arc, retour. Mouvement lent et fluide.\n4. Après 10 minutes, réduisez à la tête seule : micro-lemniscates, presque imperceptibles de l'extérieur.\n5. Après 10 minutes, intériorisez : imaginez un huit énergétique passant par le cœur.\n6. Restez 10 minutes en immobilité avec cette image.\n7. Notez : état de la pensée, émergence d'idées, qualité du flux intérieur.",
+        "image":  "assets/course-visuals-premium/C044-balancement-en-huit.svg",
+        "pdf":  "assets/cours-pdf/C044-balancement-en-huit.pdf",
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C012-balancement-en-croix",
+        "number":  12,
+        "familyId":  "balancements",
+        "familyTitle":  "Balancements",
+        "symbol":  "↔",
+        "title":  "Balancement en croix",
+        "subtitle":  "Les quatre directions comme ancrage dans l’espace sacré",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Approfondissement",
+        "kind":  "Pratique corporelle & intégration",
+        "status":  "available",
+        "summary":  "Le balancement en croix combine les quatre axes cardinaux — haut, bas, gauche, droite — dans une séquence qui inscrit le corps au centre d’un espace orienté. Ce cours travaille l’ancrage spatial, la conscience des quatre directions et l’habitation du centre comme lieu de stabilité absolue.",
+        "shortSummary":  "Quatre directions pour ancrer le corps au centre d’un espace orienté et sacré.",
+        "longSummary":  "La croix est l’un des symboles universaux de l’humanité : elle précède toutes les religions, représentant l’intersection de l’horizontal et du vertical, du temps et de l’espace, de l’humain et du divin. Le balancement en croix utilise ce symbole comme structure de pratique : on explore successivement chaque branche de la croix (nord-sud, est-ouest) avant de trouver le repos au centre. Ce travail développe ce qu’on pourrait appeler l’intelligence spatiale énergétique : la capacité à sentir l’espace qui entoure le corps, à percevoir les qualités directionnelles et à habiter le centre de son espace comme lieu de stabilité absolue.",
+        "pedagogicalObjective":  "Intégrer les quatre axes directionnels dans une pratique de balancement et développer la conscience spatiale à 360 degrés.",
+        "initiaticObjective":  "Se placer consciemment au centre de sa croix personnelle, point d’intersection de toutes les directions, comme métaphore et expérience de la stabilité dans le mouvement.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Orientation\",      \"content\": \"Identification des quatre directions dans l’espace physique de la pièce, conscience de sa position au centre." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"La croix comme symbole universel, les quatre directions, le centre comme lieu de pouvoir." },
+            { "time": "15:00 — 25:00\",\"title\": \"Pratique latérale\", \"content\": \"Balancement droite-gauche (axe est-ouest), contact avec les énergies de chaque direction." },
+            { "time": "25:00 — 35:00\",\"title\": \"Pratique verticale\",\"content\": \"Balancement avant-arrière (axe nord-sud), contact avec les directions avant et derrière." },
+            { "time": "35:00 — 45:00\",\"title\": \"Croix complète\",   \"content\": \"Alternance des deux axes dans une séquence en croix, puis arrêt au centre." },
+            { "time": "45:00 — 55:00\",\"title\": \"Centre\",           \"content\": \"Immobilité au centre, conscience des quatre directions simultanément, carnet." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Geste de clôture des quatre directions, retour au centre, protection." }
+        ],
+        "plan":  [
+            "0–5 min — Orientation dans l’espace et conscience du centre",
+            "5–15 min — Enseignement : la croix, les quatre directions, le centre",
+            "15–25 min — Balancement latéral (est-ouest)",
+            "25–35 min — Balancement antéro-postérieur (nord-sud)",
+            "35–45 min — Séquence en croix et immobilité au centre",
+            "45–55 min — Conscience des quatre directions et carnet",
+            "55–60 min — Clôture rituelle des quatre directions"
+        ],
+        "teaching":  {
+            "intro":  "Avant le christianisme, avant l’égypte ancienne, avant les premières civilisations connues, les humains gravaient des croix sur les rochers. Ce symbole universel n’appartient à aucune religion — il est insecrit dans la structure même de l’expérience humaine. Nous vivons dans un espace à quatre dimensions directionnelles (haut, bas, gauche, droite) et nous sommes, à chaque instant, le point d’intersection de ces quatre axes. Le balancement en croix rend cette expérience consciente et habitee.",
+            "sections":  [
+                {
+                    "title":  "1. La croix comme structure universelle de l’espace",
+                    "content":  "Le corps humain debout est lui-même une croix : axe vertical de la tête aux pieds, axe horizontal des épaules. Chaque moment de conscience humaine se produit à l’intersection de ces deux axes. La croix n’est pas un symbole religieux — c’est une carte de l’espace vécu. Elle représente la façon dont un être conscient habite l’espace : centré, orienté, en relation avec les quatre directions."
+                },
+                {
+                    "title":  "2. Les qualités des quatre directions",
+                    "content":  "Chaque direction porte une qualité énergétique. Ces qualités varient selon les traditions mais un fonds commun existe : l’avant est associé au futur, à l’action, à la vision ; l’arrière au passé, à la mémoire, à la protection ; la droite à l’action, la force, le rationnel ; la gauche à la réception, la sensibilité, l’intuitif. Ces associations ne sont pas des vérités absolues — ce sont des portes d’entrée pour sentir comment vous-même habitez chaque direction."
+                },
+                {
+                    "title":  "3. Le centre comme lieu de stabilité",
+                    "content":  "Dans toutes les traditions de travail sacral, le centre est le lieu de pouvoir : ni à l’est ni à l’ouest, ni au nord ni au sud, mais au point d’intersection. Le taoïsme appelle ce centre le « vide créateur », les traditions amérindiennes le « medicine wheel » center, les traditions d’Asie centrale le « navel du monde ». C’est le point fixe autour duquel tout tourne sans être lui-même emporté. La pratique du balancement en croix vise à trouver ce centre dans le corps."
+                },
+                {
+                    "title":  "4. La séquence pratique : explorer chaque branche avant de revenir",
+                    "content":  "La séquence pratique suit un ordre rituel : on explore d’abord l’axe est-ouest (balancement latéral), puis l’axe nord-sud (balancement antéro-postérieur), puis on alterne les deux axes en une sorte de danse croisée. Chaque exploration est une « visite » à la direction correspondante : on l’acc-ueille, on sent sa qualité énergétique, on en revient enrichi. L’arrêt final au centre intègre les quatre énergies."
+                },
+                {
+                    "title":  "5. La conscience des quatre directions simultanément",
+                    "content":  "L’objectif final du balancement en croix est de développer une conscience spatiale omni-directionnelle : percevoir simultanément ce qui se passe dans les quatre directions sans tourner la tête. Cette conscience élargie est liée à un état de vigilance détendue, combin-ant alerte et calme. Elle est cultivée dans les traditions guerrières, dans la méditation zen marchee, et dans certaines formes de travail énergétique avancé."
+                }
+            ]
+        },
+        "practice":  "Protocole balancement en croix — 45 minutes actives :\n1. Assis, fermez les yeux. Identifiez les quatre directions autour de vous : devant, derrière, gauche, droite.\n2. Phase est-ouest (10 min) : balancement latéral lent. À chaque direction, demandez-vous : 'Quelle qualité d'énergie est là ?' N'analysez pas, sentez.\n3. Phase nord-sud (10 min) : balancement antéro-postérieur lent. Avant : futur, projet. Arrière : passé, mémoire.\n4. Phase croix (10 min) : alternez les deux axes. Latéral 3 fois, vertical 3 fois, latéral 3 fois... Puis immobilité au centre.\n5. Phase centre (10 min) : immobile. Conscience des quatre directions simultanément. Sentez-vous au milieu d'un espace vivant.\n6. Notez : quelle direction résiste ? Quelle direction attire ? Qu'avez-vous trouvé au centre ?",
+        "image":  "assets/course-visuals-premium/C045-balancement-en-croix.svg",
+        "pdf":  "assets/cours-pdf/C045-balancement-en-croix.pdf",
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C013-rotation-douce",
+        "number":  13,
+        "familyId":  "balancements",
+        "familyTitle":  "Balancements",
+        "symbol":  "↔",
+        "title":  "Rotation douce",
+        "subtitle":  "Le mouvement spiralaire comme accès à la centration profonde",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Approfondissement",
+        "kind":  "Pratique corporelle & intégration",
+        "status":  "available",
+        "summary":  "La rotation douce — mouvement circulaire du buste ou de la tête — est l’un des outils les plus puissants pour entrer dans des états modifiés de conscience doux. Ce cours explore la rotation dans ses formes progressives, du cercle ample à la spirale intériorisée, en passant par l’immobilité post-rotatoire.",
+        "shortSummary":  "Rotation circulaire pour induire la centration profonde et l’accès aux états de conscience subtils.",
+        "longSummary":  "La rotation est l’un des mouvements les plus anciens utilisés pour modifier l’état de conscience. Les derviches tourneurs, les chamans qui tournent sur eux-mêmes, les enfants qui font des ronds dans le sable — tous utilisent ce principe fondamental. La rotation croise tous les axes en même temps, créant une stimulation vestibulaire complexe qui modifie la perception de l’espace et du temps. Ce cours explore la rotation douce (sans vertige ni accélération), travaillée comme un outil de centration : on tourne pour trouver son axe, non pour s’en éloigner. La clé est la lenteur et la conscience de l’axe central autour duquel le mouvement s’organise.",
+        "pedagogicalObjective":  "Maîtriser la technique de rotation douce (buste, tête, intériorisée) et comprendre son action sur le système vestibulaire et la perception.",
+        "initiaticObjective":  "Utiliser la rotation comme méditation sur l’axe : trouver le point fixe à l’intérieur du mouvement, la conscience immobile au cœur de ce qui tourne.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Axe\",              \"content\": \"Prise de conscience de l’axe vertical du corps comme point fixe autour duquel tout peut tourner." },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"La rotation dans les traditions : derviches, chamans, cercles de danse. Système vestibulaire et perception." },
+            { "time": "15:00 — 25:00\",\"title\": \"Rotation buste\",   \"content\": \"Grands cercles du buste (assis), sens horaire puis anti-horaire, très lents, axe tenu." },
+            { "time": "25:00 — 35:00\",\"title\": \"Rotation tête\",    \"content\": \"Cercles de la tête, très lents, attention à la nuque, sans forçage." },
+            { "time": "35:00 — 45:00\",\"title\": \"Spirale intérieure\", \"content\": \"Arrêt du mouvement. Visualisation d’une spirale de lumiere remontant l’axe central." },
+            { "time": "45:00 — 55:00\",\"title\": \"Post-rotation\",    \"content\": \"Observation de la rémanence rotative, perception de l’axe encore plus nettement après arrêt." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Carnet, ancrage au sol, geste de cloture." }
+        ],
+        "plan":  [
+            "0–5 min — Prise de conscience de l’axe central",
+            "5–15 min — Enseignement : rotation, vestibulaire, traditions",
+            "15–25 min — Rotation douce du buste, horaire et anti-horaire",
+            "25–35 min — Rotation de la tête, très lente",
+            "35–45 min — Spirale intérieure et visualisation de l’axe",
+            "45–55 min — Observation de la rémanence post-rotatoire",
+            "55–60 min — Carnet et clôture"
+        ],
+        "teaching":  {
+            "intro":  "La rotation est le mouvement de la galaxie, de l’atome, de la vie elle-même. L’ADN est une double helice en rotation. Les cyclones organisent l’atmosphere. Les electrons orbitent. Quand le corps humain tourne lentement autour de son axe, il entre en resonance avec ces patterns fondamentaux. La cle n’est pas la vitesse — c’est la conscience de l’axe autour duquel le mouvement s’organise.",
+            "sections":  [
+                {
+                    "title":  "1. Le système vestibulaire : organe de la conscience spatiale",
+                    "content":  "Le système vestibulaire, logé dans l’oreille interne, est l’organe de l’équilibre et de la perception du mouvement. Il est également étroitement connecté au système limbique (centre des émotions) et à certains centres de vigilance du tronc cérébral. Une stimulation vestibulaire douce et rhythmique peut modifier l’état émotionnel, réduire l’anxieté et induire des états de conscience élargie. La rotation douce utilise ce principe sans vertige, en restant en-dessous du seuil de déconfort."
+                },
+                {
+                    "title":  "2. Les traditions de rotation : de Rumi aux chamans",
+                    "content":  "Les derviches tourneurs de l’ordre Mevlevi, fondé par Rumi au XIIIe siècle, tournent pendant des heures à des vitesses croissantes. Mais le principe n’est pas la vitesse — c’est la présence à l’axe. Chaque derviche tient une main vers le ciel et une vers la terre, tournant comme une antenne vivante. Dans les traditions chamaniques siberiennes et amérindiennes, la rotation est utilisée pour entrer dans un état de trance douce, un seuil entre les mondes. Notre pratique en emprunte la logique sans en copier la forme."
+                },
+                {
+                    "title":  "3. Horaire et anti-horaire : deux qualités de rotation",
+                    "content":  "La rotation dans le sens horaire et dans le sens anti-horaire ont des effets différents. En physiologie, les deux sens stimulent le système vestibulaire de façon asymétrique. Dans la tradition énergétique, la rotation horaire est souvent associée à l’envoi, l’émission, l’action ; la rotation anti-horaire à la réception, la dissolution, le relâchement. On explore les deux en observant sans préjugé quelle différence effective vous percevez."
+                },
+                {
+                    "title":  "4. Trouver l’axe : le point fixe dans le mouvement",
+                    "content":  "La rotation douce n’est pas une dissolution de l’axe — c’est une révélation de l’axe. Plus on tourne lentement et consciemment, plus on sent ce fil d’or vertical autour duquel tout s’organise. Le pratiquant expérimenté peut tourner en gardant le sentiment d’être parfaitement immobile à son centre, comme si le monde tournait autour de lui plutôt que lui autour du monde. C’est cette expérience paradoxale que ce cours cultive."
+                },
+                {
+                    "title":  "5. La rémanence post-rotatoire et la perception de l’axe",
+                    "content":  "Après l’arrêt de la rotation, le système vestibulaire continue d’enregistrer un mouvement fantome pendant quelques secondes à quelques minutes. Ce phénomène, normalement source de vertige, devient, avec la pratique, une source d’information : dans cet état post-rotationnel, la perception de l’axe central devient plus nette qu’en temps ordinaire. On apprend à utiliser cette fenêtre pour sentir l’axe avec une précision inhabituelles."
+                }
+            ]
+        },
+        "practice":  "Protocole rotation douce — 45 minutes actives :\n1. Assis, colonne verticale. Fermez les yeux. Sentez l'axe vertical de votre corps comme un fil de lumière.\n2. Commencez des cercles du buste : très lents, très doux, comme dessiner un cercle de 20 cm avec le sommet de votre tête. Sens horaire d'abord.\n3. Après 3 minutes, sens anti-horaire. Observez la différence.\n4. Réduisez progressivement le rayon du cercle. Plus petit, plus petit, jusqu'à un cercle imperceptible.\n5. Après 10 minutes, même chose avec la tête seule : cercles très lents, attention aux tensions dans la nuque.\n6. Arrêt complet. Observez la rémanence : sensation de continuation du mouvement. Cherchez l'axe dans cet espace.\n7. Visualisez une spirale de lumière remontant l'axe de la base du crâne vers le sommet.\n8. 10 minutes d'immobilité. Notez : qualité de l'axe ressenti, différence horaire/anti-horaire, rémanence.",
+        "image":  "assets/course-visuals-premium/C046-rotation-douce.svg",
+        "pdf":  "assets/cours-pdf/C046-rotation-douce.pdf",
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C014-fer-a-cheval-et-perception-arriere",
+        "number":  14,
+        "familyId":  "balancements",
+        "familyTitle":  "Balancements",
+        "symbol":  "↔",
+        "title":  "Fer à cheval et perception arrière",
+        "subtitle":  "Ouvrir le champ dorsal pour une conscience spatiale complète",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Approfondissement",
+        "kind":  "Pratique corporelle & intégration",
+        "status":  "available",
+        "summary":  "Le balancement en fer à cheval est un mouvement semi-circulaire qui tourne autour d’un axe central, ouvrant progressivement la conscience vers le champ arrière du corps. Ce cours développe la perception dorsale et la conscience à 360 degrés, fondamentales pour la clairvoyance spatiale.",
+        "shortSummary":  "Mouvement semi-circulaire pour développer la perception dorsale et la conscience à 360 degrés.",
+        "longSummary":  "Le fer à cheval est une trajectoire semi-circulaire : on commence d’un côté, on passe par l’arrière et on arrive de l’autre côté, ou on va-et-vient de gauche à droite en passant systématiquement par l’arrière. Ce mouvement force l’attention à traverser le champ dorsal, zone habituellement aveugle. Avec la pratique, le fer à cheval développe ce qu’on pourrait appeler la « vision arrière » — non pas une visi-on littérale, mais une sensitivité accrue à ce qui se passe dans l’espace derrière soi. Cette capacité est fondamentale pour une conscience spatiale complète et pour les pratiques de clairvoyance.",
+        "pedagogicalObjective":  "Maîtriser la trajectoire en fer à cheval et développer la sensitivité perceptive du champ arrière.",
+        "initiaticObjective":  "Développer une conscience à 360 degrés qui permet de percevoir l’espace complet autour de soi, ouvrant la voie aux pratiques de perception à distance.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Champ aveugle\",   \"content\": \"Prise de conscience du champ arrière : qu’y a-t-il derrière vous en ce moment ? Que sentez-vous là ?" },
+            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"La conscience dorsale, la « vision arrière », le champ énergétique dorsal." },
+            { "time": "15:00 — 25:00\",\"title\": \"Fer à cheval buste\",\"content\": \"Balancement en fer à cheval du buste : gauche → arrière → droite, lentement, attention à la phase arrière." },
+            { "time": "25:00 — 35:00\",\"title\": \"Fer à cheval tête\", \"content\": \"Même trajectoire avec la tête seule, attention aux zones de tension, ouverture de la nuque." },
+            { "time": "35:00 — 45:00\",\"title\": \"Intériorisation\",  \"content\": \"Arrêt du mouvement, extension de la conscience vers le champ arrière en immobilité." },
+            { "time": "45:00 — 55:00\",\"title\": \"Perception à 360°\",\"content\": \"Exercice de conscience omni-directionnelle, perception de l’espace complet, carnet." },
+            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Protection du champ dorsal, geste de clôture, retour." }
+        ],
+        "plan":  [
+            "0–5 min — Prise de conscience du champ arrière",
+            "5–15 min — Enseignement : conscience dorsale et vision arrière",
+            "15–25 min — Balancement en fer à cheval du buste",
+            "25–35 min — Fer à cheval de la tête",
+            "35–45 min — Intériorisation et extension vers le champ dorsal",
+            "45–55 min — Exercice de conscience à 360 degrés et carnet",
+            "55–60 min — Protection du champ dorsal et clôture"
+        ],
+        "teaching":  {
+            "intro":  "Il existe des personnes qui 'sentent' quand quelqu'un entre dans une pièce derriere elles, avant tout signal sonore ou visuel. Cette sensitivité dorsale n’est pas mysterieuse — elle est une capacite humaine normale qui s’atrophie par manque d’utilisation. Dans un monde ou tout est devant (ecrans, visages, routes), le champ arriere devient une zone morte. Ce cours propose de le reveiller.",
+            "sections":  [
+                {
+                    "title":  "1. Pourquoi le champ dorsal est-il aveugle ?",
+                    "content":  "La raison évolutive est simple : nos organes sensoriels principaux (yeux, oreilles, nez, bouche) sont tous orientés vers l’avant. Pendant des millénaires, le danger venait souvent de l’avant — proies à chasser, prédateurs à éviter. Mais le monde énergétique n’est pas uni-directionnel. Un champ de conscience complèt doit couvrir 360 degrés. La négligence du champ arrière crée une vulnérabilité énergétique : ce qu’on ne perçoit pas ne peut être ni évalué ni intégré."
+                },
+                {
+                    "title":  "2. La trajectoire en fer à cheval",
+                    "content":  "Le fer à cheval décrit une demi-ellipse : depuis la position centrale-droite, le mouvement part vers la droite, passe par l’arrière (point le plus éloigné de l’avant), arrive à la position centrale-gauche, puis revient par le même chemin. Le passage par l’arrière est la phase clé : c’est là que l’attention est invitée à se poser dans le champ dorsal. On ne force pas — on invite. La nuque doit rester détendue pendant toute la phase arrière."
+                },
+                {
+                    "title":  "3. La sensitivité dorsale : une capacité entraîneable",
+                    "content":  "Des recherches en perception extra-sensorielle montrent que la sensitivité à des stimuli derrière soi (« être regardé dans le dos ») est réelle et mesurable au-dessus du hasard. Des expériences contrôlées ont montré que des sujets pouvaient détecter à un taux significatif si quelqu’un les regardait dans le dos ou non. Cette capacité semble liée à la sensitivité générale du système nerveux autonome et peut être développée par l’attention régulière au champ dorsal."
+                },
+                {
+                    "title":  "4. Le champ énergétique dorsal",
+                    "content":  "Dans les traditions énergétiques, le dos est associé à la protection, aux ancêtres, aux guides, à l’invisible. À l’opposé du visage tournié vers le monde visible, le dos est tourné vers les mondes non-visibles. Certains pra-ticiens entraînés décrivent une perception distincte de leur champ dorsal comme un espace de réception particulière, un lieu où les impressions subtiles arrivent avant d’être traitées par le mental analytique."
+                },
+                {
+                    "title":  "5. Vers une conscience à 360 degrés",
+                    "content":  "La pratique régulière du fer à cheval mène progressivement à une étape remarquable : la capacité de percevoir l’espace complet autour de soi sans tourner la tête. Ce n’est pas de la voyance — c’est une sensitivité accrue aux micro-signaux qui existent déjà dans notre environnement mais que nous n’avons pas appris à lire. Pression de l’air, variation de température, infra-sons, perturbations électro-magnétiques, tout cela arrive par l’arrière autant que par l’avant."
+                }
+            ]
+        },
+        "practice":  "Protocole fer à cheval — 45 minutes actives :\n1. Assis. Fermez les yeux. Demandez-vous : 'Que se passe-t-il dans l'espace derrière moi ?' Notez votre première réponse spontanée.\n2. Commencez le fer à cheval du buste : inclinez vers la droite, glissez vers l'arrière (passez par la position 'penchée en arrière'), glissez vers la gauche. Très lentement.\n3. Pendant la phase arrière, portez toute votre attention au champ dorsal. Que sentez-vous là ?\n4. Après 10 minutes, même chose avec la tête seule. Nuque détendue, pas de forçage.\n5. Arrêt complet. En immobilité, étendez consciemment votre attention vers l'arrière. Imaginez que vous avez des 'yeux dans le dos'.\n6. Restez 10 minutes avec cette attention dorsale élargie.\n7. Exercice de clôture : sentez simultanément l'avant et l'arrière. Puis l'espace complet autour de vous.\n8. Notez : qu'avez-vous perçu dans le dos ? Différence avant/après ?",
+        "image":  "assets/course-visuals-premium/C047-fer-a-cheval-et-perception-arriere.svg",
+        "pdf":  "assets/cours-pdf/C047-fer-a-cheval-et-perception-arriere.pdf",
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C015-seance-combinee-de-balancements",
+        "number":  15,
+        "familyId":  "balancements",
+        "familyTitle":  "Balancements",
+        "symbol":  "↔",
+        "title":  "Séance combinée de balancements",
+        "subtitle":  "Intégration de tous les mouvements en une pratique fluide",
+        "duration":  "1 h",
+        "durationMin":  60,
+        "level":  "Avancé",
+        "kind":  "Séance intégrative & libre",
+        "status":  "available",
+        "summary":  "La séance combinée intègre tous les balancements étudiés dans la famille — latéral, vertical, antéro-postérieur, huit, croix, rotation, fer à cheval — dans une séquence fluide guidée par l’intuition du pratiquant. Ce cours est la clôture de la famille et ouvre la porte à la pratique autonome.",
+        "shortSummary":  "Séance intégrative qui combine tous les balancements en une pratique fluide guidée par l’intuition.",
+        "longSummary":  "Après sept cours d’exploration des différentes formes de balancement, ce cours de clôture propose une séquence libre : le pratiquant est guidé dans une pratique où il combine les mouvements selon son ressenti du moment. On apprend ainsi à écouter le corps et à laisser le mouvement émerger plutôt qu’à l’exécuter mécaniquement. La séance combine les phases clatées (exploration de chaque axe), les phases synthèse (combinaisons), les phases de transition (reduction progressive vers l’intériorisation) et la phase de repos (rémanence, carnet). C’est aussi un cours sur l’autonomisation : désormais, le pratiquant sait construire ses propres séances.",
+        "pedagogicalObjective":  "Savoir construire une séance combinée de balancements autonome, en choisissant et enchanânant les mouvements selon les besoins du moment.",
+        "initiaticObjective":  "Laisser le corps choisir son propre langage de mouvement : devenir élève de sa propre intelligence corporelle plutôt que simple exécutant de protocoles.",
+        "minutePlan":  [
+            { "time": "0:00 — 5:00\",  \"title\": \"Écoute initiale\",  \"content\": \"Évaluation du corps en ce moment : quel axe manque ? Quelle direction est tendue ? Quelle qualité est présente ?" },
+            { "time": "5:00 — 15:00\", \"title\": \"Exploration libre\",  \"content\": \"Laisser émerger le premier mouvement. Suivre le corps. Passer d’un balancement à l’autre selon le besoin." },
+            { "time": "15:00 — 30:00\",\"title\": \"Séquence guidée\",  \"content\": \"Guide audio : latéral → vertical → antéro-postérieur → huit → croix → rotation → fer à cheval. 2 min chacun." },
+            { "time": "30:00 — 40:00\",\"title\": \"Synthèse libre\",    \"content\": \"Combinaison libre : enchanâner deux ou trois mouvements qui se répondent. Laisser les transitions émerger." },
+            { "time": "40:00 — 50:00\",\"title\": \"Réduction\",        \"content\": \"Réduire progressivement tous les mouvements, de l’ample vers le subtil, vers l’intériorisé, vers l’immobilité." },
+            { "time": "50:00 — 57:00\",\"title\": \"Rémanence\",        \"content\": \"Immobilité totale. Observer la rémanence de tous les mouvements. Quel axe persiste le plus ?" },
+            { "time": "57:00 — 60:00\",\"title\": \"Clôture de famille\",\"content\": \"Carnet, phrase essentielle de la famille Balancements, geste de clôture de cycle." }
+        ],
+        "plan":  [
+            "0–5 min — Écoute initiale du corps et évaluation des besoins",
+            "5–15 min — Exploration libre, premier mouvement émergent",
+            "15–30 min — Séquence guidée de tous les balancements (2 min chacun)",
+            "30–40 min — Combinaisons libres et transitions fluides",
+            "40–50 min — Réduction progressive vers l’intériorisation",
+            "50–57 min — Immobilité et observation de la rémanence",
+            "57–60 min — Carnet et clôture de la famille Balancements"
+        ],
+        "teaching":  {
+            "intro":  "Le vrai apprentissage d’une discipline n’est pas de maîtriser des protocoles — c’est d’internaliser ses principes au point où les protocoles ne sont plus nécessaires. Ce cours de clôture marque ce seuil : vous avez exploré sept formes de balancement, vous en connaissez les effets, les qualités, les nuances. Désormais, votre corps sait ce dont il a besoin. Il s’agit d’apprendre à l’écouter.",
+            "sections":  [
+                {
+                    "title":  "1. L’intelligence du corps : avant le protocole",
+                    "content":  "Le corps humain a une intelligence propre qui précède toute pensée consciente. Il sait quand il est froid avant que l’esprit ne le remarque. Il sait quand une personne est bienveillante ou menaçante avant que la pensée ne l’ait analysée. Cette même intelligence sait, dans une séance de balancement, quel mouvement est nécessaire à ce moment précis. La pratique avancée consiste à apprendre à lire cette intelligence plutôt qu’à l’écraser sous des protocoles."
+                },
+                {
+                    "title":  "2. Comment écouter le corps avant de commencer",
+                    "content":  "Avant la séance, on prend trois minutes pour scanner le corps avec neutralité : où est la tension ? Où est la fluidité ? Quel axe semble bloqué, rigide, absent ? Un pratiquant bien formé peut sentir, par exemple, que son axe latéral est présent mais son axe vertical absent ce jour-là, et choisir de commencer par les balancements verticaux pour rééquilibrer. Cette lecture préliminaire est en soi un acte de conscience."
+                },
+                {
+                    "title":  "3. Les transitions : l’art du passage entre les mouvements",
+                    "content":  "Dans une séance combinée, les transitions entre les mouvements sont aussi importantes que les mouvements eux-mêmes. Une transition forcée — passer brusquement du latéral au vertical sans moment intermédiaire — rompt la continuité perceptive. Une transition fluide laisse le mouvement se dissoudre naturellement avant qu’un nouveau n’émerge. Ces moments de flottement entre deux mouvements sont particulièrement précieux pour la perception subtile."
+                },
+                {
+                    "title":  "4. La réduction progressive : du grand vers l’invisible",
+                    "content":  "L’une des techniques les plus importantes de la famille Balancements est la réduction progressive : partir d’un mouvement ample et visible, puis le réduire graduellement — moins d’amplitude, moins de vitesse, moins de distance — jusqu’à ce qu’il soit invisible de l’extérieur mais toujours présent à l’intérieur. Cette réduction est une technique de transition vers l’état méditatif : le mouvement devient son propre objet de méditation."
+                },
+                {
+                    "title":  "5. La clôture de cycle : qu’avez-vous appris ?",
+                    "content":  "La séance combinée est aussi une clôture de la famille Balancements. On prend le temps, dans le carnet, de répondre à quelques questions essentielles : Quel balancement a eu le plus d’effet sur moi ? Lequel ai-je trouvé difficile ou inconfortable ? Quelle qualité nouvelle ai-je développée ? Qu’est-ce que les balancements m’ont appris sur ma relation à l’espace, au temps, à mon corps ? Ces réponses sont la matière première de la pratique autonome."
+                }
+            ]
+        },
+        "practice":  "Protocole séance combinée — 55 minutes actives :\n\nPHASE 1 - Écoute (5 min) : Fermez les yeux. Scanner le corps. Où est la tension ? Quel axe manque ?\n\nPHASE 2 - Exploration libre (10 min) : Laissez émerger le mouvement qui se propose spontanément. Ne choisissez pas — écoutez. Suivez-le jusqu'à ce qu'il se modifie naturellement.\n\nPHASE 3 - Séquence guidée (14 min) : Parcourez chaque balancement 2 minutes dans cet ordre : latéral → vertical → antéro-postérieur → huit → croix → rotation → fer à cheval.\n\nPHASE 4 - Combinaisons libres (10 min) : Combinez deux ou trois mouvements qui se répondent. Laissez les transitions se faire naturellement.\n\nPHASE 5 - Réduction (10 min) : Réduisez progressivement tous les mouvements vers l'imperceptible, puis vers l'intérieur.\n\nPHASE 6 - Rémanence (7 min) : Immobilité totale. Observez ce qui continue.\n\nPHASE 7 - Carnet (3 min) : Notez la phrase essentielle de cette famille pour vous.",
+        "image":  "assets/course-visuals-premium/C048-seance-combinee-de-balancements.svg",
+        "pdf":  "assets/cours-pdf/C048-seance-combinee-de-balancements.pdf",
+        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Avancé"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+  "id": "C016-preparer-une-seance-ouvrir-le-seuil",
+  "number": 16,
   "title": "Préparer une séance : ouvrir le seuil",
   "subtitle": "Passer du bruit ordinaire à l’espace de pratique",
   "family": "Règles de l’enseignement",
@@ -1294,7 +1905,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   "shortPhrase": "J’ouvre le seuil, puis j’entre.",
 
   "pdf": {
-    "path": "data/courses/course-005-preparer-une-seance-ouvrir-le-seuil/pdf/course-005-preparer-une-seance.pdf",
+    "path": "data/courses/course-016-preparer-une-seance-ouvrir-le-seuil/pdf/course-016-preparer-une-seance.pdf",
     "title": "Cours 5 — Préparer une séance : ouvrir le seuil",
     "protectedNotice": "Support réservé aux élèves Axis Lumen Studio. Reproduction, diffusion ou revente interdites sans autorisation."
   },
@@ -1359,8 +1970,8 @@ window.AXIS_ONE_HOUR_COURSES = [
   "pdfPremium": true
 },
     {
-  "id": "course-006-clore-une-seance",
-  "number": 6,
+  "id": "course-017-clore-une-seance",
+  "number": 17,
   "title": "Clore une séance",
   "subtitle": "Déposer la lumière, revenir au corps, intégrer l’expérience",
   "family": "Fondation — Le Livre d’Exercices",
@@ -1553,8 +2164,8 @@ window.AXIS_ONE_HOUR_COURSES = [
   "pdfPremium": true
 },
     {
-  "id": "C007-presence-carte-et-lumiere",
-  "number": 7,
+  "id": "C018-presence-carte-et-lumiere",
+  "number": 18,
   "title": "Cours 7 — Présence, carte et lumière",
   "subtitle": "Faire descendre une vertu dans la rémanence",
   "family": "Fondations du Temple Vivant",
@@ -1691,7 +2302,7 @@ window.AXIS_ONE_HOUR_COURSES = [
   "visualKey": "assets/courses/course-007/cover.png",
 
   "pdf": {
-    "path": "data/courses/course-007-presence-carte-et-lumiere/pdf/cours-007-presence-carte-et-lumiere.pdf",
+    "path": "data/courses/course-018-presence-carte-et-lumiere/pdf/cours-007-presence-carte-et-lumiere.pdf",
     "title": "Cours 7 — Présence, carte et lumière",
     "protectedNotice": "Support réservé aux élèves Axis Lumen Studio. Reproduction, diffusion ou revente interdites sans autorisation."
   },
@@ -1760,8 +2371,8 @@ window.AXIS_ONE_HOUR_COURSES = [
   "pdfPremium": true
 },
     {
-  "id": "course-008-construire-une-seance-d-une-heure",
-  "number": 8,
+  "id": "course-019-construire-une-seance-d-une-heure",
+  "number": 19,
   "title": "Cours 8 — Construire une séance d'une heure",
   "subtitle": "Structure, rythme et cadre d'une pratique complète",
   "family": "Règles de l'enseignement",
@@ -1971,8 +2582,8 @@ window.AXIS_ONE_HOUR_COURSES = [
   "copyright": "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
 },
     {
-        "id":  "C009-terrain-vivant-eau-sang-souffle-mineraux",
-        "number":  9,
+        "id":  "C020-terrain-vivant-eau-sang-souffle-mineraux",
+        "number":  20,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -2032,8 +2643,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Protocole de lecture du terrain : boire un verre d'eau lentement, avec présence totale. Observer la texture en bouche, la chaleur ou fraîcheur ressentie, la sensation de passage dans la gorge. Après, rester assis 2 minutes et noter dans le carnet : état d'hydratation ressenti, qualité du souffle, légèreté ou lourdeur du corps, clarté mentale. Répéter matin et soir pendant 7 jours.",
-        "image":  "assets/course-visuals-premium/C009-terrain-vivant-eau-sang-souffle-mineraux.svg",
-        "pdf":  "assets/cours-pdf/C009-terrain-vivant-eau-sang-souffle-mineraux.pdf",
+        "image":  "assets/course-visuals-premium/C020-terrain-vivant-eau-sang-souffle-mineraux.svg",
+        "pdf":  "assets/cours-pdf/C020-terrain-vivant-eau-sang-souffle-mineraux.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -2043,8 +2654,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C010-alimentation-fraiche-et-reduction-de-la-surcharge",
-        "number":  10,
+        "id":  "C021-alimentation-fraiche-et-reduction-de-la-surcharge",
+        "number":  21,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -2104,8 +2715,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Tenir un journal alimentaire pendant 3 jours. Pour chaque repas, noter : heure, contenu approximatif, état d'énergie et de clarté 2h après. Observer sans juger les corrélations. Identifier un aliment qui alourdit systématiquement et un aliment qui allège. Prendre une décision simple : réduire l'un et augmenter l'autre pendant une semaine.",
-        "image":  "assets/course-visuals-premium/C010-alimentation-fraiche-et-reduction-de-la-surcharge.svg",
-        "pdf":  "assets/cours-pdf/C010-alimentation-fraiche-et-reduction-de-la-surcharge.pdf",
+        "image":  "assets/course-visuals-premium/C021-alimentation-fraiche-et-reduction-de-la-surcharge.svg",
+        "pdf":  "assets/cours-pdf/C021-alimentation-fraiche-et-reduction-de-la-surcharge.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -2115,8 +2726,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C011-emonctoires-intestins-reins-foie-lymphe",
-        "number":  11,
+        "id":  "C022-emonctoires-intestins-reins-foie-lymphe",
+        "number":  22,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -2176,8 +2787,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Choisir un émonctoire à soutenir pendant 7 jours. Pratiquer chaque matin : un grand verre d'eau tiède au réveil (reins), 10 minutes de marche (lymphe et intestin), 5 respirations abdominales profondes (poumons). En fin de journée, noter dans le carnet l'état d'énergie, de légèreté ou de pesanteur. Observer si un signe de saturation s'allège.",
-        "image":  "assets/course-visuals-premium/C011-emonctoires-intestins-reins-foie-lymphe.svg",
-        "pdf":  "assets/cours-pdf/C011-emonctoires-intestins-reins-foie-lymphe.pdf",
+        "image":  "assets/course-visuals-premium/C022-emonctoires-intestins-reins-foie-lymphe.svg",
+        "pdf":  "assets/cours-pdf/C022-emonctoires-intestins-reins-foie-lymphe.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -2187,8 +2798,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C012-rh-ph-et-resistivite-boussole-du-terrain",
-        "number":  12,
+        "id":  "C023-rh-ph-et-resistivite-boussole-du-terrain",
+        "number":  23,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -2248,8 +2859,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Auto-observation corporelle du terrain : pendant 5 jours, noter chaque matin (avant de manger ou boire) : qualité de la bouche (acide, neutre, douce), clarté ou opacité mentale, fatigue ou vitalité, texture et couleur de l'urine (foncée et forte = acidité + déshydratation, claire et abondante = bonne élimination). Construire une cartographie subjective de son terrain sur la semaine.",
-        "image":  "assets/course-visuals-premium/C012-rh-ph-et-resistivite-boussole-du-terrain.svg",
-        "pdf":  "assets/cours-pdf/C012-rh-ph-et-resistivite-boussole-du-terrain.pdf",
+        "image":  "assets/course-visuals-premium/C023-rh-ph-et-resistivite-boussole-du-terrain.svg",
+        "pdf":  "assets/cours-pdf/C023-rh-ph-et-resistivite-boussole-du-terrain.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -2259,8 +2870,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C013-electrolytes-sel-complet-et-conductivite",
-        "number":  13,
+        "id":  "C024-electrolytes-sel-complet-et-conductivite",
+        "number":  24,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -2320,8 +2931,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Préparer chaque matin une boisson minéralisée : 500 ml d'eau de bonne qualité, une pincée de sel gris (moins d'1 g), le jus d'un demi-citron (potassium), une pincée de magnésium marin en poudre si disponible. Boire lentement, avec présence. Observer pendant 5 jours : état d'énergie 1h après, qualité de la concentration en matinée, sensation musculaire. Noter dans le carnet.",
-        "image":  "assets/course-visuals-premium/C013-electrolytes-sel-complet-et-conductivite.svg",
-        "pdf":  "assets/cours-pdf/C013-electrolytes-sel-complet-et-conductivite.pdf",
+        "image":  "assets/course-visuals-premium/C024-electrolytes-sel-complet-et-conductivite.svg",
+        "pdf":  "assets/cours-pdf/C024-electrolytes-sel-complet-et-conductivite.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -2331,8 +2942,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C014-jeune-juste-et-temps-sans-manger",
-        "number":  14,
+        "id":  "C025-jeune-juste-et-temps-sans-manger",
+        "number":  25,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -2392,8 +3003,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Explorer la fenêtre alimentaire 14/10 pendant 5 jours : ne rien manger avant 10h et après 20h. Boire de l'eau ou des tisanes non sucrées en dehors de cette fenêtre. Chaque matin, avant le premier repas, noter dans le carnet : état mental (clair, brumeux, neutre), énergie physique (vive, stable, fatiguée), rapport à la faim (absent, présent, pressant). Observer si la clarté matinale augmente au fil des jours.",
-        "image":  "assets/course-visuals-premium/C014-jeune-juste-et-temps-sans-manger.svg",
-        "pdf":  "assets/cours-pdf/C014-jeune-juste-et-temps-sans-manger.pdf",
+        "image":  "assets/course-visuals-premium/C025-jeune-juste-et-temps-sans-manger.svg",
+        "pdf":  "assets/cours-pdf/C025-jeune-juste-et-temps-sans-manger.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -2403,8 +3014,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C015-recettes-de-clarification-avant-pratique",
-        "number":  15,
+        "id":  "C026-recettes-de-clarification-avant-pratique",
+        "number":  26,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -2464,8 +3075,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Créer son rituel de clarification personnel en 4 étapes : (1) Choisir une boisson (eau minéralisée ou tisane adaptée). (2) Choisir un geste de transition (se laver les mains, allumer une bougie, formuler une intention). (3) Pratiquer 5 minutes de respiration pré-séance. (4) Rester 1 minute dans le silence avant de commencer. Pratiquer ce rituel avant chaque séance pendant 21 jours et noter dans le carnet si la qualité des états accessibles évolue.",
-        "image":  "assets/course-visuals-premium/C015-recettes-de-clarification-avant-pratique.svg",
-        "pdf":  "assets/cours-pdf/C015-recettes-de-clarification-avant-pratique.pdf",
+        "image":  "assets/course-visuals-premium/C026-recettes-de-clarification-avant-pratique.svg",
+        "pdf":  "assets/cours-pdf/C026-recettes-de-clarification-avant-pratique.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -2475,8 +3086,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C016-protocole-terrain-de-sept-jours",
-        "number":  16,
+        "id":  "C027-protocole-terrain-de-sept-jours",
+        "number":  27,
         "familyId":  "terrain",
         "familyTitle":  "Terrain vivant & alimentation",
         "symbol":  "♒",
@@ -2536,8 +3147,8 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Lancer le protocole des 7 jours immédiatement après ce cours. Tenir un carnet dédié avec pour chaque jour : (matin) état général avant le geste, (soir) observation des effets sur le corps, l'énergie et la clarté mentale. En fin de semaine, rédiger un bilan de 10 lignes : qu'est-ce qui a changé ? Qu'est-ce qui reste à travailler ? Quelle pratique garder quotidiennement ?",
-        "image":  "assets/course-visuals-premium/C016-protocole-terrain-de-sept-jours.svg",
-        "pdf":  "assets/cours-pdf/C016-protocole-terrain-de-sept-jours.pdf",
+        "image":  "assets/course-visuals-premium/C027-protocole-terrain-de-sept-jours.svg",
+        "pdf":  "assets/cours-pdf/C027-protocole-terrain-de-sept-jours.pdf",
         "tags":  [
             "Terrain vivant & alimentation",
             "Cours 1h",
@@ -2546,9 +3157,9 @@ window.AXIS_ONE_HOUR_COURSES = [
         ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
-        {
-        "id":  "C025-soleil-visible-et-lumiere-interieure",
-        "number":  25,
+    {
+        "id":  "C028-soleil-visible-et-lumiere-interieure",
+        "number":  28,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -2619,8 +3230,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C026-prudence-oculaire-et-observation-douce",
-        "number":  26,
+        "id":  "C029-prudence-oculaire-et-observation-douce",
+        "number":  29,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -2691,8 +3302,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C027-remanence-lumineuse-et-systeme-nerveux",
-        "number":  27,
+        "id":  "C030-remanence-lumineuse-et-systeme-nerveux",
+        "number":  30,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -2763,8 +3374,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C028-lumiere-du-matin-et-rythme-circadien",
-        "number":  28,
+        "id":  "C031-lumiere-du-matin-et-rythme-circadien",
+        "number":  31,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -2835,8 +3446,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C029-photons-attention-et-plasticite-cerebrale",
-        "number":  29,
+        "id":  "C032-photons-attention-et-plasticite-cerebrale",
+        "number":  32,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -2907,8 +3518,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C030-lumiere-sommeil-et-reparation",
-        "number":  30,
+        "id":  "C033-lumiere-sommeil-et-reparation",
+        "number":  33,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -2979,8 +3590,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C031-source-lumineuse-intention-et-impregnation",
-        "number":  31,
+        "id":  "C034-source-lumineuse-intention-et-impregnation",
+        "number":  34,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -3051,8 +3662,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C032-integrer-la-lumiere-dans-la-journee",
-        "number":  32,
+        "id":  "C035-integrer-la-lumiere-dans-la-journee",
+        "number":  35,
         "familyId":  "lumiere",
         "familyTitle":  "Soleil, lumière & neurosciences",
         "symbol":  "☉",
@@ -3122,9 +3733,9 @@ window.AXIS_ONE_HOUR_COURSES = [
         ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
-        {
-        "id":  "C033-loi-du-rythme-biologique",
-        "number":  33,
+    {
+        "id":  "C036-loi-du-rythme-biologique",
+        "number":  36,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -3190,8 +3801,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C034-alternance-gauche-droite-et-attention",
-        "number":  34,
+        "id":  "C037-alternance-gauche-droite-et-attention",
+        "number":  37,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -3257,8 +3868,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C035-nombre-d-or-comme-architecture-vivante",
-        "number":  35,
+        "id":  "C038-nombre-d-or-comme-architecture-vivante",
+        "number":  38,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -3309,8 +3920,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C036-fractales-du-vivant-et-perception",
-        "number":  36,
+        "id":  "C039-fractales-du-vivant-et-perception",
+        "number":  39,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -3361,8 +3972,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C037-spirales-proportions-et-axe-interieur",
-        "number":  37,
+        "id":  "C040-spirales-proportions-et-axe-interieur",
+        "number":  40,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -3413,8 +4024,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C038-rythmes-cerebraux-et-etats-de-conscience",
-        "number":  38,
+        "id":  "C041-rythmes-cerebraux-et-etats-de-conscience",
+        "number":  41,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -3465,8 +4076,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C039-musique-mantra-et-cadence",
-        "number":  39,
+        "id":  "C042-musique-mantra-et-cadence",
+        "number":  42,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -3517,8 +4128,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C040-construire-un-protocole-rythmique-personnel",
-        "number":  40,
+        "id":  "C043-construire-un-protocole-rythmique-personnel",
+        "number":  43,
         "familyId":  "rythmes",
         "familyTitle":  "Rythmes, nombre d'or & fractales",
         "symbol":  "φ",
@@ -3568,9 +4179,9 @@ window.AXIS_ONE_HOUR_COURSES = [
         "tags":  ["Rythmes, nombre d'or & fractales", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
-        {
-        "id":  "C041-ce-qui-est-en-haut-comme-ce-qui-est-en-bas",
-        "number":  41,
+    {
+        "id":  "C044-ce-qui-est-en-haut-comme-ce-qui-est-en-bas",
+        "number":  44,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -3621,8 +4232,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C042-le-miroir-inverse-de-l-incarnation",
-        "number":  42,
+        "id":  "C045-le-miroir-inverse-de-l-incarnation",
+        "number":  45,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -3673,8 +4284,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C043-polarites-axe-croix-et-retournement",
-        "number":  43,
+        "id":  "C046-polarites-axe-croix-et-retournement",
+        "number":  46,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -3725,8 +4336,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C044-descendre-pour-elever",
-        "number":  44,
+        "id":  "C047-descendre-pour-elever",
+        "number":  47,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -3777,8 +4388,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C045-ombre-lumiere-et-inversion-du-regard",
-        "number":  45,
+        "id":  "C048-ombre-lumiere-et-inversion-du-regard",
+        "number":  48,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -3829,8 +4440,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C046-symbolique-du-temple-inverse",
-        "number":  46,
+        "id":  "C049-symbolique-du-temple-inverse",
+        "number":  49,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -3881,8 +4492,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C047-integrer-l-inversion-dans-les-exercices",
-        "number":  47,
+        "id":  "C050-integrer-l-inversion-dans-les-exercices",
+        "number":  50,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -3933,8 +4544,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C048-meditation-du-retournement-interieur",
-        "number":  48,
+        "id":  "C051-meditation-du-retournement-interieur",
+        "number":  51,
         "familyId":  "inversion",
         "familyTitle":  "Inversion & incarnation",
         "symbol":  "↧",
@@ -3982,546 +4593,9 @@ window.AXIS_ONE_HOUR_COURSES = [
         "tags":  ["Inversion & incarnation", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
-        {
-        "id":  "C017-balancement-lateral-complet",
-        "number":  17,
-        "familyId":  "balancements",
-        "familyTitle":  "Balancements",
-        "symbol":  "↔",
-        "title":  "Balancement latéral complet",
-        "subtitle":  "L’oscillation droite-gauche comme rééquilibrage des hémisphères",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Approfondissement",
-        "kind":  "Pratique corporelle & intégration",
-        "status":  "available",
-        "summary":  "Le balancement latéral est l’un des mouvements les plus anciens de la mémoire corporelle humaine. De la berceuse à la prière, ce geste universel calme le système nerveux, synchronise les hémisphères et crée un terrain intérieur de réceptivité profonde.",
-        "shortSummary":  "Oscillation droite-gauche pour rééquilibrer les hémisphères et induire un état de réceptivité.",
-        "longSummary":  "Le balancement latéral réactive une intelligence ancestrale inscrite dans le corps. Ce mouvement doux de droite à gauche produit des effets mesurables sur le système nerveux autonome : il réduit l’activation sympathique, favorise la cohérence entre les deux hémisphères cérébraux et crée une alternance rythmique qui prépare l’être à recevoir des impressions subtiles. Dans ce cours, nous explorons le balancement latéral dans ses trois formes — du corps entier, de la tête seule, et intériorisé (sans mouvement physique) — en l’associant à la respiration, au mantra et à la visualisation de l’axe central. La pratique guidee permet de saisir comment un simple geste oscillatoire peut devenir une méthode de centrage, de traitement émotionnel et d’ouverture perceptive.",
-        "pedagogicalObjective":  "Maîtriser la technique du balancement latéral dans ses trois formes (corps, tête, intériorisé) et comprendre son action sur le système nerveux et la perception.",
-        "initiaticObjective":  "Faire du balancement latéral un instrument de dialogue entre les deux polarités intérieures — action et réception, analyse et synthèse — pour trouver le point de silence en leur centre.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"Installation\",     \"content\": \"Position assise stable, évaluation de l’état intérieur du moment, respiration naturelle." },
-            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Principe du balancement latéral : histoire universelle du geste, action sur les hémisphères, notion de rémanence." },
-            { "time": "15:00 — 25:00\",\"title\": \"Pratique corps\",   \"content\": \"Balancement du corps entier, lenteur, suivi du point d’équilibre, association du mantra ILLI." },
-            { "time": "25:00 — 35:00\",\"title\": \"Pratique tête\",    \"content\": \"Balancement de la tête seule, yeux fermés, observation de l’espace intérieur en mouvement." },
-            { "time": "35:00 — 45:00\",\"title\": \"Intériorisation\",  \"content\": \"Arrêt du mouvement physique, continuation du balancement en imagination, observation de la rémanence." },
-            { "time": "45:00 — 55:00\",\"title\": \"Intégration\",     \"content\": \"Carnet de pratique, phrase essentielle du cours, observation des effets dans le corps." },
-            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Retour au souffle, enracinement, geste concret du jour." }
-        ],
-        "plan":  [
-            "0–5 min — Installation et évaluation de l’état de départ",
-            "5–15 min — Enseignement : universalité du geste oscillatoire et action sur les hémisphères",
-            "15–25 min — Pratique du balancement du corps entier avec mantra ILLI",
-            "25–35 min — Pratique du balancement de la tête seule",
-            "35–45 min — Intériorisation du mouvement et observation de la rémanence",
-            "45–55 min — Intégration, carnet, phrase essentielle",
-            "55–60 min — Clôture et enracinement"
-        ],
-        "teaching":  {
-            "intro":  "Le corps humain porte en lui des gestes que nul n’a besoin d’apprendre. L’oscillation droite-gauche en fait partie. Avant toute culture, avant toute tradition, cet enfant qu’on berce, ce vieillard qui prie, ce meditant qui se balance dans le silence — tous retrouvent par instinct ce mouvement fondamental. Ce cours explore pourquoi ce geste est si universel et comment l’utiliser comme instrument de travail interieur.",
-            "sections":  [
-                {
-                    "title":  "1. Le geste universel de la berceuse et de la prière",
-                    "content":  "Dans toutes les cultures, le balancement latéral accompagne les moments de transition : on berce l’enfant pour le faire passer de l’éveil au sommeil, on se balance en prière pour passer de l’ordinaire au sacré. Ce n’est pas une coïncidence. Le mouvement oscillatoire de droite à gauche active le nerf vague, réduit la tension sympathique et favorise l’entrée en état de réceptivité élargie. Le corps sait ce que l’esprit cherche encore à comprendre."
-                },
-                {
-                    "title":  "2. Action sur les hémisphères cérébraux",
-                    "content":  "Le balancement latéral crée une alternance rythmique gauche-droite qui favorise la cohérence inter-hémisphérique. L’hémisphère gauche, associé au langage et à l’analyse, et l’hémisphère droit, associé à la perception spatiale et à la synthèse, entrent progressivement en dialogue. On observe après une pratique soutenue une réduction du dialogue intérieur, une plus grande disponibilité sensorielle et un sentiment de centrage qui persiste bien au-delà du mouvement lui-même."
-                },
-                {
-                    "title":  "3. Les trois formes du balancement latéral",
-                    "content":  "La pratique se décline en trois formes progressives. La première est le balancement du corps entier depuis la base : assis, on laisse le buste osciller lentement, les hanches servant de pivot. La deuxième est le balancement de la tête seule, corps immobile, ce qui concentre l’effet sur les structures cérébrales et sensitives supérieures. La troisième est l’intériorisation complète : on arrête tout mouvement physique mais on continue le balancement en imagination pure, ce qui prolonge l’effet tout en cultivant la capacité de visualisation cinétique."
-                },
-                {
-                    "title":  "4. Le mantra ILLI et le rythme naturel",
-                    "content":  "Le mantra ILLI (prononcé « il-li », deux syllabes égales) s’associe naturellement au balancement latéral : une syllabe pour la droite, une syllabe pour la gauche. Ce n’est pas une récitation mentale mais une résonance : la vibration de la voyelle I dans la structure osseuse du crâne accompagne et amplifie le mouvement oscillatoire. On cherche le rythme naturel du corps, ni trop lent ni trop rapide, celui qui s’installe de lui-même quand on cesse de contrôler."
-                },
-                {
-                    "title":  "5. La rémanence : ce qui reste après le mouvement",
-                    "content":  "L’un des phénomènes les plus intéressants du balancement est la rémanence : après l’arrêt du mouvement physique, une sensation de continuation persiste dans le corps et dans le champ de conscience. Cette rémanence est précieuse — elle signale que l’effet s’est installé dans des couches plus profondes. On apprend à l’accueillir sans l’interrompre, à rester dans cet espace de transition où la perception est la plus fine."
-                }
-            ]
-        },
-        "practice":  "Protocole balancement latéral — 45 minutes actives :\n1. Asseyez-vous en tailleur ou sur une chaise, colonne vertébrale droite, mains sur les genoux.\n2. Fermez les yeux. Trois respirations profondes pour évaluer votre état de départ.\n3. Commencez le balancement du corps entier : lentement, de droite à gauche, laissez le rythme s'installer naturellement (environ 1 aller-retour par seconde ou moins).\n4. Ajoutez mentalement le mantra ILLI : 'IL' à droite, 'LI' à gauche.\n5. Après 10 minutes, réduisez progressivement le mouvement au seul balancement de la tête.\n6. Après 10 minutes supplémentaires, immobilisez totalement le corps. Continuez le balancement en imagination.\n7. Restez immobile 10 minutes dans la rémanence. Observez sans analyser.\n8. Notez immédiatement dans votre carnet : sensations, images, qualité de l'espace intérieur.",
-        "image":  "assets/course-visuals-premium/C041-balancement-lateral-complet.svg",
-        "pdf":  "assets/cours-pdf/C041-balancement-lateral-complet.pdf",
-        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
     {
-        "id":  "C018-balancement-vertical-complet",
-        "number":  18,
-        "familyId":  "balancements",
-        "familyTitle":  "Balancements",
-        "symbol":  "↔",
-        "title":  "Balancement vertical complet",
-        "subtitle":  "L’oscillation haut-bas comme dialogue entre ciel et terre",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Approfondissement",
-        "kind":  "Pratique corporelle & intégration",
-        "status":  "available",
-        "summary":  "Le balancement vertical explore l’axe haut-bas du corps, dialogue entre l’ancrage terrestre et l’élévation spirituelle. Ce mouvement travaille la colonne vertébrale comme antenne vivante et cultive la capacité à recevoir des impressions du champ supérieur tout en restant enraciné.",
-        "shortSummary":  "Oscillation haut-bas pour activer l’axe vertical du corps et relier ancrage et élévation.",
-        "longSummary":  "L’axe vertical est l’un des axes fondamentaux de l’expérience humaine. Se tenir debout, c’est déjà affirmer une relation entre le bas (la terre, la matière, l’ancrage) et le haut (le ciel, l’esprit, la direction). Le balancement vertical intègre ces deux pôles en les mettant en mouvement rythmique. Ce cours présente trois formes de balancement vertical — du buste (hoche-tête ancestral), de la tête seule (avant-arrière sagittal réduit), et intériorisé comme flux d’énergie montant et descendant le long de la colonne. Le mantra ALLA (deux syllabes harmoniques) accompagne le mouvement. La pratique développe la sensibilité à l’axe cranio-sacré et à la circulation de l’énergie vitale entre les chakras inférieurs et supérieurs.",
-        "pedagogicalObjective":  "Maîtriser les trois formes du balancement vertical et comprendre l’axe cranio-sacré comme support de circulation énergétique.",
-        "initiaticObjective":  "Faire du balancement vertical un rituel de connexion entre la dimension terrestre et la dimension spirituelle de l’être, cultivant la capacité à être un pont entre ciel et terre.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"Ancrage initial\",   \"content\": \"Prise de conscience de la colonne vertébrale comme axe, trois respirations verticales (inspire vers le haut, expire vers le bas)." },
-            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"L’axe vertical dans la tradition et la physiologie : colonne, axe cranio-sacré, pression du LCR." },
-            { "time": "15:00 — 25:00\",\"title\": \"Pratique buste\",   \"content\": \"Balancement vertical du buste, mouvement ample et lent, mantra ALLA." },
-            { "time": "25:00 — 35:00\",\"title\": \"Pratique tête\",    \"content\": \"Balancement de la tête seule (avant-arrière), très léger, focus sur la base du crâne." },
-            { "time": "35:00 — 45:00\",\"title\": \"Intériorisation\",  \"content\": \"Arrêt du mouvement, visualisation du flux énergétique montant-descendant le long de la colonne." },
-            { "time": "45:00 — 55:00\",\"title\": \"Intégration\",     \"content\": \"Carnet, observation des zones touchées, phrase essentielle." },
-            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Retour au sol, enracinement des pieds, projection de l’énergie vers le bas puis vers le haut." }
-        ],
-        "plan":  [
-            "0–5 min — Prise de conscience de l’axe vertical et ancrage",
-            "5–15 min — Enseignement : axe cranio-sacré, ciel et terre, LCR",
-            "15–25 min — Balancement vertical du buste avec mantra ALLA",
-            "25–35 min — Balancement de la tête seule, axe sagittal",
-            "35–45 min — Intériorisation : flux énergétique le long de la colonne",
-            "45–55 min — Intégration et carnet de pratique",
-            "55–60 min — Clôture et enracinement"
-        ],
-        "teaching":  {
-            "intro":  "Se tenir debout est un geste initiatique en soi. L’axe vertical du corps humain est unique parmi les mammiferes : nous seuls maintenons la colonne perpendiculaire au sol, crâne pointé vers le ciel. Ce positionnement n’est pas un accident evolutif — il fait de nous des antennes particulieres, capables de capter des frequences qui ne peuvent atteindre un etre couche ou plat. Le balancement vertical active et conscientise cet axe.",
-            "sections":  [
-                {
-                    "title":  "1. L’axe vertical comme antenne vivante",
-                    "content":  "La colonne vertébrale est une structure piézoélectrique : elle génère un signal électrique sous contrainte mécanique. Chaque oscillation verticale crée une onde de compression qui se propage de la base au sommet du crâne, modulant l’activité du système nerveux central. L’axe cranio-sacré, parcouru par le liquide céphalo-rachidien en oscillation lente, est un système dynamique d’une extrême sensibilité. Le balancement vertical résonne avec ce rythme primordial."
-                },
-                {
-                    "title":  "2. Les polarités haut et bas dans la physiologie énergétique",
-                    "content":  "Dans toutes les traditions de travail énergétique, l’axe vertical met en relation deux pôles : le pôle inférieur (ancrage, densité, for ces terrestres) et le pôle supérieur (élévation, légèreté, réceptivité aux influences subtiles). Le balancement vertical n’est pas un simple mouvement mécanique : c’est un dialogue entre ces deux dimensions de l’être. Ni la terre seule, ni le ciel seul ne suffisent — c’est le mouvement entre eux qui génère la vie."
-                },
-                {
-                    "title":  "3. Le mantra ALLA : la fondation et l’élévation",
-                    "content":  "Le mantra ALLA (prononcé « al-la », accent sur la première syllabe) associe la consonne L — vibration linguale centrale — à la voyelle A, la plus ouverte, celle qui résonne dans la cavité thoracique. La syllabe AL, prononcée à la descente, ancre. La syllabe LA, prononcée à la montée, élève. Ce mantra ne nomme rien d’extérieur — il active un circuit intérieur de circulation énergétique le long de l’axe vertical."
-                },
-                {
-                    "title":  "4. La pression du liquide céphalo-rachidien et la conscience",
-                    "content":  "Le liquide céphalo-rachidien (LCR) baigne le cerveau et la moelle épinière dans un mouvement autonome d’expansion-contraction. Des recherches en ostéopathie cranio-sacrée indiquent que ce rythme primaire, de 6 à 12 cycles par minute, est lié à des états de conscience spécifiques. Le balancement vertical synchronisé avec la respiration peut amplifier et harmoniser ce rythme, créant des états de conscience élargie accessibles sans pharmacoïdes."
-                },
-                {
-                    "title":  "5. La pratique intériorisée : sentir le flux sans se mouvoir",
-                    "content":  "Après la phase de mouvement, on arrête complètement le corps et on cherche à sentir le flux énergétique qui continue de circuler le long de la colonne. Certains pratiquants décrivent une chaleur ascendante, d’autres une légèreté progressive, d’autres encore des pulsations au sommet du crâne. Ce n’est pas de l’imagination — c’est la perception affinée d’un phénomène physiologique réel qui devient perceptible quand le mouvement extérieur cesse d’attirer l’attention."
-                }
-            ]
-        },
-        "practice":  "Protocole balancement vertical — 45 minutes actives :\n1. Assis ou debout, colonne verticale, sentez le poids de votre corps vers le bas et l'aspiration vers le haut simultanément.\n2. Inspirez en vous grandissant mentalement, expirez en vous enracinant. Trois cycles.\n3. Commencez le balancement du buste vers l'avant (inspiration) et l'arrière (expiration), ou vers le haut (étirement) et le bas (affaissement). Rythme très lent.\n4. Mantra ALLA : 'AL' à la descente, 'LA' à la montée.\n5. Après 10 minutes, réduisez au seul balancement de la tête, très léger.\n6. Après 10 minutes, immobilisez. Cherchez le flux interne le long de la colonne.\n7. Restez 10 minutes dans l'immobilité attentive.\n8. Notez : zones actives, qualité du flux, sensations au sommet du crâne.",
-        "image":  "assets/course-visuals-premium/C042-balancement-vertical-complet.svg",
-        "pdf":  "assets/cours-pdf/C042-balancement-vertical-complet.pdf",
-        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-    {
-        "id":  "C019-balancement-antero-posterieur",
-        "number":  19,
-        "familyId":  "balancements",
-        "familyTitle":  "Balancements",
-        "symbol":  "↔",
-        "title":  "Balancement antéro-postérieur",
-        "subtitle":  "L’oscillation avant-arrière comme intégration du passé et de l’avenir",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Approfondissement",
-        "kind":  "Pratique corporelle & intégration",
-        "status":  "available",
-        "summary":  "Le balancement antéro-postérieur (avant-arrière) explore une dimension temporelle : l’avant est associé au futur, au projet, à l’intention ; l’arrière est associé au passé, à la mémoire, à l’enracinement. Ce cours utilise ce mouvement pour intégrer les deux dimensions du temps dans un présent élargi.",
-        "shortSummary":  "Oscillation avant-arrière pour intégrer passé et avenir dans un présent élargi.",
-        "longSummary":  "L’axe antéro-postérieur du corps porte une charge symbolique et psychologique particulière. Dans la culture et dans l’expérience commune, se pencher en avant signifie aller vers, s’exposer, anticiper ; se pencher en arrière signifie reculer, se protéger, revenir. Le balancement antéro-postérieur met ces deux postures en dialogue rythmique, dissolvant progressivement la tension entre ce qui a été et ce qui sera pour ancrer l’être dans le seul espace où la perception est possible : le présent vivant. Ce cours travaille aussi sur la conscience dorsale — la perception de ce qui se passe dans le dos, ce « champ arrière » souvent négligé mais crucial pour une conscience spatiale complète.",
-        "pedagogicalObjective":  "Maîtriser le balancement antéro-postérieur et développer la conscience du champ arrière comme espace de réception.",
-        "initiaticObjective":  "Dissoudre la tension entre passé et futur en cultivant la capacité à habiter le présent comme unique lieu de perception et d’action.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"Présence\",         \"content\": \"Évaluation de l’orientation temporelle du moment : êtres-vous plutôt dans le futur (tâches, projets) ou le passé (souvenirs, regrets) ?" },
-            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"Symbolique avant-arrière : futur/passé, exposition/protection, conscience frontale et dorsale." },
-            { "time": "15:00 — 25:00\",\"title\": \"Pratique avant\",   \"content\": \"Balancement vers l’avant, intention de contact avec ce qui vient, respiration du projet." },
-            { "time": "25:00 — 35:00\",\"title\": \"Pratique arrière\", \"content\": \"Balancement vers l’arrière, contact avec le champ dorsal, respiration de la mémoire apaisée." },
-            { "time": "35:00 — 45:00\",\"title\": \"Intégration\",     \"content\": \"Oscillation complète avant-arrière, recherche du point de neutralité au centre." },
-            { "time": "45:00 — 55:00\",\"title\": \"Carnet\",           \"content\": \"Observations sur la relation au temps, phrase essentielle." },
-            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Enracinement dans le présent, geste du jour." }
-        ],
-        "plan":  [
-            "0–5 min — Évaluation de l’orientation temporelle habituelle",
-            "5–15 min — Enseignement : avant/arrière, temps, conscience dorsale",
-            "15–25 min — Pratique du balancement vers l’avant",
-            "25–35 min — Pratique du balancement vers l’arrière",
-            "35–45 min — Oscillation complète et recherche du centre",
-            "45–55 min — Carnet et phrase essentielle",
-            "55–60 min — Clôture et enracinement dans le présent"
-        ],
-        "teaching":  {
-            "intro":  "Nous vivons rarement dans le présent. L’esprit humain est naturellement pendulaire : il oscille entre le passé (regrets, nostalgie, mémoire) et le futur (anticipation, préoccupation, projection). Le balancement antéro-postérieur représente ce pendule temporel et lui donne une forme physique. En con-s-cient-i-sant ce mouvement, en l’associant à la respiration, on peut progressivement dissoudre la tension entre ces deux pôles et trouver le point de repos : le présent vivant.",
-            "sections":  [
-                {
-                    "title":  "1. L’axe temps : avant comme futur, arrière comme passé",
-                    "content":  "En body-mind, la posture revele l’état interne. Une personne fortement projetée vers le futur tend à incliner le corps en avant, à marcher en penchant la tête devant les épaules, à avoir le regard biaisé vers le bas-avant. Une personne ancrée dans le passé tend à se recourber vers l’arrière, à avoir les épaules en retrait, une posture de retrait. Le balancement antéro-postérieur n’est pas un exercice technique : c’est un dialogue avec sa propre relation au temps."
-                },
-                {
-                    "title":  "2. La conscience dorsale : le champ arrière",
-                    "content":  "Nous voyons par en avant, nous agissons par en avant, nous proj-etons notre attention par en avant. Le dos est la zone la plus aveugle de notre conscience corporelle. Pourtant, le champ dorsal est fondamental pour une perception spatiale complète. Dans certaines traditions, la capacité à percevoir ce qui se passe dans son dos est associée à une forme de vigilance énergétique, une conscience à 360 degrés. Le balancement vers l’arrière est une invitation à ouvrir ce champ aveugle."
-                },
-                {
-                    "title":  "3. Respiration d’avant et respiration d’arrière",
-                    "content":  "La respiration change selon l’orientation du balancement. En se penchant vers l’avant, la cage thoracique se comprime légèrement — c’est une respiration d’intention, de projet, d’envoi. En se penchant vers l’arrière, la cage thoracique s’ouvre — c’est une respiration de réception, d’espace, d’accueil. On associe consciemment ces deux qualités respiratoires au mouvement pour amplifier l’effet de l’oscillation."
-                },
-                {
-                    "title":  "4. Le point de neutralité : le présent comme espace de perception",
-                    "content":  "Entre l’avant et l’arrière existe un point de neutralité : la verticalité parfaite. Ce point n’est pas l’immobilité — c’est le cœur vivant du mouvement, le moment où le balancement change de direction. L’attention portée à ce point de retournement crée un ancrage dans le présent. Avec la pratique, ce point de neutralité s’élargit, devient un espace habitable, un lieu de repos dans le flux du temps."
-                },
-                {
-                    "title":  "5. Intégration : intégrer le passé et l’avenir sans être pris par eux",
-                    "content":  "La pratique avancée du balancement antéro-postérieur vise à cultiver une qualité d’attention spécifique : être conscient du passé sans y être prisonnier, orienté vers l’avenir sans y être absorbé. On pense à l’eau d’une rivière qui coule dans les deux sens autour d’un rocher : le rocher ne se déplace pas, mais il est en relation vivante avec tout ce qui passe. C’est cette qualité de présence que cultive ce cours."
-                }
-            ]
-        },
-        "practice":  "Protocole balancement antéro-postérieur — 45 minutes actives :\n1. Assis en tailleur ou sur une chaise. Évaluez : êtes-vous plutôt dans vos projets futurs ou dans vos souvenirs en ce moment ?\n2. Commencez par un léger balancement vers l'avant : inclinez le buste 10-20 cm, retour au centre. Associez l'intention : 'je vais vers ce qui vient'.\n3. Puis vers l'arrière : inclinez le buste 10-20 cm en arrière, retour. Associez : 'je reçois ce qui a été'.\n4. Installez le mouvement complet avant-arrière, lent, 1 cycle toutes les 2-3 secondes.\n5. Portez attention au point de retournement : le moment exact où vous passez de l'avant à l'arrière. C'est le présent.\n6. Après 10 minutes, réduisez à la tête seule, puis intériorisez.\n7. Restez 10 minutes dans l'immobilité. Observez votre relation au temps.\n8. Notez : dans quel temps habitez-vous naturellement ? Qu'avez-vous senti dans le dos ?",
-        "image":  "assets/course-visuals-premium/C043-balancement-antero-posterieur.svg",
-        "pdf":  "assets/cours-pdf/C043-balancement-antero-posterieur.pdf",
-        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-    {
-        "id":  "C020-balancement-en-huit",
-        "number":  20,
-        "familyId":  "balancements",
-        "familyTitle":  "Balancements",
-        "symbol":  "↔",
-        "title":  "Balancement en huit",
-        "subtitle":  "La lemniscate comme intégration des polarités",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Approfondissement",
-        "kind":  "Pratique corporelle & intégration",
-        "status":  "available",
-        "summary":  "Le balancement en huit (lemniscate) combine les oscillations latérale et verticale dans une figure continue qui ne s’arrête jamais. Ce mouvement infini intègre les polarités et crée un état de flux perceptif particulier, associé à la créativité et à l’intelligence intégrative.",
-        "shortSummary":  "Mouvement lemniscate pour intégrer les polarités et activer l’intelligence intégrative.",
-        "longSummary":  "La lemniscate — le huit couché, symbole de l’infini — est l’une des formes géométriques les plus profondes de la nature. On la retrouve dans les trajectoires des planètes, dans les électrons, dans les mouvements des aquiferes. Elle représente le principe de circulation continue entre deux pôles sans jamais les séparer ni les fusionner. Appliqué au corps, le mouvement en lemniscate (huit) combine les axes latéral et vertical dans une trajectoire fluide et continue. Les recherches en kinesio-logie et en neuro-ducation identifient ce mouvement comme particulièrement efficace pour activer les connexions inter-hémisphériques et faciliter l’apprentissage, la mémorisation et les états de flow.",
-        "pedagogicalObjective":  "Maîtriser la trajectoire en lemniscate avec le corps, la tête et la main directrice, et comprendre son action sur l’intégration inter-hémisphérique.",
-        "initiaticObjective":  "Faire du huit une méditation en mouvement sur le principe d’infini : deux mondes distincts reliés par un centre toujours en mouvement, jamais immobile.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"Dessin préparatoire\", \"content\": \"Dessiner un huit couche en l’air avec la main, yeux fermés, pour sentir la trajectoire." },
-            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"La lemniscate dans la nature et les traditions : infini, circulation, intégration des polarités." },
-            { "time": "15:00 — 25:00\",\"title\": \"Pratique main\",    \"content\": \"Grandes lemniscates des bras et des épaules, suivi du regard, synchronisation respiration." },
-            { "time": "25:00 — 35:00\",\"title\": \"Pratique buste\",   \"content\": \"Lemniscate du buste entier, d’abord ample puis de plus en plus subtile." },
-            { "time": "35:00 — 45:00\",\"title\": \"Pratique tête\",    \"content\": \"Lemniscate de la tête seule, très légère, puis intériorisée." },
-            { "time": "45:00 — 55:00\",\"title\": \"Intégration\",     \"content\": \"Carnet, observation des effets sur la perception et la pensée." },
-            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Trois lemniscates lentes avec la main, retour au centre, geste du jour." }
-        ],
-        "plan":  [
-            "0–5 min — Dessin préparatoire de la lemniscate en l’air",
-            "5–15 min — Enseignement : le huit couche, l’infini, les polarités",
-            "15–25 min — Grandes lemniscates des bras et épaules",
-            "25–35 min — Lemniscate du buste, ample puis subtile",
-            "35–45 min — Lemniscate de la tête puis intériorisation",
-            "45–55 min — Intégration et carnet",
-            "55–60 min — Clôture et retour au centre"
-        ],
-        "teaching":  {
-            "intro":  "Le huit couche, ou lemniscate, est l’un des symboles mathematiques les plus universels. Dans la pensee initiatique, il represente la circulation eternelle entre deux mondes — visible et invisible, matiere et energie, conscient et inconscient — sans jamais que l’un absorbe l’autre. Ce mouvement continu, ce passage perpetuel par le centre, est une lecon que le corps peut apprendre avant que l’esprit ne la comprenne.",
-            "sections":  [
-                {
-                    "title":  "1. La lemniscate dans la nature et les mathématiques",
-                    "content":  "La lemniscate (du latin « ruban ») fut formalisée en mathématiques au XVIIe siècle mais elle apparaît bien avant dans l’art sacré, les mandalas et les sym-boles alchimiques. On la retrouve dans les trajectoires relatives des planètes (comme Terre-Venus vues de l’extérieur du système), dans les lignes de champ magnétique bipolaires, dans la forme de certains protéines. Elle représente un principe universel : deux pôles séparés mais perpetuellement reliés par un flux circulaire."
-                },
-                {
-                    "title":  "2. Le huit et l’intégration inter-hémisphérique",
-                    "content":  "En kinésiologie éducative, le « lazy eight » (huit couche) est l’exercice de référence pour activer les connexions inter-hémisphériques via le corps calleux. Le mouvement croise la ligne médiane du corps de façon répétée, forçant les deux hémisphères à collaborer plutôt qu’à altern er. Des études auprès d’enfants dyslexiques ont montré des améliorations significatives de la lecture et de l’écriture après des séquences régulières de ce mouvement."
-                },
-                {
-                    "title":  "3. La trajectoire : comment tracer le huit avec précision",
-                    "content":  "La lemniscate commence au centre, monte vers le haut-gauche, fait un grand arc, revient au centre, monte vers le haut-droit, fait un grand arc, revient au centre. Le centre est le point crucial : on ne le traverse pas à toute vitesse, on y fait une pause imperceptible, un moment de transition. C’est là que se joue l’intégration. Avec la tête, le mouvement est minuscule mais le principe est identique. Avec le buste, on cherche une fluidité comparable à de l’eau qui s’écoule."
-                },
-                {
-                    "title":  "4. Le flux et le flow : état de créativité élargie",
-                    "content":  "Le mouvement en lemniscate, maintenu plusieurs minutes, induit un état perceptif particulier décrit par les pratiquants comme « état de flux » : la pensée devient fluide, les associations d’idées s’accélèrent, les solutions émergent spontanément, les blocages se dissolvent. Cet état correspond à ce que Csikszentmihalyi appelle le « flow ». Il peut être cultivé intentionnellement par ce type de pratique corporelle."
-                },
-                {
-                    "title":  "5. Intériorisation et lemniscate énergétique",
-                    "content":  "Au-delà du mouvement physique, on peut tracer une lemniscate dans l’espace énergétique du corps : un huit qui passe par le centre du cœur et s’étend dans les deux directions, ou un huit vertical qui relie crâne et bassin. Ces visualisations, associées à la respiration, créent un circuit énergétique interne qui amplifie les effets du mouvement physique. La lemniscate n’est pas juste une trajectoire — c’est une architecture vivante de circulation."
-                }
-            ]
-        },
-        "practice":  "Protocole balancement en huit — 45 minutes actives :\n1. Commencez debout ou assis. Étendez le bras droit, index pointé. Tracez un grand huit couché (∞) en l'air, aussi grand que possible, en commençant par le haut-gauche.\n2. Suivez votre index des yeux. Faites 5 grands huits, puis changez de main.\n3. Asseyez-vous. Commencez les huits du buste : inclinez vers le haut-gauche, tracez un arc, revenez au centre, inclinez vers le haut-droit, tracez un arc, retour. Mouvement lent et fluide.\n4. Après 10 minutes, réduisez à la tête seule : micro-lemniscates, presque imperceptibles de l'extérieur.\n5. Après 10 minutes, intériorisez : imaginez un huit énergétique passant par le cœur.\n6. Restez 10 minutes en immobilité avec cette image.\n7. Notez : état de la pensée, émergence d'idées, qualité du flux intérieur.",
-        "image":  "assets/course-visuals-premium/C044-balancement-en-huit.svg",
-        "pdf":  "assets/cours-pdf/C044-balancement-en-huit.pdf",
-        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-    {
-        "id":  "C021-balancement-en-croix",
-        "number":  21,
-        "familyId":  "balancements",
-        "familyTitle":  "Balancements",
-        "symbol":  "↔",
-        "title":  "Balancement en croix",
-        "subtitle":  "Les quatre directions comme ancrage dans l’espace sacré",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Approfondissement",
-        "kind":  "Pratique corporelle & intégration",
-        "status":  "available",
-        "summary":  "Le balancement en croix combine les quatre axes cardinaux — haut, bas, gauche, droite — dans une séquence qui inscrit le corps au centre d’un espace orienté. Ce cours travaille l’ancrage spatial, la conscience des quatre directions et l’habitation du centre comme lieu de stabilité absolue.",
-        "shortSummary":  "Quatre directions pour ancrer le corps au centre d’un espace orienté et sacré.",
-        "longSummary":  "La croix est l’un des symboles universaux de l’humanité : elle précède toutes les religions, représentant l’intersection de l’horizontal et du vertical, du temps et de l’espace, de l’humain et du divin. Le balancement en croix utilise ce symbole comme structure de pratique : on explore successivement chaque branche de la croix (nord-sud, est-ouest) avant de trouver le repos au centre. Ce travail développe ce qu’on pourrait appeler l’intelligence spatiale énergétique : la capacité à sentir l’espace qui entoure le corps, à percevoir les qualités directionnelles et à habiter le centre de son espace comme lieu de stabilité absolue.",
-        "pedagogicalObjective":  "Intégrer les quatre axes directionnels dans une pratique de balancement et développer la conscience spatiale à 360 degrés.",
-        "initiaticObjective":  "Se placer consciemment au centre de sa croix personnelle, point d’intersection de toutes les directions, comme métaphore et expérience de la stabilité dans le mouvement.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"Orientation\",      \"content\": \"Identification des quatre directions dans l’espace physique de la pièce, conscience de sa position au centre." },
-            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"La croix comme symbole universel, les quatre directions, le centre comme lieu de pouvoir." },
-            { "time": "15:00 — 25:00\",\"title\": \"Pratique latérale\", \"content\": \"Balancement droite-gauche (axe est-ouest), contact avec les énergies de chaque direction." },
-            { "time": "25:00 — 35:00\",\"title\": \"Pratique verticale\",\"content\": \"Balancement avant-arrière (axe nord-sud), contact avec les directions avant et derrière." },
-            { "time": "35:00 — 45:00\",\"title\": \"Croix complète\",   \"content\": \"Alternance des deux axes dans une séquence en croix, puis arrêt au centre." },
-            { "time": "45:00 — 55:00\",\"title\": \"Centre\",           \"content\": \"Immobilité au centre, conscience des quatre directions simultanément, carnet." },
-            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Geste de clôture des quatre directions, retour au centre, protection." }
-        ],
-        "plan":  [
-            "0–5 min — Orientation dans l’espace et conscience du centre",
-            "5–15 min — Enseignement : la croix, les quatre directions, le centre",
-            "15–25 min — Balancement latéral (est-ouest)",
-            "25–35 min — Balancement antéro-postérieur (nord-sud)",
-            "35–45 min — Séquence en croix et immobilité au centre",
-            "45–55 min — Conscience des quatre directions et carnet",
-            "55–60 min — Clôture rituelle des quatre directions"
-        ],
-        "teaching":  {
-            "intro":  "Avant le christianisme, avant l’égypte ancienne, avant les premières civilisations connues, les humains gravaient des croix sur les rochers. Ce symbole universel n’appartient à aucune religion — il est insecrit dans la structure même de l’expérience humaine. Nous vivons dans un espace à quatre dimensions directionnelles (haut, bas, gauche, droite) et nous sommes, à chaque instant, le point d’intersection de ces quatre axes. Le balancement en croix rend cette expérience consciente et habitee.",
-            "sections":  [
-                {
-                    "title":  "1. La croix comme structure universelle de l’espace",
-                    "content":  "Le corps humain debout est lui-même une croix : axe vertical de la tête aux pieds, axe horizontal des épaules. Chaque moment de conscience humaine se produit à l’intersection de ces deux axes. La croix n’est pas un symbole religieux — c’est une carte de l’espace vécu. Elle représente la façon dont un être conscient habite l’espace : centré, orienté, en relation avec les quatre directions."
-                },
-                {
-                    "title":  "2. Les qualités des quatre directions",
-                    "content":  "Chaque direction porte une qualité énergétique. Ces qualités varient selon les traditions mais un fonds commun existe : l’avant est associé au futur, à l’action, à la vision ; l’arrière au passé, à la mémoire, à la protection ; la droite à l’action, la force, le rationnel ; la gauche à la réception, la sensibilité, l’intuitif. Ces associations ne sont pas des vérités absolues — ce sont des portes d’entrée pour sentir comment vous-même habitez chaque direction."
-                },
-                {
-                    "title":  "3. Le centre comme lieu de stabilité",
-                    "content":  "Dans toutes les traditions de travail sacral, le centre est le lieu de pouvoir : ni à l’est ni à l’ouest, ni au nord ni au sud, mais au point d’intersection. Le taoïsme appelle ce centre le « vide créateur », les traditions amérindiennes le « medicine wheel » center, les traditions d’Asie centrale le « navel du monde ». C’est le point fixe autour duquel tout tourne sans être lui-même emporté. La pratique du balancement en croix vise à trouver ce centre dans le corps."
-                },
-                {
-                    "title":  "4. La séquence pratique : explorer chaque branche avant de revenir",
-                    "content":  "La séquence pratique suit un ordre rituel : on explore d’abord l’axe est-ouest (balancement latéral), puis l’axe nord-sud (balancement antéro-postérieur), puis on alterne les deux axes en une sorte de danse croisée. Chaque exploration est une « visite » à la direction correspondante : on l’acc-ueille, on sent sa qualité énergétique, on en revient enrichi. L’arrêt final au centre intègre les quatre énergies."
-                },
-                {
-                    "title":  "5. La conscience des quatre directions simultanément",
-                    "content":  "L’objectif final du balancement en croix est de développer une conscience spatiale omni-directionnelle : percevoir simultanément ce qui se passe dans les quatre directions sans tourner la tête. Cette conscience élargie est liée à un état de vigilance détendue, combin-ant alerte et calme. Elle est cultivée dans les traditions guerrières, dans la méditation zen marchee, et dans certaines formes de travail énergétique avancé."
-                }
-            ]
-        },
-        "practice":  "Protocole balancement en croix — 45 minutes actives :\n1. Assis, fermez les yeux. Identifiez les quatre directions autour de vous : devant, derrière, gauche, droite.\n2. Phase est-ouest (10 min) : balancement latéral lent. À chaque direction, demandez-vous : 'Quelle qualité d'énergie est là ?' N'analysez pas, sentez.\n3. Phase nord-sud (10 min) : balancement antéro-postérieur lent. Avant : futur, projet. Arrière : passé, mémoire.\n4. Phase croix (10 min) : alternez les deux axes. Latéral 3 fois, vertical 3 fois, latéral 3 fois... Puis immobilité au centre.\n5. Phase centre (10 min) : immobile. Conscience des quatre directions simultanément. Sentez-vous au milieu d'un espace vivant.\n6. Notez : quelle direction résiste ? Quelle direction attire ? Qu'avez-vous trouvé au centre ?",
-        "image":  "assets/course-visuals-premium/C045-balancement-en-croix.svg",
-        "pdf":  "assets/cours-pdf/C045-balancement-en-croix.pdf",
-        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-    {
-        "id":  "C022-rotation-douce",
-        "number":  22,
-        "familyId":  "balancements",
-        "familyTitle":  "Balancements",
-        "symbol":  "↔",
-        "title":  "Rotation douce",
-        "subtitle":  "Le mouvement spiralaire comme accès à la centration profonde",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Approfondissement",
-        "kind":  "Pratique corporelle & intégration",
-        "status":  "available",
-        "summary":  "La rotation douce — mouvement circulaire du buste ou de la tête — est l’un des outils les plus puissants pour entrer dans des états modifiés de conscience doux. Ce cours explore la rotation dans ses formes progressives, du cercle ample à la spirale intériorisée, en passant par l’immobilité post-rotatoire.",
-        "shortSummary":  "Rotation circulaire pour induire la centration profonde et l’accès aux états de conscience subtils.",
-        "longSummary":  "La rotation est l’un des mouvements les plus anciens utilisés pour modifier l’état de conscience. Les derviches tourneurs, les chamans qui tournent sur eux-mêmes, les enfants qui font des ronds dans le sable — tous utilisent ce principe fondamental. La rotation croise tous les axes en même temps, créant une stimulation vestibulaire complexe qui modifie la perception de l’espace et du temps. Ce cours explore la rotation douce (sans vertige ni accélération), travaillée comme un outil de centration : on tourne pour trouver son axe, non pour s’en éloigner. La clé est la lenteur et la conscience de l’axe central autour duquel le mouvement s’organise.",
-        "pedagogicalObjective":  "Maîtriser la technique de rotation douce (buste, tête, intériorisée) et comprendre son action sur le système vestibulaire et la perception.",
-        "initiaticObjective":  "Utiliser la rotation comme méditation sur l’axe : trouver le point fixe à l’intérieur du mouvement, la conscience immobile au cœur de ce qui tourne.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"Axe\",              \"content\": \"Prise de conscience de l’axe vertical du corps comme point fixe autour duquel tout peut tourner." },
-            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"La rotation dans les traditions : derviches, chamans, cercles de danse. Système vestibulaire et perception." },
-            { "time": "15:00 — 25:00\",\"title\": \"Rotation buste\",   \"content\": \"Grands cercles du buste (assis), sens horaire puis anti-horaire, très lents, axe tenu." },
-            { "time": "25:00 — 35:00\",\"title\": \"Rotation tête\",    \"content\": \"Cercles de la tête, très lents, attention à la nuque, sans forçage." },
-            { "time": "35:00 — 45:00\",\"title\": \"Spirale intérieure\", \"content\": \"Arrêt du mouvement. Visualisation d’une spirale de lumiere remontant l’axe central." },
-            { "time": "45:00 — 55:00\",\"title\": \"Post-rotation\",    \"content\": \"Observation de la rémanence rotative, perception de l’axe encore plus nettement après arrêt." },
-            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Carnet, ancrage au sol, geste de cloture." }
-        ],
-        "plan":  [
-            "0–5 min — Prise de conscience de l’axe central",
-            "5–15 min — Enseignement : rotation, vestibulaire, traditions",
-            "15–25 min — Rotation douce du buste, horaire et anti-horaire",
-            "25–35 min — Rotation de la tête, très lente",
-            "35–45 min — Spirale intérieure et visualisation de l’axe",
-            "45–55 min — Observation de la rémanence post-rotatoire",
-            "55–60 min — Carnet et clôture"
-        ],
-        "teaching":  {
-            "intro":  "La rotation est le mouvement de la galaxie, de l’atome, de la vie elle-même. L’ADN est une double helice en rotation. Les cyclones organisent l’atmosphere. Les electrons orbitent. Quand le corps humain tourne lentement autour de son axe, il entre en resonance avec ces patterns fondamentaux. La cle n’est pas la vitesse — c’est la conscience de l’axe autour duquel le mouvement s’organise.",
-            "sections":  [
-                {
-                    "title":  "1. Le système vestibulaire : organe de la conscience spatiale",
-                    "content":  "Le système vestibulaire, logé dans l’oreille interne, est l’organe de l’équilibre et de la perception du mouvement. Il est également étroitement connecté au système limbique (centre des émotions) et à certains centres de vigilance du tronc cérébral. Une stimulation vestibulaire douce et rhythmique peut modifier l’état émotionnel, réduire l’anxieté et induire des états de conscience élargie. La rotation douce utilise ce principe sans vertige, en restant en-dessous du seuil de déconfort."
-                },
-                {
-                    "title":  "2. Les traditions de rotation : de Rumi aux chamans",
-                    "content":  "Les derviches tourneurs de l’ordre Mevlevi, fondé par Rumi au XIIIe siècle, tournent pendant des heures à des vitesses croissantes. Mais le principe n’est pas la vitesse — c’est la présence à l’axe. Chaque derviche tient une main vers le ciel et une vers la terre, tournant comme une antenne vivante. Dans les traditions chamaniques siberiennes et amérindiennes, la rotation est utilisée pour entrer dans un état de trance douce, un seuil entre les mondes. Notre pratique en emprunte la logique sans en copier la forme."
-                },
-                {
-                    "title":  "3. Horaire et anti-horaire : deux qualités de rotation",
-                    "content":  "La rotation dans le sens horaire et dans le sens anti-horaire ont des effets différents. En physiologie, les deux sens stimulent le système vestibulaire de façon asymétrique. Dans la tradition énergétique, la rotation horaire est souvent associée à l’envoi, l’émission, l’action ; la rotation anti-horaire à la réception, la dissolution, le relâchement. On explore les deux en observant sans préjugé quelle différence effective vous percevez."
-                },
-                {
-                    "title":  "4. Trouver l’axe : le point fixe dans le mouvement",
-                    "content":  "La rotation douce n’est pas une dissolution de l’axe — c’est une révélation de l’axe. Plus on tourne lentement et consciemment, plus on sent ce fil d’or vertical autour duquel tout s’organise. Le pratiquant expérimenté peut tourner en gardant le sentiment d’être parfaitement immobile à son centre, comme si le monde tournait autour de lui plutôt que lui autour du monde. C’est cette expérience paradoxale que ce cours cultive."
-                },
-                {
-                    "title":  "5. La rémanence post-rotatoire et la perception de l’axe",
-                    "content":  "Après l’arrêt de la rotation, le système vestibulaire continue d’enregistrer un mouvement fantome pendant quelques secondes à quelques minutes. Ce phénomène, normalement source de vertige, devient, avec la pratique, une source d’information : dans cet état post-rotationnel, la perception de l’axe central devient plus nette qu’en temps ordinaire. On apprend à utiliser cette fenêtre pour sentir l’axe avec une précision inhabituelles."
-                }
-            ]
-        },
-        "practice":  "Protocole rotation douce — 45 minutes actives :\n1. Assis, colonne verticale. Fermez les yeux. Sentez l'axe vertical de votre corps comme un fil de lumière.\n2. Commencez des cercles du buste : très lents, très doux, comme dessiner un cercle de 20 cm avec le sommet de votre tête. Sens horaire d'abord.\n3. Après 3 minutes, sens anti-horaire. Observez la différence.\n4. Réduisez progressivement le rayon du cercle. Plus petit, plus petit, jusqu'à un cercle imperceptible.\n5. Après 10 minutes, même chose avec la tête seule : cercles très lents, attention aux tensions dans la nuque.\n6. Arrêt complet. Observez la rémanence : sensation de continuation du mouvement. Cherchez l'axe dans cet espace.\n7. Visualisez une spirale de lumière remontant l'axe de la base du crâne vers le sommet.\n8. 10 minutes d'immobilité. Notez : qualité de l'axe ressenti, différence horaire/anti-horaire, rémanence.",
-        "image":  "assets/course-visuals-premium/C046-rotation-douce.svg",
-        "pdf":  "assets/cours-pdf/C046-rotation-douce.pdf",
-        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-    {
-        "id":  "C023-fer-a-cheval-et-perception-arriere",
-        "number":  23,
-        "familyId":  "balancements",
-        "familyTitle":  "Balancements",
-        "symbol":  "↔",
-        "title":  "Fer à cheval et perception arrière",
-        "subtitle":  "Ouvrir le champ dorsal pour une conscience spatiale complète",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Approfondissement",
-        "kind":  "Pratique corporelle & intégration",
-        "status":  "available",
-        "summary":  "Le balancement en fer à cheval est un mouvement semi-circulaire qui tourne autour d’un axe central, ouvrant progressivement la conscience vers le champ arrière du corps. Ce cours développe la perception dorsale et la conscience à 360 degrés, fondamentales pour la clairvoyance spatiale.",
-        "shortSummary":  "Mouvement semi-circulaire pour développer la perception dorsale et la conscience à 360 degrés.",
-        "longSummary":  "Le fer à cheval est une trajectoire semi-circulaire : on commence d’un côté, on passe par l’arrière et on arrive de l’autre côté, ou on va-et-vient de gauche à droite en passant systématiquement par l’arrière. Ce mouvement force l’attention à traverser le champ dorsal, zone habituellement aveugle. Avec la pratique, le fer à cheval développe ce qu’on pourrait appeler la « vision arrière » — non pas une visi-on littérale, mais une sensitivité accrue à ce qui se passe dans l’espace derrière soi. Cette capacité est fondamentale pour une conscience spatiale complète et pour les pratiques de clairvoyance.",
-        "pedagogicalObjective":  "Maîtriser la trajectoire en fer à cheval et développer la sensitivité perceptive du champ arrière.",
-        "initiaticObjective":  "Développer une conscience à 360 degrés qui permet de percevoir l’espace complet autour de soi, ouvrant la voie aux pratiques de perception à distance.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"Champ aveugle\",   \"content\": \"Prise de conscience du champ arrière : qu’y a-t-il derrière vous en ce moment ? Que sentez-vous là ?" },
-            { "time": "5:00 — 15:00\", \"title\": \"Enseignement\",     \"content\": \"La conscience dorsale, la « vision arrière », le champ énergétique dorsal." },
-            { "time": "15:00 — 25:00\",\"title\": \"Fer à cheval buste\",\"content\": \"Balancement en fer à cheval du buste : gauche → arrière → droite, lentement, attention à la phase arrière." },
-            { "time": "25:00 — 35:00\",\"title\": \"Fer à cheval tête\", \"content\": \"Même trajectoire avec la tête seule, attention aux zones de tension, ouverture de la nuque." },
-            { "time": "35:00 — 45:00\",\"title\": \"Intériorisation\",  \"content\": \"Arrêt du mouvement, extension de la conscience vers le champ arrière en immobilité." },
-            { "time": "45:00 — 55:00\",\"title\": \"Perception à 360°\",\"content\": \"Exercice de conscience omni-directionnelle, perception de l’espace complet, carnet." },
-            { "time": "55:00 — 60:00\",\"title\": \"Clôture\",         \"content\": \"Protection du champ dorsal, geste de clôture, retour." }
-        ],
-        "plan":  [
-            "0–5 min — Prise de conscience du champ arrière",
-            "5–15 min — Enseignement : conscience dorsale et vision arrière",
-            "15–25 min — Balancement en fer à cheval du buste",
-            "25–35 min — Fer à cheval de la tête",
-            "35–45 min — Intériorisation et extension vers le champ dorsal",
-            "45–55 min — Exercice de conscience à 360 degrés et carnet",
-            "55–60 min — Protection du champ dorsal et clôture"
-        ],
-        "teaching":  {
-            "intro":  "Il existe des personnes qui 'sentent' quand quelqu'un entre dans une pièce derriere elles, avant tout signal sonore ou visuel. Cette sensitivité dorsale n’est pas mysterieuse — elle est une capacite humaine normale qui s’atrophie par manque d’utilisation. Dans un monde ou tout est devant (ecrans, visages, routes), le champ arriere devient une zone morte. Ce cours propose de le reveiller.",
-            "sections":  [
-                {
-                    "title":  "1. Pourquoi le champ dorsal est-il aveugle ?",
-                    "content":  "La raison évolutive est simple : nos organes sensoriels principaux (yeux, oreilles, nez, bouche) sont tous orientés vers l’avant. Pendant des millénaires, le danger venait souvent de l’avant — proies à chasser, prédateurs à éviter. Mais le monde énergétique n’est pas uni-directionnel. Un champ de conscience complèt doit couvrir 360 degrés. La négligence du champ arrière crée une vulnérabilité énergétique : ce qu’on ne perçoit pas ne peut être ni évalué ni intégré."
-                },
-                {
-                    "title":  "2. La trajectoire en fer à cheval",
-                    "content":  "Le fer à cheval décrit une demi-ellipse : depuis la position centrale-droite, le mouvement part vers la droite, passe par l’arrière (point le plus éloigné de l’avant), arrive à la position centrale-gauche, puis revient par le même chemin. Le passage par l’arrière est la phase clé : c’est là que l’attention est invitée à se poser dans le champ dorsal. On ne force pas — on invite. La nuque doit rester détendue pendant toute la phase arrière."
-                },
-                {
-                    "title":  "3. La sensitivité dorsale : une capacité entraîneable",
-                    "content":  "Des recherches en perception extra-sensorielle montrent que la sensitivité à des stimuli derrière soi (« être regardé dans le dos ») est réelle et mesurable au-dessus du hasard. Des expériences contrôlées ont montré que des sujets pouvaient détecter à un taux significatif si quelqu’un les regardait dans le dos ou non. Cette capacité semble liée à la sensitivité générale du système nerveux autonome et peut être développée par l’attention régulière au champ dorsal."
-                },
-                {
-                    "title":  "4. Le champ énergétique dorsal",
-                    "content":  "Dans les traditions énergétiques, le dos est associé à la protection, aux ancêtres, aux guides, à l’invisible. À l’opposé du visage tournié vers le monde visible, le dos est tourné vers les mondes non-visibles. Certains pra-ticiens entraînés décrivent une perception distincte de leur champ dorsal comme un espace de réception particulière, un lieu où les impressions subtiles arrivent avant d’être traitées par le mental analytique."
-                },
-                {
-                    "title":  "5. Vers une conscience à 360 degrés",
-                    "content":  "La pratique régulière du fer à cheval mène progressivement à une étape remarquable : la capacité de percevoir l’espace complet autour de soi sans tourner la tête. Ce n’est pas de la voyance — c’est une sensitivité accrue aux micro-signaux qui existent déjà dans notre environnement mais que nous n’avons pas appris à lire. Pression de l’air, variation de température, infra-sons, perturbations électro-magnétiques, tout cela arrive par l’arrière autant que par l’avant."
-                }
-            ]
-        },
-        "practice":  "Protocole fer à cheval — 45 minutes actives :\n1. Assis. Fermez les yeux. Demandez-vous : 'Que se passe-t-il dans l'espace derrière moi ?' Notez votre première réponse spontanée.\n2. Commencez le fer à cheval du buste : inclinez vers la droite, glissez vers l'arrière (passez par la position 'penchée en arrière'), glissez vers la gauche. Très lentement.\n3. Pendant la phase arrière, portez toute votre attention au champ dorsal. Que sentez-vous là ?\n4. Après 10 minutes, même chose avec la tête seule. Nuque détendue, pas de forçage.\n5. Arrêt complet. En immobilité, étendez consciemment votre attention vers l'arrière. Imaginez que vous avez des 'yeux dans le dos'.\n6. Restez 10 minutes avec cette attention dorsale élargie.\n7. Exercice de clôture : sentez simultanément l'avant et l'arrière. Puis l'espace complet autour de vous.\n8. Notez : qu'avez-vous perçu dans le dos ? Différence avant/après ?",
-        "image":  "assets/course-visuals-premium/C047-fer-a-cheval-et-perception-arriere.svg",
-        "pdf":  "assets/cours-pdf/C047-fer-a-cheval-et-perception-arriere.pdf",
-        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-    {
-        "id":  "C024-seance-combinee-de-balancements",
-        "number":  24,
-        "familyId":  "balancements",
-        "familyTitle":  "Balancements",
-        "symbol":  "↔",
-        "title":  "Séance combinée de balancements",
-        "subtitle":  "Intégration de tous les mouvements en une pratique fluide",
-        "duration":  "1 h",
-        "durationMin":  60,
-        "level":  "Avancé",
-        "kind":  "Séance intégrative & libre",
-        "status":  "available",
-        "summary":  "La séance combinée intègre tous les balancements étudiés dans la famille — latéral, vertical, antéro-postérieur, huit, croix, rotation, fer à cheval — dans une séquence fluide guidée par l’intuition du pratiquant. Ce cours est la clôture de la famille et ouvre la porte à la pratique autonome.",
-        "shortSummary":  "Séance intégrative qui combine tous les balancements en une pratique fluide guidée par l’intuition.",
-        "longSummary":  "Après sept cours d’exploration des différentes formes de balancement, ce cours de clôture propose une séquence libre : le pratiquant est guidé dans une pratique où il combine les mouvements selon son ressenti du moment. On apprend ainsi à écouter le corps et à laisser le mouvement émerger plutôt qu’à l’exécuter mécaniquement. La séance combine les phases clatées (exploration de chaque axe), les phases synthèse (combinaisons), les phases de transition (reduction progressive vers l’intériorisation) et la phase de repos (rémanence, carnet). C’est aussi un cours sur l’autonomisation : désormais, le pratiquant sait construire ses propres séances.",
-        "pedagogicalObjective":  "Savoir construire une séance combinée de balancements autonome, en choisissant et enchanânant les mouvements selon les besoins du moment.",
-        "initiaticObjective":  "Laisser le corps choisir son propre langage de mouvement : devenir élève de sa propre intelligence corporelle plutôt que simple exécutant de protocoles.",
-        "minutePlan":  [
-            { "time": "0:00 — 5:00\",  \"title\": \"Écoute initiale\",  \"content\": \"Évaluation du corps en ce moment : quel axe manque ? Quelle direction est tendue ? Quelle qualité est présente ?" },
-            { "time": "5:00 — 15:00\", \"title\": \"Exploration libre\",  \"content\": \"Laisser émerger le premier mouvement. Suivre le corps. Passer d’un balancement à l’autre selon le besoin." },
-            { "time": "15:00 — 30:00\",\"title\": \"Séquence guidée\",  \"content\": \"Guide audio : latéral → vertical → antéro-postérieur → huit → croix → rotation → fer à cheval. 2 min chacun." },
-            { "time": "30:00 — 40:00\",\"title\": \"Synthèse libre\",    \"content\": \"Combinaison libre : enchanâner deux ou trois mouvements qui se répondent. Laisser les transitions émerger." },
-            { "time": "40:00 — 50:00\",\"title\": \"Réduction\",        \"content\": \"Réduire progressivement tous les mouvements, de l’ample vers le subtil, vers l’intériorisé, vers l’immobilité." },
-            { "time": "50:00 — 57:00\",\"title\": \"Rémanence\",        \"content\": \"Immobilité totale. Observer la rémanence de tous les mouvements. Quel axe persiste le plus ?" },
-            { "time": "57:00 — 60:00\",\"title\": \"Clôture de famille\",\"content\": \"Carnet, phrase essentielle de la famille Balancements, geste de clôture de cycle." }
-        ],
-        "plan":  [
-            "0–5 min — Écoute initiale du corps et évaluation des besoins",
-            "5–15 min — Exploration libre, premier mouvement émergent",
-            "15–30 min — Séquence guidée de tous les balancements (2 min chacun)",
-            "30–40 min — Combinaisons libres et transitions fluides",
-            "40–50 min — Réduction progressive vers l’intériorisation",
-            "50–57 min — Immobilité et observation de la rémanence",
-            "57–60 min — Carnet et clôture de la famille Balancements"
-        ],
-        "teaching":  {
-            "intro":  "Le vrai apprentissage d’une discipline n’est pas de maîtriser des protocoles — c’est d’internaliser ses principes au point où les protocoles ne sont plus nécessaires. Ce cours de clôture marque ce seuil : vous avez exploré sept formes de balancement, vous en connaissez les effets, les qualités, les nuances. Désormais, votre corps sait ce dont il a besoin. Il s’agit d’apprendre à l’écouter.",
-            "sections":  [
-                {
-                    "title":  "1. L’intelligence du corps : avant le protocole",
-                    "content":  "Le corps humain a une intelligence propre qui précède toute pensée consciente. Il sait quand il est froid avant que l’esprit ne le remarque. Il sait quand une personne est bienveillante ou menaçante avant que la pensée ne l’ait analysée. Cette même intelligence sait, dans une séance de balancement, quel mouvement est nécessaire à ce moment précis. La pratique avancée consiste à apprendre à lire cette intelligence plutôt qu’à l’écraser sous des protocoles."
-                },
-                {
-                    "title":  "2. Comment écouter le corps avant de commencer",
-                    "content":  "Avant la séance, on prend trois minutes pour scanner le corps avec neutralité : où est la tension ? Où est la fluidité ? Quel axe semble bloqué, rigide, absent ? Un pratiquant bien formé peut sentir, par exemple, que son axe latéral est présent mais son axe vertical absent ce jour-là, et choisir de commencer par les balancements verticaux pour rééquilibrer. Cette lecture préliminaire est en soi un acte de conscience."
-                },
-                {
-                    "title":  "3. Les transitions : l’art du passage entre les mouvements",
-                    "content":  "Dans une séance combinée, les transitions entre les mouvements sont aussi importantes que les mouvements eux-mêmes. Une transition forcée — passer brusquement du latéral au vertical sans moment intermédiaire — rompt la continuité perceptive. Une transition fluide laisse le mouvement se dissoudre naturellement avant qu’un nouveau n’émerge. Ces moments de flottement entre deux mouvements sont particulièrement précieux pour la perception subtile."
-                },
-                {
-                    "title":  "4. La réduction progressive : du grand vers l’invisible",
-                    "content":  "L’une des techniques les plus importantes de la famille Balancements est la réduction progressive : partir d’un mouvement ample et visible, puis le réduire graduellement — moins d’amplitude, moins de vitesse, moins de distance — jusqu’à ce qu’il soit invisible de l’extérieur mais toujours présent à l’intérieur. Cette réduction est une technique de transition vers l’état méditatif : le mouvement devient son propre objet de méditation."
-                },
-                {
-                    "title":  "5. La clôture de cycle : qu’avez-vous appris ?",
-                    "content":  "La séance combinée est aussi une clôture de la famille Balancements. On prend le temps, dans le carnet, de répondre à quelques questions essentielles : Quel balancement a eu le plus d’effet sur moi ? Lequel ai-je trouvé difficile ou inconfortable ? Quelle qualité nouvelle ai-je développée ? Qu’est-ce que les balancements m’ont appris sur ma relation à l’espace, au temps, à mon corps ? Ces réponses sont la matière première de la pratique autonome."
-                }
-            ]
-        },
-        "practice":  "Protocole séance combinée — 55 minutes actives :\n\nPHASE 1 - Écoute (5 min) : Fermez les yeux. Scanner le corps. Où est la tension ? Quel axe manque ?\n\nPHASE 2 - Exploration libre (10 min) : Laissez émerger le mouvement qui se propose spontanément. Ne choisissez pas — écoutez. Suivez-le jusqu'à ce qu'il se modifie naturellement.\n\nPHASE 3 - Séquence guidée (14 min) : Parcourez chaque balancement 2 minutes dans cet ordre : latéral → vertical → antéro-postérieur → huit → croix → rotation → fer à cheval.\n\nPHASE 4 - Combinaisons libres (10 min) : Combinez deux ou trois mouvements qui se répondent. Laissez les transitions se faire naturellement.\n\nPHASE 5 - Réduction (10 min) : Réduisez progressivement tous les mouvements vers l'imperceptible, puis vers l'intérieur.\n\nPHASE 6 - Rémanence (7 min) : Immobilité totale. Observez ce qui continue.\n\nPHASE 7 - Carnet (3 min) : Notez la phrase essentielle de cette famille pour vous.",
-        "image":  "assets/course-visuals-premium/C048-seance-combinee-de-balancements.svg",
-        "pdf":  "assets/cours-pdf/C048-seance-combinee-de-balancements.pdf",
-        "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Avancé"],
-        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-
-        {
-        "id":  "C049-yoga-du-temple-vivant",
-        "number":  49,
+        "id":  "C052-yoga-du-temple-vivant",
+        "number":  52,
         "familyId":  "souffle",
         "familyTitle":  "Souffle & mantras",
         "symbol":  "🌬",
@@ -4581,14 +4655,14 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Protocole yoga du temple vivant — 30 minutes actives :\n1. Asseyez-vous confortablement. Fermez les yeux. Observez votre souffle spontané pendant 3 minutes. Ne modifiez rien. Notez mentalement : rythme, lieu d'arrivée, profondeur.\n2. Posture : allongez doucement la colonne. Reculez légèrement la tête. Relâchez les épaules. Posez les mains sur les cuisses.\n3. Respiration complète (10 min) : inspirez en 3 temps — d'abord le ventre gonfle, puis la cage thoracique s'élargit, puis les clavicules s'élèvent légèrement. Expirez en sens inverse. Très lentement.\n4. Visualisation (10 min) : imaginez votre corps comme un temple de pierre. Identifiez les chambres (poumons), les colonnes (vertèbres), le plancher (périnée). Le souffle est l'habitant qui parcourt tous ces espaces.\n5. Retour au souffle naturel. Observez s'il a changé.\n6. Notez : qu'avez-vous découvert sur votre souffle ?",
-        "image":  "assets/course-visuals-premium/C049-yoga-du-temple-vivant.svg",
-        "pdf":  "assets/cours-pdf/C049-yoga-du-temple-vivant.pdf",
+        "image":  "assets/course-visuals-premium/C052-yoga-du-temple-vivant.svg",
+        "pdf":  "assets/cours-pdf/C052-yoga-du-temple-vivant.pdf",
         "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Fondation"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C050-postures-statiques-et-axe",
-        "number":  50,
+        "id":  "C053-postures-statiques-et-axe",
+        "number":  53,
         "familyId":  "souffle",
         "familyTitle":  "Souffle & mantras",
         "symbol":  "🌬",
@@ -4648,14 +4722,14 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Protocole postures statiques — 45 minutes actives :\n1. Choisissez votre posture : assis au sol, sur une chaise, ou debout. Assurez-vous d'être stable et confortable.\n2. Fermez les yeux. Sentez l'axe vertical. Imaginez un fil qui tire doucement le sommet du crâne vers le haut.\n3. Scan initial (3 min) : où est la tension inutile ? Dans les épaules ? La mâchoire ? Le ventre ? Relâchez progressivement.\n4. Tenez la posture 15 minutes. Toutes les 3 minutes, faites un scan rapide : qu'est-ce qui peut être relâché sans que la posture s'effondre ?\n5. Zhan zhuang debout (10 min) : genoux légèrement fléchis, bras arrondis. Sentez le poids s'ancrer vers le bas, la légèreté vers le haut.\n6. Retour à votre posture choisie. Laissez l'immobilité s'installer complètement. N'analysez pas — observez.\n7. Notez : où résidait la tension ? Qu'est-il arrivé après 20 minutes ?",
-        "image":  "assets/course-visuals-premium/C050-postures-statiques-et-axe.svg",
-        "pdf":  "assets/cours-pdf/C050-postures-statiques-et-axe.pdf",
+        "image":  "assets/course-visuals-premium/C053-postures-statiques-et-axe.svg",
+        "pdf":  "assets/cours-pdf/C053-postures-statiques-et-axe.pdf",
         "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Fondation"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C051-respiration-naturelle",
-        "number":  51,
+        "id":  "C054-respiration-naturelle",
+        "number":  54,
         "familyId":  "souffle",
         "familyTitle":  "Souffle & mantras",
         "symbol":  "🌬",
@@ -4715,14 +4789,14 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Protocole respiration naturelle — 40 minutes actives :\n1. Allongez-vous sur le dos, jambes décontractées. Une main sur le ventre, une main sur la poitrine.\n2. Observez 3 minutes sans modifier : quelle main monte d'abord ? Quelle est l'amplitude ?\n3. Libération (10 min) : à l'inspiration, cherchez à faire monter la main du ventre. À l'expiration, laissez-le se dégonfler. Gémiez doucement si cela aide.\n4. Si vous sentez une résistance abdominale, appuyez légèrement la main sur le ventre et poussez contre elle à l'inspiration.\n5. Transition assis (5 min) : asseyez-vous. Gardez une main sur le ventre. Continuez le même souffle.\n6. Debout (5 min) : sans la main. Cherchez le même sentiment de liberté abdominale.\n7. Retour assis, yeux fermés : laissez le souffle naturel s'installer seul pendant 10 minutes.\n8. Notez : qu'est-ce qui résistait ? Qu'est-ce qui s'est libéré ?",
-        "image":  "assets/course-visuals-premium/C051-respiration-naturelle.svg",
-        "pdf":  "assets/cours-pdf/C051-respiration-naturelle.pdf",
+        "image":  "assets/course-visuals-premium/C054-respiration-naturelle.svg",
+        "pdf":  "assets/cours-pdf/C054-respiration-naturelle.pdf",
         "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Fondation"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C052-respiration-carree",
-        "number":  52,
+        "id":  "C055-respiration-carree",
+        "number":  55,
         "familyId":  "souffle",
         "familyTitle":  "Souffle & mantras",
         "symbol":  "🌬",
@@ -4782,14 +4856,14 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Protocole respiration carrée — 35 minutes actives :\n1. Assis, dos droit, fermez les yeux. Évaluez votre état sur une échelle 1-10 : 1 = très agité, 10 = très calme.\n2. Phase 4-4-4-4 (15 min) : inspirez en comptant 4, retenez 4, expirez 4, retenez 4. Recommencez immédiatement.\n3. Si la rétention poumons vides crée une anxiété, réduisez-la à 2 secondes d'abord.\n4. Phase 6-6-6-6 (10 min) : si confortable, passez à 6 secondes par phase. Observez comment l'esprit ralentit naturellement.\n5. Exploration du vide (5 min) : pendant la rétention poumons vides, portez toute l'attention à cet espace. Qu'y a-t-il ?\n6. Retour au souffle naturel. Évaluez à nouveau votre état : a-t-il changé ?\n7. Notez : quelle phase était la plus difficile ? La plus riche ?",
-        "image":  "assets/course-visuals-premium/C052-respiration-carree.svg",
-        "pdf":  "assets/cours-pdf/C052-respiration-carree.pdf",
+        "image":  "assets/course-visuals-premium/C055-respiration-carree.svg",
+        "pdf":  "assets/cours-pdf/C055-respiration-carree.pdf",
         "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C053-respiration-triangulaire-et-rectangulaire",
-        "number":  53,
+        "id":  "C056-respiration-triangulaire-et-rectangulaire",
+        "number":  56,
         "familyId":  "souffle",
         "familyTitle":  "Souffle & mantras",
         "symbol":  "🌬",
@@ -4849,14 +4923,14 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Protocole respiration modulée — 40 minutes actives :\n1. Évaluez votre état de 1 (très agité) à 10 (très calme).\n2. Triangulaire activant (8 min) : inspire 6s, rétention 3s, expire 3s. Observez l'effet.\n3. Réévaluez votre état. A-t-il changé dans le sens de l'activation ?\n4. Triangulaire calmant (8 min) : inspire 3s, rétention 3s, expire 6s. Observez.\n5. Réévaluez. Différence ?\n6. Rectangulaire profond (12 min) : inspire 4s, rétention 4s, expire 8s, vide 2s. Focus sur l'expire longue et le vide.\n7. Retour au souffle naturel (5 min). Observez ce qu'il choisit spontanément.\n8. Notez : quel ratio a eu le plus d'effet sur vous ? Dans quel sens ?",
-        "image":  "assets/course-visuals-premium/C053-respiration-triangulaire-et-rectangulaire.svg",
-        "pdf":  "assets/cours-pdf/C053-respiration-triangulaire-et-rectangulaire.pdf",
+        "image":  "assets/course-visuals-premium/C056-respiration-triangulaire-et-rectangulaire.svg",
+        "pdf":  "assets/cours-pdf/C056-respiration-triangulaire-et-rectangulaire.pdf",
         "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C054-mantras-illi-alla-ollo-roro",
-        "number":  54,
+        "id":  "C057-mantras-illi-alla-ollo-roro",
+        "number":  57,
         "familyId":  "souffle",
         "familyTitle":  "Souffle & mantras",
         "symbol":  "🌬",
@@ -4916,14 +4990,14 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Protocole mantras — 45 minutes actives :\n1. Silence initial (3 min) : fermez les yeux, écoutez le silence intérieur.\n2. ILLI à voix normale (5 min) : respirez et, à l'expiration, prononcez ILLI lentement (2-3 secondes). Où sentez-vous la vibration ?\n3. ALLA à voix normale (5 min) : même chose. Zone de résonance ?\n4. OLLO à voix normale (5 min) : même chose. Comparaison avec les précédents.\n5. RORO à voix normale (5 min) : prononcez le R roulé si vous pouvez. Vibration dans le corps.\n6. Choisissez votre préféré. Voix très basse (chuchotée) : 5 min. Observez comment les effets changent.\n7. Récitation mentale complète (10 min) : silence absolu. Répétez le mantra choisi dans votre tête. Cherchez les résonances internes sans le son.\n8. Notez : quel mantra touche quelle zone ? Différences voix haute / mentale.",
-        "image":  "assets/course-visuals-premium/C054-mantras-illi-alla-ollo-roro.svg",
-        "pdf":  "assets/cours-pdf/C054-mantras-illi-alla-ollo-roro.pdf",
+        "image":  "assets/course-visuals-premium/C057-mantras-illi-alla-ollo-roro.svg",
+        "pdf":  "assets/cours-pdf/C057-mantras-illi-alla-ollo-roro.pdf",
         "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C055-om-et-vibration-interieure",
-        "number":  55,
+        "id":  "C058-om-et-vibration-interieure",
+        "number":  58,
         "familyId":  "souffle",
         "familyTitle":  "Souffle & mantras",
         "symbol":  "🌬",
@@ -4983,14 +5057,14 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Protocole OM — 45 minutes actives :\n1. Silence complet 5 minutes. Observez ce qui existe déjà dans ce silence.\n2. A seul (3 min) : bouche grande ouverte, gorge détendue, produisez un son grave et ample. Sentez la résonance thoracique.\n3. U seul (3 min) : lèvres progressivement plus arrondies. Résonance montante.\n4. M seul (3 min) : lèvres closes, son nasal. Résonance crânienne.\n5. AUM complet (15 min) : enchainez A → U → M en une seule expiration longue. Attendez dans le silence avant d'inspirer à nouveau. Rythme : environ 5 AUM par minute.\n6. Arrêt complet (12 min) : silence absolu. Observez la vibration intérieure. Résiste-t-elle ? S'amplifie-t-elle ?\n7. Notez : qualité du silence post-OM, état de conscience, ce qui a changé.",
-        "image":  "assets/course-visuals-premium/C055-om-et-vibration-interieure.svg",
-        "pdf":  "assets/cours-pdf/C055-om-et-vibration-interieure.pdf",
+        "image":  "assets/course-visuals-premium/C058-om-et-vibration-interieure.svg",
+        "pdf":  "assets/cours-pdf/C058-om-et-vibration-interieure.pdf",
         "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Avancé"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C056-sequence-souffle-mantra-et-mouvement",
-        "number":  56,
+        "id":  "C059-sequence-souffle-mantra-et-mouvement",
+        "number":  59,
         "familyId":  "souffle",
         "familyTitle":  "Souffle & mantras",
         "symbol":  "🌬",
@@ -5050,15 +5124,14 @@ window.AXIS_ONE_HOUR_COURSES = [
             ]
         },
         "practice":  "Protocole séquence intégrative — 55 minutes :\n\n1. Note de départ (3 min) : état du corps, du souffle, de l'esprit en 3 mots chacun.\n\n2. Activation (5 min) : respiration triangulaire 2:1:1 (inspire 6s, rétention 3s, expire 3s).\n\n3. Balancement + mantra (15 min) :\n   - 5 min : balancement latéral + ILLI mental\n   - 5 min : balancement vertical + ALLA mental\n   - 5 min : balancement antéro-postérieur + OLLO mental\n\n4. Rotation + OM (10 min) : rotation douce, un OM à chaque expiration à voix basse.\n\n5. Immobilité + mantra mental (10 min) : choisissez le mantra qui vous appelle. Récitation silencieuse. Souffle naturel.\n\n6. Silence total (7 min) : plus rien. Observer ce qui existe maintenant.\n\n7. Clôture (5 min) : trois AUM lents. Notez votre phrase essentielle de la famille Souffle.",
-        "image":  "assets/course-visuals-premium/C056-sequence-souffle-mantra-et-mouvement.svg",
-        "pdf":  "assets/cours-pdf/C056-sequence-souffle-mantra-et-mouvement.pdf",
+        "image":  "assets/course-visuals-premium/C059-sequence-souffle-mantra-et-mouvement.svg",
+        "pdf":  "assets/cours-pdf/C059-sequence-souffle-mantra-et-mouvement.pdf",
         "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Avancé"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
-
-        {
-        "id":  "C057-developper-l-imagination-sensorielle",
-        "number":  57,
+    {
+        "id":  "C060-developper-l-imagination-sensorielle",
+        "number":  60,
         "familyId":  "clairvoyance",
         "familyTitle":  "Clairvoyance \u0026 perception intérieure",
         "symbol":  "◉",
@@ -5076,8 +5149,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C057-developper-l-imagination-sensorielle.svg",
-        "pdf":  "assets/cours-pdf/C057-developper-l-imagination-sensorielle.pdf",
+        "image":  "assets/course-visuals-premium/C060-developper-l-imagination-sensorielle.svg",
+        "pdf":  "assets/cours-pdf/C060-developper-l-imagination-sensorielle.pdf",
         "tags":  [
                      "Clairvoyance \u0026 perception intérieure",
                      "Cours 1h",
@@ -5087,8 +5160,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C058-stabiliser-un-point-lumineux-interne",
-        "number":  58,
+        "id":  "C061-stabiliser-un-point-lumineux-interne",
+        "number":  61,
         "familyId":  "clairvoyance",
         "familyTitle":  "Clairvoyance \u0026 perception intérieure",
         "symbol":  "◉",
@@ -5106,8 +5179,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C058-stabiliser-un-point-lumineux-interne.svg",
-        "pdf":  "assets/cours-pdf/C058-stabiliser-un-point-lumineux-interne.pdf",
+        "image":  "assets/course-visuals-premium/C061-stabiliser-un-point-lumineux-interne.svg",
+        "pdf":  "assets/cours-pdf/C061-stabiliser-un-point-lumineux-interne.pdf",
         "tags":  [
                      "Clairvoyance \u0026 perception intérieure",
                      "Cours 1h",
@@ -5117,8 +5190,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C059-images-mentales-et-remanence",
-        "number":  59,
+        "id":  "C062-images-mentales-et-remanence",
+        "number":  62,
         "familyId":  "clairvoyance",
         "familyTitle":  "Clairvoyance \u0026 perception intérieure",
         "symbol":  "◉",
@@ -5136,8 +5209,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C059-images-mentales-et-remanence.svg",
-        "pdf":  "assets/cours-pdf/C059-images-mentales-et-remanence.pdf",
+        "image":  "assets/course-visuals-premium/C062-images-mentales-et-remanence.svg",
+        "pdf":  "assets/cours-pdf/C062-images-mentales-et-remanence.pdf",
         "tags":  [
                      "Clairvoyance \u0026 perception intérieure",
                      "Cours 1h",
@@ -5147,8 +5220,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C060-clairvoyance-fondations-sobres",
-        "number":  60,
+        "id":  "C063-clairvoyance-fondations-sobres",
+        "number":  63,
         "familyId":  "clairvoyance",
         "familyTitle":  "Clairvoyance \u0026 perception intérieure",
         "symbol":  "◉",
@@ -5166,8 +5239,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C060-clairvoyance-fondations-sobres.svg",
-        "pdf":  "assets/cours-pdf/C060-clairvoyance-fondations-sobres.pdf",
+        "image":  "assets/course-visuals-premium/C063-clairvoyance-fondations-sobres.svg",
+        "pdf":  "assets/cours-pdf/C063-clairvoyance-fondations-sobres.pdf",
         "tags":  [
                      "Clairvoyance \u0026 perception intérieure",
                      "Cours 1h",
@@ -5177,8 +5250,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C061-reves-symboles-et-carnet",
-        "number":  61,
+        "id":  "C064-reves-symboles-et-carnet",
+        "number":  64,
         "familyId":  "clairvoyance",
         "familyTitle":  "Clairvoyance \u0026 perception intérieure",
         "symbol":  "◉",
@@ -5196,8 +5269,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C061-reves-symboles-et-carnet.svg",
-        "pdf":  "assets/cours-pdf/C061-reves-symboles-et-carnet.pdf",
+        "image":  "assets/course-visuals-premium/C064-reves-symboles-et-carnet.svg",
+        "pdf":  "assets/cours-pdf/C064-reves-symboles-et-carnet.pdf",
         "tags":  [
                      "Clairvoyance \u0026 perception intérieure",
                      "Cours 1h",
@@ -5207,8 +5280,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C062-vision-interieure-et-silence",
-        "number":  62,
+        "id":  "C065-vision-interieure-et-silence",
+        "number":  65,
         "familyId":  "clairvoyance",
         "familyTitle":  "Clairvoyance \u0026 perception intérieure",
         "symbol":  "◉",
@@ -5226,8 +5299,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C062-vision-interieure-et-silence.svg",
-        "pdf":  "assets/cours-pdf/C062-vision-interieure-et-silence.pdf",
+        "image":  "assets/course-visuals-premium/C065-vision-interieure-et-silence.svg",
+        "pdf":  "assets/cours-pdf/C065-vision-interieure-et-silence.pdf",
         "tags":  [
                      "Clairvoyance \u0026 perception intérieure",
                      "Cours 1h",
@@ -5237,8 +5310,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C063-protocole-de-verification-interieure",
-        "number":  63,
+        "id":  "C066-protocole-de-verification-interieure",
+        "number":  66,
         "familyId":  "clairvoyance",
         "familyTitle":  "Clairvoyance \u0026 perception intérieure",
         "symbol":  "◉",
@@ -5256,8 +5329,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C063-protocole-de-verification-interieure.svg",
-        "pdf":  "assets/cours-pdf/C063-protocole-de-verification-interieure.pdf",
+        "image":  "assets/course-visuals-premium/C066-protocole-de-verification-interieure.svg",
+        "pdf":  "assets/cours-pdf/C066-protocole-de-verification-interieure.pdf",
         "tags":  [
                      "Clairvoyance \u0026 perception intérieure",
                      "Cours 1h",
@@ -5267,8 +5340,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C064-seance-de-clairvoyance-guidee",
-        "number":  64,
+        "id":  "C067-seance-de-clairvoyance-guidee",
+        "number":  67,
         "familyId":  "clairvoyance",
         "familyTitle":  "Clairvoyance \u0026 perception intérieure",
         "symbol":  "◉",
@@ -5286,8 +5359,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C064-seance-de-clairvoyance-guidee.svg",
-        "pdf":  "assets/cours-pdf/C064-seance-de-clairvoyance-guidee.pdf",
+        "image":  "assets/course-visuals-premium/C067-seance-de-clairvoyance-guidee.svg",
+        "pdf":  "assets/cours-pdf/C067-seance-de-clairvoyance-guidee.pdf",
         "tags":  [
                      "Clairvoyance \u0026 perception intérieure",
                      "Cours 1h",
@@ -5297,8 +5370,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C065-clair-ressenti-corporel",
-        "number":  65,
+        "id":  "C068-clair-ressenti-corporel",
+        "number":  68,
         "familyId":  "vivant",
         "familyTitle":  "Clair-ressenti \u0026 vivant",
         "symbol":  "♧",
@@ -5316,8 +5389,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C065-clair-ressenti-corporel.svg",
-        "pdf":  "assets/cours-pdf/C065-clair-ressenti-corporel.pdf",
+        "image":  "assets/course-visuals-premium/C068-clair-ressenti-corporel.svg",
+        "pdf":  "assets/cours-pdf/C068-clair-ressenti-corporel.pdf",
         "tags":  [
                      "Clair-ressenti \u0026 vivant",
                      "Cours 1h",
@@ -5327,8 +5400,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C066-lecture-des-sensations-subtiles",
-        "number":  66,
+        "id":  "C069-lecture-des-sensations-subtiles",
+        "number":  69,
         "familyId":  "vivant",
         "familyTitle":  "Clair-ressenti \u0026 vivant",
         "symbol":  "♧",
@@ -5346,8 +5419,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C066-lecture-des-sensations-subtiles.svg",
-        "pdf":  "assets/cours-pdf/C066-lecture-des-sensations-subtiles.pdf",
+        "image":  "assets/course-visuals-premium/C069-lecture-des-sensations-subtiles.svg",
+        "pdf":  "assets/cours-pdf/C069-lecture-des-sensations-subtiles.pdf",
         "tags":  [
                      "Clair-ressenti \u0026 vivant",
                      "Cours 1h",
@@ -5357,8 +5430,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C067-communication-animale-approche-ethique",
-        "number":  67,
+        "id":  "C070-communication-animale-approche-ethique",
+        "number":  70,
         "familyId":  "vivant",
         "familyTitle":  "Clair-ressenti \u0026 vivant",
         "symbol":  "♧",
@@ -5376,8 +5449,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C067-communication-animale-approche-ethique.svg",
-        "pdf":  "assets/cours-pdf/C067-communication-animale-approche-ethique.pdf",
+        "image":  "assets/course-visuals-premium/C070-communication-animale-approche-ethique.svg",
+        "pdf":  "assets/cours-pdf/C070-communication-animale-approche-ethique.pdf",
         "tags":  [
                      "Clair-ressenti \u0026 vivant",
                      "Cours 1h",
@@ -5387,8 +5460,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C068-communication-vegetale-et-presence",
-        "number":  68,
+        "id":  "C071-communication-vegetale-et-presence",
+        "number":  71,
         "familyId":  "vivant",
         "familyTitle":  "Clair-ressenti \u0026 vivant",
         "symbol":  "♧",
@@ -5406,8 +5479,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C068-communication-vegetale-et-presence.svg",
-        "pdf":  "assets/cours-pdf/C068-communication-vegetale-et-presence.pdf",
+        "image":  "assets/course-visuals-premium/C071-communication-vegetale-et-presence.svg",
+        "pdf":  "assets/cours-pdf/C071-communication-vegetale-et-presence.pdf",
         "tags":  [
                      "Clair-ressenti \u0026 vivant",
                      "Cours 1h",
@@ -5417,8 +5490,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C069-dialogue-avec-le-vivant-par-la-lumiere",
-        "number":  69,
+        "id":  "C072-dialogue-avec-le-vivant-par-la-lumiere",
+        "number":  72,
         "familyId":  "vivant",
         "familyTitle":  "Clair-ressenti \u0026 vivant",
         "symbol":  "♧",
@@ -5436,8 +5509,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C069-dialogue-avec-le-vivant-par-la-lumiere.svg",
-        "pdf":  "assets/cours-pdf/C069-dialogue-avec-le-vivant-par-la-lumiere.pdf",
+        "image":  "assets/course-visuals-premium/C072-dialogue-avec-le-vivant-par-la-lumiere.svg",
+        "pdf":  "assets/cours-pdf/C072-dialogue-avec-le-vivant-par-la-lumiere.pdf",
         "tags":  [
                      "Clair-ressenti \u0026 vivant",
                      "Cours 1h",
@@ -5447,8 +5520,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C070-ressenti-des-lieux-et-ambiances",
-        "number":  70,
+        "id":  "C073-ressenti-des-lieux-et-ambiances",
+        "number":  73,
         "familyId":  "vivant",
         "familyTitle":  "Clair-ressenti \u0026 vivant",
         "symbol":  "♧",
@@ -5466,8 +5539,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C070-ressenti-des-lieux-et-ambiances.svg",
-        "pdf":  "assets/cours-pdf/C070-ressenti-des-lieux-et-ambiances.pdf",
+        "image":  "assets/course-visuals-premium/C073-ressenti-des-lieux-et-ambiances.svg",
+        "pdf":  "assets/cours-pdf/C073-ressenti-des-lieux-et-ambiances.pdf",
         "tags":  [
                      "Clair-ressenti \u0026 vivant",
                      "Cours 1h",
@@ -5477,8 +5550,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C071-differencier-intuition-et-projection",
-        "number":  71,
+        "id":  "C074-differencier-intuition-et-projection",
+        "number":  74,
         "familyId":  "vivant",
         "familyTitle":  "Clair-ressenti \u0026 vivant",
         "symbol":  "♧",
@@ -5496,8 +5569,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C071-differencier-intuition-et-projection.svg",
-        "pdf":  "assets/cours-pdf/C071-differencier-intuition-et-projection.pdf",
+        "image":  "assets/course-visuals-premium/C074-differencier-intuition-et-projection.svg",
+        "pdf":  "assets/cours-pdf/C074-differencier-intuition-et-projection.pdf",
         "tags":  [
                      "Clair-ressenti \u0026 vivant",
                      "Cours 1h",
@@ -5507,8 +5580,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C072-pratique-quotidienne-du-clair-ressenti",
-        "number":  72,
+        "id":  "C075-pratique-quotidienne-du-clair-ressenti",
+        "number":  75,
         "familyId":  "vivant",
         "familyTitle":  "Clair-ressenti \u0026 vivant",
         "symbol":  "♧",
@@ -5526,8 +5599,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C072-pratique-quotidienne-du-clair-ressenti.svg",
-        "pdf":  "assets/cours-pdf/C072-pratique-quotidienne-du-clair-ressenti.pdf",
+        "image":  "assets/course-visuals-premium/C075-pratique-quotidienne-du-clair-ressenti.svg",
+        "pdf":  "assets/cours-pdf/C075-pratique-quotidienne-du-clair-ressenti.pdf",
         "tags":  [
                      "Clair-ressenti \u0026 vivant",
                      "Cours 1h",
@@ -5537,8 +5610,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C073-contact-avec-les-guides-cadre-et-prudence",
-        "number":  73,
+        "id":  "C076-contact-avec-les-guides-cadre-et-prudence",
+        "number":  76,
         "familyId":  "guidance",
         "familyTitle":  "Guidance \u0026 au-delà",
         "symbol":  "✦",
@@ -5556,8 +5629,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C073-contact-avec-les-guides-cadre-et-prudence.svg",
-        "pdf":  "assets/cours-pdf/C073-contact-avec-les-guides-cadre-et-prudence.pdf",
+        "image":  "assets/course-visuals-premium/C076-contact-avec-les-guides-cadre-et-prudence.svg",
+        "pdf":  "assets/cours-pdf/C076-contact-avec-les-guides-cadre-et-prudence.pdf",
         "tags":  [
                      "Guidance \u0026 au-delà",
                      "Cours 1h",
@@ -5567,8 +5640,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C074-priere-demande-claire-et-ecoute",
-        "number":  74,
+        "id":  "C077-priere-demande-claire-et-ecoute",
+        "number":  77,
         "familyId":  "guidance",
         "familyTitle":  "Guidance \u0026 au-delà",
         "symbol":  "✦",
@@ -5586,8 +5659,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C074-priere-demande-claire-et-ecoute.svg",
-        "pdf":  "assets/cours-pdf/C074-priere-demande-claire-et-ecoute.pdf",
+        "image":  "assets/course-visuals-premium/C077-priere-demande-claire-et-ecoute.svg",
+        "pdf":  "assets/cours-pdf/C077-priere-demande-claire-et-ecoute.pdf",
         "tags":  [
                      "Guidance \u0026 au-delà",
                      "Cours 1h",
@@ -5597,8 +5670,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C075-defunts-et-au-dela-respect-et-discernement",
-        "number":  75,
+        "id":  "C078-defunts-et-au-dela-respect-et-discernement",
+        "number":  78,
         "familyId":  "guidance",
         "familyTitle":  "Guidance \u0026 au-delà",
         "symbol":  "✦",
@@ -5616,8 +5689,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C075-defunts-et-au-dela-respect-et-discernement.svg",
-        "pdf":  "assets/cours-pdf/C075-defunts-et-au-dela-respect-et-discernement.pdf",
+        "image":  "assets/course-visuals-premium/C078-defunts-et-au-dela-respect-et-discernement.svg",
+        "pdf":  "assets/cours-pdf/C078-defunts-et-au-dela-respect-et-discernement.pdf",
         "tags":  [
                      "Guidance \u0026 au-delà",
                      "Cours 1h",
@@ -5627,8 +5700,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C076-tenir-une-guidance-sans-s-identifier",
-        "number":  76,
+        "id":  "C079-tenir-une-guidance-sans-s-identifier",
+        "number":  79,
         "familyId":  "guidance",
         "familyTitle":  "Guidance \u0026 au-delà",
         "symbol":  "✦",
@@ -5646,8 +5719,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C076-tenir-une-guidance-sans-s-identifier.svg",
-        "pdf":  "assets/cours-pdf/C076-tenir-une-guidance-sans-s-identifier.pdf",
+        "image":  "assets/course-visuals-premium/C079-tenir-une-guidance-sans-s-identifier.svg",
+        "pdf":  "assets/cours-pdf/C079-tenir-une-guidance-sans-s-identifier.pdf",
         "tags":  [
                      "Guidance \u0026 au-delà",
                      "Cours 1h",
@@ -5657,8 +5730,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C077-ecrire-un-message-interieur",
-        "number":  77,
+        "id":  "C080-ecrire-un-message-interieur",
+        "number":  80,
         "familyId":  "guidance",
         "familyTitle":  "Guidance \u0026 au-delà",
         "symbol":  "✦",
@@ -5676,8 +5749,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C077-ecrire-un-message-interieur.svg",
-        "pdf":  "assets/cours-pdf/C077-ecrire-un-message-interieur.pdf",
+        "image":  "assets/course-visuals-premium/C080-ecrire-un-message-interieur.svg",
+        "pdf":  "assets/cours-pdf/C080-ecrire-un-message-interieur.pdf",
         "tags":  [
                      "Guidance \u0026 au-delà",
                      "Cours 1h",
@@ -5687,8 +5760,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C078-signes-synchronicites-et-tri",
-        "number":  78,
+        "id":  "C081-signes-synchronicites-et-tri",
+        "number":  81,
         "familyId":  "guidance",
         "familyTitle":  "Guidance \u0026 au-delà",
         "symbol":  "✦",
@@ -5706,8 +5779,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C078-signes-synchronicites-et-tri.svg",
-        "pdf":  "assets/cours-pdf/C078-signes-synchronicites-et-tri.pdf",
+        "image":  "assets/course-visuals-premium/C081-signes-synchronicites-et-tri.svg",
+        "pdf":  "assets/cours-pdf/C081-signes-synchronicites-et-tri.pdf",
         "tags":  [
                      "Guidance \u0026 au-delà",
                      "Cours 1h",
@@ -5717,8 +5790,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C079-proteger-la-guidance-de-l-ego",
-        "number":  79,
+        "id":  "C082-proteger-la-guidance-de-l-ego",
+        "number":  82,
         "familyId":  "guidance",
         "familyTitle":  "Guidance \u0026 au-delà",
         "symbol":  "✦",
@@ -5736,8 +5809,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C079-proteger-la-guidance-de-l-ego.svg",
-        "pdf":  "assets/cours-pdf/C079-proteger-la-guidance-de-l-ego.pdf",
+        "image":  "assets/course-visuals-premium/C082-proteger-la-guidance-de-l-ego.svg",
+        "pdf":  "assets/cours-pdf/C082-proteger-la-guidance-de-l-ego.pdf",
         "tags":  [
                      "Guidance \u0026 au-delà",
                      "Cours 1h",
@@ -5747,8 +5820,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C080-rituel-de-cloture-d-une-guidance",
-        "number":  80,
+        "id":  "C083-rituel-de-cloture-d-une-guidance",
+        "number":  83,
         "familyId":  "guidance",
         "familyTitle":  "Guidance \u0026 au-delà",
         "symbol":  "✦",
@@ -5766,8 +5839,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C080-rituel-de-cloture-d-une-guidance.svg",
-        "pdf":  "assets/cours-pdf/C080-rituel-de-cloture-d-une-guidance.pdf",
+        "image":  "assets/course-visuals-premium/C083-rituel-de-cloture-d-une-guidance.svg",
+        "pdf":  "assets/cours-pdf/C083-rituel-de-cloture-d-une-guidance.pdf",
         "tags":  [
                      "Guidance \u0026 au-delà",
                      "Cours 1h",
@@ -5777,8 +5850,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C081-telepathie-bases-experimentales",
-        "number":  81,
+        "id":  "C084-telepathie-bases-experimentales",
+        "number":  84,
         "familyId":  "capacites",
         "familyTitle":  "Télépathie, télékinésie \u0026 recherche",
         "symbol":  "⚡",
@@ -5796,8 +5869,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C081-telepathie-bases-experimentales.svg",
-        "pdf":  "assets/cours-pdf/C081-telepathie-bases-experimentales.pdf",
+        "image":  "assets/course-visuals-premium/C084-telepathie-bases-experimentales.svg",
+        "pdf":  "assets/cours-pdf/C084-telepathie-bases-experimentales.pdf",
         "tags":  [
                      "Télépathie, télékinésie \u0026 recherche",
                      "Cours 1h",
@@ -5807,8 +5880,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C082-emettre-une-image-simple",
-        "number":  82,
+        "id":  "C085-emettre-une-image-simple",
+        "number":  85,
         "familyId":  "capacites",
         "familyTitle":  "Télépathie, télékinésie \u0026 recherche",
         "symbol":  "⚡",
@@ -5826,8 +5899,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C082-emettre-une-image-simple.svg",
-        "pdf":  "assets/cours-pdf/C082-emettre-une-image-simple.pdf",
+        "image":  "assets/course-visuals-premium/C085-emettre-une-image-simple.svg",
+        "pdf":  "assets/cours-pdf/C085-emettre-une-image-simple.pdf",
         "tags":  [
                      "Télépathie, télékinésie \u0026 recherche",
                      "Cours 1h",
@@ -5837,8 +5910,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C083-recevoir-sans-inventer",
-        "number":  83,
+        "id":  "C086-recevoir-sans-inventer",
+        "number":  86,
         "familyId":  "capacites",
         "familyTitle":  "Télépathie, télékinésie \u0026 recherche",
         "symbol":  "⚡",
@@ -5856,8 +5929,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C083-recevoir-sans-inventer.svg",
-        "pdf":  "assets/cours-pdf/C083-recevoir-sans-inventer.pdf",
+        "image":  "assets/course-visuals-premium/C086-recevoir-sans-inventer.svg",
+        "pdf":  "assets/cours-pdf/C086-recevoir-sans-inventer.pdf",
         "tags":  [
                      "Télépathie, télékinésie \u0026 recherche",
                      "Cours 1h",
@@ -5867,8 +5940,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C084-travail-a-deux-protocole-et-carnet",
-        "number":  84,
+        "id":  "C087-travail-a-deux-protocole-et-carnet",
+        "number":  87,
         "familyId":  "capacites",
         "familyTitle":  "Télépathie, télékinésie \u0026 recherche",
         "symbol":  "⚡",
@@ -5886,8 +5959,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C084-travail-a-deux-protocole-et-carnet.svg",
-        "pdf":  "assets/cours-pdf/C084-travail-a-deux-protocole-et-carnet.pdf",
+        "image":  "assets/course-visuals-premium/C087-travail-a-deux-protocole-et-carnet.svg",
+        "pdf":  "assets/cours-pdf/C087-travail-a-deux-protocole-et-carnet.pdf",
         "tags":  [
                      "Télépathie, télékinésie \u0026 recherche",
                      "Cours 1h",
@@ -5897,8 +5970,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C085-telekinesie-cadre-de-recherche-et-prudence",
-        "number":  85,
+        "id":  "C088-telekinesie-cadre-de-recherche-et-prudence",
+        "number":  88,
         "familyId":  "capacites",
         "familyTitle":  "Télépathie, télékinésie \u0026 recherche",
         "symbol":  "⚡",
@@ -5916,8 +5989,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C085-telekinesie-cadre-de-recherche-et-prudence.svg",
-        "pdf":  "assets/cours-pdf/C085-telekinesie-cadre-de-recherche-et-prudence.pdf",
+        "image":  "assets/course-visuals-premium/C088-telekinesie-cadre-de-recherche-et-prudence.svg",
+        "pdf":  "assets/cours-pdf/C088-telekinesie-cadre-de-recherche-et-prudence.pdf",
         "tags":  [
                      "Télépathie, télékinésie \u0026 recherche",
                      "Cours 1h",
@@ -5927,8 +6000,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C086-micro-intentions-et-observation",
-        "number":  86,
+        "id":  "C089-micro-intentions-et-observation",
+        "number":  89,
         "familyId":  "capacites",
         "familyTitle":  "Télépathie, télékinésie \u0026 recherche",
         "symbol":  "⚡",
@@ -5946,8 +6019,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C086-micro-intentions-et-observation.svg",
-        "pdf":  "assets/cours-pdf/C086-micro-intentions-et-observation.pdf",
+        "image":  "assets/course-visuals-premium/C089-micro-intentions-et-observation.svg",
+        "pdf":  "assets/cours-pdf/C089-micro-intentions-et-observation.pdf",
         "tags":  [
                      "Télépathie, télékinésie \u0026 recherche",
                      "Cours 1h",
@@ -5957,8 +6030,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C087-statistiques-simples-et-verification",
-        "number":  87,
+        "id":  "C090-statistiques-simples-et-verification",
+        "number":  90,
         "familyId":  "capacites",
         "familyTitle":  "Télépathie, télékinésie \u0026 recherche",
         "symbol":  "⚡",
@@ -5976,8 +6049,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C087-statistiques-simples-et-verification.svg",
-        "pdf":  "assets/cours-pdf/C087-statistiques-simples-et-verification.pdf",
+        "image":  "assets/course-visuals-premium/C090-statistiques-simples-et-verification.svg",
+        "pdf":  "assets/cours-pdf/C090-statistiques-simples-et-verification.pdf",
         "tags":  [
                      "Télépathie, télékinésie \u0026 recherche",
                      "Cours 1h",
@@ -5987,8 +6060,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C088-ethique-des-capacites-extrasensorielles",
-        "number":  88,
+        "id":  "C091-ethique-des-capacites-extrasensorielles",
+        "number":  91,
         "familyId":  "capacites",
         "familyTitle":  "Télépathie, télékinésie \u0026 recherche",
         "symbol":  "⚡",
@@ -6006,8 +6079,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C088-ethique-des-capacites-extrasensorielles.svg",
-        "pdf":  "assets/cours-pdf/C088-ethique-des-capacites-extrasensorielles.pdf",
+        "image":  "assets/course-visuals-premium/C091-ethique-des-capacites-extrasensorielles.svg",
+        "pdf":  "assets/cours-pdf/C091-ethique-des-capacites-extrasensorielles.pdf",
         "tags":  [
                      "Télépathie, télékinésie \u0026 recherche",
                      "Cours 1h",
@@ -6017,8 +6090,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C089-protection-energetique-du-corps",
-        "number":  89,
+        "id":  "C092-protection-energetique-du-corps",
+        "number":  92,
         "familyId":  "protection",
         "familyTitle":  "Protection énergétique",
         "symbol":  "⛨",
@@ -6036,8 +6109,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C089-protection-energetique-du-corps.svg",
-        "pdf":  "assets/cours-pdf/C089-protection-energetique-du-corps.pdf",
+        "image":  "assets/course-visuals-premium/C092-protection-energetique-du-corps.svg",
+        "pdf":  "assets/cours-pdf/C092-protection-energetique-du-corps.pdf",
         "tags":  [
                      "Protection énergétique",
                      "Cours 1h",
@@ -6047,8 +6120,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C090-nettoyage-du-lieu",
-        "number":  90,
+        "id":  "C093-nettoyage-du-lieu",
+        "number":  93,
         "familyId":  "protection",
         "familyTitle":  "Protection énergétique",
         "symbol":  "⛨",
@@ -6066,8 +6139,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C090-nettoyage-du-lieu.svg",
-        "pdf":  "assets/cours-pdf/C090-nettoyage-du-lieu.pdf",
+        "image":  "assets/course-visuals-premium/C093-nettoyage-du-lieu.svg",
+        "pdf":  "assets/cours-pdf/C093-nettoyage-du-lieu.pdf",
         "tags":  [
                      "Protection énergétique",
                      "Cours 1h",
@@ -6077,8 +6150,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C091-priere-de-protection",
-        "number":  91,
+        "id":  "C094-priere-de-protection",
+        "number":  94,
         "familyId":  "protection",
         "familyTitle":  "Protection énergétique",
         "symbol":  "⛨",
@@ -6096,8 +6169,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C091-priere-de-protection.svg",
-        "pdf":  "assets/cours-pdf/C091-priere-de-protection.pdf",
+        "image":  "assets/course-visuals-premium/C094-priere-de-protection.svg",
+        "pdf":  "assets/cours-pdf/C094-priere-de-protection.pdf",
         "tags":  [
                      "Protection énergétique",
                      "Cours 1h",
@@ -6107,8 +6180,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C092-vertus-comme-armure-interieure",
-        "number":  92,
+        "id":  "C095-vertus-comme-armure-interieure",
+        "number":  95,
         "familyId":  "protection",
         "familyTitle":  "Protection énergétique",
         "symbol":  "⛨",
@@ -6126,8 +6199,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C092-vertus-comme-armure-interieure.svg",
-        "pdf":  "assets/cours-pdf/C092-vertus-comme-armure-interieure.pdf",
+        "image":  "assets/course-visuals-premium/C095-vertus-comme-armure-interieure.svg",
+        "pdf":  "assets/cours-pdf/C095-vertus-comme-armure-interieure.pdf",
         "tags":  [
                      "Protection énergétique",
                      "Cours 1h",
@@ -6137,8 +6210,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C093-couper-les-charges-relationnelles",
-        "number":  93,
+        "id":  "C096-couper-les-charges-relationnelles",
+        "number":  96,
         "familyId":  "protection",
         "familyTitle":  "Protection énergétique",
         "symbol":  "⛨",
@@ -6156,8 +6229,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C093-couper-les-charges-relationnelles.svg",
-        "pdf":  "assets/cours-pdf/C093-couper-les-charges-relationnelles.pdf",
+        "image":  "assets/course-visuals-premium/C096-couper-les-charges-relationnelles.svg",
+        "pdf":  "assets/cours-pdf/C096-couper-les-charges-relationnelles.pdf",
         "tags":  [
                      "Protection énergétique",
                      "Cours 1h",
@@ -6167,8 +6240,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C094-se-recentrer-apres-un-soin-ou-un-echange",
-        "number":  94,
+        "id":  "C097-se-recentrer-apres-un-soin-ou-un-echange",
+        "number":  97,
         "familyId":  "protection",
         "familyTitle":  "Protection énergétique",
         "symbol":  "⛨",
@@ -6186,8 +6259,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C094-se-recentrer-apres-un-soin-ou-un-echange.svg",
-        "pdf":  "assets/cours-pdf/C094-se-recentrer-apres-un-soin-ou-un-echange.pdf",
+        "image":  "assets/course-visuals-premium/C097-se-recentrer-apres-un-soin-ou-un-echange.svg",
+        "pdf":  "assets/cours-pdf/C097-se-recentrer-apres-un-soin-ou-un-echange.pdf",
         "tags":  [
                      "Protection énergétique",
                      "Cours 1h",
@@ -6197,8 +6270,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C095-eau-sel-lumiere-et-intention",
-        "number":  95,
+        "id":  "C098-eau-sel-lumiere-et-intention",
+        "number":  98,
         "familyId":  "protection",
         "familyTitle":  "Protection énergétique",
         "symbol":  "⛨",
@@ -6216,8 +6289,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C095-eau-sel-lumiere-et-intention.svg",
-        "pdf":  "assets/cours-pdf/C095-eau-sel-lumiere-et-intention.pdf",
+        "image":  "assets/course-visuals-premium/C098-eau-sel-lumiere-et-intention.svg",
+        "pdf":  "assets/cours-pdf/C098-eau-sel-lumiere-et-intention.pdf",
         "tags":  [
                      "Protection énergétique",
                      "Cours 1h",
@@ -6227,8 +6300,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C096-rituel-quotidien-de-protection",
-        "number":  96,
+        "id":  "C099-rituel-quotidien-de-protection",
+        "number":  99,
         "familyId":  "protection",
         "familyTitle":  "Protection énergétique",
         "symbol":  "⛨",
@@ -6246,8 +6319,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C096-rituel-quotidien-de-protection.svg",
-        "pdf":  "assets/cours-pdf/C096-rituel-quotidien-de-protection.pdf",
+        "image":  "assets/course-visuals-premium/C099-rituel-quotidien-de-protection.svg",
+        "pdf":  "assets/cours-pdf/C099-rituel-quotidien-de-protection.pdf",
         "tags":  [
                      "Protection énergétique",
                      "Cours 1h",
@@ -6257,8 +6330,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C097-eau-informee-principe-symbolique-et-pratique",
-        "number":  97,
+        "id":  "C100-eau-informee-principe-symbolique-et-pratique",
+        "number":  100,
         "familyId":  "eau",
         "familyTitle":  "Eau informée \u0026 biorésonance",
         "symbol":  "♁",
@@ -6276,8 +6349,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C097-eau-informee-principe-symbolique-et-pratique.svg",
-        "pdf":  "assets/cours-pdf/C097-eau-informee-principe-symbolique-et-pratique.pdf",
+        "image":  "assets/course-visuals-premium/C100-eau-informee-principe-symbolique-et-pratique.svg",
+        "pdf":  "assets/cours-pdf/C100-eau-informee-principe-symbolique-et-pratique.pdf",
         "tags":  [
                      "Eau informée \u0026 biorésonance",
                      "Cours 1h",
@@ -6287,8 +6360,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C098-transfert-de-pensee-dans-l-eau",
-        "number":  98,
+        "id":  "C101-transfert-de-pensee-dans-l-eau",
+        "number":  101,
         "familyId":  "eau",
         "familyTitle":  "Eau informée \u0026 biorésonance",
         "symbol":  "♁",
@@ -6306,8 +6379,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C098-transfert-de-pensee-dans-l-eau.svg",
-        "pdf":  "assets/cours-pdf/C098-transfert-de-pensee-dans-l-eau.pdf",
+        "image":  "assets/course-visuals-premium/C101-transfert-de-pensee-dans-l-eau.svg",
+        "pdf":  "assets/cours-pdf/C101-transfert-de-pensee-dans-l-eau.pdf",
         "tags":  [
                      "Eau informée \u0026 biorésonance",
                      "Cours 1h",
@@ -6317,8 +6390,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C099-verre-d-eau-intention-et-lumiere",
-        "number":  99,
+        "id":  "C102-verre-d-eau-intention-et-lumiere",
+        "number":  102,
         "familyId":  "eau",
         "familyTitle":  "Eau informée \u0026 biorésonance",
         "symbol":  "♁",
@@ -6336,8 +6409,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C099-verre-d-eau-intention-et-lumiere.svg",
-        "pdf":  "assets/cours-pdf/C099-verre-d-eau-intention-et-lumiere.pdf",
+        "image":  "assets/course-visuals-premium/C102-verre-d-eau-intention-et-lumiere.svg",
+        "pdf":  "assets/cours-pdf/C102-verre-d-eau-intention-et-lumiere.pdf",
         "tags":  [
                      "Eau informée \u0026 biorésonance",
                      "Cours 1h",
@@ -6347,8 +6420,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C100-bioresonance-et-information-du-terrain",
-        "number":  100,
+        "id":  "C103-bioresonance-et-information-du-terrain",
+        "number":  103,
         "familyId":  "eau",
         "familyTitle":  "Eau informée \u0026 biorésonance",
         "symbol":  "♁",
@@ -6366,8 +6439,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C100-bioresonance-et-information-du-terrain.svg",
-        "pdf":  "assets/cours-pdf/C100-bioresonance-et-information-du-terrain.pdf",
+        "image":  "assets/course-visuals-premium/C103-bioresonance-et-information-du-terrain.svg",
+        "pdf":  "assets/cours-pdf/C103-bioresonance-et-information-du-terrain.pdf",
         "tags":  [
                      "Eau informée \u0026 biorésonance",
                      "Cours 1h",
@@ -6377,8 +6450,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C101-spooky-plasma-pemf-cadre-experimental",
-        "number":  101,
+        "id":  "C104-spooky-plasma-pemf-cadre-experimental",
+        "number":  104,
         "familyId":  "eau",
         "familyTitle":  "Eau informée \u0026 biorésonance",
         "symbol":  "♁",
@@ -6396,8 +6469,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C101-spooky-plasma-pemf-cadre-experimental.svg",
-        "pdf":  "assets/cours-pdf/C101-spooky-plasma-pemf-cadre-experimental.pdf",
+        "image":  "assets/course-visuals-premium/C104-spooky-plasma-pemf-cadre-experimental.svg",
+        "pdf":  "assets/cours-pdf/C104-spooky-plasma-pemf-cadre-experimental.pdf",
         "tags":  [
                      "Eau informée \u0026 biorésonance",
                      "Cours 1h",
@@ -6407,8 +6480,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C102-choisir-la-bonne-eau-pour-le-bon-corps",
-        "number":  102,
+        "id":  "C105-choisir-la-bonne-eau-pour-le-bon-corps",
+        "number":  105,
         "familyId":  "eau",
         "familyTitle":  "Eau informée \u0026 biorésonance",
         "symbol":  "♁",
@@ -6426,8 +6499,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C102-choisir-la-bonne-eau-pour-le-bon-corps.svg",
-        "pdf":  "assets/cours-pdf/C102-choisir-la-bonne-eau-pour-le-bon-corps.pdf",
+        "image":  "assets/course-visuals-premium/C105-choisir-la-bonne-eau-pour-le-bon-corps.svg",
+        "pdf":  "assets/cours-pdf/C105-choisir-la-bonne-eau-pour-le-bon-corps.pdf",
         "tags":  [
                      "Eau informée \u0026 biorésonance",
                      "Cours 1h",
@@ -6437,8 +6510,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C103-journal-de-l-eau-et-mesures-du-terrain",
-        "number":  103,
+        "id":  "C106-journal-de-l-eau-et-mesures-du-terrain",
+        "number":  106,
         "familyId":  "eau",
         "familyTitle":  "Eau informée \u0026 biorésonance",
         "symbol":  "♁",
@@ -6456,8 +6529,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C103-journal-de-l-eau-et-mesures-du-terrain.svg",
-        "pdf":  "assets/cours-pdf/C103-journal-de-l-eau-et-mesures-du-terrain.pdf",
+        "image":  "assets/course-visuals-premium/C106-journal-de-l-eau-et-mesures-du-terrain.svg",
+        "pdf":  "assets/cours-pdf/C106-journal-de-l-eau-et-mesures-du-terrain.pdf",
         "tags":  [
                      "Eau informée \u0026 biorésonance",
                      "Cours 1h",
@@ -6467,8 +6540,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C104-protocole-eau-informee-sept-jours",
-        "number":  104,
+        "id":  "C107-protocole-eau-informee-sept-jours",
+        "number":  107,
         "familyId":  "eau",
         "familyTitle":  "Eau informée \u0026 biorésonance",
         "symbol":  "♁",
@@ -6486,8 +6559,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C104-protocole-eau-informee-sept-jours.svg",
-        "pdf":  "assets/cours-pdf/C104-protocole-eau-informee-sept-jours.pdf",
+        "image":  "assets/course-visuals-premium/C107-protocole-eau-informee-sept-jours.svg",
+        "pdf":  "assets/cours-pdf/C107-protocole-eau-informee-sept-jours.pdf",
         "tags":  [
                      "Eau informée \u0026 biorésonance",
                      "Cours 1h",
@@ -6497,8 +6570,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C105-exercice-1-preparer-une-seance",
-        "number":  105,
+        "id":  "C108-exercice-1-preparer-une-seance",
+        "number":  108,
         "familyId":  "exercices",
         "familyTitle":  "Livre d’Exercices enrichi",
         "symbol":  "△",
@@ -6516,8 +6589,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C105-exercice-1-preparer-une-seance.svg",
-        "pdf":  "assets/cours-pdf/C105-exercice-1-preparer-une-seance.pdf",
+        "image":  "assets/course-visuals-premium/C108-exercice-1-preparer-une-seance.svg",
+        "pdf":  "assets/cours-pdf/C108-exercice-1-preparer-une-seance.pdf",
         "tags":  [
                      "Livre d’Exercices enrichi",
                      "Cours 1h",
@@ -6527,8 +6600,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C106-exercice-2-observer-une-source-lumineuse",
-        "number":  106,
+        "id":  "C109-exercice-2-observer-une-source-lumineuse",
+        "number":  109,
         "familyId":  "exercices",
         "familyTitle":  "Livre d’Exercices enrichi",
         "symbol":  "△",
@@ -6546,8 +6619,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C106-exercice-2-observer-une-source-lumineuse.svg",
-        "pdf":  "assets/cours-pdf/C106-exercice-2-observer-une-source-lumineuse.pdf",
+        "image":  "assets/course-visuals-premium/C109-exercice-2-observer-une-source-lumineuse.svg",
+        "pdf":  "assets/cours-pdf/C109-exercice-2-observer-une-source-lumineuse.pdf",
         "tags":  [
                      "Livre d’Exercices enrichi",
                      "Cours 1h",
@@ -6557,8 +6630,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C107-exercice-3-accueillir-la-remanence",
-        "number":  107,
+        "id":  "C110-exercice-3-accueillir-la-remanence",
+        "number":  110,
         "familyId":  "exercices",
         "familyTitle":  "Livre d’Exercices enrichi",
         "symbol":  "△",
@@ -6576,8 +6649,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C107-exercice-3-accueillir-la-remanence.svg",
-        "pdf":  "assets/cours-pdf/C107-exercice-3-accueillir-la-remanence.pdf",
+        "image":  "assets/course-visuals-premium/C110-exercice-3-accueillir-la-remanence.svg",
+        "pdf":  "assets/cours-pdf/C110-exercice-3-accueillir-la-remanence.pdf",
         "tags":  [
                      "Livre d’Exercices enrichi",
                      "Cours 1h",
@@ -6587,8 +6660,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C108-exercice-4-stabiliser-le-point-interieur",
-        "number":  108,
+        "id":  "C111-exercice-4-stabiliser-le-point-interieur",
+        "number":  111,
         "familyId":  "exercices",
         "familyTitle":  "Livre d’Exercices enrichi",
         "symbol":  "△",
@@ -6606,8 +6679,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C108-exercice-4-stabiliser-le-point-interieur.svg",
-        "pdf":  "assets/cours-pdf/C108-exercice-4-stabiliser-le-point-interieur.pdf",
+        "image":  "assets/course-visuals-premium/C111-exercice-4-stabiliser-le-point-interieur.svg",
+        "pdf":  "assets/cours-pdf/C111-exercice-4-stabiliser-le-point-interieur.pdf",
         "tags":  [
                      "Livre d’Exercices enrichi",
                      "Cours 1h",
@@ -6617,8 +6690,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C109-exercice-5-tenir-le-carnet-d-experience",
-        "number":  109,
+        "id":  "C112-exercice-5-tenir-le-carnet-d-experience",
+        "number":  112,
         "familyId":  "exercices",
         "familyTitle":  "Livre d’Exercices enrichi",
         "symbol":  "△",
@@ -6636,8 +6709,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C109-exercice-5-tenir-le-carnet-d-experience.svg",
-        "pdf":  "assets/cours-pdf/C109-exercice-5-tenir-le-carnet-d-experience.pdf",
+        "image":  "assets/course-visuals-premium/C112-exercice-5-tenir-le-carnet-d-experience.svg",
+        "pdf":  "assets/cours-pdf/C112-exercice-5-tenir-le-carnet-d-experience.pdf",
         "tags":  [
                      "Livre d’Exercices enrichi",
                      "Cours 1h",
@@ -6647,8 +6720,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C110-exercice-6-clore-une-seance",
-        "number":  110,
+        "id":  "C113-exercice-6-clore-une-seance",
+        "number":  113,
         "familyId":  "exercices",
         "familyTitle":  "Livre d’Exercices enrichi",
         "symbol":  "△",
@@ -6666,8 +6739,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C110-exercice-6-clore-une-seance.svg",
-        "pdf":  "assets/cours-pdf/C110-exercice-6-clore-une-seance.pdf",
+        "image":  "assets/course-visuals-premium/C113-exercice-6-clore-une-seance.svg",
+        "pdf":  "assets/cours-pdf/C113-exercice-6-clore-une-seance.pdf",
         "tags":  [
                      "Livre d’Exercices enrichi",
                      "Cours 1h",
@@ -6677,8 +6750,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C111-point-fixe-objet-et-lumiere",
-        "number":  111,
+        "id":  "C114-point-fixe-objet-et-lumiere",
+        "number":  114,
         "familyId":  "exercices",
         "familyTitle":  "Livre d’Exercices enrichi",
         "symbol":  "△",
@@ -6696,8 +6769,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C111-point-fixe-objet-et-lumiere.svg",
-        "pdf":  "assets/cours-pdf/C111-point-fixe-objet-et-lumiere.pdf",
+        "image":  "assets/course-visuals-premium/C114-point-fixe-objet-et-lumiere.svg",
+        "pdf":  "assets/cours-pdf/C114-point-fixe-objet-et-lumiere.pdf",
         "tags":  [
                      "Livre d’Exercices enrichi",
                      "Cours 1h",
@@ -6707,8 +6780,8 @@ window.AXIS_ONE_HOUR_COURSES = [
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
-        "id":  "C112-synthese-du-livre-d-exercices",
-        "number":  112,
+        "id":  "C115-synthese-du-livre-d-exercices",
+        "number":  115,
         "familyId":  "exercices",
         "familyTitle":  "Livre d’Exercices enrichi",
         "symbol":  "△",
@@ -6726,8 +6799,8 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "45–55 min — Intégration : carnet, phrase essentielle, observation du corps.",
                      "55–60 min — Clôture : retour au souffle, protection, geste concret du jour."
                  ],
-        "image":  "assets/course-visuals-premium/C112-synthese-du-livre-d-exercices.svg",
-        "pdf":  "assets/cours-pdf/C112-synthese-du-livre-d-exercices.pdf",
+        "image":  "assets/course-visuals-premium/C115-synthese-du-livre-d-exercices.svg",
+        "pdf":  "assets/cours-pdf/C115-synthese-du-livre-d-exercices.pdf",
         "tags":  [
                      "Livre d’Exercices enrichi",
                      "Cours 1h",
@@ -6735,83 +6808,7 @@ window.AXIS_ONE_HOUR_COURSES = [
                      "Recherche"
                  ],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
-    },
-  {
-    "id": "C113-convergence-oculaire",
-    "number": 113,
-    "familyId": "exercices",
-    "familyTitle": "Livre d'Exercices enrichi",
-    "symbol": "◎",
-    "title": "Exercice 9 — Convergence oculaire",
-    "subtitle": "Fusionner deux points visuels vers un centre unique",
-    "duration": "1 h",
-    "durationMin": 60,
-    "level": "Fondation",
-    "kind": "Exercice de perception visuelle",
-    "status": "available",
-    "summary": "La convergence oculaire est un exercice de concentration du regard qui consiste à fixer un point ou à fusionner deux images en un centre unique. Cet exercice développe la stabilité du regard intérieur et prépare à la perception de la rémanence.",
-    "shortSummary": "Diriger les deux axes visuels vers un même point central.",
-    "longSummary": "La convergence oculaire est l'un des exercices fondamentaux du Livre d'Exercices. En dirigeant les deux axes visuels vers un point unique — réel ou imaginaire — on crée un état de concentration naturelle qui calme le mental discursif. Cet exercice peut se pratiquer avec deux doigts devant le visage, avec un objet suspendu, ou purement en imagination. La convergence active les mécanismes de focalisation binoculaire du cerveau et prépare directement à la stabilisation du point intérieur décrite dans les exercices 3 et 4. Avec l'entraînement, la convergence devient un déclencheur d'état : quelques secondes suffisent pour retrouver la qualité d'attention requise pour la pratique lumineuse.",
-    "pedagogicalObjective": "Maîtriser la convergence des axes visuels vers un centre unique et stabiliser le regard intérieur.",
-    "initiaticObjective": "Développer la qualité d'attention focalisée qui précède et accompagne la rémanence.",
-    "essentialPhrase": "Je dirige mes deux regards vers un même centre. Je tiens ce point. Je laisse l'attention se poser.",
-    "shortPhrase": "Un centre. Deux yeux. Un seul regard.",
-    "coverImage": "assets/courses/course-113/cover.svg",
-    "image": "assets/courses/course-113/cover.svg",
-    "pdfPremium": false,
-    "tags": ["convergence", "regard", "concentration", "binoculaire", "point fixe", "exercice"]
-  },
-  {
-    "id": "C114-mantras-voyelles-vibratoires",
-    "number": 114,
-    "familyId": "souffle",
-    "familyTitle": "Yoga, souffle & mantras",
-    "symbol": "φ",
-    "title": "Exercice 10 — Mantras et voyelles vibratoires",
-    "subtitle": "Ancrer le son dans le corps comme support d'attention intérieure",
-    "duration": "1 h",
-    "durationMin": 60,
-    "level": "Fondation",
-    "kind": "Exercice sonore & vibratoire",
-    "status": "available",
-    "summary": "Les voyelles vibratoires — I, A, O, U et leurs combinaisons — sont utilisées comme ancres sonores pour stabiliser l'attention et créer un espace intérieur de résonance. Ce cours approfondit la pratique des mantras au-delà des syllabes fondamentales.",
-    "shortSummary": "Pratiquer les voyelles vibratoires comme ancres d'attention et de résonance corporelle.",
-    "longSummary": "Le mantra est une technologie de l'attention par le son. En vocalisant ou en pensant intérieurement une syllabe vibratoire, on crée une oscillation qui stabilise le mental de la même façon que le balancement stabilise le corps. Les voyelles I, A, O, U résonnent différemment dans le corps : le I résonne en haut (crâne, sinus), le A au centre (poitrine, coeur), le O dans le bas (ventre, bassin), le U dans la profondeur (racines). Les combinaisons ILLI, ALLA, OLLO, RORO créent des cycles complets qui accompagnent le rythme respiratoire. Ce cours propose une pratique progressive : d'abord vocaliser à voix haute pour sentir les résonances, puis intérioriser jusqu'au mantra silencieux, puis associer le mantra à la rémanence lumineuse pour créer une double ancre.",
-    "pedagogicalObjective": "Maîtriser les voyelles vibratoires et leurs résonances corporelles, et les associer à la pratique lumineuse.",
-    "initiaticObjective": "Transformer la vocalisation en présence intérieure, du son audible au mantra silencieux.",
-    "essentialPhrase": "Le son que je produis résonne dans mon corps avant de sortir. Je suis la caverne qui chante.",
-    "shortPhrase": "Je suis le son. Je suis la résonance. Je suis le silence qui suit.",
-    "coverImage": "assets/courses/course-114/cover.svg",
-    "image": "assets/courses/course-114/cover.svg",
-    "pdfPremium": false,
-    "tags": ["mantra", "voyelles", "son", "vibration", "ILLI", "ALLA", "OLLO", "RORO", "souffle", "exercice"]
-  },
-  {
-    "id": "C115-sensations-cenesthesiques",
-    "number": 115,
-    "familyId": "vivant",
-    "familyTitle": "Clair-ressenti & vivant",
-    "symbol": "◈",
-    "title": "Exercice 11 — Sensations cénesthésiques",
-    "subtitle": "Percevoir et habiter les sensations internes du corps vivant",
-    "duration": "1 h",
-    "durationMin": 60,
-    "level": "Fondation",
-    "kind": "Exercice de perception corporelle",
-    "status": "available",
-    "summary": "La cénesthésie est la conscience globale du corps — la somme de toutes les sensations internes : chaleur, picotements, poids, légèreté, flux, pulsation. Apprendre à percevoir ces sensations fine le système nerveux et ouvre la voie au clair-ressenti.",
-    "shortSummary": "Développer la conscience des sensations internes du corps comme fondation du clair-ressenti.",
-    "longSummary": "La cénesthésie désigne l'ensemble des sensations que le corps produit de l'intérieur : temperature, pression, mouvement, vibration, tonus musculaire, pulsation cardiaque, flux sanguin, légèreté ou lourdeur des membres. C'est le socle physiologique de ce que les traditions appellent le corps subtil. En apprenant à percevoir ces sensations avec finesse et sans les interpréter, on développe un outil d'observation interne précieux. La pratique commence par un inventaire corporel calme (scanner de la tête aux pieds), puis s'affine vers la perception de nuances plus subtiles : picotement au bout des doigts, chaleur qui monte dans la colonne, légère pulsation au centre du front. Ces perceptions ne sont ni imaginées ni construites — elles sont réelles et mesurables. Ce cours apprend à les accueillir sans amplification ni déni, et à les utiliser comme repères dans les séances de pratique lumineuse.",
-    "pedagogicalObjective": "Développer la capacité de percevoir et nommer les sensations cénesthésiques corporelles avec précision.",
-    "initiaticObjective": "Transformer le corps en instrument de perception intérieure fidèle et sobre.",
-    "essentialPhrase": "Je perçois ce qui est. Je ne fabrique pas. Je ne refuse pas. Je laisse le corps parler son langage discret.",
-    "shortPhrase": "Je sens donc je suis présent.",
-    "coverImage": "assets/courses/course-115/cover.svg",
-    "image": "assets/courses/course-115/cover.svg",
-    "pdfPremium": false,
-    "tags": ["cénesthésie", "sensations", "corps", "chaleur", "picotements", "perception", "clair-ressenti", "exercice"]
-  }
-
+    }
 ];
 
 
@@ -7656,7 +7653,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "title": "Maintenir son temple propre au quotidien"
   },
   "nextCourse": {
-    "id": "C005-le-carnet-d-experience-comme-preuve-interieure",
+    "id": "C016-le-carnet-d-experience-comme-preuve-interieure",
     "title": "Le carnet d’expérience comme preuve intérieure"
   },
   "copyright": "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
@@ -7923,10 +7920,10 @@ window.AXIS_ONE_HOUR_COURSES = [
 })();
 /* AXIS_COURSE_003_PREMIUM_PATCH_END */
 
-/* AXIS_COURSE_005_PREMIUM_PATCH_START */
+/* AXIS_COURSE_016_PREMIUM_PATCH_START */
 (function () {
-  const richCourse005 = {
-    id: "C005-preparer-une-seance-ouvrir-le-seuil",
+  const richCourse016 = {
+    id: "C016-preparer-une-seance-ouvrir-le-seuil",
     number: 5,
     title: "Préparer une séance : ouvrir le seuil",
     subtitle: "Passer du bruit ordinaire à l’espace de pratique",
@@ -8081,7 +8078,7 @@ window.AXIS_ONE_HOUR_COURSES = [
 
     pdf: {
       title: "Cours 5 — Préparer une séance : ouvrir le seuil",
-      path: "data/courses/course-005-preparer-une-seance-ouvrir-le-seuil/pdf/course-005-preparer-une-seance.pdf",
+      path: "data/courses/course-016-preparer-une-seance-ouvrir-le-seuil/pdf/course-016-preparer-une-seance.pdf",
       protectedNotice: "Support réservé aux élèves Axis Lumen Studio. Reproduction, diffusion ou revente interdites sans autorisation."
     },
     pdfPremium: true,
@@ -8120,12 +8117,12 @@ window.AXIS_ONE_HOUR_COURSES = [
     list[4];
 
   if (target) {
-    Object.assign(target, richCourse005);
+    Object.assign(target, richCourse016);
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
 })();
- /* AXIS_COURSE_005_PREMIUM_PATCH_END */
+ /* AXIS_COURSE_016_PREMIUM_PATCH_END */
 /* AXIS_COURSE_006_IMAGES_ONLY_PATCH_START */
 (function () {
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES)
@@ -8191,11 +8188,11 @@ window.AXIS_ONE_HOUR_COURSES = [
 })();
  /* AXIS_COURSE_006_IMAGES_ONLY_PATCH_END */
 
- /* AXIS_COURSE_007_PREMIUM_PATCH_START */
+ /* AXIS_COURSE_018_PREMIUM_PATCH_START */
 (function () {
-  const richCourse007 = {
-  "id": "C007-presence-carte-et-lumiere",
-  "number": 7,
+  const richCourse018 = {
+  "id": "C018-presence-carte-et-lumiere",
+  "number": 18,
   "title": "Cours 7 — Présence, carte et lumière",
   "subtitle": "Faire descendre une vertu dans la rémanence",
   "family": "Fondations du Temple Vivant",
@@ -8366,7 +8363,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "atmosphere": "assets/courses/course-007/atmosphere.png"
   },
   "pdf": {
-    "path": "data/courses/course-007-presence-carte-et-lumiere/pdf/cours-007-presence-carte-et-lumiere.pdf",
+    "path": "data/courses/course-018-presence-carte-et-lumiere/pdf/cours-007-presence-carte-et-lumiere.pdf",
     "title": "Cours 7 — Présence, carte et lumière",
     "protectedNotice": "Support réservé aux élèves Axis Lumen Studio. Reproduction, diffusion ou revente interdites sans autorisation."
   },
@@ -8405,7 +8402,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     list[6];
 
   if (target) {
-    Object.assign(target, richCourse007);
+    Object.assign(target, richCourse018);
     target.coverImage = "assets/courses/course-007/cover.png";
     target.image = "assets/courses/course-007/cover.png";
     target.cover = "assets/courses/course-007/cover.png";
@@ -8418,7 +8415,7 @@ window.AXIS_ONE_HOUR_COURSES = [
 
   window.AXIS_ONE_HOUR_COURSES = list;
 })();
- /* AXIS_COURSE_007_PREMIUM_PATCH_END */
+ /* AXIS_COURSE_018_PREMIUM_PATCH_END */
 /* AXIS_REINJECT_FROM_DATA_COURSES_START */
 (function () {
   console.info("[Axis Lumen] Réinjection des cours enrichis depuis data/courses et connexion des visuels premium.");
@@ -9579,7 +9576,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "Je sais clore la séance sans laisser l’attention dispersée."
   ],
   "previousCourse": "C003-maintenir-son-temple-propre-au-quotidien",
-  "nextCourse": "C005-le-carnet-d-experience-comme-preuve-interieure",
+  "nextCourse": "C016-le-carnet-d-experience-comme-preuve-interieure",
   "copyright": "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
 };
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES) ? window.AXIS_ONE_HOUR_COURSES : [];
@@ -9654,8 +9651,8 @@ window.AXIS_ONE_HOUR_COURSES = [
 })();
 (function () {
   const enriched = {
-  "id": "C005-preparer-une-seance-ouvrir-le-seuil",
-  "number": 5,
+  "id": "C016-preparer-une-seance-ouvrir-le-seuil",
+  "number": 16,
   "title": "Préparer une séance : ouvrir le seuil",
   "subtitle": "Passer du bruit ordinaire à l’espace de pratique",
   "family": "Règles de l’enseignement",
@@ -9886,7 +9883,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "atmosphere": "assets/courses/course-005/atmosphere.svg"
   },
   "pdf": {
-    "path": "data/courses/course-005-preparer-une-seance-ouvrir-le-seuil/pdf/course-005-preparer-une-seance.pdf",
+    "path": "data/courses/course-016-preparer-une-seance-ouvrir-le-seuil/pdf/course-016-preparer-une-seance.pdf",
     "title": "Cours 5 — Préparer une séance : ouvrir le seuil",
     "protectedNotice": "Support réservé aux élèves Axis Lumen Studio. Reproduction, diffusion ou revente interdites sans autorisation."
   },
@@ -10133,7 +10130,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "J’ai noté quelques mots vrais dans le carnet.",
     "J’ai repris une action simple sans me disperser."
   ],
-  "previousCourse": "course-005-preparer-une-seance-ouvrir-le-seuil",
+  "previousCourse": "course-016-preparer-une-seance-ouvrir-le-seuil",
   "nextCourse": "course-007",
   "copyright": "© Axis Lumen Studio — Tous droits réservés.",
   "coverImage": "assets/courses/course-006/cover.png",
@@ -10251,8 +10248,8 @@ window.AXIS_ONE_HOUR_COURSES = [
 })();
 (function () {
   const enriched = {
-  "id": "C007-presence-carte-et-lumiere",
-  "number": 7,
+  "id": "C018-presence-carte-et-lumiere",
+  "number": 18,
   "title": "Cours 7 — Présence, carte et lumière",
   "subtitle": "Faire descendre une vertu dans la rémanence",
   "family": "Fondations du Temple Vivant",
@@ -10423,7 +10420,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     "atmosphere": "assets/courses/course-007/atmosphere.png"
   },
   "pdf": {
-    "path": "data/courses/course-007-presence-carte-et-lumiere/pdf/cours-007-presence-carte-et-lumiere.pdf",
+    "path": "data/courses/course-018-presence-carte-et-lumiere/pdf/cours-007-presence-carte-et-lumiere.pdf",
     "title": "Cours 7 — Présence, carte et lumière",
     "protectedNotice": "Support réservé aux élèves Axis Lumen Studio. Reproduction, diffusion ou revente interdites sans autorisation."
   },

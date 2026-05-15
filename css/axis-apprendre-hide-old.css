@@ -37,3 +37,5 @@ body.axis-learn-page #axisLearnPaths,
 body.axis-learn-page #axisAccessPanel {
   pointer-events: none !important;
 }
+
+body.axis-learn-page #axisPratiquesFondamentales { display: none !important; }
