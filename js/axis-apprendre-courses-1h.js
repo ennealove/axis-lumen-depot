@@ -1382,4 +1382,28 @@
     }
 
   ];
+
+  // ═══════════════════════════════════════════════════════
+  // CORRECTION AUTOMATIQUE DES IMAGES
+  // Le numéro de cours = numéro du dossier assets/courses/course-XXX/
+  // Les cours > 112 utilisent le dossier course-112 (dernier disponible)
+  // ═══════════════════════════════════════════════════════
+  window.AXIS_ONE_HOUR_COURSES.forEach(function (c) {
+    var n = Math.min(Math.floor(Number(c.number)), 112);
+    if (n < 1) n = 1;
+    var pad = String(n).padStart(3, "0");
+    var base = "assets/courses/course-" + pad;
+    var pfx  = "course-" + pad;
+    c.image      = base + "/cover.webp";
+    c.coverImage = base + "/cover.webp";
+    c.images     = {
+      cover:       base + "/cover.webp",
+      pedagogical: [
+        base + "/" + pfx + "-image-02.webp",
+        base + "/" + pfx + "-image-03.webp",
+        base + "/" + pfx + "-image-04.webp"
+      ]
+    };
+  });
+
 })();
