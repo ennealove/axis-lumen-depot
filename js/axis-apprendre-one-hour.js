@@ -43,7 +43,7 @@
       ].join(" "));
       const bySearch = !q || blob.includes(q);
       return byFamily && bySearch;
-    });
+    }).sort((a, b) => Number(a.order || a.number || 0) - Number(b.order || b.number || 0));
   }
 
   function familyButtonsHtml() {
@@ -71,16 +71,23 @@
     return buttons.join("");
   }
 
-  function cardHtml(course) {
+  function cardHtml(course, seqNum) {
     const tags = (course.tags || []).slice(0, 4).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
     const cover = course.coverImage || course.image || course.images?.cover || "";
     const pdfPath = course.pdf?.path || course.pdfPath || "";
     const summary = course.shortSummary || course.summary || course.longSummary || "";
+    const numLabel = String(course.number || "");
+    const titleHasNumber = /^Cours\s+\d+/i.test(course.title || "");
+    const displayTitle = titleHasNumber
+      ? course.title
+      : `Cours ${numLabel} — ${course.title}`;
+    // Badge séquentiel (position 1→115) ou numéro du cours si pas d'index fourni
+    const badgeNum = seqNum ? String(seqNum).padStart(2, "0") : numLabel.padStart(2, "0");
 
     return `
       <article class="axis-onehour-card" data-course-id="${escapeHtml(course.id)}">
         <div class="axis-onehour-card-top">
-          <span class="axis-onehour-number">${String(course.number).padStart(2, "0")}</span>
+          <span class="axis-onehour-number">${badgeNum}</span>
           <span class="axis-onehour-symbol">${escapeHtml(course.symbol || "◎")}</span>
         </div>
 
@@ -88,7 +95,7 @@
 
         <div>
           <p class="axis-onehour-kicker">${escapeHtml(course.family || course.familyTitle || "École du Temple Vivant")}</p>
-          <h3>${escapeHtml(course.title)}</h3>
+          <h3>${escapeHtml(displayTitle)}</h3>
           ${course.subtitle ? `<p class="axis-onehour-subtitle">${escapeHtml(course.subtitle)}</p>` : ""}
           <p>${escapeHtml(summary)}</p>
         </div>
@@ -120,9 +127,7 @@
 
     const imageItems = [
       course.images?.cover,
-      ...(course.images?.pedagogical || []),
-      course.images?.contemplative,
-      course.images?.exercise
+      ...(course.images?.pedagogical || [])
     ].filter(Boolean).filter((value, index, array) => array.indexOf(value) === index);
 
     const imageGallery = imageItems.length
@@ -250,6 +255,83 @@
             ${validationHtml}
           </section>
 
+          ${(function() {
+            const n = Number(course.number);
+
+            // Programme 15 jours balancements (cours 15.5)
+            if (n === 15.5) {
+              return `<div class="axis-course-gen-session">
+                <p class="axis-course-gen-kicker">Programme initiatique complet</p>
+                <h4>15 jours de Balancement</h4>
+                <p>Progression guidée du carré bleu au support animé. 15 séances entièrement pré-configurées — aucun réglage nécessaire.</p>
+                <a href="exercice-programme-15j-balancements.html" class="axis-onehour-btn primary">Ouvrir le programme →</a>
+              </div>`;
+            }
+
+            // Programme 15 jours complet (balancement + respiration, cours 23.5 ou 59.5)
+            if (n === 23.5 || n === 59.5) {
+              return `<div class="axis-course-gen-session">
+                <p class="axis-course-gen-kicker">Programme initiatique avancé</p>
+                <h4>15 jours — Balancement &amp; Respiration</h4>
+                <p>Chaque jour : une séance de balancement suivie d'une pratique respiratoire. 15 jours vers l'intégration corps-souffle-lumière. Aucun réglage nécessaire.</p>
+                <a href="exercice-programme-15j-complet.html" class="axis-onehour-btn primary">Ouvrir le programme →</a>
+              </div>`;
+            }
+
+            // Balancement courses 8-15 → exercice-balancement.html?jour=N
+            if (n >= 8 && n <= 15) {
+              const jour = n - 7;
+              const swingByJour = ['lateral','vertical','ap','lateral','ap','lateral','vertical','lateral'];
+              const mantraMap = { lateral:'ILLI', vertical:'ALLA', ap:'ELLU' };
+              const dirMap = { lateral:'latéral', vertical:'vertical', ap:'antéro-postérieur' };
+              const swing = swingByJour[jour - 1] || 'lateral';
+              return `<div class="axis-course-gen-session">
+                <p class="axis-course-gen-kicker">Programme Balancement — Jour ${jour}/8</p>
+                <h4>Exercice de balancement intégré</h4>
+                <p>Ce cours s'accompagne d'une séance de balancement ${dirMap[swing]} (mantra ${mantraMap[swing]}). Protocole complet : contemplation, lumière, bandeau, balancement.</p>
+                <a href="exercice-balancement.html?jour=${jour}" class="axis-onehour-btn primary">Lancer l'exercice →</a>
+              </div>`;
+            }
+
+            // Respiration / souffle courses — uses jourRespiration field set by override
+            if (course.jourRespiration) {
+              const jour = course.jourRespiration;
+              return `<div class="axis-course-gen-session">
+                <p class="axis-course-gen-kicker">Programme Respiration — Jour ${jour}/8</p>
+                <h4>Exercice de respiration guidée</h4>
+                <p>Ce cours s'accompagne d'un exercice de respiration avec sons de guidage. Choisis la durée et lance la séance.</p>
+                <a href="exercice-respiration.html?jour=${jour}" class="axis-onehour-btn primary">Lancer l'exercice →</a>
+              </div>`;
+            }
+
+            // Legacy: balancement single-swing for courses 41/42/43
+            const swingMap = { 41:'lateral', 42:'vertical', 43:'ap' };
+            const mantraMap = { lateral:'ILLI',vertical:'ALLA',ap:'ELLU' };
+            const dirMap = { lateral:'latéral',vertical:'vertical',ap:'antéro-postérieur' };
+            const swing = swingMap[n];
+            if (!swing) return '';
+            return `<div class="axis-course-gen-session">
+              <p class="axis-course-gen-kicker">Programme 8 jours</p>
+              <h4>Générer la séance de pratique</h4>
+              <p>Ce cours fait partie du programme de balancement en 8 jours. Chaque séance suit le protocole complet : contemplation d'objet, observation lumineuse, bandeau et balancement ${dirMap[swing]} · ${mantraMap[swing]}.</p>
+              <a href="exercice-balancement.html?swing=${swing}" class="axis-onehour-btn primary">Générer la séance →</a>
+            </div>`;
+          })()}
+
+          ${course.practiceBlock ? `
+          <section class="axis-course-rich-section axis-course-practice-block">
+            <h4>${escapeHtml(course.practiceBlock.titre || "Exercices pré-programmés")}</h4>
+            ${course.practiceBlock.description ? `<p>${escapeHtml(course.practiceBlock.description)}</p>` : ""}
+            <ul class="axis-course-practice-list">
+              ${(course.practiceBlock.exercices || []).map(ex => `
+                <li>
+                  <strong>${escapeHtml(ex.nom)}</strong> · ${escapeHtml(ex.duree)}
+                  ${ex.mantra ? `<span class="axis-course-mantra-tag">${escapeHtml(ex.mantra)}</span>` : ""}
+                  ${ex.lien ? `<a href="${escapeHtml(ex.lien)}" class="axis-onehour-btn">Lancer →</a>` : ""}
+                </li>`).join("")}
+            </ul>
+          </section>` : ""}
+
           <div class="axis-onehour-actions">
             <button class="axis-onehour-btn primary" data-action="pdf" data-course="${escapeHtml(course.id)}">Générer le PDF premium</button>
             <button class="axis-onehour-btn" data-action="session" data-course="${escapeHtml(course.id)}">Envoyer vers Créer sa séance</button>
@@ -314,7 +396,7 @@
 
         <section>
           <div class="axis-onehour-grid">
-            ${list.length ? list.map(cardHtml).join("") : `<div class="axis-onehour-empty">Aucun cours trouvé.</div>`}
+            ${list.length ? list.map((course, idx) => cardHtml(course, idx + 1)).join("") : `<div class="axis-onehour-empty">Aucun cours trouvé.</div>`}
           </div>
           ${readerHtml(selected)}
         </section>
@@ -391,9 +473,7 @@
 
     const imageSet = [
       course.images?.cover || course.coverImage || course.image,
-      ...(course.images?.pedagogical || []),
-      course.images?.contemplative,
-      course.images?.exercise
+      ...(course.images?.pedagogical || [])
     ].filter(Boolean).filter((value, index, array) => array.indexOf(value) === index);
 
     const section = (title, body) => body ? `<section class="pdf-section"><h2>${safe(title)}</h2>${body}</section>` : "";

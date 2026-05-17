@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Jour 8 — Support animé — Axis Lumen Studio</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/axis-clean-restoration.css">
+  <link rel="stylesheet" href="css/axis-global-top-nav.css">
+  <link rel="stylesheet" href="css/home-dashboard-top.css">
+  <link rel="stylesheet" href="css/axis-index-nav-exact.css">
+  <style>
+    .j8-main { max-width: 960px; margin: 0 auto; padding: 36px 24px 80px; }
+    .j8-kicker { font-size:.72rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:#d8b45f; margin:0 0 8px; }
+    .j8-main h1 { font-size:1.6rem; font-weight:800; color:#ffe7a3; margin:0 0 10px; }
+    .j8-main > p { font-size:.9rem; color:rgba(244,236,216,.65); max-width:560px; line-height:1.65; margin:0 0 32px; }
+
+    /* Canvas container */
+    .j8-canvas-wrap {
+      position: relative;
+      border-radius: 18px;
+      overflow: hidden;
+      background: #0a0804;
+      border: 1px solid rgba(216,180,95,.2);
+      margin-bottom: 24px;
+      max-width: 700px;
+    }
+    .j8-canvas-wrap canvas { display:block; width:100%; height:auto; }
+
+    /* Phase overlay */
+    .j8-phase-bar {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: rgba(10,8,4,.8);
+      border: 1px solid rgba(216,180,95,.18);
+      border-radius: 14px;
+      padding: 14px 20px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      max-width: 700px;
+    }
+    .j8-phase-label { font-size:.75rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:#d8b45f; }
+    .j8-timer { font-size:2rem; font-weight:800; color:#ffe7a3; font-variant-numeric:tabular-nums; min-width:70px; }
+    .j8-guidance { font-size:.84rem; color:rgba(244,236,216,.75); flex:1; line-height:1.5; }
+    .j8-mantra { font-size:.9rem; font-weight:700; color:#d8b45f; letter-spacing:.08em; }
+
+    /* Progress bar */
+    .j8-prog-wrap { height:4px; background:rgba(216,180,95,.12); border-radius:2px; overflow:hidden; margin-bottom:20px; max-width:700px; }
+    .j8-prog-fill  { height:100%; background:linear-gradient(90deg,#d8b45f,#ffe7a3); border-radius:2px; width:0%; transition:width .5s linear; }
+
+    /* Controls */
+    .j8-controls { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:28px; }
+    .j8-btn {
+      border:none; border-radius:12px; cursor:pointer; font-weight:700; font-size:.85rem;
+      padding:10px 20px; transition:opacity .18s, transform .15s; line-height:1;
+    }
+    .j8-btn:hover { opacity:.88; transform:translateY(-1px); }
+    .j8-btn.primary { background:linear-gradient(135deg,#d8b45f,#c9a23e); color:#1a140a; }
+    .j8-btn.secondary { background:rgba(216,180,95,.15); color:#ffe7a3; border:1px solid rgba(216,180,95,.3); }
+    .j8-btn.ghost { background:transparent; color:rgba(244,236,216,.6); border:1px solid rgba(244,236,216,.18); }
+
+    /* Swing selector */
+    .j8-swing-row { display:flex; gap:8px; margin-bottom:24px; flex-wrap:wrap; }
+    .j8-swing-btn {
+      border:1px solid rgba(216,180,95,.25); background:rgba(216,180,95,.07); color:rgba(244,236,216,.75);
+      border-radius:10px; padding:8px 18px; font-size:.82rem; font-weight:600; cursor:pointer; transition:all .15s;
+    }
+    .j8-swing-btn.active, .j8-swing-btn:hover { background:rgba(216,180,95,.2); border-color:rgba(216,180,95,.55); color:#ffe7a3; }
+
+    .j8-section-label { font-size:.72rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:rgba(216,180,95,.7); margin:0 0 10px; display:block; }
+
+    /* Timeline */
+    .j8-timeline { max-width:700px; display:flex; flex-direction:column; gap:6px; }
+    .j8-tl-row { display:flex; gap:10px; font-size:.8rem; color:rgba(244,236,216,.6); padding:8px 12px; border-radius:8px; border:1px solid transparent; }
+    .j8-tl-row.active { background:rgba(216,180,95,.1); border-color:rgba(216,180,95,.25); color:#ffe7a3; }
+    .j8-tl-row strong { color:#d8b45f; min-width:22px; }
+
+    /* Missing image notice */
+    .j8-notice {
+      background:rgba(216,180,95,.07); border:1px dashed rgba(216,180,95,.3); border-radius:12px;
+      padding:16px 18px; font-size:.84rem; color:rgba(244,236,216,.7); line-height:1.6; margin-bottom:20px; max-width:700px;
+    }
+    .j8-notice strong { color:#ffe7a3; display:block; margin-bottom:4px; }
+  </style>
+</head>
+
+<body>
+<header class="axis-top-dashboard">
+  <div class="axis-top-dashboard-inner">
+    <a class="axis-top-brand" href="index.html"><strong>Axis Lumen</strong></a>
+    <nav class="axis-top-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="creer-seance.html">Créer sa séance</a>
+      <a href="pratiquer.html">Pratiquer</a>
+      <a href="exercice-balancement.html">Balancement</a>
+      <a class="active" href="#">Jour 8</a>
+      <a href="apprendre.html">Apprendre</a>
+      <a href="vertus.html">Vertus</a>
+    </nav>
+  </div>
+</header>
+
+<main class="j8-main">
+  <p class="j8-kicker">Jour 8 — Support animé</p>
+  <h1>Point de concentration lumineux</h1>
+  <p>
+    Un point lumineux se déplace devant le visage du personnage en synchronie avec votre direction de balancement.
+    Suivez-le du regard intérieur — bandeau posé — tout en répétant le mantra.
+  </p>
+
+  <div id="j8Notice" class="j8-notice" style="display:none">
+    <strong>Image manquante</strong>
+    Enregistrez votre image dans <code>assets/images/jour8-arbre.jpg</code> pour afficher le support animé.
+    En attendant, le fond noir servira de support de concentration.
+  </div>
+
+  <!-- Swing selector -->
+  <span class="j8-section-label">Direction du balancement</span>
+  <div class="j8-swing-row" id="j8SwingRow">
+    <button class="j8-swing-btn active" data-swing="lateral"  type="button">Latéral ↔ · ILLI</button>
+    <button class="j8-swing-btn"        data-swing="vertical" type="button">Vertical ↕ · ALLA</button>
+    <button class="j8-swing-btn"        data-swing="ap"       type="button">Antéro-post. ⇄ · ELLU</button>
+  </div>
+
+  <!-- Phase info -->
+  <div class="j8-phase-bar">
+    <div>
+      <div class="j8-phase-label" id="j8PhaseLabel">Prêt</div>
+      <div class="j8-mantra"      id="j8Mantra">—</div>
+    </div>
+    <div class="j8-timer" id="j8Timer">00:00</div>
+    <div class="j8-guidance" id="j8Guidance">Sélectionne la direction et lance la séance.</div>
+  </div>
+  <div class="j8-prog-wrap"><div class="j8-prog-fill" id="j8ProgFill"></div></div>
+
+  <!-- Canvas -->
+  <div class="j8-canvas-wrap">
+    <canvas id="j8Canvas" width="700" height="500"></canvas>
+  </div>
+
+  <!-- Controls -->
+  <div class="j8-controls">
+    <button id="j8Start"  class="j8-btn primary"    type="button">Lancer</button>
+    <button id="j8Pause"  class="j8-btn secondary"  type="button" style="display:none">Pause</button>
+    <button id="j8Stop"   class="j8-btn ghost"       type="button" style="display:none">Arrêter</button>
+    <a href="exercice-balancement.html" class="j8-btn ghost">← Retour</a>
+  </div>
+
+  <!-- Timeline -->
+  <span class="j8-section-label">Déroulement</span>
+  <div id="j8Timeline" class="j8-timeline"></div>
+
+</main>
+
+<footer class="axis-legal-footer">
+  <div class="axis-legal-footer-inner">
+    <span>© Axis Lumen Studio</span>
+    <nav aria-label="Liens légaux">
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="cgu.html">CGU</a>
+      <a href="cgv.html">CGV</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/axis-access-control.js"></script>
+<script src="js/axis-voice-global.js"></script>
+<script src="js/axis-session-audio-map.js"></script>
+<script src="js/axis-audio-local-patch.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  var JOUR8_IMG = 'assets/images/images objet/fleurs/arbre/arbre plus personne.png';
+  var BANDEAU   = 'assets/images/personnage avec bandeau sur les yeux.png';
+
+  var SWINGS = {
+    lateral:  { mantra: 'ILLI', label: 'Latéral',           axis: 'x', guidance: 'Balancement gauche / droite. ILLI — langue contre le palais.' },
+    vertical: { mantra: 'ALLA', label: 'Vertical',          axis: 'y', guidance: 'Balancement haut / bas. ALLA — axe et verticalité intérieure.' },
+    ap:       { mantra: 'ELLU', label: 'Antéro-postérieur', axis: 'z', guidance: 'Balancement avant / arrière. ELLU — sphère intérieure de présence.' }
+  };
+
+  // Session phases: N cycles × (visualisation 20s + lumière 30s + bandeau 8s + balancement 180s) + rémanence 120s
+  // For Day 8 we simplify: 3 cycles = ~13 min
+  var CYCLES = 3;
+
+  var PHASES = (function () {
+    var arr = [];
+    arr.push({ id: 'prep', label: 'Visualisation initiale', dur: 60, mantra: '', guidance: 'Fermez les yeux. Visualisez une personne de votre choix debout devant un arbre. Fixez son visage.' });
+    for (var i = 0; i < CYCLES; i++) {
+      var n = i + 1;
+      arr.push({ id: 'lum-' + n,     label: 'Lumière (' + n + '/' + CYCLES + ')',           dur: 30,  mantra: '',     guidance: 'Allumez la lumière. Fixez la source lumineuse en pensant à la personne.' });
+      arr.push({ id: 'eteindre-' + n, label: 'Éteindre (' + n + '/' + CYCLES + ')',         dur: 5,   mantra: '',     guidance: 'Éteignez la lumière.' });
+      arr.push({ id: 'bandeau-' + n,  label: 'Bandeau (' + n + '/' + CYCLES + ')',           dur: 8,   mantra: '',     guidance: 'Posez le bandeau. Installez-vous.' });
+      arr.push({ id: 'swing-' + n,    label: 'Balancement — cycle ' + n + '/' + CYCLES,     dur: 180, mantra: 'SWING', guidance: 'Suivez le point lumineux du regard intérieur. Mantra en rythme avec le mouvement.' });
+    }
+    arr.push({ id: 'remanence', label: 'Rémanence finale', dur: 120, mantra: '', guidance: 'Arrêtez. Restez immobile. Observez les phosphènes et laissez la rémanence s\'installer.' });
+    return arr;
+  })();
+
+  var state = {
+    swing:     'lateral',
+    phase:     0,
+    elapsed:   0,
+    running:   false,
+    paused:    false,
+    tick:      null,
+    bgImg:     null,
+    bgLoaded:  false,
+    animFrame: null,
+    dotAngle:  0
+  };
+
+  var canvas  = document.getElementById('j8Canvas');
+  var ctx     = canvas.getContext('2d');
+
+  /* ── Load background image ───────────────────────────── */
+
+  function loadBg() {
+    var img = new Image();
+    img.onload  = function () { state.bgImg = img; state.bgLoaded = true; drawFrame(); };
+    img.onerror = function () {
+      state.bgLoaded = true;
+      document.getElementById('j8Notice').style.display = 'block';
+      drawFrame();
+    };
+    img.src = JOUR8_IMG;
+  }
+
+  /* ── Canvas drawing ──────────────────────────────────── */
+
+  function drawFrame() {
+    var W = canvas.width, H = canvas.height;
+    ctx.clearRect(0, 0, W, H);
+
+    // Background
+    if (state.bgImg) {
+      ctx.drawImage(state.bgImg, 0, 0, W, H);
+      // Dark overlay to keep contrast
+      ctx.fillStyle = 'rgba(10,8,4,0.25)';
+      ctx.fillRect(0, 0, W, H);
+    } else {
+      ctx.fillStyle = '#0a0804';
+      ctx.fillRect(0, 0, W, H);
+      // Subtle radial background when no image
+      var grd = ctx.createRadialGradient(W/2, H/2, 0, W/2, H/2, W*0.6);
+      grd.addColorStop(0, 'rgba(30,22,8,0.9)');
+      grd.addColorStop(1, 'rgba(5,4,2,0.9)');
+      ctx.fillStyle = grd;
+      ctx.fillRect(0, 0, W, H);
+    }
+
+    if (!state.running) return;
+
+    var phase = PHASES[state.phase];
+    if (!phase || phase.mantra !== 'SWING') return;
+
+    var swing = SWINGS[state.swing];
+
+    // Dot position: face area = center-top of image
+    // Face is approx at W*0.5, H*0.35 (person in front of tree)
+    var cx = W * 0.5;
+    var cy = H * 0.35;
+    var amp = W * 0.18; // amplitude of movement
+
+    // t goes 0→1→0 over 3 seconds period (1 swing = 1s per side)
+    var t = (Date.now() / 1000) % 3;
+    var normalized = Math.sin(t * Math.PI * 2 / 3 * 2); // smooth oscillation
+
+    var dotX = cx, dotY = cy, dotScale = 1;
+
+    if (swing.axis === 'x') {
+      dotX = cx + normalized * amp;
+      dotY = cy;
+    } else if (swing.axis === 'y') {
+      dotX = cx;
+      dotY = cy + normalized * (H * 0.12);
+    } else {
+      // AP: scale simulates depth (bigger = forward)
+      dotX = cx;
+      dotY = cy;
+      dotScale = 1 + normalized * 0.35;
+    }
+
+    // Draw luminous concentration dot
+    var r = 18 * dotScale;
+    var glow = ctx.createRadialGradient(dotX, dotY, 0, dotX, dotY, r * 3.5);
+    glow.addColorStop(0,   'rgba(255,245,190,0.95)');
+    glow.addColorStop(0.3, 'rgba(255,215,80,0.65)');
+    glow.addColorStop(0.7, 'rgba(216,180,95,0.2)');
+    glow.addColorStop(1,   'rgba(216,180,95,0)');
+    ctx.beginPath();
+    ctx.arc(dotX, dotY, r * 3.5, 0, Math.PI * 2);
+    ctx.fillStyle = glow;
+    ctx.fill();
+
+    // Core dot
+    ctx.beginPath();
+    ctx.arc(dotX, dotY, r, 0, Math.PI * 2);
+    ctx.fillStyle = 'rgba(255,252,220,0.98)';
+    ctx.shadowColor = 'rgba(255,230,100,0.9)';
+    ctx.shadowBlur = 22;
+    ctx.fill();
+    ctx.shadowBlur = 0;
+
+    // Trail effect: draw a faint line showing the path
+    ctx.beginPath();
+    if (swing.axis === 'x') {
+      ctx.moveTo(cx - amp, cy);
+      ctx.lineTo(cx + amp, cy);
+    } else if (swing.axis === 'y') {
+      ctx.moveTo(cx, cy - H * 0.12);
+      ctx.lineTo(cx, cy + H * 0.12);
+    }
+    ctx.strokeStyle = 'rgba(216,180,95,0.12)';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+
+    state.animFrame = requestAnimationFrame(drawFrame);
+  }
+
+  /* ── Timer helpers ───────────────────────────────────── */
+
+  function fmt(s) {
+    s = Math.max(0, s);
+    var m = Math.floor(s / 60), r = s % 60;
+    return (m < 10 ? '0' : '') + m + ':' + (r < 10 ? '0' : '') + r;
+  }
+
+  function speak(text) {
+    if (!window.axisSpeak && !window.speechSynthesis) return;
+    if (window.axisSpeak) { window.axisSpeak(text, false); return; }
+    try {
+      var u = new SpeechSynthesisUtterance(text);
+      u.lang = 'fr-FR'; u.rate = 0.92;
+      window.speechSynthesis.speak(u);
+    } catch (e) {}
+  }
+
+  /* ── Phase execution ─────────────────────────────────── */
+
+  function runPhase() {
+    if (state.phase >= PHASES.length) { onComplete(); return; }
+    var phase = PHASES[state.phase];
+    var swing = SWINGS[state.swing];
+
+    document.getElementById('j8PhaseLabel').textContent = phase.label;
+    document.getElementById('j8Timer').textContent      = fmt(phase.dur);
+    document.getElementById('j8Mantra').textContent     = phase.mantra === 'SWING' ? swing.mantra : (phase.mantra || '—');
+    document.getElementById('j8Guidance').textContent   = phase.mantra === 'SWING' ? swing.guidance : phase.guidance;
+    document.getElementById('j8ProgFill').style.width   = '0%';
+
+    updateTimeline();
+    speak(phase.guidance);
+
+    state.elapsed = 0;
+    clearInterval(state.tick);
+    state.tick = setInterval(function () {
+      if (state.paused) return;
+      state.elapsed++;
+      var rem = Math.max(0, phase.dur - state.elapsed);
+      document.getElementById('j8Timer').textContent    = fmt(rem);
+      document.getElementById('j8ProgFill').style.width = Math.min(100, (state.elapsed / phase.dur) * 100) + '%';
+
+      if (state.elapsed >= phase.dur) {
+        clearInterval(state.tick);
+        state.phase++;
+        runPhase();
+      }
+    }, 1000);
+
+    // Start/stop canvas animation depending on phase
+    if (state.animFrame) { cancelAnimationFrame(state.animFrame); state.animFrame = null; }
+    if (phase.mantra === 'SWING') {
+      drawFrame();
+    } else {
+      // Redraw static frame
+      if (state.bgImg) { ctx.drawImage(state.bgImg, 0, 0, canvas.width, canvas.height); } else { ctx.fillStyle = '#0a0804'; ctx.fillRect(0, 0, canvas.width, canvas.height); }
+    }
+  }
+
+  function onComplete() {
+    clearInterval(state.tick);
+    if (state.animFrame) { cancelAnimationFrame(state.animFrame); state.animFrame = null; }
+    state.running = false;
+    document.getElementById('j8PhaseLabel').textContent = 'Terminé ✓';
+    document.getElementById('j8Timer').textContent      = '00:00';
+    document.getElementById('j8Mantra').textContent     = '';
+    document.getElementById('j8Guidance').textContent   = 'Séance complète. Reste un moment dans le silence.';
+    document.getElementById('j8ProgFill').style.width   = '100%';
+    document.getElementById('j8Pause').style.display    = 'none';
+    document.getElementById('j8Stop').style.display     = 'none';
+    document.getElementById('j8Start').style.display    = 'inline-block';
+    document.getElementById('j8Start').textContent      = 'Recommencer';
+    speak('Séance complète. Reste un moment dans le silence.');
+    drawFrame();
+  }
+
+  /* ── Timeline ────────────────────────────────────────── */
+
+  function updateTimeline() {
+    var wrap = document.getElementById('j8Timeline');
+    wrap.innerHTML = '';
+    PHASES.forEach(function (p, i) {
+      var row = document.createElement('div');
+      row.className = 'j8-tl-row' + (i === state.phase && state.running ? ' active' : '');
+      var swing = SWINGS[state.swing];
+      var mantraTxt = p.mantra === 'SWING' ? ' · ' + swing.mantra : '';
+      row.innerHTML = '<strong>' + (i + 1) + '.</strong><span>' + p.label + mantraTxt + '</span><span style="margin-left:auto;opacity:.5">' + fmt(p.dur) + '</span>';
+      wrap.appendChild(row);
+    });
+  }
+
+  /* ── Controls ────────────────────────────────────────── */
+
+  function startSession() {
+    state.phase   = 0;
+    state.elapsed = 0;
+    state.running = true;
+    state.paused  = false;
+    document.getElementById('j8Start').style.display = 'none';
+    document.getElementById('j8Pause').style.display = 'inline-block';
+    document.getElementById('j8Stop').style.display  = 'inline-block';
+    runPhase();
+  }
+
+  function pauseResume() {
+    state.paused = !state.paused;
+    document.getElementById('j8Pause').textContent = state.paused ? 'Reprendre' : 'Pause';
+    if (state.paused && state.animFrame) {
+      cancelAnimationFrame(state.animFrame); state.animFrame = null;
+    } else if (!state.paused && PHASES[state.phase] && PHASES[state.phase].mantra === 'SWING') {
+      drawFrame();
+    }
+  }
+
+  function stopSession() {
+    clearInterval(state.tick);
+    if (state.animFrame) { cancelAnimationFrame(state.animFrame); state.animFrame = null; }
+    state.running = false; state.paused = false;
+    state.phase   = 0; state.elapsed = 0;
+    document.getElementById('j8PhaseLabel').textContent = 'Arrêté';
+    document.getElementById('j8Timer').textContent      = fmt(PHASES[0].dur);
+    document.getElementById('j8Mantra').textContent     = '—';
+    document.getElementById('j8Guidance').textContent   = 'Appuie sur Lancer pour recommencer.';
+    document.getElementById('j8ProgFill').style.width   = '0%';
+    document.getElementById('j8Pause').style.display    = 'none';
+    document.getElementById('j8Stop').style.display     = 'none';
+    document.getElementById('j8Start').style.display    = 'inline-block';
+    document.getElementById('j8Start').textContent      = 'Lancer';
+    drawFrame();
+  }
+
+  /* ── Swing selector ──────────────────────────────────── */
+
+  document.getElementById('j8SwingRow').addEventListener('click', function (e) {
+    var btn = e.target.closest('[data-swing]');
+    if (!btn) return;
+    state.swing = btn.dataset.swing;
+    document.querySelectorAll('[data-swing]').forEach(function (b) { b.classList.toggle('active', b.dataset.swing === state.swing); });
+    updateTimeline();
+    var sw = SWINGS[state.swing];
+    document.getElementById('j8Mantra').textContent = sw.mantra;
+  });
+
+  /* ── Init ────────────────────────────────────────────── */
+
+  // Read swing preference from exercice-balancement page
+  try {
+    var savedSwing = localStorage.getItem('axis_eb_jour8_swing');
+    if (savedSwing && SWINGS[savedSwing]) {
+      state.swing = savedSwing;
+      document.querySelectorAll('[data-swing]').forEach(function (b) { b.classList.toggle('active', b.dataset.swing === savedSwing); });
+    }
+  } catch (e) {}
+
+  document.getElementById('j8Start').addEventListener('click', startSession);
+  document.getElementById('j8Pause').addEventListener('click', pauseResume);
+  document.getElementById('j8Stop').addEventListener('click',  stopSession);
+
+  updateTimeline();
+  loadBg();
+})();
+</script>
+</body>
+</html>

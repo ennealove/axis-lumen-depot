@@ -1,36 +1,267 @@
-﻿(() => { const $ = (s) => document.querySelector(s); const $$ = (s) => Array.from(document.querySelectorAll(s)); const AUDIO_EXTENSIONS = ['.mp3', '.wav', '.ogg', '.m4a', '.aac', '.flac', '.webm']; const IMAGE_SOURCES = { faceFront: 'assets/images/face_front.png', faceBack: 'assets/images/face_back.png', flower: 'assets/images/flower.png', tree: 'assets/images/tree.png', geometry: 'assets/images/geometry.png', gyroModel1: 'assets/images/gyro_model_1.png', gyroModel2: 'assets/images/gyro_model_2.png', gyroModel3: 'assets/images/gyro_model_3.png', gyroModel4: 'assets/images/gyro_model_4.png', }; const OBJECTS = { flower: { label: 'Fleur', icon: '', imageKey: 'flower', category: 'plante' }, tree: { label: 'Arbre', icon: '', imageKey: 'tree', category: 'plante' }, geometry: { label: 'Géométrie', icon: '⬡', imageKey: 'geometry', category: 'géométrie' }, lotus: { label: 'Lotus', icon: '', category: 'plante' }, seed: { label: 'Graine', icon: '', category: 'plante' }, spiral: { label: 'Spirale', icon: '', category: 'géométrie' }, triangle: { label: 'Triangle', icon: '', category: 'géométrie' }, star: { label: 'toile', icon: '⭐', category: 'géométrie' }, cube: { label: 'Cube', icon: '', category: 'volume' }, sphere: { label: 'Sphère', icon: '', category: 'volume' }, }; const GYRO_MODELS = { model1: { label: 'Modèle 1', src: 'assets/images/gyro_model_1.png', imageKey: 'gyroModel1' }, model2: { label: 'Modèle 2', src: 'assets/images/gyro_model_2.png', imageKey: 'gyroModel2' }, model3: { label: 'Modèle 3', src: 'assets/images/gyro_model_3.png', imageKey: 'gyroModel3' }, model4: { label: 'Modèle 4', src: 'assets/images/gyro_model_4.png', imageKey: 'gyroModel4' }, }; const SWINGS = {
-  lateral: {
-    label: "Latéral",
-    mantra: "ILLI",
-    rhythm: 2,
-    rhythmSeconds: 2,
-    rhythmText: "2 secondes",
-    face: "front",
-    view: "front",
-    assetMode: "front",
-    explanation: "Balancement latéral : oreille vers épaule, gauche puis droite, buste stable."
+﻿(() => { const $ = (s) => document.querySelector(s); const $$ = (s) => Array.from(document.querySelectorAll(s)); const AUDIO_EXTENSIONS = ['.mp3', '.wav', '.ogg', '.m4a', '.aac', '.flac', '.webm']; const IMAGE_SOURCES = { faceFront: 'assets/images/face_front.png', faceBack: 'assets/images/face_back.png', flower: 'assets/images/flower.png', tree: 'assets/images/tree.png', geometry: 'assets/images/geometry.png', gyroModel1: 'assets/images/gyro_model_1.png', gyroModel2: 'assets/images/gyro_model_2.png', gyroModel3: 'assets/images/gyro_model_3.png', gyroModel4: 'assets/images/gyro_model_4.png', }; const OBJECTS = {
+  bbfbe8e9-0d64-4ee7-87f9-6350615cfb7f: {
+    label: 'Bbfbe8e9 0D64 4Ee7 87F9 6350615Cfb7f',
+    icon: '',
+    image: 'assets/images/images objet/carré/bbfbe8e9-0d64-4ee7-87f9-6350615cfb7f.png',
+    category: 'géométrie'
   },
-  vertical: {
-    label: "Vertical",
-    mantra: "ALLA",
-    rhythm: 2,
-    rhythmSeconds: 2,
-    rhythmText: "2 secondes",
-    face: "front",
-    view: "front",
-    assetMode: "front",
-    explanation: "Balancement vertical : hochement doux vers l'avant puis retour neutre, sans brusquer la nuque."
+  bleu: {
+    label: 'Bleu',
+    icon: '',
+    image: 'assets/images/images objet/carré/bleu.png',
+    category: 'géométrie'
   },
-  rotation: {
-    label: "Rotation",
-    mantra: "RORO",
-    rhythm: 3,
-    rhythmSeconds: 3,
-    rhythmText: "3 secondes",
-    face: "front",
-    view: "front",
-    assetMode: "front",
-    explanation: "Rotation douce de la tête. Alterner horaire et antihoraire pour compenser."
+  jaune: {
+    label: 'Jaune',
+    icon: '',
+    image: 'assets/images/images objet/carré/jaune.png',
+    category: 'géométrie'
+  },
+  rouge: {
+    label: 'Rouge',
+    icon: '',
+    image: 'assets/images/images objet/carré/rouge.png',
+    category: 'géométrie'
+  },
+  vert: {
+    label: 'Vert',
+    icon: '',
+    image: 'assets/images/images objet/carré/vert.png',
+    category: 'géométrie'
+  },
+  violet: {
+    label: 'Violet',
+    icon: '',
+    image: 'assets/images/images objet/carré/violet.png',
+    category: 'géométrie'
+  },
+  bleu: {
+    label: 'Bleu',
+    icon: '',
+    image: 'assets/images/images objet/cercles/bleu.png',
+    category: 'géométrie'
+  },
+  c9728ed0-305e-4ff5-bc76-c0a56e584b6b: {
+    label: 'C9728ed0 305E 4Ff5 Bc76 C0a56e584b6b',
+    icon: '',
+    image: 'assets/images/images objet/cercles/c9728ed0-305e-4ff5-bc76-c0a56e584b6b.png',
+    category: 'géométrie'
+  },
+  jaune: {
+    label: 'Jaune',
+    icon: '',
+    image: 'assets/images/images objet/cercles/jaune.png',
+    category: 'géométrie'
+  },
+  orange: {
+    label: 'Orange',
+    icon: '',
+    image: 'assets/images/images objet/cercles/orange.png',
+    category: 'géométrie'
+  },
+  vert: {
+    label: 'Vert',
+    icon: '',
+    image: 'assets/images/images objet/cercles/vert.png',
+    category: 'géométrie'
+  },
+  violet: {
+    label: 'Violet',
+    icon: '',
+    image: 'assets/images/images objet/cercles/violet.png',
+    category: 'géométrie'
+  },
+  arbre-plus-personne: {
+    label: 'Arbre Plus Personne',
+    icon: '',
+    image: 'assets/images/images objet/fleurs/arbre/arbre plus personne.png',
+    category: 'nature'
+  },
+  arbre: {
+    label: 'Arbre',
+    icon: '',
+    image: 'assets/images/images objet/fleurs/arbre/arbre.png',
+    category: 'nature'
+  },
+  rose-blanche: {
+    label: 'Rose Blanche',
+    icon: '',
+    image: 'assets/images/images objet/fleurs/rose/rose blanche.png',
+    category: 'nature'
+  },
+  rose-bleu: {
+    label: 'Rose Bleu',
+    icon: '',
+    image: 'assets/images/images objet/fleurs/rose/rose bleu.png',
+    category: 'nature'
+  },
+  rose-jaune: {
+    label: 'Rose Jaune',
+    icon: '',
+    image: 'assets/images/images objet/fleurs/rose/rose jaune.png',
+    category: 'nature'
+  },
+  rose-noir: {
+    label: 'Rose Noir',
+    icon: '',
+    image: 'assets/images/images objet/fleurs/rose/rose noir.png',
+    category: 'nature'
+  },
+  rose-rose: {
+    label: 'Rose Rose',
+    icon: '',
+    image: 'assets/images/images objet/fleurs/rose/rose rose.png',
+    category: 'nature'
+  },
+  rose-rouge: {
+    label: 'Rose Rouge',
+    icon: '',
+    image: 'assets/images/images objet/fleurs/rose/rose rouge.png',
+    category: 'nature'
+  },
+  bleu: {
+    label: 'Bleu',
+    icon: '',
+    image: 'assets/images/images objet/fleurs/tulipes/bleu.png',
+    category: 'nature'
+  },
+  jaune: {
+    label: 'Jaune',
+    icon: '',
+    image: 'assets/images/images objet/fleurs/tulipes/jaune.png',
+    category: 'nature'
+  },
+  orange: {
+    label: 'Orange',
+    icon: '',
+    image: 'assets/images/images objet/fleurs/tulipes/orange.png',
+    category: 'nature'
+  },
+  rouge: {
+    label: 'Rouge',
+    icon: '',
+    image: 'assets/images/images objet/fleurs/tulipes/rouge.png',
+    category: 'nature'
+  },
+  verte: {
+    label: 'Verte',
+    icon: '',
+    image: 'assets/images/images objet/fleurs/tulipes/verte.png',
+    category: 'nature'
+  },
+  violet: {
+    label: 'Violet',
+    icon: '',
+    image: 'assets/images/images objet/fleurs/tulipes/violet.png',
+    category: 'nature'
+  },
+  cone-orange: {
+    label: 'Cone Orange',
+    icon: '',
+    image: 'assets/images/images objet/objet 3D/cone orange.png',
+    category: 'volume'
+  },
+  cube-rouge: {
+    label: 'Cube Rouge',
+    icon: '',
+    image: 'assets/images/images objet/objet 3D/cube rouge.png',
+    category: 'volume'
+  },
+  cylindre-vert: {
+    label: 'Cylindre Vert',
+    icon: '',
+    image: 'assets/images/images objet/objet 3D/cylindre vert.png',
+    category: 'volume'
+  },
+  etoile-jaune: {
+    label: 'Etoile Jaune',
+    icon: '',
+    image: 'assets/images/images objet/objet 3D/etoile jaune.png',
+    category: 'volume'
+  },
+  pyramide-violet: {
+    label: 'Pyramide Violet',
+    icon: '',
+    image: 'assets/images/images objet/objet 3D/pyramide violet.png',
+    category: 'volume'
+  },
+  sphere-bleu: {
+    label: 'Sphère Bleu',
+    icon: '',
+    image: 'assets/images/images objet/objet 3D/sphère bleu.png',
+    category: 'volume'
+  },
+  bleu: {
+    label: 'Bleu',
+    icon: '',
+    image: 'assets/images/images objet/rectangle/bleu.png',
+    category: 'géométrie'
+  },
+  jaune: {
+    label: 'Jaune',
+    icon: '',
+    image: 'assets/images/images objet/rectangle/jaune.png',
+    category: 'géométrie'
+  },
+  orange: {
+    label: 'Orange',
+    icon: '',
+    image: 'assets/images/images objet/rectangle/orange.png',
+    category: 'géométrie'
+  },
+  rouge: {
+    label: 'Rouge',
+    icon: '',
+    image: 'assets/images/images objet/rectangle/rouge.png',
+    category: 'géométrie'
+  },
+  vert: {
+    label: 'Vert',
+    icon: '',
+    image: 'assets/images/images objet/rectangle/vert.png',
+    category: 'géométrie'
+  },
+  violet: {
+    label: 'Violet',
+    icon: '',
+    image: 'assets/images/images objet/rectangle/violet.png',
+    category: 'géométrie'
+  },
+  bleu: {
+    label: 'Bleu',
+    icon: '',
+    image: 'assets/images/images objet/triangle/bleu.png',
+    category: 'géométrie'
+  },
+  jaune: {
+    label: 'Jaune',
+    icon: '',
+    image: 'assets/images/images objet/triangle/jaune.png',
+    category: 'géométrie'
+  },
+  orange: {
+    label: 'Orange',
+    icon: '',
+    image: 'assets/images/images objet/triangle/orange.png',
+    category: 'géométrie'
+  },
+  rouge: {
+    label: 'Rouge',
+    icon: '',
+    image: 'assets/images/images objet/triangle/rouge.png',
+    category: 'géométrie'
+  },
+  vert: {
+    label: 'Vert',
+    icon: '',
+    image: 'assets/images/images objet/triangle/vert.png',
+    category: 'géométrie'
+  },
+  violet: {
+    label: 'Violet',
+    icon: '',
+    image: 'assets/images/images objet/triangle/violet.png',
+    category: 'géométrie'
   }
 }; const BREATH_TYPES = { square: { label: 'Carrée' }, rectangular: { label: 'Rectangulaire' }, triangular: { label: 'Triangulaire' }, }; const LEARNING_MODULE = { chapters: [ { key: 'rhythm', title: '1. Loi du rythme (2 secondes)', summary: 'Cadence de 2 secondes pour stabiliser l’attention, rythmer lalternance et préparer la synchronisation pratique.', body: 'Le rythme de deux secondes sert de base commune aux exercices. Il impose une alternance régulière, réduit la dispersion mentale et facilite lentrée dans une pratique stable.', module: 'mixage', buildSchedule: () => buildMixageSchedule({ ...getMixageConfig(), durationMin: 15 }), }, { key: 'mixage', title: '2. Oscillation guidée', summary: 'Fusion de la lumière et de la pensée avec objet observé, biofeedback, balancement et Ancrage associé.', body: 'Le mixage réunit lobjet, la lumière résiduelle, le mouvement et le mantra. Le cycle actif suit grand mouvement, petit mouvement, grand mouvement afin de densifier la pensée puis de la recentrer.', module: 'mixage', buildSchedule: () => buildMixageSchedule(getMixageConfig()), }, { key: 'balancements', title: '3. Balancements', summary: 'Exploration latérale, verticale et en 8 pour orienter la pratique, varier laxe et transformer la qualité de présence.', body: 'Les balancements modifient le trajet du point de concentration. Le latéral alterne gauche-droite, le vertical travaille haut-bas, le 8 fluidifie la trajectoire et lintégration.', module: 'mixage', buildSchedule: () => buildMixageSchedule({ ...getMixageConfig(), swingKey: 'figure8', durationMin: 15 }), }, { key: 'mantras', title: '4. Mantras', summary: 'ILLI, ELL, ALLA et OM servent dappui sonore pour fixer le rythme, soutenir la concentration et ancrer la pratique.', body: 'Le mantra accompagne le mouvement et soutient limage intérieure. Dans le logiciel, il devient un repère direct de synchronisation, de rappel de cadence et de stabilisation.', module: 'mixage', buildSchedule: () => buildMixageSchedule({ ...getMixageConfig(), swingKey: 'lateral', durationMin: 15 }), }, { key: 'respiration', title: '5. Respiration', summary: 'Respiration carrée et oxygénation guidée pour nourrir le biofeedback, calmer le rythme interne et préparer la suite.', body: 'La respiration carrée ou modulée apporte un guidage simple : inspirer, retenir, expirer. Elle agit comme support physiologique de la lumière et du recentrage.', module: 'respiration', buildSchedule: () => buildBreathSchedule(getBreathConfig()), }, { key: 'Rotor Optique', title: '6. Rotor Optique', summary: 'Rotation, vortex, point central fixe et conflit visuel contrôlé autour de 4 modèles réels en rotation.', body: 'Le Rotor Optique crée une rotation externe autour dun centre stable. Le regard reste fixé sur lobjet central pendant que le modèle visuel tourne à un tour environ toutes les deux secondes.', module: 'gyrascope', buildSchedule: () => buildGyroSchedule(getGyroConfig()), }, { key: 'tensions', title: '7. Tensions statiques', summary: 'Fixation énergétique par cycles contractez, maintenez, relâchez avec consignes directes et signal harmonique.', body: 'Les tensions statiques servent de fermeture active. Le logiciel cadence la montée, le maintien puis le relâchement pour conserver une trace nette de la séance.', module: 'tensions', buildSchedule: () => buildTensionSchedule(getTensionConfig()), }, ], }; const state = { settings: { voiceEnabled: true, soundEnabled: true, speechRate: 0.95, speechVolume: 0.9 }, images: {}, library: [], currentPreviewModule: 'mixage', currentPreviewConfig: {}, customGyroImage: null, customGyroImageObj: null, audioCtx: null, backgroundAudio: null, backgroundAudioId: null, schedule: [], phaseIndex: -1, currentPhase: null, phaseStart: 0, phaseTimer: null, paused: false, pauseAt: 0, rafId: 0, speechKey: '', serverRoots: [], libraryScanMessage: '', }; document.addEventListener('DOMContentLoaded', init); async function init() { loadSettings(); applySettingsToUi(); await preloadImages(); state.library = await loadManifestLibrary(); await loadServerLibrary(); populateObjectSelects(); populateSwingSelects(); populateBreathSelects(); populateGyroModelSelects(); populateAudioSelects(); bindNavigation(); bindSettings(); bindButtons(); bindMixageInputs(); bindSessionInputs(); bindBreathInputs(); bindGyroInputs(); bindTensionInputs(); bindLibraryInputs(); renderLessons(); renderLibraryRoots(); renderLibrary(); refreshMixageInfo(); refreshBreathSummary(); refreshSessionSummary(); refreshPreviewState(); animationLoop(); } function bundledLibrary() { return [ trackEntry('builtin-ck3-01', 'CK3 Piste 01', 'assets/audio/ck3_piste_01.mp3', true, 'ck3_piste_01.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('builtin-ck3-02', 'CK3 Piste 02', 'assets/audio/ck3_piste_02.mp3', true, 'ck3_piste_02.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('builtin-ck3-02-wav', 'CK3 Piste 02 (WAV)', 'assets/audio/ck3_piste_02.wav', true, 'ck3_piste_02.wav', 'builtin', 'z music biofeedbacks'), trackEntry('builtin-ck3-03', 'CK3 Piste 03', 'assets/audio/ck3_piste_03.mp3', true, 'ck3_piste_03.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('builtin-ck3-03-wav', 'CK3 Piste 03 (WAV)', 'assets/audio/ck3_piste_03.wav', true, 'ck3_piste_03.wav', 'builtin', 'z music biofeedbacks'), trackEntry('builtin-ck3-04', 'CK3 Piste 04', 'assets/audio/ck3_piste_04.mp3', true, 'ck3_piste_04.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('builtin-ck3-04-wav', 'CK3 Piste 04 (WAV)', 'assets/audio/ck3_piste_04.wav', true, 'ck3_piste_04.wav', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-1s-3mn', 'Rythme 1s (3 min)', 'assets/audio/rythme_1s_3mn.mp3', true, 'rythme_1s_3mn.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-1s-alt-3mn', 'Rythme 1s Alt (3 min)', 'assets/audio/rythme_1s_alt_3mn.mp3', true, 'rythme_1s_alt_3mn.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-6eme-s-alt-15mn', 'Rythme 6e s Alt (15 min)', 'assets/audio/rythme_6eme_s_alt_15mn.mp3', true, 'rythme_6eme_s_alt_15mn.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-afrique1-1s-4mn', 'Rythme Afrique 1 (4 min)', 'assets/audio/rythme_afrique1_1s_4mn.mp3', true, 'rythme_afrique1_1s_4mn.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-afrique2-1s-4mn', 'Rythme Afrique 2 (4 min)', 'assets/audio/rythme_afrique2_1s_4mn.mp3', true, 'rythme_afrique2_1s_4mn.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-afrique-australian-3min', 'Rythme Afr Australia (3 min)', 'assets/audio/rythme_afr_austr_1s_alt_6e_sec_3min.mp3', true, 'rythme_afr_austr_1s_alt_6e_sec_3min.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-australie1-4mn', 'Rythme Australie 1 (4 min)', 'assets/audio/rythme_australie1_1.05s_4mn.mp3', true, 'rythme_australie1_1.05s_4mn.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-australie2-4mn', 'Rythme Australie 2 (4 min)', 'assets/audio/rythme_australie2_ 1.12s_4mn.mp3', true, 'rythme_australie2_ 1.12s_4mn.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-australie3-4mn', 'Rythme Australie 3 (4 min)', 'assets/audio/rythme_australie3_0.94s_4mn.mp3', true, 'rythme_australie3_0.94s_4mn.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-australie4-om', 'Rythme Australie 4 (OM)', 'assets/audio/rythme_australie4_om.mp3', true, 'rythme_australie4_om.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-bass-rotations-8min', 'Rythme Bass Rotations (8 min)', 'assets/audio/rythme_bass_rotations_1s_6e_sec_8min.mp3', true, 'rythme_bass_rotations_1s_6e_sec_8min.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-cloches-8min', 'Rythme Cloches (8 min)', 'assets/audio/rythme_cloches_3s_8min.mp3', true, 'rythme_cloches_3s_8min.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-electro1-4mn', 'Rythme Electro 1 (4 min)', 'assets/audio/rythme_electro1_1.01s_4mn.mp3', true, 'rythme_electro1_1.01s_4mn.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-electro2-4mn', 'Rythme Electro 2 (4 min)', 'assets/audio/rythme_electro2_1.11s_4mn.mp3', true, 'rythme_electro2_1.11s_4mn.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-electro3-4mn', 'Rythme Electro 3 (4 min)', 'assets/audio/rythme_electro3_1.16s_4mn.mp3', true, 'rythme_electro3_1.16s_4mn.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-multidimensionnel-11min', 'Rythme Multidimensionnel (11 min)', 'assets/audio/rythme_multidimensionnel_1s_alt_6e_sec_11min.mp3', true, 'rythme_multidimensionnel_1s_alt_6e_sec_11min.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-rapide-8min', 'Rythme Rapide (8 min)', 'assets/audio/rythme_rapide_1s_6e_sec_8min.mp3', true, 'rythme_rapide_1s_6e_sec_8min.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-tictac-8min', 'Rythme TicTac (8 min)', 'assets/audio/rythme_tictac_1s_6e_sec_8min.mp3', true, 'rythme_tictac_1s_6e_sec_8min.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('rhythme-toumtac-8min', 'Rythme TouMtac (8 min)', 'assets/audio/rythme_toumtac_1s_6e_sec_8min.mp3', true, 'rythme_toumtac_1s_6e_sec_8min.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('neuro-piste-01', 'Neuro Piste 01', 'assets/audio/neuro_piste_01.mp3', true, 'neuro_piste_01.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('neuro-piste-02', 'Neuro Piste 02', 'assets/audio/neuro_piste_02.mp3', true, 'neuro_piste_02.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('neuro-piste-03', 'Neuro Piste 03', 'assets/audio/neuro_piste_03.mp3', true, 'neuro_piste_03.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('neuro-piste-04', 'Neuro Piste 04', 'assets/audio/neuro_piste_04.mp3', true, 'neuro_piste_04.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('neuro-piste-05', 'Neuro Piste 05', 'assets/audio/neuro_piste_05.mp3', true, 'neuro_piste_05.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('neuro-piste-06', 'Neuro Piste 06', 'assets/audio/neuro_piste_06.mp3', true, 'neuro_piste_06.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('neuro-piste-07', 'Neuro Piste 07', 'assets/audio/neuro_piste_07.mp3', true, 'neuro_piste_07.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('mantra-aum-3mn', 'Mantra AUM (3 min)', 'assets/audio/mantra_aum_3mn.mp3', true, 'mantra_aum_3mn.mp3', 'builtin', 'z music playlist'), trackEntry('mantra-aum-20mn', 'Mantra AUM (20 min)', 'assets/audio/mantra_aum_20mn.mp3', true, 'mantra_aum_20mn.mp3', 'builtin', 'z music playlist'), trackEntry('om-mantra-01', 'OM Mantra 01', 'assets/audio/OM-Mantra-01.mp3', true, 'OM-Mantra-01.mp3', 'builtin', 'z music playlist'), trackEntry('om-mantra-02', 'OM Mantra 02', 'assets/audio/OM-Mantra-02.mp3', true, 'OM-Mantra-02.mp3', 'builtin', 'z music playlist'), trackEntry('om-mantra-03', 'OM Mantra 03', 'assets/audio/OM-Mantra-03.mp3', true, 'OM-Mantra-03.mp3', 'builtin', 'z music playlist'), trackEntry('om-mantra-04', 'OM Mantra 04', 'assets/audio/OM-Mantra-04.mp3', true, 'OM-Mantra-04.mp3', 'builtin', 'z music playlist'), trackEntry('om-en-mi', 'OM en Mi', 'assets/audio/OM_en_mi.mp3', true, 'OM_en_mi.mp3', 'builtin', 'z music playlist'), trackEntry('respirations-phosphenique', 'Respirations Phosphnique', 'assets/audio/Respirations-Phosphenique.mp3', true, 'Respirations-Phosphenique.mp3', 'builtin', 'z music playlist'), trackEntry('equilibrage-rythme-1s', 'quilibrage Rythme 1s', 'assets/audio/equilibrage rythme 1 sec alt.wav', true, 'equilibrage rythme 1 sec alt.wav', 'builtin', 'z music biofeedbacks'), trackEntry('variation-78hz-144hz', 'Variation 78Hz 144Hz', 'assets/audio/variation_78Hz_144Hz_6eme_s_30s.mp3', true, 'variation_78Hz_144Hz_6eme_s_30s.mp3', 'builtin', 'z music biofeedbacks'), trackEntry('light-music-heavenly', 'Light Music - Heavenly Energy', 'assets/audio/light_music-heavenly-energy-188908.mp3', true, 'light_music-heavenly-energy-188908.mp3', 'builtin', 'z music playlist'), trackEntry('light-music-lonely-heart', 'Light Music - Lonely Heart', 'assets/audio/light_music-lonely-heart-190966.mp3', true, 'light_music-lonely-heart-190966.mp3', 'builtin', 'z music playlist'), trackEntry('light-music-zen-walk', 'Light Music - Zen Walk', 'assets/audio/light_music-zen-walk-176110.mp3', true, 'light_music-zen-walk-176110.mp3', 'builtin', 'z music playlist'), trackEntry('alan-frijns-dunbarton', 'Alan Frijns - Dunbarton (Meditative Ambient)', 'assets/audio/alan_frijns-dunbarton-meditative-ambient-soundscape-for-learning-and-relaxing-95403.mp3', true, 'alan_frijns-dunbarton-meditative-ambient-soundscape-for-learning-and-relaxing-95403.mp3', 'builtin', 'z music playlist'), trackEntry('alan-frijns-full-moon', 'Alan Frijns - Full Moon (Deep Relaxation)', 'assets/audio/alan_frijns-full-moon-deep-relaxation-meditation-yoga-zen-positive-sleep-music-140639.mp3', true, 'alan_frijns-full-moon-deep-relaxation-meditation-yoga-zen-positive-sleep-music-140639.mp3', 'builtin', 'z music playlist'), trackEntry('alan-frijns-rain', 'Alan Frijns - Rain in Paradise Forest', 'assets/audio/alan_frijns-rain-in-the-paradise-forest-yoga-zen-relaxation-positive-sleep-music-140636.mp3', true, 'alan_frijns-rain-in-the-paradise-forest-yoga-zen-relaxation-positive-sleep-music-140636.mp3', 'builtin', 'z music playlist'), trackEntry('petrushka-healing', 'Petrushka - Healing Meditative Music', 'assets/audio/petrushkasound-healing-meditative-music-438191.mp3', true, 'petrushkasound-healing-meditative-music-438191.mp3', 'builtin', 'z music playlist'), trackEntry('petrushka-yoga', 'Petrushka - Yoga Calming Music', 'assets/audio/petrushkasound-yoga-calming-music-438215.mp3', true, 'petrushkasound-yoga-calming-music-438215.mp3', 'builtin', 'z music playlist'), trackEntry('relaxingtime-healing', 'Relaxing Time - Healing Sounds', 'assets/audio/relaxingtime-healing-sounds-124056.mp3', true, 'relaxingtime-healing-sounds-124056.mp3', 'builtin', 'z music playlist'), trackEntry('relaxingtime-relax-vol10-a', 'Relaxing Time - Relax Music Vol 10', 'assets/audio/relaxingtime-relax-music-vol10-188655.mp3', true, 'relaxingtime-relax-music-vol10-188655.mp3', 'builtin', 'z music playlist'), trackEntry('relaxingtime-relax-vol10-b', 'Relaxing Time - Relax Music Vol 10 (Alt)', 'assets/audio/relaxingtime-relax-music-vol10-188655 (1).mp3', true, 'relaxingtime-relax-music-vol10-188655 (1).mp3', 'builtin', 'z music playlist'), trackEntry('relaxingtime-sleep', 'Relaxing Time - Sleep Music', 'assets/audio/relaxingtime-sleep-music-121638.mp3', true, 'relaxingtime-sleep-music-121638.mp3', 'builtin', 'z music playlist'), trackEntry('rockot-airy', 'Rockot - Airy Meditation Background', 'assets/audio/rockot-airy-meditation-background-184567.mp3', true, 'rockot-airy-meditation-background-184567.mp3', 'builtin', 'z music playlist'), trackEntry('rockot-ambient', 'Rockot - Ambient for Meditation', 'assets/audio/rockot-ambient-for-meditation-184568.mp3', true, 'rockot-ambient-for-meditation-184568.mp3', 'builtin', 'z music playlist'), trackEntry('rockot-beautiful', 'Rockot - Beautiful Meditative Ambient', 'assets/audio/rockot-beautiful-meditative-ambient-184570.mp3', true, 'rockot-beautiful-meditative-ambient-184570.mp3', 'builtin', 'z music playlist'), trackEntry('rockot-meditation-nature', 'Rockot - Meditation and Gentle Nature', 'assets/audio/rockot-meditation-and-gentle-nature-184572.mp3', true, 'rockot-meditation-and-gentle-nature-184572.mp3', 'builtin', 'z music playlist'), trackEntry('onetent-realaxing', 'Onetent - Relaxing Meditation Music', 'assets/audio/onetent-realxing-meditation-music-1-225174.mp3', true, 'onetent-realxing-meditation-music-1-225174.mp3', 'builtin', 'z music playlist'), trackEntry('sonorahealing-396hz', 'Sonora Healing - 396 Hz Healing Sound', 'assets/audio/sonorahealing-healing-sound-396_-hz-452272.mp3', true, 'sonorahealing-healing-sound-396_-hz-452272.mp3', 'builtin', 'z music playlist'), trackEntry('tim-kulig-theta', 'Tim Kulig - Deep 5Hz Theta Relaxation', 'assets/audio/tim_kulig_free_music-deep-5hz-theta-relaxation-232572.mp3', true, 'tim_kulig_free_music-deep-5hz-theta-relaxation-232572.mp3', 'builtin', 'z music playlist'), trackEntry('angelic-meditation', 'Angelic Meditation', 'assets/audio/35433346-angelic-meditation-172334.mp3', true, '35433346-angelic-meditation-172334.mp3', 'builtin', 'z music playlist'), trackEntry('aud-whatsapp', 'Audio Recording', 'assets/audio/AUD-20251120-WA0006.mp3', true, 'AUD-20251120-WA0006.mp3', 'builtin', 'z music playlist'), ]; } function trackEntry(id, name, url, builtin = false, path = '', source = null, group = '') { return { id, name, url, builtin, path: path || name, source: source || (builtin ? 'builtin' : 'import'), group }; } async function loadManifestLibrary() { try { const res = await fetch('/phosphene-studio/audio-manifest.json', { cache: 'no-store' }); if (!res.ok) return bundledLibrary(); const data = await res.json(); if (!data.tracks || !Array.isArray(data.tracks)) return bundledLibrary(); return data.tracks.map((t) => trackEntry(t.id, t.name, t.path, true, t.path, 'builtin', t.category)); } catch { return bundledLibrary(); } } async function loadServerLibrary(force = false) { if (!window.fetch) return; try { const res = await fetch(`/api/library${force ? '?rescan=1' : ''}`, { cache: 'no-store' }); if (!res.ok) throw new Error(`HTTP ${res.status}`); const data = await res.json(); state.serverRoots = Array.isArray(data.roots) ? data.roots : []; const serverTracks = Array.isArray(data.tracks) ? data.tracks.map((item) => trackEntry(item.id, item.name, item.url, false, item.path, 'server', item.group || item.root || 'playlist')) : []; const preservedImports = state.library.filter((item) => item.source === 'import'); const builtin = bundledLibrary(); state.library = dedupeTracks([...builtin, ...serverTracks, ...preservedImports]); state.libraryScanMessage = data.message || (serverTracks.length ? `${serverTracks.length} piste(s) détectée(s) dans les playlists Windows.` : 'Aucune piste détectée dans les playlists Windows.'); } catch (error) { state.serverRoots = []; state.library = dedupeTracks([...bundledLibrary(), ...state.library.filter((item) => item.source === 'import')]); state.libraryScanMessage = 'Serveur local non détecté. Les pistes intégrées et les imports manuels restent disponibles.'; } } function dedupeTracks(items) { const seen = new Map(); items.forEach((item) => { const key = `${item.source}|${item.path}|${item.name}`; if (!seen.has(key)) seen.set(key, item); }); return Array.from(seen.values()); } function loadSettings() { try { const raw = localStorage.getItem('axis-lumen-studio-v3-settings'); if (raw) state.settings = { ...state.settings, ...JSON.parse(raw) }; } catch {} } function saveSettings() { localStorage.setItem('axis-lumen-studio-v3-settings', JSON.stringify(state.settings)); } function applySettingsToUi() { $('#voiceEnabled').checked = state.settings.voiceEnabled; $('#soundEnabled').checked = state.settings.soundEnabled; $('#speechRate').value = String(state.settings.speechRate); } async function preloadImages() { await Promise.all(Object.entries(IMAGE_SOURCES).map(async ([key, src]) => { try { state.images[key] = await loadImage(src); } catch { state.images[key] = null; } })); } function loadImage(src) { return new Promise((resolve, reject) => { const img = new Image(); img.onload = () => resolve(img); img.onerror = reject; img.src = src; }); } function populateObjectSelects() { ['sessionObject', 'mixageObject', 'gyroObject', 'sessionGyroObject'].forEach((id) => { const select = $('#' + id); select.innerHTML = ''; Object.entries(OBJECTS).forEach(([key, obj]) => { const opt = document.createElement('option'); opt.value = key; opt.textContent = obj.label; select.appendChild(opt); }); }); $('#sessionObject').value = 'flower'; $('#mixageObject').value = 'flower'; $('#gyroObject').value = 'flower'; $('#sessionGyroObject').value = 'flower'; renderGyroObjectChips(); } function populateSwingSelects() { ['sessionSwing', 'mixageSwing'].forEach((id) => { const select = $('#' + id); select.innerHTML = ''; Object.entries(SWINGS).forEach(([key, swing]) => { const opt = document.createElement('option'); opt.value = key; opt.textContent = swing.label; select.appendChild(opt); }); }); $('#sessionSwing').value = 'lateral'; $('#mixageSwing').value = 'lateral'; } function populateBreathSelects() { ['sessionBreath', 'breathType'].forEach((id) => { const select = $('#' + id); if (!select) return; select.innerHTML = ''; Object.entries(BREATH_TYPES).forEach(([key, val]) => { const opt = document.createElement('option'); opt.value = key; opt.textContent = val.label; select.appendChild(opt); }); if (!select.value) select.value = 'square'; });
 } function populateGyroModelSelects() { ['gyroModel', 'sessionGyroModel'].forEach((id) => { const select = $('#' + id); if (!select) return; const current = select.value || 'model1'; select.innerHTML = ''; Object.entries(GYRO_MODELS).forEach(([key, model]) => { const opt = document.createElement('option'); opt.value = key; opt.textContent = model.label; select.appendChild(opt); }); select.value = GYRO_MODELS[current] ? current : 'model1'; });
@@ -54,4 +285,6 @@
 } function drawGyroModelLegend(ctx, w, modelKey) { const model = GYRO_MODELS[modelKey] || GYRO_MODELS.model1; drawCardLabel(ctx, w - 196, 24, model.label);
 } function drawTensionGuide(ctx, w, h, seg, stage = false) { drawBackground(ctx, w, h); const cx = w / 2; const cy = h / 2; const width = Math.min(w, h) * (stage ? 0.34 : 0.28); const levels = { Contractez: 1, Maintenez: 0.7, Relâchez: 0.35, }; const level = levels[seg.name] || 0.6; drawAura(ctx, cx, cy, width * 1.2, seg.name === 'Relâchez' ? 'rgba(133,240,202,0.18)' : 'rgba(115,199,255,0.16)'); for (let i = 0; i < 3; i += 1) { ctx.beginPath(); ctx.strokeStyle = `rgba(255,255,255,${0.12 + i * 0.07})`; ctx.lineWidth = 3; ctx.roundRect?.(cx - width * (0.62 + i * 0.05), cy - width * (0.18 + i * 0.03), width * (1.24 + i * 0.1), width * (0.36 + i * 0.06), 28); if (!ctx.roundRect) roundedRect(ctx, cx - width * (0.62 + i * 0.05), cy - width * (0.18 + i * 0.03), width * (1.24 + i * 0.1), width * (0.36 + i * 0.06), 28); ctx.stroke(); } roundedRect(ctx, cx - width * 0.62, cy - width * 0.16, width * 1.24, width * 0.32, 28); ctx.fillStyle = 'rgba(10,16,28,0.76)'; ctx.fill(); roundedRect(ctx, cx - width * 0.60, cy - width * 0.14, width * 1.2 * level, width * 0.28, 24); const grad = ctx.createLinearGradient(cx - width * 0.6, cy, cx + width * 0.6, cy); grad.addColorStop(0, seg.name === 'Relâchez' ? '#85f0ca' : '#73c7ff'); grad.addColorStop(1, '#ffd36b'); ctx.fillStyle = grad; ctx.fill(); drawCardLabel(ctx, 24, 24, `${seg.name} · ${Math.round(seg.progress * 100)}%`); } function roundedRect(ctx, x, y, w, h, r) { ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r); ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath(); } function starPath(ctx, x, y, outer, inner, points) { ctx.beginPath(); for (let i = 0; i < points * 2; i += 1) { const a = -Math.PI / 2 + (i * Math.PI) / points; const r = i % 2 === 0 ? outer : inner; const px = x + Math.cos(a) * r; const py = y + Math.sin(a) * r; if (i === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py); } ctx.closePath(); } function drawCube(ctx, s) { ctx.save(); ctx.translate(-s * 0.1, s * 0.05); ctx.fillStyle = 'rgba(158, 215, 255, 0.24)'; ctx.strokeStyle = '#f5ecbf'; ctx.lineWidth = 3; const pts = [ [-s * 0.35, -s * 0.1], [0, -s * 0.35], [s * 0.35, -s * 0.1], [0, s * 0.15] ]; ctx.beginPath(); pts.forEach(([x, y], i) => i ? ctx.lineTo(x, y) : ctx.moveTo(x, y)); ctx.closePath(); ctx.fill(); ctx.stroke(); ctx.beginPath(); ctx.moveTo(-s * 0.35, -s * 0.1); ctx.lineTo(-s * 0.35, s * 0.45); ctx.lineTo(0, s * 0.7); ctx.lineTo(0, s * 0.15); ctx.closePath(); ctx.fill(); ctx.stroke(); ctx.beginPath(); ctx.moveTo(s * 0.35, -s * 0.1); ctx.lineTo(s * 0.35, s * 0.45); ctx.lineTo(0, s * 0.7); ctx.lineTo(0, s * 0.15); ctx.closePath(); ctx.fill(); ctx.stroke(); ctx.restore(); } function shadeHex(hex, delta = 0, alpha = 1) { const c = hex.replace('#', ''); const n = c.length === 3 ? c.split('').map((v) => v + v).join('') : c; const r = clamp255(parseInt(n.slice(0, 2), 16) + Math.round(255 * delta)); const g = clamp255(parseInt(n.slice(2, 4), 16) + Math.round(255 * delta)); const b = clamp255(parseInt(n.slice(4, 6), 16) + Math.round(255 * delta)); return `rgba(${r}, ${g}, ${b}, ${alpha})`; } function clamp255(v) { return Math.max(0, Math.min(255, v)); } function clampNumber(v, min, max, fallback) { const n = Number(v); if (Number.isNaN(n)) return fallback; return Math.max(min, Math.min(max, n)); } function secondsToClock(sec) { const s = Math.max(0, Math.round(sec)); const m = Math.floor(s / 60); const r = s % 60; return `${String(m).padStart(2, '0')}:${String(r).padStart(2, '0')}`; } function formatDuration(sec) { const s = Math.max(0, Math.round(sec)); const m = Math.floor(s / 60); const r = s % 60; return r ? `${m} min ${r} s` : `${m} min`; } function escapeHtml(value) { return String(value) .replaceAll('&', '&amp;') .replaceAll('<', '&lt;') .replaceAll('>', '&gt;') .replaceAll('"', '&quot;') .replaceAll("'", '&#39;'); }
 })();
+
+
 

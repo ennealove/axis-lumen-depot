@@ -29,5 +29,8 @@
     course.coverImage = images.cover;
     course.images     = Object.assign({}, course.images || {}, images);
     course.pdfPremium = true;
+    course.pdf        = course.pdf || {};
+    course.pdf.title  = "Balancement avec personnage — La présence comme support : archétypes et projection perceptive";
+    course.pdf.protectedNotice = "Support pédagogique réservé aux élèves de l'École du Temple Vivant — Axis Lumen Studio.";
   }
 })();

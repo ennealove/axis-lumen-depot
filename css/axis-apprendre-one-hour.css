@@ -400,3 +400,99 @@
   color: rgba(240, 218, 160, 0.82);
 }
 
+/* ── Enrichissements livres sources ──────────────────────────────────────── */
+.axis-course-physiologique {
+  border-left: 3px solid rgba(218, 184, 104, 0.5);
+  padding-left: 14px;
+  margin: 14px 0;
+  background: rgba(218, 184, 104, 0.06);
+  border-radius: 0 8px 8px 0;
+}
+
+.axis-course-science-note {
+  background: rgba(44, 100, 180, 0.08);
+  border: 1px solid rgba(44, 100, 180, 0.25);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin: 16px 0;
+  font-size: 0.88rem;
+  color: rgba(200, 215, 240, 0.9);
+}
+.axis-course-science-note strong {
+  display: block;
+  margin-bottom: 6px;
+  color: rgba(180, 210, 255, 0.95);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.axis-course-mantra-box {
+  background: linear-gradient(135deg, rgba(140, 60, 180, 0.12), rgba(100, 40, 140, 0.08));
+  border: 1px solid rgba(180, 100, 220, 0.3);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin: 16px 0;
+}
+.axis-course-mantra-box h5 {
+  color: rgba(200, 150, 240, 0.95);
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.axis-course-homologie {
+  background: rgba(100, 180, 100, 0.08);
+  border-left: 3px solid rgba(100, 200, 100, 0.4);
+  border-radius: 0 8px 8px 0;
+  padding: 12px 16px;
+  margin: 14px 0;
+  font-size: 0.88rem;
+  color: rgba(180, 220, 180, 0.9);
+}
+.axis-course-homologie strong {
+  display: block;
+  margin-bottom: 6px;
+  color: rgba(150, 220, 150, 0.95);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* ── Exercices pré-programmés ───────────────────────────────────── */
+
+.axis-course-practice-block {
+  border-left: 3px solid rgba(107, 93, 232, 0.5);
+  padding-left: 14px;
+  background: rgba(107, 93, 232, 0.05);
+  border-radius: 0 8px 8px 0;
+}
+
+.axis-course-practice-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: grid;
+  gap: 8px;
+}
+
+.axis-course-practice-list li {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.axis-course-mantra-tag {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(107, 93, 232, 0.15);
+  color: #a89bef;
+  border: 1px solid rgba(107, 93, 232, 0.25);
+  letter-spacing: 0.06em;
+}
+

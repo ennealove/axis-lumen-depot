@@ -29,5 +29,8 @@
     course.coverImage = images.cover;
     course.images     = Object.assign({}, course.images || {}, images);
     course.pdfPremium = true;
+    course.pdf        = course.pdf || {};
+    course.pdf.title  = "Balancement vertical initiatique — ALLA et l'axe cranio-sacré";
+    course.pdf.protectedNotice = "Support pédagogique réservé aux élèves de l'École du Temple Vivant — Axis Lumen Studio.";
   }
 })();

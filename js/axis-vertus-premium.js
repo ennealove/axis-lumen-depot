@@ -126,48 +126,35 @@
   }
 
   function buildPhases() {
+    const cardTitle = state.current ? (state.current.title || "cette vertu") : "cette vertu";
     state.phases = [
       {
         id: "lecture",
-        label: "Lecture lente",
-        seconds: 8 * 60,
-        guidance: "Lis la carte lentement. Ne cherche pas à tout retenir. Laisse une phrase essentielle te toucher.",
-        voice: "Lecture lente. Lis la carte. Choisis une phrase essentielle."
+        label: "Lecture de la carte",
+        seconds: 5 * 60,
+        guidance: "Lisez la carte lentement. Laissez un mot, une image ou une phrase vous toucher. Ne cherchez pas à tout retenir — une seule phrase suffit.",
+        voice: "Prenez le temps de lire cette carte. Laissez un mot, une image, une phrase vous toucher particulièrement. Ne cherchez pas à tout retenir — une seule phrase suffit."
       },
       {
-        id: "light",
-        label: "Observation lumineuse",
-        seconds: 30,
-        guidance: "Observe une source lumineuse douce pendant trente secondes. Regard souple. Aucun forçage.",
-        voice: "Observe la lumière pendant trente secondes. Regard souple. Ne force pas."
+        id: "lumiere",
+        label: "Lumière allumée — 3 minutes",
+        seconds: 3 * 60,
+        guidance: "Allumez votre source lumineuse. Regardez-la pendant trois minutes en pensant à la vertu tirée. Laissez cette qualité remplir votre regard et votre espace intérieur.",
+        voice: "Allumez maintenant votre source lumineuse. Regardez-la pendant trois minutes en pensant à " + cardTitle + ". Laissez cette qualité remplir votre regard et votre espace intérieur."
       },
       {
         id: "remanence",
-        label: "Rémanence",
-        seconds: 3 * 60,
-        guidance: "Ferme les yeux. Accueille la trace lumineuse. Laisse la carte devenir intérieure.",
-        voice: "Ferme les yeux. Accueille la rémanence lumineuse."
-      },
-      {
-        id: "infusion",
-        label: "Imprégnation",
-        seconds: 12 * 60,
-        guidance: "Dépose la vertu dans la lumière intérieure. Laisse-la descendre dans le cœur, le souffle et le corps.",
-        voice: "Laisse la vertu infuser dans la lumière intérieure."
-      },
-      {
-        id: "silence",
-        label: "Silence actif",
-        seconds: 7 * 60,
-        guidance: "Reste en silence. Sens comment la vertu modifie le regard, le souffle et la présence.",
-        voice: "Reste en silence. Laisse la vertu devenir présence."
+        label: "Rémanence — yeux fermés",
+        seconds: 10 * 60,
+        guidance: "Éteignez la lumière. Fermez les yeux. Laissez la vertu s’imprégner en vous. Observez les images, les sensations, les souvenirs qu’elle éveille. Accueillez tout ce qui vient, sans juger.",
+        voice: "Éteignez la lumière. Fermez les yeux doucement. Laissez la vertu s’imprégner en vous. Observez les images, les sensations, les souvenirs qu’elle éveille. Accueillez tout ce qui vient, sans juger."
       },
       {
         id: "carnet",
-        label: "Carnet",
+        label: "Carnet — points forts",
         seconds: 3 * 60,
-        guidance: "Note la carte, la phrase essentielle, une sensation et une action concrète pour aujourd’hui.",
-        voice: "Note maintenant la phrase essentielle, la sensation et le geste concret."
+        guidance: "Revenez doucement. Notez les points forts : une image reçue, une sensation, un souvenir, une décision ou une action concrète que cette vertu vous inspire.",
+        voice: "Revenez doucement. Prenez votre carnet et notez les points forts : une image reçue, une sensation, un souvenir, une décision que cette vertu vous inspire."
       }
     ];
   }
@@ -190,10 +177,15 @@
 
     if (state.phaseIndex >= state.phases.length) {
       stopPractice();
-      els.phase.textContent = "Terminé";
-      els.guidance.textContent = "La pratique est terminée. Reviens doucement. Garde une action concrète liée à la vertu.";
+      const hour = new Date().getHours();
+      const timeMsg = hour < 14
+        ? "Portez cette vertu avec vous aujourd'hui. Cherchez à l'incarner dans une action concrète, même petite."
+        : "Ce soir, en vous endormant, laissez cette vertu habiter vos pensées. Laissez-la travailler en vous pendant le sommeil.";
+      const cardTitle = state.current ? (state.current.title || "cette vertu") : "cette vertu";
+      els.phase.textContent   = "Séance terminée";
+      els.guidance.textContent = timeMsg;
       updateTimer(0);
-      speak("Fin de la pratique. Reviens doucement. Garde une action concrète liée à la vertu.");
+      speak("Votre séance avec " + cardTitle + " est terminée. " + timeMsg);
       return;
     }
 
@@ -303,23 +295,20 @@
   }
 
   function speak(text) {
-    if (!window.speechSynthesis || !text) return;
-
+    if (!text) return;
+    if (window.axisSpeak) { window.axisSpeak(text, true); return; }
+    if (!window.speechSynthesis) return;
     try {
       window.speechSynthesis.cancel();
-
       const utterance = new SpeechSynthesisUtterance(text);
       const voices = window.speechSynthesis.getVoices();
-      const fr = voices.find((voice) => /^fr/i.test(voice.lang)) || voices[0];
-
+      const fr = voices.find((v) => /^fr/i.test(v.lang)) || voices[0];
       if (fr) utterance.voice = fr;
-      utterance.lang = fr?.lang || "fr-FR";
-      utterance.rate = 0.92;
-      utterance.pitch = 0.94;
+      utterance.lang   = fr?.lang || "fr-FR";
+      utterance.rate   = 0.92;
       utterance.volume = 0.9;
-
       window.speechSynthesis.speak(utterance);
-    } catch {}
+    } catch (_) {}
   }
 
   document.addEventListener("DOMContentLoaded", init);

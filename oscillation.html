@@ -256,6 +256,18 @@
     <aside class="oscillation-note">
       <strong>Principe :</strong> chaque mouvement installe une géométrie intérieure différente :
       gauche-droite pour le recentrage, haut-bas pour l’axe, rotation pour le gyroscope intérieur.
+      <br><br>
+      <button
+        id="axisOscillationGuide"
+        type="button"
+        class="oscillation-choice"
+        style="min-height:auto;padding:12px 20px;width:100%;text-align:left;"
+        aria-label="Écouter l’introduction guidée à l’oscillation"
+      >
+        <span style="font-size:.7rem;">GUIDE</span>
+        <h2 style="font-size:1.1rem;margin:6px 0 4px;">Écouter le guide</h2>
+        <p style="font-size:.88rem;">Introduction orale au protocole d’oscillation.</p>
+      </button>
     </aside>
   </section>
 
@@ -266,6 +278,32 @@
     </div>
 
     <video id="axisOscillationVideo" controls preload="metadata" controlsList="nodownload noremoteplayback" src="https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/oscillation-lateral.mp4"></video>
+
+    <div id="axisOscillationMantra" style="
+      margin-top:18px;
+      padding:20px 24px;
+      border:1px solid rgba(216,180,95,.28);
+      border-radius:20px;
+      background:linear-gradient(145deg,rgba(255,255,255,.06),rgba(255,255,255,.02));
+    ">
+      <div style="display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;">
+        <strong id="axisMantraWord" style="
+          font-family:Georgia,'Times New Roman',serif;
+          font-size:clamp(2.4rem,6vw,4rem);
+          color:#ffe7a3;
+          letter-spacing:.12em;
+          line-height:1;
+        ">ILLI</strong>
+        <span id="axisMantraType" style="color:#f4d986;font-weight:800;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;">Balancement latéral</span>
+      </div>
+      <p id="axisMantraExplain" style="margin:10px 0 6px;color:rgba(244,236,216,.78);line-height:1.65;font-size:.96rem;">
+        Appuyez le <strong style="color:#ffe7a3;">L</strong> — la langue contre le palais, vers la glande hypophyse.
+        Prononcez à voix basse en rythme avec le balancement.
+      </p>
+      <p id="axisMantraDirection" style="margin:0;color:rgba(216,180,95,.82);font-size:.88rem;">
+        Direction : l'objet traverse le crâne de <strong style="color:#ffe7a3;">tempe à tempe</strong>, gauche-droite.
+      </p>
+    </div>
   </section>
 
   <section class="oscillation-buttons" aria-label="Choisir la vidéo d’oscillation">
@@ -319,23 +357,70 @@
 </footer>
 
 <script src="js/axis-video-local-patch.js"></script>
+<script src="js/axis-voice-global.js"></script>
 <script>
   (function () {
-    var video = document.getElementById("axisOscillationVideo");
-    var label = document.getElementById("axisOscillationLabel");
-    var buttons = Array.prototype.slice.call(document.querySelectorAll(".oscillation-choice"));
+    var MANTRAS = {
+      lateral: {
+        word: "ILLI",
+        type: "Balancement latéral",
+        explain: "Appuyez le <strong style=\"color:#ffe7a3;\">L</strong> — langue contre le palais, vers la glande hypophyse. Prononcez à voix basse en rythme avec le mouvement.",
+        direction: "Direction : l'objet traverse le crâne de <strong style=\"color:#ffe7a3;\">tempe à tempe</strong>, gauche-droite."
+      },
+      vertical: {
+        word: "ALLA",
+        type: "Balancement vertical",
+        explain: "Le son <strong style=\"color:#ffe7a3;\">AL-LA</strong> accompagne la verticalité. Sentez l'axe central s'allonger à chaque répétition.",
+        direction: "Direction : l'objet traverse le crâne du <strong style=\"color:#ffe7a3;\">menton vers le sommet</strong> de la tête."
+      },
+      rotation: {
+        word: "ELLU",
+        type: "Rotation douce",
+        explain: "Le son <strong style=\"color:#ffe7a3;\">EL-LU</strong> active le gyroscope intérieur. EL — Dieu en hébreu — est un vecteur de connexion à la nature divine.",
+        direction: "Direction : l'objet décrit un cercle à l'<strong style=\"color:#ffe7a3;\">intérieur du crâne</strong>, suivant la rotation."
+      }
+    };
+
+    var DATA_KEY_MAP = {
+      "Balancement latéral": "lateral",
+      "Balancement vertical": "vertical",
+      "Rotation": "rotation"
+    };
+
+    var GUIDE_TEXT = "L'oscillation guidée installe une géométrie intérieure précise. Chaque direction de mouvement produit un effet différent sur le cerveau et la conscience. " +
+      "Le balancement latéral — gauche-droite — favorise le recentrage et l'alternance hémisphérique. Associez-lui le mantra ILLI, en appuyant sur le L, la langue contre le palais. " +
+      "Le balancement vertical — haut-bas — travaille l'axe et la verticalité intérieure. Son mantra est ALLA. " +
+      "La rotation douce active le gyroscope intérieur, le sens de l'équilibre profond. Son mantra est ELLU. " +
+      "Pratiquez en trois phases : une minute de grand balancement, une minute de petit balancement — l'objet reste à l'intérieur du crâne — puis une minute de grand balancement à nouveau. Observez ce que vous ressentez entre les séances, car c'est là que les effets se manifestent.";
+
+    var video   = document.getElementById("axisOscillationVideo");
+    var label   = document.getElementById("axisOscillationLabel");
+    var buttons = Array.prototype.slice.call(document.querySelectorAll(".oscillation-choice[data-src]"));
+    var guideBtn = document.getElementById("axisOscillationGuide");
+
+    function updateMantra(key) {
+      var m = MANTRAS[key] || MANTRAS.lateral;
+      var word  = document.getElementById("axisMantraWord");
+      var type  = document.getElementById("axisMantraType");
+      var expl  = document.getElementById("axisMantraExplain");
+      var dir   = document.getElementById("axisMantraDirection");
+      if (word) word.textContent  = m.word;
+      if (type) type.textContent  = m.type;
+      if (expl) expl.innerHTML    = m.explain;
+      if (dir)  dir.innerHTML     = m.direction;
+    }
 
     function activate(button) {
-      var src = button.getAttribute("data-src");
+      var src  = button.getAttribute("data-src");
       var name = button.getAttribute("data-label");
+      var key  = DATA_KEY_MAP[name] || "lateral";
 
       buttons.forEach(function (btn) {
         btn.classList.toggle("is-active", btn === button);
       });
 
-      if (label) {
-        label.textContent = name;
-      }
+      if (label) label.textContent = name;
+      updateMantra(key);
 
       if (video && src && video.getAttribute("src") !== src) {
         video.pause();
@@ -345,10 +430,20 @@
     }
 
     buttons.forEach(function (button) {
-      button.addEventListener("click", function () {
-        activate(button);
-      });
+      button.addEventListener("click", function () { activate(button); });
     });
+
+    if (guideBtn) {
+      guideBtn.addEventListener("click", function () {
+        if (window.axisSpeak) { window.axisSpeak(GUIDE_TEXT, true); }
+        else if (window.speechSynthesis) {
+          window.speechSynthesis.cancel();
+          var u = new SpeechSynthesisUtterance(GUIDE_TEXT);
+          u.lang = "fr-FR"; u.rate = 0.92; u.volume = 0.9;
+          window.speechSynthesis.speak(u);
+        }
+      });
+    }
   })();
 </script>
 </body>

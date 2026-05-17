@@ -20,5 +20,9 @@
     course.image      = images.cover;
     course.coverImage = images.cover;
     course.images     = Object.assign({}, course.images || {}, images);
+    course.pdfPremium = true;
+    course.pdf        = course.pdf || {};
+    course.pdf.title  = "Balancement latéral initiatique — ILLI et le rythme de 2 secondes";
+    course.pdf.protectedNotice = "Support pédagogique réservé aux élèves de l'École du Temple Vivant — Axis Lumen Studio.";
   }
 })();

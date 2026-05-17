@@ -29,5 +29,8 @@
     course.coverImage = images.cover;
     course.images     = Object.assign({}, course.images || {}, images);
     course.pdfPremium = true;
+    course.pdf        = course.pdf || {};
+    course.pdf.title  = "Programme 15 jours de balancements initiatiques — Consolidation et effets cumulatifs";
+    course.pdf.protectedNotice = "Support pédagogique réservé aux élèves de l'École du Temple Vivant — Axis Lumen Studio.";
   }
 })();

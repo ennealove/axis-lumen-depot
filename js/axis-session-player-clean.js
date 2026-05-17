@@ -145,15 +145,20 @@
   // ─── Voix ─────────────────────────────────────────────────────────
 
   function speak(text, force) {
-    if (!session || !session.voice || !session.voice.enabled) return;
     if (!window.speechSynthesis || !text) return;
+    const voiceEnabled = !session || !session.voice || session.voice.enabled !== false;
+    if (!voiceEnabled) return;
     try {
       if (force) window.speechSynthesis.cancel();
       const u = new SpeechSynthesisUtterance(text);
-      u.lang   = "fr-FR";
-      u.rate   = session.voice.rate || 0.95;
-      u.volume = session.voice.volume ?? 0.85;
-      const v  = window.speechSynthesis.getVoices().find(v => v.name === session.voice.voiceName);
+      u.lang = "fr-FR";
+      // Priorité : config session → config globale → défauts
+      const sv  = (session && session.voice) ? session.voice : {};
+      const gv  = window.AXIS_VOICE_CFG || {};
+      u.rate    = sv.rate    ?? gv.rate    ?? 0.92;
+      u.volume  = sv.volume  ?? gv.volume  ?? 0.9;
+      const voiceName = sv.voiceName || gv.voiceName || "";
+      const v = window.speechSynthesis.getVoices().find(vv => vv.name === voiceName);
       if (v) u.voice = v;
       window.speechSynthesis.speak(u);
     } catch (_) {}
@@ -478,6 +483,31 @@
     renderSession();
   }
 
+  // ─── Tirage de vertu ─────────────────────────────────────────────
+
+  function drawVertu() {
+    const vertus = window.AXIS_VERTUS;
+    if (!Array.isArray(vertus) || vertus.length === 0) return null;
+
+    const storageKey = "axis_vertus_history";
+    let history = [];
+    try { history = JSON.parse(localStorage.getItem(storageKey) || "[]"); } catch (_) {}
+
+    const now = Date.now();
+    const sevenDays = 7 * 24 * 3600 * 1000;
+    history = history.filter(e => now - e.ts < sevenDays);
+
+    const usedIds = new Set(history.map(e => e.id));
+    const pool = vertus.filter(v => !usedIds.has(v.id));
+    const source = pool.length > 0 ? pool : vertus;
+    const chosen = source[Math.floor(Math.random() * source.length)];
+
+    history.push({ id: chosen.id, ts: now });
+    try { localStorage.setItem(storageKey, JSON.stringify(history)); } catch (_) {}
+
+    return chosen;
+  }
+
   function finish() {
     running       = false;
     paused        = false;
@@ -489,14 +519,89 @@
     const video = document.getElementById("axisPracticeVideo");
     try { if (video) video.pause(); } catch (_) {}
 
-    const el = id => document.getElementById(id);
-    if (el("axisTimer"))        el("axisTimer").textContent        = "00:00";
-    if (el("axisPhaseTitle"))   el("axisPhaseTitle").textContent   = "Séance terminée";
-    if (el("axisPhaseSegment")) el("axisPhaseSegment").textContent = "Retour au calme";
-    if (el("axisPhaseGuidance"))el("axisPhaseGuidance").textContent= "Respire doucement, puis reprends contact avec l'espace.";
+    const vertu = drawVertu();
+    const hour  = new Date().getHours();
+    const timeMsg = hour < 14
+      ? "Vous pouvez porter cette vertu avec vous aujourd'hui. Cherchez à l'incarner dans vos actions."
+      : "En vous endormant, laissez cette vertu habiter vos pensées. Laissez-la travailler en vous durant le sommeil.";
 
-    renderTimeline();
-    speak("Fin de l'exercice. Revenez doucement.", true);
+    if (vertu) {
+      root.innerHTML = `
+        <div style="
+          min-height:70vh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+          padding:clamp(24px,4vw,60px);text-align:center;
+          background:radial-gradient(circle at 50% 20%,rgba(216,180,95,.13),transparent 54%);
+        ">
+          <p style="color:#f4d986;font-size:.78rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase;margin:0 0 18px;">Fin de séance</p>
+          <h2 style="margin:0 0 10px;color:rgba(244,236,216,.7);font-size:1rem;font-weight:500;">Votre séance est terminée. Prenez un instant.</h2>
+
+          <div style="
+            margin:24px 0;padding:32px 36px;
+            border:1px solid rgba(216,180,95,.34);
+            border-radius:28px;
+            background:linear-gradient(145deg,rgba(255,255,255,.08),rgba(255,255,255,.03));
+            max-width:540px;width:100%;
+            box-shadow:0 30px 80px rgba(0,0,0,.4);
+          ">
+            <p style="color:#f4d986;font-size:.74rem;font-weight:900;letter-spacing:.14em;text-transform:uppercase;margin:0 0 10px;">Carte des vertus</p>
+            <h3 style="
+              font-family:Georgia,'Times New Roman',serif;
+              font-size:clamp(2rem,6vw,3.4rem);
+              color:#ffe7a3;margin:0 0 16px;line-height:1;
+            ">${vertu.nom}</h3>
+            <p style="color:rgba(244,236,216,.82);line-height:1.7;margin:0 0 14px;font-size:1rem;">${vertu.description}</p>
+            <p style="
+              border-top:1px solid rgba(216,180,95,.18);
+              padding-top:14px;margin:0;
+              color:rgba(216,180,95,.88);font-style:italic;line-height:1.6;font-size:.92rem;
+            ">${vertu.meditation}</p>
+          </div>
+
+          <p style="
+            max-width:480px;color:rgba(244,236,216,.65);line-height:1.65;
+            font-size:.94rem;margin:0 0 28px;
+          ">${timeMsg}</p>
+
+          <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;">
+            <button id="axisFinishLight" type="button" style="
+              padding:13px 28px;border-radius:14px;
+              background:linear-gradient(135deg,rgba(216,180,95,.22),rgba(216,180,95,.08));
+              border:1px solid rgba(216,180,95,.42);
+              color:#ffe7a3;font-weight:800;font-size:.92rem;cursor:pointer;
+            " aria-label="Rallumer la source lumineuse">☀ Rallumer la lumière</button>
+            <a href="index.html" style="
+              padding:13px 28px;border-radius:14px;
+              background:transparent;border:1px solid rgba(216,180,95,.22);
+              color:rgba(244,236,216,.7);font-weight:700;font-size:.9rem;
+              text-decoration:none;display:inline-flex;align-items:center;
+            ">Revenir à l'accueil</a>
+          </div>
+
+          <p id="axisFinishLightMsg" style="margin-top:20px;color:#f4d986;font-size:.9rem;min-height:1.4em;"></p>
+        </div>`;
+
+      const lightBtn = document.getElementById("axisFinishLight");
+      if (lightBtn) {
+        lightBtn.addEventListener("click", function () {
+          const msg = document.getElementById("axisFinishLightMsg");
+          if (msg) msg.textContent = "Rallumez votre source lumineuse. Fixez-la quelques instants, les yeux doux.";
+          speak("Rallumez votre source lumineuse. Fixez-la quelques instants, les yeux doux.", true);
+        });
+      }
+
+      setTimeout(function () {
+        speak("Votre séance est terminée. " + vertu.nom + ". " + vertu.description + " " + timeMsg, true);
+      }, 1800);
+
+    } else {
+      const el = id => document.getElementById(id);
+      if (el("axisTimer"))        el("axisTimer").textContent        = "00:00";
+      if (el("axisPhaseTitle"))   el("axisPhaseTitle").textContent   = "Séance terminée";
+      if (el("axisPhaseSegment")) el("axisPhaseSegment").textContent = "Retour au calme";
+      if (el("axisPhaseGuidance"))el("axisPhaseGuidance").textContent= "Respire doucement, puis reprends contact avec l'espace.";
+      renderTimeline();
+      speak("Fin de l'exercice. Revenez doucement.", true);
+    }
   }
 
   // ─── Session init ─────────────────────────────────────────────────

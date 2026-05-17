@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Exercice Respiration — Programme 8 jours — Axis Lumen Studio</title>
+  <meta name="description" content="Programme de respiration en 8 jours : observation naturelle, respiration diaphragmatique, complète 3 zones, rythme cardiaque et pneumophène. Génère ta séance sur mesure.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/axis-clean-restoration.css">
+  <link rel="stylesheet" href="css/legal-pages.css">
+  <link rel="stylesheet" href="css/referral-stripe-ready.css">
+  <link rel="stylesheet" href="css/axis-global-top-nav.css">
+  <link rel="stylesheet" href="css/home-dashboard-top.css">
+  <link rel="stylesheet" href="css/axis-index-nav-exact.css">
+  <link rel="stylesheet" href="css/exercice-respiration.css">
+</head>
+
+<body class="er-page">
+<header class="axis-top-dashboard">
+  <div class="axis-top-dashboard-inner">
+    <a class="axis-top-brand" href="index.html"><strong>Axis Lumen</strong></a>
+    <nav class="axis-top-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="creer-seance.html">Créer sa séance</a>
+      <a href="pratiquer.html">Pratiquer</a>
+      <a href="oscillation.html">Oscillation guidée</a>
+      <a href="respiration.html">Respiration</a>
+      <a href="rotor-optique.html">Rotor optique</a>
+      <a href="tensions-statiques.html">Tensions statiques</a>
+      <a class="active" href="apprendre.html">Apprendre</a>
+      <a href="vertus.html">Vertus</a>
+      <a class="axis-top-cta" href="boutique.html">Boutique</a>
+      <a href="abonnement.html">Abonnement</a>
+      <a href="parrainage.html">Parrainage</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="login.html">Connexion</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </div>
+</header>
+
+<main class="er-main">
+
+  <!-- Hero -->
+  <section class="er-hero">
+    <p class="er-kicker">Programme fondamental</p>
+    <h1>Respiration &amp; Contemplation</h1>
+    <p>
+      Huit jours de pratique progressive : de l'observation naturelle au pneumophène.
+      Chaque séance approfondit la connexion entre le souffle, le rythme cardiaque et la conscience.
+      Choisis ta journée, règle la durée, et laisse le souffle te guider.
+    </p>
+  </section>
+
+  <div class="er-layout">
+
+    <!-- Left: day selector + breath description -->
+    <div>
+      <span class="er-section-label">Choisir le jour</span>
+      <div id="erDaysGrid" class="er-days-grid"></div>
+
+      <div id="erBreathCard" class="er-breath-card"></div>
+    </div>
+
+    <!-- Right: config + preview + launch -->
+    <div class="er-config-panel">
+
+      <!-- Durée -->
+      <div class="er-config-group">
+        <span class="er-group-label">Durée de pratique</span>
+        <div id="erDurBtns" class="er-opt-row">
+          <button class="er-opt-btn" data-dur="5"  type="button">5 min<br><small style="font-size:.7rem;opacity:.7">court</small></button>
+          <button class="er-opt-btn" data-dur="10" type="button">10 min<br><small style="font-size:.7rem;opacity:.7">standard</small></button>
+          <button class="er-opt-btn" data-dur="15" type="button">15 min<br><small style="font-size:.7rem;opacity:.7">approfondi</small></button>
+          <button class="er-opt-btn" data-dur="20" type="button">20 min<br><small style="font-size:.7rem;opacity:.7">complet</small></button>
+        </div>
+      </div>
+
+      <!-- Temps par phase (jours 4/5/6 seulement) -->
+      <div id="erTempsPhase" class="er-config-group"></div>
+
+      <div class="er-divider"></div>
+
+      <!-- Musique -->
+      <div class="er-config-group">
+        <label for="erAudioSelect" class="er-group-label">Musique de fond</label>
+        <select id="erAudioSelect" class="er-select">
+          <option value="">Aucune musique</option>
+        </select>
+      </div>
+
+      <div class="er-divider"></div>
+
+      <!-- Mini animation preview -->
+      <div class="er-config-group">
+        <span class="er-group-label">Aperçu du rythme</span>
+        <div class="er-breath-anim-wrap">
+          <div id="erBreathCircle" class="er-breath-circle-outer">
+            <span class="er-breath-circle-inner">souffle</span>
+          </div>
+          <div id="erBreathPhaseLabel" class="er-breath-phase-label">—</div>
+          <div id="erBreathCount" class="er-breath-count">—</div>
+        </div>
+      </div>
+
+      <div class="er-divider"></div>
+
+      <!-- Preview résumé -->
+      <div class="er-config-group">
+        <span class="er-group-label">Résumé de la séance</span>
+        <div id="erPreview" class="er-preview">
+          <span style="color:#5a5245;font-size:.8rem;">Sélectionne un jour pour voir le détail.</span>
+        </div>
+      </div>
+
+      <!-- Launch -->
+      <button id="erLaunch" class="er-launch-btn" type="button">
+        Commencer la séance
+        <small>Lance l'exercice en plein écran</small>
+      </button>
+
+    </div>
+  </div>
+
+</main>
+
+<!-- Session overlay (full screen player) -->
+<div id="erSessionOverlay" class="er-session-overlay hidden">
+  <div class="er-session-header">
+    <h2 id="erSessionTitle">Respiration</h2>
+    <p id="erSessionSubtitle">Prends le temps de t'installer confortablement.</p>
+  </div>
+
+  <div id="erSessionCircle" class="er-session-circle">
+    <span id="erSessionPhase" class="er-session-phase">—</span>
+    <span id="erSessionCount" class="er-session-count">—</span>
+    <span id="erSessionMantra" class="er-session-mantra"></span>
+  </div>
+
+  <div id="erSessionTimer" class="er-session-timer">0:00</div>
+  <div id="erSessionGuide" class="er-session-guide"></div>
+
+  <button id="erSessionStop" class="er-session-stop" type="button">Terminer la séance</button>
+</div>
+
+<footer class="axis-legal-footer">
+  <div class="axis-legal-footer-inner">
+    <span>© Axis Lumen Studio</span>
+    <nav aria-label="Liens légaux">
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="cgu.html">CGU</a>
+      <a href="cgv.html">CGV</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/axis-access-control.js"></script>
+<script src="js/axis-voice-global.js"></script>
+<script src="js/axis-session-video-map.js"></script>
+<script src="js/axis-session-audio-map.js"></script>
+<script src="js/axis-audio-local-patch.js"></script>
+<script src="js/axis-video-local-patch.js"></script>
+<script src="js/exercice-respiration.js" defer></script>
+</body>
+</html>

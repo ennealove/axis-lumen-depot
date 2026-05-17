@@ -29,5 +29,8 @@
     course.coverImage = images.cover;
     course.images     = Object.assign({}, course.images || {}, images);
     course.pdfPremium = true;
+    course.pdf        = course.pdf || {};
+    course.pdf.title  = "Respiration naturelle 4/4 — Le souffle comme pont entre conscience et vie végétative";
+    course.pdf.protectedNotice = "Support pédagogique réservé aux élèves de l'École du Temple Vivant — Axis Lumen Studio.";
   }
 })();

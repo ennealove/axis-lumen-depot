@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Programme 15 jours — Complet — Axis Lumen Studio</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/axis-clean-restoration.css">
+  <link rel="stylesheet" href="css/axis-global-top-nav.css">
+  <link rel="stylesheet" href="css/home-dashboard-top.css">
+  <style>
+    /* ── Grid & cards ──────────────────────────────────────────────── */
+    .p15c-hero { text-align: center; padding: 48px 24px 24px; }
+    .p15c-hero h1 { font-size: clamp(1.6rem,4vw,2.4rem); color: #f7e6b1; margin: 0 0 8px; }
+    .p15c-hero p  { color: rgba(255,255,255,.68); max-width: 600px; margin: 0 auto; }
+    .p15c-kicker  { font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: #d8b86f; margin-bottom: 8px; }
+
+    .p15c-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px,1fr)); gap: 12px; max-width: 1100px; margin: 0 auto 40px; padding: 0 20px; }
+    .p15c-card {
+      border: 1px solid rgba(218,184,104,.22); border-radius: 16px;
+      background: rgba(7,17,31,.72); padding: 14px 16px; cursor: pointer;
+      transition: border-color .2s, transform .15s;
+      display: flex; flex-direction: column; gap: 10px;
+    }
+    .p15c-card:hover    { border-color: rgba(218,184,104,.55); transform: translateY(-2px); }
+    .p15c-card.done     { border-color: rgba(34,197,94,.5); background: rgba(34,197,94,.04); }
+    .p15c-card.active-d { border-color: #f7e6b1; box-shadow: 0 0 0 2px rgba(247,230,177,.2); }
+    .p15c-card.selected { border-color: #d8b86f; background: rgba(216,184,111,.1); }
+
+    /* Card header */
+    .p15c-card-header { display: flex; justify-content: space-between; align-items: center; }
+    .p15c-num   { font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: #d8b86f; font-weight: 700; }
+    .p15c-dur   { font-size: .68rem; color: rgba(255,255,255,.4); }
+
+    /* Two-step layout */
+    .p15c-step      { display: flex; flex-direction: column; gap: 4px; }
+    .p15c-step-lbl  { font-size: .62rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; }
+    .p15c-step-lbl.bal  { color: #d8b86f; }
+    .p15c-step-lbl.resp { color: #6b5de8; }
+    .p15c-step-body { display: flex; flex-wrap: wrap; gap: 4px; }
+    .p15c-tag       { font-size: .73rem; padding: 2px 8px; border-radius: 6px; }
+    .p15c-tag.swing { background: rgba(216,184,111,.15); color: #f7e6b1; border: 1px solid rgba(216,184,111,.25); }
+    .p15c-tag.obj   { background: rgba(255,255,255,.06); color: rgba(255,255,255,.7); }
+    .p15c-tag.cyc   { background: transparent; color: rgba(255,255,255,.4); font-size: .68rem; }
+    .p15c-tag.rythm { background: rgba(107,93,232,.15); color: #a89bef; border: 1px solid rgba(107,93,232,.25); }
+
+    /* Separator between bal and resp */
+    .p15c-seq-arrow { font-size: .65rem; color: rgba(255,255,255,.2); text-align: center; letter-spacing: .05em; }
+
+    .p15c-done-badge { font-size: .63rem; color: #22c55e; margin-top: 2px; }
+    .p15c-active-badge { font-size: .63rem; color: #d8b86f; margin-top: 2px; }
+
+    /* ── Launch bar ────────────────────────────────────────────────── */
+    .p15c-bar { position: sticky; bottom: 0; background: rgba(7,17,31,.95); border-top: 1px solid rgba(218,184,104,.2); padding: 16px 24px; display: flex; align-items: center; gap: 16px; justify-content: center; z-index: 10; }
+    .p15c-bar-info { font-size: .82rem; color: rgba(255,255,255,.65); }
+    .p15c-launch-btn {
+      background: linear-gradient(135deg,#f1d58b,#b99955); color: #07111f; font-weight: 800;
+      border: none; border-radius: 999px; padding: 14px 32px; font-size: 1rem; cursor: pointer; transition: opacity .2s;
+    }
+    .p15c-launch-btn:hover    { opacity: .88; }
+    .p15c-launch-btn:disabled { opacity: .35; cursor: default; }
+
+    /* ── Session overlay ───────────────────────────────────────────── */
+    .p15c-ov { position: fixed; inset: 0; background: #07111f; z-index: 9999; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; overflow-y: auto; }
+    .p15c-ov.hidden { display: none; }
+
+    .p15c-prog-wrap { position: fixed; top: 0; left: 0; right: 0; height: 3px; background: rgba(255,255,255,.1); z-index: 10000; }
+    .p15c-prog-bar  { height: 3px; background: linear-gradient(90deg,#d8b86f,#6b5de8); transition: width .5s; }
+
+    .p15c-ov-header { text-align: center; }
+    .p15c-ov-kicker { font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: #d8b86f; }
+    .p15c-ov-title  { font-size: 1.5rem; color: #f7e6b1; margin: 4px 0; }
+    .p15c-ov-phase  { font-size: .85rem; color: rgba(255,255,255,.6); }
+    .p15c-ov-timer  { font-size: .82rem; color: #5a5245; }
+
+    /* Visual area */
+    .p15c-ov-visual { width: min(400px,88vw); height: min(280px,48vw); position: relative; background: rgba(0,0,0,.3); border-radius: 16px; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+    .p15c-ov-img    { max-width: 100%; max-height: 100%; object-fit: contain; display: none; }
+    .p15c-ov-pend   { position: absolute; inset: 0; display: none; }
+    .p15c-ov-track  { position: absolute; inset: 10px; border: 1px dashed rgba(218,184,104,.2); border-radius: 12px; }
+    .p15c-ov-dot    { position: absolute; width: 26px; height: 26px; border-radius: 50%; background: #f7e6b1; top: 50%; transform: translate(-50%,-50%); }
+    .p15c-ov-dot.lateral  { animation: p15c-lr 2s ease-in-out infinite alternate; }
+    .p15c-ov-dot.vertical { animation: p15c-ud 2s ease-in-out infinite alternate; }
+    .p15c-ov-dot.ap       { animation: p15c-ap 2s ease-in-out infinite alternate; }
+    @keyframes p15c-lr { from { left:10%; } to { left:90%; } }
+    @keyframes p15c-ud { from { top:10%; } to { top:90%; } }
+    @keyframes p15c-ap { from { transform:translate(-50%,-50%) scale(.4); opacity:.35; } to { transform:translate(-50%,-50%) scale(1.6); opacity:1; } }
+
+    /* Text block */
+    .p15c-ov-text { display: none; flex-direction: column; align-items: center; gap: 10px; }
+    .p15c-ov-icon { font-size: 3.5rem; color: #f7e6b1; line-height: 1; }
+    .p15c-ov-maintext { font-size: 1rem; color: #f7e6b1; font-weight: 600; text-align: center; }
+
+    /* Breathing circle */
+    .p15c-ov-breath { display: none; flex-direction: column; align-items: center; gap: 14px; }
+    .p15c-breath-ring {
+      width: 110px; height: 110px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(107,93,232,.6), rgba(107,93,232,.1));
+      border: 2px solid rgba(107,93,232,.5);
+      display: flex; align-items: center; justify-content: center;
+      transition: transform .8s ease-in-out, opacity .5s;
+    }
+    .p15c-breath-phase-label { font-size: .82rem; color: #6b5de8; letter-spacing: .1em; text-transform: uppercase; }
+    .p15c-breath-count { font-size: 2rem; font-weight: 200; color: #f7e6b1; }
+
+    .p15c-ov-mantra    { font-size: .85rem; color: #6b5de8; letter-spacing: .08em; min-height: 1.2em; }
+    .p15c-ov-countdown { font-size: 2rem; font-weight: 200; color: #f7e6b1; min-height: 2.4rem; }
+    .p15c-ov-guide     { max-width: 380px; text-align: center; color: rgba(255,255,255,.65); font-size: .82rem; line-height: 1.6; }
+
+    /* Section divider between bal and resp */
+    .p15c-section-badge {
+      font-size: .7rem; letter-spacing: .14em; text-transform: uppercase;
+      padding: 4px 12px; border-radius: 99px;
+      border: 1px solid;
+    }
+    .p15c-section-badge.bal  { color: #d8b86f; border-color: rgba(216,184,111,.4); }
+    .p15c-section-badge.resp { color: #6b5de8; border-color: rgba(107,93,232,.4); }
+
+    .p15c-ov-stop { background: transparent; border: 1px solid rgba(218,184,104,.3); color: #d8b86f; border-radius: 8px; padding: 10px 24px; cursor: pointer; font-size: .85rem; }
+    .p15c-ov-stop:hover { border-color: #d8b86f; }
+  </style>
+</head>
+<body class="eb-page">
+
+<header class="axis-top-dashboard">
+  <div class="axis-top-dashboard-inner">
+    <a class="axis-top-brand" href="index.html"><strong>Axis Lumen</strong></a>
+    <nav class="axis-top-links">
+      <a href="index.html">Accueil</a>
+      <a href="exercice-balancement.html">Balancement 8j</a>
+      <a href="exercice-respiration.html">Respiration 8j</a>
+      <a href="exercice-programme-15j-balancements.html">Programme 15j Bal</a>
+      <a href="apprendre.html">Apprendre</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="p15c-hero">
+    <p class="p15c-kicker">Programme initiatique complet</p>
+    <h1>15 jours — Balancement &amp; Respiration</h1>
+    <p>Chaque jour : une séance de balancement phosphénique suivie d'une pratique respiratoire. Deux disciplines unies en un seul protocole. Aucun réglage — un clic pour commencer.</p>
+  </div>
+
+  <div id="p15cGrid" class="p15c-grid"></div>
+
+  <div class="p15c-bar">
+    <span class="p15c-bar-info" id="p15cInfo">Sélectionne un jour pour commencer.</span>
+    <button class="p15c-launch-btn" id="p15cLaunch" disabled>Lancer le jour</button>
+  </div>
+</main>
+
+<!-- Session overlay -->
+<div id="p15cOverlay" class="p15c-ov hidden">
+  <div class="p15c-prog-wrap"><div id="p15cProgBar" class="p15c-prog-bar" style="width:0%"></div></div>
+
+  <div class="p15c-ov-header">
+    <p class="p15c-ov-kicker" id="p15cKicker">Programme 15 jours complet</p>
+    <h2 class="p15c-ov-title"  id="p15cTitle">—</h2>
+    <p class="p15c-ov-phase"  id="p15cPhase">—</p>
+    <p class="p15c-ov-timer"  id="p15cTimer">—</p>
+  </div>
+
+  <div id="p15cSection" class="p15c-section-badge bal">Balancement</div>
+
+  <div class="p15c-ov-visual" id="p15cVisual">
+    <img id="p15cImg" class="p15c-ov-img" src="" alt="">
+    <div id="p15cPend" class="p15c-ov-pend">
+      <div class="p15c-ov-track"></div>
+      <div id="p15cDot" class="p15c-ov-dot"></div>
+    </div>
+    <div id="p15cText" class="p15c-ov-text">
+      <div id="p15cIcon" class="p15c-ov-icon"></div>
+      <div id="p15cMainText" class="p15c-ov-maintext"></div>
+    </div>
+    <div id="p15cBreath" class="p15c-ov-breath">
+      <div id="p15cBreathRing" class="p15c-breath-ring">
+        <div id="p15cBreathCount" class="p15c-breath-count">—</div>
+      </div>
+      <div id="p15cBreathPhase" class="p15c-breath-phase-label">—</div>
+    </div>
+  </div>
+
+  <p class="p15c-ov-mantra"    id="p15cMantra"></p>
+  <div class="p15c-ov-countdown" id="p15cCountdown"></div>
+  <p class="p15c-ov-guide"     id="p15cGuide"></p>
+  <button class="p15c-ov-stop" id="p15cStop">Terminer la séance</button>
+</div>
+
+<script src="js/axis-access-control.js"></script>
+<script src="js/axis-session-audio-map.js"></script>
+<script src="js/axis-audio-local-patch.js"></script>
+<script src="js/exercice-programme-15j-complet.js" defer></script>
+</body>
+</html>

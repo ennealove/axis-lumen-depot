@@ -338,10 +338,22 @@
 
     grid.classList.add("axis-rescue-grid");
 
+    var balancementNums = [8,9,10,11,12,13,14,15];
+    var respirationNums = [16,17,18,19,20,21,22,23];
+
     grid.innerHTML = courses.map(function (course, index) {
       var number = getNumber(course, index);
       var title = getTitle(course, index);
       var image = getImage(course);
+
+      var exerciceBtn = "";
+      var bIdx = balancementNums.indexOf(number);
+      var rIdx = respirationNums.indexOf(number);
+      if (bIdx !== -1) {
+        exerciceBtn = "<a class='axis-rescue-exercice-btn' href='exercice-balancement.html?jour=" + (bIdx + 1) + "'>Exercice ↗</a>";
+      } else if (rIdx !== -1) {
+        exerciceBtn = "<a class='axis-rescue-exercice-btn' href='exercice-respiration.html?jour=" + (rIdx + 1) + "'>Exercice ↗</a>";
+      }
 
       return [
         "<article class='axis-rescue-card' data-axis-course-number='" + esc(number) + "'>",
@@ -360,6 +372,7 @@
               "<button type='button' data-axis-rescue-read='" + esc(number) + "'>Lire le cours</button>",
               "<button type='button' data-axis-rescue-practice='" + esc(number) + "'>Pratiquer</button>",
               "<button type='button' data-axis-rescue-pdf='" + esc(number) + "'>PDF premium</button>",
+              exerciceBtn,
             "</div>",
           "</div>",
         "</article>"
@@ -387,6 +400,7 @@
       ".axis-rescue-tags{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}",
       ".axis-rescue-tags span{font-size:.76rem;border:1px solid rgba(218,184,104,.28);border-radius:999px;padding:5px 9px;color:#f5d58a}",
       ".axis-rescue-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}",
+      ".axis-rescue-exercice-btn{cursor:pointer;border:2px solid #f1d58b;border-radius:999px;background:transparent;color:#f1d58b;font-weight:800;padding:9px 14px;text-decoration:none;font-size:inherit}",
       ".axis-rescue-actions button{cursor:pointer;border:1px solid rgba(218,184,104,.55);border-radius:999px;background:linear-gradient(135deg,#f1d58b,#b99955);color:#07111f;font-weight:800;padding:9px 14px}",
       ".axis-rescue-reader{padding:24px;border:1px solid rgba(218,184,104,.28);border-radius:28px;background:rgba(7,17,31,.72)}",
       ".axis-rescue-reader h2{color:#f7e6b1;font-size:2rem}",

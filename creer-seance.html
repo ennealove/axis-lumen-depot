@@ -75,18 +75,7 @@
         <div class="axis-field">
           <label for="axisSelectedObject">Objet de contemplation (20 s)</label>
           <div class="axis-object-select-wrap">
-            <select id="axisSelectedObject">
-              <option value="tree">Arbre de vie</option>
-              <option value="triangle">Triangle</option>
-              <option value="cube">Cube</option>
-              <option value="etoile">Étoile</option>
-              <option value="flower">Fleur de vie</option>
-              <option value="geometry">Géométrie sacrée</option>
-              <option value="graine">Graine de vie</option>
-              <option value="lotus">Lotus</option>
-              <option value="sphere">Sphère</option>
-              <option value="spirale">Spirale</option>
-            </select>
+            <select id="axisSelectedObject"></select>
             <label class="session-btn axis-import-btn" title="Importer une image personnelle">
               + Importer
               <input type="file" id="axisObjectImport" accept="image/*" hidden>
@@ -237,6 +226,58 @@
         <button id="axisSave" class="session-btn" type="button">Générer la séance</button>
         <button id="axisOpenPractice" class="session-btn primary" type="button">Générer et ouvrir Pratiquer</button>
       </div>
+
+      <!-- Accordéon pédagogique -->
+      <div style="margin-top:28px;">
+        <button
+          id="axisProtocolToggle"
+          type="button"
+          style="
+            width:100%;text-align:left;padding:16px 20px;
+            border:1px solid rgba(216,180,95,.28);border-radius:16px;
+            background:linear-gradient(145deg,rgba(216,180,95,.08),rgba(216,180,95,.02));
+            color:#ffe7a3;font-weight:800;font-size:.95rem;cursor:pointer;
+            display:flex;align-items:center;justify-content:space-between;gap:12px;
+          "
+          aria-expanded="false"
+          aria-controls="axisProtocolBody"
+        >
+          <span>Comprendre le protocole</span>
+          <span id="axisProtocolArrow" style="transition:transform .22s;font-size:1.1rem;">▼</span>
+        </button>
+
+        <div
+          id="axisProtocolBody"
+          style="display:none;padding:22px 20px 4px;border:1px solid rgba(216,180,95,.18);border-top:none;border-radius:0 0 16px 16px;background:rgba(255,255,255,.03);"
+          aria-hidden="true"
+        >
+          <p style="color:rgba(244,236,216,.82);line-height:1.72;margin:0 0 16px;">
+            <strong style="color:#ffe7a3;">Pourquoi ce protocole ?</strong> La séance suit une progression précise issue des
+            travaux du Dr Francis Lefebure sur le Phosphénisme. La fixation d'une source lumineuse produit des
+            phosphènes — des taches colorées perçues après la fixation. Mêler une pensée au phosphène transforme
+            l'énergie lumineuse en énergie mentale.
+          </p>
+          <p style="color:rgba(244,236,216,.82);line-height:1.72;margin:0 0 16px;">
+            Le balancement installe des rythmes cérébraux profonds. L'objet de contemplation traversant le crâne en
+            rythme avec le mouvement ancre ces rythmes dans le système nerveux.
+          </p>
+          <p style="color:rgba(244,236,216,.82);line-height:1.72;margin:0 0 16px;">
+            <strong style="color:#ffe7a3;">Pourquoi les mantras ILLI, ALLA, ELLU ?</strong> La lettre « L » prononcée de façon
+            appuyée — comme dans ILLI — vient appuyer la langue sur le haut du palais, stimulant directement la zone
+            de la glande hypophyse. Dans la tradition hébraïque, « EL » signifie Dieu. Ce son est un vecteur de
+            connexion à notre nature divine. Chaque mantra accompagne une direction de mouvement précise :
+            <strong style="color:#ffe7a3;">ILLI</strong> pour le latéral,
+            <strong style="color:#ffe7a3;">ALLA</strong> pour le vertical,
+            <strong style="color:#ffe7a3;">ELLU</strong> pour l'antéro-postérieur.
+          </p>
+          <p style="color:rgba(244,236,216,.82);line-height:1.72;margin:0 0 20px;">
+            Les <strong style="color:#ffe7a3;">tensions statiques</strong> développent la conscience du corps subtil. En
+            contractant physiquement chaque partie du corps, puis en revivant cette contraction en pensée pure
+            (cénesthésie), on crée une empreinte énergétique qui favorise le dédoublement de conscience.
+          </p>
+        </div>
+      </div>
+
     </article>
 
     <aside class="session-card">
@@ -263,10 +304,61 @@
   </div>
 </footer>
 
+<script src="js/axis-voice-global.js"></script>
+<script>
+  (function () {
+    var btn   = document.getElementById("axisProtocolToggle");
+    var body  = document.getElementById("axisProtocolBody");
+    var arrow = document.getElementById("axisProtocolArrow");
+    if (!btn || !body) return;
+    btn.addEventListener("click", function () {
+      var open = body.style.display !== "none";
+      body.style.display    = open ? "none" : "block";
+      body.setAttribute("aria-hidden", open ? "true" : "false");
+      btn.setAttribute("aria-expanded", open ? "false" : "true");
+      if (arrow) arrow.style.transform = open ? "rotate(0deg)" : "rotate(180deg)";
+    });
+  })();
+</script>
 <script src="js/axis-session-video-map.js?v=20260501_214944"></script>
 <script src="js/axis-session-audio-map.js?v=20260501_214944"></script>
 <script src="js/axis-audio-local-patch.js"></script>
 <script src="js/axis-video-local-patch.js"></script>
-<script src="js/axis-session-generator-clean.js?v=20260501_214944"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  const select = document.getElementById("axisSelectedObject");
+
+  const OBJECTS = [
+
+    { label: "Carré", folder: "carré" },
+    { label: "Cercles", folder: "cercles" },
+    { label: "Arbre", folder: "fleurs/arbre" },
+    { label: "Rose", folder: "fleurs/rose" },
+    { label: "Tulipes", folder: "fleurs/tulipes" },
+    { label: "Objet 3D", folder: "objet 3D" },
+    { label: "Rectangle", folder: "rectangle" },
+    { label: "Triangle", folder: "triangle" }
+
+  ];
+
+  select.innerHTML = "";
+
+  OBJECTS.forEach(obj => {
+
+    const option = document.createElement("option");
+
+    option.value = obj.folder;
+    option.textContent = obj.label;
+
+    select.appendChild(option);
+
+  });
+
+});
+</script>
+
+<script src="js/axis-session-generator-clean.js?v=20260515"></script>
 </body>
 </html>
+

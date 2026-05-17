@@ -15,17 +15,32 @@
     lateral: {
       label: "Balancement latéral",
       video: () => MAP.swing && MAP.swing.lateral || "",
-      guidance: "Balancement gauche / droite, SAT dans un sens, NAM dans l'autre."
+      guidance: "Balancement gauche / droite. Mantra ILLI — langue contre le palais.",
+      mantra: "ILLI",
+      voiceGrand: "Commencez le grand balancement latéral. Imaginez l'objet traverser votre crâne de tempe à tempe, de gauche à droite, en rythme avec votre mouvement.",
+      voicePetit: "Réduisez l'amplitude. Le petit balancement maintenant. L'objet reste à l'intérieur du crâne, confiné dans l'espace intérieur.",
+      voiceReprise: "Reprenez le grand balancement latéral.",
+      direction: "tempe à tempe"
     },
     vertical: {
       label: "Balancement vertical",
       video: () => MAP.swing && MAP.swing.vertical || "",
-      guidance: "Balancement haut / bas, SAT dans un sens, NAM dans l'autre."
+      guidance: "Balancement haut / bas. Mantra ALLA — axe et verticalité intérieure.",
+      mantra: "ALLA",
+      voiceGrand: "Commencez le grand balancement vertical. Imaginez l'objet traverser votre crâne du menton vers le sommet de la tête.",
+      voicePetit: "Réduisez l'amplitude. Le petit balancement maintenant. L'objet reste à l'intérieur du crâne, confiné dans l'espace intérieur.",
+      voiceReprise: "Reprenez le grand balancement vertical.",
+      direction: "du menton vers le sommet"
     },
     rotation: {
       label: "Rotation douce",
       video: () => MAP.swing && MAP.swing.rotation || "",
-      guidance: "Rotation douce, sans chercher le vertige, en gardant l'axe."
+      guidance: "Rotation douce. Mantra ELLU — gyroscope intérieur, équilibre profond.",
+      mantra: "ELLU",
+      voiceGrand: "Commencez le grand balancement. Imaginez l'objet venir de l'arrière de la tête vers le front, le dépassant légèrement.",
+      voicePetit: "Réduisez l'amplitude. Le petit balancement maintenant. L'objet reste à l'intérieur du crâne, confiné dans l'espace intérieur.",
+      voiceReprise: "Reprenez le grand balancement.",
+      direction: "arrière vers le front"
     }
   };
 
@@ -62,19 +77,59 @@
   };
 
   const AXIS_OBJECTS = [
-    { id: "tree",     label: "Arbre de vie",    file: "tree.webp"     },
-    { id: "triangle", label: "Triangle",         file: "triangle.jpg"  },
-    { id: "cube",     label: "Cube",             file: "cube.png"      },
-    { id: "etoile",   label: "Étoile",           file: "étoile.webp"   },
-    { id: "flower",   label: "Fleur de vie",     file: "flower.png"    },
-    { id: "geometry", label: "Géométrie sacrée", file: "geometry.webp" },
-    { id: "graine",   label: "Graine de vie",    file: "graine.webp"   },
-    { id: "lotus",    label: "Lotus",            file: "lotus.png"     },
-    { id: "sphere",   label: "Sphère",           file: "sphère.jpg"    },
-    { id: "spirale",  label: "Spirale",          file: "spirale.avif"  }
+    // ── Carrés ──────────────────────────────────────────────────
+    { id: "carre-bleu",    label: "Carré bleu",    file: "carré/bleu.png"    },
+    { id: "carre-rouge",   label: "Carré rouge",   file: "carré/rouge.png"   },
+    { id: "carre-vert",    label: "Carré vert",    file: "carré/vert.png"    },
+    { id: "carre-jaune",   label: "Carré jaune",   file: "carré/jaune.png"   },
+    { id: "carre-violet",  label: "Carré violet",  file: "carré/violet.png"  },
+    // ── Rectangles ──────────────────────────────────────────────
+    { id: "rect-bleu",     label: "Rectangle bleu",    file: "rectangle/bleu.png"    },
+    { id: "rect-rouge",    label: "Rectangle rouge",   file: "rectangle/rouge.png"   },
+    { id: "rect-vert",     label: "Rectangle vert",    file: "rectangle/vert.png"    },
+    { id: "rect-orange",   label: "Rectangle orange",  file: "rectangle/orange.png"  },
+    { id: "rect-jaune",    label: "Rectangle jaune",   file: "rectangle/jaune.png"   },
+    { id: "rect-violet",   label: "Rectangle violet",  file: "rectangle/violet.png"  },
+    // ── Triangles ───────────────────────────────────────────────
+    { id: "tri-bleu",      label: "Triangle bleu",     file: "triangle/bleu.png"     },
+    { id: "tri-rouge",     label: "Triangle rouge",    file: "triangle/rouge.png"    },
+    { id: "tri-vert",      label: "Triangle vert",     file: "triangle/vert.png"     },
+    { id: "tri-orange",    label: "Triangle orange",   file: "triangle/orange.png"   },
+    { id: "tri-jaune",     label: "Triangle jaune",    file: "triangle/jaune.png"    },
+    { id: "tri-violet",    label: "Triangle violet",   file: "triangle/violet.png"   },
+    // ── Cercles ─────────────────────────────────────────────────
+    { id: "cerc-bleu",     label: "Cercle bleu",    file: "cercles/bleu.png"    },
+    { id: "cerc-vert",     label: "Cercle vert",    file: "cercles/vert.png"    },
+    { id: "cerc-orange",   label: "Cercle orange",  file: "cercles/orange.png"  },
+    { id: "cerc-jaune",    label: "Cercle jaune",   file: "cercles/jaune.png"   },
+    { id: "cerc-violet",   label: "Cercle violet",  file: "cercles/violet.png"  },
+    // ── Objets 3D ───────────────────────────────────────────────
+    { id: "3d-sphere",     label: "Sphère bleue",      file: "objet 3D/sphère bleu.png"     },
+    { id: "3d-cube",       label: "Cube rouge",         file: "objet 3D/cube rouge.png"      },
+    { id: "3d-cylindre",   label: "Cylindre vert",      file: "objet 3D/cylindre vert.png"   },
+    { id: "3d-cone",       label: "Cône orange",        file: "objet 3D/cone orange.png"     },
+    { id: "3d-etoile",     label: "Étoile jaune",       file: "objet 3D/etoile jaune.png"    },
+    { id: "3d-pyramide",   label: "Pyramide violette",  file: "objet 3D/pyramide violet.png" },
+    // ── Tulipes ─────────────────────────────────────────────────
+    { id: "tulipe-bleu",   label: "Tulipe bleue",    file: "fleurs/tulipes/bleu.png"    },
+    { id: "tulipe-rouge",  label: "Tulipe rouge",    file: "fleurs/tulipes/rouge.png"   },
+    { id: "tulipe-vert",   label: "Tulipe verte",    file: "fleurs/tulipes/verte.png"   },
+    { id: "tulipe-orange", label: "Tulipe orange",   file: "fleurs/tulipes/orange.png"  },
+    { id: "tulipe-jaune",  label: "Tulipe jaune",    file: "fleurs/tulipes/jaune.png"   },
+    { id: "tulipe-violet", label: "Tulipe violette", file: "fleurs/tulipes/violet.png"  },
+    // ── Roses ───────────────────────────────────────────────────
+    { id: "rose-blanche",  label: "Rose blanche", file: "fleurs/rose/rose blanche.png" },
+    { id: "rose-bleu",     label: "Rose bleue",   file: "fleurs/rose/rose bleu.png"    },
+    { id: "rose-jaune",    label: "Rose jaune",   file: "fleurs/rose/rose jaune.png"   },
+    { id: "rose-noir",     label: "Rose noire",   file: "fleurs/rose/rose noir.png"    },
+    { id: "rose-rose",     label: "Rose rose",    file: "fleurs/rose/rose rose.png"    },
+    { id: "rose-rouge",    label: "Rose rouge",   file: "fleurs/rose/rose rouge.png"   },
+    // ── Arbres ──────────────────────────────────────────────────
+    { id: "arbre",          label: "Arbre",                      file: "fleurs/arbre/arbre.png"              },
+    { id: "arbre-personne", label: "Personnage devant un arbre", file: "fleurs/arbre/arbre plus personne.png" }
   ];
 
-  const AXIS_OBJECTS_PATH = "assets/images/objet/";
+  const AXIS_OBJECTS_PATH = "assets/images/images objet/";
   const AXIS_BANDEAU_IMG  = "assets/images/objet/personnage avec bandeau sur les yeux.png";
 
   // ─── Helpers ────────────────────────────────────────────────────
@@ -266,7 +321,7 @@
       "detente", "Détente initiale",
       config.relaxationMin * 60,
       MAP.detente || "",
-      "Début de séance. Installez-vous confortablement. Relâchez les épaules, la mâchoire et le ventre.",
+      "Installez-vous confortablement. Fixez la source lumineuse devant vous. Pensez à l'objectif que vous souhaitez travailler pendant cette séance. Laissez cette intention s'installer naturellement.",
       audioExtra(config.audio.detente)
     ));
 
@@ -332,14 +387,14 @@
         `${swing.label} — cycle ${n}/${cycles}`,
         180,
         swing.video(),
-        "Commencez les balancements.",
+        swing.guidance,
         Object.assign(audioExtra(config.audio.swing), {
           swing:  config.swing,
-          mantra: "SAT / NAM",
+          mantra: swing.mantra,
           segments: [
-            { from: 0,   to: 60,  title: "Grand mouvement",  mantra: "SAT à l'aller · NAM au retour", voice: "Grand mouvement. Récitez le mantra à voix haute. SAT dans un sens, NAM dans l'autre.", guidance: "Récite à voix haute : SAT dans un sens, NAM dans l'autre." },
-            { from: 60,  to: 120, title: "Petit balancement", mantra: "SAT / NAM en pensée",           voice: "Petit balancement. Le mantra continue en pensée.",                                    guidance: "Réduis le mouvement. Le mantra continue intérieurement." },
-            { from: 120, to: 180, title: "Grand mouvement",  mantra: "SAT à l'aller · NAM au retour", voice: "Reprenez le grand mouvement. SAT dans un sens, NAM dans l'autre.",                    guidance: "Reprends le grand mouvement. Le mantra revient à voix haute." }
+            { from: 0,   to: 60,  title: "Grand mouvement",   mantra: swing.mantra + " · " + swing.direction, voice: swing.voiceGrand,   guidance: swing.mantra + " — langue contre le palais. " + swing.direction + "." },
+            { from: 60,  to: 120, title: "Petit balancement",  mantra: swing.mantra + " en pensée",            voice: swing.voicePetit,   guidance: "Amplitude réduite. " + swing.mantra + " continue intérieurement." },
+            { from: 120, to: 180, title: "Grand mouvement",   mantra: swing.mantra + " · " + swing.direction, voice: swing.voiceReprise, guidance: swing.mantra + " — reprenez le grand mouvement." }
           ]
         })
       ));
@@ -502,9 +557,41 @@
     });
   }
 
+  function fillObjectSelect() {
+    const select = $("axisSelectedObject");
+    if (!select) return;
+
+    const groups = [
+      { label: "Carrés",    ids: ["carre-bleu","carre-rouge","carre-vert","carre-jaune","carre-violet"] },
+      { label: "Rectangles",ids: ["rect-bleu","rect-rouge","rect-vert","rect-orange","rect-jaune","rect-violet"] },
+      { label: "Triangles", ids: ["tri-bleu","tri-rouge","tri-vert","tri-orange","tri-jaune","tri-violet"] },
+      { label: "Cercles",   ids: ["cerc-bleu","cerc-vert","cerc-orange","cerc-jaune","cerc-violet"] },
+      { label: "Objets 3D", ids: ["3d-sphere","3d-cube","3d-cylindre","3d-cone","3d-etoile","3d-pyramide"] },
+      { label: "Tulipes",   ids: ["tulipe-bleu","tulipe-rouge","tulipe-vert","tulipe-orange","tulipe-jaune","tulipe-violet"] },
+      { label: "Roses",     ids: ["rose-blanche","rose-bleu","rose-jaune","rose-noir","rose-rose","rose-rouge"] },
+      { label: "Autres",    ids: ["arbre","arbre-personne"] }
+    ];
+
+    select.innerHTML = "";
+    groups.forEach(function (group) {
+      const og = document.createElement("optgroup");
+      og.label = group.label;
+      group.ids.forEach(function (id) {
+        const obj = AXIS_OBJECTS.find(function (o) { return o.id === id; });
+        if (!obj) return;
+        const opt = document.createElement("option");
+        opt.value = obj.id;
+        opt.textContent = obj.label;
+        og.appendChild(opt);
+      });
+      select.appendChild(og);
+    });
+  }
+
   function initObjectPicker() {
     const select = $("axisSelectedObject");
     if (!select) return;
+    fillObjectSelect();
     select.addEventListener("change", renderPreview);
   }
 
@@ -544,9 +631,45 @@
       window.speechSynthesis.cancel();
       window.speechSynthesis.speak(utter);
     });
+
+    // Propagation automatique : chaque changement de voix sur creer-seance → config globale
+    ["axisVoiceName", "axisVoiceRate", "axisVoiceVolume"].forEach(id => {
+      const el = $(id);
+      if (!el) return;
+      el.addEventListener("change", () => {
+        if (!window.AXIS_VOICE_CFG) return;
+        const cfg = {
+          voiceName: $("axisVoiceName")  ? $("axisVoiceName").value                : window.AXIS_VOICE_CFG.voiceName,
+          rate:      $("axisVoiceRate")  ? parseFloat($("axisVoiceRate").value)    : window.AXIS_VOICE_CFG.rate,
+          volume:    $("axisVoiceVolume")? parseFloat($("axisVoiceVolume").value)  : window.AXIS_VOICE_CFG.volume
+        };
+        try { localStorage.setItem("axis_voice_global", JSON.stringify(cfg)); } catch (_) {}
+        window.AXIS_VOICE_CFG = cfg;
+        // Sync widget flottant si présent
+        const wName = document.getElementById("axisGVoiceName");
+        const wRate = document.getElementById("axisGVRate");
+        const wVol  = document.getElementById("axisGVolume");
+        const wRateVal  = document.getElementById("axisGVRateVal");
+        const wVolVal   = document.getElementById("axisGVolumeVal");
+        if (wName) wName.value = cfg.voiceName;
+        if (wRate) { wRate.value = cfg.rate; if (wRateVal) wRateVal.textContent = cfg.rate.toFixed(2); }
+        if (wVol)  { wVol.value  = cfg.volume; if (wVolVal) wVolVal.textContent = Math.round(cfg.volume * 100) + "%"; }
+      });
+    });
   }
 
   // ─── Init ────────────────────────────────────────────────────────
+
+  function applyGlobalVoice() {
+    const gv = window.AXIS_VOICE_CFG;
+    if (!gv) return;
+    const nameEl = $("axisVoiceName");
+    const rateEl = $("axisVoiceRate");
+    const volEl  = $("axisVoiceVolume");
+    if (nameEl && gv.voiceName !== undefined) nameEl.value = gv.voiceName;
+    if (rateEl && gv.rate   !== undefined) rateEl.value = gv.rate;
+    if (volEl  && gv.volume !== undefined) volEl.value  = gv.volume;
+  }
 
   function init() {
     fillAudioSelect("axisAudioDetente", "detente");
@@ -556,7 +679,11 @@
     fillAudioSelect("axisAudioFinal",   "mantra");
 
     fillVoiceSelect();
-    if (window.speechSynthesis) window.speechSynthesis.onvoiceschanged = fillVoiceSelect;
+    applyGlobalVoice();
+    if (window.speechSynthesis) window.speechSynthesis.onvoiceschanged = function() {
+      fillVoiceSelect();
+      applyGlobalVoice();
+    };
 
     initObjectPicker();
     initObjectImport();

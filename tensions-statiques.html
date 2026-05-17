@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8">
@@ -12,6 +12,156 @@
   <link rel="stylesheet" href="css/axis-global-top-nav.css?v=20260501_203303">
   <link rel="stylesheet" href="css/home-dashboard-top.css?v=20260501_203717">
   <link rel="stylesheet" href="css/axis-index-nav-exact.css?v=20260501_203717">
+  <style>
+    .ts-player {
+      border: 1px solid rgba(216,180,95,.28);
+      border-radius: 28px;
+      overflow: hidden;
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+      box-shadow: 0 24px 70px rgba(0,0,0,.45);
+      margin-bottom: 20px;
+    }
+    .ts-visual {
+      position: relative;
+      background: #05080f;
+      overflow: hidden;
+      border-radius: 28px 28px 0 0;
+    }
+    .ts-visual-img {
+      display: block;
+      width: 100%;
+      max-height: 560px;
+      object-fit: cover;
+      object-position: top center;
+      transition: opacity .35s ease;
+    }
+    .ts-badge {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      padding: 6px 14px;
+      border-radius: 10px;
+      background: rgba(8,12,24,.78);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(216,180,95,.32);
+      color: #ffe7a3;
+      font-weight: 900;
+      font-size: .76rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      transition: background .3s, border-color .3s, color .3s;
+    }
+    .ts-badge.contraction { background: rgba(180,120,10,.72); border-color: rgba(244,217,134,.6); color: #fff8e1; }
+    .ts-badge.relachement { background: rgba(20,130,100,.72); border-color: rgba(100,220,180,.5); color: #e0fff8; }
+    .ts-badge.pensee      { background: rgba(30,80,180,.72);  border-color: rgba(100,160,255,.5); color: #dde9ff; }
+    .ts-countdown {
+      position: absolute;
+      bottom: 16px;
+      right: 16px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: rgba(8,12,24,.82);
+      backdrop-filter: blur(8px);
+      border: 2px solid rgba(216,180,95,.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: #fff;
+    }
+    .ts-info {
+      padding: 20px 22px 22px;
+    }
+    .ts-body-label {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.5rem, 4vw, 2.4rem);
+      color: #ffe7a3;
+      line-height: 1.1;
+      margin-bottom: 4px;
+    }
+    .ts-phase-label {
+      font-size: .76rem;
+      font-weight: 900;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: #f4d986;
+      margin-bottom: 14px;
+      min-height: 1.1em;
+    }
+    .ts-bar-wrap {
+      height: 8px;
+      border-radius: 99px;
+      background: rgba(255,255,255,.06);
+      overflow: hidden;
+      margin-bottom: 18px;
+    }
+    .ts-bar-fill {
+      height: 100%;
+      width: 0%;
+      border-radius: 99px;
+      background: linear-gradient(90deg, #d8b45f, #f4d986);
+      transition: width .25s linear, background .3s;
+    }
+    .ts-bar-fill.contraction { background: linear-gradient(90deg, #b87f10, #f4d135); }
+    .ts-bar-fill.relachement { background: linear-gradient(90deg, #14826e, #64dcb4); }
+    .ts-bar-fill.pensee      { background: linear-gradient(90deg, #1e50b4, #64a0ff); }
+    .ts-music-row {
+      display: grid;
+      grid-template-columns: 1fr 110px;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .ts-field-label {
+      display: block;
+      font-size: .74rem;
+      color: #f4d986;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+    .ts-select {
+      width: 100%;
+      padding: 8px 10px;
+      border-radius: 10px;
+      background: #111827;
+      border: 1px solid rgba(216,180,95,.28);
+      color: #f4ecd8;
+      font-size: .87rem;
+    }
+    .ts-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .ts-btn-primary {
+      flex: 2;
+      padding: 13px 24px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #d8b45f, #9a7430);
+      color: #070b14;
+      font-weight: 900;
+      font-size: .95rem;
+      border: none;
+      cursor: pointer;
+    }
+    .ts-btn-secondary {
+      flex: 1;
+      padding: 13px 16px;
+      border-radius: 14px;
+      background: transparent;
+      border: 1px solid rgba(216,180,95,.28);
+      color: rgba(244,236,216,.7);
+      font-weight: 700;
+      font-size: .9rem;
+      cursor: pointer;
+    }
+    @media (max-width: 480px) {
+      .ts-music-row { grid-template-columns: 1fr; }
+    }
+  </style>
 </head>
 <body>
 <header class="axis-top-dashboard">
@@ -19,7 +169,6 @@
     <a class="axis-top-brand" href="index.html">
       <strong>Axis Lumen</strong>
     </a>
-
     <nav class="axis-top-links" aria-label="Navigation principale">
       <a href="index.html">Accueil</a>
       <a href="creer-seance.html">Créer sa séance</a>
@@ -39,33 +188,425 @@
     </nav>
   </div>
 </header>
+
 <div class="site">
 <main class="main">
-      <div class="page">
-        <section class="section-head"><div><div class="kicker">CORPS</div><h2>Tensions statiques</h2><p>Contraction, relâchement et reviviscence mentale du geste.</p></div></section>
-<section class="video-card"><video controls src="https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/tension-statique-complete.web.mp4"></video></section>
-<section class="card"><h3>Intégration</h3><p>La contraction physique devient une empreinte pensée. On revit le geste intérieurement, avec précision et sobriété.</p></section>
-        <div class="footer">Axis Lumen Studio · JE SUIS · Rendre son temple vivant</div>
+  <div class="page">
+
+    <section class="section-head">
+      <div>
+        <div class="kicker">CORPS</div>
+        <h2>Tensions statiques</h2>
+        <p>Contraction, relâchement et reviviscence mentale du geste.</p>
       </div>
-    </main>
-  </div>
-  <script src="js/axis-video-local-patch.js"></script>
-  <script src="js/site.js?v=20260501_170955"></script>
-  <script src="js/axis-feature-layer.js?v=20260501_182126"></script>
-  <script src="js/axis-clean-restoration.js?v=20260501_182126"></script>
+    </section>
 
-  <footer class="axis-legal-footer">
-    <div class="axis-legal-footer-inner">
-      <span>© Axis Lumen Studio</span>
-      <nav aria-label="Liens légaux">
-        <a href="mentions-legales.html">Mentions légales</a>
-        <a href="cgu.html">CGU</a>
-        <a href="cgv.html">CGV</a>
-        <a href="confidentialite.html">Confidentialité</a>
-      </nav>
+    <!-- ── Player principal ── -->
+    <div class="ts-player">
+
+      <!-- Visuel -->
+      <div class="ts-visual">
+        <img
+          id="axisTSImage"
+          class="ts-visual-img"
+          src="assets/images/tension statique/e3af15e3-61a9-490d-866b-6197a4f8a295.png"
+          alt="Tensions statiques — illustration"
+        >
+        <div id="axisTSBadge" class="ts-badge">Prêt</div>
+        <div id="axisTSCountdown" class="ts-countdown">—</div>
+      </div>
+
+      <!-- Infos + contrôles -->
+      <div class="ts-info">
+
+        <div id="axisTSBodyPart" class="ts-body-label">Tensions statiques</div>
+        <div id="axisTSPhaseName" class="ts-phase-label">Choisissez une piste et démarrez</div>
+
+        <div class="ts-bar-wrap">
+          <div id="axisTSBar" class="ts-bar-fill"></div>
+        </div>
+
+        <!-- Sélecteur de piste -->
+        <div class="ts-music-row">
+          <div>
+            <label for="axisTSAudioTrack" class="ts-field-label">Piste musicale</label>
+            <select id="axisTSAudioTrack" class="ts-select">
+              <option value="">Aucune piste</option>
+            </select>
+          </div>
+          <div>
+            <label for="axisTSVolume" class="ts-field-label">
+              Volume <span id="axisTSVolumeVal">40%</span>
+            </label>
+            <input id="axisTSVolume" type="range" min="0" max="1" step="0.05" value="0.4"
+              style="width:100%;accent-color:#d8b45f;">
+          </div>
+        </div>
+
+        <div class="ts-actions">
+          <button id="axisTSStart" type="button" class="ts-btn-primary"
+            aria-label="Démarrer la séquence guidée de tensions statiques">▶ Démarrer la séance</button>
+          <button id="axisTSStop" type="button" class="ts-btn-secondary"
+            aria-label="Arrêter la séquence">■ Arrêter</button>
+        </div>
+
+      </div>
     </div>
-  </footer>
 
-  <script src="js/stripe-products.js?v=20260501_191845"></script>
-  <script src="js/axis-referral-stripe-ready.js?v=20260501_191845"></script></body>
+    <!-- ── Introduction guidée ── -->
+    <section class="card" style="margin-bottom:16px;">
+      <h3 style="margin-top:0;">Introduction guidée</h3>
+      <p style="line-height:1.7;color:rgba(244,236,216,.8);">
+        Les tensions statiques sont une pratique profonde de conscience corporelle.
+        Chaque contraction de 8 secondes est suivie d'un relâchement, puis d'une <em>reviviscence en pensée</em> — la cénesthésie.
+        C'est ce troisième temps qui éveille la conscience du corps subtil.
+      </p>
+      <button id="axisTSIntro" type="button" style="
+          padding:11px 22px;border-radius:14px;
+          border:1px solid rgba(216,180,95,.38);
+          background:linear-gradient(135deg,rgba(216,180,95,.15),rgba(216,180,95,.05));
+          color:#ffe7a3;font-size:.92rem;font-weight:700;cursor:pointer;letter-spacing:.04em;"
+        aria-label="Écouter l'introduction guidée aux tensions statiques">▶ Écouter l'introduction</button>
+      <button id="axisTSIntroStop" type="button" style="
+          margin-left:8px;padding:11px 22px;border-radius:14px;
+          border:1px solid rgba(216,180,95,.22);background:transparent;
+          color:rgba(244,236,216,.6);font-size:.92rem;font-weight:700;cursor:pointer;"
+        aria-label="Arrêter la lecture de l'introduction">■ Arrêter</button>
+    </section>
+
+    <!-- ── Vidéo de référence ── -->
+    <section class="video-card">
+      <video controls src="https://github.com/ennealove/axis-lumen-depot/releases/download/video-v1/tension-statique-complete.web.mp4"></video>
+    </section>
+
+    <section class="card">
+      <h3>Intégration</h3>
+      <p>La contraction physique devient une empreinte pensée. On revit le geste intérieurement, avec précision et sobriété.</p>
+    </section>
+
+    <div class="footer">Axis Lumen Studio · JE SUIS · Rendre son temple vivant</div>
+  </div>
+</main>
+</div>
+
+<script src="js/axis-video-local-patch.js"></script>
+<script src="js/site.js?v=20260501_170955"></script>
+<script src="js/axis-feature-layer.js?v=20260501_182126"></script>
+<script src="js/axis-clean-restoration.js?v=20260501_182126"></script>
+
+<footer class="axis-legal-footer">
+  <div class="axis-legal-footer-inner">
+    <span>© Axis Lumen Studio</span>
+    <nav aria-label="Liens légaux">
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="cgu.html">CGU</a>
+      <a href="cgv.html">CGV</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/stripe-products.js?v=20260501_191845"></script>
+<script src="js/axis-referral-stripe-ready.js?v=20260501_191845"></script>
+<script src="js/axis-session-audio-map.js"></script>
+<script src="js/axis-voice-global.js"></script>
+
+<script>
+(function () {
+  "use strict";
+
+  // ── Chemins images ────────────────────────────────────────────────
+  // halo = en contraction (physique ou en pensée) / plain = sans contraction (relâchement)
+  var I = "assets/images/tension statique/";
+  var IMG = {
+    init:      I + "e3af15e3-61a9-490d-866b-6197a4f8a295.png",
+    lumiere:   I + "observer la lumière.png",
+    bandeau:   I + "personnage avec bandeau sur les yeux.png",
+    relache:   I + "A relachement.png",
+    relache2:  I + "A relachement 2.png",
+    apaisement:I + "apaisement.png",
+    corpH:     I + "corps entier avec halo.png",
+    // plain = relâchement / halo = contraction & en pensée
+    jg:  I + "jambe gauche.png",       jgH: I + "jambe gauche halo.png",
+    jd:  I + "jambe droite.png",       jdH: I + "jambe droite halo.png",
+    bg:  I + "bras gauche.png",        bgH: I + "bras gauche halo.png",
+    bd:  I + "bras droit.png",         bdH: I + "bras droit halo.png",
+    v:   I + "ventre.png",             vH:  I + "ventre halo.png",
+    t:   I + "tete.png",               tH:  I + "tete halo.png"
+  };
+
+  // ── Séquence ──────────────────────────────────────────────────────
+  var SEQUENCE = [
+    // ── Introduction ──────────────────────────────────────────────
+    { body: "Installez-vous",   phase: "Préparation",        barClass: "",            voice: "Allongez-vous. Prenez le temps de vous installer confortablement. Fermez les yeux quelques instants.",        duration: 30, img: IMG.init    },
+    { body: "Source lumineuse", phase: "Observation",        barClass: "",            voice: "Ouvrez les yeux. Fixez la source lumineuse pendant trente secondes en gardant l'esprit calme et ouvert.",     duration: 30, img: IMG.lumiere  },
+    { body: "Yeux fermés",      phase: "Obscurité intérieure",barClass: "",           voice: "Éteignez la lumière. Mettez votre bandeau. Fermez les yeux. Laissez la rémanence s'installer.",               duration: 10, img: IMG.bandeau  },
+
+    // ── Jambe gauche ──────────────────────────────────────────────
+    { body: "Jambe gauche",     phase: "CONTRACTION",        barClass: "contraction", voice: "Jambe gauche — contractez. Serrez fort pendant huit secondes.",                                               duration: 8,  img: IMG.jgH  },
+    { body: "Jambe gauche",     phase: "RELÂCHEMENT",        barClass: "relachement", voice: "Relâchez complètement.",                                                                                       duration: 8,  img: IMG.jg   },
+    { body: "Jambe gauche",     phase: "EN PENSÉE",          barClass: "pensee",      voice: "Revivez la contraction en pensée. Ressentez-la intérieurement, avec la même intensité.",                      duration: 8,  img: IMG.jgH  },
+
+    // ── Jambe droite ──────────────────────────────────────────────
+    { body: "Jambe droite",     phase: "CONTRACTION",        barClass: "contraction", voice: "Jambe droite — contractez.",                                                                                  duration: 8,  img: IMG.jdH  },
+    { body: "Jambe droite",     phase: "RELÂCHEMENT",        barClass: "relachement", voice: "Relâchez.",                                                                                                    duration: 8,  img: IMG.jd   },
+    { body: "Jambe droite",     phase: "EN PENSÉE",          barClass: "pensee",      voice: "Revivez la contraction en pensée.",                                                                           duration: 8,  img: IMG.jdH  },
+
+    // ── Bras gauche ───────────────────────────────────────────────
+    { body: "Bras gauche",      phase: "CONTRACTION",        barClass: "contraction", voice: "Bras gauche — contractez.",                                                                                   duration: 8,  img: IMG.bgH  },
+    { body: "Bras gauche",      phase: "RELÂCHEMENT",        barClass: "relachement", voice: "Relâchez.",                                                                                                    duration: 8,  img: IMG.bg   },
+    { body: "Bras gauche",      phase: "EN PENSÉE",          barClass: "pensee",      voice: "Contraction en pensée.",                                                                                      duration: 8,  img: IMG.bgH  },
+
+    // ── Bras droit ────────────────────────────────────────────────
+    { body: "Bras droit",       phase: "CONTRACTION",        barClass: "contraction", voice: "Bras droit — contractez.",                                                                                    duration: 8,  img: IMG.bdH  },
+    { body: "Bras droit",       phase: "RELÂCHEMENT",        barClass: "relachement", voice: "Relâchez.",                                                                                                    duration: 8,  img: IMG.bd   },
+    { body: "Bras droit",       phase: "EN PENSÉE",          barClass: "pensee",      voice: "Contraction en pensée.",                                                                                      duration: 8,  img: IMG.bdH  },
+
+    // ── Ventre ────────────────────────────────────────────────────
+    { body: "Ventre",           phase: "CONTRACTION",        barClass: "contraction", voice: "Ventre — contractez.",                                                                                        duration: 8,  img: IMG.vH   },
+    { body: "Ventre",           phase: "RELÂCHEMENT",        barClass: "relachement", voice: "Relâchez.",                                                                                                    duration: 8,  img: IMG.v    },
+    { body: "Ventre",           phase: "EN PENSÉE",          barClass: "pensee",      voice: "Contraction en pensée.",                                                                                      duration: 8,  img: IMG.vH   },
+
+    // ── Cou et nuque ──────────────────────────────────────────────
+    { body: "Cou et nuque",     phase: "CONTRACTION",        barClass: "contraction", voice: "Cou et nuque — contractez.",                                                                                  duration: 8,  img: IMG.tH   },
+    { body: "Cou et nuque",     phase: "RELÂCHEMENT",        barClass: "relachement", voice: "Relâchez.",                                                                                                    duration: 8,  img: IMG.t    },
+    { body: "Cou et nuque",     phase: "EN PENSÉE",          barClass: "pensee",      voice: "Contraction en pensée.",                                                                                      duration: 8,  img: IMG.tH   },
+
+    // ── Visage ────────────────────────────────────────────────────
+    { body: "Visage",           phase: "CONTRACTION",        barClass: "contraction", voice: "Visage — contractez doucement.",                                                                              duration: 8,  img: IMG.tH   },
+    { body: "Visage",           phase: "RELÂCHEMENT",        barClass: "relachement", voice: "Relâchez.",                                                                                                    duration: 8,  img: IMG.t    },
+    { body: "Visage",           phase: "EN PENSÉE",          barClass: "pensee",      voice: "Contraction en pensée.",                                                                                      duration: 8,  img: IMG.tH   },
+
+    // ── Corps entier ──────────────────────────────────────────────
+    { body: "Corps entier",     phase: "CONTRACTION TOTALE", barClass: "contraction", voice: "Maintenant — tout le corps ensemble. Contractez.",                                                            duration: 8,  img: IMG.corpH },
+    { body: "Corps entier",     phase: "RELÂCHEMENT TOTAL",  barClass: "relachement", voice: "Relâchez tout. Laissez aller complètement.",                                                                  duration: 8,  img: IMG.relache2 },
+    { body: "Corps entier",     phase: "EN PENSÉE",          barClass: "pensee",      voice: "Revivez cette contraction totale en pensée. Sentez le corps subtil s'éveiller.",                             duration: 8,  img: IMG.corpH },
+
+    // ── Silence final ─────────────────────────────────────────────
+    { body: "Silence",          phase: "Intégration",        barClass: "",            voice: "Fin de l'exercice. Restez immobile. Observez ce qui se présente.",                                           duration: 30, img: IMG.apaisement }
+  ];
+
+  // ── État ──────────────────────────────────────────────────────────
+  var stepIndex = 0;
+  var stepTimer = null;
+  var stepStart = 0;
+  var barTimer  = null;
+  var running   = false;
+  var bgAudio   = null;
+
+  var INTRO_TEXT =
+    "Les tensions statiques sont une pratique profonde de conscience corporelle. " +
+    "Le principe est simple : contracter physiquement une partie du corps pendant huit secondes, relâcher, " +
+    "puis revivre cette contraction en pensée pure. " +
+    "Ce troisième temps — la contraction en pensée — est l'essence de l'exercice. " +
+    "On appelle cela la cénesthésie : la conscience interne du geste. " +
+    "En pratiquant régulièrement, la conscience du corps subtil se développe et s'affine. " +
+    "La clé est le rythme : huit secondes précises pour chaque phase. " +
+    "C'est ce rythme qui ancre l'énergie dans le système nerveux.";
+
+  // ── Helpers ───────────────────────────────────────────────────────
+  function el(id) { return document.getElementById(id); }
+
+  function speak(text) {
+    if (!text) return;
+    if (window.axisSpeak) { window.axisSpeak(text, true); return; }
+    if (!window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    var u = new SpeechSynthesisUtterance(text);
+    u.lang = "fr-FR"; u.rate = 0.92; u.volume = 0.9;
+    var fr = window.speechSynthesis.getVoices().find(function (v) {
+      return v.lang && v.lang.toLowerCase().startsWith("fr");
+    });
+    if (fr) u.voice = fr;
+    window.speechSynthesis.speak(u);
+  }
+
+  // ── Image avec fondu ──────────────────────────────────────────────
+  function setImage(src) {
+    var img = el("axisTSImage");
+    if (!img || img.getAttribute("src") === src) return;
+    img.style.opacity = "0";
+    setTimeout(function () {
+      img.setAttribute("src", src);
+      img.style.opacity = "1";
+    }, 340);
+  }
+
+  // ── Audio de fond ─────────────────────────────────────────────────
+  function startAudio() {
+    var select = el("axisTSAudioTrack");
+    var volEl  = el("axisTSVolume");
+    if (!select || !select.value) { stopAudio(); return; }
+    var url = select.options[select.selectedIndex].dataset.url;
+    var vol = volEl ? parseFloat(volEl.value) : 0.4;
+    if (!url) { stopAudio(); return; }
+    if (bgAudio && bgAudio.src === url && !bgAudio.paused) return;
+    stopAudio();
+    try {
+      bgAudio = new Audio(url);
+      bgAudio.loop   = true;
+      bgAudio.volume = vol;
+      var p = bgAudio.play();
+      if (p && p.catch) p.catch(function () {});
+    } catch (_) {}
+  }
+
+  function stopAudio() {
+    if (bgAudio) {
+      try { bgAudio.pause(); } catch (_) {}
+      bgAudio = null;
+    }
+  }
+
+  // ── Barre de progression ──────────────────────────────────────────
+  function updateBar() {
+    var step = SEQUENCE[stepIndex];
+    if (!step) return;
+    var elapsed = (Date.now() - stepStart) / 1000;
+    var pct = Math.min(100, (elapsed / step.duration) * 100);
+    var bar = el("axisTSBar");
+    var cd  = el("axisTSCountdown");
+    if (bar) bar.style.width = pct + "%";
+    if (cd)  cd.textContent  = Math.max(0, Math.ceil(step.duration - elapsed));
+  }
+
+  // ── Affichage d'une étape ─────────────────────────────────────────
+  function showStep(idx) {
+    var step = SEQUENCE[idx];
+    if (!step) { endGuide(); return; }
+
+    var bodyEl  = el("axisTSBodyPart");
+    var phaseEl = el("axisTSPhaseName");
+    var badge   = el("axisTSBadge");
+    var bar     = el("axisTSBar");
+    var cd      = el("axisTSCountdown");
+
+    if (bodyEl)  bodyEl.textContent  = step.body;
+    if (phaseEl) phaseEl.textContent = step.phase;
+    if (cd)      cd.textContent      = step.duration;
+
+    // Badge + barre colorée selon phase
+    if (badge) {
+      badge.className  = "ts-badge" + (step.barClass ? " " + step.barClass : "");
+      badge.textContent = step.phase;
+    }
+    if (bar) {
+      bar.className  = "ts-bar-fill" + (step.barClass ? " " + step.barClass : "");
+      bar.style.width = "0%";
+    }
+
+    setImage(step.img);
+    speak(step.voice);
+
+    stepStart = Date.now();
+    clearInterval(barTimer);
+    barTimer = setInterval(updateBar, 200);
+
+    clearTimeout(stepTimer);
+    stepTimer = setTimeout(function () {
+      stepIndex++;
+      showStep(stepIndex);
+    }, step.duration * 1000);
+  }
+
+  // ── Démarrer ──────────────────────────────────────────────────────
+  function startGuide() {
+    if (running) return;
+    running   = true;
+    stepIndex = 0;
+    startAudio();
+    showStep(0);
+  }
+
+  // ── Arrêter ───────────────────────────────────────────────────────
+  function stopGuide() {
+    running = false;
+    clearTimeout(stepTimer);
+    clearInterval(barTimer);
+    stopAudio();
+    window.axisStopSpeech ? window.axisStopSpeech() : (window.speechSynthesis && window.speechSynthesis.cancel());
+
+    var badge = el("axisTSBadge");
+    if (el("axisTSBodyPart"))  el("axisTSBodyPart").textContent  = "Tensions statiques";
+    if (el("axisTSPhaseName")) el("axisTSPhaseName").textContent = "Séquence arrêtée";
+    if (badge) { badge.className = "ts-badge"; badge.textContent = "Arrêté"; }
+    var bar = el("axisTSBar");
+    if (bar) { bar.className = "ts-bar-fill"; bar.style.width = "0%"; }
+    var cd = el("axisTSCountdown");
+    if (cd) cd.textContent = "—";
+    setImage(IMG.init);
+  }
+
+  // ── Fin naturelle ─────────────────────────────────────────────────
+  function endGuide() {
+    running = false;
+    clearTimeout(stepTimer);
+    clearInterval(barTimer);
+    stopAudio();
+
+    var badge = el("axisTSBadge");
+    if (el("axisTSBodyPart"))  el("axisTSBodyPart").textContent  = "Séance terminée";
+    if (el("axisTSPhaseName")) el("axisTSPhaseName").textContent = "Reposez-vous un instant";
+    if (badge) { badge.className = "ts-badge"; badge.textContent = "Terminé"; }
+    var bar = el("axisTSBar");
+    if (bar) { bar.className = "ts-bar-fill"; bar.style.width = "100%"; }
+    var cd = el("axisTSCountdown");
+    if (cd) cd.textContent = "✓";
+    setImage(IMG.apaisement);
+    speak("Séance terminée. Restez un instant immobile. Observez ce qui se présente en vous.");
+  }
+
+  // ── Remplir le sélecteur audio ────────────────────────────────────
+  function fillAudioSelect() {
+    var select = el("axisTSAudioTrack");
+    if (!select) return;
+    var tracks = Array.isArray(window.AXIS_AUDIO_TRACKS) ? window.AXIS_AUDIO_TRACKS : [];
+
+    // Dédoublonner sur l'URL
+    var seen = {};
+    var unique = [];
+    tracks.forEach(function (t) {
+      if (!seen[t.url]) { seen[t.url] = true; unique.push(t); }
+    });
+
+    select.innerHTML = '<option value="">Aucune piste</option>';
+    unique.forEach(function (t) {
+      var opt = document.createElement("option");
+      opt.value           = t.id;
+      opt.textContent     = t.name;
+      opt.dataset.url     = t.url;
+      select.appendChild(opt);
+    });
+  }
+
+  // ── Init ──────────────────────────────────────────────────────────
+  function init() {
+    fillAudioSelect();
+
+    var volEl = el("axisTSVolume");
+    var volVal = el("axisTSVolumeVal");
+    if (volEl) {
+      volEl.addEventListener("input", function () {
+        if (volVal) volVal.textContent = Math.round(parseFloat(this.value) * 100) + "%";
+        if (bgAudio) bgAudio.volume = parseFloat(this.value);
+      });
+    }
+
+    el("axisTSStart") && el("axisTSStart").addEventListener("click", startGuide);
+    el("axisTSStop")  && el("axisTSStop").addEventListener("click",  stopGuide);
+
+    el("axisTSIntro") && el("axisTSIntro").addEventListener("click", function () {
+      speak(INTRO_TEXT);
+    });
+    el("axisTSIntroStop") && el("axisTSIntroStop").addEventListener("click", function () {
+      window.axisStopSpeech ? window.axisStopSpeech() : (window.speechSynthesis && window.speechSynthesis.cancel());
+    });
+  }
+
+  document.readyState === "loading"
+    ? document.addEventListener("DOMContentLoaded", init)
+    : init();
+})();
+</script>
+</body>
 </html>

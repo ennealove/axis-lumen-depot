@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Exercice Balancement — Programme 8 jours — Axis Lumen Studio</title>
+  <meta name="description" content="Programme de balancement en 8 jours : contemplation d'objet, observation lumineuse, bandeau et balancement mantra. Génère ta séance sur mesure.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/axis-clean-restoration.css">
+  <link rel="stylesheet" href="css/legal-pages.css">
+  <link rel="stylesheet" href="css/referral-stripe-ready.css">
+  <link rel="stylesheet" href="css/axis-global-top-nav.css">
+  <link rel="stylesheet" href="css/home-dashboard-top.css">
+  <link rel="stylesheet" href="css/axis-index-nav-exact.css">
+  <link rel="stylesheet" href="css/exercice-balancement.css">
+</head>
+
+<body class="eb-page">
+<header class="axis-top-dashboard">
+  <div class="axis-top-dashboard-inner">
+    <a class="axis-top-brand" href="index.html"><strong>Axis Lumen</strong></a>
+    <nav class="axis-top-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="creer-seance.html">Créer sa séance</a>
+      <a href="pratiquer.html">Pratiquer</a>
+      <a href="oscillation.html">Oscillation guidée</a>
+      <a href="respiration.html">Respiration</a>
+      <a href="rotor-optique.html">Rotor optique</a>
+      <a href="tensions-statiques.html">Tensions statiques</a>
+      <a class="active" href="apprendre.html">Apprendre</a>
+      <a href="vertus.html">Vertus</a>
+      <a class="axis-top-cta" href="boutique.html">Boutique</a>
+      <a href="abonnement.html">Abonnement</a>
+      <a href="parrainage.html">Parrainage</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="login.html">Connexion</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </div>
+</header>
+
+<main class="eb-main">
+
+  <!-- Hero -->
+  <section class="eb-hero">
+    <p class="eb-kicker">Programme fondamental</p>
+    <h1>Balancement &amp; Contemplation</h1>
+    <p>
+      Huit jours de pratique progressive : du carré à la visualisation libre.
+      Chaque séance suit le protocole complet — contemplation, lumière, bandeau, balancement avec mantra.
+      Il suffit de choisir ta journée et ta musique.
+    </p>
+  </section>
+
+  <div class="eb-layout">
+
+    <!-- Left: day selector + object picker -->
+    <div>
+      <p class="eb-section-label">Choisir le jour</p>
+      <div id="ebDaysGrid" class="eb-days-grid"></div>
+
+      <div id="ebObjectPicker" class="eb-object-section"></div>
+    </div>
+
+    <!-- Right: config + preview + launch -->
+    <div class="eb-config-panel">
+
+      <!-- Swing -->
+      <div class="eb-config-group">
+        <span class="eb-group-label">Direction du balancement</span>
+        <div id="ebSwingBtns" class="eb-opt-row">
+          <button class="eb-opt-btn" data-swing="lateral"  type="button">Latéral ↔<br><small style="font-size:.7rem;font-weight:600;opacity:.75">ILLI</small></button>
+          <button class="eb-opt-btn" data-swing="vertical" type="button">Vertical ↕<br><small style="font-size:.7rem;font-weight:600;opacity:.75">ALLA</small></button>
+          <button class="eb-opt-btn" data-swing="ap"       type="button">Antéro-post. ⇄<br><small style="font-size:.7rem;font-weight:600;opacity:.75">ELLU</small></button>
+        </div>
+      </div>
+
+      <div class="eb-divider"></div>
+
+      <!-- Duration -->
+      <div class="eb-config-group">
+        <span class="eb-group-label">Durée de pratique</span>
+        <div id="ebDurBtns" class="eb-opt-row">
+          <button class="eb-opt-btn" data-dur="9"  type="button">9 min<br><small style="font-size:.7rem;opacity:.7">3 cycles</small></button>
+          <button class="eb-opt-btn" data-dur="15" type="button">15 min<br><small style="font-size:.7rem;opacity:.7">5 cycles</small></button>
+          <button class="eb-opt-btn" data-dur="21" type="button">21 min<br><small style="font-size:.7rem;opacity:.7">7 cycles</small></button>
+          <button class="eb-opt-btn" data-dur="30" type="button">30 min<br><small style="font-size:.7rem;opacity:.7">10 cycles</small></button>
+        </div>
+      </div>
+
+      <div class="eb-divider"></div>
+
+      <!-- Music -->
+      <div class="eb-config-group">
+        <label for="ebAudioSelect">Musique de fond</label>
+        <select id="ebAudioSelect" class="eb-select">
+          <option value="">Aucune musique</option>
+        </select>
+      </div>
+
+      <div class="eb-divider"></div>
+
+      <!-- Preview -->
+      <div>
+        <span class="eb-group-label" style="display:block;margin-bottom:10px;">Aperçu de la séance</span>
+        <div id="ebPreview" class="eb-preview"></div>
+      </div>
+
+      <!-- Launch -->
+      <button id="ebLaunch" class="eb-launch-btn" type="button">
+        Lancer la séance
+        <small>Lecteur intégré avec sons</small>
+      </button>
+
+    </div>
+  </div>
+
+</main>
+
+<!-- ═══ Session overlay ═══════════════════════════════════════════════ -->
+<div id="ebSessionOverlay" class="eb-session-overlay hidden" role="dialog" aria-modal="true">
+
+  <!-- Progress bar -->
+  <div class="eb-sov-progress-wrap"><div id="ebSovProgressBar" class="eb-sov-progress-bar"></div></div>
+
+  <!-- Header -->
+  <div class="eb-sov-header">
+    <div class="eb-sov-meta">
+      <span id="ebSovPhaseNum" class="eb-sov-phase-num"></span>
+      <span id="ebSovTimer" class="eb-sov-timer"></span>
+    </div>
+    <h2 id="ebSovTitle" class="eb-sov-title"></h2>
+    <p  id="ebSovSub"   class="eb-sov-sub"></p>
+  </div>
+
+  <!-- Visual zone -->
+  <div id="ebSovVisual" class="eb-sov-visual">
+
+    <!-- Image (contemplation / bandeau) -->
+    <img id="ebSovImage" class="eb-sov-image hidden" src="" alt="">
+
+    <!-- Pendulum (balancement) -->
+    <div id="ebSovPendulum" class="eb-sov-pendulum hidden">
+      <div class="eb-sov-pendulum-track">
+        <div id="ebSovDot" class="eb-sov-dot"></div>
+      </div>
+      <div id="ebSovMantra" class="eb-sov-mantra"></div>
+      <div id="ebSovSegLabel" class="eb-sov-seg-label"></div>
+    </div>
+
+    <!-- Text block (lumière / instructions) -->
+    <div id="ebSovTextBlock" class="eb-sov-text-block hidden">
+      <div id="ebSovIcon"     class="eb-sov-big-icon"></div>
+      <div id="ebSovMainText" class="eb-sov-main-text"></div>
+    </div>
+
+  </div>
+
+  <!-- Guide + countdown -->
+  <div class="eb-sov-footer">
+    <div id="ebSovCountdown" class="eb-sov-countdown"></div>
+    <p   id="ebSovGuide"     class="eb-sov-guide"></p>
+    <button id="ebSovStop" type="button" class="eb-sov-stop-btn">Terminer la séance</button>
+  </div>
+
+</div>
+
+<footer class="axis-legal-footer">
+  <div class="axis-legal-footer-inner">
+    <span>© Axis Lumen Studio</span>
+    <nav aria-label="Liens légaux">
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="cgu.html">CGU</a>
+      <a href="cgv.html">CGV</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/axis-access-control.js"></script>
+<script src="js/axis-voice-global.js"></script>
+<script src="js/axis-session-video-map.js"></script>
+<script src="js/axis-session-audio-map.js"></script>
+<script src="js/axis-audio-local-patch.js"></script>
+<script src="js/axis-video-local-patch.js"></script>
+<script src="js/exercice-balancement.js" defer></script>
+</body>
+</html>

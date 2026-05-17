@@ -1093,29 +1093,184 @@ window.AXIS_ONE_HOUR_COURSES = [
   "pdfPremium": true
 },
     {
-    "id": "C005-convergence-oculaire",
+    "id": "C005-sensations-cenesthesiques",
     "number": 5,
-    "familyId": "exercices",
-    "familyTitle": "Livre d'Exercices enrichi",
-    "symbol": "◎",
-    "title": "Exercice 9 — Convergence oculaire",
-    "subtitle": "Fusionner deux points visuels vers un centre unique",
+    "familyId": "vivant",
+    "familyTitle": "Clair-ressenti & vivant",
+    "symbol": "◈",
+    "title": "Sensations cénesthésiques",
+    "subtitle": "Percevoir et habiter les sensations internes du corps vivant",
     "duration": "1 h",
     "durationMin": 60,
     "level": "Fondation",
-    "kind": "Exercice de perception visuelle",
+    "kind": "Exercice de perception corporelle",
     "status": "available",
-    "summary": "La convergence oculaire est un exercice de concentration du regard qui consiste à fixer un point ou à fusionner deux images en un centre unique. Cet exercice développe la stabilité du regard intérieur et prépare à la perception de la rémanence.",
-    "shortSummary": "Diriger les deux axes visuels vers un même point central.",
-    "longSummary": "La convergence oculaire est l'un des exercices fondamentaux du Livre d'Exercices. En dirigeant les deux axes visuels vers un point unique — réel ou imaginaire — on crée un état de concentration naturelle qui calme le mental discursif. Cet exercice peut se pratiquer avec deux doigts devant le visage, avec un objet suspendu, ou purement en imagination. La convergence active les mécanismes de focalisation binoculaire du cerveau et prépare directement à la stabilisation du point intérieur décrite dans les exercices 3 et 4. Avec l'entraînement, la convergence devient un déclencheur d'état : quelques secondes suffisent pour retrouver la qualité d'attention requise pour la pratique lumineuse.",
-    "pedagogicalObjective": "Maîtriser la convergence des axes visuels vers un centre unique et stabiliser le regard intérieur.",
-    "initiaticObjective": "Développer la qualité d'attention focalisée qui précède et accompagne la rémanence.",
-    "essentialPhrase": "Je dirige mes deux regards vers un même centre. Je tiens ce point. Je laisse l'attention se poser.",
-    "shortPhrase": "Un centre. Deux yeux. Un seul regard.",
+    "image": "assets/images/exercice%20113%20114%20115/c%C3%A9n%C3%A8st%C3%A9sique%201.png",
+    "summary": "La cénesthésie est la conscience globale du corps — la somme de toutes les sensations internes : chaleur, picotements, poids, légèreté, flux, pulsation. Apprendre à percevoir ces sensations fine le système nerveux et ouvre la voie au clair-ressenti.",
+    "shortSummary": "Développer la conscience des sensations internes du corps comme fondation du clair-ressenti.",
+    "longSummary": "La cénesthésie désigne l'ensemble des sensations que le corps produit de l'intérieur : temperature, pression, mouvement, vibration, tonus musculaire, pulsation cardiaque, flux sanguin, légèreté ou lourdeur des membres. C'est le socle physiologique de ce que les traditions appellent le corps subtil. En apprenant à percevoir ces sensations avec finesse et sans les interpréter, on développe un outil d'observation interne précieux. La pratique commence par un inventaire corporel calme (scanner de la tête aux pieds), puis s'affine vers la perception de nuances plus subtiles : picotement au bout des doigts, chaleur qui monte dans la colonne, légère pulsation au centre du front. Ces perceptions ne sont ni imaginées ni construites — elles sont réelles et mesurables. Ce cours apprend à les accueillir sans amplification ni déni, et à les utiliser comme repères dans les séances de pratique lumineuse.",
+    "pedagogicalObjective": "Développer la capacité de percevoir et nommer les sensations cénesthésiques corporelles avec précision.",
+    "initiaticObjective": "Transformer le corps en instrument de perception intérieure fidèle et sobre.",
+    "essentialPhrase": "Je perçois ce qui est. Je ne fabrique pas. Je ne refuse pas. Je laisse le corps parler son langage discret.",
+    "shortPhrase": "Je sens donc je suis présent.",
     "coverImage": "assets/images/exercice%20113%20114%20115/convergence%20oculaire%201.png",
     "image": "assets/images/exercice%20113%20114%20115/convergence%20oculaire%201.png",
     "pdfPremium": false,
-    "tags": ["convergence", "regard", "concentration", "binoculaire", "point fixe", "exercice"]
+    "tags": ["cénesthésie", "sensations", "corps", "chaleur", "picotements", "perception", "clair-ressenti", "exercice"]
+  },
+    {
+    "id": "C005b-cinestheie-en-pratique",
+    "number": 5.1,
+    "familyId": "vivant",
+    "familyTitle": "Clair-ressenti & vivant",
+    "symbol": "◈",
+    "title": "Cénesthésie en pratique — sentir depuis l'intérieur",
+    "subtitle": "De la perception générale aux sensations fines et localisées",
+    "duration": "1 h",
+    "durationMin": 60,
+    "level": "Fondation",
+    "kind": "Exercice de perception corporelle approfondie",
+    "status": "available",
+    "summary": "Ce cours prolonge la découverte de la cénesthésie en passant de la perception globale aux sensations localisées et fines. On apprend à cartographier le corps de l'intérieur : zones chaudes, zones froides, zones de pulsation, zones de vide. Cette carte sensorielle devient le fondement du clair-ressenti.",
+    "shortSummary": "Passer de la perception globale aux sensations localisées : cartographier le corps de l'intérieur.",
+    "longSummary": "Après la première rencontre avec la cénesthésie générale, ce cours développe la précision : on apprend à identifier non plus seulement 'je sens quelque chose dans le corps' mais 'je sens une chaleur légère au bout des doigts de la main gauche, distincte de la légère pression au sternum'. Cette localisation fine est une compétence cruciale pour le clair-ressenti avancé. La pratique utilise la méthode du scanner progressif : partir des extrémités (orteils, doigts, sommet du crâne) pour descendre vers le centre, en notant les qualités de chaque zone — température, pression, texture, mouvement, densité. Le corps révèle ainsi une géographie intérieure riche et stable, indépendante de l'imagination.",
+    "pedagogicalObjective": "Développer la capacité de localiser et de nommer avec précision les sensations cénesthésiques dans des zones corporelles spécifiques.",
+    "initiaticObjective": "Construire une carte sensorielle intérieure fiable qui servira de référence pour toutes les perceptions subtiles futures.",
+    "essentialPhrase": "Chaque zone du corps a une voix propre. Apprendre à l'entendre, c'est apprendre à lire le livre vivant de l'intérieur.",
+    "shortPhrase": "Je localise. Je nomme. Je reste sobre.",
+    "minutePlan": [
+      { "time": "0:00 — 5:00", "title": "Installation", "content": "Assis ou allongé. Fermer les yeux. Respiration naturelle. Observation du corps global sans localisation." },
+      { "time": "5:00 — 15:00", "title": "Enseignement", "content": "La localisation sensorielle : pourquoi le cerveau peut perdre la carte intérieure et comment la retrouver." },
+      { "time": "15:00 — 35:00", "title": "Scanner progressif", "content": "Du sommet du crâne vers les orteils, zone par zone : noter température, pression, pulsation, vide ou présence." },
+      { "time": "35:00 — 48:00", "title": "Zones spécifiques", "content": "Revenir aux 3 zones les plus distinctes. Approfondir : la sensation change-t-elle avec l'attention ?" },
+      { "time": "48:00 — 55:00", "title": "Carnet de carte", "content": "Dessiner ou écrire la carte sensorielle du corps observée ce jour. Sans embellir ni corriger." },
+      { "time": "55:00 — 60:00", "title": "Clôture", "content": "Trois respirations. Retour au corps global. Geste de fermeture." }
+    ],
+    "plan": [
+      "0–5 min — Installation et observation du corps global",
+      "5–15 min — Enseignement : la localisation sensorielle et la carte intérieure",
+      "15–35 min — Scanner progressif crâne vers orteils",
+      "35–48 min — Approfondissement des 3 zones les plus distinctes",
+      "48–55 min — Carnet : carte sensorielle du jour",
+      "55–60 min — Clôture et retour au corps global"
+    ],
+    "teaching": {
+      "intro": "Le corps humain est une géographie. Il a des zones chaudes et des zones froides, des zones de pulsation vivante et des zones de silence, des zones denses et des zones légères. Cette géographie change d'un jour à l'autre, d'une heure à l'autre. Apprendre à la lire, c'est apprendre une langue que le corps parle en permanence — silencieusement, patiemment.",
+      "sections": [
+        {
+          "title": "1. Pourquoi le cerveau perd la carte intérieure",
+          "content": "Le système nerveux alloue de l'attention là où les dangers ou les besoins urgents se trouvent. Dans une vie orientée vers l'extérieur, l'intérieur du corps cesse de recevoir de l'attention — sauf quand il fait mal. On finit par n'entendre le corps que lorsqu'il crie. La pratique cénesthésique inverse cette tendance : elle entraîne l'attention à entendre les murmures avant les cris, à percevoir les nuances subtiles avant que les déséquilibres ne deviennent des douleurs."
+        },
+        {
+          "title": "2. Le scanner progressif : technique et précision",
+          "content": "Le scanner cénesthésique est une méthode systématique d'exploration intérieure. On part d'un bout du corps et on progresse zone par zone, en posant à chaque endroit la même question : qu'est-ce que je perçois ici maintenant ? Température (chaud, froid, neutre), pression (légère, forte, absente), texture (fluide, dense, granuleuse), mouvement (pulsation, flux, statique), présence ou vide. On note sans interpréter — on observe comme un explorateur observe un territoire inconnu."
+        },
+        {
+          "title": "3. L'attention change ce qu'elle observe",
+          "content": "Une observation fondamentale : l'attention portée à une zone corporelle modifie souvent les sensations de cette zone. Ce n'est pas de l'imagination — c'est une réalité physiologique. Diriger l'attention vers la main droite augmente le flux sanguin dans cette main. Diriger l'attention vers la gorge crée souvent une légère chaleur. Ce phénomène est précieux : il signifie que la perception cénesthésique n'est pas passive mais interactive. L'observateur et l'observé sont liés."
+        },
+        {
+          "title": "4. La carte sensorielle comme outil de suivi",
+          "content": "En produisant régulièrement une carte sensorielle du corps — même sommaire, même imparfaite — on constitue un journal de l'état intérieur qui révèle des patterns au fil du temps. Certaines zones sont chroniquement tendues, d'autres chroniquement absentes. Certaines zones s'allument lors des pratiques lumineuses. Cette carte devient un instrument de connaissance de soi plus fidèle que n'importe quel questionnaire psychologique."
+        }
+      ]
+    },
+    "practice": "Scanner cénesthésique complet — 20 minutes :\n1. Allongez-vous ou asseyez-vous confortablement. Fermez les yeux.\n2. Commencez par le sommet du crâne : qu'y a-t-il là ? Chaleur, pression, pulsation, vide ?\n3. Descendez progressivement : front, yeux, joues, bouche, gorge.\n4. Épaules (droite puis gauche), bras, coudes, avant-bras, poignets, mains, doigts un par un.\n5. Poitrine, cœur, plexus, ventre, lombaires.\n6. Bassin, hanches, cuisses, genoux, mollets, chevilles, pieds, orteils.\n7. Revenez aux 3 zones qui vous ont le plus interpellé. Restez-y 2 minutes chacune.\n8. Notez votre carte. Dessinez si vous le souhaitez.",
+    "journalQuestions": [
+      "Quelle zone est la plus vivante aujourd'hui ?",
+      "Quelle zone est la plus silencieuse ou absente ?",
+      "Une zone a-t-elle changé sous l'effet de l'attention ?",
+      "Ma carte d'aujourd'hui ressemble-t-elle à celle de la semaine dernière ?"
+    ],
+    "validation": [
+      "J'ai réalisé le scanner complet de la tête aux pieds.",
+      "J'ai identifié au moins 3 zones avec des qualités différentes.",
+      "J'ai noté ma carte sensorielle sans l'embellir.",
+      "J'ai observé si l'attention modifie les sensations."
+    ],
+    "tags": ["cénesthésie", "scanner", "localisation", "carte sensorielle", "corps", "perception", "fondation"],
+    "image": "assets/images/exercice%20113%20114%20115/c%C3%A9n%C3%A8st%C3%A9sique%201.png",
+    "pdf": "assets/cours-pdf/C005b-cinestheie-en-pratique.pdf",
+    "pdfPremium": false,
+    "previousCourse": "C005-sensations-cenesthesiques",
+    "nextCourse": "C005c-integrer-la-cinestheie"
+  },
+    {
+    "id": "C005c-integrer-la-cinestheie",
+    "number": 5.2,
+    "familyId": "vivant",
+    "familyTitle": "Clair-ressenti & vivant",
+    "symbol": "◈",
+    "title": "Intégrer la cénesthésie dans la pratique quotidienne",
+    "subtitle": "Du scanner formel à la présence corporelle continue",
+    "duration": "1 h",
+    "durationMin": 60,
+    "level": "Fondation",
+    "kind": "Intégration & pratique autonome",
+    "status": "available",
+    "summary": "Le troisième volet de la cénesthésie passe du scanner de séance à la présence corporelle continue. On apprend à maintenir une conscience partielle mais stable du corps tout au long de la journée, sans interrompre l'activité ordinaire. Cette présence est le fondement de l'ancrage.",
+    "shortSummary": "Passer du scanner de séance à la conscience corporelle continue dans la vie quotidienne.",
+    "longSummary": "La cénesthésie pratiquée uniquement en séance reste un exercice parmi d'autres. Sa vraie valeur apparaît quand elle s'intègre dans le flux de la vie : une présence corporelle partielle mais stable, comme une radio de fond qui diffuse l'état intérieur en permanence. Cette présence n'interrompt pas l'activité — elle la nourrit. L'architecte qui dessine avec une conscience claire de ses mains et de ses épaules dessine mieux. Le parent qui écoute son enfant avec une conscience légère de son propre état intérieur est plus présent. Ce cours enseigne les techniques d'ancrage discret : l'appui des pieds sur le sol, le poids des mains, la sensation du souffle — trois ancres rapides utilisables en toutes circonstances.",
+    "pedagogicalObjective": "Développer une conscience cénesthésique partielle mais continue pendant les activités quotidiennes.",
+    "initiaticObjective": "Faire du corps un compagnon de présence plutôt qu'un objet à gérer — transformer la vie ordinaire en pratique discrète d'ancrage.",
+    "essentialPhrase": "Je peux agir dans le monde et me sentir vivant en même temps. Ce n'est pas une contradiction : c'est l'intégration.",
+    "shortPhrase": "Ancré dans le corps, présent dans le monde.",
+    "minutePlan": [
+      { "time": "0:00 — 5:00", "title": "Bilan des deux premiers cours", "content": "Rappel rapide des deux premiers volets : qu'a-t-on découvert sur la cénesthésie personnelle ?" },
+      { "time": "5:00 — 15:00", "title": "Enseignement", "content": "La présence corporelle continue : comment elle fonctionne, pourquoi elle ne perturbe pas l'activité, ce qu'elle apporte." },
+      { "time": "15:00 — 30:00", "title": "Les trois ancres rapides", "content": "Pieds-sol, poids des mains, souffle : trois points d'ancrage discrets pratiquables en toutes circonstances. Exercice guidé." },
+      { "time": "30:00 — 45:00", "title": "Pratique en action simulée", "content": "Alterner activité courte (lire, écrire, marcher) et retour aux ancres. Observer comment la présence corporelle se maintient ou se perd." },
+      { "time": "45:00 — 55:00", "title": "Carnet de protocole personnel", "content": "Définir son propre protocole d'ancrage discret pour la semaine : quand, comment, avec quelle ancre." },
+      { "time": "55:00 — 60:00", "title": "Clôture", "content": "Trois respirations avec les trois ancres simultanément. Formule de fermeture." }
+    ],
+    "plan": [
+      "0–5 min — Bilan des cours 5 et 5.1 : découvertes personnelles",
+      "5–15 min — Enseignement : la présence corporelle continue",
+      "15–30 min — Les trois ancres rapides : pieds-sol, mains, souffle",
+      "30–45 min — Pratique alternée : activité et retour aux ancres",
+      "45–55 min — Carnet : définir son protocole d'ancrage personnel",
+      "55–60 min — Clôture avec les trois ancres simultanées"
+    ],
+    "teaching": {
+      "intro": "Deux cours de perception intérieure, et voici la question inévitable : comment ne pas perdre cela quand je reprends la vie ordinaire ? La réponse n'est pas de prolonger les séances ou de s'isoler davantage. Elle est de trouver les ancres — ces points discrets qui maintiennent le fil de la conscience corporelle même dans l'action.",
+      "sections": [
+        {
+          "title": "1. La présence corporelle ne contredit pas l'action",
+          "content": "Une idée fausse : pour être dans le corps, il faut s'arrêter. La vérité : la conscience corporelle est compatible avec toute activité à intensité modérée. Un pianiste expérimenté sent ses doigts pendant qu'il joue. Un cuisinier sent ses mains pendant qu'il découpe. Un orateur sent son souffle pendant qu'il parle. Cette présence simultanée — agir et sentir — est l'intégration. Elle ne divise pas l'attention : elle l'enrichit."
+        },
+        {
+          "title": "2. Les trois ancres rapides",
+          "content": "Trois points d'ancrage sont particulièrement efficaces parce qu'ils sont toujours disponibles et demandent peu d'attention. Premièrement : les pieds sur le sol — la sensation du contact entre la plante des pieds et le sol, même à travers les chaussures. Deuxièmement : le poids des mains — simplement percevoir la gravité dans les mains, leur légère lourdeur au repos. Troisièmement : le souffle — non pas le contrôler, mais le sentir entrer et sortir, pendant deux cycles. Ces trois ancres peuvent être activées en 5 secondes."
+        },
+        {
+          "title": "3. Quand la présence se perd",
+          "content": "La présence corporelle se perd principalement dans trois contextes : le stress (le système nerveux restreint la perception au minimum), la concentration intense sur une tâche (le cerveau alloue toutes les ressources à l'activité), et l'absorption émotionnelle (une émotion forte monopolise l'attention). Reconnaître ces moments de perte sans culpabilité est la première compétence. La deuxième : retrouver une ancre rapidement. Pas en réaction, mais en routine — comme on revient au souffle dans la méditation."
+        },
+        {
+          "title": "4. La pratique en action : l'exercice du quotidien",
+          "content": "Intégrer la cénesthésie dans le quotidien ne demande pas de temps supplémentaire — seulement des micro-moments d'ancrage. On peut les planifier : chaque fois que je m'assis, je sens mes pieds. Chaque fois que je prends un verre, je sens le poids dans mes mains. Chaque fois que j'ouvre une porte, je prends un souffle conscient. Ces habitats discrets tissent progressivement un réseau de présence corporelle qui s'épaissit au fil des semaines."
+        }
+      ]
+    },
+    "practice": "Protocole d'intégration — exercice sur 48 heures :\n\nHeure 1 (maintenant) :\n1. Assis, les yeux fermés. Activez les trois ancres simultanément (1 min).\n2. Ouvrez les yeux et lisez ce texte lentement (2 min) en maintenant la conscience des pieds sur le sol.\n3. Fermez à nouveau les yeux. Les ancres sont-elles encore là ?\n\nDans les 48 heures :\n4. Choisissez 5 moments de transition dans votre journée (se lever, ouvrir un email, entrer dans une pièce, commencer un repas, se coucher).\n5. À chacun de ces moments, activez une ancre pendant 5 secondes.\n6. Notez le soir dans votre carnet : combien de moments vous avez réellement pratiqué ? Quelle ancre était la plus facile à maintenir ?",
+    "journalQuestions": [
+      "Quelle ancre m'est la plus naturelle ?",
+      "Dans quel contexte ai-je le plus perdu la présence corporelle ?",
+      "Y a-t-il des moments où la présence corporelle a enrichi mon activité ?",
+      "Comment ma relation au corps a-t-elle changé depuis le début de ces trois cours ?"
+    ],
+    "validation": [
+      "J'ai pratiqué les trois ancres rapides et les ai mémorisées.",
+      "J'ai expérimenté la présence corporelle pendant une activité.",
+      "J'ai défini mon protocole d'ancrage personnel.",
+      "J'ai tenu le journal sur 48 heures."
+    ],
+    "tags": ["cénesthésie", "ancrage", "intégration", "quotidien", "présence corporelle", "pieds-sol", "souffle"],
+    "image": "assets/images/exercice%20113%20114%20115/c%C3%A9n%C3%A8st%C3%A9sique%201.png",
+    "pdf": "assets/cours-pdf/C005c-integrer-la-cinestheie.pdf",
+    "pdfPremium": false,
+    "previousCourse": "C005b-cinestheie-en-pratique",
+    "nextCourse": "C006-mantras-voyelles-vibratoires"
   },
     {
     "id": "C006-mantras-voyelles-vibratoires",
@@ -1123,13 +1278,14 @@ window.AXIS_ONE_HOUR_COURSES = [
     "familyId": "souffle",
     "familyTitle": "Yoga, souffle & mantras",
     "symbol": "φ",
-    "title": "Exercice 10 — Mantras et voyelles vibratoires",
+    "title": "Mantras et voyelles vibratoires",
     "subtitle": "Ancrer le son dans le corps comme support d'attention intérieure",
     "duration": "1 h",
     "durationMin": 60,
     "level": "Fondation",
     "kind": "Exercice sonore & vibratoire",
     "status": "available",
+    "image": "assets/images/exercice%20113%20114%20115/mantra%201.png",
     "summary": "Les voyelles vibratoires — I, A, O, U et leurs combinaisons — sont utilisées comme ancres sonores pour stabiliser l'attention et créer un espace intérieur de résonance. Ce cours approfondit la pratique des mantras au-delà des syllabes fondamentales.",
     "shortSummary": "Pratiquer les voyelles vibratoires comme ancres d'attention et de résonance corporelle.",
     "longSummary": "Le mantra est une technologie de l'attention par le son. En vocalisant ou en pensant intérieurement une syllabe vibratoire, on crée une oscillation qui stabilise le mental de la même façon que le balancement stabilise le corps. Les voyelles I, A, O, U résonnent différemment dans le corps : le I résonne en haut (crâne, sinus), le A au centre (poitrine, coeur), le O dans le bas (ventre, bassin), le U dans la profondeur (racines). Les combinaisons ILLI, ALLA, OLLO, RORO créent des cycles complets qui accompagnent le rythme respiratoire. Ce cours propose une pratique progressive : d'abord vocaliser à voix haute pour sentir les résonances, puis intérioriser jusqu'au mantra silencieux, puis associer le mantra à la rémanence lumineuse pour créer une double ancre.",
@@ -1143,29 +1299,30 @@ window.AXIS_ONE_HOUR_COURSES = [
     "tags": ["mantra", "voyelles", "son", "vibration", "ILLI", "ALLA", "OLLO", "RORO", "souffle", "exercice"]
   },
     {
-    "id": "C007-sensations-cenesthesiques",
+    "id": "C007-convergence-oculaire",
     "number": 7,
-    "familyId": "vivant",
-    "familyTitle": "Clair-ressenti & vivant",
-    "symbol": "◈",
-    "title": "Exercice 11 — Sensations cénesthésiques",
-    "subtitle": "Percevoir et habiter les sensations internes du corps vivant",
+    "familyId": "exercices",
+    "familyTitle": "Livre d'Exercices enrichi",
+    "symbol": "◎",
+    "title": "Convergence oculaire",
+    "subtitle": "Fusionner deux points visuels vers un centre unique",
     "duration": "1 h",
     "durationMin": 60,
     "level": "Fondation",
-    "kind": "Exercice de perception corporelle",
+    "kind": "Exercice de perception visuelle",
     "status": "available",
-    "summary": "La cénesthésie est la conscience globale du corps — la somme de toutes les sensations internes : chaleur, picotements, poids, légèreté, flux, pulsation. Apprendre à percevoir ces sensations fine le système nerveux et ouvre la voie au clair-ressenti.",
-    "shortSummary": "Développer la conscience des sensations internes du corps comme fondation du clair-ressenti.",
-    "longSummary": "La cénesthésie désigne l'ensemble des sensations que le corps produit de l'intérieur : temperature, pression, mouvement, vibration, tonus musculaire, pulsation cardiaque, flux sanguin, légèreté ou lourdeur des membres. C'est le socle physiologique de ce que les traditions appellent le corps subtil. En apprenant à percevoir ces sensations avec finesse et sans les interpréter, on développe un outil d'observation interne précieux. La pratique commence par un inventaire corporel calme (scanner de la tête aux pieds), puis s'affine vers la perception de nuances plus subtiles : picotement au bout des doigts, chaleur qui monte dans la colonne, légère pulsation au centre du front. Ces perceptions ne sont ni imaginées ni construites — elles sont réelles et mesurables. Ce cours apprend à les accueillir sans amplification ni déni, et à les utiliser comme repères dans les séances de pratique lumineuse.",
-    "pedagogicalObjective": "Développer la capacité de percevoir et nommer les sensations cénesthésiques corporelles avec précision.",
-    "initiaticObjective": "Transformer le corps en instrument de perception intérieure fidèle et sobre.",
-    "essentialPhrase": "Je perçois ce qui est. Je ne fabrique pas. Je ne refuse pas. Je laisse le corps parler son langage discret.",
-    "shortPhrase": "Je sens donc je suis présent.",
+    "image": "assets/images/exercice%20113%20114%20115/convergence%20oculaire%201.png",
+    "summary": "La convergence oculaire est un exercice de concentration du regard qui consiste à fixer un point ou à fusionner deux images en un centre unique. Cet exercice développe la stabilité du regard intérieur et prépare à la perception de la rémanence.",
+    "shortSummary": "Diriger les deux axes visuels vers un même point central.",
+    "longSummary": "La convergence oculaire est l'un des exercices fondamentaux du Livre d'Exercices. En dirigeant les deux axes visuels vers un point unique — réel ou imaginaire — on crée un état de concentration naturelle qui calme le mental discursif. Cet exercice peut se pratiquer avec deux doigts devant le visage, avec un objet suspendu, ou purement en imagination. La convergence active les mécanismes de focalisation binoculaire du cerveau et prépare directement à la stabilisation du point intérieur décrite dans les exercices 3 et 4. Avec l'entraînement, la convergence devient un déclencheur d'état : quelques secondes suffisent pour retrouver la qualité d'attention requise pour la pratique lumineuse.",
+    "pedagogicalObjective": "Maîtriser la convergence des axes visuels vers un centre unique et stabiliser le regard intérieur.",
+    "initiaticObjective": "Développer la qualité d'attention focalisée qui précède et accompagne la rémanence.",
+    "essentialPhrase": "Je dirige mes deux regards vers un même centre. Je tiens ce point. Je laisse l'attention se poser.",
+    "shortPhrase": "Un centre. Deux yeux. Un seul regard.",
     "coverImage": "assets/images/exercice%20113%20114%20115/c%C3%A9n%C3%A8st%C3%A9sique%201.png",
     "image": "assets/images/exercice%20113%20114%20115/c%C3%A9n%C3%A8st%C3%A9sique%201.png",
     "pdfPremium": false,
-    "tags": ["cénesthésie", "sensations", "corps", "chaleur", "picotements", "perception", "clair-ressenti", "exercice"]
+    "tags": ["convergence", "regard", "concentration", "binoculaire", "point fixe", "exercice"]
   },
     {
         "id":  "C008-balancement-lateral-complet",
@@ -1231,6 +1388,13 @@ window.AXIS_ONE_HOUR_COURSES = [
         "practice":  "Protocole balancement latéral — 45 minutes actives :\n1. Asseyez-vous en tailleur ou sur une chaise, colonne vertébrale droite, mains sur les genoux.\n2. Fermez les yeux. Trois respirations profondes pour évaluer votre état de départ.\n3. Commencez le balancement du corps entier : lentement, de droite à gauche, laissez le rythme s'installer naturellement (environ 1 aller-retour par seconde ou moins).\n4. Ajoutez mentalement le mantra ILLI : 'IL' à droite, 'LI' à gauche.\n5. Après 10 minutes, réduisez progressivement le mouvement au seul balancement de la tête.\n6. Après 10 minutes supplémentaires, immobilisez totalement le corps. Continuez le balancement en imagination.\n7. Restez immobile 10 minutes dans la rémanence. Observez sans analyser.\n8. Notez immédiatement dans votre carnet : sensations, images, qualité de l'espace intérieur.",
         "image":  "assets/course-visuals-premium/C041-balancement-lateral-complet.svg",
         "pdf":  "assets/cours-pdf/C041-balancement-lateral-complet.pdf",
+        "practiceBlock": {
+            "titre": "Exercices pré-programmés — Cours 8",
+            "description": "Pratiquer le balancement latéral avec mantra ILLI. Protocole complet : contemplation d'objet, observation lumineuse, bandeau, balancement.",
+            "exercices": [
+                { "ordre": 1, "nom": "Balancement latéral — découverte", "duree": "21 min", "mantra": "ILLI", "lien": "exercice-balancement.html?jour=1" }
+            ]
+        },
         "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
@@ -1298,6 +1462,14 @@ window.AXIS_ONE_HOUR_COURSES = [
         "practice":  "Protocole balancement vertical — 45 minutes actives :\n1. Assis ou debout, colonne verticale, sentez le poids de votre corps vers le bas et l'aspiration vers le haut simultanément.\n2. Inspirez en vous grandissant mentalement, expirez en vous enracinant. Trois cycles.\n3. Commencez le balancement du buste vers l'avant (inspiration) et l'arrière (expiration), ou vers le haut (étirement) et le bas (affaissement). Rythme très lent.\n4. Mantra ALLA : 'AL' à la descente, 'LA' à la montée.\n5. Après 10 minutes, réduisez au seul balancement de la tête, très léger.\n6. Après 10 minutes, immobilisez. Cherchez le flux interne le long de la colonne.\n7. Restez 10 minutes dans l'immobilité attentive.\n8. Notez : zones actives, qualité du flux, sensations au sommet du crâne.",
         "image":  "assets/course-visuals-premium/C042-balancement-vertical-complet.svg",
         "pdf":  "assets/cours-pdf/C042-balancement-vertical-complet.pdf",
+        "practiceBlock": {
+            "titre": "Exercices pré-programmés — Cours 9",
+            "description": "Révision du balancement latéral puis découverte du balancement vertical. Protocole complet pour chaque séance.",
+            "exercices": [
+                { "ordre": 1, "nom": "Balancement latéral — révision", "duree": "15 min", "mantra": "ILLI", "lien": "exercice-balancement.html?jour=1" },
+                { "ordre": 2, "nom": "Balancement vertical — découverte", "duree": "21 min", "mantra": "ALLA", "lien": "exercice-balancement.html?jour=2" }
+            ]
+        },
         "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
@@ -1365,6 +1537,15 @@ window.AXIS_ONE_HOUR_COURSES = [
         "practice":  "Protocole balancement antéro-postérieur — 45 minutes actives :\n1. Assis en tailleur ou sur une chaise. Évaluez : êtes-vous plutôt dans vos projets futurs ou dans vos souvenirs en ce moment ?\n2. Commencez par un léger balancement vers l'avant : inclinez le buste 10-20 cm, retour au centre. Associez l'intention : 'je vais vers ce qui vient'.\n3. Puis vers l'arrière : inclinez le buste 10-20 cm en arrière, retour. Associez : 'je reçois ce qui a été'.\n4. Installez le mouvement complet avant-arrière, lent, 1 cycle toutes les 2-3 secondes.\n5. Portez attention au point de retournement : le moment exact où vous passez de l'avant à l'arrière. C'est le présent.\n6. Après 10 minutes, réduisez à la tête seule, puis intériorisez.\n7. Restez 10 minutes dans l'immobilité. Observez votre relation au temps.\n8. Notez : dans quel temps habitez-vous naturellement ? Qu'avez-vous senti dans le dos ?",
         "image":  "assets/course-visuals-premium/C043-balancement-antero-posterieur.svg",
         "pdf":  "assets/cours-pdf/C043-balancement-antero-posterieur.pdf",
+        "practiceBlock": {
+            "titre": "Exercices pré-programmés — Cours 10",
+            "description": "Révision des balancements latéral et vertical, puis découverte du balancement antéro-postérieur.",
+            "exercices": [
+                { "ordre": 1, "nom": "Balancement latéral — révision", "duree": "10 min", "mantra": "ILLI", "lien": "exercice-balancement.html?jour=1" },
+                { "ordre": 2, "nom": "Balancement vertical — révision", "duree": "10 min", "mantra": "ALLA", "lien": "exercice-balancement.html?jour=2" },
+                { "ordre": 3, "nom": "Balancement antéro-postérieur — découverte", "duree": "21 min", "mantra": "ELLU", "lien": "exercice-balancement.html?jour=3" }
+            ]
+        },
         "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
@@ -1432,6 +1613,16 @@ window.AXIS_ONE_HOUR_COURSES = [
         "practice":  "Protocole balancement en huit — 45 minutes actives :\n1. Commencez debout ou assis. Étendez le bras droit, index pointé. Tracez un grand huit couché (∞) en l'air, aussi grand que possible, en commençant par le haut-gauche.\n2. Suivez votre index des yeux. Faites 5 grands huits, puis changez de main.\n3. Asseyez-vous. Commencez les huits du buste : inclinez vers le haut-gauche, tracez un arc, revenez au centre, inclinez vers le haut-droit, tracez un arc, retour. Mouvement lent et fluide.\n4. Après 10 minutes, réduisez à la tête seule : micro-lemniscates, presque imperceptibles de l'extérieur.\n5. Après 10 minutes, intériorisez : imaginez un huit énergétique passant par le cœur.\n6. Restez 10 minutes en immobilité avec cette image.\n7. Notez : état de la pensée, émergence d'idées, qualité du flux intérieur.",
         "image":  "assets/course-visuals-premium/C044-balancement-en-huit.svg",
         "pdf":  "assets/cours-pdf/C044-balancement-en-huit.pdf",
+        "practiceBlock": {
+            "titre": "Exercices pré-programmés — Cours 11",
+            "description": "Révision des trois premiers balancements, puis découverte du balancement en huit.",
+            "exercices": [
+                { "ordre": 1, "nom": "Balancement latéral — révision", "duree": "8 min", "mantra": "ILLI", "lien": "exercice-balancement.html?jour=1" },
+                { "ordre": 2, "nom": "Balancement vertical — révision", "duree": "8 min", "mantra": "ALLA", "lien": "exercice-balancement.html?jour=2" },
+                { "ordre": 3, "nom": "Balancement antéro-postérieur — révision", "duree": "8 min", "mantra": "ELLU", "lien": "exercice-balancement.html?jour=3" },
+                { "ordre": 4, "nom": "Balancement en huit — découverte", "duree": "21 min", "mantra": "ILLI+ALLA", "lien": "exercice-balancement.html?jour=4" }
+            ]
+        },
         "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
@@ -1499,6 +1690,16 @@ window.AXIS_ONE_HOUR_COURSES = [
         "practice":  "Protocole balancement en croix — 45 minutes actives :\n1. Assis, fermez les yeux. Identifiez les quatre directions autour de vous : devant, derrière, gauche, droite.\n2. Phase est-ouest (10 min) : balancement latéral lent. À chaque direction, demandez-vous : 'Quelle qualité d'énergie est là ?' N'analysez pas, sentez.\n3. Phase nord-sud (10 min) : balancement antéro-postérieur lent. Avant : futur, projet. Arrière : passé, mémoire.\n4. Phase croix (10 min) : alternez les deux axes. Latéral 3 fois, vertical 3 fois, latéral 3 fois... Puis immobilité au centre.\n5. Phase centre (10 min) : immobile. Conscience des quatre directions simultanément. Sentez-vous au milieu d'un espace vivant.\n6. Notez : quelle direction résiste ? Quelle direction attire ? Qu'avez-vous trouvé au centre ?",
         "image":  "assets/course-visuals-premium/C045-balancement-en-croix.svg",
         "pdf":  "assets/cours-pdf/C045-balancement-en-croix.pdf",
+        "practiceBlock": {
+            "titre": "Exercices pré-programmés — Cours 12",
+            "description": "Révision des balancements précédents puis découverte du balancement en croix.",
+            "exercices": [
+                { "ordre": 1, "nom": "Balancement latéral — révision", "duree": "5 min", "mantra": "ILLI", "lien": "exercice-balancement.html?jour=1" },
+                { "ordre": 2, "nom": "Balancement vertical — révision", "duree": "5 min", "mantra": "ALLA", "lien": "exercice-balancement.html?jour=2" },
+                { "ordre": 3, "nom": "Balancement antéro-postérieur — révision", "duree": "5 min", "mantra": "ELLU", "lien": "exercice-balancement.html?jour=3" },
+                { "ordre": 4, "nom": "Balancement en croix — découverte", "duree": "21 min", "mantra": "ILLI+ALLA", "lien": "exercice-balancement.html?jour=5" }
+            ]
+        },
         "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
@@ -1566,6 +1767,16 @@ window.AXIS_ONE_HOUR_COURSES = [
         "practice":  "Protocole rotation douce — 45 minutes actives :\n1. Assis, colonne verticale. Fermez les yeux. Sentez l'axe vertical de votre corps comme un fil de lumière.\n2. Commencez des cercles du buste : très lents, très doux, comme dessiner un cercle de 20 cm avec le sommet de votre tête. Sens horaire d'abord.\n3. Après 3 minutes, sens anti-horaire. Observez la différence.\n4. Réduisez progressivement le rayon du cercle. Plus petit, plus petit, jusqu'à un cercle imperceptible.\n5. Après 10 minutes, même chose avec la tête seule : cercles très lents, attention aux tensions dans la nuque.\n6. Arrêt complet. Observez la rémanence : sensation de continuation du mouvement. Cherchez l'axe dans cet espace.\n7. Visualisez une spirale de lumière remontant l'axe de la base du crâne vers le sommet.\n8. 10 minutes d'immobilité. Notez : qualité de l'axe ressenti, différence horaire/anti-horaire, rémanence.",
         "image":  "assets/course-visuals-premium/C046-rotation-douce.svg",
         "pdf":  "assets/cours-pdf/C046-rotation-douce.pdf",
+        "practiceBlock": {
+            "titre": "Exercices pré-programmés — Cours 13",
+            "description": "Révision des principaux balancements, puis découverte de la rotation douce.",
+            "exercices": [
+                { "ordre": 1, "nom": "Balancement latéral — révision", "duree": "5 min", "mantra": "ILLI", "lien": "exercice-balancement.html?jour=1" },
+                { "ordre": 2, "nom": "Balancement vertical — révision", "duree": "5 min", "mantra": "ALLA", "lien": "exercice-balancement.html?jour=2" },
+                { "ordre": 3, "nom": "Balancement en croix — révision", "duree": "5 min", "mantra": "ILLI+ALLA", "lien": "exercice-balancement.html?jour=5" },
+                { "ordre": 4, "nom": "Rotation douce — découverte", "duree": "21 min", "mantra": "OLLO", "lien": "exercice-balancement.html?jour=6" }
+            ]
+        },
         "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
@@ -1633,6 +1844,16 @@ window.AXIS_ONE_HOUR_COURSES = [
         "practice":  "Protocole fer à cheval — 45 minutes actives :\n1. Assis. Fermez les yeux. Demandez-vous : 'Que se passe-t-il dans l'espace derrière moi ?' Notez votre première réponse spontanée.\n2. Commencez le fer à cheval du buste : inclinez vers la droite, glissez vers l'arrière (passez par la position 'penchée en arrière'), glissez vers la gauche. Très lentement.\n3. Pendant la phase arrière, portez toute votre attention au champ dorsal. Que sentez-vous là ?\n4. Après 10 minutes, même chose avec la tête seule. Nuque détendue, pas de forçage.\n5. Arrêt complet. En immobilité, étendez consciemment votre attention vers l'arrière. Imaginez que vous avez des 'yeux dans le dos'.\n6. Restez 10 minutes avec cette attention dorsale élargie.\n7. Exercice de clôture : sentez simultanément l'avant et l'arrière. Puis l'espace complet autour de vous.\n8. Notez : qu'avez-vous perçu dans le dos ? Différence avant/après ?",
         "image":  "assets/course-visuals-premium/C047-fer-a-cheval-et-perception-arriere.svg",
         "pdf":  "assets/cours-pdf/C047-fer-a-cheval-et-perception-arriere.pdf",
+        "practiceBlock": {
+            "titre": "Exercices pré-programmés — Cours 14",
+            "description": "Révision des balancements fondamentaux, puis découverte du fer à cheval et de la perception arrière.",
+            "exercices": [
+                { "ordre": 1, "nom": "Balancement latéral — révision", "duree": "5 min", "mantra": "ILLI", "lien": "exercice-balancement.html?jour=1" },
+                { "ordre": 2, "nom": "Balancement vertical — révision", "duree": "5 min", "mantra": "ALLA", "lien": "exercice-balancement.html?jour=2" },
+                { "ordre": 3, "nom": "Rotation douce — révision", "duree": "5 min", "mantra": "OLLO", "lien": "exercice-balancement.html?jour=6" },
+                { "ordre": 4, "nom": "Fer à cheval — découverte", "duree": "21 min", "mantra": "RORO", "lien": "exercice-balancement.html?jour=7" }
+            ]
+        },
         "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
@@ -1700,7 +1921,44 @@ window.AXIS_ONE_HOUR_COURSES = [
         "practice":  "Protocole séance combinée — 55 minutes actives :\n\nPHASE 1 - Écoute (5 min) : Fermez les yeux. Scanner le corps. Où est la tension ? Quel axe manque ?\n\nPHASE 2 - Exploration libre (10 min) : Laissez émerger le mouvement qui se propose spontanément. Ne choisissez pas — écoutez. Suivez-le jusqu'à ce qu'il se modifie naturellement.\n\nPHASE 3 - Séquence guidée (14 min) : Parcourez chaque balancement 2 minutes dans cet ordre : latéral → vertical → antéro-postérieur → huit → croix → rotation → fer à cheval.\n\nPHASE 4 - Combinaisons libres (10 min) : Combinez deux ou trois mouvements qui se répondent. Laissez les transitions se faire naturellement.\n\nPHASE 5 - Réduction (10 min) : Réduisez progressivement tous les mouvements vers l'imperceptible, puis vers l'intérieur.\n\nPHASE 6 - Rémanence (7 min) : Immobilité totale. Observez ce qui continue.\n\nPHASE 7 - Carnet (3 min) : Notez la phrase essentielle de cette famille pour vous.",
         "image":  "assets/course-visuals-premium/C048-seance-combinee-de-balancements.svg",
         "pdf":  "assets/cours-pdf/C048-seance-combinee-de-balancements.pdf",
+        "practiceBlock": {
+            "titre": "Exercices pré-programmés — Cours 15",
+            "description": "Séance combinée : parcourez l'ensemble des 8 balancements de la famille dans une pratique intégrative.",
+            "exercices": [
+                { "ordre": 1, "nom": "Balancement latéral", "duree": "21 min", "mantra": "ILLI", "lien": "exercice-balancement.html?jour=1" },
+                { "ordre": 2, "nom": "Balancement vertical", "duree": "21 min", "mantra": "ALLA", "lien": "exercice-balancement.html?jour=2" },
+                { "ordre": 3, "nom": "Balancement antéro-postérieur", "duree": "21 min", "mantra": "ELLU", "lien": "exercice-balancement.html?jour=3" },
+                { "ordre": 4, "nom": "Balancement en huit", "duree": "21 min", "mantra": "ILLI+ALLA", "lien": "exercice-balancement.html?jour=4" },
+                { "ordre": 5, "nom": "Balancement en croix", "duree": "21 min", "mantra": "ILLI+ALLA", "lien": "exercice-balancement.html?jour=5" },
+                { "ordre": 6, "nom": "Rotation douce", "duree": "21 min", "mantra": "OLLO", "lien": "exercice-balancement.html?jour=6" },
+                { "ordre": 7, "nom": "Fer à cheval", "duree": "21 min", "mantra": "RORO", "lien": "exercice-balancement.html?jour=7" },
+                { "ordre": 8, "nom": "Séance combinée", "duree": "55 min", "mantra": "Libre", "lien": "exercice-balancement.html?jour=8" }
+            ]
+        },
         "tags":  ["Balancements", "Cours 1h", "PDF protégé", "Avancé"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C015b-programme-15j-balancements",
+        "number":  15.5,
+        "familyId":  "balancements",
+        "familyTitle":  "Balancements",
+        "symbol":  "↔",
+        "title":  "Programme 15 jours — Balancements",
+        "subtitle":  "Pratiquer chaque jour un balancement différent",
+        "duration":  "15 jours",
+        "durationMin":  1260,
+        "level":  "Pratique intensive",
+        "kind":  "Programme guidé",
+        "status":  "available",
+        "summary":  "Quinze jours de pratique guidée : chaque jour un balancement différent, entièrement pré-configuré. Du balancement latéral au fer à cheval. Aucun réglage nécessaire.",
+        "shortSummary":  "15 jours de balancements guidés, entièrement pré-configurés. Aucun réglage nécessaire.",
+        "longSummary":  "Ce programme de 15 jours consolide tous les balancements étudiés dans les cours 8 à 15. Chaque jour correspond à un balancement précis avec son mantra, sa durée et son intention. Le cycle de 8 jours est parcouru une fois complet (jours 1–8), puis repris partiellement (jours 9–14) pour ancrer les acquisitions, avant une pratique libre intégrative (jour 15). Aucun réglage n'est nécessaire : le programme est entièrement pré-configuré et guidé par le son.",
+        "pedagogicalObjective":  "Ancrer la pratique autonome des 8 balancements de la famille par une répétition guidée sur 15 jours consécutifs.",
+        "initiaticObjective":  "Faire du mouvement rythmé une demeure quotidienne : que le corps trouve naturellement son balancement sans instruction extérieure.",
+        "tags":  ["programme", "15 jours", "balancements", "pratique autonome"],
+        "image":  "assets/course-visuals-premium/C015b-programme-15j-balancements.svg",
+        "pdf":  "assets/cours-pdf/C015b-programme-15j-balancements.pdf",
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
@@ -1901,6 +2159,14 @@ window.AXIS_ONE_HOUR_COURSES = [
         "practice":  "Protocole respiration naturelle — 40 minutes actives :\n1. Allongez-vous sur le dos, jambes décontractées. Une main sur le ventre, une main sur la poitrine.\n2. Observez 3 minutes sans modifier : quelle main monte d'abord ? Quelle est l'amplitude ?\n3. Libération (10 min) : à l'inspiration, cherchez à faire monter la main du ventre. À l'expiration, laissez-le se dégonfler. Gémiez doucement si cela aide.\n4. Si vous sentez une résistance abdominale, appuyez légèrement la main sur le ventre et poussez contre elle à l'inspiration.\n5. Transition assis (5 min) : asseyez-vous. Gardez une main sur le ventre. Continuez le même souffle.\n6. Debout (5 min) : sans la main. Cherchez le même sentiment de liberté abdominale.\n7. Retour assis, yeux fermés : laissez le souffle naturel s'installer seul pendant 10 minutes.\n8. Notez : qu'est-ce qui résistait ? Qu'est-ce qui s'est libéré ?",
         "image":  "assets/course-visuals-premium/C018-respiration-naturelle.svg",
         "pdf":  "assets/cours-pdf/C018-respiration-naturelle.pdf",
+        "jourRespiration": 1,
+        "practiceBlock": {
+            "titre": "Exercices pré-programmés — Cours 18",
+            "description": "Pratiquer la respiration naturelle avec guidage sonore. Protocole complet inclus.",
+            "exercices": [
+                { "ordre": 1, "nom": "Respiration naturelle — découverte", "duree": "21 min", "lien": "exercice-respiration.html?jour=1" }
+            ]
+        },
         "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Fondation"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
@@ -1968,6 +2234,15 @@ window.AXIS_ONE_HOUR_COURSES = [
         "practice":  "Protocole respiration carrée — 35 minutes actives :\n1. Assis, dos droit, fermez les yeux. Évaluez votre état sur une échelle 1-10 : 1 = très agité, 10 = très calme.\n2. Phase 4-4-4-4 (15 min) : inspirez en comptant 4, retenez 4, expirez 4, retenez 4. Recommencez immédiatement.\n3. Si la rétention poumons vides crée une anxiété, réduisez-la à 2 secondes d'abord.\n4. Phase 6-6-6-6 (10 min) : si confortable, passez à 6 secondes par phase. Observez comment l'esprit ralentit naturellement.\n5. Exploration du vide (5 min) : pendant la rétention poumons vides, portez toute l'attention à cet espace. Qu'y a-t-il ?\n6. Retour au souffle naturel. Évaluez à nouveau votre état : a-t-il changé ?\n7. Notez : quelle phase était la plus difficile ? La plus riche ?",
         "image":  "assets/course-visuals-premium/C019-respiration-carree.svg",
         "pdf":  "assets/cours-pdf/C019-respiration-carree.pdf",
+        "jourRespiration": 2,
+        "practiceBlock": {
+            "titre": "Exercices pré-programmés — Cours 19",
+            "description": "Révision de la respiration naturelle puis découverte de la respiration carrée.",
+            "exercices": [
+                { "ordre": 1, "nom": "Respiration naturelle — révision", "duree": "15 min", "lien": "exercice-respiration.html?jour=1" },
+                { "ordre": 2, "nom": "Respiration carrée — découverte", "duree": "21 min", "lien": "exercice-respiration.html?jour=2" }
+            ]
+        },
         "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
@@ -2035,6 +2310,16 @@ window.AXIS_ONE_HOUR_COURSES = [
         "practice":  "Protocole respiration modulée — 40 minutes actives :\n1. Évaluez votre état de 1 (très agité) à 10 (très calme).\n2. Triangulaire activant (8 min) : inspire 6s, rétention 3s, expire 3s. Observez l'effet.\n3. Réévaluez votre état. A-t-il changé dans le sens de l'activation ?\n4. Triangulaire calmant (8 min) : inspire 3s, rétention 3s, expire 6s. Observez.\n5. Réévaluez. Différence ?\n6. Rectangulaire profond (12 min) : inspire 4s, rétention 4s, expire 8s, vide 2s. Focus sur l'expire longue et le vide.\n7. Retour au souffle naturel (5 min). Observez ce qu'il choisit spontanément.\n8. Notez : quel ratio a eu le plus d'effet sur vous ? Dans quel sens ?",
         "image":  "assets/course-visuals-premium/C020-respiration-triangulaire-et-rectangulaire.svg",
         "pdf":  "assets/cours-pdf/C020-respiration-triangulaire-et-rectangulaire.pdf",
+        "jourRespiration": 3,
+        "practiceBlock": {
+            "titre": "Exercices pré-programmés — Cours 20",
+            "description": "Révision des respirations naturelle et carrée, puis découverte de la respiration triangulaire.",
+            "exercices": [
+                { "ordre": 1, "nom": "Respiration naturelle — révision", "duree": "10 min", "lien": "exercice-respiration.html?jour=1" },
+                { "ordre": 2, "nom": "Respiration carrée — révision", "duree": "10 min", "lien": "exercice-respiration.html?jour=2" },
+                { "ordre": 3, "nom": "Respiration triangulaire — découverte", "duree": "21 min", "lien": "exercice-respiration.html?jour=3" }
+            ]
+        },
         "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
@@ -2102,6 +2387,17 @@ window.AXIS_ONE_HOUR_COURSES = [
         "practice":  "Protocole mantras — 45 minutes actives :\n1. Silence initial (3 min) : fermez les yeux, écoutez le silence intérieur.\n2. ILLI à voix normale (5 min) : respirez et, à l'expiration, prononcez ILLI lentement (2-3 secondes). Où sentez-vous la vibration ?\n3. ALLA à voix normale (5 min) : même chose. Zone de résonance ?\n4. OLLO à voix normale (5 min) : même chose. Comparaison avec les précédents.\n5. RORO à voix normale (5 min) : prononcez le R roulé si vous pouvez. Vibration dans le corps.\n6. Choisissez votre préféré. Voix très basse (chuchotée) : 5 min. Observez comment les effets changent.\n7. Récitation mentale complète (10 min) : silence absolu. Répétez le mantra choisi dans votre tête. Cherchez les résonances internes sans le son.\n8. Notez : quel mantra touche quelle zone ? Différences voix haute / mentale.",
         "image":  "assets/course-visuals-premium/C021-mantras-illi-alla-ollo-roro.svg",
         "pdf":  "assets/cours-pdf/C021-mantras-illi-alla-ollo-roro.pdf",
+        "jourRespiration": 4,
+        "practiceBlock": {
+            "titre": "Exercices pré-programmés — Cours 21",
+            "description": "Révision des respirations précédentes puis intégration des mantras ILLI, ALLA, OLLO, RORO.",
+            "exercices": [
+                { "ordre": 1, "nom": "Respiration naturelle — révision", "duree": "8 min", "lien": "exercice-respiration.html?jour=1" },
+                { "ordre": 2, "nom": "Respiration carrée — révision", "duree": "8 min", "lien": "exercice-respiration.html?jour=2" },
+                { "ordre": 3, "nom": "Respiration triangulaire — révision", "duree": "8 min", "lien": "exercice-respiration.html?jour=3" },
+                { "ordre": 4, "nom": "Mantras ILLI, ALLA, OLLO, RORO — découverte", "duree": "21 min", "lien": "exercice-respiration.html?jour=4" }
+            ]
+        },
         "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Approfondissement"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
@@ -2169,6 +2465,17 @@ window.AXIS_ONE_HOUR_COURSES = [
         "practice":  "Protocole OM — 45 minutes actives :\n1. Silence complet 5 minutes. Observez ce qui existe déjà dans ce silence.\n2. A seul (3 min) : bouche grande ouverte, gorge détendue, produisez un son grave et ample. Sentez la résonance thoracique.\n3. U seul (3 min) : lèvres progressivement plus arrondies. Résonance montante.\n4. M seul (3 min) : lèvres closes, son nasal. Résonance crânienne.\n5. AUM complet (15 min) : enchainez A → U → M en une seule expiration longue. Attendez dans le silence avant d'inspirer à nouveau. Rythme : environ 5 AUM par minute.\n6. Arrêt complet (12 min) : silence absolu. Observez la vibration intérieure. Résiste-t-elle ? S'amplifie-t-elle ?\n7. Notez : qualité du silence post-OM, état de conscience, ce qui a changé.",
         "image":  "assets/course-visuals-premium/C022-om-et-vibration-interieure.svg",
         "pdf":  "assets/cours-pdf/C022-om-et-vibration-interieure.pdf",
+        "jourRespiration": 5,
+        "practiceBlock": {
+            "titre": "Exercices pré-programmés — Cours 22",
+            "description": "Révision des pratiques précédentes puis intégration du OM et de la vibration intérieure.",
+            "exercices": [
+                { "ordre": 1, "nom": "Respiration naturelle — révision", "duree": "5 min", "lien": "exercice-respiration.html?jour=1" },
+                { "ordre": 2, "nom": "Respiration carrée — révision", "duree": "5 min", "lien": "exercice-respiration.html?jour=2" },
+                { "ordre": 3, "nom": "Mantras ILLI, ALLA, OLLO, RORO — révision", "duree": "5 min", "lien": "exercice-respiration.html?jour=4" },
+                { "ordre": 4, "nom": "OM et vibration intérieure — découverte", "duree": "21 min", "lien": "exercice-respiration.html?jour=5" }
+            ]
+        },
         "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Avancé"],
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
@@ -2236,7 +2543,43 @@ window.AXIS_ONE_HOUR_COURSES = [
         "practice":  "Protocole séquence intégrative — 55 minutes :\n\n1. Note de départ (3 min) : état du corps, du souffle, de l'esprit en 3 mots chacun.\n\n2. Activation (5 min) : respiration triangulaire 2:1:1 (inspire 6s, rétention 3s, expire 3s).\n\n3. Balancement + mantra (15 min) :\n   - 5 min : balancement latéral + ILLI mental\n   - 5 min : balancement vertical + ALLA mental\n   - 5 min : balancement antéro-postérieur + OLLO mental\n\n4. Rotation + OM (10 min) : rotation douce, un OM à chaque expiration à voix basse.\n\n5. Immobilité + mantra mental (10 min) : choisissez le mantra qui vous appelle. Récitation silencieuse. Souffle naturel.\n\n6. Silence total (7 min) : plus rien. Observer ce qui existe maintenant.\n\n7. Clôture (5 min) : trois AUM lents. Notez votre phrase essentielle de la famille Souffle.",
         "image":  "assets/course-visuals-premium/C023-sequence-souffle-mantra-et-mouvement.svg",
         "pdf":  "assets/cours-pdf/C023-sequence-souffle-mantra-et-mouvement.pdf",
+        "jourRespiration": 6,
+        "practiceBlock": {
+            "titre": "Exercices pré-programmés — Cours 23",
+            "description": "Séquence intégrative : parcourez l'ensemble des pratiques de la famille Souffle dans un protocole combiné.",
+            "exercices": [
+                { "ordre": 1, "nom": "Respiration naturelle", "duree": "10 min", "lien": "exercice-respiration.html?jour=1" },
+                { "ordre": 2, "nom": "Respiration carrée", "duree": "10 min", "lien": "exercice-respiration.html?jour=2" },
+                { "ordre": 3, "nom": "Respiration triangulaire", "duree": "10 min", "lien": "exercice-respiration.html?jour=3" },
+                { "ordre": 4, "nom": "Mantras ILLI, ALLA, OLLO, RORO", "duree": "10 min", "lien": "exercice-respiration.html?jour=4" },
+                { "ordre": 5, "nom": "OM et vibration intérieure", "duree": "10 min", "lien": "exercice-respiration.html?jour=5" },
+                { "ordre": 6, "nom": "Séquence souffle, mantra et mouvement", "duree": "21 min", "lien": "exercice-respiration.html?jour=6" }
+            ]
+        },
         "tags":  ["Souffle & mantras", "Cours 1h", "PDF protégé", "Avancé"],
+        "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
+    },
+    {
+        "id":  "C023b-programme-15j-complet",
+        "number":  23.5,
+        "familyId":  "souffle",
+        "familyTitle":  "Yoga, souffle & mantras",
+        "symbol":  "ॐ",
+        "title":  "Programme 15 jours — Balancements & Respiration",
+        "subtitle":  "Deux disciplines unies en un seul protocole initiatique",
+        "duration":  "15 jours",
+        "durationMin":  1260,
+        "level":  "Intégration",
+        "kind":  "Programme guidé avancé",
+        "status":  "available",
+        "summary":  "Chaque jour : une séance de balancement suivie d'une pratique respiratoire. 15 jours vers l'intégration corps-souffle-lumière. Aucun réglage nécessaire.",
+        "shortSummary":  "15 jours d'intégration : chaque jour un balancement et une respiration guidés. Aucun réglage nécessaire.",
+        "longSummary":  "Ce programme de 15 jours unit la famille Balancements et la famille Souffle en une pratique quotidienne intégrée. Chaque jour commence par une séance de balancement (21 min) suivie d'une pratique respiratoire (21 min). La progression alterne les deux familles de manière à les faire résonner mutuellement : le mouvement prépare le souffle, le souffle approfondit la rémanence du mouvement. Le programme est entièrement pré-configuré — il suffit d'ouvrir chaque jour et de pratiquer.",
+        "pedagogicalObjective":  "Intégrer les deux familles fondamentales — balancements et souffle — dans une pratique quotidienne cohérente et autonome sur 15 jours.",
+        "initiaticObjective":  "Expérimenter que le corps en mouvement et le corps en souffle partagent le même espace intérieur : une unité qui émerge de la répétition.",
+        "tags":  ["programme", "15 jours", "balancement", "respiration", "intégration"],
+        "image":  "assets/course-visuals-premium/C023b-programme-15j-complet.svg",
+        "pdf":  "assets/cours-pdf/C023b-programme-15j-complet.pdf",
         "copyright":  "© Axis Lumen Studio — Tous droits réservés. Reproduction, redistribution, revente ou extraction interdite sans autorisation."
     },
     {
@@ -2702,7 +3045,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     {
   "id": "C026-presence-carte-et-lumiere",
   "number": 26,
-  "title": "Cours 7 — Présence, carte et lumière",
+  "title": "Présence, carte et lumière",
   "subtitle": "Faire descendre une vertu dans la rémanence",
   "family": "Fondations du Temple Vivant",
   "familyTitle": "Fondations du Temple Vivant",
@@ -2909,7 +3252,7 @@ window.AXIS_ONE_HOUR_COURSES = [
     {
   "id": "course-027-construire-une-seance-d-une-heure",
   "number": 27,
-  "title": "Cours 8 — Construire une séance d'une heure",
+  "title": "Construire une séance d'une heure",
   "subtitle": "Structure, rythme et cadre d'une pratique complète",
   "family": "Règles de l'enseignement",
   "familyTitle": "Règles de l'enseignement",
@@ -6608,6 +6951,7 @@ window.AXIS_ONE_HOUR_COURSES = [
         "title":  "Exercice 2 — Observer une source lumineuse",
         "subtitle":  "Les exercices sources transformés en cours 1h",
         "duration":  "1 h",
+        "image":  "assets/images/tension%20statique/observer%20la%20lumi%C3%A8re.png",
         "level":  "Recherche",
         "summary":  "Comprendre, pratiquer et intégrer : Exercice 2 — Observer une source lumineuse. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
         "teaching":  "Transformer les exercices fondamentaux en cours longs : préparation, lumière, rémanence, carnet, clôture et synthèse.",
@@ -6638,6 +6982,7 @@ window.AXIS_ONE_HOUR_COURSES = [
         "title":  "Exercice 3 — Accueillir la rémanence",
         "subtitle":  "Les exercices sources transformés en cours 1h",
         "duration":  "1 h",
+        "image":  "assets/images/spirale%20interieur.png",
         "level":  "Recherche",
         "summary":  "Comprendre, pratiquer et intégrer : Exercice 3 — Accueillir la rémanence. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
         "teaching":  "Transformer les exercices fondamentaux en cours longs : préparation, lumière, rémanence, carnet, clôture et synthèse.",
@@ -6668,6 +7013,7 @@ window.AXIS_ONE_HOUR_COURSES = [
         "title":  "Exercice 4 — Stabiliser le point intérieur",
         "subtitle":  "Les exercices sources transformés en cours 1h",
         "duration":  "1 h",
+        "image":  "assets/images/spirale%20ext%C3%A9rieur.png",
         "level":  "Recherche",
         "summary":  "Comprendre, pratiquer et intégrer : Exercice 4 — Stabiliser le point intérieur. Ce cours d’une heure transforme l’idée en protocole vivant, avec enseignement, exercice guidé, carnet et clôture.",
         "teaching":  "Transformer les exercices fondamentaux en cours longs : préparation, lumière, rémanence, carnet, clôture et synthèse.",
@@ -8112,9 +8458,9 @@ window.AXIS_ONE_HOUR_COURSES = [
     : [];
 
   const target =
-    list.find((course) => Number(course.number) === 5) ||
-    list.find((course) => String(course.id || "").includes("005")) ||
-    list[4];
+    list.find((course) => Number(course.number) === 24) ||
+    list.find((course) => String(course.id || "").includes("024-preparer")) ||
+    list[23];
 
   if (target) {
     Object.assign(target, richCourse056);
@@ -8192,7 +8538,7 @@ window.AXIS_ONE_HOUR_COURSES = [
 (function () {
   const richCourse058 = {
   "id": "C058-presence-carte-et-lumiere",
-  "number": 58,
+  "number": 26,
   "title": "Cours 7 — Présence, carte et lumière",
   "subtitle": "Faire descendre une vertu dans la rémanence",
   "family": "Fondations du Temple Vivant",
@@ -8397,9 +8743,9 @@ window.AXIS_ONE_HOUR_COURSES = [
     : [];
 
   const target =
-    list.find((course) => Number(course.number) === 7) ||
-    list.find((course) => String(course.id || "").includes("007")) ||
-    list[6];
+    list.find((course) => Number(course.number) === 26) ||
+    list.find((course) => String(course.id || "").includes("026-presence")) ||
+    list[25];
 
   if (target) {
     Object.assign(target, richCourse058);
@@ -9652,7 +9998,7 @@ window.AXIS_ONE_HOUR_COURSES = [
 (function () {
   const enriched = {
   "id": "C056-preparer-une-seance-ouvrir-le-seuil",
-  "number": 56,
+  "number": 24,
   "title": "Préparer une séance : ouvrir le seuil",
   "subtitle": "Passer du bruit ordinaire à l’espace de pratique",
   "family": "Règles de l’enseignement",
@@ -9910,12 +10256,12 @@ window.AXIS_ONE_HOUR_COURSES = [
   "copyright": "© Axis Lumen Studio — Tous droits réservés."
 };
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES) ? window.AXIS_ONE_HOUR_COURSES : [];
-  const index = list.findIndex((item) => Number(item.number) === 5 || String(item.id || "").includes("005"));
+  const index = list.findIndex((item) => Number(item.number) === 24 || String(item.id || "").includes("024-preparer"));
 
   if (index >= 0) {
     list[index] = Object.assign({}, list[index], enriched);
   } else {
-    list.splice(4, 0, enriched);
+    list.splice(23, 0, enriched);
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -9982,7 +10328,7 @@ window.AXIS_ONE_HOUR_COURSES = [
 (function () {
   const enriched = {
   "id": "course-006-clore-une-seance",
-  "number": 6,
+  "number": 25,
   "title": "Clore une séance",
   "subtitle": "Déposer la lumière, revenir au corps, intégrer l’expérience",
   "family": "Fondation — Le Livre d’Exercices",
@@ -10177,12 +10523,12 @@ window.AXIS_ONE_HOUR_COURSES = [
   }
 };
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES) ? window.AXIS_ONE_HOUR_COURSES : [];
-  const index = list.findIndex((item) => Number(item.number) === 6 || String(item.id || "").includes("006"));
+  const index = list.findIndex((item) => Number(item.number) === 25 || String(item.id || "").includes("025-clore"));
 
   if (index >= 0) {
     list[index] = Object.assign({}, list[index], enriched);
   } else {
-    list.splice(5, 0, enriched);
+    list.splice(24, 0, enriched);
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10249,7 +10595,7 @@ window.AXIS_ONE_HOUR_COURSES = [
 (function () {
   const enriched = {
   "id": "C058-presence-carte-et-lumiere",
-  "number": 58,
+  "number": 26,
   "title": "Cours 7 — Présence, carte et lumière",
   "subtitle": "Faire descendre une vertu dans la rémanence",
   "family": "Fondations du Temple Vivant",
@@ -10449,12 +10795,12 @@ window.AXIS_ONE_HOUR_COURSES = [
   "copyright": "© Axis Lumen Studio — Tous droits réservés."
 };
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES) ? window.AXIS_ONE_HOUR_COURSES : [];
-  const index = list.findIndex((item) => Number(item.number) === 7 || String(item.id || "").includes("007"));
+  const index = list.findIndex((item) => Number(item.number) === 26 || String(item.id || "").includes("026-presence"));
 
   if (index >= 0) {
     list[index] = Object.assign({}, list[index], enriched);
   } else {
-    list.splice(6, 0, enriched);
+    list.splice(25, 0, enriched);
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -10521,7 +10867,7 @@ window.AXIS_ONE_HOUR_COURSES = [
 (function () {
   const enriched = {
   "id": "course-008-construire-une-seance-d-une-heure",
-  "number": 8,
+  "number": 27,
   "coverImage": "assets/courses/course-008/cover.png",
   "image": "assets/courses/course-008/cover.png",
   "cover": "assets/courses/course-008/cover.png",
@@ -10553,12 +10899,12 @@ window.AXIS_ONE_HOUR_COURSES = [
   "pdfPremium": true
 };
   const list = Array.isArray(window.AXIS_ONE_HOUR_COURSES) ? window.AXIS_ONE_HOUR_COURSES : [];
-  const index = list.findIndex((item) => Number(item.number) === 8 || String(item.id || "").includes("008"));
+  const index = list.findIndex((item) => Number(item.number) === 27 || String(item.id || "").includes("027-construire"));
 
   if (index >= 0) {
     list[index] = Object.assign({}, list[index], enriched);
   } else {
-    list.splice(7, 0, enriched);
+    list.splice(26, 0, enriched);
   }
 
   window.AXIS_ONE_HOUR_COURSES = list;
@@ -16716,3 +17062,31 @@ window.AXIS_ONE_HOUR_COURSES = [
   }
 })();
 /* AXIS_REINJECT_FROM_DATA_COURSES_END */
+
+/* AXIS_IMAGE_PATCH_FINAL */
+(function () {
+  var map = {
+    5:   "assets/images/exercice%20113%20114%20115/c%C3%A9n%C3%A8st%C3%A9sique%201.png",
+    6:   "assets/images/exercice%20113%20114%20115/mantra%201.png",
+    7:   "assets/images/exercice%20113%20114%20115/convergence%20oculaire%201.png",
+    109: "assets/images/tension%20statique/observer%20la%20lumi%C3%A8re.png",
+    110: "assets/images/spirale%20interieur.png",
+    111: "assets/images/spirale%20ext%C3%A9rieur.png",
+    113: "assets/images/exercice%20113%20114%20115/c%C3%A9n%C3%A8st%C3%A9sique%201.png",
+    114: "assets/images/exercice%20113%20114%20115/mantra%201.png",
+    115: "assets/images/exercice%20113%20114%20115/convergence%20oculaire%201.png"
+  };
+  var list = window.AXIS_ONE_HOUR_COURSES || [];
+  list.forEach(function (c) {
+    var img = map[Number(c.number)];
+    if (!img) return;
+    c.coverImage = img;
+    c.image = img;
+    c.cover = img;
+    c.thumbnail = img;
+    c.hero = img;
+    if (!c.images) c.images = {};
+    c.images.cover = img;
+  });
+})();
+/* AXIS_IMAGE_PATCH_FINAL_END */
