@@ -50,6 +50,7 @@
       summary:"La neuroscience confirme ce que les mystiques ont toujours su : le cerveau est un organe de conscience transformable par la pratique.",
       tags:["sécurité","discernement","sobriété","carnet"],
       level:"Fondation", duration:"1 h",
+      coverImage:"assets/courses/course-002/cerveau-anatomie.png",
       image:"assets/courses/course-002/cerveau-anatomie.png",
       images:{ cover:"assets/courses/course-002/cerveau-anatomie.png", pedagogical:["assets/courses/course-002/course-002-image-02.webp","assets/courses/course-002/course-002-image-03.webp"] },
       pdfPath:"data/pdf/cours-02-cerveau-conscience.pdf", pdfPremium:true
@@ -1388,16 +1389,22 @@
   // Le numéro de cours = numéro du dossier assets/courses/course-XXX/
   // Les cours > 112 utilisent le dossier course-112 (dernier disponible)
   // ═══════════════════════════════════════════════════════
+  // Images manuelles : ces cours ont une image spécifique, ne pas écraser
+  var MANUAL_COVER = {
+    "c002": "assets/courses/course-002/cerveau-anatomie.png"
+  };
+
   window.AXIS_ONE_HOUR_COURSES.forEach(function (c) {
     var n = Math.min(Math.floor(Number(c.number)), 112);
     if (n < 1) n = 1;
     var pad = String(n).padStart(3, "0");
     var base = "assets/courses/course-" + pad;
     var pfx  = "course-" + pad;
-    c.image      = base + "/cover.webp";
-    c.coverImage = base + "/cover.webp";
+    var manualCover = MANUAL_COVER[c.id];
+    c.image      = manualCover || base + "/cover.webp";
+    c.coverImage = manualCover || base + "/cover.webp";
     c.images     = {
-      cover:       base + "/cover.webp",
+      cover:       manualCover || base + "/cover.webp",
       pedagogical: [
         base + "/" + pfx + "-image-02.webp",
         base + "/" + pfx + "-image-03.webp",

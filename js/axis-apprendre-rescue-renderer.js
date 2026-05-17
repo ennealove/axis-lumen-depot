@@ -353,6 +353,8 @@
         exerciceBtn = "<a class='axis-rescue-exercice-btn' href='exercice-balancement.html?jour=" + (bIdx + 1) + "'>Exercice ↗</a>";
       } else if (rIdx !== -1) {
         exerciceBtn = "<a class='axis-rescue-exercice-btn' href='exercice-respiration.html?jour=" + (rIdx + 1) + "'>Exercice ↗</a>";
+      } else if (course.exerciceUrl) {
+        exerciceBtn = "<a class='axis-rescue-exercice-btn' href='" + esc(course.exerciceUrl) + "'>Exercice ↗</a>";
       }
 
       return [
