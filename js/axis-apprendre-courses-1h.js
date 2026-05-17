@@ -50,8 +50,8 @@
       summary:"La neuroscience confirme ce que les mystiques ont toujours su : le cerveau est un organe de conscience transformable par la pratique.",
       tags:["sécurité","discernement","sobriété","carnet"],
       level:"Fondation", duration:"1 h",
-      image:"assets/courses/course-002/cover.webp",
-      images:{ cover:"assets/courses/course-002/cover.webp", pedagogical:["assets/courses/course-002/course-002-image-02.webp","assets/courses/course-002/course-002-image-03.webp"] },
+      image:"assets/courses/course-002/cerveau-anatomie.png",
+      images:{ cover:"assets/courses/course-002/cerveau-anatomie.png", pedagogical:["assets/courses/course-002/course-002-image-02.webp","assets/courses/course-002/course-002-image-03.webp"] },
       pdfPath:"data/pdf/cours-02-cerveau-conscience.pdf", pdfPremium:true
     },
     {
