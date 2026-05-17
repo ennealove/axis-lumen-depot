@@ -1384,4 +1384,33 @@
     }
   });
 
+  // ═══════════════════════════════════════════════════════════════════════
+  // CHEMINS PDF RÉELS — fichiers premium vérifiés dans data/pdf/
+  // Ces chemins écrasent les anciens assets/cours-pdf/ qui n'existent pas.
+  // ═══════════════════════════════════════════════════════════════════════
+  var REAL_PDF = {
+    /* Balancements (Lefebure) */
+    9:    "data/pdf/cours-09-balancement-vertical.pdf",
+    10:   "data/pdf/cours-10-balancement-antero-posterieur.pdf",
+    11:   "data/pdf/cours-11-balancement-en-huit.pdf",
+    12:   "data/pdf/cours-12-balancement-en-croix.pdf",
+    13:   "data/pdf/cours-13-rotation-douce.pdf",
+    14:   "data/pdf/cours-14-fer-a-cheval.pdf",
+    15:   "data/pdf/cours-15-seance-combinee-balancements.pdf",
+    15.5: "data/pdf/cours-15b-programme-15j-balancements.pdf",
+    /* Respirations rythmiques */
+    18:   "data/pdf/cours-52-respiration-naturelle.pdf",
+    19:   "data/pdf/cours-54-respiration-carree.pdf",
+    20:   "data/pdf/cours-55-respiration-triangulaire.pdf"
+  };
+
+  list.forEach(function (c) {
+    var path = REAL_PDF[c.number];
+    if (path) {
+      c.pdfPath = path;
+      if (!c.pdf || typeof c.pdf !== 'object') c.pdf = {};
+      c.pdf.path = path;
+    }
+  });
+
 })();
