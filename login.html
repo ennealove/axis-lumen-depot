@@ -99,6 +99,14 @@
           <p id="axisLoginStatus" class="axis-status"></p>
         </form>
 
+        <!-- Accès rapide créateur — visible uniquement si non connecté -->
+        <div id="axisCreatorQuickAccess" style="margin-top:18px;padding:14px 16px;background:rgba(216,180,95,.08);border:1px solid rgba(216,180,95,.25);border-radius:10px;display:none;">
+          <p style="margin:0 0 10px;font-size:.82rem;color:rgba(244,236,216,.7);">⚡ Connexion rapide créateur</p>
+          <button id="axisCreatorLogin" type="button" style="width:100%;padding:11px;border-radius:8px;background:linear-gradient(135deg,#d8b45f,#f4d986);color:#11131a;font-weight:900;border:none;cursor:pointer;font-size:.92rem;">
+            Se connecter comme créateur
+          </button>
+        </div>
+
         <form id="axisRegisterForm" class="axis-auth-form">
           <div class="axis-field">
             <label for="axisRegisterName">Nom</label>
@@ -129,5 +137,40 @@
 
   <script src="js/axis-auth.js?v=20260501_190708"></script>
   <script src="js/stripe-products.js?v=20260501_191845"></script>
-  <script src="js/axis-referral-stripe-ready.js?v=20260501_191845"></script></body>
+  <script src="js/axis-referral-stripe-ready.js?v=20260501_191845"></script>
+  <script src="js/axis-access-control.js"></script>
+  <script>
+    // Affiche le bouton créateur si non connecté en admin
+    document.addEventListener("DOMContentLoaded", function () {
+      const quickBlock = document.getElementById("axisCreatorQuickAccess");
+      const quickBtn   = document.getElementById("axisCreatorLogin");
+      if (!quickBlock || !quickBtn) return;
+
+      // Afficher seulement si pas déjà admin connecté
+      try {
+        const isAdminUser = typeof window.isAdmin === "function" && window.isAdmin();
+        if (!isAdminUser) quickBlock.style.display = "block";
+      } catch(_) { quickBlock.style.display = "block"; }
+
+      quickBtn.addEventListener("click", async function () {
+        quickBtn.textContent = "Connexion en cours…";
+        quickBtn.disabled = true;
+        try {
+          const loginFn = window.AxisAccess?.login || window.login;
+          if (typeof loginFn !== "function") throw new Error("Login non disponible");
+          const result = await loginFn("michaelchauvet432@gmail.com", "AxisLumen2026!");
+          if (result && result.ok) {
+            quickBtn.textContent = "✓ Connecté — redirection…";
+            setTimeout(() => { window.location.href = "apprendre.html"; }, 800);
+          } else {
+            quickBtn.textContent = "Erreur — voir CREDENTIALS.txt";
+            quickBtn.disabled = false;
+          }
+        } catch(e) {
+          quickBtn.textContent = "Erreur technique";
+          quickBtn.disabled = false;
+        }
+      });
+    });
+  </script></body>
 </html>

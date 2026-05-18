@@ -496,3 +496,200 @@
   letter-spacing: 0.06em;
 }
 
+/* ── Badge "Séance incluse" sur les cartes ─────────────── */
+.axis-tag-preprog {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(80,200,120,.18), rgba(80,200,120,.08));
+  color: #7fe0a0;
+  border: 1px solid rgba(80,200,120,.35);
+  letter-spacing: 0.04em;
+}
+
+/* ── Bouton accent (séance pré-programmée sur la carte) ─ */
+.axis-onehour-btn.accent {
+  background: linear-gradient(135deg, rgba(80,200,120,.22), rgba(80,200,120,.10));
+  color: #7fe0a0;
+  border-color: rgba(80,200,120,.40);
+}
+.axis-onehour-btn.accent:hover {
+  background: linear-gradient(135deg, rgba(80,200,120,.35), rgba(80,200,120,.18));
+  color: #aaf5c0;
+  border-color: rgba(80,200,120,.60);
+}
+
+/* ── Bloc séance pré-programmée dans le reader ─────────── */
+.axis-course-preprog-block {
+  background: linear-gradient(135deg, rgba(80,200,120,.07), rgba(255,220,80,.05));
+  border: 1px solid rgba(80,200,120,.28);
+  border-radius: 18px;
+  padding: 22px 24px 20px;
+  margin: 24px 0 0;
+}
+
+.axis-course-preprog-block .axis-course-gen-kicker {
+  color: #7fe0a0;
+  font-size: .72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  margin: 0 0 8px;
+}
+
+.axis-course-preprog-block h4 {
+  font-size: 1.08rem;
+  font-weight: 800;
+  color: #d4fbe0;
+  margin: 0 0 8px;
+}
+
+.axis-preprog-context {
+  font-size: .84rem;
+  color: rgba(180,240,200,.8);
+  font-style: italic;
+  margin: 0 0 16px;
+  line-height: 1.55;
+}
+
+.axis-preprog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 8px 12px;
+  margin-bottom: 18px;
+}
+
+.axis-preprog-param {
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(80,200,120,.18);
+  border-radius: 10px;
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.axis-preprog-param span {
+  font-size: .7rem;
+  color: rgba(200,240,210,.55);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+.axis-preprog-param strong {
+  font-size: .88rem;
+  color: #c8f5d8;
+  font-weight: 700;
+}
+
+
+/* ── Système de validation progressive ─────────────────────────────────── */
+
+/* Carte verrouillée */
+.axis-onehour-card.axis-card-locked {
+  opacity: .55;
+  filter: grayscale(.7);
+  pointer-events: none;
+  border-color: rgba(150,150,150,.2) !important;
+}
+.axis-onehour-card.axis-card-locked .axis-onehour-actions button {
+  pointer-events: none;
+}
+
+/* Carte validée */
+.axis-onehour-card.axis-card-done {
+  border-color: rgba(80,200,120,.35) !important;
+  background: rgba(80,200,120,.06);
+}
+
+/* Badges de statut */
+.axis-card-status-badge {
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  padding: 2px 8px;
+  border-radius: 20px;
+  margin-left: auto;
+}
+.axis-card-status-badge.locked   { background: rgba(180,180,180,.15); color: #aaa; }
+.axis-card-status-badge.done     { background: rgba(80,200,120,.2);  color: #7de8a0; }
+.axis-card-status-badge.validatable { background: rgba(255,200,50,.2); color: #ffd966; }
+.axis-card-status-badge.open     { background: rgba(100,160,255,.15); color: #80b4ff; }
+
+/* Message verrouillé */
+.axis-card-locked-msg {
+  font-size: .82rem;
+  color: rgba(200,220,255,.4);
+  font-style: italic;
+}
+
+/* Bouton verrouillé */
+.axis-onehour-btn.locked {
+  opacity: .45;
+  cursor: not-allowed;
+  background: rgba(150,150,150,.1);
+  border-color: rgba(150,150,150,.2);
+  color: #888;
+}
+
+/* Bloc de validation dans le lecteur */
+.axis-course-validation-block {
+  margin: 24px 0;
+  padding: 20px 24px;
+  border-radius: 14px;
+  border: 1px solid;
+}
+
+.axis-validation-pending {
+  background: rgba(100,160,255,.07);
+  border-color: rgba(100,160,255,.2);
+}
+.axis-validation-pending .axis-validation-hint {
+  color: rgba(200,220,255,.7);
+  font-size: .9rem;
+  margin: 0;
+}
+
+.axis-validation-ready {
+  background: rgba(255,200,50,.08);
+  border-color: rgba(255,200,50,.35);
+}
+.axis-validation-ready .axis-validation-hint {
+  color: rgba(255,220,120,.85);
+  font-size: .9rem;
+  margin: 0 0 14px;
+}
+
+.axis-validate-btn {
+  background: linear-gradient(135deg, #ffd966 0%, #ffb020 100%) !important;
+  color: #1a1208 !important;
+  border: none !important;
+  font-weight: 800 !important;
+  font-size: 1rem !important;
+  padding: 14px 28px !important;
+  border-radius: 10px !important;
+  cursor: pointer;
+  width: 100%;
+  letter-spacing: .03em;
+  transition: transform .15s, box-shadow .15s;
+}
+.axis-validate-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 24px rgba(255,176,32,.35); }
+
+.axis-validation-done {
+  background: rgba(80,200,120,.1);
+  border-color: rgba(80,200,120,.35);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.axis-validation-check {
+  font-size: 1.6rem;
+  color: #7de8a0;
+}
+.axis-validation-done p {
+  color: #a0e8b8;
+  margin: 0;
+  font-size: .9rem;
+}

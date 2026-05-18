@@ -1,18 +1,17 @@
 ﻿/* Axis Lumen Studio - Cours 003 images premium */
 (function () {
   var images = {
-    cover: "assets/courses/course-003/cover.webp",
+    cover: "assets/courses/course-003/axis_lumen_image_1.png",
     gallery: [
-      "assets/courses/course-003/atmosphere.webp",
-      "assets/courses/course-003/closing.webp",
-      "assets/courses/course-003/contemplation.webp",
-      "assets/courses/course-003/contemplative.webp",
-      "assets/courses/course-003/cover.webp",
-      "assets/courses/course-003/journal.webp",
-      "assets/courses/course-003/pedagogical.webp",
-      "assets/courses/course-003/practice.webp",
-      "assets/courses/course-003/safety.webp",
-      "assets/courses/course-003/symbolic.webp"
+      "assets/courses/course-003/axis_lumen_image_1.png",
+      "assets/courses/course-003/axis_lumen_image_2.png",
+      "assets/courses/course-003/axis_lumen_image_3.png",
+      "assets/courses/course-003/axis_lumen_image_4.png",
+      "assets/courses/course-003/axis_lumen_image_5.png",
+      "assets/courses/course-003/axis_lumen_image_6.png",
+      "assets/courses/course-003/axis_lumen_image_7.png",
+      "assets/courses/course-003/axis_lumen_image_8.png",
+      "assets/courses/course-003/axis_lumen_image_9.png"
     ]
   };
 

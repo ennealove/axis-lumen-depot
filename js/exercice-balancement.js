@@ -50,11 +50,21 @@
   var LS_PROG    = 'axis_pf_progression';
   var LS_SESSION = 'axis_lumen_generated_session';
 
-  var state = { jour: 1, swing: 'lateral', duree: 20, trackId: '', couleur: null };
+  var state = { jour: 1, swing: 'lateral', duree: 20, trackId: '', couleur: null, metro: 'off', metroVol: 0.20, voice: true };
 
   var sessionInterval = null;
   var sessionAudio    = null;
   var metroBeat       = 0;
+  var beatSide        = false;
+  var sessionPaused   = false;
+
+  function speak(text) {
+    if (!state.voice || !text) return;
+    if (window.axisSpeak) window.axisSpeak(text, false);
+  }
+  function stopSpeech() {
+    if (window.axisStopSpeech) window.axisStopSpeech();
+  }
 
   function $ (id) { return document.getElementById(id); }
 
@@ -76,6 +86,30 @@
         o.start(); o.stop(c.currentTime + dur);
       } catch (e) {}
     }
+    function click(pan, vol) {
+      var c = C(); if (!c) return;
+      var gainVal = (vol !== undefined ? vol : 0.20);
+      /* Cloche synchrophonie : sine pur, fréquence distincte L/R, decay 300ms */
+      var freq  = pan < 0 ? 880 : 660;   /* L = 880 Hz (la5), R = 660 Hz (mi5) */
+      var panVal = pan < 0 ? -0.9 : 0.9;
+      var decay = 0.30;
+      try {
+        var o  = c.createOscillator();
+        var g  = c.createGain();
+        o.type = 'sine';
+        o.frequency.value = freq;
+        if (c.createStereoPanner) {
+          var sp = c.createStereoPanner();
+          sp.pan.value = panVal;
+          o.connect(g); g.connect(sp); sp.connect(c.destination);
+        } else {
+          o.connect(g); g.connect(c.destination);
+        }
+        g.gain.setValueAtTime(gainVal, c.currentTime);
+        g.gain.exponentialRampToValueAtTime(0.0001, c.currentTime + decay);
+        o.start(); o.stop(c.currentTime + decay);
+      } catch (e) {}
+    }
     return {
       phaseBell: function () { tone(528, 1.8, 0.30); },
       majorBell: function () {
@@ -83,6 +117,7 @@
         setTimeout(function () { tone(528, 1.8, 0.22); }, 300);
       },
       metronome: function () { tone(800, 0.04, 0.12, 'square'); },
+      click:     click,
       endBell:   function () {
         tone(528, 2.5, 0.32);
         setTimeout(function () { tone(660, 2.0, 0.24); }, 800);
@@ -269,7 +304,7 @@
 
     phases.push({ kind: 'text', dur: 120, icon: '◉',
       title: 'Rémanence', sub: 'Restez immobile',
-      mainText: 'Observez les phosphènes',
+      mainText: 'Observez les formes lumineuses',
       guide: 'Restez immobile, bandeau sur les yeux. Observez les formes lumineuses intérieures. Laissez la rémanence s\'installer dans le silence.' });
 
     return phases;
@@ -324,6 +359,7 @@
 
     overlay.classList.remove('hidden');
     SND.majorBell();
+    setTimeout(function () { speak('Bienvenue dans ta séance de balancement. Installe-toi confortablement, dos droit.'); }, 1800);
 
     /* Audio de fond */
     if (state.trackId && window.AXIS_AUDIO_TRACKS) {
@@ -337,9 +373,26 @@
 
     function showPhase(ph, phNum) {
       sovSetHeader(ph.title, ph.sub, 'Étape ' + phNum + '/' + phases.length);
-      if (ph.kind === 'image')       sovShowImage(ph.img);
-      else if (ph.kind === 'balancement') sovShowPendulum(ph.swing, ph.mantra, ph.segments[0].label);
-      else                           sovShowText(ph.icon, ph.mainText);
+      if (ph.kind === 'image') {
+        sovShowImage(ph.img);
+        if (ph.title.indexOf('Contemplation') >= 0) {
+          speak('Contemplation. Fixe cet objet du regard sans cligner des yeux. Imprègne-toi de sa forme et de sa couleur.');
+        } else {
+          speak('Pose le bandeau sur les yeux. Installe-toi confortablement pour le balancement.');
+        }
+      } else if (ph.kind === 'balancement') {
+        sovShowPendulum(ph.swing, ph.mantra, ph.segments[0].label);
+        speak(ph.segments[0].guide);
+      } else {
+        sovShowText(ph.icon, ph.mainText);
+        if (ph.title.indexOf('lumineuse') >= 0) {
+          speak('Observation lumineuse. Dirige ton regard vers la source de lumière. Regarde-la sans cligner des yeux pendant trente secondes.');
+        } else if (ph.title.indexOf('Éteignez') >= 0) {
+          speak('Éteins la lumière maintenant. Prépare-toi à entrer dans l\'obscurité.');
+        } else if (ph.title.indexOf('Rémanence') >= 0) {
+          speak('Rémanence. Reste immobile, bandeau sur les yeux. Observe les formes lumineuses intérieures. Laisse le silence s\'installer.');
+        }
+      }
       var guide = sovEl('ebSovGuide'); if (guide) guide.textContent = ph.guide || '';
     }
 
@@ -349,6 +402,7 @@
     metroBeat = 0;
 
     sessionInterval = setInterval(function () {
+      if (sessionPaused) return;
       elapsed++;
       phaseElapsed++;
       sovSetProgress((elapsed / totalDur) * 100);
@@ -371,7 +425,14 @@
       /* Balancement : metronome + segment update */
       if (ph.kind === 'balancement') {
         metroBeat++;
-        if (metroBeat % 2 === 0) SND.metronome();
+        if (metroBeat % 2 === 0) {
+          if (state.metro === 'stereo') {
+            SND.click(beatSide ? 1 : -1, state.metroVol);
+            beatSide = !beatSide;
+          } else if (state.metro === 'mono') {
+            SND.click(0, state.metroVol);
+          }
+        }
         var segs = ph.segments;
         var activeSeg = segs[segs.length - 1];
         for (var si = 0; si < segs.length; si++) {
@@ -383,6 +444,7 @@
           if (phaseElapsed === segs[si].from + 1) {
             var guide = sovEl('ebSovGuide'); if (guide) guide.textContent = activeSeg.guide;
             SND.phaseBell();
+            speak(activeSeg.guide);
           }
         }
       }
@@ -398,6 +460,7 @@
           if (currentJour().forme && state.couleur) avancerCouleur(currentJour().forme);
           return;
         }
+        beatSide = false;
         SND.majorBell();
         showPhase(phases[phaseIdx], phaseIdx + 1);
       }
@@ -407,8 +470,13 @@
   function stopSession() {
     if (sessionInterval) { clearInterval(sessionInterval); sessionInterval = null; }
     if (sessionAudio)    { sessionAudio.pause(); sessionAudio = null; }
+    stopSpeech();
+    sessionPaused = false;
     var overlay = $('ebSessionOverlay');
     if (overlay) overlay.classList.add('hidden');
+    var pauseBtn = $('ebSovPause'), resumeBtn = $('ebSovResume');
+    if (pauseBtn)  pauseBtn.style.display  = '';
+    if (resumeBtn) resumeBtn.style.display = 'none';
     sovSetProgress(0);
   }
 
@@ -449,6 +517,48 @@
       state.duree = parseInt(btn.dataset.dur, 10);
       durBtns.querySelectorAll('[data-dur]').forEach(function (b) { b.classList.toggle('active', parseInt(b.dataset.dur, 10) === state.duree); });
       renderPreview();
+    });
+
+    var metroBtns = $('ebMetroBtns');
+    if (metroBtns) metroBtns.addEventListener('click', function (e) {
+      var btn = e.target.closest('[data-metro]'); if (!btn) return;
+      state.metro = btn.dataset.metro;
+      metroBtns.querySelectorAll('[data-metro]').forEach(function (b) {
+        b.classList.toggle('active', b.dataset.metro === state.metro);
+      });
+    });
+
+    var metroVolSlider = $('ebMetroVol');
+    if (metroVolSlider) metroVolSlider.addEventListener('input', function () {
+      state.metroVol = parseFloat(metroVolSlider.value);
+      var lbl = $('ebMetroVolLabel');
+      if (lbl) lbl.textContent = Math.round(state.metroVol * 100) + '%';
+    });
+
+    var voiceBtns = $('ebVoiceBtns');
+    if (voiceBtns) voiceBtns.addEventListener('click', function (e) {
+      var btn = e.target.closest('[data-voice]'); if (!btn) return;
+      state.voice = (btn.dataset.voice === 'on');
+      voiceBtns.querySelectorAll('[data-voice]').forEach(function (b) {
+        b.classList.toggle('active', (b.dataset.voice === 'on') === state.voice);
+      });
+    });
+
+    var pauseBtn = $('ebSovPause');
+    if (pauseBtn) pauseBtn.addEventListener('click', function () {
+      sessionPaused = true;
+      if (sessionAudio) try { sessionAudio.pause(); } catch (e) {}
+      stopSpeech();
+      pauseBtn.style.display = 'none';
+      var rb = $('ebSovResume'); if (rb) rb.style.display = '';
+    });
+
+    var resumeBtn = $('ebSovResume');
+    if (resumeBtn) resumeBtn.addEventListener('click', function () {
+      sessionPaused = false;
+      if (sessionAudio) try { sessionAudio.play().catch(function () {}); } catch (e) {}
+      resumeBtn.style.display = 'none';
+      var pb = $('ebSovPause'); if (pb) pb.style.display = '';
     });
 
     var launchBtn = $('ebLaunch');

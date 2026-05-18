@@ -1,24 +1,25 @@
 ﻿/* Axis Lumen Studio - Cours 011 images premium */
 (function () {
   var images = {
-    cover:         "assets/courses/course-011/cover.webp",
+    cover:         "assets/courses/course-011/balancement_huit_1.png",
     gallery: [
-      "assets/courses/course-011/cover.webp",
-      "assets/courses/course-011/course-011-image-02.webp",
-      "assets/courses/course-011/course-011-image-03.webp",
-      "assets/courses/course-011/course-011-image-04.webp",
-      "assets/courses/course-011/course-011-image-05.webp",
-      "assets/courses/course-011/course-011-image-06.webp",
-      "assets/courses/course-011/course-011-image-07.webp",
-      "assets/courses/course-011/course-011-image-08.webp"
+      "assets/courses/course-011/balancement_huit_1.png",
+      "assets/courses/course-011/balancement_huit_2.png",
+      "assets/courses/course-011/balancement_huit_3.png",
+      "assets/courses/course-011/balancement_huit_4.png",
+      "assets/courses/course-011/balancement_huit_5.png",
+      "assets/courses/course-011/balancement_huit_6.png",
+      "assets/courses/course-011/balancement_huit_7.png",
+      "assets/courses/course-011/balancement_huit_8.png",
+      "assets/courses/course-011/balancement_huit_9.png"
     ],
     pedagogical: [
-      "assets/courses/course-011/course-011-image-02.webp",
-      "assets/courses/course-011/course-011-image-03.webp",
-      "assets/courses/course-011/course-011-image-04.webp"
+      "assets/courses/course-011/balancement_huit_2.png",
+      "assets/courses/course-011/balancement_huit_3.png",
+      "assets/courses/course-011/balancement_huit_4.png"
     ],
-    contemplative: "assets/courses/course-011/course-011-image-05.webp",
-    exercise:      "assets/courses/course-011/course-011-image-06.webp"
+    contemplative: "assets/courses/course-011/balancement_huit_5.png",
+    exercise:      "assets/courses/course-011/balancement_huit_6.png"
   };
 
   /* Injection SYNCHRONE - avant que axis-apprendre-one-hour.js rende les cartes */
@@ -30,7 +31,7 @@
     course.images     = Object.assign({}, course.images || {}, images);
     course.pdfPremium = true;
     course.pdf        = course.pdf || {};
-    course.pdf.title  = "Balancement latéral avancé — Synchroniser mouvement, phosphène et pensée";
+    course.pdf.title  = "Balancement en huit — Synchroniser mouvement, lumière intérieure et pensée";
     course.pdf.protectedNotice = "Support pédagogique réservé aux élèves de l'École du Temple Vivant — Axis Lumen Studio.";
   }
 })();

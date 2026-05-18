@@ -4,17 +4,17 @@
   const COURSE = {
     title: "Cours 3 — Maintenir son temple propre au quotidien",
     subtitle: "Transformer l’hygiène du quotidien en protocole vivant",
-    cover: "assets/courses/course-003/cover.png",
+    cover: "assets/courses/course-003/axis_lumen_image_1.png",
     images: [
-      "assets/courses/course-003/cover.png",
-      "assets/courses/course-003/pedagogical.png",
-      "assets/courses/course-003/practice.png",
-      "assets/courses/course-003/contemplation.png",
-      "assets/courses/course-003/journal.png",
-      "assets/courses/course-003/safety.png",
-      "assets/courses/course-003/symbolic.png",
-      "assets/courses/course-003/closing.png",
-      "assets/courses/course-003/atmosphere.png"
+      "assets/courses/course-003/axis_lumen_image_1.png",
+      "assets/courses/course-003/axis_lumen_image_2.png",
+      "assets/courses/course-003/axis_lumen_image_3.png",
+      "assets/courses/course-003/axis_lumen_image_4.png",
+      "assets/courses/course-003/axis_lumen_image_5.png",
+      "assets/courses/course-003/axis_lumen_image_6.png",
+      "assets/courses/course-003/axis_lumen_image_7.png",
+      "assets/courses/course-003/axis_lumen_image_8.png",
+      "assets/courses/course-003/axis_lumen_image_9.png"
     ],
     longSummary: "Un temple vivant n’a pas besoin d’être parfait. Il a besoin d’être entretenu. Ce cours enseigne comment l’hygiène du lieu, du corps, de l’attention, de l’alimentation symbolique et du carnet devient une pratique quotidienne.",
     essentialPhrase: "Un temple vivant ne reste clair que s’il est entretenu par des gestes simples, répétés et vrais."

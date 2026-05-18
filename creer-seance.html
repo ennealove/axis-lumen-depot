@@ -86,9 +86,16 @@
         <div class="axis-field">
           <label for="axisSwing">Type de balancement</label>
           <select id="axisSwing">
-            <option value="lateral">Balancement latéral</option>
-            <option value="vertical">Balancement vertical</option>
-            <option value="rotation">Rotation douce</option>
+            <optgroup label="Balancements linéaires">
+              <option value="lateral">Latéral ↔ — ILLI (tempe à tempe)</option>
+              <option value="vertical">Vertical ↕ — ALLA (menton → sommet)</option>
+              <option value="ap">Antéro-postérieur — ELLU (fer à cheval)</option>
+            </optgroup>
+            <optgroup label="Balancements composés">
+              <option value="rotation">Rotation douce — ELLU (circulaire)</option>
+              <option value="huit">En huit ∞ — ILLI·ELLU (figure de huit)</option>
+              <option value="croix">En croix ✚ — ILLI·ALLA (alternance)</option>
+            </optgroup>
           </select>
         </div>
 
@@ -100,9 +107,20 @@
         <div class="axis-field">
           <label for="axisBreathType">Type de respiration</label>
           <select id="axisBreathType">
-            <option value="square" selected>Respiration carrée</option>
-            <option value="triangular">Respiration triangulaire</option>
-            <option value="rectangular">Respiration rectangulaire</option>
+            <optgroup label="Respirations classiques">
+              <option value="square" selected>Carrée — 4 temps égaux (LA·FA·DO·FA)</option>
+              <option value="triangular">Triangulaire — 3 temps (LA·FA·DO)</option>
+              <option value="rectangular">Rectangulaire — rétentions longues (LA·FA×2·DO·FA×2)</option>
+            </optgroup>
+            <optgroup label="Respirations spécialisées">
+              <option value="depurative">Dépurative — expiration ×3 (nettoyage)</option>
+              <option value="triangulaire_inv">Triangulaire inversée — expir longue (calme)</option>
+              <option value="coherence">Cohérence cardiaque — 5s·5s fixe</option>
+              <option value="yoga478">Yogique 4-7-8 (seuil hypnagogique)</option>
+            </optgroup>
+            <optgroup label="Respiration complète">
+              <option value="complete">Complète en 3 temps (abdomen·thorax·clavicules)</option>
+            </optgroup>
           </select>
         </div>
 
@@ -216,6 +234,40 @@
         </div>
       </div>
 
+      <!-- Guide rythmique -->
+      <div class="session-divider">
+        <h3>Guide rythmique du balancement</h3>
+      </div>
+
+      <div class="session-metro-section">
+        <div class="session-metro-modes">
+          <button class="session-metro-btn active" data-metro-mode="off" type="button">
+            Sans clic<br><small>silence</small>
+          </button>
+          <button class="session-metro-btn" data-metro-mode="mono" type="button">
+            Simple<br><small>clic mono</small>
+          </button>
+          <button class="session-metro-btn" data-metro-mode="stereo" type="button">
+            Stéréo<br><small>G / D alternés</small>
+          </button>
+        </div>
+        <p class="session-metro-hint">
+          Stéréo : le clic alterne oreille gauche / droite à chaque demi-balancement.
+          Casque recommandé. Le tempo s'ajuste automatiquement au type de balancement choisi.
+        </p>
+        <div class="session-metro-sliders">
+          <div class="axis-field">
+            <label for="axisMetroBpm">Tempo — <span id="axisMetroBpmLabel">60</span> BPM</label>
+            <input id="axisMetroBpm" type="range" min="20" max="120" step="5" value="60">
+          </div>
+          <div class="axis-field">
+            <label for="axisMetroVol">Volume du clic — <span id="axisMetroVolLabel">20%</span></label>
+            <input id="axisMetroVol" type="range" min="0.05" max="1.00" step="0.05" value="0.20">
+          </div>
+        </div>
+        <input type="hidden" id="axisMetroMode" value="off">
+      </div>
+
       <div class="session-total-box">
         <span>Total de la séance</span><br>
         <strong id="axisTotal">—</strong>
@@ -321,7 +373,7 @@
   })();
 </script>
 <script src="js/axis-session-video-map.js?v=20260501_214944"></script>
-<script src="js/axis-session-audio-map.js?v=20260501_214944"></script>
+<script src="js/axis-session-audio-map.js?v=20260517"></script>
 <script src="js/axis-audio-local-patch.js"></script>
 <script src="js/axis-video-local-patch.js"></script>
 <script>

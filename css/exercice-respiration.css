@@ -158,8 +158,35 @@
 }
 .er-session-stop:hover { border-color: #6b5de8; color: #a084d8; }
 
-/* ── Temps par phase ───────────────────────────────────────────────────── */
-.er-temps-phase-row { display: flex; align-items: center; gap: 12px; margin: 8px 0 4px; }
-.er-range { flex: 1; accent-color: #6b5de8; cursor: pointer; }
-.er-temps-val { font-size: 1.1rem; font-weight: 700; color: #f7e6b1; min-width: 44px; text-align: right; }
-.er-temps-detail { font-size: .75rem; color: #5a5245; letter-spacing: .04em; margin: 0; }
+/* ── Curseur de réglage ────────────────────────────────────────────────── */
+.er-temps-phase-row {
+  display: flex; align-items: center; gap: 12px; margin: 8px 0 4px;
+}
+.er-range {
+  flex: 1; height: 6px;
+  accent-color: #6b5de8; cursor: pointer;
+  background: linear-gradient(90deg, #6b5de8, #3d3560);
+  border-radius: 3px;
+}
+.er-temps-val {
+  font-size: 1.3rem; font-weight: 800;
+  color: #f7e6b1; min-width: 52px; text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.er-temps-detail {
+  font-size: .72rem; color: rgba(168,159,212,.65);
+  letter-spacing: .05em; margin: 2px 0 0; line-height: 1.5;
+}
+
+/* ── Badges de phase colorés ───────────────────────────────────────────── */
+.er-badge-inspire  { border-color: #2a4860; color: #7ab8e8; }
+.er-badge-inspire  span { color: #7ab8e8; }
+.er-badge-hold     { border-color: #3a3060; color: #a08ad4; }
+.er-badge-hold     span { color: #c0a0f0; }
+.er-badge-expire   { border-color: #2a5040; color: #6ab894; }
+.er-badge-expire   span { color: #6ab894; }
+.er-badge-vide     { border-color: #303030; color: #807878; }
+.er-badge-vide     span { color: #a09090; }
+.er-badge-cycle    { border-color: #4a3f8a; color: #8878c8; }
+.er-badge-cycle    span { color: #b8a8f8; }
+.er-badge-zone     { border-color: #2a3a2a; color: #5a9a5a; }

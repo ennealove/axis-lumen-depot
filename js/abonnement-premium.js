@@ -8,6 +8,15 @@
   function getPaymentLink(plan) {
     const products = getProducts();
 
+    if (plan === "lifetime") {
+      return products.paymentLinkLifetime || "";
+    }
+
+    if (plan === "lifetime-4x") {
+      return products.paymentLinkLifetime4x || "";
+    }
+
+    // Legacy fallbacks
     if (plan === "annual") {
       return products.paymentLinkAnnual || "";
     }
@@ -26,9 +35,13 @@
           return;
         }
 
-        const field = plan === "annual"
-          ? "subscription.paymentLinkAnnual"
-          : "subscription.paymentLinkMonthly";
+        const fieldMap = {
+          "lifetime":    "subscription.paymentLinkLifetime",
+          "lifetime-4x": "subscription.paymentLinkLifetime4x",
+          "annual":      "subscription.paymentLinkAnnual",
+          "monthly":     "subscription.paymentLinkMonthly"
+        };
+        const field = fieldMap[plan] || "subscription.paymentLinkLifetime";
 
         alert(
           "Lien Stripe à compléter.\n\nAjoute ton Payment Link Stripe dans :\njs/stripe-products.js\n\nChamp : " + field

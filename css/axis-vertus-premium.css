@@ -525,3 +525,54 @@ body.axis-vertus-page .virtue-meta {
 
 /* === AXIS PATCH VERTUS CARTE ENTIERE END === */
 
+
+/* ── Pratique guidée — connecteur amélioré ──────────────────────────────── */
+
+/* Barre de progression globale */
+.axis-virtue-progress-wrap {
+  height: 4px;
+  background: rgba(255,255,255,.08);
+  border-radius: 2px;
+  margin-bottom: 14px;
+  overflow: hidden;
+}
+.axis-virtue-progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #d8b45f, #f4d986);
+  border-radius: 2px;
+  transition: width 1s linear;
+}
+
+/* Indicateurs de phases */
+.axis-virtue-phase-steps {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+.avps {
+  flex: 1;
+  min-width: 60px;
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  border: 1px solid rgba(216,180,95,.18);
+  color: rgba(244,236,216,.45);
+  background: rgba(255,255,255,.03);
+  transition: all .4s ease;
+}
+.avps.active {
+  color: #ffe7a3;
+  background: rgba(216,180,95,.18);
+  border-color: rgba(216,180,95,.55);
+  box-shadow: 0 0 12px rgba(216,180,95,.2);
+}
+.avps.done {
+  color: rgba(120,200,140,.7);
+  background: rgba(80,200,120,.07);
+  border-color: rgba(80,200,120,.2);
+}

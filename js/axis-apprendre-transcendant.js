@@ -2,7 +2,7 @@
   "use strict";
 
   const PATHS = [
-    { id: "all", title: "Tous les cours", subtitle: "Les 72 portes de l’école" },
+    { id: "all", title: "Tous les cours", subtitle: "Les 117 portes de l’école" },
     { id: "fondation", title: "Fondation — JE SUIS", subtitle: "Centre, temple vivant, purification" },
     { id: "terrain", title: "Terrain vivant", subtitle: "Eau, émonctoires, rH², rythme" },
     { id: "vertus", title: "Vertus", subtitle: "Tirage, lumière, imprégnation" },
@@ -86,7 +86,7 @@
     ["seances", "Séance clarté mentale", "Point fixe et carnet", "session", "pratiquer.html", "Je clarifie sans m’agiter."],
     ["seances", "Séance ancrage et corps", "Appuis, souffle, verticalité", "session", "pratiquer.html", "Je reviens dans le corps-temple."],
     ["seances", "Séance complète du temple vivant", "Lire, respirer, bouger, intégrer", "session", "creer-seance.html", "Je relie les quatre livres dans une seule pratique."],
-    ["seances", "Rituel de clôture des 72 portes", "Terminer le cycle et ouvrir le suivant", "session", "pratiquer.html", "Je ferme le cycle et je garde l’essentiel."]
+    ["seances", "Rituel de clôture des 117 portes", "Terminer le cycle et ouvrir le suivant", "session", "pratiquer.html", "Je ferme le cycle et je garde l’essentiel."]
   ];
 
   const COURSES = RAW_COURSES.map((item, index) => {
@@ -309,7 +309,7 @@
           <div class="axis-access-status">
             <strong>Créateur connecté</strong><br>
             ${escapeHtml(access.user.email)}<br>
-            Accès total aux 72 cours, sans calendrier de déblocage.
+            Accès total aux 117 cours, sans calendrier de déblocage.
           </div>
           <button id="axisAccessLogout" class="axis-learn-btn ghost" type="button">Déconnexion</button>
         </div>
@@ -328,7 +328,7 @@
             <strong>Abonnement actif</strong><br>
             ${escapeHtml(access.user.email)}<br>
             Début du calendrier : ${start ? start.toLocaleDateString("fr-FR") : "aujourd’hui"}<br>
-            Règle : 1 cours tous les 4 jours + cours précédent validé.
+            Règle : chaque cours s'ouvre après validation du précédent (délai variable selon l'intensité du module).
           </div>
           <button id="axisAccessLogout" class="axis-learn-btn ghost" type="button">Déconnexion</button>
         </div>
@@ -542,7 +542,7 @@
 
     els.reader.innerHTML = `
       <div class="reader-meta">
-        <span class="reader-badge">Cours ${String(course.number).padStart(2, "0")} / 72</span>
+        <span class="reader-badge">Cours ${String(course.number).padStart(2, "0")} / 117</span>
         <span class="reader-badge">${escapeHtml(labelPath(course.pathId))}</span>
         <span class="reader-badge">${escapeHtml(labelKind(course.kind))}</span>
         <span class="reader-badge">${done ? "Validé" : "À pratiquer"}</span>
@@ -685,7 +685,7 @@
 
     els.reader.innerHTML = `
       <div class="reader-meta">
-        <span class="reader-badge">Cours ${String(course.number).padStart(2, "0")} / 72</span>
+        <span class="reader-badge">Cours ${String(course.number).padStart(2, "0")} / 117</span>
         <span class="reader-badge">${escapeHtml(labelPath(course.pathId))}</span>
         <span class="reader-badge">Verrouillé</span>
       </div>
@@ -703,9 +703,7 @@
       <div class="reader-block">
         <h3>Règle de progression</h3>
         <p>
-          Les cours se débloquent selon deux conditions :
-          calendrier de 4 jours depuis le début d’abonnement,
-          puis validation du cours précédent.
+          Les cours se débloquent séquentiellement : validation du cours précédent requise, puis délai variable selon l’intensité du module (1 à 30 jours).
         </p>
       </div>
 
@@ -935,7 +933,7 @@
       if (state.timer.left <= 0) {
         clearInterval(state.timer.interval);
         state.timer.running = false;
-        speakSimple("Fin du temps de pratique. Le cours est validé. Le prochain cours respectera le calendrier de quatre jours.");
+        speakSimple("Fin du temps de pratique. Le cours est validé. Le prochain cours s'ouvrira selon le délai prévu.");
         if (state.timer.course) {
           completeAfterPractice(state.timer.course.id);
         }
@@ -1068,7 +1066,7 @@
     ctx.textAlign = "center";
     ctx.fillStyle = "rgba(255, 231, 163, 0.88)";
     ctx.font = "700 16px Georgia, serif";
-    ctx.fillText("72 portes", cx, cy - 4);
+    ctx.fillText("117 portes", cx, cy - 4);
     ctx.fillStyle = "rgba(174, 185, 204, 0.80)";
     ctx.font = "500 12px Inter, system-ui, sans-serif";
     ctx.fillText("école du temple vivant", cx, cy + 18);

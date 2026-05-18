@@ -17,6 +17,7 @@
       video: () => MAP.swing && MAP.swing.lateral || "",
       guidance: "Balancement gauche / droite. Mantra ILLI — langue contre le palais.",
       mantra: "ILLI",
+      defaultBpm: 60,
       voiceGrand: "Commencez le grand balancement latéral. Imaginez l'objet traverser votre crâne de tempe à tempe, de gauche à droite, en rythme avec votre mouvement.",
       voicePetit: "Réduisez l'amplitude. Le petit balancement maintenant. L'objet reste à l'intérieur du crâne, confiné dans l'espace intérieur.",
       voiceReprise: "Reprenez le grand balancement latéral.",
@@ -27,6 +28,7 @@
       video: () => MAP.swing && MAP.swing.vertical || "",
       guidance: "Balancement haut / bas. Mantra ALLA — axe et verticalité intérieure.",
       mantra: "ALLA",
+      defaultBpm: 60,
       voiceGrand: "Commencez le grand balancement vertical. Imaginez l'objet traverser votre crâne du menton vers le sommet de la tête.",
       voicePetit: "Réduisez l'amplitude. Le petit balancement maintenant. L'objet reste à l'intérieur du crâne, confiné dans l'espace intérieur.",
       voiceReprise: "Reprenez le grand balancement vertical.",
@@ -35,19 +37,54 @@
     rotation: {
       label: "Rotation douce",
       video: () => MAP.swing && MAP.swing.rotation || "",
-      guidance: "Rotation douce. Mantra ELLU — gyroscope intérieur, équilibre profond.",
+      guidance: "Rotation douce circulaire. Mantra ELLU — gyroscope intérieur, équilibre profond.",
       mantra: "ELLU",
-      voiceGrand: "Commencez le grand balancement. Imaginez l'objet venir de l'arrière de la tête vers le front, le dépassant légèrement.",
-      voicePetit: "Réduisez l'amplitude. Le petit balancement maintenant. L'objet reste à l'intérieur du crâne, confiné dans l'espace intérieur.",
-      voiceReprise: "Reprenez le grand balancement.",
-      direction: "arrière vers le front"
+      defaultBpm: 40,
+      voiceGrand: "Commencez la rotation douce. Laissez la tête tracer un cercle lent et régulier. Mantra ELLU. Imaginez l'objet tourner à l'intérieur du crâne selon la même orbite circulaire.",
+      voicePetit: "Réduisez l'amplitude. La rotation se fait en pensée. L'objet continue de tourner intérieurement.",
+      voiceReprise: "Reprenez la rotation. ELLU, en cercle régulier.",
+      direction: "circulaire"
+    },
+    ap: {
+      label: "Antéro-postérieur — Fer à cheval",
+      video: () => MAP.swing && MAP.swing.ap || "",
+      guidance: "Balancement avant / arrière — Fer à cheval. Mantra ELLU. Rythme lent, ample, du front vers la nuque.",
+      mantra: "ELLU",
+      defaultBpm: 45,
+      voiceGrand: "Commencez le grand balancement avant-arrière. Ce mouvement est plus lent et plus ample que le latéral. Laissez le buste accompagner la tête, comme un fer à cheval qui oscille. Mantra ELLU. Imaginez l'objet traverser votre crâne du front vers la nuque à chaque oscillation.",
+      voicePetit: "Réduisez l'amplitude. Le petit balancement avant-arrière. L'objet continue du front vers la nuque, en pensée.",
+      voiceReprise: "Reprenez le grand balancement avant-arrière. ELLU, lentement, du front vers la nuque.",
+      direction: "du front vers la nuque"
+    },
+    huit: {
+      label: "En huit — Figure de huit",
+      video: () => "",
+      guidance: "Balancement en figure de huit. Combine latéral et antéro-postérieur dans un mouvement continu sans point d'arrêt.",
+      mantra: "ILLI · ELLU",
+      defaultBpm: 40,
+      voiceGrand: "Commencez le balancement en figure de huit. Tracez un huit horizontal avec la tête — de gauche à droite en passant par l'avant, sans jamais vous arrêter. Mantra ILLI pour la phase latérale, ELLU pour la phase avant-arrière. Le mouvement est continu, fluide, sans rupture.",
+      voicePetit: "Réduisez l'amplitude. Continuez le huit en pensée. ILLI, ELLU, en boucle intérieure.",
+      voiceReprise: "Reprenez la figure de huit. ILLI, ELLU, en fluidité continue.",
+      direction: "en huit horizontal"
+    },
+    croix: {
+      label: "En croix — Latéral + Vertical",
+      video: () => "",
+      guidance: "Balancement en croix. Alterne latéral ILLI et vertical ALLA selon un rythme régulier.",
+      mantra: "ILLI / ALLA",
+      defaultBpm: 55,
+      voiceGrand: "Commencez le balancement en croix. Alternez le mouvement latéral gauche-droite — mantra ILLI — puis le mouvement vertical haut-bas — mantra ALLA. ILLI, ALLA, ILLI, ALLA. Régulier, rythmé. Imaginez la croix que trace l'objet à l'intérieur du crâne.",
+      voicePetit: "Réduisez. La croix en pensée. ILLI puis ALLA, intérieurement.",
+      voiceReprise: "Reprenez le balancement en croix. ILLI, ALLA, en alternance.",
+      direction: "en croix latérale et verticale"
     }
   };
 
   const BREATHS = {
     square: {
-      label: "Respiration carrée",
+      label: "Respiration carrée (4 temps égaux)",
       patternLabel: "LA · FA · DO · FA",
+      hint: "4 phases égales. Inspir · Rétention · Expir · Vide. Idéale pour stabiliser.",
       segments: base => [
         { title: "Inspiration",  duration: base,     tone: "LA", guidance: "Inspirez." },
         { title: "Rétention",    duration: base,     tone: "FA", guidance: "Retenez l'air." },
@@ -56,8 +93,9 @@
       ]
     },
     triangular: {
-      label: "Respiration triangulaire",
+      label: "Respiration triangulaire (3 temps)",
       patternLabel: "LA · FA · DO",
+      hint: "3 phases. Inspir · Rétention · Expir. Dynamique, éveillante.",
       segments: base => [
         { title: "Inspiration", duration: base, tone: "LA", guidance: "Inspirez." },
         { title: "Rétention",   duration: base, tone: "FA", guidance: "Retenez l'air." },
@@ -65,13 +103,64 @@
       ]
     },
     rectangular: {
-      label: "Respiration rectangulaire",
-      patternLabel: "LA · FA long · DO · FA long",
+      label: "Respiration rectangulaire (rétentions longues)",
+      patternLabel: "LA · FA×2 · DO · FA×2",
+      hint: "Rétentions 2× plus longues que l'inspir. Approfondissement de l'oxygénation.",
       segments: base => [
         { title: "Inspiration",       duration: base,     tone: "LA", guidance: "Inspirez." },
         { title: "Rétention longue",  duration: base * 2, tone: "FA", guidance: "Retenez l'air plus longtemps." },
         { title: "Expiration",        duration: base,     tone: "DO", guidance: "Expirez." },
         { title: "Rétention longue",  duration: base * 2, tone: "FA", guidance: "Restez vide plus longtemps." }
+      ]
+    },
+    depurative: {
+      label: "Respiration dépurative (expiration ×3)",
+      patternLabel: "LA court · DO ×3",
+      hint: "Inspiration courte, expiration très longue. Nettoyage des émonctoires pulmonaires.",
+      segments: base => [
+        { title: "Inspiration rapide",  duration: base,     tone: "LA", guidance: "Inspirez rapidement et complètement par le nez." },
+        { title: "Expiration longue",   duration: base * 3, tone: "DO", guidance: "Expirez lentement, lentement, jusqu'au bout. Videz complètement les poumons." }
+      ]
+    },
+    coherence: {
+      label: "Cohérence cardiaque (5-5 fixe)",
+      patternLabel: "LA 5s · DO 5s",
+      hint: "6 respirations par minute. Synchronise cœur et cerveau. Rythme fixe indépendant de la mesure.",
+      segments: () => [
+        { title: "Inspiration douce",  duration: 5, tone: "LA", guidance: "Inspirez doucement par le nez sur 5 secondes." },
+        { title: "Expiration douce",   duration: 5, tone: "DO", guidance: "Expirez doucement par la bouche sur 5 secondes." }
+      ]
+    },
+    yoga478: {
+      label: "Yogique 4-7-8",
+      patternLabel: "LA 4s · FA 7s · DO 8s",
+      hint: "Technique du Dr Weil. Apaise le système nerveux, favorise le sommeil et le seuil hypnagogique.",
+      segments: () => [
+        { title: "Inspiration",        duration: 4, tone: "LA", guidance: "Inspirez par le nez, 4 secondes." },
+        { title: "Rétention",          duration: 7, tone: "FA", guidance: "Retenez l'air, 7 secondes. Ne forcez pas." },
+        { title: "Expiration lente",   duration: 8, tone: "DO", guidance: "Expirez lentement par la bouche, 8 secondes." }
+      ]
+    },
+    complete: {
+      label: "Respiration complète en 3 temps",
+      patternLabel: "LA abdomen · LA thorax · LA clavicules · DO",
+      hint: "Remplit abdomen → thorax → clavicules à l'inspir, vide dans le sens inverse à l'expir.",
+      segments: base => [
+        { title: "Inspiration abdominale",   duration: Math.round(base * 0.5), tone: "LA", guidance: "Inspirez d'abord le ventre — laissez l'abdomen se gonfler." },
+        { title: "Inspiration thoracique",   duration: Math.round(base * 0.3), tone: "LA", guidance: "Continuez — ouvrez le thorax, les côtes s'écartent." },
+        { title: "Inspiration claviculaire", duration: Math.round(base * 0.2), tone: "LA", guidance: "Terminez — montez vers les clavicules." },
+        { title: "Rétention courte",         duration: Math.round(base * 0.3), tone: "FA", guidance: "Retenez un instant." },
+        { title: "Expiration complète",      duration: base * 2,               tone: "DO", guidance: "Expirez de bas en haut — ventre, thorax, clavicules. Lentement." }
+      ]
+    },
+    triangulaire_inv: {
+      label: "Triangulaire inversée (expir longue)",
+      patternLabel: "LA · DO×2 · FA",
+      hint: "Inspiration courte, expiration double. Calme, parasympathique, avant le sommeil.",
+      segments: base => [
+        { title: "Inspiration",        duration: base,     tone: "LA", guidance: "Inspirez." },
+        { title: "Expiration longue",  duration: base * 2, tone: "DO", guidance: "Expirez doucement, deux fois plus long que l'inspir." },
+        { title: "Vide",               duration: base,     tone: "FA", guidance: "Restez vide, dans la douceur." }
       ]
     }
   };
@@ -251,19 +340,31 @@
     };
   }
 
+  function getMetroConfig() {
+    const modeEl   = $("axisMetroMode");
+    const bpmEl    = $("axisMetroBpm");
+    const volEl    = $("axisMetroVol");
+    return {
+      mode:   modeEl   ? (modeEl.value || "off")               : "off",
+      bpm:    clamp(bpmEl   ? bpmEl.value   : 60, 20, 120, 60),
+      volume: clamp(volEl   ? volEl.value   : 0.20, 0.05, 1.0, 0.20)
+    };
+  }
+
   function getConfig() {
     let balanceMin = clamp($("axisBalanceMin") ? $("axisBalanceMin").value : 15, 3, 45, 15);
     balanceMin = Math.round(balanceMin / 3) * 3;
 
-    const obj = getObjectData();
+    const obj   = getObjectData();
     const audio = getAudioConfig();
+    const swing = $("axisSwing") ? ($("axisSwing").value || "lateral") : "lateral";
 
     return {
       relaxationMin:       clamp($("axisRelaxMin")   ? $("axisRelaxMin").value   : 2, 1, 5, 2),
       selectedObject:      obj.id,
       selectedObjectLabel: obj.label,
       selectedObjectUrl:   obj.url,
-      swing:               $("axisSwing")       ? ($("axisSwing").value || "lateral")     : "lateral",
+      swing,
       balanceMin,
       breathType:          $("axisBreathType")   ? ($("axisBreathType").value || "square") : "square",
       breathBase:          clamp($("axisBreathBase") ? $("axisBreathBase").value : 4, 4, 8, 4),
@@ -271,7 +372,8 @@
       finalType:           $("axisFinalType")   ? ($("axisFinalType").value || "tension")  : "tension",
       finalMin:            clamp($("axisFinalMin")   ? $("axisFinalMin").value   : 3, 1, 10, 3),
       audio,
-      voice: getVoiceConfig()
+      voice: getVoiceConfig(),
+      metro: getMetroConfig()
     };
   }
 
@@ -597,6 +699,45 @@
 
   // ─── Liaisons formulaire ─────────────────────────────────────────
 
+  function initMetro() {
+    // Boutons mode métronome
+    document.querySelectorAll("[data-metro-mode]").forEach(btn => {
+      btn.addEventListener("click", function () {
+        document.querySelectorAll("[data-metro-mode]").forEach(b => b.classList.remove("active"));
+        this.classList.add("active");
+        const modeEl = $("axisMetroMode");
+        if (modeEl) modeEl.value = this.dataset.metroMode;
+        renderPreview();
+      });
+    });
+
+    // Slider BPM
+    const bpmEl    = $("axisMetroBpm");
+    const bpmLabel = $("axisMetroBpmLabel");
+    if (bpmEl && bpmLabel) {
+      bpmEl.addEventListener("input", () => { bpmLabel.textContent = bpmEl.value; renderPreview(); });
+    }
+
+    // Slider volume
+    const volEl    = $("axisMetroVol");
+    const volLabel = $("axisMetroVolLabel");
+    if (volEl && volLabel) {
+      volEl.addEventListener("input", () => { volLabel.textContent = Math.round(volEl.value * 100) + "%"; renderPreview(); });
+    }
+
+    // Auto-BPM quand le type de balancement change
+    const swingEl = $("axisSwing");
+    if (swingEl && bpmEl) {
+      const DEFAULT_BPMS = { lateral:60, vertical:60, rotation:40, ap:45, huit:40, croix:55 };
+      swingEl.addEventListener("change", function () {
+        const recommended = DEFAULT_BPMS[this.value] || 60;
+        bpmEl.value = recommended;
+        if (bpmLabel) bpmLabel.textContent = recommended;
+        renderPreview();
+      });
+    }
+  }
+
   function bind() {
     [
       "axisRelaxMin", "axisSwing", "axisBalanceMin",
@@ -687,6 +828,7 @@
 
     initObjectPicker();
     initObjectImport();
+    initMetro();
     bind();
     renderPreview();
   }

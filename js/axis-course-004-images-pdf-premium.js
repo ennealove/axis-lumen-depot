@@ -1,18 +1,20 @@
 ﻿/* Axis Lumen Studio - Cours 004 images premium */
 (function () {
   var images = {
-    cover: "assets/courses/course-004/cover.webp",
+    cover: "assets/courses/course-004/rythmes_lumineux_1_1.png",
     gallery: [
-      "assets/courses/course-004/atmosphere.webp",
-      "assets/courses/course-004/closing.webp",
-      "assets/courses/course-004/contemplation.webp",
-      "assets/courses/course-004/contemplative.webp",
-      "assets/courses/course-004/cover.webp",
-      "assets/courses/course-004/journal.webp",
-      "assets/courses/course-004/pedagogical.webp",
-      "assets/courses/course-004/practice.webp",
-      "assets/courses/course-004/safety.webp",
-      "assets/courses/course-004/symbolic.webp"
+      "assets/courses/course-004/rythmes_lumineux_1_1.png",
+      "assets/courses/course-004/rythmes_lumineux_1_2.png",
+      "assets/courses/course-004/rythmes_lumineux_1_3.png",
+      "assets/courses/course-004/rythmes_lumineux_1_4.png",
+      "assets/courses/course-004/rythmes_lumineux_2_1.png",
+      "assets/courses/course-004/rythmes_lumineux_2_2.png",
+      "assets/courses/course-004/rythmes_lumineux_2_3.png",
+      "assets/courses/course-004/rythmes_lumineux_2_4.png",
+      "assets/courses/course-004/rythmes_lumineux_3_1.png",
+      "assets/courses/course-004/rythmes_lumineux_3_2.png",
+      "assets/courses/course-004/rythmes_lumineux_3_3.png",
+      "assets/courses/course-004/rythmes_lumineux_3_4.png"
     ]
   };
 

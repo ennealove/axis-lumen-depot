@@ -3,7 +3,7 @@
 
   const NEW_KICKER = "ÉCOLE DU TEMPLE VIVANT";
   const NEW_TITLE = "Cours d’une heure — enseignement, pratique et intégration";
-  const NEW_TEXT = "Chaque cours devient un véritable module d’environ une heure : un enseignement structuré, une image dédiée, un support PDF imprimable, un cadre de protection, des références et une pratique guidée. Les 72 portes existantes restent la base du parcours ; elles deviennent les fondations d’une grande école évolutive, pensée pour accompagner l’élève pas à pas : comprendre, pratiquer, observer, intégrer, puis valider son expérience intérieure.";
+  const NEW_TEXT = "117 modules d’une heure chacun — enseignement structuré, pratique corporelle, questions de carnet et séance pré-configurée. Un parcours de 19 mois pour transformer durablement sa vie intérieure. Chaque cours se valide avant d’ouvrir le suivant.";
 
   function cleanText(value) {
     return String(value || "")

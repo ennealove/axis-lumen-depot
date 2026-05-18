@@ -26,6 +26,10 @@
   // Flag : true quand un overlay plein-écran gère lui-même le décompte
   let specialActive = false;
 
+  // ─── Métronome ────────────────────────────────────────────────────
+  let metroTimer  = null;
+  let metroBeat   = 0;
+
   // ─── Session ──────────────────────────────────────────────────────
 
   function readSession() {
@@ -140,6 +144,56 @@
       const p = bgAudio.play();
       if (p && typeof p.catch === "function") p.catch(() => {});
     }
+  }
+
+  // ─── Métronome (Guide rythmique) ──────────────────────────────────
+
+  function clickBeat(volume, pan) {
+    try {
+      const ctx  = audioContext();
+      const now  = ctx.currentTime;
+      const len  = Math.ceil(ctx.sampleRate * 0.04);
+      const buff = ctx.createBuffer(1, len, ctx.sampleRate);
+      const data = buff.getChannelData(0);
+      for (let i = 0; i < len; i++) {
+        data[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / len, 4);
+      }
+      const source = ctx.createBufferSource();
+      source.buffer = buff;
+      const gain = ctx.createGain();
+      gain.gain.value = Math.max(0.05, Math.min(1, volume || 0.2));
+      if (pan !== 0 && ctx.createStereoPanner) {
+        const panner = ctx.createStereoPanner();
+        panner.pan.value = pan;
+        source.connect(gain);
+        gain.connect(panner);
+        panner.connect(ctx.destination);
+      } else {
+        source.connect(gain);
+        gain.connect(ctx.destination);
+      }
+      source.start(now);
+    } catch (_) {}
+  }
+
+  function startMetronome(config) {
+    stopMetronome();
+    if (!config || config.mode === "off" || !config.mode) return;
+    const bpm      = Math.max(20, Math.min(120, Number(config.bpm)  || 60));
+    const volume   = Math.max(0.05, Math.min(1,  Number(config.volume) || 0.2));
+    const stereo   = config.mode === "stereo";
+    const interval = Math.round((60 / bpm) * 1000);
+    metroBeat = 0;
+    metroTimer = setInterval(function () {
+      const pan = stereo ? (metroBeat % 2 === 0 ? -0.85 : 0.85) : 0;
+      clickBeat(volume, pan);
+      metroBeat++;
+    }, interval);
+  }
+
+  function stopMetronome() {
+    if (metroTimer) { clearInterval(metroTimer); metroTimer = null; }
+    metroBeat = 0;
   }
 
   // ─── Voix ─────────────────────────────────────────────────────────
@@ -362,6 +416,15 @@
 
     setVideo(p.video || "", autoplay);
     startBgAudio(p.audioTrack || null);
+
+    // Métronome : actif uniquement pendant les phases de balancement
+    if (p.type === "balancement") {
+      const metro = session && session.config && session.config.metro;
+      startMetronome(metro);
+    } else {
+      stopMetronome();
+    }
+
     renderTimeline();
 
     if (autoplay) speak(p.voiceStart || p.guidance || p.title, true);
@@ -441,6 +504,7 @@
     const video = document.getElementById("axisPracticeVideo");
     try { if (video) video.pause(); } catch (_) {}
     pauseBgAudio();
+    stopMetronome();
     speak("Pause.", true);
   }
 
@@ -451,6 +515,12 @@
     const video = document.getElementById("axisPracticeVideo");
     try { if (video) { const p = video.play(); if (p && p.catch) p.catch(() => {}); } } catch (_) {}
     resumeBgAudio();
+    // Relancer le métronome si on est en phase de balancement
+    const p = currentPhase();
+    if (p && p.type === "balancement") {
+      const metro = session && session.config && session.config.metro;
+      startMetronome(metro);
+    }
     speak("Reprise.", true);
   }
 
@@ -478,6 +548,7 @@
     clearInterval(timer);
     stopSpeech();
     stopBgAudio();
+    stopMetronome();
     renderShell();
     bind();
     renderSession();
@@ -514,6 +585,7 @@
     specialActive = false;
     clearInterval(timer);
     stopBgAudio();
+    stopMetronome();
     playBell();
 
     const video = document.getElementById("axisPracticeVideo");

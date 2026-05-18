@@ -90,15 +90,32 @@
     <aside class="axis-virtue-side">
       <article class="axis-virtue-panel">
         <h2>Pratique guidée</h2>
+
+        <!-- Barre de progression globale -->
+        <div class="axis-virtue-progress-wrap" id="axisVirtueProgressWrap" style="display:none">
+          <div class="axis-virtue-progress-bar" id="axisVirtueProgressBar"></div>
+        </div>
+
+        <!-- Phases visuelles -->
+        <div class="axis-virtue-phase-steps" id="axisVirtuePhaseSteps">
+          <span class="avps" data-phase="lecture">Lecture</span>
+          <span class="avps" data-phase="lumiere">Lumière</span>
+          <span class="avps" data-phase="remanence">Rémanence</span>
+          <span class="avps" data-phase="carnet">Carnet</span>
+        </div>
+
         <div id="axisVirtuePhase" class="axis-virtue-phase">Prêt</div>
         <div id="axisVirtueTimer" class="axis-virtue-timer">00:00</div>
-        <p id="axisVirtueGuidance">Tire une carte pour commencer.</p>
+        <p id="axisVirtueGuidance">Tire une carte, puis appuie sur <strong>Lancer la pratique</strong>.</p>
 
         <div class="axis-virtue-actions compact">
-          <button id="axisVirtuePause" class="axis-virtue-btn secondary" type="button">Pause</button>
-          <button id="axisVirtueResume" class="axis-virtue-btn secondary" type="button">Reprendre</button>
-          <button id="axisVirtueStop" class="axis-virtue-btn ghost" type="button">Arrêter</button>
+          <button id="axisVirtuePause" class="axis-virtue-btn secondary" type="button" style="display:none">Pause</button>
+          <button id="axisVirtueResume" class="axis-virtue-btn secondary" type="button" style="display:none">Reprendre</button>
+          <button id="axisVirtueStop" class="axis-virtue-btn ghost" type="button" style="display:none">Arrêter</button>
         </div>
+
+        <!-- Signal sonore entre phases (cloche Web Audio) -->
+        <div id="axisVirtueBellStatus" style="font-size:.75rem;color:rgba(244,236,216,.45);margin-top:8px;text-align:center;"></div>
       </article>
 
       <article class="axis-virtue-panel">
@@ -152,6 +169,7 @@
 <script src="js/axis-virtue-manifest.js"></script>
 <script src="js/axis-voice-global.js"></script>
 <script src="js/axis-vertus-premium.js" defer></script>
+<script src="js/axis-vertus-session-connector.js" defer></script>
 </body>
 </html>
 

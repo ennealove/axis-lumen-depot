@@ -66,15 +66,28 @@
       initiaticObjective: "Faire de l’hygiène quotidienne un seuil initiatique : ne plus pratiquer dans le bruit, mais entrer dans un espace choisi, habité et respecté.",
       essentialPhrase: "Un temple propre n’est pas un temple parfait ; c’est un espace où l’inutile ne gouverne plus.",
       images: {
-        cover: "assets/courses/course-003/cover.png",
-        pedagogical: "assets/courses/course-003/pedagogical.png",
-        practice: "assets/courses/course-003/practice.png",
-        contemplation: "assets/courses/course-003/contemplation.png",
-        journal: "assets/courses/course-003/journal.png",
-        safety: "assets/courses/course-003/safety.png",
-        symbolic: "assets/courses/course-003/symbolic.png",
-        closing: "assets/courses/course-003/closing.png",
-        atmosphere: "assets/courses/course-003/atmosphere.png"
+        cover: "assets/courses/course-003/axis_lumen_image_1.png",
+        pedagogical: [
+          "assets/courses/course-003/axis_lumen_image_2.png",
+          "assets/courses/course-003/axis_lumen_image_3.png",
+          "assets/courses/course-003/axis_lumen_image_4.png",
+          "assets/courses/course-003/axis_lumen_image_5.png",
+          "assets/courses/course-003/axis_lumen_image_6.png",
+          "assets/courses/course-003/axis_lumen_image_7.png",
+          "assets/courses/course-003/axis_lumen_image_8.png",
+          "assets/courses/course-003/axis_lumen_image_9.png"
+        ],
+        gallery: [
+          "assets/courses/course-003/axis_lumen_image_1.png",
+          "assets/courses/course-003/axis_lumen_image_2.png",
+          "assets/courses/course-003/axis_lumen_image_3.png",
+          "assets/courses/course-003/axis_lumen_image_4.png",
+          "assets/courses/course-003/axis_lumen_image_5.png",
+          "assets/courses/course-003/axis_lumen_image_6.png",
+          "assets/courses/course-003/axis_lumen_image_7.png",
+          "assets/courses/course-003/axis_lumen_image_8.png",
+          "assets/courses/course-003/axis_lumen_image_9.png"
+        ]
       }
     };
   }

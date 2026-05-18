@@ -30,7 +30,7 @@
     course.images     = Object.assign({}, course.images || {}, images);
     course.pdfPremium = true;
     course.pdf        = course.pdf || {};
-    course.pdf.title  = "Le Pneumophène — Respiration spirituelle et légère soif d'air selon Lefebure";
+    course.pdf.title  = "La Respiration spirituelle — Légère soif d'air et éveil de la conscience";
     course.pdf.protectedNotice = "Support pédagogique réservé aux élèves de l'École du Temple Vivant — Axis Lumen Studio.";
   }
 })();

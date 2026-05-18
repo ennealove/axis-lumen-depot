@@ -1,16 +1,17 @@
 ﻿/* Axis Lumen Studio - Cours 008 images premium */
 (function () {
   var images = {
-    cover: "assets/courses/course-008/cover.webp",
+    cover: "assets/courses/course-008/balancement_lateral_1.png",
     gallery: [
-      "assets/courses/course-008/69f30444-af4b-4b9f-a590-fcbddea1b6af.webp",
-      "assets/courses/course-008/contemplation.webp",
-      "assets/courses/course-008/contemplative.webp",
-      "assets/courses/course-008/cover.webp",
-      "assets/courses/course-008/exercise.webp",
-      "assets/courses/course-008/journal.webp",
-      "assets/courses/course-008/pedagogical.webp",
-      "assets/courses/course-008/practice.webp"
+      "assets/courses/course-008/balancement_lateral_1.png",
+      "assets/courses/course-008/balancement_lateral_2.png",
+      "assets/courses/course-008/balancement_lateral_3.png",
+      "assets/courses/course-008/balancement_lateral_4.png",
+      "assets/courses/course-008/balancement_lateral_5.png",
+      "assets/courses/course-008/balancement_lateral_6.png",
+      "assets/courses/course-008/balancement_lateral_7.png",
+      "assets/courses/course-008/balancement_lateral_8.png",
+      "assets/courses/course-008/balancement_lateral_9.png"
     ]
   };
 

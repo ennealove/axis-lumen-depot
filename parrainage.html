@@ -1,14 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Parrainage — Axis Lumen Studio</title>
-  <meta name="description" content="Espace parrainage Axis Lumen Studio : code parrain, lien de partage, filleuls, commissions et suivi des rétributions.">
-
+  <meta name="description" content="Programme de parrainage Axis Lumen Studio : partagez l'accès à vie, recevez 218 € de commission par filleul.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/site.css?v=20260501_195058">
   <link rel="stylesheet" href="css/parrainage-live.css?v=20260501_195058">
   <link rel="stylesheet" href="css/axis-global-top-nav.css?v=20260501_203303">
   <link rel="stylesheet" href="css/home-dashboard-top.css?v=20260501_203717">
@@ -16,12 +13,11 @@
 </head>
 
 <body>
+
+<!-- NAV PRINCIPALE -->
 <header class="axis-top-dashboard">
   <div class="axis-top-dashboard-inner">
-    <a class="axis-top-brand" href="index.html">
-      <strong>Axis Lumen</strong>
-    </a>
-
+    <a class="axis-top-brand" href="index.html"><strong>Axis Lumen</strong></a>
     <nav class="axis-top-links" aria-label="Navigation principale">
       <a href="index.html">Accueil</a>
       <a href="creer-seance.html">Créer sa séance</a>
@@ -41,90 +37,203 @@
     </nav>
   </div>
 </header>
+
+<!-- PAGE -->
 <div class="axis-ref-page">
-    <header class="axis-ref-nav">
-      <div class="axis-ref-nav-inner">
-        <a class="axis-ref-brand" href="index.html">
-          <span class="axis-ref-brand-mark">✦</span>
-          <span>
-            <strong>Axis Lumen</strong>
-            <span>Studio initiatique</span>
-          </span>
-        </a>
 
-        <nav class="axis-ref-links" aria-label="Navigation principale">
-          <a href="index.html">Accueil</a>
-          <a href="boutique.html">Boutique</a>
-          <a href="abonnement.html">Abonnement</a>
-          <a href="login.html">Connexion</a>
-          <a href="admin.html">Admin</a>
-        </nav>
+  <main>
+
+    <!-- HÉRO -->
+    <section class="axis-ref-shell axis-ref-hero">
+      <div>
+        <p class="axis-kicker">Parrainage · Registre · Rétribution</p>
+        <h1>Partager Axis Lumen,<br><span>être rétribué justement.</span></h1>
+
+        <p class="axis-ref-lead">
+          Partagez votre lien unique. Pour chaque filleul qui achète l'accès à vie,
+          vous recevez automatiquement <strong>20 % du prix de vente</strong> —
+          soit <strong>218 € par vente</strong>, que le filleul paie en une fois ou en 4 versements.
+        </p>
+
+        <div class="axis-ref-actions">
+          <a class="axis-btn primary" href="#axisReferralApp">Accéder à mon espace</a>
+          <a class="axis-btn" href="abonnement.html">Voir l'offre à vie</a>
+        </div>
       </div>
-    </header>
 
-    <main>
-      <section class="axis-ref-shell axis-ref-hero">
-        <div>
-          <p class="axis-kicker">Parrainage · Registre · Rétribution</p>
-          <h1>Partager Axis Lumen, <span>suivre justement.</span></h1>
+      <!-- PANNEAU COMMISSION -->
+      <aside class="axis-ref-panel">
+        <p class="axis-kicker">Commission par filleul</p>
+        <h2>20 % fixe</h2>
 
-          <p class="axis-ref-lead">
-            Chaque partenaire reçoit automatiquement un code unique. Lorsqu’un filleul s’inscrit avec ce code,
-            le lien parrain / filleul est enregistré dans le registre local. Les commissions sont ensuite calculées
-            sur les achats ou abonnements validés.
-          </p>
+        <p>
+          Le taux est fixe et défini dans le système. Il s'applique sur le prix de l'accès à vie (1 090 €),
+          quelle que soit la modalité de paiement choisie par le filleul.
+        </p>
 
-          <div class="axis-ref-actions">
-            <a class="axis-btn primary" href="#axisReferralApp">Accéder à mon espace</a>
-            <a class="axis-btn" href="abonnement.html">Voir l’abonnement</a>
+        <div class="axis-ref-rate">
+          <div class="axis-ref-rate-card">
+            <strong>218 €</strong>
+            <span>paiement unique — 1 090 € × 20 %</span>
+          </div>
+          <div class="axis-ref-rate-card">
+            <strong>4 × 54,50 €</strong>
+            <span>paiement en 4 fois — 272,50 € × 20 % × 4 = 218 €</span>
           </div>
         </div>
+      </aside>
+    </section>
 
-        <aside class="axis-ref-panel">
-          <p class="axis-kicker">Commission prévue</p>
-          <h2>20 % fixe</h2>
-          <p>
-            Le taux n’est pas modifiable depuis la page publique. Il sert de base claire pour le suivi :
-            le registre sait qui est le parrain, qui est le filleul, et quelle commission doit être restituée.
-          </p>
+    <!-- CALCUL DÉTAILLÉ -->
+    <section class="axis-ref-shell axis-ref-section">
+      <div class="axis-ref-grid">
 
-          <div class="axis-ref-rate">
-            <div class="axis-ref-rate-card">
-              <strong>3,80 €</strong>
-              <span>sur 19 € mensuel</span>
-            </div>
+        <section class="axis-card">
+          <h2>Le calcul, sans ambiguïté</h2>
+          <p>Taux fixe 20 %. Même résultat quelle que soit la modalité choisie par le filleul.</p>
 
-            <div class="axis-ref-rate-card">
-              <strong>38 €</strong>
-              <span>sur 190 € annuel</span>
-            </div>
-          </div>
-        </aside>
-      </section>
+          <table style="width:100%;border-collapse:collapse;margin-top:16px;">
+            <tr style="border-bottom:1px solid rgba(216,180,95,.16);">
+              <td style="padding:12px 0;color:var(--axis-muted);">Prix de vente (accès à vie)</td>
+              <td style="padding:12px 0;text-align:right;color:var(--axis-gold-soft);font-weight:800;">1 090,00 €</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(216,180,95,.16);">
+              <td style="padding:12px 0;color:var(--axis-muted);">Taux de commission</td>
+              <td style="padding:12px 0;text-align:right;color:var(--axis-gold-soft);font-weight:800;">20 %</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(216,180,95,.16);">
+              <td style="padding:12px 0;color:var(--axis-muted);">Commission — paiement unique</td>
+              <td style="padding:12px 0;text-align:right;color:var(--axis-gold-soft);font-weight:800;">218,00 €</td>
+            </tr>
+            <tr>
+              <td style="padding:12px 0;color:var(--axis-muted);">Commission — 4 fois (4 × 54,50 €)</td>
+              <td style="padding:12px 0;text-align:right;color:var(--axis-gold-soft);font-weight:800;">218,00 €</td>
+            </tr>
+          </table>
+        </section>
 
-      <section class="axis-ref-shell axis-ref-section">
-        <div id="axisReferralApp">
-          <section class="axis-card">
-            <h2>Chargement du parrainage...</h2>
-            <p>Lecture du backend local Axis Lumen.</p>
-          </section>
-        </div>
-      </section>
-    </main>
+        <section class="axis-card">
+          <h2>Exemple — 5 filleuls</h2>
+          <p>Chaque filleul supplémentaire génère 218 €. Aucun plafond, aucune expiration.</p>
 
-    <footer class="axis-legal-footer">
-      <div class="axis-legal-footer-inner">
-        <span>© Axis Lumen Studio</span>
-        <nav aria-label="Liens légaux">
-          <a href="mentions-legales.html">Mentions légales</a>
-          <a href="cgu.html">CGU</a>
-          <a href="cgv.html">CGV</a>
-          <a href="confidentialite.html">Confidentialité</a>
-        </nav>
+          <table style="width:100%;border-collapse:collapse;margin-top:16px;">
+            <tr style="border-bottom:1px solid rgba(216,180,95,.16);">
+              <td style="padding:12px 0;color:var(--axis-muted);">5 ventes × 1 090 €</td>
+              <td style="padding:12px 0;text-align:right;color:var(--axis-gold-soft);font-weight:800;">5 450,00 €</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(216,180,95,.16);">
+              <td style="padding:12px 0;color:var(--axis-muted);">5 commissions × 218 €</td>
+              <td style="padding:12px 0;text-align:right;color:var(--axis-gold-soft);font-weight:800;">1 090,00 €</td>
+            </tr>
+            <tr>
+              <td style="padding:12px 0;color:var(--axis-muted);">Votre accès à vie remboursé dès</td>
+              <td style="padding:12px 0;text-align:right;color:var(--axis-gold-soft);font-size:22px;font-weight:800;">5 filleuls</td>
+            </tr>
+          </table>
+        </section>
       </div>
-    </footer>
-  </div>
+    </section>
 
-  <script src="js/parrainage-live.js?v=20260501_195058"></script>
+    <!-- COMMENT ÇA MARCHE -->
+    <section class="axis-ref-shell axis-ref-section">
+      <div class="axis-ref-grid">
+        <section class="axis-card">
+          <h3>① Créer son compte</h3>
+          <p>Inscrivez-vous ci-dessous. Vous recevez automatiquement un code parrain unique et un lien de parrainage personnel.</p>
+        </section>
+        <section class="axis-card">
+          <h3>② Partager le lien</h3>
+          <p>Diffusez votre lien par email, réseaux sociaux ou bouche-à-oreille. Chaque clic est tracé pendant 30 jours.</p>
+        </section>
+      </div>
+      <div class="axis-ref-grid" style="margin-top:24px;">
+        <section class="axis-card">
+          <h3>③ Le filleul achète</h3>
+          <p>Le filleul commande l'accès à vie. Le registre enregistre le lien parrain–filleul et calcule la commission : 218 €.</p>
+        </section>
+        <section class="axis-card">
+          <h3>④ Vous êtes rétribué</h3>
+          <p>218 € apparaissent dans votre colonne "Commissions payables". Versement par virement selon les modalités convenues.</p>
+        </section>
+      </div>
+    </section>
+
+    <!-- ESPACE PARRAINAGE (rendu par parrainage-live.js) -->
+    <section class="axis-ref-shell axis-ref-section">
+      <div id="axisReferralApp">
+        <section class="axis-card">
+          <h2>Chargement du parrainage…</h2>
+          <p>Lecture du registre en cours.</p>
+        </section>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="axis-ref-shell axis-ref-section">
+      <div class="axis-card">
+        <h2>Questions fréquentes</h2>
+
+        <details style="margin-top:18px;border:1px solid rgba(216,180,95,.17);border-radius:18px;overflow:hidden;">
+          <summary style="cursor:pointer;padding:16px 18px;color:var(--axis-gold-soft);font-weight:700;">
+            La commission est-elle identique pour les deux modalités de paiement ?
+          </summary>
+          <p style="margin:0;padding:0 18px 16px;color:var(--axis-muted);line-height:1.65;">
+            Oui. 1 090 × 20 % = 218 € en paiement unique. 272,50 × 20 % = 54,50 € × 4 versements = 218 € total.
+            Le résultat est toujours le même.
+          </p>
+        </details>
+
+        <details style="margin-top:10px;border:1px solid rgba(216,180,95,.17);border-radius:18px;overflow:hidden;">
+          <summary style="cursor:pointer;padding:16px 18px;color:var(--axis-gold-soft);font-weight:700;">
+            Y a-t-il un plafond ou une durée limite ?
+          </summary>
+          <p style="margin:0;padding:0 18px 16px;color:var(--axis-muted);line-height:1.65;">
+            Non. Votre code est permanent. Aucun plafond sur le nombre de filleuls.
+            Chaque filleul génère 218 € de commission, sans limite dans le temps.
+          </p>
+        </details>
+
+        <details style="margin-top:10px;border:1px solid rgba(216,180,95,.17);border-radius:18px;overflow:hidden;">
+          <summary style="cursor:pointer;padding:16px 18px;color:var(--axis-gold-soft);font-weight:700;">
+            Comment fonctionne le lien de parrainage ?
+          </summary>
+          <p style="margin:0;padding:0 18px 16px;color:var(--axis-muted);line-height:1.65;">
+            Votre lien contient <code>?ref=VOTRE_CODE</code>. Le navigateur du visiteur mémorise votre code 30 jours.
+            S'il achète dans ce délai, le lien parrain–filleul est enregistré automatiquement.
+          </p>
+        </details>
+
+        <details style="margin-top:10px;border:1px solid rgba(216,180,95,.17);border-radius:18px;overflow:hidden;">
+          <summary style="cursor:pointer;padding:16px 18px;color:var(--axis-gold-soft);font-weight:700;">
+            Configuration technique (admin)
+          </summary>
+          <p style="margin:0;padding:0 18px 16px;color:var(--axis-muted);line-height:1.65;">
+            Taux défini dans <code>js/stripe-products.js</code> via <code>commissionRate: 0.20</code>
+            sur les produits <code>lifetime</code> et <code>lifetime_4x</code>.
+            Le backend (port 8787) calcule les commissions à chaque webhook Stripe.
+          </p>
+        </details>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="axis-legal-footer">
+    <div class="axis-legal-footer-inner">
+      <span>© Axis Lumen Studio</span>
+      <nav aria-label="Liens légaux">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="cgu.html">CGU</a>
+        <a href="cgv.html">CGV</a>
+        <a href="confidentialite.html">Confidentialité</a>
+      </nav>
+    </div>
+  </footer>
+
+</div>
+
+<script src="js/stripe-products.js?v=20260501_191845"></script>
+<script src="js/axis-access-control.js"></script>
+<script src="js/parrainage-live.js?v=20260518"></script>
 </body>
 </html>

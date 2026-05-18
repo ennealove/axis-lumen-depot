@@ -1,24 +1,25 @@
 ﻿/* Axis Lumen Studio - Cours 010 images premium */
 (function () {
   var images = {
-    cover:         "assets/courses/course-010/cover.webp",
+    cover:         "assets/courses/course-010/balancement_antero_posterieur_1.png",
     gallery: [
-      "assets/courses/course-010/cover.webp",
-      "assets/courses/course-010/course-010-image-02.webp",
-      "assets/courses/course-010/course-010-image-03.webp",
-      "assets/courses/course-010/course-010-image-04.webp",
-      "assets/courses/course-010/course-010-image-05.webp",
-      "assets/courses/course-010/course-010-image-06.webp",
-      "assets/courses/course-010/course-010-image-07.webp",
-      "assets/courses/course-010/course-010-image-08.webp"
+      "assets/courses/course-010/balancement_antero_posterieur_1.png",
+      "assets/courses/course-010/balancement_antero_posterieur_2.png",
+      "assets/courses/course-010/balancement_antero_posterieur_3.png",
+      "assets/courses/course-010/balancement_antero_posterieur_4.png",
+      "assets/courses/course-010/balancement_antero_posterieur_5.png",
+      "assets/courses/course-010/balancement_antero_posterieur_6.png",
+      "assets/courses/course-010/balancement_antero_posterieur_7.png",
+      "assets/courses/course-010/balancement_antero_posterieur_8.png",
+      "assets/courses/course-010/balancement_antero_posterieur_9.png"
     ],
     pedagogical: [
-      "assets/courses/course-010/course-010-image-02.webp",
-      "assets/courses/course-010/course-010-image-03.webp",
-      "assets/courses/course-010/course-010-image-04.webp"
+      "assets/courses/course-010/balancement_antero_posterieur_2.png",
+      "assets/courses/course-010/balancement_antero_posterieur_3.png",
+      "assets/courses/course-010/balancement_antero_posterieur_4.png"
     ],
-    contemplative: "assets/courses/course-010/course-010-image-05.webp",
-    exercise:      "assets/courses/course-010/course-010-image-06.webp"
+    contemplative: "assets/courses/course-010/balancement_antero_posterieur_5.png",
+    exercise:      "assets/courses/course-010/balancement_antero_posterieur_6.png"
   };
 
   /* Injection SYNCHRONE - avant que axis-apprendre-one-hour.js rende les cartes */

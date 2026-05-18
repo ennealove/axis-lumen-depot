@@ -6,10 +6,10 @@
   var JOURS = [
     {
       jour: 1, titre: 'Observation', icon: '◌', desc: 'Écoute du souffle naturel',
-      type: 'naturelle', rythme: { in: 4, retPlein: 0, out: 4, retVide: 0 }, mantra: null,
+      type: 'naturelle', rythme: { in: 4, retPlein: 0, out: 5, retVide: 0 }, mantra: null,
       zones: ['Ventre'],
-      guide: 'Pose une main sur le ventre. Observe simplement ton souffle sans le modifier. Puis, progressivement, allonge chaque expiration d\'une seconde.',
-      conseil: 'La respiration naturelle est le point de départ de tout. Observer sans corriger est déjà une pratique.'
+      guide: 'Installe-toi allongé ou assis, dos droit, sans appui. Relâche chaque groupe musculaire successivement. Pose une main sur le ventre. Observe ton souffle sans le modifier — ni accélérer, ni ralentir. L\'observation pure est déjà l\'exercice.',
+      conseil: 'Le repos préparatoire est fondamental. Avant tout exercice, relâche méthodiquement : jambe droite, bras droit, muscles de la tête, bras gauche, jambe gauche, tronc. La respiration se régule d\'elle-même dans le silence.'
     },
     {
       jour: 2, titre: 'Diaphragme', icon: '◎', desc: 'Massage des organes intérieurs',
@@ -20,10 +20,10 @@
     },
     {
       jour: 3, titre: 'Complète', icon: '◉', desc: 'Les trois zones respiratoires',
-      type: 'complete', rythme: { in: 6, retPlein: 2, out: 6, retVide: 0 }, mantra: null,
-      zones: ['Ventre', 'Côtes', 'Clavicules'],
-      guide: 'Inspire en 3 temps : ventre → côtes → clavicules. Rétention douce. Expire en sens inverse. La respiration complète active les 3 niveaux cérébraux.',
-      conseil: 'La respiration complète transforme l\'énergie lumineuse en énergie mentale (Mixage Phosphénique).'
+      type: 'complete', rythme: { in: 6, retPlein: 2, out: 6, retVide: 2 }, mantra: null,
+      zones: ['Clavicules', 'Côtes', 'Ventre'],
+      guide: 'Inspire en commençant par le sommet : clavicules → côtes → ventre. Rétention douce. Expire en sens inverse : ventre → côtes → clavicules. Rétention vide. Commencer par les sommets pulmonaires est essentiel — ce sont eux qui régularisent les mécanismes cérébraux supérieurs.',
+      conseil: 'Les sommets du poumon travaillent peu dans la respiration ordinaire — c\'est là que les pathologies débutent. Les remplir en premier est une correction active de toute une vie de respiration incomplète.'
     },
     {
       jour: 4, titre: 'Carrée', icon: '□', desc: 'Équilibre parfait des 4 temps',
@@ -34,31 +34,31 @@
     },
     {
       jour: 5, titre: 'Triangulaire', icon: '△', desc: 'Rythme isocèle — activation',
-      type: 'triangulaire', rythme: { in: 4, retPlein: 1, out: 4, retVide: 0 }, mantra: null,
+      type: 'triangulaire', rythme: { in: 8, retPlein: 4, out: 8, retVide: 0 }, mantra: null,
       zones: ['Poitrine', 'Cerveau'],
-      guide: 'Inspire 4, rétention courte 1, expire 4. Ce triangle projette une onde sinusoïdale sur le cerveau — la forme vibratoire fondamentale du cosmos.',
-      conseil: 'Le rythme sinusoïdal harmonise les oscillations cérébrales selon Lefebure.'
+      guide: 'Inspire T secondes, retiens T/2, expire T. Exemple : inspire 8s, retiens 4s, expire 8s. Pas de rétention vide. La rétention pleine doit toujours valoir la moitié de l\'inspiration — c\'est la loi du triangle isocèle.',
+      conseil: 'L\'énergie s\'accumule pendant la rétention pleine et se libère à l\'expiration. Ce rythme est activant — il prépare le système nerveux à l\'équilibre de la carrée.'
     },
     {
-      jour: 6, titre: 'Rectangulaire', icon: '▭', desc: 'Expiration prolongée — intégration',
-      type: 'rectangulaire', rythme: { in: 4, retPlein: 2, out: 8, retVide: 0 }, mantra: null,
-      zones: ['Poitrine', 'Abdomen'],
-      guide: 'Inspire 4, retiens 2, expire 8 — deux fois plus long. Cette asymétrie active le parasympathique et favorise l\'intégration.',
-      conseil: 'Expirer plus longtemps qu\'on n\'inspire active le nerf vague et réduit le rythme cardiaque.'
+      jour: 6, titre: 'Rectangulaire', icon: '▭', desc: 'Quatre temps : inspiration = expiration, rétentions à mi-durée',
+      type: 'rectangulaire', rythme: { in: 8, retPlein: 4, out: 8, retVide: 4 }, mantra: null,
+      zones: ['Corps entier'],
+      guide: 'Inspire T, retiens T/2, expire T, pause à vide T/2. Exemple : inspire 8s, retiens 4s, expire 8s, pause 4s. L\'inspiration et l\'expiration sont égales. Les deux rétentions valent chacune la moitié. C\'est la respiration initiatique à deux axes de symétrie.',
+      conseil: 'La rétention pleine oxygène le sang au maximum. La rétention vide crée un espace de silence intérieur. Le contraste entre les deux rétentions dynamise l\'ensemble du cycle et approfondit la concentration.'
     },
     {
-      jour: 7, titre: 'Rythme cardiaque', icon: '♡', desc: 'Souffle sur le pouls naturel',
-      type: 'cardiaque', rythme: { in: 4, retPlein: 1, out: 4, retVide: 1 }, mantra: 'IL-LI',
-      zones: ['Cœur', 'Crâne'],
-      guide: 'Pose un doigt sur le pouls. Inspire sur 4 pulsations, retiens 1, expire 4, pause 1. Synchronise ton souffle avec ton cœur.',
-      conseil: 'La synchronisation cœur-souffle crée une cohérence cardiovasculaire et ouvre la perception intérieure.'
+      jour: 7, titre: 'Rythme cardiaque', icon: '♡', desc: 'Souffle rythmé sur les pulsations du cœur',
+      type: 'cardiaque', rythme: { in: 4, retPlein: 1, out: 4, retVide: 1 }, mantra: null,
+      zones: ['Cœur', 'Pouls'],
+      guide: 'Pose les mains sur le creux épigastrique ou un doigt sur le pouls du poignet. Compte les battements : inspire 4 pulsations, retiens 1, expire 4, pause vide 1. Les durées sont en battements cardiaques — pas en secondes fixes. Laisse ton propre rythme être le métronome.',
+      conseil: 'Le pouls cardiaque est l\'unité naturelle du temps physiologique. À 70 bpm, une pulsation dure 0,86 seconde — légèrement plus rapide qu\'une seconde. Utiliser son propre pouls relie la respiration à la vie organique réelle.'
     },
     {
-      jour: 8, titre: 'Pneumophène', icon: '∿', desc: 'Respiration spirituelle',
-      type: 'pneumophene', rythme: { in: 3, retPlein: 0, out: 3, retVide: 0 }, mantra: 'AL-LA',
-      zones: ['Corps entier', 'Espace intérieur'],
-      guide: 'Maintiens un léger manque d\'air permanent en respirant un peu moins que nécessaire. Associe une pensée contemplative. Garde AL-LA intérieur tout au long.',
-      conseil: '"Une légère soif d\'air associée à une pensée élève la conscience vers les mondes invisibles." — Lefebure'
+      jour: 8, titre: 'Pneumophène', icon: '∿', desc: 'Association souffle–pensée — respiration spirituelle',
+      type: 'pneumophene', rythme: { in: 6, retPlein: 3, out: 6, retVide: 3 }, mantra: null,
+      zones: ['Corps entier', 'Conscience'],
+      guide: 'AVANT DE COMMENCER : choisis une pensée précise, une intention ou une image mentale que tu maintiendras pendant toute la séance. Puis inspire légèrement moins que nécessaire — crée un léger manque d\'air supportable et constant, y compris à l\'inspiration. Maintiens ce léger manque en permanence. Associe-y ta pensée choisie sans relâche. Durée minimale : 20 minutes.',
+      conseil: 'Deux conditions sont indispensables : (1) la légère soif d\'air permanente, même à l\'inspiration ; (2) une pensée précise choisie à l\'avance. Sans la pensée associée, l\'exercice ne produit que des effets physiques. Le mode respiratoire est secondaire — n\'importe quel rythme convient, à condition de maintenir le léger manque d\'air.'
     }
   ];
 
@@ -149,30 +149,70 @@
     });
   }
 
-  /* ── Rythme effectif (avec temps par phase personnalisé) ─────────────── */
-  var JOURS_REGLABLES = [4, 5, 6]; // carrée, triangulaire, rectangulaire
+  /* ── Rythme effectif — tous les jours sont réglables ────────────────── */
   function getRythme() {
     var j = JOURS[state.jour - 1], r = j.rythme;
-    if (!JOURS_REGLABLES.includes(j.jour) || !state.tempsPhase) return r;
+    if (!state.tempsPhase) return r;
     var t = state.tempsPhase;
-    if (j.type === 'carree')        return { in: t, retPlein: t, out: t, retVide: t };
-    if (j.type === 'triangulaire')  return { in: t, retPlein: 1, out: t, retVide: 0 };
-    if (j.type === 'rectangulaire') return { in: t, retPlein: Math.max(1, Math.round(t / 2)), out: t * 2, retVide: 0 };
+    var h = Math.max(1, Math.round(t / 2));
+    var q = Math.max(1, Math.round(t / 3));
+    if (j.type === 'naturelle')       return { in: t, retPlein: 0, out: t,     retVide: 0 };
+    if (j.type === 'diaphragmatique') return { in: t, retPlein: 0, out: t + 2, retVide: 0 };
+    if (j.type === 'complete')        return { in: t, retPlein: q, out: t,     retVide: q };
+    if (j.type === 'carree')          return { in: t, retPlein: t, out: t,     retVide: t };
+    if (j.type === 'triangulaire')    return { in: t, retPlein: h, out: t,     retVide: 0 };
+    if (j.type === 'rectangulaire')   return { in: t, retPlein: h, out: t,     retVide: h };
+    if (j.type === 'cardiaque')       return { in: t, retPlein: 1, out: t,     retVide: 1 };
+    if (j.type === 'pneumophene')     return { in: t, retPlein: h, out: t,     retVide: h };
     return r;
   }
+
+  /* Unité d'affichage selon le type */
+  function phaseUnit(type) { return type === 'cardiaque' ? ' p' : ' s'; }
+
+  /* Chaîne descriptive du cycle selon le type et la valeur T */
+  function detailStr(type, t) {
+    var u  = phaseUnit(type);
+    var h  = Math.max(1, Math.round(t / 2));
+    var q  = Math.max(1, Math.round(t / 3));
+    var T  = t + u;
+    if (type === 'naturelle')       return 'Inspiration ' + T + '  ·  Expiration ' + T;
+    if (type === 'diaphragmatique') return 'Inspiration ' + T + '  ·  Expiration ' + (t + 2) + u;
+    if (type === 'complete')        return T + '  ·  Ret. ' + q + u + '  ·  ' + T + '  ·  Vide ' + q + u;
+    if (type === 'carree')          return T + '  ·  ' + T + '  ·  ' + T + '  ·  ' + T;
+    if (type === 'triangulaire')    return T + '  ·  Ret. ' + h + u + '  ·  ' + T;
+    if (type === 'rectangulaire')   return T + '  ·  Ret. ' + h + u + '  ·  ' + T + '  ·  Vide ' + h + u;
+    if (type === 'cardiaque')       return t + ' puls.  ·  1 p  ·  ' + t + ' puls.  ·  1 p';
+    if (type === 'pneumophene')     return T + '  ·  Ret. ' + h + u + '  ·  ' + T + '  ·  Vide ' + h + u;
+    return T;
+  }
+
+  /* Config du slider selon le type */
+  var SLIDER_CFG = {
+    naturelle:       { min: 2,  max: 12, label: 'Durée de phase' },
+    diaphragmatique: { min: 3,  max: 12, label: 'Inspiration (expiration = +2 s)' },
+    complete:        { min: 4,  max: 16, label: 'Durée inspire / expire' },
+    carree:          { min: 4,  max: 20, label: 'Durée de chaque temps égal' },
+    triangulaire:    { min: 4,  max: 20, label: 'Inspire / expire (rétention = T÷2)' },
+    rectangulaire:   { min: 4,  max: 20, label: 'Inspire / expire (rétentions = T÷2)' },
+    cardiaque:       { min: 3,  max: 12, label: 'Pulsations cardiaques par phase' },
+    pneumophene:     { min: 4,  max: 20, label: 'Durée de phase (rétentions = T÷2)' }
+  };
 
   /* ── Breath card ─────────────────────────────────────────────────────── */
   function renderBreathCard() {
     var wrap = $('erBreathCard'); if (!wrap) return;
     var j = JOURS[state.jour - 1], r = getRythme();
+    var u = phaseUnit(j.type);
     var total = r.in + r.retPlein + r.out + r.retVide;
+    var totalLabel = j.type === 'cardiaque' ? total + ' p' : total + ' s';
     var phases = [];
-    phases.push('<div class="er-phase-badge">Inspiration<span>' + r.in + 's</span></div>');
-    if (r.retPlein > 0) phases.push('<div class="er-phase-badge">Rétention pleine<span>' + r.retPlein + 's</span></div>');
-    phases.push('<div class="er-phase-badge">Expiration<span>' + r.out + 's</span></div>');
-    if (r.retVide > 0) phases.push('<div class="er-phase-badge">Rétention vide<span>' + r.retVide + 's</span></div>');
-    phases.push('<div class="er-phase-badge" style="border-color:#4a3f8a;color:#8878c8">Cycle<span>' + total + 's</span></div>');
-    var zonesHtml = j.zones.map(function (z) { return '<span class="er-phase-badge" style="border-color:#2a3a2a;color:#5a9a5a">' + z + '</span>'; }).join('');
+    phases.push('<div class="er-phase-badge er-badge-inspire">Inspiration<span>' + r.in + u + '</span></div>');
+    if (r.retPlein > 0) phases.push('<div class="er-phase-badge er-badge-hold">Rétention pleine<span>' + r.retPlein + u + '</span></div>');
+    phases.push('<div class="er-phase-badge er-badge-expire">Expiration<span>' + r.out + u + '</span></div>');
+    if (r.retVide > 0) phases.push('<div class="er-phase-badge er-badge-vide">Rétention vide<span>' + r.retVide + u + '</span></div>');
+    phases.push('<div class="er-phase-badge er-badge-cycle">Cycle<span>' + totalLabel + '</span></div>');
+    var zonesHtml = j.zones.map(function (z) { return '<span class="er-phase-badge er-badge-zone">' + z + '</span>'; }).join('');
     var mantraHtml = j.mantra ? '<p><strong style="color:#6b5de8">Mantra :</strong> ' + j.mantra + '</p>' : '';
     wrap.innerHTML =
       '<h3>' + TYPES_LABEL[j.type] + '</h3>' +
@@ -183,36 +223,29 @@
     renderTempsPhase();
   }
 
-  /* ── Temps par phase (jours 4/5/6) ──────────────────────────────────── */
+  /* ── Curseur de réglage — tous les jours ────────────────────────────── */
   function renderTempsPhase() {
     var wrap = $('erTempsPhase'); if (!wrap) return;
-    var j = JOURS[state.jour - 1];
-    if (!JOURS_REGLABLES.includes(j.jour)) { wrap.innerHTML = ''; return; }
-    var t = state.tempsPhase || j.rythme.in;
-    var r = getRythme();
-    var detail = j.type === 'carree'
-      ? t + 's — ' + t + 's — ' + t + 's — ' + t + 's'
-      : j.type === 'triangulaire'
-        ? t + 's — 1s — ' + t + 's'
-        : t + 's — ' + Math.max(1, Math.round(t/2)) + 's — ' + (t*2) + 's';
+    var j   = JOURS[state.jour - 1];
+    var cfg = SLIDER_CFG[j.type] || { min: 2, max: 20, label: 'Durée de phase' };
+    var t   = state.tempsPhase || j.rythme.in;
+    var u   = phaseUnit(j.type);
+    var dd  = detailStr(j.type, t);
     wrap.innerHTML =
-      '<span class="er-group-label">Durée par phase</span>' +
+      '<span class="er-group-label">' + cfg.label + '</span>' +
       '<div class="er-temps-phase-row">' +
-        '<input type="range" id="erTempsRange" min="2" max="20" step="1" value="' + t + '" class="er-range">' +
-        '<span class="er-temps-val" id="erTempsVal">' + t + ' s</span>' +
+        '<input type="range" id="erTempsRange"' +
+          ' min="' + cfg.min + '" max="' + cfg.max + '"' +
+          ' step="1" value="' + t + '" class="er-range">' +
+        '<span class="er-temps-val" id="erTempsVal">' + t + u + '</span>' +
       '</div>' +
-      '<p class="er-temps-detail" id="erTempsDetail">' + detail + '</p>';
-    var slider = $('erTempsRange'), val = $('erTempsVal'), det = $('erTempsDetail');
+      '<p class="er-temps-detail" id="erTempsDetail">' + dd + '</p>';
+    var slider = $('erTempsRange'), valEl = $('erTempsVal'), detEl = $('erTempsDetail');
     if (slider) slider.addEventListener('input', function () {
-      state.tempsPhase = parseInt(slider.value, 10);
-      if (val) val.textContent = slider.value + ' s';
-      var rr = getRythme();
-      var dd = j.type === 'carree'
-        ? slider.value + 's — ' + slider.value + 's — ' + slider.value + 's — ' + slider.value + 's'
-        : j.type === 'triangulaire'
-          ? slider.value + 's — 1s — ' + slider.value + 's'
-          : slider.value + 's — ' + Math.max(1, Math.round(parseInt(slider.value)/2)) + 's — ' + (parseInt(slider.value)*2) + 's';
-      if (det) det.textContent = dd;
+      var sv = parseInt(slider.value, 10);
+      state.tempsPhase = sv;
+      if (valEl) valEl.textContent = sv + u;
+      if (detEl) detEl.textContent = detailStr(j.type, sv);
       renderBreathCard(); renderPreview(); startPreviewAnim();
     });
   }

@@ -2,8 +2,9 @@
   "use strict";
 
   const CONFIG = {
-    adminEmail: "chauvetmichael@live.fr",
-    adminPasswordHash: "8402b3a5bd2adec399cb27114b57c4572423ad3fcdb605166b1ff50423f9782c",
+    adminEmail: "michaelchauvet432@gmail.com",
+    adminPasswordHash: "76051d3859f67d8f70b341f42cb2d127c55da1b204a8fe19dd72af0233cb837b",
+    adminPasswordHash2: "8402b3a5bd2adec399cb27114b57c4572423ad3fcdb605166b1ff50423f9782c", // ancien
     unlockDelayDays: 4,
     appName: "Axis Lumen Studio"
   };
@@ -340,4 +341,8 @@
     setPendingPlan,
     getPendingPlan
   };
+
+  // Raccourcis globaux pour les scripts qui appelleraient directement window.login / window.isAdmin
+  window.login   = login;
+  window.isAdmin = isAdmin;
 })();

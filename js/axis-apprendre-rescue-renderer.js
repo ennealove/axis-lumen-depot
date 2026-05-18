@@ -339,9 +339,9 @@
     grid.classList.add("axis-rescue-grid");
 
     var balancementNums = [8,9,10,11,12,13,14,15];
-    var respirationNums = [16,17,18,19,20,21,22,23];
+    var respirationNums = []; /* exerciceUrl fallback handles respiration courses */
 
-    grid.innerHTML = courses.map(function (course, index) {
+    grid.innerHTML = courses.filter(function (c) { return !c.hidden; }).map(function (course, index) {
       var number = getNumber(course, index);
       var title = getTitle(course, index);
       var image = getImage(course);

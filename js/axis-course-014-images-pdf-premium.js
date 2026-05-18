@@ -1,24 +1,25 @@
 ﻿/* Axis Lumen Studio - Cours 014 images premium */
 (function () {
   var images = {
-    cover:         "assets/courses/course-014/cover.webp",
+    cover:         "assets/courses/course-014/fer_a_cheval_1.png",
     gallery: [
-      "assets/courses/course-014/cover.webp",
-      "assets/courses/course-014/course-014-image-02.webp",
-      "assets/courses/course-014/course-014-image-03.webp",
-      "assets/courses/course-014/course-014-image-04.webp",
-      "assets/courses/course-014/course-014-image-05.webp",
-      "assets/courses/course-014/course-014-image-06.webp",
-      "assets/courses/course-014/course-014-image-07.webp",
-      "assets/courses/course-014/course-014-image-08.webp"
+      "assets/courses/course-014/fer_a_cheval_1.png",
+      "assets/courses/course-014/fer_a_cheval_2.png",
+      "assets/courses/course-014/fer_a_cheval_3.png",
+      "assets/courses/course-014/fer_a_cheval_4.png",
+      "assets/courses/course-014/fer_a_cheval_5.png",
+      "assets/courses/course-014/fer_a_cheval_6.png",
+      "assets/courses/course-014/fer_a_cheval_7.png",
+      "assets/courses/course-014/fer_a_cheval_8.png",
+      "assets/courses/course-014/fer_a_cheval_9.png"
     ],
     pedagogical: [
-      "assets/courses/course-014/course-014-image-02.webp",
-      "assets/courses/course-014/course-014-image-03.webp",
-      "assets/courses/course-014/course-014-image-04.webp"
+      "assets/courses/course-014/fer_a_cheval_2.png",
+      "assets/courses/course-014/fer_a_cheval_3.png",
+      "assets/courses/course-014/fer_a_cheval_4.png"
     ],
-    contemplative: "assets/courses/course-014/course-014-image-05.webp",
-    exercise:      "assets/courses/course-014/course-014-image-06.webp"
+    contemplative: "assets/courses/course-014/fer_a_cheval_5.png",
+    exercise:      "assets/courses/course-014/fer_a_cheval_6.png"
   };
 
   /* Injection SYNCHRONE - avant que axis-apprendre-one-hour.js rende les cartes */

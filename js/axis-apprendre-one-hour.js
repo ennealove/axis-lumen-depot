@@ -13,6 +13,86 @@
     selected: courses[0]?.id || ""
   };
 
+  // ── Système de validation progressive ─────────────────────────────────────
+  // Chaque cours a un unlockDays : durée minimale de pratique avant validation.
+  // Clés localStorage :
+  //   axis_course_first_open_{order}  → timestamp ISO de première ouverture
+  //   axis_course_validated_{order}   → timestamp ISO de validation
+
+  // Cours triés par order (liste de référence invariable)
+  const sortedCourses = courses.slice().sort((a, b) => Number(a.order || 0) - Number(b.order || 0));
+
+  function isCreator() {
+    try {
+      // window.AxisAccess.isAdmin est exposé par axis-access-control.js
+      if (typeof window.AxisAccess?.isAdmin === "function" && window.AxisAccess.isAdmin()) return true;
+      // Fallback direct sur window.isAdmin pour compatibilité
+      if (typeof window.isAdmin === "function" && window.isAdmin()) return true;
+      return false;
+    } catch { return false; }
+  }
+
+  function firstOpenKey(course)   { return `axis_course_first_open_${course.order}`; }
+  function validatedKey(course)   { return `axis_course_validated_${course.order}`; }
+
+  function isCourseValidated(course) {
+    try { return !!localStorage.getItem(validatedKey(course)); } catch { return false; }
+  }
+
+  function recordFirstOpen(course) {
+    try {
+      if (!localStorage.getItem(firstOpenKey(course))) {
+        localStorage.setItem(firstOpenKey(course), new Date().toISOString());
+      }
+    } catch {}
+  }
+
+  function validateCourse(course) {
+    try { localStorage.setItem(validatedKey(course), new Date().toISOString()); } catch {}
+  }
+
+  // Retourne l'index du cours dans sortedCourses
+  function courseIndex(course) {
+    return sortedCourses.findIndex(c => c.id === course.id);
+  }
+
+  // 'locked' | 'open' | 'validatable' | 'done'
+  function getCourseStatus(course) {
+    // Le créateur voit tout déverrouillé et peut valider immédiatement
+    if (isCreator()) return isCourseValidated(course) ? "done" : "validatable";
+
+    const idx = courseIndex(course);
+    // Premier cours toujours accessible
+    if (idx <= 0) {
+      if (isCourseValidated(course)) return "done";
+      const firstOpen = localStorage.getItem(firstOpenKey(course));
+      if (!firstOpen) return "open";
+      const days = Math.floor((Date.now() - new Date(firstOpen).getTime()) / 86400000);
+      return days >= (course.unlockDays || 1) ? "validatable" : "open";
+    }
+
+    // Cours précédent doit être validé
+    const prev = sortedCourses[idx - 1];
+    if (!isCourseValidated(prev)) return "locked";
+
+    if (isCourseValidated(course)) return "done";
+
+    const firstOpen = localStorage.getItem(firstOpenKey(course));
+    if (!firstOpen) return "open"; // vient d'être déverrouillé, pas encore ouvert
+    const days = Math.floor((Date.now() - new Date(firstOpen).getTime()) / 86400000);
+    return days >= (course.unlockDays || 4) ? "validatable" : "open";
+  }
+
+  function daysUntilValidatable(course) {
+    try {
+      const firstOpen = localStorage.getItem(firstOpenKey(course));
+      if (!firstOpen) return course.unlockDays || 4;
+      const elapsed = Math.floor((Date.now() - new Date(firstOpen).getTime()) / 86400000);
+      return Math.max(0, (course.unlockDays || 4) - elapsed);
+    } catch { return course.unlockDays || 4; }
+  }
+  // ─────────────────────────────────────────────────────────────────────────
+
   function escapeHtml(value) {
     return String(value ?? "")
       .replace(/&/g, "&amp;")
@@ -76,40 +156,57 @@
     const cover = course.coverImage || course.image || course.images?.cover || "";
     const pdfPath = course.pdf?.path || course.pdfPath || "";
     const summary = course.shortSummary || course.summary || course.longSummary || "";
-    const numLabel = String(course.number || "");
-    const titleHasNumber = /^Cours\s+\d+/i.test(course.title || "");
-    const displayTitle = titleHasNumber
-      ? course.title
-      : `Cours ${numLabel} — ${course.title}`;
-    // Badge séquentiel (position 1→115) ou numéro du cours si pas d'index fourni
-    const badgeNum = seqNum ? String(seqNum).padStart(2, "0") : numLabel.padStart(2, "0");
+    // Numéro affiché = position séquentielle dans la liste rendue
+    const displayNum = seqNum ? String(seqNum) : String(course.number || "");
+    const badgeNum = displayNum.padStart(2, "0");
+    // Titre : on retire tout préfixe "Cours X — " existant, puis on réinjecte le numéro séquentiel
+    const rawTitle = (course.title || "").replace(/^Cours\s+[\d.]+\s*[—–-]\s*/i, "").trim();
+    const displayTitle = `Cours ${displayNum} — ${rawTitle}`;
+
+    const status = getCourseStatus(course);
+    const isLocked = status === "locked";
+    const isDone = status === "done";
+    const statusClass = isLocked ? " axis-card-locked" : isDone ? " axis-card-done" : "";
+    const statusBadge = isLocked
+      ? `<span class="axis-card-status-badge locked">🔒 Verrouillé</span>`
+      : isDone
+        ? `<span class="axis-card-status-badge done">✓ Validé</span>`
+        : status === "validatable"
+          ? `<span class="axis-card-status-badge validatable">✦ Prêt à valider</span>`
+          : `<span class="axis-card-status-badge open">● En cours</span>`;
 
     return `
-      <article class="axis-onehour-card" data-course-id="${escapeHtml(course.id)}">
+      <article class="axis-onehour-card${statusClass}" data-course-id="${escapeHtml(course.id)}">
         <div class="axis-onehour-card-top">
           <span class="axis-onehour-number">${badgeNum}</span>
           <span class="axis-onehour-symbol">${escapeHtml(course.symbol || "◎")}</span>
+          ${statusBadge}
         </div>
 
-        ${cover ? `<figure class="axis-onehour-course-cover"><img src="${escapeHtml(cover)}" alt="${escapeHtml(course.title)}" loading="lazy"></figure>` : ""}
+        ${cover && !isLocked ? `<figure class="axis-onehour-course-cover"><img src="${escapeHtml(cover)}" alt="${escapeHtml(course.title)}" loading="lazy"></figure>` : ""}
 
         <div>
           <p class="axis-onehour-kicker">${escapeHtml(course.family || course.familyTitle || "École du Temple Vivant")}</p>
           <h3>${escapeHtml(displayTitle)}</h3>
-          ${course.subtitle ? `<p class="axis-onehour-subtitle">${escapeHtml(course.subtitle)}</p>` : ""}
-          <p>${escapeHtml(summary)}</p>
+          ${!isLocked && course.subtitle ? `<p class="axis-onehour-subtitle">${escapeHtml(course.subtitle)}</p>` : ""}
+          ${!isLocked ? `<p>${escapeHtml(summary)}</p>` : `<p class="axis-card-locked-msg">Validez le cours précédent pour déverrouiller ce module.</p>`}
         </div>
 
+        ${!isLocked ? `
         <div class="axis-onehour-tags">
           ${tags}
           <span>${escapeHtml(course.duration || "1 h")}</span>
           <span>${escapeHtml(course.level || "Fondation")}</span>
-        </div>
+          ${course.preprogrammedSession ? `<span class="axis-tag-preprog">⚡ Séance incluse</span>` : ""}
+        </div>` : ""}
 
         <div class="axis-onehour-actions">
-          <button class="axis-onehour-btn primary" data-action="open" data-course="${escapeHtml(course.id)}">Lire le cours</button>
-          <button class="axis-onehour-btn" data-action="session" data-course="${escapeHtml(course.id)}">Pratiquer</button>
-          <button class="axis-onehour-btn" data-action="pdf" data-course="${escapeHtml(course.id)}">${pdfPath ? "Ouvrir PDF" : "PDF premium"}</button>
+          ${isLocked
+            ? `<button class="axis-onehour-btn locked" disabled>🔒 Cours verrouillé</button>`
+            : `<button class="axis-onehour-btn primary" data-action="open" data-course="${escapeHtml(course.id)}">Lire le cours</button>
+               ${course.preprogrammedSession ? `<button class="axis-onehour-btn accent" data-action="preprogrammed" data-course="${escapeHtml(course.id)}">⚡ Lancer la séance</button>` : `<button class="axis-onehour-btn" data-action="session" data-course="${escapeHtml(course.id)}">Pratiquer</button>`}
+               <button class="axis-onehour-btn" data-action="pdf" data-course="${escapeHtml(course.id)}">${pdfPath ? "Ouvrir PDF" : "PDF premium"}</button>`
+          }
         </div>
       </article>
     `;
@@ -332,10 +429,60 @@
             </ul>
           </section>` : ""}
 
+          ${course.preprogrammedSession ? (function() {
+            const ps = course.preprogrammedSession;
+            const bal = ps.balancement || {};
+            const resp = ps.respiration || {};
+            const fin = ps.final || {};
+            const tones = (ps.tonalites || []).join(" · ");
+            return `
+          <section class="axis-course-rich-section">
+            <div class="axis-course-gen-session axis-course-preprog-block">
+              <p class="axis-course-gen-kicker">⚡ Séance pré-programmée — prête à lancer</p>
+              <h4>${escapeHtml(ps.label || "Séance recommandée")}</h4>
+              ${ps.context ? `<p class="axis-preprog-context">${escapeHtml(ps.context)}</p>` : ""}
+              <div class="axis-preprog-grid">
+                ${ps.detente ? `<div class="axis-preprog-param"><span>Détente</span><strong>${escapeHtml(String(ps.detente))} min</strong></div>` : ""}
+                ${ps.objetContemplation ? `<div class="axis-preprog-param"><span>Objet de contemplation</span><strong>${escapeHtml(ps.objetContemplation)}</strong></div>` : ""}
+                ${bal.type ? `<div class="axis-preprog-param"><span>Balancement</span><strong>${escapeHtml(bal.type)} · ${escapeHtml(String(bal.duree || ""))} min</strong></div>` : ""}
+                ${resp.type ? `<div class="axis-preprog-param"><span>Respiration</span><strong>${escapeHtml(resp.type)} ${escapeHtml(String(resp.mesure || ""))}s · ${escapeHtml(String(resp.duree || ""))} min</strong></div>` : ""}
+                ${fin.type ? `<div class="axis-preprog-param"><span>Phase finale</span><strong>${escapeHtml(fin.type)} · ${escapeHtml(String(fin.duree || ""))} min</strong></div>` : ""}
+                ${tones ? `<div class="axis-preprog-param"><span>Tonalités</span><strong>${escapeHtml(tones)}</strong></div>` : ""}
+                ${ps.voix ? `<div class="axis-preprog-param"><span>Audio</span><strong>Voix guidée activée</strong></div>` : ""}
+                ${ps.cloche ? `<div class="axis-preprog-param"><span>Signal</span><strong>Cloche activée</strong></div>` : ""}
+              </div>
+              <button class="axis-onehour-btn primary" data-action="preprogrammed" data-course="${escapeHtml(course.id)}">⚡ Lancer cette séance dans Créer sa séance →</button>
+            </div>
+          </section>`;
+          })() : ""}
+
           <div class="axis-onehour-actions">
             <button class="axis-onehour-btn primary" data-action="pdf" data-course="${escapeHtml(course.id)}">Générer le PDF premium</button>
             <button class="axis-onehour-btn" data-action="session" data-course="${escapeHtml(course.id)}">Envoyer vers Créer sa séance</button>
           </div>
+
+          ${(function() {
+            const st = getCourseStatus(course);
+            if (st === "done") {
+              return `<div class="axis-course-validation-block axis-validation-done">
+                <span class="axis-validation-check">✓</span>
+                <p>Cours validé. Le suivant est déverrouillé.</p>
+              </div>`;
+            }
+            if (st === "validatable") {
+              return `<div class="axis-course-validation-block axis-validation-ready">
+                <p class="axis-validation-hint">Tu as pratiqué ce cours pendant ${course.unlockDays || 4} jour${(course.unlockDays || 4) > 1 ? "s" : ""}. Tu peux maintenant le valider pour déverrouiller la suite.</p>
+                <button class="axis-onehour-btn primary axis-validate-btn" data-action="validate" data-course="${escapeHtml(course.id)}">✦ Je valide ce cours</button>
+              </div>`;
+            }
+            if (st === "open" || st === "locked") {
+              const remaining = daysUntilValidatable(course);
+              return `<div class="axis-course-validation-block axis-validation-pending">
+                <p class="axis-validation-hint">⏳ Pratique ce cours pendant <strong>${remaining} jour${remaining > 1 ? "s" : ""}</strong> encore avant de pouvoir le valider et déverrouiller le suivant.</p>
+              </div>`;
+            }
+            return "";
+          })()}
 
           <div class="axis-onehour-copyright">${escapeHtml(course.copyright || COPYRIGHT)}</div>
         </div>
@@ -358,7 +505,7 @@
           <p class="axis-onehour-kicker">ÉCOLE DU TEMPLE VIVANT</p>
           <h2>Cours d’une heure — enseignement, pratique et intégration</h2>
           <p>
-            Chaque cours devient un véritable module d’environ une heure : un enseignement structuré, une image dédiée, un support PDF imprimable, un cadre de protection, des références et une pratique guidée. Les 72 portes existantes restent la base du parcours ; elles deviennent les fondations d’une grande école évolutive, pensée pour accompagner l’élève pas à pas : comprendre, pratiquer, observer, intégrer, puis valider son expérience intérieure.
+            117 cours — chacun est un module d’environ une heure : enseignement structuré, pratique corporelle guidée, séance pré-programmée, questions de carnet. Un parcours de 19 mois pour transformer sa vie intérieure durablement. Chaque cours se valide avant d’ouvrir le suivant.
           </p>
         </div>
 
@@ -435,9 +582,28 @@
         const action = button.dataset.action;
 
         if (action === "open") {
+          const st = getCourseStatus(course);
+          if (st === "locked") return; // bloqué
+          recordFirstOpen(course);
           state.selected = course.id;
           render();
           setTimeout(() => document.getElementById("axisOneHourReader")?.scrollIntoView({ behavior: "smooth", block: "start" }), 80);
+        }
+
+        if (action === "validate") {
+          const st = getCourseStatus(course);
+          if (st !== "validatable") return;
+          validateCourse(course);
+          render();
+          // Rafraîchir constellation + compteur de progression
+          if (typeof window.axisRefreshProgress === "function") window.axisRefreshProgress();
+          // Notification visuelle
+          const btn = document.querySelector(`[data-action="validate"][data-course="${course.id}"]`);
+          if (btn) {
+            btn.textContent = "✓ Cours validé !";
+            btn.disabled = true;
+          }
+          setTimeout(() => document.getElementById("axisOneHourReader")?.scrollIntoView({ behavior: "smooth", block: "end" }), 200);
         }
 
         if (action === "pdf") {
@@ -446,6 +612,10 @@
 
         if (action === "session") {
           sendToSession(course);
+        }
+
+        if (action === "preprogrammed") {
+          launchPreprogrammedSession(course);
         }
       });
     });
@@ -458,6 +628,43 @@
         courseId: course.id,
         title: course.title,
         intention: (course.practice && typeof course.practice === "object" ? (course.practice.intention || course.practice.name || course.summary || course.title) : course.practice),
+        createdAt: new Date().toISOString()
+      }));
+    } catch {}
+
+    window.location.href = "creer-seance.html";
+  }
+
+  function launchPreprogrammedSession(course) {
+    if (!course) return;
+    const ps = course.preprogrammedSession;
+    if (!ps) return sendToSession(course);
+
+    try {
+      // Stocker la séance pré-programmée complète
+      localStorage.setItem("axis_preprogrammed_session", JSON.stringify({
+        source: "apprendre-cours-1h",
+        courseId: course.id,
+        courseTitle: course.title,
+        label: ps.label || course.title,
+        context: ps.context || "",
+        detente: ps.detente || 3,
+        objetContemplation: ps.objetContemplation || "carré",
+        balancement: ps.balancement || { type: "latéral", duree: 20 },
+        respiration: ps.respiration || { type: "carrée", mesure: 5, duree: 10 },
+        final: ps.final || { type: "tension", duree: 3 },
+        voix: ps.voix || false,
+        cloche: ps.cloche || false,
+        tonalites: ps.tonalites || [],
+        createdAt: new Date().toISOString()
+      }));
+      // Aussi stocker comme intention classique pour compatibilité
+      localStorage.setItem("axis_pending_session_intention", JSON.stringify({
+        source: "apprendre-cours-1h",
+        courseId: course.id,
+        title: course.title,
+        preprogrammed: true,
+        intention: ps.label || course.title,
         createdAt: new Date().toISOString()
       }));
     } catch {}

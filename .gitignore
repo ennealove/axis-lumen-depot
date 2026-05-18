@@ -81,3 +81,6 @@ assets/audio/
 
 # Fichiers vidéo — hébergés sur GitHub Releases video-v1
 assets/videos/
+
+# Fichier credentials admin local — ne jamais committer
+CREDENTIALS.txt

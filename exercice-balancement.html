@@ -91,6 +91,37 @@
 
       <div class="eb-divider"></div>
 
+      <!-- Stereo metronome -->
+      <div class="eb-config-group">
+        <span class="eb-group-label">Guide rythmique</span>
+        <div id="ebMetroBtns" class="eb-opt-row">
+          <button class="eb-opt-btn active" data-metro="off"    type="button">Sans rythme<br><small style="font-size:.7rem;opacity:.7">silence</small></button>
+          <button class="eb-opt-btn"        data-metro="mono"   type="button">Simple<br><small style="font-size:.7rem;opacity:.7">clic mono</small></button>
+          <button class="eb-opt-btn"        data-metro="stereo" type="button">Stéréo<br><small style="font-size:.7rem;opacity:.7">gauche / droite</small></button>
+        </div>
+        <p style="font-size:.78rem;opacity:.6;margin-top:6px;line-height:1.4">Stéréo : le son alterne oreille gauche / oreille droite à chaque demi-balancement. Casque recommandé.</p>
+        <div style="margin-top:10px;display:flex;align-items:center;gap:10px;">
+          <label for="ebMetroVol" style="font-size:.78rem;opacity:.75;white-space:nowrap;">Volume du clic</label>
+          <input id="ebMetroVol" type="range" min="0.05" max="1.00" step="0.05" value="0.20"
+                 style="flex:1;accent-color:#d8b45f;cursor:pointer;">
+          <span id="ebMetroVolLabel" style="font-size:.78rem;opacity:.75;min-width:2.5rem;text-align:right;">20%</span>
+        </div>
+      </div>
+
+      <div class="eb-divider"></div>
+
+      <!-- Voice -->
+      <div class="eb-config-group">
+        <span class="eb-group-label">Voix de guidage</span>
+        <div id="ebVoiceBtns" class="eb-opt-row">
+          <button class="eb-opt-btn active" data-voice="on"  type="button">Voix active<br><small style="font-size:.7rem;opacity:.7">guidage vocal</small></button>
+          <button class="eb-opt-btn"        data-voice="off" type="button">Sans voix<br><small style="font-size:.7rem;opacity:.7">silence</small></button>
+        </div>
+        <p style="font-size:.78rem;opacity:.6;margin-top:6px;line-height:1.4">Configure la voix et le volume via le bouton 🎙 en bas à droite (actif sur tous les onglets).</p>
+      </div>
+
+      <div class="eb-divider"></div>
+
       <!-- Music -->
       <div class="eb-config-group">
         <label for="ebAudioSelect">Musique de fond</label>
@@ -161,7 +192,11 @@
   <div class="eb-sov-footer">
     <div id="ebSovCountdown" class="eb-sov-countdown"></div>
     <p   id="ebSovGuide"     class="eb-sov-guide"></p>
-    <button id="ebSovStop" type="button" class="eb-sov-stop-btn">Terminer la séance</button>
+    <div class="eb-sov-btns">
+      <button id="ebSovPause"  type="button" class="eb-sov-stop-btn" style="background:rgba(216,180,95,.12);border:1px solid rgba(216,180,95,.35);">Pause</button>
+      <button id="ebSovResume" type="button" class="eb-sov-stop-btn" style="background:rgba(216,180,95,.12);border:1px solid rgba(216,180,95,.35);display:none">Reprendre</button>
+      <button id="ebSovStop"   type="button" class="eb-sov-stop-btn">Terminer la séance</button>
+    </div>
   </div>
 
 </div>
@@ -181,7 +216,7 @@
 <script src="js/axis-access-control.js"></script>
 <script src="js/axis-voice-global.js"></script>
 <script src="js/axis-session-video-map.js"></script>
-<script src="js/axis-session-audio-map.js"></script>
+<script src="js/axis-session-audio-map.js?v=20260517"></script>
 <script src="js/axis-audio-local-patch.js"></script>
 <script src="js/axis-video-local-patch.js"></script>
 <script src="js/exercice-balancement.js" defer></script>

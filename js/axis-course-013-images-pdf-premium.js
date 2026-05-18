@@ -1,24 +1,25 @@
 ﻿/* Axis Lumen Studio - Cours 013 images premium */
 (function () {
   var images = {
-    cover:         "assets/courses/course-013/cover.webp",
+    cover:         "assets/courses/course-013/rotation_douce_1.png",
     gallery: [
-      "assets/courses/course-013/cover.webp",
-      "assets/courses/course-013/course-013-image-02.webp",
-      "assets/courses/course-013/course-013-image-03.webp",
-      "assets/courses/course-013/course-013-image-04.webp",
-      "assets/courses/course-013/course-013-image-05.webp",
-      "assets/courses/course-013/course-013-image-06.webp",
-      "assets/courses/course-013/course-013-image-07.webp",
-      "assets/courses/course-013/course-013-image-08.webp"
+      "assets/courses/course-013/rotation_douce_1.png",
+      "assets/courses/course-013/rotation_douce_2.png",
+      "assets/courses/course-013/rotation_douce_3.png",
+      "assets/courses/course-013/rotation_douce_4.png",
+      "assets/courses/course-013/rotation_douce_5.png",
+      "assets/courses/course-013/rotation_douce_6.png",
+      "assets/courses/course-013/rotation_douce_7.png",
+      "assets/courses/course-013/rotation_douce_8.png",
+      "assets/courses/course-013/rotation_douce_9.png"
     ],
     pedagogical: [
-      "assets/courses/course-013/course-013-image-02.webp",
-      "assets/courses/course-013/course-013-image-03.webp",
-      "assets/courses/course-013/course-013-image-04.webp"
+      "assets/courses/course-013/rotation_douce_2.png",
+      "assets/courses/course-013/rotation_douce_3.png",
+      "assets/courses/course-013/rotation_douce_4.png"
     ],
-    contemplative: "assets/courses/course-013/course-013-image-05.webp",
-    exercise:      "assets/courses/course-013/course-013-image-06.webp"
+    contemplative: "assets/courses/course-013/rotation_douce_5.png",
+    exercise:      "assets/courses/course-013/rotation_douce_6.png"
   };
 
   /* Injection SYNCHRONE - avant que axis-apprendre-one-hour.js rende les cartes */

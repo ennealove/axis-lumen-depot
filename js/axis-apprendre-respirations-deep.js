@@ -13,6 +13,7 @@
   // ── C019 — Respiration naturelle ─────────────────────────────────────────
   enrich("c019", {
     exerciceUrl: "exercice-respiration.html?jour=1",
+    jourRespiration: 1,
     teaching: {
       intro: "La respiration rythmique est la seule fonction de la vie végétative sur laquelle la volonté peut agir dans une large mesure. Elle établit la liaison entre notre vie de relation et notre vie végétative — c'est pourquoi elle occupe une place prépondérante dans toutes les formes d'auto-éducation connues depuis l'Antiquité.",
       sections: [
@@ -43,6 +44,7 @@
   // ── C020 — Respiration diaphragmatique ────────────────────────────────────
   enrich("c020", {
     exerciceUrl: "exercice-respiration.html?jour=2",
+    jourRespiration: 2,
     teaching: {
       intro: "La respiration complète utilise les trois zones du poumon dans une séquence précise. Elle est le fondement de tous les exercices respiratoires avancés. Sans maîtrise de la respiration diaphragmatique isolée, toutes les techniques de rythme restent superficielles.",
       sections: [
@@ -73,6 +75,7 @@
   // ── C021 — Respiration carrée ─────────────────────────────────────────────
   enrich("c021", {
     exerciceUrl: "exercice-respiration.html?jour=4",
+    jourRespiration: 4,
     teaching: {
       intro: "La respiration carrée — quatre temps parfaitement égaux — est considérée par les traditions respiratoires comme le rythme qui procure la meilleure relaxation et améliore le caractère et les relations sociales. Sa structure sinusoïdale en fait le rythme le plus proche du cercle parfait dans la classification des rythmes respiratoires.",
       sections: [
@@ -103,6 +106,7 @@
   // ── C022 — Respiration triangulaire ──────────────────────────────────────
   enrich("c022", {
     exerciceUrl: "exercice-respiration.html?jour=5",
+    jourRespiration: 5,
     teaching: {
       intro: "La respiration triangulaire est le premier rythme dans la classification vers le cercle. Elle supprime une rétention (ou les deux selon la version) et crée un effet directionnel : montante (triangulaire ascendante) pour l'activation, descendante (triangulaire descendante) pour l'apaisement. C'est l'outil thérapeutique le plus souple de la famille respiratoire.",
       sections: [
@@ -133,6 +137,7 @@
   // ── C023 — Respiration rectangulaire ─────────────────────────────────────
   enrich("c023", {
     exerciceUrl: "exercice-respiration.html?jour=6",
+    jourRespiration: 6,
     teaching: {
       intro: "La respiration rectangulaire possède deux axes de symétrie au lieu d'un seul (inspiration et expiration peuvent chacune être allongées ou raccourcies de façon symétrique). Elle est, dans la classification vers le cercle, plus proche du carré que la triangulaire. Son effet parasympathique profond en fait l'outil de prédilection pour induire la détente dans toutes les situations de stress.",
       sections: [
@@ -163,6 +168,7 @@
   // ── C024 — Le Pneumophène ─────────────────────────────────────────────────
   enrich("c024", {
     exerciceUrl: "exercice-respiration.html?jour=8",
+    jourRespiration: 8,
     teaching: {
       intro: "La respiration spirituelle commence lorsqu'on associe une pensée à une respiration accompagnée d'une légère soif d'air permanente. Alors seulement, on perçoit ce que les traditions hindoues nomment le 'prâna' — le Souffle de l'Esprit. Les effets sont profonds, en rapport avec l'origine même de la vie consciente. Cette pratique, d'une durée minimale de vingt minutes, est la plus exigeante et la plus transformatrice de toutes les formes respiratoires.",
       sections: [

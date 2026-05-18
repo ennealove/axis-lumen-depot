@@ -30,7 +30,7 @@
     course.images     = Object.assign({}, course.images || {}, images);
     course.pdfPremium = true;
     course.pdf        = course.pdf || {};
-    course.pdf.title  = "Respiration triangulaire 4/4/4 — L'asymétrie ascendante et les phosphènes doubles";
+    course.pdf.title  = "Respiration triangulaire 4/4/4 — L'asymétrie ascendante et l'éveil de la lumière intérieure";
     course.pdf.protectedNotice = "Support pédagogique réservé aux élèves de l'École du Temple Vivant — Axis Lumen Studio.";
   }
 })();

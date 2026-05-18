@@ -312,6 +312,43 @@
       margin-top: 0;
     }
 
+    .home-card a.home-btn {
+      display: inline-block;
+      padding: 8px 14px;
+      font-size: .82rem;
+      text-align: center;
+      border-radius: 999px;
+    }
+
+    .home-stat-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      margin: 28px 0 0;
+      padding: 20px 24px;
+      background: rgba(216,180,95,.07);
+      border: 1px solid rgba(216,180,95,.18);
+      border-radius: 16px;
+    }
+    .home-stat-row div {
+      flex: 1;
+      min-width: 80px;
+      text-align: center;
+    }
+    .home-stat-row strong {
+      display: block;
+      font-size: 1.8rem;
+      color: #ffe7a3;
+      font-family: Georgia, serif;
+      line-height: 1;
+    }
+    .home-stat-row span {
+      font-size: .75rem;
+      color: rgba(244,236,216,.6);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
     @media (max-width: 1120px) {
       .home-hero,
       .home-grid.cols-3,
@@ -370,9 +407,11 @@
 </header>
 
 <main class="home-main">
+
+  <!-- ── HERO ─────────────────────────────────────────────────────────────── -->
   <section class="home-hero">
     <div>
-      <p class="home-kicker">Maison intérieure · Livres · Pratique</p>
+      <p class="home-kicker">École du Temple Vivant · 117 cours · Pratique guidée</p>
 
       <h1>
         Rendre son
@@ -380,15 +419,35 @@
       </h1>
 
       <p class="home-lead">
-        Axis Lumen Studio réunit une collection de livres, des pratiques guidées,
-        un générateur de séances vidéo, un espace d’apprentissage et une boutique
-        premium pensée comme une maison d’édition spirituelle contemporaine.
+        Une école initiatique complète : 117 cours structurés autour de quatre livres,
+        un générateur de séances sur mesure, des pratiques guidées en vidéo, un tirage de vertus,
+        et un parcours progressif de 19 mois pour transformer durablement sa vie intérieure.
       </p>
 
-      <div class="home-actions">
-        <a class="home-btn primary" href="creer-seance.html">Créer une séance</a>
-        <a class="home-btn" href="boutique.html">Voir la collection</a>
-        <a class="home-btn" href="apprendre.html">Entrer dans l’école</a>
+      <!-- Chiffres clés -->
+      <div style="display:flex;flex-wrap:wrap;gap:18px;margin:28px 0 0;padding:20px 24px;background:rgba(216,180,95,.07);border:1px solid rgba(216,180,95,.18);border-radius:16px;">
+        <div style="text-align:center;flex:1;min-width:80px;">
+          <strong style="display:block;font-size:1.8rem;color:#ffe7a3;font-family:Georgia,serif;line-height:1;">117</strong>
+          <span style="font-size:.75rem;color:rgba(244,236,216,.6);text-transform:uppercase;letter-spacing:.08em;">Cours</span>
+        </div>
+        <div style="text-align:center;flex:1;min-width:80px;">
+          <strong style="display:block;font-size:1.8rem;color:#ffe7a3;font-family:Georgia,serif;line-height:1;">15</strong>
+          <span style="font-size:.75rem;color:rgba(244,236,216,.6);text-transform:uppercase;letter-spacing:.08em;">Familles</span>
+        </div>
+        <div style="text-align:center;flex:1;min-width:80px;">
+          <strong style="display:block;font-size:1.8rem;color:#ffe7a3;font-family:Georgia,serif;line-height:1;">19</strong>
+          <span style="font-size:.75rem;color:rgba(244,236,216,.6);text-transform:uppercase;letter-spacing:.08em;">Mois de parcours</span>
+        </div>
+        <div style="text-align:center;flex:1;min-width:80px;">
+          <strong style="display:block;font-size:1.8rem;color:#ffe7a3;font-family:Georgia,serif;line-height:1;">4</strong>
+          <span style="font-size:.75rem;color:rgba(244,236,216,.6);text-transform:uppercase;letter-spacing:.08em;">Livres sources</span>
+        </div>
+      </div>
+
+      <div class="home-actions" style="margin-top:24px;">
+        <a class="home-btn primary" href="apprendre.html">Entrer dans l’école</a>
+        <a class="home-btn" href="creer-seance.html">Créer une séance</a>
+        <a class="home-btn" href="boutique.html">Collection de livres</a>
       </div>
     </div>
 
@@ -401,46 +460,61 @@
     </aside>
   </section>
 
+  <!-- ── ÉCOLE — richesse de l’enseignement ─────────────────────────────── -->
   <section class="home-section">
     <div class="home-section-head">
-      <p class="home-kicker">Vision</p>
-      <h2>Un espace sobre, profond et praticable.</h2>
+      <p class="home-kicker">École du Temple Vivant</p>
+      <h2>117 portes. 15 familles. 19 mois de transformation.</h2>
       <p>
-        Le projet ne se limite pas à vendre des livres. Il relie lecture,
-        contemplation, pratique corporelle, observation lumineuse et progression.
-        Chaque partie du studio sert une expérience simple : comprendre, choisir,
-        pratiquer, intégrer.
+        Chaque cours est un module d’une heure : enseignement structuré, pratique corporelle,
+        questions de carnet et séance pré-programmée. Le parcours s’ouvre progressivement —
+        un cours tous les 3 à 30 jours selon l’intensité du sujet.
       </p>
     </div>
 
     <div class="home-grid cols-3">
       <article class="home-card">
-        <span class="home-card-number">01</span>
-        <h3>Lire</h3>
-        <p>Une collection structurée autour du temple vivant, des vertus, du terrain intérieur et des exercices de présence.</p>
+        <span class="home-card-number">◉</span>
+        <h3>Fondations</h3>
+        <p style="margin:0 0 14px;">Règles de l’enseignement, mantras vibratoires, convergence oculaire, Koundalini, balancements.</p>
+        <ul>
+          <li>7 cours d’introduction</li>
+          <li>8 cours de balancement (7 j chacun)</li>
+          <li>Programme 15 jours pré-configuré</li>
+        </ul>
       </article>
 
       <article class="home-card">
-        <span class="home-card-number">02</span>
-        <h3>Construire</h3>
-        <p>Un générateur compose une séance selon l’intention, le mouvement, la respiration, la durée et l’intégration.</p>
+        <span class="home-card-number">♡</span>
+        <h3>Corps &amp; Terrain</h3>
+        <p style="margin:0 0 14px;">Respiration, alimentation vivante, émonctoires, jeûne, terrain bioélectronique, eau informée.</p>
+        <ul>
+          <li>7 cours de respiration (programme 15j)</li>
+          <li>7 cours d’alimentation et terrain</li>
+          <li>Protocole de jeûne (9 jours)</li>
+        </ul>
       </article>
 
       <article class="home-card">
-        <span class="home-card-number">03</span>
-        <h3>Pratiquer</h3>
-        <p>Les vidéos, la voix, les minuteries et les séquences guident l’utilisateur dans une pratique claire et progressive.</p>
+        <span class="home-card-number">✦</span>
+        <h3>Perception &amp; Initiation</h3>
+        <p style="margin:0 0 14px;">Clairvoyance, clair-ressenti, télépathie, guidance, dédoublement, psychométrie, astral.</p>
+        <ul>
+          <li>33 cours de perception subtile</li>
+          <li>10 cours astraux avancés (7 j chacun)</li>
+          <li>Calendrier initiatique 12 mois</li>
+        </ul>
       </article>
     </div>
   </section>
 
+  <!-- ── COLLECTION ────────────────────────────────────────────────────────── -->
   <section class="home-section">
     <div class="home-section-head">
       <p class="home-kicker">Collection</p>
-      <h2>Quatre livres pour poser une architecture intérieure.</h2>
+      <h2>Quatre livres. Une architecture intérieure complète.</h2>
       <p>
-        La collection Axis Lumen réunit un socle initiatique, un livre de vertus,
-        un livre consacré au terrain et un livre d’exercices visuel.
+        Chaque livre est une porte. Ensemble, ils forment le socle de l’école.
       </p>
     </div>
 
@@ -448,142 +522,170 @@
       <article class="home-card">
         <span class="home-card-number">I</span>
         <h3>JE SUIS</h3>
-        <p>Rendre son temple vivant. Le livre fondateur : axe, silence, présence, lumière intérieure et transformation.</p>
+        <p>Temple vivant, axe, lumière, purification du souffle, présence et retour à l’essentiel. Le livre fondateur.</p>
+        <a class="home-btn" href="boutique.html" style="display:inline-block;margin-top:16px;font-size:.82rem;padding:8px 14px;">Voir le livre →</a>
       </article>
 
       <article class="home-card">
         <span class="home-card-number">II</span>
-        <h3>Le Livre des Vertus</h3>
-        <p>Un support de contemplation et d’orientation intérieure, pensé comme un tirage symbolique et pratique.</p>
+        <h3>Vertus</h3>
+        <p>72 vertus pour s’orienter, se centrer et agir. Tirage symbolique, contemplation et imprégnation par la rémanence.</p>
+        <a class="home-btn" href="vertus.html" style="display:inline-block;margin-top:16px;font-size:.82rem;padding:8px 14px;">Tirer une vertu →</a>
       </article>
 
       <article class="home-card">
         <span class="home-card-number">III</span>
-        <h3>Le Livre de l’Alimentation</h3>
-        <p>Terrain, équilibre, purification, eau, minéraux et alimentation consciente dans une approche structurée.</p>
+        <h3>Alimentation</h3>
+        <p>Terrain vivant, eau, pH, rH², émonctoires, sobriété. L’alimentation comme fondation de la pratique initiatique.</p>
+        <a class="home-btn" href="boutique.html" style="display:inline-block;margin-top:16px;font-size:.82rem;padding:8px 14px;">Voir le livre →</a>
       </article>
 
       <article class="home-card">
         <span class="home-card-number">IV</span>
-        <h3>Le Livre d’Exercices</h3>
-        <p>Une pédagogie visuelle : balancements, respiration, tensions statiques, observation et intégration.</p>
+        <h3>Exercices</h3>
+        <p>Balancements, respiration, tensions statiques, rotor optique, oscillation. Le livre de pratique corporelle complète.</p>
+        <a class="home-btn" href="creer-seance.html" style="display:inline-block;margin-top:16px;font-size:.82rem;padding:8px 14px;">Créer une séance →</a>
       </article>
     </div>
 
     <div class="home-band">
       <div>
         <p class="home-kicker">Pack complet</p>
-        <h2>Une porte d’entrée unique dans tout le système.</h2>
+        <h2>L’intégralité du système. Une seule porte d’entrée.</h2>
         <p>
-          Le pack complet rassemble l’enseignement, les supports symboliques,
-          la pratique corporelle et les bases de progression. Il devient la colonne
-          vertébrale éditoriale du studio.
+          Quatre livres + accès à l’école + générateur de séances + tirage de vertus.
+          Tout ce dont tu as besoin pour transformer ta vie intérieure durablement.
         </p>
       </div>
-      <a class="home-btn primary" href="boutique.html">Voir le pack</a>
+      <a class="home-btn primary" href="boutique.html">Voir le pack →</a>
     </div>
   </section>
 
+  <!-- ── PRATIQUES GUIDÉES ─────────────────────────────────────────────────── -->
   <section class="home-section">
     <div class="home-section-head">
-      <p class="home-kicker">Pratique guidée</p>
-      <h2>Créer une séance, puis la vivre.</h2>
+      <p class="home-kicker">Studio de pratique</p>
+      <h2>Tout ce qu’il faut pour pratiquer maintenant.</h2>
       <p>
-        L’utilisateur choisit une intention, un mouvement, une respiration,
-        une durée, un final et une voix. Le studio transforme ces choix en parcours praticable.
+        Sans matériel particulier. Depuis ton navigateur. Une intention suffit pour commencer.
       </p>
     </div>
 
     <div class="home-grid cols-3">
       <article class="home-card">
+        <span class="home-card-number" style="font-size:1.5rem;">⚡</span>
         <h3>Créer sa séance</h3>
+        <p>Choisis ton intention, ton mouvement (latéral, vertical, AP), ta respiration et ta durée. La séance se compose seule.</p>
         <ul>
-          <li>Choix de l’intention</li>
-          <li>Choix du balancement</li>
-          <li>Respiration carrée, triangulaire ou rectangulaire</li>
-          <li>Guidage vocal synchronisé</li>
+          <li>Voix guidée synchronisée</li>
+          <li>Cloche entre les phases</li>
+          <li>Séances pré-programmées (117 cours)</li>
+          <li>Métronomique optionnel</li>
         </ul>
+        <a class="home-btn primary" href="creer-seance.html" style="display:block;margin-top:18px;text-align:center;">Composer une séance →</a>
       </article>
 
       <article class="home-card">
-        <h3>Pratiquer</h3>
+        <span class="home-card-number" style="font-size:1.5rem;">◐</span>
+        <h3>Pratiques libres</h3>
+        <p>Balancements guidés, oscillation, rotor optique, respiration, tensions statiques — accès direct à chaque exercice.</p>
         <ul>
-          <li>Timeline vidéo</li>
-          <li>Observation lumineuse</li>
-          <li>Balancements guidés</li>
-          <li>Respiration et final</li>
+          <li>Balancement latéral · vertical · AP</li>
+          <li>Oscillation à vitesse variable</li>
+          <li>Rotor optique chromatique</li>
+          <li>Respiration carrée / triangulaire</li>
         </ul>
+        <a class="home-btn" href="pratiquer.html" style="display:block;margin-top:18px;text-align:center;">Accéder aux pratiques →</a>
       </article>
 
       <article class="home-card">
-        <h3>Apprendre</h3>
+        <span class="home-card-number" style="font-size:1.5rem;">☽</span>
+        <h3>Tirage de Vertus</h3>
+        <p>Tire une carte du Livre des Vertus. Lance la pratique guidée de 21 minutes : lecture, lumière, rémanence, carnet.</p>
         <ul>
-          <li>Fondation JE SUIS</li>
-          <li>Terrain et alimentation</li>
-          <li>Vertus et contemplation</li>
-          <li>Exercices progressifs</li>
+          <li>72 vertus disponibles</li>
+          <li>Timer avec guidage vocal</li>
+          <li>Cloche entre les phases</li>
+          <li>Carnet de vertu intégré</li>
         </ul>
+        <a class="home-btn" href="vertus.html" style="display:block;margin-top:18px;text-align:center;">Tirer une vertu →</a>
       </article>
     </div>
   </section>
 
+  <!-- ── MÉTHODE ────────────────────────────────────────────────────────────── -->
   <section class="home-section">
     <div class="home-section-head">
       <p class="home-kicker">Méthode</p>
-      <h2>Une progression simple, mais profonde.</h2>
+      <h2>Comprendre, pratiquer, observer, intégrer.</h2>
+      <p>
+        Le parcours est conçu pour transformer durablement. Chaque étape respecte un rythme naturel d’assimilation.
+      </p>
     </div>
 
     <div class="home-practice-list">
       <article class="home-practice-item">
         <span class="home-card-number">1</span>
         <div>
-          <strong>Préparer</strong>
-          <span>Se poser, choisir une intention, entrer dans un cadre sobre et clair.</span>
+          <strong>Lire et comprendre</strong>
+          <span>Chaque cours est un enseignement structuré : fondements, sections thématiques, références initiatiques.</span>
         </div>
       </article>
 
       <article class="home-practice-item">
         <span class="home-card-number">2</span>
         <div>
-          <strong>Observer</strong>
-          <span>Utiliser la lumière, la respiration ou le mouvement comme support d’attention.</span>
+          <strong>Pratiquer l’exercice</strong>
+          <span>Chaque cours propose un exercice détaillé — séance pré-configurée, balancements, respiration, contemplation.</span>
         </div>
       </article>
 
       <article class="home-practice-item">
         <span class="home-card-number">3</span>
         <div>
-          <strong>Ressentir</strong>
-          <span>Laisser apparaître les effets corporels, le rythme et l’axe.</span>
+          <strong>Observer et noter</strong>
+          <span>Des questions de carnet précises orientent l’attention. Ce qui n’est pas écrit disparaît.</span>
         </div>
       </article>
 
       <article class="home-practice-item">
         <span class="home-card-number">4</span>
         <div>
-          <strong>Intégrer</strong>
-          <span>Revenir au calme, noter l’expérience, relier la pratique au quotidien.</span>
+          <strong>Valider et progresser</strong>
+          <span>Après le temps requis de pratique, l’étudiant valide le cours. Le suivant s’ouvre automatiquement.</span>
         </div>
       </article>
     </div>
 
-    <div class="home-actions">
-      <a class="home-btn primary" href="creer-seance.html">Composer une séance</a>
-      <a class="home-btn" href="pratiquer.html">Accéder aux pratiques</a>
+    <div class="home-actions" style="margin-top:32px;">
+      <a class="home-btn primary" href="apprendre.html">Entrer dans l’école →</a>
+      <a class="home-btn" href="abonnement.html">Voir l’abonnement</a>
     </div>
   </section>
 
+  <!-- ── ABONNEMENT ────────────────────────────────────────────────────────── -->
   <section class="home-section">
-    <div class="home-band">
+    <div class="home-band" style="background:rgba(216,180,95,.06);border:1px solid rgba(216,180,95,.2);border-radius:28px;padding:clamp(28px,4vw,52px);">
       <div>
         <p class="home-kicker">Abonnement</p>
-        <h2>Un accès continu au studio.</h2>
+        <h2>Un accès complet et progressif à l’école.</h2>
         <p>
-          L’abonnement prépare l’accès aux cours, au générateur de séances,
-          aux progressions, aux tirages de vertus et aux futures extensions pédagogiques du projet.
+          L’abonnement déverrouille l’ensemble de l’école du Temple Vivant — 117 cours,
+          les pratiques guidées, le générateur de séances, les programmes pré-configurés
+          et toutes les futures extensions pédagogiques.
         </p>
+        <ul style="margin:16px 0 0;padding-left:20px;color:rgba(244,236,216,.72);line-height:1.9;">
+          <li>117 cours — enseignement, pratique, carnet, validation</li>
+          <li>Séances pré-programmées pour chaque cours</li>
+          <li>Progression séquentielle sur 19 mois</li>
+          <li>Tirage de vertus avec accompagnement guidé</li>
+          <li>Générateur de séances illimité</li>
+        </ul>
       </div>
-      <a class="home-btn primary" href="abonnement.html">Voir l’abonnement</a>
+      <div style="display:flex;flex-direction:column;gap:12px;min-width:200px;">
+        <a class="home-btn primary" href="abonnement.html">S’abonner →</a>
+        <a class="home-btn" href="login.html">Se connecter</a>
+      </div>
     </div>
   </section>
 </main>

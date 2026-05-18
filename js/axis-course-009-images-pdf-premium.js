@@ -1,24 +1,28 @@
 ﻿/* Axis Lumen Studio - Cours 009 images premium */
 (function () {
   var images = {
-    cover:         "assets/courses/course-009/cover.webp",
+    cover: "assets/courses/course-009/balancement_vertical_1.png",
     gallery: [
-      "assets/courses/course-009/cover.webp",
-      "assets/courses/course-009/course-009-image-02.webp",
-      "assets/courses/course-009/course-009-image-03.webp",
-      "assets/courses/course-009/course-009-image-04.webp",
-      "assets/courses/course-009/course-009-image-05.webp",
-      "assets/courses/course-009/course-009-image-06.webp",
-      "assets/courses/course-009/course-009-image-07.webp",
-      "assets/courses/course-009/course-009-image-08.webp"
+      "assets/courses/course-009/balancement_vertical_1.png",
+      "assets/courses/course-009/balancement_vertical_2.png",
+      "assets/courses/course-009/balancement_vertical_3.png",
+      "assets/courses/course-009/balancement_vertical_4.png",
+      "assets/courses/course-009/balancement_vertical_5.png",
+      "assets/courses/course-009/balancement_vertical_6.png",
+      "assets/courses/course-009/balancement_vertical_7.png",
+      "assets/courses/course-009/balancement_vertical_8.png",
+      "assets/courses/course-009/balancement_vertical_9.png"
     ],
     pedagogical: [
-      "assets/courses/course-009/course-009-image-02.webp",
-      "assets/courses/course-009/course-009-image-03.webp",
-      "assets/courses/course-009/course-009-image-04.webp"
-    ],
-    contemplative: "assets/courses/course-009/course-009-image-05.webp",
-    exercise:      "assets/courses/course-009/course-009-image-06.webp"
+      "assets/courses/course-009/balancement_vertical_2.png",
+      "assets/courses/course-009/balancement_vertical_3.png",
+      "assets/courses/course-009/balancement_vertical_4.png",
+      "assets/courses/course-009/balancement_vertical_5.png",
+      "assets/courses/course-009/balancement_vertical_6.png",
+      "assets/courses/course-009/balancement_vertical_7.png",
+      "assets/courses/course-009/balancement_vertical_8.png",
+      "assets/courses/course-009/balancement_vertical_9.png"
+    ]
   };
 
   /* Injection SYNCHRONE - avant que axis-apprendre-one-hour.js rende les cartes */

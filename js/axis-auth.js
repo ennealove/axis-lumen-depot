@@ -87,11 +87,32 @@
 
       setStatus("axisLoginStatus", "Connexion en cours...", true);
 
+      const email    = ($("axisLoginEmail")?.value    || "").trim();
+      const password = ($("axisLoginPassword")?.value || "").trim();
+
+      // ── Essayer d'abord le système local (axis-access-control.js) ──────────
+      // Fonctionne pour l'admin et les abonnés locaux, sans serveur backend.
+      if (window.AxisAccess && typeof window.AxisAccess.login === "function") {
+        try {
+          const localResult = await window.AxisAccess.login(email, password);
+          if (localResult && localResult.ok) {
+            setStatus("axisLoginStatus", localResult.message || "Connexion réussie. Redirection...", true);
+            setTimeout(function () {
+              // Admin → apprendre.html, abonné → parrainage.html
+              const dest = (localResult.user && localResult.user.role === "admin")
+                ? "apprendre.html"
+                : "parrainage.html";
+              window.location.href = dest;
+            }, 700);
+            return; // ne pas appeler l'API
+          }
+          // Compte non trouvé localement → tenter l'API
+        } catch (_) { /* continuer vers l'API */ }
+      }
+
+      // ── Fallback : API backend (optionnel, serveur local 8787) ───────────
       try {
-        const data = await postJson("/api/auth/login", {
-          email: $("axisLoginEmail").value,
-          password: $("axisLoginPassword").value
-        });
+        const data = await postJson("/api/auth/login", { email, password });
 
         saveSession(data);
 
